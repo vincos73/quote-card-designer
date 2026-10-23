@@ -1,0 +1,62 @@
+Composition Library:
+  Style Name: "Dirty Brutalism"
+  Selection:
+    Basis: >
+      Scegliere una relazione principale tra frase, immagine riprodotta e
+      densità d'inchiostro in base al contenuto, al formato e ai nomi presenti.
+      Trasmettere al generatore soltanto la famiglia scelta e gli adattamenti.
+    Variation: >
+      Cambiare relazione spaziale, soggetto e ritaglio nelle nuove composizioni.
+      Per una revisione mirata mantenere invece il campo già accettato.
+  Families:
+    - id: material-threshold
+      Name: "Soglia materica"
+      Use When: >
+        Una frase breve o media può prendere forza dalla vicinanza a una
+        massa fotografica tagliata che suggerisce costruzione, passaggio o scelta.
+      Structure: >
+        La citazione occupa un campo stabile lungo una soglia condivisa con
+        la fotografia. Il ritaglio entra a vivo da un margine e lascia una
+        zona di carta o nero pieno leggibile. Un accento granuloso evidenzia
+        un passaggio, senza diventare uno sfondo uniforme per il testo.
+      Text Adaptation: >
+        Definire gli a capo prima del ritaglio. Con un testo lungo allargare
+        il campo di lettura e ridurre la massa, mantenendo un solo bordo attivo.
+        Recuperare lo spazio dei nomi quando assenti.
+      Format Adaptation: >
+        Scegliere direzione e margine della soglia per il nuovo formato.
+        Mantenere un'area continua per la frase e un frammento fotografico
+        riconoscibile invece di ritagliare l'impaginato precedente.
+    - id: sliced-image
+      Name: "Immagine interrotta"
+      Use When: >
+        Una frase compatta beneficia di frattura, ripensamento o cambio di
+        prospettiva e può mantenersi leggibile su un campo continuo.
+      Structure: >
+        Tagliare una singola immagine in pochi frammenti con uno scarto
+        controllato. Il vuoto della frattura o un margine condiviso accoglie
+        il testo. La discontinuità interessa l'immagine, non spezza le parole.
+      Text Adaptation: >
+        Conservare il blocco della frase e ridurre frammenti e scarti quando
+        il testo si allunga. Nessuna parola funzionale viene isolata per
+        infilarsi tra ritagli troppo stretti.
+      Format Adaptation: >
+        Ricalibrare direzione del taglio e posizione della pausa per il
+        rapporto richiesto; non ripetere una sequenza di strisce identiche.
+    - id: ink-field
+      Name: "Campo d'inchiostro"
+      Use When: >
+        Il contenuto richiede un impatto prevalentemente tipografico oppure
+        un testo ampio beneficia di un campo stabile senza fotografia centrale.
+      Structure: >
+        La frase forma una massa dominante contro una campitura di carta
+        o nero. Una dispersione d'inchiostro o un frammento materico preme
+        da un bordo, legato a un allineamento del blocco. Pochi segni fini
+        possono rendere leggibile la tensione fra griglia e materia.
+      Text Adaptation: >
+        Ricomporre il campo in base agli a capo e all'eventuale attribuzione.
+        Ridurre la dispersione prima del corpo tipografico e mantenere interi
+        accenti, controforme e segni di punteggiatura.
+      Format Adaptation: >
+        Nel nuovo rapporto scegliere bordo attivo e direzione della densità,
+        conservando un campo di lettura continuo e uno stacco di luminanza netto.

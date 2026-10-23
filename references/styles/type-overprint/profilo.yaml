@@ -1,0 +1,149 @@
+Design Style:
+  Name: "Type Overprint"
+  Status: "Profilo sperimentale della libreria locale"
+  Concept: >
+    Lettere o cifre monumentali, ritagliate dai bordi e stampate in inchiostri
+    trasparenti, formano un paesaggio tipografico intorno alla citazione.
+    Le intersezioni producono nuove tinte e lasciano leggibili entrambi i
+    glifi. La frase completa appartiene a un registro distinto, nitido e
+    preminente nella lettura: i grandi caratteri ne arricchiscono il campo
+    visivo attraverso pieni, controforme e sovrapposizioni.
+
+  Reference Basis:
+    Transfer: >
+      Trasferire il salto di scala tra testo e glifi, il ritaglio dei
+      caratteri, la trasparenza degli inchiostri e la costruzione dello
+      spazio attraverso aste e controforme sovrapposte.
+    Reinvention: >
+      Scegliere lettere, cifre, palette e disposizione per ciascuna frase.
+      Non importare parole, titoli, date, nomi, marchi, campionari di font
+      o impaginati dei riferimenti. I loro colori non sono vincolanti.
+    Operational References: >
+      Le immagini ricevute servono al confronto iniziale. Non sono una
+      dipendenza del profilo né reference operative da allegare automaticamente.
+
+  Canvas:
+    Ratio: "4:5"
+    Output: "Una quote card editoriale piatta, verticale, a piena pagina"
+    Adaptation: "Ricomporre glifi, ritagli e area di lettura per il formato richiesto."
+
+  Mood:
+    - Tipografico
+    - Modernista
+    - Sperimentale
+    - Stratificato
+    - Luminoso
+
+  Color Palette:
+    Starting Colors:
+      Paper: "#F8F5EF"
+      Quote: "#171719"
+      Ink A: "#7151BE"
+      Ink B: "#EAA438"
+    Roles: >
+      Il fondo chiaro mantiene respiro e rende evidente la sovrastampa.
+      Scegliere pochi inchiostri cromatici trasparenti; le intersezioni
+      creano una terza tinta più densa, coerente con una mescolanza sottrattiva.
+      Il testo usa un inchiostro pieno ad alto contrasto. La palette iniziale
+      è una proposta variabile, non una firma cromatica obbligatoria.
+    Contrast: >
+      Tenere la zona più densa delle sovrapposizioni lontana dalla citazione.
+      Il testo può attraversare una campitura chiara se resta interamente
+      distinguibile; non affidare la lettura a una trasparenza insufficiente.
+
+  Typography:
+    Quote:
+      Style: "Grotesk o neo-grotesk proporzionale, nitida e aperta"
+      Weight: "Medium o semibold, coerente nell'intero blocco"
+      Treatment: >
+        Riportare la citazione completa una volta, conservando maiuscole,
+        accenti e punteggiatura. Scegliere a capo per gruppi di senso e
+        una scala leggibile da mobile. Non usare i glifi ornamentali per
+        sostituire una lettera della frase.
+    Display Glyphs:
+      Style: >
+        Caratteri pieni e riconoscibili, di preferenza grotesk bold o black
+        con aste larghe e controforme aperte. Una slab serif massiccia è
+        un'alternativa coerente quando richiesta dal contenuto o dall'utente.
+      Scale: "Molto più grandi della citazione; possono oltrepassare i bordi."
+      Treatment: >
+        Sovrapporre pochi glifi con colori trasparenti e bordi netti.
+        Conservare le proporzioni native e parti sufficienti a riconoscere
+        aste, archi e controforme. La sovrastampa deve rendere evidente
+        l'intersezione di caratteri, senza dissolverli in forme generiche.
+      Selection: >
+        Preferire iniziali o lettere della frase, scelte anche per il
+        contrasto tra aste e curve. Le cifre sono ammesse come forme grafiche;
+        usare valori significativi solo quando forniti. Non inventare
+        date, statistiche, numerazioni editoriali o parole di riempimento.
+    Attribution:
+      Style: "Stessa famiglia della citazione, più piccola e leggera"
+      Placement: >
+        Allineata a destra su un asse chiaro, in un'area dal contrasto stabile.
+        Mostrarla solo quando fornita o verificata; altrimenti recuperarne
+        lo spazio. Una firma richiesta resta distinta dall'autore.
+    Spacing: >
+      Kerning ottico e spazi tra parole naturali. Mantenere proporzioni
+      dei glifi, interlinea e peso coerenti. Risolvere le collisioni spostando
+      o ritagliando i glifi ornamentali prima di ridurre il corpo della frase.
+
+  Layout:
+    Principle: >
+      Progettare contemporaneamente citazione e caratteri monumentali.
+      Le controforme e gli intervalli fra i glifi aprono il campo di lettura;
+      un'asta, un arco o un ritaglio condivide un ancoraggio con il testo.
+    Hierarchy: >
+      Il campo tipografico dà forza al poster, ma la frase resta il primo
+      messaggio da leggere. Evitare un'immagine autonoma sopra una piccola
+      didascalia e i pannelli bianchi incollati sopra il visual.
+    Density: >
+      Lasciare carta visibile e almeno un'intersezione cromatica evidente.
+      Con frasi lunghe espandere il campo di lettura e spostare la densità
+      verso i bordi; non aggiungere glifi per riempire ogni vuoto.
+
+  Graphic Elements:
+    Core:
+      - "Aste, archi e controforme di lettere o cifre ingrandite"
+      - "Sovrapposizioni trasparenti con una tinta di intersezione riconoscibile"
+      - "Ritagli a vivo che conservano la natura tipografica dei segni"
+    Restraint: >
+      Il repertorio nasce dai caratteri. Rettangoli, cerchi, retini o altre
+      geometrie aggiuntive non devono sostituire la sovrastampa dei glifi.
+
+  Effects:
+    Overprint: "Inchiostri trasparenti piatti, con intersezioni più scure e cromaticamente credibili"
+    Surface: "Carta opaca chiara; grana finissima facoltativa"
+    Edges: "Netti, continui, senza bagliori o sfocature"
+    Depth: "Strati di stampa sullo stesso piano"
+    Exclusions: "Niente vetro, ombre portate, 3D, gradienti o effetti neon"
+
+  Content Contract:
+    quotation: "Citazione integrale e letterale, una sola volta, con ordine di lettura univoco."
+    decorative_glyphs: "Lettere o cifre isolate nel registro ornamentale, senza costruire un secondo messaggio."
+    author: "Solo attribuzione fornita o verificata; ometterla se assente."
+    other_text: "Nessun titolo, didascalia, campionario alfabetico, logo o microtesto inventato."
+
+  Rules:
+    - "I grandi segni devono essere riconoscibili come lettere o numeri sovrapposti."
+    - "Le campiture restano trasparenti e le intersezioni producono tinte diverse."
+    - "La citazione resta nitida, completa e leggibile a scala ridotta."
+    - "Conservare proporzioni e controforme dei caratteri, anche quando ritagliati."
+    - "Variare glifi, ritagli e relazione con la frase nelle nuove composizioni."
+    - "Non riprodurre parole, soggetti o disposizione dei poster di riferimento."
+
+  User Overrides:
+    Palette: "Sostituire i colori mantenendo trasparenze leggibili e contrasto del testo."
+    Format: "Ricomporre glifi e campo di lettura, senza ritagliare la card già impaginata."
+    Fonts: "Rispettare la direzione richiesta mantenendo riconoscibilità e proporzioni dei glifi."
+    Glyphs: "Usare le lettere o cifre richieste distinguendo contenuto e ornamento."
+
+  Production:
+    Preferred Mode: "Generativo con eventuale rifinitura tipografica"
+    Validation Status: >
+      YAML e libreria compositiva validati. Realizzate due prove generative
+      con la stessa frase, palette, formato richiesto e struttura: una con
+      reference e una senza. Testo e intersezioni controllati visivamente.
+      Non ancora provato su frasi diverse, cifre, altra palette o attribuzioni;
+      una coppia di esempi non dimostra la ripetibilità dello stile.
+
+Composition Library: composizioni.yaml

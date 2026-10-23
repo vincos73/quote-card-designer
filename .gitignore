@@ -1,0 +1,3 @@
+gallery/dist/
+gallery/__pycache__/
+gallery/*.pyc

@@ -1,0 +1,62 @@
+Composition Library:
+  Style Name: "Type Overprint"
+  Selection:
+    Basis: >
+      Scegliere una relazione principale tra frase, controforme e sovrastampa
+      in base all'ingombro del testo, al formato e agli eventuali nomi.
+      Portare nel prompt soltanto la struttura scelta e i suoi adattamenti.
+    Variation: >
+      Variare caratteri, ritaglio, asse e densità nelle nuove card. Per una
+      correzione mirata conservare invece la composizione già accettata.
+  Families:
+    - id: counterspace-field
+      Name: "Campo di controforme"
+      Use When: >
+        Una frase breve o media può occupare un campo continuo ricavato
+        fra aste e archi di grandi lettere sovrapposte.
+      Structure: >
+        Costruire una massa tipografica asimmetrica a vivo. La citazione
+        occupa uno spazio aperto fra i glifi e condivide un allineamento
+        con una loro asta o controforma. Una sovrapposizione più densa
+        bilancia il campo di lettura senza attraversarne i passaggi critici.
+      Text Adaptation: >
+        Definire prima gli a capo e aprire lo spazio necessario. Per testi
+        più lunghi ridurre l'invasione dei glifi; recuperare il registro
+        del nome quando attribuzione e firma sono assenti.
+      Format Adaptation: >
+        Nei formati larghi estendere il campo di lettura lateralmente;
+        nei verticali distribuire la sovrastampa lungo un asse principale.
+        Ricomporre i ritagli preservando i caratteri riconoscibili.
+    - id: crossing-glyphs
+      Name: "Incrocio di caratteri"
+      Use When: >
+        Una citazione compatta beneficia di un attraversamento o di una
+        tensione fra elementi, senza perdere la continuità della lettura.
+      Structure: >
+        Due grandi glifi attraversano il campo in direzioni diverse.
+        La frase si ancora a una loro intersezione chiara, mentre l'incrocio
+        più scuro resta fuori dal blocco. I glifi possono attraversare lo
+        sfondo del testo soltanto con contrasto sufficiente.
+      Text Adaptation: >
+        Conservare un blocco leggibile e proporzioni tipografiche costanti.
+        Con una frase lunga allontanare l'incrocio e ampliare l'intervallo;
+        non frammentare le parole per farle passare fra le aste.
+      Format Adaptation: >
+        Ricalibrare direzione, scala e ritagli per il rapporto scelto.
+        Evitare che il passaggio al quadrato elimini tutte le controforme.
+    - id: edge-overprint
+      Name: "Sovrastampa al margine"
+      Use When: >
+        Una frase lunga o accompagnata da attribuzione richiede un campo
+        ampio e stabile, mantenendo una forte presenza dei caratteri.
+      Structure: >
+        Concentrare pochi glifi sovrapposti lungo uno o due margini e far
+        affacciare aste o archi sul campo della frase. Un allineamento o
+        una controforma lega il testo alla massa, evitando una cornice uniforme.
+      Text Adaptation: >
+        Dare priorità all'intera citazione e ritagliare il visual prima di
+        ridurre la tipografia. Riservare un asse destro quieto per un nome
+        soltanto quando presente.
+      Format Adaptation: >
+        Scegliere di nuovo i margini attivi per ciascun formato, preservando
+        almeno un incrocio cromatico e una porzione riconoscibile dei glifi.

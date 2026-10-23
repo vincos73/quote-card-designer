@@ -1271,3 +1271,70 @@ styles:
   example_count: 1
   example_text: Ogni scelta dà forma al futuro.
   example_label: EC1 · approvata
+- id: type-overprint
+  release_candidate: false
+  production_mode: generative
+  family: griglia-tipografia
+  name: Type Overprint
+  aliases:
+  - type overprint
+  - sovrastampa tipografica
+  - lettere trasparenti
+  - numeri sovrapposti
+  - glifi sovrapposti
+  summary: >
+    Lettere o cifre monumentali in inchiostri trasparenti formano campiture
+    e nuovi colori nelle intersezioni; la citazione resta nitida in un
+    registro distinto, integrata fra aste e controforme.
+  tags:
+  - tipografico
+  - sovrastampa
+  - trasparenza
+  - lettere
+  - numeri
+  - palette variabile
+  profile: references/styles/type-overprint/profilo.yaml
+  example: references/styles/type-overprint/esempio.png
+  notes: references/styles/type-overprint/note.md
+  example_prompt: references/styles/type-overprint/prompt-esempio.md
+  example_count: 2
+  example_text: Ogni scelta dà forma al futuro.
+  example_label: Con reference
+  example_2: references/styles/type-overprint/esempio-2.png
+  notes_2: references/styles/type-overprint/note-2.md
+  example_prompt_2: references/styles/type-overprint/prompt-esempio-2.md
+  example_2_text: Ogni scelta dà forma al futuro.
+  example_2_label: Senza reference
+- id: dirty-brutalism
+  release_candidate: false
+  production_mode: generative
+  family: griglia-tipografia
+  name: Dirty Brutalism
+  aliases:
+  - dirty brutalism
+  - brutalismo sporco
+  - xerox brutalism
+  - brutalismo xerografico
+  summary: >
+    Tipografia condensata massiccia, fotografia xerografica e carta segnata;
+    neri profondi, tagli netti e un accento cromatico granuloso costruiscono
+    una gerarchia editoriale cruda.
+  tags:
+  - brutalismo
+  - tipografia condensata
+  - xerografia
+  - grana
+  - editoriale
+  - palette variabile
+  profile: references/styles/dirty-brutalism/profilo.yaml
+  example: references/styles/dirty-brutalism/esempio.png
+  notes: references/styles/dirty-brutalism/note.md
+  example_prompt: references/styles/dirty-brutalism/prompt-esempio.md
+  example_count: 2
+  example_text: Ogni scelta dà forma al futuro.
+  example_label: Con reference
+  example_2: references/styles/dirty-brutalism/esempio-2.png
+  notes_2: references/styles/dirty-brutalism/note-2.md
+  example_prompt_2: references/styles/dirty-brutalism/prompt-esempio-2.md
+  example_2_text: Ogni scelta dà forma al futuro.
+  example_2_label: Senza reference
