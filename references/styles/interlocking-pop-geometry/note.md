@@ -1,0 +1,14 @@
+# Prova dello stile
+
+- Frase di test: «Ogni scelta dà forma al futuro.»
+- Attribuzione: nessuna
+- Formato: 1122 × 1402 px, circa 4:5
+- Palette: colori iniziali del profilo
+- Composizione: apertura decentrata per il testo, mosaico lungo il lato sinistro e inferiore, curva gialla continua
+- Generazione: ImageGen dal profilo scritto, senza passare le immagini di riferimento come input
+- Controllo visivo: frase presente una sola volta, accento e punto corretti; testo su campo uniforme e leggibile; geometria e grana restano fuori dai glifi
+- Limite: una sola frase provata; non dimostra la varietà del profilo né la tenuta su testi lunghi
+
+## Prompt effettivo
+
+> Crea UNA quote card verticale 4:5, grafica piatta pronta per social, basata sul linguaggio 'Geometria Pop a Incastro'. Frase italiana da comporre ESATTAMENTE una volta, senza aggiunte, senza firma né autore: «Ogni scelta dà forma al futuro.» Mantieni maiuscola iniziale, accento di 'dà' e punto finale. La frase deve essere il primo elemento leggibile anche in miniatura. Componila in un blocco nitido di grande neo-grotesk geometrica nera, semibold, con tre righe per gruppi di senso: 'Ogni scelta' / 'dà forma' / 'al futuro.' Caratteri con proporzioni normali, kerning naturale, senza tracking artificiale, lettere non deformate. Progetta l'intera card in un unico passaggio con un fondo carta avorio chiaro e una griglia modulare invisibile. Scegli una composizione nuova: un grande varco quieto decentrato per il testo, scavato entro un mosaico di moduli geometrici che corre lungo il lato sinistro e intorno al bordo inferiore; una forma curva continua attraversa due moduli per suggerire il passaggio dalla scelta al futuro. Usa solo alcune tra campiture nette giallo vivo #FFD91A, arancio #F45112, blu #1265B0, menta #67C49B e rosa #EFA8C9, con nero #101010. Elementi: quarti di cerchio e dischi con raggio condiviso, triangoli diagonali, un piccolo tratto di righe diagonali nere e al massimo un sottile contorno arrotondato; NON usare tutti i simboli in modo indiscriminato. Piccola grana puntinata di sovrastampa solo ai bordi di alcune forme colorate, mai sopra il testo; uno o due brevi segni neri liberi possono aggiungere energia lontano dalle parole. Qualità di poster editoriale contemporaneo stampato su carta opaca, forme precise e composizione armonica con margini generosi. Il testo deve stare su fondo uniforme, senza geometrie che passino sotto i glifi. Nessun titolo, data, numero, URL, logo, firma, sottotitolo, altra scritta, mockup, fotografia, 3D, ombre o gradiente digitale.

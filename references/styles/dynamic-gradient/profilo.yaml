@@ -1,0 +1,173 @@
+Design Style:
+  Name: Dynamic Gradient
+  Concept: Build a continuous atmospheric field from broad chromatic concentrations whose geometry is
+    submerged by strong optical defocus. Colour masses expand, dissolve and overlap with nearly lost boundaries.
+    Dense fine grain gives the field a dry tactile surface, while large crisp typography remains the first
+    thing read. Direction and tonal pressure shape the text area without requiring a recognisable orb,
+    ribbon or object.
+  Canvas:
+    Ratio: '4:5'
+    Output: Single flat full-bleed editorial quote card
+    Adaptation: 'The ratio is the quote-card default, not a property inferred from the screenshot. The
+      four source panels are independent examples, not a four-panel composition to copy.
+
+      '
+  Mood:
+  - Chromatic and atmospheric
+  - Strong optical diffusion
+  - Tactile printed softness
+  - Contemporary editorial clarity
+  Color Palette:
+    Fixed Colors: false
+    Strategy: 'Choose colour relationships for the current quotation and user preference. The reference
+      spans red with pink, lime with teal, pink and violet with yellow, and multicolour diffusion. None
+      of those hues is mandatory.
+
+      '
+    Roles:
+      Field: A dominant continuous colour space that supports the principal bodies
+      Chromatic Body: One or a few oversized concentrations of colour with heavily diffused, nearly lost
+        edges. Geometry can guide their placement but should not read as a crisp disk, glossy sphere or
+        outlined ribbon.
+      Transition: Wide intermediate zones where colours mingle gradually. Variation comes from tonal pressure
+        and unequal mass sizes rather than narrow bright rims or arbitrary rainbow interpolation.
+      Depth: Submerged darker or lighter concentrations create atmospheric depth without legible three-dimensional
+        objects or studio lighting.
+      Type: A consistent dark or light ink with strong local contrast over its full extent
+    Selection: 'Use a controlled palette and purposeful transitions. Complementary, analogous or limited
+      multicolour schemes can all work. Adjust the underlying field where needed to preserve text contrast.
+
+      '
+  Typography:
+    Primary: 'Clear contemporary grotesque or compact sans-serif at a substantial editorial scale, acting
+      as a crisp counterpoint to soft colour. Preserve natural font metrics and optical word spacing;
+      never tighten tracking or stretch glyphs to fill a line.
+
+      '
+    Alternatives: 'A restrained serif or another explicitly requested type direction may replace the default.
+      The style remains carried by chromatic construction.
+
+      '
+    Hierarchy: 'Use deliberate line breaks, alignment and scale. Short quotations may form an offset block
+      or a rhythm of two or three blocks. Preserve a single clear reading sequence and the exact supplied
+      wording.
+
+      '
+    Scale: For a short quotation, make the text a substantial focal mass rather than a small caption in
+      a large empty interval. As a starting target, let the widest line occupy about 70–85 percent of
+      the usable width, with two to four balanced lines. Choose the font size from the actual words, quiet
+      area and margins; reflow the text or recompose the colour bodies if needed. This is a visual target,
+      not a reason to justify, stretch or alter tracking. Longer quotations require a new fit.
+    Interaction: 'Set sharp-edged text in a quiet local interval, or place it against an area of sufficiently
+      even colour. Type and soft geometry should shape each other''s space. Do not blur the text with
+      the field.
+
+      '
+    Font Certainty: No exact font family can be identified confidently from this reference.
+  Layout:
+    Structure:
+    - A continuous full-bleed field of oversized, strongly defocused colour masses
+    - A deliberate direction or unequal distribution of colour pressure
+    - Calmer tonal intervals support the full quotation while remaining part of the textured field
+    - Large crisp text shares an edge, interval or directional tension with the blurred masses
+    Variants:
+      Submerged Bloom: A large colour concentration expands beyond the crop and dissolves into its surroundings.
+        Its centre may be perceptible, but its contour is lost.
+      Atmospheric Sweep: A broad diffuse diagonal or bending concentration connects different regions.
+        Keep the sweep blurred enough to avoid a tubular or liquid-ribbon silhouette.
+      Veiled Field: Several unequal colour concentrations overlap like light seen through a heavily defocused
+        surface, with subtle changes in luminosity and no hard boundaries.
+    Selection: Choose a spatial relation for the current phrase and format. Vary mass direction, crop,
+      tonal pressure and the quote anchor. The field must remain strongly diffused and visibly grainy
+      in every default composition.
+  Imagery:
+    Style: Abstract chromatic construction; photography is not needed
+    Subjects: 'Build geometry from the quotation''s rhythm, tension or metaphor. The source''s spheres,
+      ribbon shapes and radial centres are examples, not a mandatory list of objects. Avoid unrelated
+      symbolic illustrations.
+
+      '
+    Coherence: Maintain a continuous chromatic atmosphere. Shape identity stays implied through unequal
+      concentrations and direction, without sharply bounded objects, glossy highlights or a photographed
+      surface.
+  Graphic Elements:
+    Repertoire:
+    - Large blurred colour concentrations
+    - Broad submerged sweeps
+    - Overlapping veils of light and dark colour
+    Selection: Use a small number of related masses with no added diagram lines, grids or decorative symbols.
+      The interplay of defocus, grain and sharp type carries the style.
+  Effects:
+    Diffusion: Strong, broad optical defocus across the colour field. Edges should be nearly lost, with
+      transitions extending through substantial parts of the frame. Avoid narrow sharp rims, hard gradient
+      stops and clearly bounded luminous circles.
+    Surface: Dense, fine, visibly tactile printed grain or dry dither across the full colour field, including
+      lighter and darker zones. The colour varies at a broad scale while the surface grain remains fine
+      and legible. Keep the texture integrated and uneven enough to feel material, without coarse speckle,
+      grunge stains, scratches or a rigid tiled fabric grid.
+    Scale Separation: Diffuse the broad colour masses while preserving the crisp microtexture; do not
+      blur the grain along with the field. Keep the quotation sharp and clean above that textured atmosphere.
+    Light: Subtle local luminosity and submerged dark masses; a matte atmospheric finish without glossy
+      plastic, chrome or polished three-dimensional forms.
+    Depth: Optical depth through blurred chromatic overlap and tonal pressure.
+    Restraint: Keep letters crisp; keep grain fine rather than dirty; maintain local contrast through
+      the full quotation.
+  Rules:
+  - Preserve the supplied quotation exactly and display it once unless explicitly requested otherwise.
+  - Let strongly blurred colour masses and tonal pressure shape the layout.
+  - Keep all text crisp, complete and readable against its immediate field.
+  - Give short quotations a large editorial scale; do not reduce the words to a small caption above the
+    gradient.
+  - Render only the supplied punctuation; quotation marks used to delimit a prompt are not part of the
+    card unless supplied in the text.
+  - Choose colours anew; none of the screenshot palettes is compulsory.
+  - Use only supplied supporting text and supplied or verified attribution.
+  - Do not invent dates, event details, metadata, logos or small decorative copy.
+  - Do not reproduce the screenshot title badge, four-panel grid or interface controls.
+  - Do not reduce the style to an arbitrary gradient behind a centred slogan.
+  - Do not create a poster photographed on a wall, desktop or other mockup.
+  - Make strong defocus and dense fine grain visible characteristics of the default field, not optional
+    finishing effects.
+  - Keep broad chromatic softness, fine surface grain and sharp lettering on distinct visual scales.
+  - Keep palettes variable; the new blue-green and orange-lavender references do not impose fixed colours.
+  User Overrides:
+    Format: Recompose the principal colour bodies and text relationship for the requested ratio.
+    Palette: 'Replace hues and transition colours together. Preserve field, body, depth and text roles
+      without secretly restoring the default palette.
+
+      '
+    Fonts: 'Honour requested typography while maintaining a crisp text relationship with diffuse geometry.
+      Exact font matching is not certified by appearance.
+
+      '
+    Geometry: Interpret requested forms through strong optical diffusion; their contours remain submerged
+      unless the user explicitly requests a sharper treatment.
+    Texture: The default is visibly fine-grained. Honour an explicit request for a cleaner or stronger-grained
+      surface while preserving colour diffusion and text readability.
+  Production:
+    Preferred Mode: hybrid
+    Reason: The strongly blurred grainy colour field and crisp typography are separable. Once the visual
+      composition is established, retaining a clean background asset allows real-font control of line
+      breaks, size, weight and alignment without regenerating the gradient.
+    Workflow:
+    - Use a complete generated composition as the visual reference, as in the accepted DG5 card, unless
+      the user explicitly requests a different production sequence.
+    - For an approved base, obtain a clean background with ImageGen editing and preserve it alongside
+      the original complete card. A generative reconstruction may alter grain or local colour.
+    - Compose the exact quote and any supplied attribution or signature as independent real-font text.
+      Keep the text prominent, natural glyph proportions, optical word spacing and strong local contrast.
+    - For requested typographic revisions reuse that same clean asset, adjusting text and layout deliberately.
+      Return to ImageGen when the visual field or art direction itself must change.
+    Required Resources: An available supported image editor, a real font file with licence and provenance,
+      and a text-composition tool verified in the current environment.
+    Validation Status: DG5 complete ImageGen card approved by the user. Two local hybrid typography trials
+      made with the existing renderer and Archivo on one reconstructed clean background. Visual comparison
+      pending; portable installation, general speed and aesthetic superiority not established.
+    Evaluation: Adopt further rendering-engine work only after comparing text fidelity, visual integration,
+      total production time and correction effort on representative quotations.
+  Reference Basis:
+    Material: Earlier gradient references plus two new user-supplied grainy, strongly defocused colour
+      fields.
+    Transfer: 'Infer the strong separation of scales: broad blurred colour masses underneath a fine, visibly
+      tactile surface grain, with sharp light typography. Keep palette, mass direction and layout variable.
+      Do not reproduce logos, labels, words or the exact spatial arrangement of the references.'

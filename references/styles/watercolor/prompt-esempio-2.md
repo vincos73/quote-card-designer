@@ -1,0 +1,6 @@
+Use case: stylized-concept
+Asset type: seconda quote card verticale 4:5 in stile Watercolor.
+
+Su carta acquerello chiarissima color salvia, lascia molto spazio bianco. La frase è il primo elemento di lettura, in grande serif editoriale verde bosco, allineata a sinistra nella metà superiore. Scegli un soggetto nuovo e non botanico: una porta architettonica isolata, appena socchiusa, con una traccia luminosa tenue che attraversa un ambiente silenzioso e indica una soglia lontana. Acquerello traslucido, pochi lavaggi, nessuna barca, corrente, fiume, mare o soggetto naturale. Illustrazione piccola, quieta, nella parte bassa a destra, separata dalla tipografia.
+
+Testo, verbatim, una sola volta: «Anche il silenzio può indicare una direzione.» Conserva esattamente parole, maiuscola, accento in «può» e punto finale. Vai a capo per gruppi di senso: «Anche il silenzio» / «può indicare» / «una direzione.» Mantieni kerning e spaziatura naturali; nessun tracking aggiunto, giustificazione o deformazione dei glifi. Contrasto sufficiente alla lettura su telefono. Nessuna pianta, fiore, foglia, uccello, farfalla, attribuzione, didascalia o scritta aggiunta. Nessun gradiente, ombra, contorno duro o watermark.

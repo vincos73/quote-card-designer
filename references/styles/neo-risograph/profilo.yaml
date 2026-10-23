@@ -1,0 +1,59 @@
+Design Style:
+  Name: "Neo Risograph"
+  Status: "Experimental quote-card adaptation"
+  Concept: >
+    Poster editoriale a stampa risograph contemporanea: ritaglio d'archivio,
+    retino visibile ma controllato, sovrapposizione lieve di inchiostri e
+    composizione tipografica netta su carta calda.
+Canvas:
+  Ratio: "4:5"
+Mood:
+  - Editorial
+  - Tactile
+  - Graphic
+  - Contemporary
+  - Archival
+Background:
+  Base: "#F3EFE5"
+Color Palette:
+  Paper: "#F3EFE5"
+  Text: "#171717"
+  Inks:
+    - "#E45445"
+    - "#4259A8"
+  Rule: "Massimo due inchiostri colorati oltre al nero e al fondo carta."
+Typography:
+  Quote:
+    Style: "Editorial grotesk, bold, chiara"
+    Weight: "Bold"
+    Tracking: "Spaziatura naturale, kerning ottico"
+    Case: "Sentence case, testo letterale"
+  Rule: "Nessun tracking aggiunto, glifi non deformati e niente giustificazione."
+Image:
+  Style: "Ritaglio grafico da incisione d'archivio"
+  Subjects:
+    - "Scultura classica"
+    - "Artefatto storico"
+  Treatment:
+    - "Due retini risograph sovrapposti con lieve disallineamento"
+    - "Nero lineare e campiture piatte"
+    - "Ritaglio netto integrato nella griglia"
+    - "Texture di carta e inchiostro contenuta"
+  Exclusions:
+    - "Rendering 3D"
+    - "Marmo realistico"
+    - "Effetto oro"
+Layout:
+  Style: "Poster editoriale asimmetrico su griglia"
+  Margins: "Generous"
+  Hierarchy: ["Citazione", "ritaglio d'archivio", "segno risograph"]
+  QuoteTreatment: "Citazione una sola volta, su righe per gruppi di senso"
+Effects:
+  Halftone: "Visibile nei mezzitoni, mai sopra le lettere"
+  Misregistration: "Leggera e confinata al ritaglio"
+  Gradients: "None"
+  Shadows: "None"
+Rules:
+  - "La frase resta l'elemento più leggibile e dominante."
+  - "Texture e immagine non entrano nel blocco tipografico."
+  - "Nessuna attribuzione, etichetta o testo inventato."

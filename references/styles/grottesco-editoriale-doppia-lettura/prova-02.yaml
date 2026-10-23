@@ -1,0 +1,71 @@
+test_card:
+  content_status: testo originale di prova, senza attribuzione
+  quote: Le idee crescono quando cambiano prospettiva.
+  quote_lines:
+  - Le idee crescono
+  - quando cambiano
+  - prospettiva.
+  emphasis: cambiano prospettiva.
+  emphasis_lines:
+  - cambiano
+  - prospettiva.
+  author: null
+  series_number: null
+  canvas_ratio: '4:5'
+  requested_canvas_px:
+  - 1440
+  - 1800
+  requested_dimensions_are_guaranteed: false
+  palette_description: Uniform deep navy background, muted pale blue complete quote, warm ivory giant
+    excerpt, ivory secondary text and fine rules. Both text registers are light on the dark background.
+  palette:
+    background: '#18212E'
+    quote: '#93AFC2'
+    emphasis: '#F2EBDD'
+    secondary: '#F2EBDD'
+    rules: '#F2EBDD'
+  micro_family_mode: serif_editoriale
+  main_weight_mode: bold intorno a 700, evitare black e ultra-black
+  main_tracking_em: -0.015
+  header:
+  - 'Idee e prospettive.
+
+    Appunti sul cambiamento.'
+  - 'Guardare da vicino.
+
+    Guardare da lontano.'
+  - 'Ogni punto di vista
+
+    rivela una possibilità.'
+  - 'Il pensiero si muove
+
+    quando cambia sguardo.'
+  footer:
+  - 'Testo originale.
+
+    Riflessioni sulle idee.'
+  - 'Cambiare prospettiva.
+
+    Aprire possibilità.'
+  dots:
+    enabled: false
+    counts: []
+  layout:
+    margin_x_W: 0.055
+    margin_top_H: 0.038
+    margin_bottom_H: 0.05
+    gutter_W: 0.022
+    header_y_H: 0.04
+    header_rule_y_H: 0.105
+    quote_top_H: 0.15
+    quote_font_size_W: 0.11
+    quote_line_height_em: 0.98
+    emphasis_top_H: 0.48
+    emphasis_font_size_W: 0.17
+    emphasis_line_height_em: 0.94
+    footer_rule_y_H: 0.83
+    footer_text_top_H: 0.85
+    dots_top_H: 0.93
+    rationale: Seconda verifica su una frase più breve. Tre righe per la frase completa, due per
+      l'estratto, rapporto nominale dei corpi 1.55. Palette scura, microtesti serif e assenza di
+      numero e pallini verificano tre opzioni previste dal profilo senza cambiare la grammatica principale.

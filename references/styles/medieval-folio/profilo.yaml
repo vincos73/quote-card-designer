@@ -1,0 +1,148 @@
+Design Style:
+  Name: "Medieval Folio"
+  Concept: >
+    A contemporary quote card composed as a medieval illuminated folio.
+    The quotation is the central message, large enough to read before the
+    ornament. Painted initials, scrolling plants, small narrative creatures,
+    miniature scenes and parchment form one page architecture around it.
+    Transfer the relationship among writing, image and margin, not a specific
+    manuscript page. Each quotation receives a new visual interpretation.
+
+  Reference Basis:
+    Material: "Seven images supplied by the user in this conversation"
+    Shared Language: >
+      The references show decorated or historiated initials, border foliage,
+      small figures and animals, delicate pigment, occasional flat gilding,
+      aged parchment and strong differences in density. Some are richly
+      filled; one leaves a broad empty writing field. One image is a modern
+      montage of manuscript fragments, useful for seeing possible layers but
+      not a composition to reproduce.
+    Translation Rule: >
+      Choose a new initial, border rhythm and miniature in response to the
+      supplied quotation. Do not copy source figures, heraldry, sacred scenes,
+      text fragments or page layouts.
+
+  Canvas:
+    Ratio: "4:5"
+    Output: "One finished flat quote card resembling an illuminated page"
+
+  Mood:
+    - Wonder
+    - Intimate
+    - Learned
+    - Playful in the margins
+    - Patiently crafted
+
+  Color Palette:
+    Fixed Colors: false
+    Ground:
+      WarmParchment: "#E9DDC4"
+      PaleParchment: "#F1E7D3"
+    MainInk:
+      OakBrown: "#342B24"
+      NearBlack: "#27231F"
+    Pigments:
+      LapisBlue: "#315B8F"
+      Vermilion: "#B84F38"
+      LeafGreen: "#667546"
+      DustyRose: "#B77F87"
+      OchreGold: "#BB9251"
+    Roles: >
+      Put the quote in dark ink on light parchment. Select two or three
+      pigments for initial, vine and miniatures; reserve gold or ochre for a
+      few luminous details. Muted variation and age are welcome, but colours
+      must remain distinct at card scale. User-requested colours replace
+      these starting values while retaining ink-to-ground contrast.
+
+  Typography:
+    Quote: >
+      Large, readable bookhand-inspired serif or humanist calligraphic serif
+      with coherent letterforms. A medieval flavour can come from pen rhythm,
+      moderate stroke contrast and slightly organic contours, not from dense
+      illegible blackletter. Keep one consistent type register across the
+      quote, with natural word spaces, optical kerning and clear line breaks.
+    Initial: >
+      Optionally make the first letter of the actual quote a painted or
+      historiated initial. It replaces that letter; do not repeat it in plain
+      type. If an exact first word cannot be rendered reliably, use a painted
+      non-letter vignette near the text and set the full quote normally.
+    Hierarchy: >
+      The complete quotation is the largest readable mass and first reading
+      priority, normally across two to five lines. Ornament can be vivid but
+      stays beyond the letter interiors and leaves the text's local ground
+      calm. Change line breaks, initial size or marginal density before
+      shrinking the quote into manuscript-size body copy.
+    Attribution: >
+      If a supplied or verified author exists, set the exact name in a smaller
+      subordinate register, right-aligned to the quote's right edge. If absent,
+      omit both name and reserved space.
+
+  Layout:
+    Page Architecture: >
+      Build a page, not a parchment texture behind modern text. Decide the
+      quote block first and integrate a primary illuminated intervention.
+      The separate composition library chooses its placement and relation
+      to the writing field. Secondary decoration echoes its pigments and
+      line weight; every distribution preserves a coherent painted page.
+    Relationships: >
+      Marginal tendrils, leaves or figures may point toward the quote, trace
+      its edge or grow from the initial. They must not cross actual words.
+      The text and illumination can share a baseline, frame edge or colour
+      accent so they feel composed together rather than pasted into a border.
+    Writing Field: >
+      Keep a calm local ground behind the complete quote. Marginal density,
+      initial size and the placement of a miniature adapt to its footprint.
+      An illuminated initial, when used, remains the actual first letter;
+      the full quotation is always readable in ordinary sequence.
+
+  Imagery:
+    Repertoire:
+      - "Acanthus-like leaves, slender tendrils, buds and small flowers"
+      - "Birds, rabbits, insects or fantastical marginal creatures"
+      - "Small human figures or hands when they illuminate the idea"
+      - "A single emblematic miniature contained in an initial or margin"
+    Selection: >
+      Choose subjects from the supplied quote and context. An animal or sacred
+      figure is not mandatory. Avoid suggesting a verified historical story,
+      patron, scripture or heraldic meaning unless the user supplied one.
+
+  Graphic Elements:
+    - "One decorated or historiated first initial, when text fidelity allows"
+    - "Fine painted border lines, corner filigree or climbing foliage"
+    - "Small flat-gold dots or leaf accents"
+    - "Occasional ruled guides or frame edges without invented writing"
+
+  Effects:
+    Material: >
+      Slight parchment fibre, tempera-like matte pigments, fine quill contours
+      and restrained flat gilding. Age can appear as gentle unevenness, not
+      burnt edges or theatrical dirt.
+    Depth: "Flat page with painted tonal variation, not 3D objects or a photographed book mockup"
+
+  Content Contract:
+    quote: "Show the exact supplied quotation once, preserving words, case, accents and punctuation."
+    author: "Show only a supplied or verified author, smaller and right-aligned."
+    signature: "Add a personal signature only when explicitly requested."
+
+  Rules:
+    - "Read the quote first at phone size; reduce ornament before reducing text."
+    - "Make illumination and writing share page structure, not a generic border template."
+    - "Do not add pseudo-Latin, filler handwriting, invented captions, folio numbers or seals."
+    - "Do not reproduce an exact supplied initial, figure, coat of arms or manuscript arrangement."
+    - "Keep every required glyph complete; if a decorated initial fails, set the quote normally."
+    - "Avoid fantasy-game ornament, glossy gold foil, realistic parchment rolls and book mockups."
+
+  Production:
+    Preferred Mode: "hybrid"
+    Rationale: >
+      Generate the complete card with ImageGen, including its relationship
+      between quote and illumination. Refine lettering if needed while
+      preserving the generated page architecture and painting.
+
+  User Overrides:
+    Format: "Recompose the writing field and marginalia for the requested ratio."
+    Palette: "Use the requested pigments while preserving legible dark text on a clear ground."
+    Typography: "Respect the requested type direction without losing text fidelity."
+    Subject: "Use a requested subject in the miniature or marginalia where appropriate."
+
+Composition Library: composizioni.yaml

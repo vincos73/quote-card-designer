@@ -1,0 +1,116 @@
+Design Style:
+  Name: Threshold Mosaic
+  Concept: >
+    A quote card built around transitions in a square-cell field. Sparse micro
+    modules gather into a dense gridded mesh, then cross a ragged threshold
+    into a continuous flat color plane. Large dark areas give the transitions
+    room to breathe. The quote occupies the primary reading zone and remains
+    full-sized, clear and uninterrupted. Every card invents a new threshold
+    path rather than replaying a fixed silhouette.
+
+  Reference Basis:
+    Observation: >
+      The three supplied images show one square unit at changing densities:
+      scattered cells, compact grids, almost continuous areas and solid planes.
+      The changeover has irregular, stepped boundaries, with large quiet dark
+      zones and a few isolated off-grid-looking cells that still relate to the
+      underlying module.
+    Transfer: >
+      Transfer the density gradient and the visual moment when separate square
+      cells become one color mass. Retain discontinuous, stepped borders and
+      meaningful dark space. Treat the images as studies of behavior, not as
+      source artwork to paste or trace.
+    Exclude: >
+      Do not reproduce reference colors, the exact silhouettes, their horizontal
+      aspect ratio, or their bright color placement. Do not turn the square cells
+      into letters, generic digital glitches or interface icons.
+
+  Canvas:
+    Ratio: '4:5'
+    Output: One finished flat editorial quote card
+
+  Mood: [Experimental, Precise, Energetic, Architectural]
+
+  Color Palette:
+    Fixed Colors: false
+    Roles: >
+      Choose one principal ground, one very dark structural tone for substantial
+      quiet areas, one dominant plane color, and one or two small accents for
+      dispersed cells. The quotation uses a single high-contrast ink. Select
+      colors for the content and request; do not inherit hues from references.
+
+  Typography:
+    Primary: >
+      Set the complete quotation once in a large geometric sans serif, regular
+      or medium weight, with natural letterforms and confident line spacing.
+      It must remain the first thing read at thumbnail scale. Use horizontal
+      baselines and preserve all accents and punctuation exactly.
+    Boundary: >
+      Reserve a calm local field behind every glyph. Grid cells may approach
+      the text block and define its outer shape, but never substitute for letters,
+      overlap strokes, or create noisy texture behind the words.
+    Attribution: >
+      If an author is supplied or verified, set the exact name smaller and
+      subordinate. If no author is available, omit the attribution entirely.
+
+  Layout:
+    Invariant: >
+      Show at least three density states in one connected composition: sparse
+      individual cells, a legible gridded transition, and a substantial unbroken
+      color plane. Their edges meet through irregular steps rather than a smooth
+      gradient. Give a large dark or quiet area a compositional role. The quote
+      occupies a generous integrated opening, not a footer or caption detached
+      from the image system.
+    Scale: >
+      Use microcells, each no more than about one fifteenth of the quotation's
+      capital height. Many hundreds of cells should form a fine mesh across the
+      active field. Keep their size nearly constant within a card: change
+      occupancy and grouping to create density, not the size of individual
+      squares. A plane can be large; a single square must never read as an icon.
+    Variation: >
+      Vary the threshold's orientation, pace, number of plane masses, active
+      edges, dark-area shape and quote placement for each new composition.
+      Preserve the cell-to-plane transition as the recognizable language.
+
+  Graphic Elements:
+    Core: [Small square cell, Dense square mesh, Stepped edge, Solid plane]
+    Occasional: [Isolated accent cell, Empty cell, Broken row]
+    Construction: >
+      Use a perceptible square module. Change occupied-cell frequency to make
+      density, not opacity or blur. At the densest point, cells fuse into a
+      continuous flat shape; at the lightest, only a few cells remain. Keep
+      crisp geometry and purposeful spacing. The granular transition should
+      look fine at normal viewing size, with many small cells at every threshold.
+
+  Effects:
+    Surface: Flat matte print with restrained paper grain if appropriate
+    Depth: Two-dimensional color fields only
+
+  Content Contract:
+    quote: Preserve the supplied quotation verbatim once.
+    author: Use only a supplied or verified author.
+    signature: Add only if explicitly requested.
+
+  Rules:
+    - The quotation is dominant, large and instantly readable.
+    - All three density states must be visible in a connected composition.
+    - The mesh becomes a solid plane through a ragged stepped boundary.
+    - Preserve meaningful large dark or quiet space.
+    - Keep square modules minute relative to type, broadly consistent in size, and numerous enough to form a fine-grained field.
+    - Choose colors independently from image references.
+    - Do not copy reference silhouettes or rely on an identical image crop.
+    - No pixelated quote, generic glitch noise, UI chrome, gradients or 3D.
+    - No invented attribution, labels, logo or extra text.
+
+  Production:
+    Preferred Mode: hybrid
+    Rationale: >
+      Generate the full graphic and type composition with ImageGen, then correct
+      lettering only when needed while retaining the generated threshold field.
+
+  User Overrides:
+    Palette: Change all inks freely while maintaining tonal hierarchy.
+    Format: Recompose the threshold paths and reading zone for the ratio.
+    Typography: Follow requested type direction while retaining dominance.
+
+Composition Library: composizioni.yaml

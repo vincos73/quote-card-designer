@@ -1,0 +1,3 @@
+Esempio 2: «LE IDEE CRESCONO QUANDO CAMBIANO PROSPETTIVA.» rappresentata da una persona su un set tra pannelli inclinati che rivelano lo stesso soggetto da angolazioni diverse. La scena rende visiva la variazione di prospettiva e resta distinta dalla scena alla soglia dell'esempio 1.
+
+Trasferire il bianco e nero neutro, la fotografia cinematografica con grana analogica grossa e visibile e il lettering sans-serif condensato, uniforme per tutte le righe. La descrizione del lettering è stilistica: la famiglia font non è verificata. Impaginazione e pannelli riflettenti appartengono a questa prova. Non compaiono altri testi, crediti, date, etichette o segni editoriali.

@@ -1,0 +1,9 @@
+Use case: quote-card
+Asset type: vertical 4:5 Italian quote card
+Primary request: Create an elegant, highly readable editorial watercolor quote card. Preserve the exact Italian wording below, including the accent and final period. Do not add any other words, letters, labels, or signatures.
+Scene/backdrop: very light muted sage-gray paper background, near #E9EEEA, with abundant clean whitespace and only a faint watercolor-paper tooth.
+Subject: a small folded paper boat at a quiet fork where two pale watercolor currents meet and become one forward stream, a visual metaphor for choices shaping the future. No plants, leaves, flowers, birds, butterflies, garden, or botanical references.
+Style/medium: restrained hand-painted watercolor illustration, translucent washes, soft edges, refined editorial print design, calm and contemporary, no cute children's-book treatment.
+Composition/framing: 4:5 portrait poster. Quote is the clear dominant element, set in a large elegant editorial serif, dark deep muted green #355C55, with natural letter spacing and proper kerning. Set the quote in three balanced left-aligned lines in the upper area: “Ogni scelta / dà forma / al futuro.” Keep all letters complete, unwarped, uncondensed, unexpanded, never justified. Keep a small watercolor paper boat and subtle converging current in the lower portion, well clear of the text. Maintain wide print-like margins. Use muted sage, pale blue, lavender, and a very restrained warm coral reflection.
+Lighting/mood: soft daylight, calm, thoughtful, optimistic, premium magazine editorial.
+Constraints: typography must be highly legible and spelled exactly: “Ogni scelta dà forma al futuro.” The phrase must remain the main focal point. Use natural font spacing only, no arbitrary tracking changes. Keep the watercolor image secondary to the quote. No botanical subjects or motifs. No extra copy, no frame, no gradients, no hard geometric graphics, no drop shadows, no watermark.

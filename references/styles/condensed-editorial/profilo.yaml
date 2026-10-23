@@ -1,0 +1,103 @@
+Design Style:
+  Canvas:
+    Ratio: '4:5'
+    Output: Single full-bleed quote card
+    Adaptation: Recompose for the requested ratio; do not stretch or crop the source poster.
+  Color Palette:
+    Fixed Colors: false
+    Roles:
+      Background: Dominant field, freely chosen; light, dark or saturated.
+      Type: High-contrast ink against the local field over every letter.
+      Geometry: Line and circle ink, freely chosen in relation to field and type.
+      Diffuse Marks: One or two coherent hues for amorphous soft marks; can differ from type and geometry.
+      Inverse: Optional inverse lettering only where contrast is preserved.
+    Selection: Choose a coherent palette per quotation or user instruction. No mandatory cream, black, monochrome
+      or accent hue; change background, type, geometry and diffuse marks together. Keep background geometry
+      subordinate to text.
+  Content Contract:
+    quote: Preserve supplied words, case, accents and punctuation; show once.
+    author: Optional supplied or source-verified name, exact and smaller/lighter than quote; omit without placeholder.
+    supporting_text: Only supplied or explicitly requested content; never invent labels, microcopy, numbers,
+      dates, UI menus, barcodes or authors from the references.
+  User Overrides:
+    Format: Recompose rather than scale the whole poster.
+    Palette: Freely variable by compositional roles.
+    Font: Use requested actual font when available; natural metrics and word spacing. Exact font identification
+      from references is unverified.
+  Validation:
+    Status: CT1, CT2 and CT3 full-imagegen appearances approved. CT2 and CT3 explicitly usable; tentative slight
+      preference for CT3. Light and dark palettes and two short quotes explored. CT4 long quotation generated
+      but no user acceptance supplied. Font metrics, renderer and attribution remain unverified.
+    Required Followup:
+    - short and long quotation
+    - a different palette
+    - optional attribution
+    - native text and glyph spacing review
+  Name: Condensed Editorial
+  Status: Catalog style; first visual example approved by user. Production capabilities remain separately unverified.
+  Concept: A monumental wall of naturally condensed grotesque type contrasts with a quiet peripheral field
+    of sparse editorial construction. Dense letter mass, thin open geometry and optional local ink diffusion
+    make the hierarchy.
+  Mood:
+  - monumental
+  - compressed in rhythm, not distorted glyphs
+  - tactile
+  - editorial
+  Typography:
+    Primary: A real very condensed heavy grotesque, with natural narrow proportions, not a horizontally compressed
+      regular font. Preserve supplied case.
+    Hierarchy: Few oversized lines or clauses form the main mass; optional supplied secondary copy remains
+      small but readable.
+    Spacing: Natural kerning and tracking; explicitly visible normal spaces between words. Short words must
+      not fuse with the next word, especially pairs such as al futuro. If fit fails, reflow by meaning or reduce
+      the whole block uniformly; never squeeze a word, justify a line or expand spacing to fill.
+    Attribution: Separate smaller and lighter register, only if supplied.
+  Layout:
+    Structure:
+    - Large type close to selected margins with safe complete glyphs
+    - One dominant mass plus an open side or lower interval
+    - Thin circles or rules may intersect the structure while leaving every word readable
+    Adaptation: Reflow by semantic clauses. A short quote does not need invented editorial copy to imitate
+      a long poster.
+  Graphic Elements:
+    Repertoire:
+      Lines: Sparse thin rules or open line fragments tied to the text axes; optional.
+      Circles: A few open circles, partial circles or arcs, optionally cropped by the canvas; optional.
+      Diffuse Marks: Amorphous, asymmetric, soft-edged concentrations of colour or ink, with uneven density
+        and indeterminate contours. They need not depict anything or form a recognisable object. Optional.
+    Selection: Use one or two related supporting families; do not add all elements by default. Let text rhythm
+      and open space determine their scale and location. Never turn them into an inventory of symbols.
+    Relationships: Hairlines and diffuse marks act as counterweights to the dense type. They may pass behind
+      or near the letters only when complete glyphs and strong local contrast remain clear.
+  Effects:
+    Surface: Optional fine paper/ink grain
+    Local Diffusion: Soft irregular blot or cloud with variable blur and density, optionally cropped. No prescribed
+      circle silhouette, fixed position or literal pictorial metaphor. Do not obscure letters.
+    Depth: Flat editorial layering; no photographed mockup
+  Rules:
+  - Quote remains the reading subject despite the dense typography.
+  - Use authentic condensed letterforms without artificial scaling.
+  - Do not copy reference numbers, barcode, year, captions or symbols as filler.
+  - No requirement for two repeated readings or a fixed second excerpt.
+  - Colours of background, letters, lines, circles and diffuse marks are variable roles, not fixed style colours.
+  - Diffuse marks can remain visually indeterminate; no obligatory object or semantic illustration.
+  - Check every word boundary at final size; do not approve fused words just because condensed letterforms
+    are intended.
+  Production:
+    Preferred Mode: hybrid
+    Reason: Real measured condensed lettering provides reliable words and spaces; subordinate grain, geometry
+      and diffuse marks can be generated or produced procedurally.
+    Content Adaptation: Choose a real condensed font if available; do not simulate narrow lettering by horizontally
+      scaling a regular font. Until real font and layout capabilities are verified, full imagegen is a declared
+      fallback.
+    Required Capabilities:
+    - real condensed font and measured word spaces
+    - relative grid and uniform block fit
+    - circles and hairlines
+    - separate blur/grain/alpha layers
+    - local contrast and complete glyph bounds
+    Current Prototype: The existing prototype is not a compiler for this profile and has no validated condensed
+      font or diffuse-mark pipeline.
+    Validation Status: CT1 full-imagegen appearance approved. Additional colour/length trials are separate;
+      deterministic font fidelity is unverified.
+  Version: 0.1.0

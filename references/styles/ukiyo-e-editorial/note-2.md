@@ -1,0 +1,3 @@
+Esempio 2: «Le idee crescono quando cambiano prospettiva.» usa un ramo di pino e fiori di pruno come composizione botanica, distinta dal paesaggio marino dell'esempio 1. Trasferire la carta washi, i contorni e le campiture da stampa, la palette limitata e il lettering latino a pennello. Ramo, fiori, crop diagonale e ritorni a capo appartengono a questa card e non sono obbligatori in altre generazioni.
+
+Il lettering è una resa visiva ispirata alla calligrafia giapponese, non una famiglia font verificata. La frase completa mantiene una voce, scala e peso coerenti, senza compressioni locali. Nessun ideogramma, timbro, etichetta o autore inventato.

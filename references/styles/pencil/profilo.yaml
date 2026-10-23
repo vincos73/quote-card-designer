@@ -1,0 +1,141 @@
+Design Style:
+  Name: "Pencil"
+  Status: "Experimental style for the local gallery"
+  Concept: >
+    A quiet editorial quote card built from pencil marks on tactile paper.
+    The complete quotation and one small recognisable drawing always share
+    the page, with one restrained italic inflection in the text. Graphite
+    changes pressure and density from pale construction
+    lines to dark, confident strokes. Hatching, rubbed graphite and small
+    erased highlights give the image depth without overwhelming the words.
+    The material identity comes from dry graphite and paper tooth, not wet
+    ink bleeding.
+
+  Canvas:
+    Ratio: "4:5"
+    Output: "One finished flat editorial quote card, full bleed"
+
+  Mood:
+    - Reflective
+    - Human
+    - Tactile
+    - Quiet
+    - Exploratory
+
+  Color Palette:
+    Paper: "#F2F0E9"
+    Light Graphite: "#B5B4AE"
+    Mid Graphite: "#777772"
+    Dark Graphite: "#292A29"
+    Roles: >
+      Keep the default card monochrome. Paper remains the open field; dark
+      graphite carries the full quotation and the drawing's focal strokes.
+      Light and mid tones belong mainly to construction lines, shading and
+      depth. User-requested colours may replace these starting values while
+      retaining a readable dark text role and a clear tonal hierarchy.
+
+  Typography:
+    Quote:
+      Style: "Readable literary serif with a subtle dry-pencil edge"
+      Weight: "Regular to semibold in dark graphite"
+      Hierarchy: >
+        Render the supplied quotation once, verbatim. Use meaningful line
+        breaks and selected changes in size or weight; keep a coherent type
+        family and an unbroken reading order. The quote must remain readable
+        at phone size, even where the pencil texture is visible.
+      Spacing: >
+        Preserve natural glyph widths, word spacing and optical kerning.
+        Resolve fit with line breaks, font size and placement, never arbitrary
+        tracking or stretched letters.
+    Italic Accent:
+      Requirement: >
+        Every card uses one semantically chosen word or one short contiguous
+        phrase in a matching literary serif italic. One word is the normal
+        choice; do not italicise multiple unrelated fragments or whole lines.
+      Treatment: >
+        Use a designed italic letterform with natural kerning and word spacing,
+        not a mechanically slanted upright font. Keep the italic in the same
+        reading sequence and at a compatible size and baseline. A slightly
+        denser graphite pressure may reinforce it without turning it into an
+        oversized bold headline. Preserve the exact supplied words.
+    Attribution:
+      Style: "Same family, smaller and quieter, in medium or dark graphite"
+      Placement: >
+        If supplied or verified, align the exact name to a clear right-hand
+        axis. If absent, omit the register and reclaim its space.
+
+  Layout:
+    Structure: >
+      Give the quotation a substantial quiet reading field and balance it
+      with one small pencil drawing. The drawing may sit beside, above or
+      below the words, or lightly touch their compositional axis. It is
+      always visibly smaller than the typographic field and never hides text.
+    Relationships: >
+      Let the current quotation suggest a relation such as growth, distance,
+      change of view, weight or possibility. Express it through the position
+      and tonal development of the drawing, rather than a fixed border or
+      recurring object. Preserve broad clean intervals of paper.
+    Variation: >
+      Change the drawing subject, position, scale, density and balance of
+      pale versus dark marks for each card. Do not repeat one sketchbook
+      template or turn the illustration into a large poster image.
+
+  Elements:
+    Background:
+      Style: "Warm matte paper with a fine, visible tooth"
+    Illustration:
+      Requirement: >
+        Always include one small, recognisable image drawn in pencil. A
+        smudge, hatch field, margin line or erased patch alone is not an image.
+      Style: >
+        Authored graphite drawing with light planning marks, medium contours,
+        a few dark pressure accents and selective shading. Use a range of
+        apparent pencil hardness, from 2H or HB to soft 4B or 6B marks.
+      Repertoire:
+        - "Small objects or still lifes relevant to the quotation"
+        - "Natural forms, simple figures or spatial relationships"
+        - "Contours, hatching, crosshatching and partial erasure"
+      Selection: >
+        Choose a subject for the current text. A single object can be enough;
+        do not force symbols, landscapes, hands or plants into every card.
+        The image must be legible as a drawing even when the card is reduced.
+
+  Effects:
+    Graphite: >
+      Show varied pressure and dry grain on the paper tooth: faint exploratory
+      lines, dense dark strokes, directional hatching, local rubbed graphite
+      and a few lifted highlights. Concentrate the strongest shading within
+      the small image, not across the quote.
+    Erasure: "Subtle and local, revealing paper rather than creating a white digital glow"
+    Paper: "Quiet natural texture, without a uniform distressed overlay"
+    Depth: "Flat drawing on paper; no photographed desk, notebook or pencil mockup"
+    Legibility: >
+      Keep solid dark letter cores, open counters, clear accents and punctuation.
+      Pencil grain may soften edges but must not make words pale or ambiguous.
+
+  Content Contract:
+    quotation: "Use the exact supplied text once, with no invented words."
+    author: "Include only a supplied or verified attribution; otherwise omit it."
+    other_text: "No invented handwriting, labels, page numbers, dates or signatures."
+
+  Rules:
+    - "Every card contains both the complete readable quotation and one small pencil-drawn image."
+    - "Always give one word or one short contiguous phrase a restrained true italic treatment."
+    - "Make light, medium and heavy graphite marks visibly distinct."
+    - "Keep the drawing smaller than the reading field and relevant to the current text."
+    - "Use graphite grain, hatching and erasure rather than liquid ink blooms."
+    - "Preserve generous paper space and clear text at phone size."
+    - "Avoid charcoal blocks, watercolor, ink splatters, generic blur, collage and 3D mockups."
+
+  User Overrides:
+    Format: "Recompose text and image for the requested ratio."
+    Palette: "Apply supplied colours while preserving the light-to-dark hierarchy."
+    Fonts: "Respect the requested type direction and keep the quotation readable."
+    Graphite Intensity: "Vary the pressure range without sacrificing the legibility of words or image."
+
+  Production:
+    Preferred Mode: "generative"
+    Validation Status: >
+      Visual trials completed with two quotations and different compositions.
+      The latest trial uses one italic word. Exact font identity and
+      repeatability across longer texts have not been established.

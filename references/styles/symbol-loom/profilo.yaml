@@ -1,0 +1,128 @@
+Design Style:
+  Name: Symbol Loom
+  Concept: >
+    A small alphabet of geometric marks becomes an editorial fabric. Crosses,
+    ring-in-square targets, filled cells, diamonds and occasional bars repeat
+    on a perceptible base grid, then change density, sequence and grouping.
+    The pattern reads first as an organized field and only second as individual
+    symbols. A large plain-language quotation interrupts or redirects the
+    field; it is never encoded into unreadable marks. Each new card invents a
+    different relationship between the readable phrase and this modular fabric.
+
+  Reference Basis:
+    Observation: >
+      The two supplied images use a limited symbol alphabet, equal cell units,
+      repeated vertical families, small irregular substitutions and deliberate
+      gaps. Local order produces a larger rhythm without a pictorial subject.
+    Transfer: >
+      Reuse the principle of a repeatable symbol grammar and its shifts in
+      density, cadence and grouping. Treat each image as a study of behavior,
+      not as a template or an asset to paste into the card.
+    Approved Image Inputs:
+      - reference-1.png
+      - reference-2.png
+    Image Use: >
+      Pass both approved images to ImageGen for this style when available.
+      Transfer the behavior of many small repeating marks, not the example
+      palette, exact arrangement or silhouette. Keep palette selection
+      independent. If the images are unavailable, use the written grammar.
+    Exclude: >
+      Do not reproduce exact columns, symbol sequences, silhouette, spacing,
+      composition or palette from either reference. The reference colors are
+      not defaults; choose the palette independently for each request.
+
+  Canvas:
+    Ratio: '4:5'
+    Output: One finished flat editorial quote card
+
+  Mood: [Experimental, Systematic, Playful, Precise, Tactile]
+
+  Color Palette:
+    Fixed Colors: false
+    Roles: >
+      Choose a quiet ground, one dark high-contrast quotation ink, and two or
+      three distinct accent inks for symbol families. Colors help the reader
+      detect groups and changes in the code; they must not be inherited
+      automatically from reference images. The quote remains one readable
+      color. Ensure the system also works with a limited palette.
+  Typography:
+    Primary: >
+      Set the complete quotation once in a large geometric sans serif,
+      regular to semibold, with natural glyph widths, optical spacing and
+      meaningful line breaks. It must be the first thing read at thumbnail
+      size. Keep every word in one coherent register and one ink color.
+    Symbol Boundary: >
+      Symbols may frame, point toward, accumulate beside or break around the
+      complete text block. They must not replace letters, invade the glyphs,
+      mimic punctuation or make the quotation look like a decoded fragment.
+    Attribution: >
+      If an author is supplied or verified, use an exact smaller name on a
+      clear right-aligned axis. Otherwise omit that register completely.
+
+  Layout:
+    Invariant: >
+      Establish a visible cell module before arranging symbols. Use repeated
+      sign families and at least one meaningful interruption: a missing row,
+      changed cadence, substituted sign, shifted register or expanded gap.
+      The quote claims a substantial internal area of the same grid, and the
+      surrounding signs react to its footprint. Avoid an independent pattern
+      panel followed by a caption. A grid register must travel beside some
+      portion of the quote, so the pattern never collapses into separate
+      header and footer bands.
+    Density: >
+      Build fields from many small repeated signs: typically 30 to 45 cell
+      modules across the active card width. Vary density by grouping or omitting
+      these units, not by enlarging a few signs. Preserve calm space immediately
+      around the text. A pattern may crop at the card edge, but should not
+      become uniform wallpaper or random confetti.
+    Variation: >
+      Change the dominant symbol family, rhythm, density path, opening shape
+      and direction for different quotations. Do not merely recolor one fixed
+      arrangement.
+
+  Graphic Elements:
+    Core: [Cross, Ring inside square, Filled square, Diamond]
+    Occasional: [Short bar, Empty cell, Offset row]
+    Construction: >
+      Keep primitives geometrically consistent and tied to a common unit.
+      Vary their frequency and grouping, not their drawing quality. Slight
+      print imperfections may add tactility without blurring the system.
+    Scale: >
+      Each sign is a small unit in a visible pattern, about one quarter to one
+      third of the quotation's capital height or smaller. No single cross,
+      target, square or diamond becomes an illustration or rivals a word.
+
+  Effects:
+    Surface: Matte print on lightly textured paper
+    Depth: Flat graphic planes only
+
+  Content Contract:
+    quote: Preserve the exact supplied quotation once, including accents and punctuation.
+    author: Use only a supplied or verified author, right-aligned and subordinate.
+    signature: Add a personal signature only when explicitly requested.
+
+  Rules:
+    - The quotation is larger and more important than the symbol field.
+    - The symbol grammar is coherent, with a visible base cell and deliberate variations.
+    - Symbols stay small and numerous enough to read collectively as a pattern.
+    - At least one rhythm change must affect the composition, not only decorate it.
+    - Keep words intact and readable; do not turn them into bitmap glyphs.
+    - Preserve a clear local ground behind all letter strokes.
+    - Keep part of the pattern adjacent to the quote; no detached top and bottom strips.
+    - Choose palette independently from the reference images.
+    - Do not copy the reference pattern or place it as a rectangular background.
+    - No invented words, keys, legends, labels, attribution or logos.
+    - Avoid generic glitch effects, UI chrome, gradients and 3D mockups.
+
+  Production:
+    Preferred Mode: hybrid
+    Rationale: >
+      Generate the complete card composition with ImageGen. Refine exact
+      lettering only if needed, preserving the generated symbol field.
+
+  User Overrides:
+    Palette: Change inks while preserving contrast and code-like grouping.
+    Format: Recompose the field and quote zone for the requested ratio.
+    Typography: Respect the requested type direction while retaining text dominance.
+
+Composition Library: composizioni.yaml

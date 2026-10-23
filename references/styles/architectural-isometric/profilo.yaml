@@ -1,0 +1,96 @@
+Design Style:
+  Name: Architectural Isometric
+  Status: Experimental quote-card adaptation
+  Concept: 'Architettura isometrica editoriale con piattaforme modulari, profondità geometrica pulita,
+    luce essenziale e ampio spazio negativo.
+
+    '
+  Production:
+    Preferred Mode: typeset
+    Reason: Piattaforme, gradini, assi e piani isometrici flat hanno coordinate progettabili e sono adatti
+      a una costruzione vettoriale deterministica. È ideale fissare prima geometria e palette semantica
+      e poi impaginare la citazione, anziché delegare la prospettiva al generatore.
+    Content Adaptation: L'attuale prototipo non supporta poligoni pieni o trasformazioni isometriche.
+      Finché non si aggiunge un renderer vettoriale, usare un asset architettonico generato e testo composto
+      separatamente, marcando il flusso come ibrido. Se il tema non giustifica una palette semantica,
+      scegliere una palette neutra ad alto contrasto.
+    Required Capabilities: Poligoni vettoriali con vertici, trasformazioni isometriche, ordine di sovrapposizione,
+      palette a ruoli, antialiasing e testo reale misurato.
+    Current Prototype: 'Rettangoli, linee e testo non bastano per piattaforme isometriche solide: mancano
+      poligoni, gruppi trasformabili e primitive riusabili. Il metodo typeset è ideale, ma non implementato
+      dal prototipo attuale.'
+    Validation Status: Profilo e adattamento marcati sperimentali; nessun render incluso nelle tre prove
+      odierne. Né la costruzione vettoriale né il fallback ibrido sono stati verificati per questo candidato.
+    Selected Font:
+      Family: Space Grotesk
+      Provider: Google Fonts
+      Weight: 500
+      Metadata URL: https://raw.githubusercontent.com/google/fonts/main/ofl/spacegrotesk/METADATA.pb
+      Source File URL: https://raw.githubusercontent.com/google/fonts/main/ofl/spacegrotesk/SpaceGrotesk%5Bwght%5D.ttf
+      License: OFL
+      Verified Metadata Date: '2026-10-22'
+      Local File Included: false
+      Status: Famiglia scelta per il prossimo test; file non ancora scaricato né verificato nel rendering
+Canvas:
+  Ratio: '4:5'
+Mood:
+- Architectural
+- Optimistic
+- Structured
+- Modern
+- Calm
+Background:
+  Base: Chiaro e neutro, scelto per mantenere il massimo contrasto
+ColorSystem:
+  Strategy: Palette adattiva, selezionata dal significato del testo
+  SemanticRules:
+    GrowthOrFuture:
+      Primary: Teal o blu profondo
+      Accent: Arancio caldo
+      Support: Carta chiara o grigio freddo
+    Trust:
+      Primary: Blu profondo
+      Accent: Azzurro tenue o bianco
+    Wellbeing:
+      Primary: Verde salvia o verde calmo
+      Accent: Sabbia o crema
+    UrgencyOrChange:
+      Primary: Corallo o arancio
+      Accent: Carbone o bianco caldo
+    NeutralOrAnalytical:
+      Primary: Grafite o blu inchiostro
+      Accent: Un solo tono freddo
+  Rules:
+  - Non fissare una palette universale per tutti i temi.
+  - Usare un colore principale e al massimo due accenti.
+  - Mantenere contrasto elevato tra testo e fondo.
+  - Limitare il colore saturo alle piattaforme o a piccoli dettagli.
+Typography:
+  Quote:
+    Style: Sans-serif lineare o geometrica, con carattere architettonico pulito
+    Candidate: Space Grotesk is a suggestion; generative rendering does not guarantee the exact font file
+    Weight: Medium, around 500
+    Case: Sentence case, testo letterale
+    Spacing: Kerning naturale e spaziatura regolare; nessun tracking arbitrario
+    Hierarchy: La citazione guida la lettura; scale, peso e posizione distinguono i blocchi senza competere
+      con l'illustrazione
+    Restrictions:
+    - Nessun tracking arbitrario
+    - Nessun glifo stirato o compresso
+    - Niente testo giustificato
+Layout:
+  Grid: Griglia editoriale semplice, allineamenti geometrici
+  Composition: Citazione dominante in alto; illustrazione isometrica sotto
+  Illustration: Gradini e piattaforme che salgono in progressione
+  NegativeSpace: Ampio, soprattutto intorno alla citazione
+Graphics:
+  Style: Flat vector, forme architettoniche nitide, ombre minime
+  Rule: Le forme non devono invadere o competere con il lettering
+Effects:
+  Gradients: None
+  Texture: None
+  Shadows: Molto leggere o assenti
+Rules:
+- La palette si adatta al significato di ogni nuova citazione.
+- La frase resta leggibile e dominante anche in miniatura.
+- Non aggiungere dati, attribuzioni o etichette inventate.

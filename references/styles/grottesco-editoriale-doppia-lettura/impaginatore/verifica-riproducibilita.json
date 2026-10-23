@@ -1,0 +1,10 @@
+{
+  "same_environment_repeat_render_identical": true,
+  "checked_outputs": {
+    "card-archivo-700.png": "b98b51c284f951aa0fa844cc26ea8c7659573351e930e8a6afb59fb21f34110d",
+    "card-archivo-700.svg": "fc77309739723abd97e91299a8ed4f75b438ee7137d6ca606e2cb93981db62dc",
+    "confronto-generatore-impaginatore.png": "9d7b3e77dfe1e371538b5798e8f170716451bb6e6e47aa76218716dc078a2dc1"
+  },
+  "pdf_visual_only_no_byte_identity_claim": true,
+  "note": "Identità verificata per due esecuzioni sul medesimo sistema, con identici file font e configurazione."
+}

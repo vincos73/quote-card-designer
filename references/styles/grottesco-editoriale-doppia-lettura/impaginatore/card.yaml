@@ -1,0 +1,86 @@
+schema_version: '1.0'
+extends: ../prova-02.yaml
+renderer:
+  name: Apple CoreText e CoreGraphics
+  coordinate_system: pixel logici, origine in alto a sinistra
+  text_shaping: CoreText con font caricati direttamente dai file locali
+  output_size_px:
+  - 1440
+  - 1800
+  flat_srgb_colors: true
+  optical_left_alignment: true
+  fit:
+    mode: riduzione uniforme del corpo di tutto il blocco, solo se necessario
+    preserve_line_breaks: true
+    preserve_glyph_proportions: true
+    horizontal_safety_px: 2
+fonts:
+  primary:
+    family: Archivo
+    provider: Google Fonts
+    source_url: https://raw.githubusercontent.com/google/fonts/main/ofl/archivo/Archivo%5Bwdth%2Cwght%5D.ttf
+    specimen_url: https://fonts.google.com/specimen/Archivo
+    local_file: fonts/Archivo-VF.ttf
+    sha256: 0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053
+    version: '2.001'
+    axes:
+      wght: 700
+      wdth: 100
+    license_file: fonts/Archivo-OFL.txt
+    rationale: Grottesco da titoli con minuscole ampie, terminali sobri e peso bold controllato.
+      Larghezza nativa al 100 per cento, senza compressioni.
+  secondary:
+    family: Libre Caslon Text
+    provider: Google Fonts
+    source_url: https://raw.githubusercontent.com/google/fonts/main/ofl/librecaslontext/LibreCaslonText%5Bwght%5D.ttf
+    specimen_url: https://fonts.google.com/specimen/Libre+Caslon+Text
+    local_file: fonts/LibreCaslonText-VF.ttf
+    sha256: c11809dbfd5445886293d89b32bfc2584075c80e77750cf1c284113e36b8b3f4
+    version: '2.000'
+    axes:
+      wght: 400
+    license_file: fonts/LibreCaslonText-OFL.txt
+    rationale: serif editoriale regolare per conservare il contrasto di scala e registro
+layout_details:
+  micro_font_size_W: 0.017
+  micro_line_height_em: 1.2
+  micro_tracking_em: 0
+  rule_thickness_W: 0.0015
+  header_rule_spans:
+  - - 0
+    - 1
+  - - 1
+    - 1
+  - - 2
+    - 1
+  - - 3
+    - 1
+  footer_rule_spans:
+  - - 0
+    - 2
+  - - 2
+    - 2
+  footer_text_columns:
+  - 0
+  - 1
+  note: Si applicano testo, palette, a capo e coordinate della prova-02.yaml. Il secondo testo di
+    fondo pagina occupa la seconda colonna, come previsto nel YAML originale; il generatore lo aveva
+    spostato nella terza.
+comparison:
+  generated_image: ../esempio-2.png
+  labels:
+  - Generatore
+  - Impaginatore · Archivo 700
+outputs:
+  card_png: card-archivo-700.png
+  card_svg: card-archivo-700.svg
+  card_pdf: card-archivo-700.pdf
+  comparison_png: confronto-generatore-impaginatore.png
+  metrics_json: verifica-impaginazione.json
+reproducibility:
+  offline_after_download: true
+  font_hashes_checked_before_render: true
+  svg_text_as_outlines: true
+  limit: Font, a capo e coordinate sono fissati. La rasterizzazione può differire tra versioni del
+    sistema operativo o motori diversi. L'SVG a tracciati conserva la geometria dei glifi senza dipendenze
+    esterne dai font.

@@ -1,0 +1,88 @@
+Design Style:
+  Name: "Ink"
+  Concept: >
+    Intimate literary quote cards built from ivory paper, readable serif
+    typography and expressive liquid ink. Generous empty space and one small
+    authored ink illustration give the page a contemplative rhythm. Ink visibly
+    feathers into paper fibres, pools in selected strokes and escapes a
+    compositional boundary, while the words retain clear cores and counters.
+    The material character comes from wet ink absorption, not generic grunge.
+  Canvas:
+    Ratio: "4:5"
+    Output: "Single flat editorial quote card, full bleed"
+  Mood:
+    - Literary
+    - Intimate
+    - Contemplative
+    - Tactile
+    - Human
+    - Airy
+  Color Palette:
+    Background:
+      Ivory: "#F4EEDF"
+    Text:
+      Charcoal: "#252722"
+    Accent:
+      OxbloodRed: "#94453F"
+    Roles: >
+      Warm ivory carries the open page; charcoal carries the main text and
+      drawing. Use the single muted red accent for an emphasized word or a
+      meaningful transition, with corresponding ink blooms where appropriate.
+  Typography:
+    Primary:
+      Style: "Readable literary serif, with expressive contrast and open counters"
+      Role: "The quotation, with selected words enlarged rather than every line"
+    Hierarchy: >
+      Keep a coherent serif character and natural reading order. Optical
+      spacing and different scales provide emphasis. Preserve the supplied
+      capitalization, accents and punctuation. Ink halos may soften edges but
+      must not join letters or obscure their shapes.
+  Layout:
+    Structure:
+      - "Generous editorial whitespace"
+      - "Asymmetrical balance between typography and one small ink illustration"
+      - "A meaningful relationship between the reading field and its margin"
+    Relationships: >
+      A drawn rule, opening or unprinted interval can establish a boundary that
+      a line or illustration crosses. Choose this relationship from the
+      quotation; a rectangular frame, lower-right opening or landscape is not
+      mandatory. Always include the illustration and keep it smaller than the
+      typographic reading field.
+  Elements:
+    Background:
+      Style: "Warm absorbent uncoated paper with restrained visible fibres"
+    Illustration:
+      Requirement: >
+        Every card includes one small, recognisable image drawn in ink.
+        A margin rule, ink splash or stain alone does not satisfy this rule.
+      Style: "Authored pen-and-ink drawing with varied nib pressure and sparse hatching"
+      Repertoire:
+        - "Landscapes, paths and spatial relationships"
+        - "Simple objects and natural forms relevant to the quotation"
+        - "Continuous lines, interrupted margins and small changes of direction"
+      Selection: >
+        Choose the subject from the current text rather than reusing a path or
+        landscape in every card. The image may be isolated or touch a boundary,
+        but remains subordinate to the quotation and leaves generous paper clear.
+  Effects:
+    Ink: >
+      Visibly wet, rich pigment with local pooling, feathered fibre edges,
+      capillary halos and a few purposeful dragged smudges or small blots.
+      Concentrate stronger bleeding at meaningful transitions and selected
+      drawing strokes; let much of the paper remain calm and untouched.
+    Texture: "Natural matte paper, not a uniform distressed overlay"
+    Legibility: "Solid readable letter cores beneath controlled ink feathering"
+    Depth: "Flat ink on paper; no photographed desk or physical notebook mockup"
+  Rules:
+    - "Preserve the quotation verbatim and render it once."
+    - "Always include one small ink-drawn image; do not substitute a splash or margin line for it."
+    - "Retain generous whitespace while making ink absorption visibly present."
+    - "Keep letter counters, accents and punctuation unambiguous at phone size."
+    - "Use only supplied supporting text and supplied or verified attribution."
+    - "Do not invent marginal notes, handwriting, signatures, labels or extra titles."
+    - "Avoid broad washes covering the words, generic blur, collage clippings and decorative clutter."
+  User Overrides:
+    Format: "Recompose the reading field, margin and drawing for the requested ratio."
+    Palette: "Replace the colours when requested, preserving contrast and limited ink roles."
+    Fonts: "Honour the requested type direction while retaining tactile ink and readable hierarchy."
+    InkIntensity: "Adjust bleeding when requested, preserving readable word shapes and open space."

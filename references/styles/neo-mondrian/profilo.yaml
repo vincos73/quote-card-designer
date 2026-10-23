@@ -1,0 +1,45 @@
+Design Style:
+  Name: "Neo Mondrian"
+  Version: "0.1.0-experimental"
+  Canvas:
+    Ratio: "4:5"
+  Mood:
+    - Modernist
+    - Structured
+    - Rational
+    - Geometric
+    - Editorial
+  Color Palette:
+    Background: "#ECECEC"
+    Text: "#111111"
+    Lines: "#000000"
+    Accents:
+      Red: "#E53935"
+      Blue: "#1565C0"
+      Yellow: "#F4C20D"
+  Typography:
+    Heading:
+      Style: "Condensed sans serif"
+      Weight: "ExtraBold"
+      Tracking: "Natural font spacing; optical kerning only"
+      Rules:
+        - "Preserve glyph proportions; no horizontal stretching or compression"
+        - "Use size and weight changes only for clear hierarchy"
+        - "Keep all line breaks between words"
+    Quote:
+      Text: "Use the caller-supplied quotation verbatim."
+      Hierarchy: "Primary"
+  Composition:
+    Grid: "Strict modular grid"
+    Dividers: "Heavy black rules"
+    ShapeLanguage:
+      - Rectangle
+      - Square
+      - Circle
+    Rules:
+      - "Geometry organizes the quote and creates a clear reading path"
+      - "Use a light gray ground and only red, blue, and yellow accents"
+      - "Keep generous margins and strong contrast"
+      - "No invented labels, numbers, attribution, or filler copy"
+      - "No gradients, texture, shadows, or organic shapes"
+  Status: "Experimental quote-card profile; listed in the catalog"

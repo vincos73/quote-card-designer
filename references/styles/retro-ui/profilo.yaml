@@ -1,0 +1,80 @@
+Design Style:
+  Name: Retro UI
+  Concept: 'Quote card editoriale che reinterpreta le finestre desktop anni Novanta con forme minimali,
+    pannelli cromaticamente adattabili, contorni netti e ombre dure offset. La citazione diventa il contenuto
+    centrale dell''interfaccia.
+
+    '
+  Canvas:
+    Ratio: '4:5'
+    Type: Quote card
+  Mood:
+  - Nostalgic
+  - Graphic
+  - Playful
+  - Minimal
+  - Editorial
+  Color Palette:
+    Background: Campo dell'interfaccia, scelto in base al significato della citazione
+    Panel: Tinta distinta dal fondo e adatta a contenere la citazione
+    Ink: Colore ad alto contrasto per testo e contorni
+    Accents:
+      Selection: Uno o due accenti scelti semanticamente dal tono della citazione
+    Rules:
+    - Adattare fondo, pannello, inchiostro e accenti al significato, mantenendo contrasto sufficiente.
+    - Mantenere contorni netti e ombre dure spostate, usando il ruolo ink o un colore equivalente ad alto
+      contrasto.
+    Fixed Colors: false
+  Typography:
+    Quote:
+      Style: Monospace as the default, with a contemporary late-90s interface character
+      Weight: Medium to bold, according to the font and reading size
+      Color: High-contrast ink role selected for the active palette
+      Spacing: Natural kerning and word spacing; no arbitrary tracking
+  Layout:
+    Structure: Layered retro desktop windows adapted to a vertical 4:5 card
+    Composition:
+    - Una finestra principale contiene la citazione e domina la gerarchia.
+    - Un pannello secondario può sporgere dietro la finestra principale.
+    - Le cornici formano una griglia pulita e lasciano margini generosi.
+  Elements:
+    Interface:
+      Style: Generic minimal 1990s desktop window frames
+      Rules:
+      - Finestre e barre titolo restano prive di testo leggibile inventato.
+      - Usare solo forme geometriche semplici per i controlli.
+      - La UI incornicia il contenuto, non lo sostituisce.
+  Effects:
+    Borders: Bold outline in a color with strong contrast against panel and background
+    Shadow: Hard-edged offset shadow, no blur
+    Gradients: None
+  Rules:
+  - La citazione deve essere protagonista e conservata esattamente.
+  - Mantenere kerning naturale e proporzioni integre dei glifi.
+  - Non aggiungere testo UI, label, numeri o icone con lettere.
+  - Usare con moderazione accenti, finestre e ombre per mantenere leggibilità.
+  Production:
+    Preferred Mode: typeset
+    Reason: Finestre, pannelli, contorni e ombre dure sono forme semplici con coordinate esatte; il testo
+      monospace reale si inserisce come contenuto dell'interfaccia. Colori variabili possono essere assegnati
+      a ruoli con contrasto e verificati numericamente.
+    Content Adaptation: Se non esiste un font monospace adeguato tra i file già disponibili, usare un
+      font locale leggibile e dichiarare la sostituzione. Per una frase lunga ridimensionare l'intero
+      blocco o aumentare il pannello, non trasformare la card in una schermata piena di UI.
+    Required Capabilities: Font monospace locale, rettangoli sovrapposti, contorni e ombre offset non
+      sfocate, palette assegnata per ruoli, margini e box di testo misurati.
+    Current Prototype: Rettangoli, linee e testo sono supportati e l'ombra offset può essere rappresentata
+      da un secondo rettangolo. Non interpreta però la UI né applica controlli automatici di contrasto
+      o palette.
+    Validation Status: Profilo non renderizzato nelle prove odierne; font monospace, palette variabile
+      e gerarchia di finestre non testati come card.
+    Selected Font:
+      Family: IBM Plex Mono
+      Provider: Google Fonts
+      Weight: 500
+      Metadata URL: https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/METADATA.pb
+      Source File URL: https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Medium.ttf
+      License: OFL
+      Verified Metadata Date: '2026-10-22'
+      Local File Included: false
+      Status: Famiglia scelta per il prossimo test; file non ancora scaricato né verificato nel rendering

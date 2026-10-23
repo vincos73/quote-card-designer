@@ -1,0 +1,56 @@
+Composition Library:
+  Style Name: Threshold Mosaic
+  Selection:
+    Basis: >
+      Choose a threshold path from the phrase length and meaning. Protect a
+      substantial, readable text zone before placing cells or planes.
+    Variation: >
+      These are spatial relationships, not fixed coordinates or masks. Vary
+      orientation, active edges and plane geometry with each new quote.
+  Families:
+    - id: crossing-front
+      Name: Crossing front
+      Use When: >
+        A short or medium quote evokes movement, change or a decision.
+      Structure: >
+        One stepped threshold travels diagonally or obliquely across the card:
+        isolated cells gather into mesh, then merge into a flat plane. The large
+        quote sits in a calm opening along one side of that front; a portion of
+        the mesh stays adjacent to the text through its height.
+      Text Adaptation: >
+        Let natural phrase breaks determine the opening width. Move the front
+        outward before reducing type size.
+      Format Adaptation: >
+        Rechoose the front's direction and plane mass for the ratio rather than
+        cropping a wide graphic.
+      Variation Axes: [Front direction, Threshold pace, Plane extent, Dark zone]
+
+    - id: opposing-masses
+      Name: Opposing masses
+      Use When: >
+        A phrase suggests tension between two ideas or a central contrast.
+      Structure: >
+        Two distant solid planes push toward a central dark or quiet opening.
+        Each dissolves through a different stepped mesh. The text occupies the
+        central opening and the grids shape it without touching letters.
+      Text Adaptation: >
+        Keep the full quote as one coherent block. Vary the two fronts to fit
+        its natural line breaks.
+      Format Adaptation: >
+        Shift the planes to top/bottom or side edges based on aspect ratio.
+      Variation Axes: [Mass scale, Asymmetric density, Opening shape, Accent cells]
+
+    - id: corner-bloom
+      Name: Corner bloom
+      Use When: >
+        A longer quote needs more open space or suggests growth and emergence.
+      Structure: >
+        A cropped solid plane enters from one corner and breaks into a square
+        mesh across one edge. Sparse cells continue along the quote's outer
+        boundary, while most of the card remains a calm dark or quiet field.
+      Text Adaptation: >
+        Size the reading zone first. Allow scattered cells near but never behind
+        the letters.
+      Format Adaptation: >
+        Choose the active corner and dissolve direction anew for each ratio.
+      Variation Axes: [Corner, Bloom direction, Mesh width, Sparse trail]

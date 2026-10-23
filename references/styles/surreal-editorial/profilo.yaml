@@ -1,0 +1,84 @@
+Design Style:
+  Name: "Surreal Editorial"
+  Concept: >
+    Conceptual photographic quote cards built around one believable-looking
+    impossibility. A physical object crosses the boundary of a clean photograph
+    into the surrounding page, casting a credible shadow there. Quiet editorial
+    typography and restrained colour make this boundary crossing the visual
+    signature. The subject changes with the quotation; the material logic remains.
+  Canvas:
+    Ratio: "4:5"
+    Output: "Single finished editorial quote card, full bleed"
+  Mood:
+    - Contemplative
+    - Conceptual
+    - Photographic
+    - Quiet
+    - Contemporary
+    - Intellectually playful
+  Color Palette:
+    Background:
+      WarmOffWhite: "#F5F1E8"
+    Text:
+      Charcoal: "#252527"
+    Atmosphere:
+      MutedSkyBlue: "#8FAEBF"
+      SeaBlueGrey: "#617E91"
+    Accent:
+      RustOrange: "#BC6335"
+    Roles: >
+      Off-white establishes a calm page outside the photographic field.
+      Charcoal carries the quote. Muted atmospheric blues and neutral surfaces
+      support the photograph, with one rusty-orange focal object by default.
+      These are colour anchors rather than an instruction to quantize a photo.
+  Typography:
+    Primary:
+      Style: "Clean contemporary editorial sans-serif"
+      Weight: "Medium with a selected bold emphasis"
+      Role: "Large, calm quotation occupying a clear reading field"
+    Hierarchy: >
+      Emphasize one meaningful word or phrase through scale or weight. Preserve
+      the supplied capitalization and punctuation. Keep natural line breaks,
+      generous spacing and legibility on a phone; avoid making every line heavy.
+  Layout:
+    Structure:
+      - "Warm off-white reading field and a clearly bounded photographic window"
+      - "One object bridging photographic space and page space"
+      - "Balanced hierarchy between quotation and photographic event"
+    Relationships: >
+      The photograph's edge must be evident so that crossing it has meaning.
+      Use natural light and a restrained shadow to make the outside part of
+      the object appear physically present on the page. The two approved
+      examples place text above a photograph; preserve the grammar without
+      making the same upper/lower proportions mandatory for every text length.
+  Imagery:
+    Style: "Impossible scene with photographic material, light and optical credibility"
+    Repertoire:
+      - "Simple everyday objects selected from the quotation's meaning"
+      - "Open landscapes or quiet spatial settings"
+      - "An object crossing, opening, unfolding or continuing beyond an image edge"
+    Selection: >
+      Choose one clear conceptual relationship and one main object. Doors,
+      paper airplanes, sky and sea belong to the examples, not to every card.
+      Avoid unrelated dream symbols or multiple competing impossibilities.
+    Treatment:
+      - "Realistic matte material texture"
+      - "Consistent natural light"
+      - "Soft, physically plausible cast and contact shadows"
+      - "Clean photographic boundaries, not torn collage clippings"
+  Effects:
+    Depth: "Photographic space interacting with a flat editorial page"
+    Texture: "Credible subject surfaces; quiet unprinted surrounding field"
+    Shadows: "Restrained and necessary to the boundary-crossing illusion"
+  Rules:
+    - "Preserve the quotation verbatim and render it once."
+    - "Build the image around a single clear impossible event."
+    - "Keep the object, light and surfaces credible even when the spatial relationship is impossible."
+    - "Preserve the visible distinction between photograph and surrounding page."
+    - "Use only supplied supporting text and supplied or verified attribution."
+    - "Avoid neon, technical overlays, cartoon drawing, glossy CGI and busy dreamscapes."
+    - "Do not invent captions, labels, signatures, extra titles or metadata."
+  User Overrides:
+    Format: "Recompose the photographic boundary, crossing object and reading field."
+    Palette: "Replace colours when requested while keeping a restrained photographic atmosphere and focal accent."
+    Fonts: "Honour the requested direction while maintaining calm editorial hierarchy."

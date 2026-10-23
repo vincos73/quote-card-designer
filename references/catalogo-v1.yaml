@@ -1,0 +1,386 @@
+schema_version: '1.0'
+catalog_version: 0.2.5
+visual_catalog_url: https://quote-card-designer-catalogo-v1.vincos.chatgpt.site
+defaults:
+  ratio: '4:5'
+  variants: 1
+families:
+- id: griglia-tipografia
+  name: Griglia e tipografia
+- id: disegno-tecnico-spazio
+  name: Disegno tecnico e spazio
+- id: collage-stampa
+  name: Collage e stampa
+- id: illustrazione-repertori-storici
+  name: Illustrazione editoriale e repertori storici
+- id: segno-manuale-lettering
+  name: Segno manuale e lettering
+- id: immagine-concettuale-materia
+  name: Immagine concettuale e materia
+- id: interfacce-cultura-web
+  name: Interfacce e cultura web
+styles:
+- id: neon-collage
+  family: collage-stampa
+  name: Digital Collage
+  aliases:
+  - neon
+  - neon collage
+  - collage neon
+  - digital collage
+  summary: 'Collage digitale pop: foto ritagliate, strisce e contorni a contrasto, tipografia espressiva
+    integrata nei livelli.'
+  tags:
+  - neon
+  - pop
+  - internet
+  - poster
+  - collage
+  profile: references/styles/neon-collage/profilo.yaml
+- id: digital-blueprint
+  family: disegno-tecnico-spazio
+  name: Digital Blueprint
+  aliases:
+  - blueprint
+  - digital blueprint
+  - blueprint digitale
+  - disegno tecnico
+  summary: 'Disegno tecnico con font monospace digitale, griglia discreta e wireframe a linee sottili:
+    struttura e citazione composte insieme.'
+  tags:
+  - blueprint
+  - tecnico
+  - wireframe
+  - architettura
+  - modulare
+  profile: references/styles/digital-blueprint/profilo.yaml
+- id: playground-graffiti
+  family: segno-manuale-lettering
+  name: Graffiti
+  aliases:
+  - playground
+  - playground graffiti
+  - graffiti
+  - graffiti giocoso
+  summary: Lettering marker e bubble, segni dipinti e superficie urbana discreta. Colori scelti per ogni
+    frase, senza palette predefinita.
+  tags:
+  - graffiti
+  - giocoso
+  - lettering
+  - urbano
+  - palette variabile
+  profile: references/styles/playground-graffiti/profilo.yaml
+- id: mixed-media-editorial
+  family: collage-stampa
+  name: Vintage Collage
+  aliases:
+  - mixed media
+  - mixed media editorial
+  - collage mixed media
+  - fotomontaggio editoriale
+  - vintage collage
+  summary: 'Collage vintage: ritagli fotografici d’archivio, frammenti di carta, scale alterate e tipografia
+    assemblata; palette libera.'
+  tags:
+  - collage
+  - fotomontaggio
+  - ritagli
+  - editoriale
+  - mixed media
+  profile: references/styles/mixed-media-editorial/profilo.yaml
+- id: ethereal-editorial
+  family: immagine-concettuale-materia
+  name: Ethereal Editorial
+  aliases:
+  - ethereal
+  - ethereal editorial
+  - etereo
+  - etereo editoriale
+  summary: 'Fotografia onirica poco definita: presenze luminose, contorni incompleti, sfocature e grana,
+    con tipografia delicata e palette variabile.'
+  tags:
+  - etereo
+  - onirico
+  - sfocato
+  - fotografico
+  - luminoso
+  profile: references/styles/ethereal-editorial/profilo.yaml
+- id: raster-drift
+  family: collage-stampa
+  name: Pixel Field
+  aliases:
+  - pixel field
+  - raster drift
+  - deriva raster
+  - pixel halftone
+  - retino digitale
+  summary: Una citazione grande e preminente in sans serif geometrico resta nitida dentro un campo sperimentale
+    di pixel e retini.
+  tags:
+  - raster
+  - pixel
+  - bitmap
+  - retino
+  - modulare
+  - stampa
+  profile: references/styles/raster-drift/profilo.yaml
+- id: dynamic-gradient
+  family: immagine-concettuale-materia
+  name: Dynamic Gradient
+  aliases:
+  - dynamic gradient
+  - gradiente dinamico
+  - gradienti cromatici
+  summary: Campi cromatici molto sfocati, contorni quasi dissolti e grana fine fitta, con tipografia grande
+    e nitida in contrasto con la morbidezza del fondo.
+  tags:
+  - gradiente
+  - cromatico
+  - diffuso
+  - astratto
+  - editoriale
+  profile: references/styles/dynamic-gradient/profilo.yaml
+- id: vintage-scientific-illustration
+  family: illustrazione-repertori-storici
+  name: Vintage Scientific Illustration
+  aliases:
+  - vintage scientific illustration
+  - illustrazione scientifica vintage
+  - atlante scientifico
+  - illustrazione d’archivio
+  summary: Citazioni editoriali su carta d’archivio con incisioni scientifiche delicate, serif classica
+    e dettagli blu-grigi o seppia.
+  tags:
+  - scientifico
+  - incisione
+  - archivio
+  - botanica
+  - editoriale
+  profile: references/styles/vintage-scientific-illustration/profilo.yaml
+- id: renaissance-classical
+  family: illustrazione-repertori-storici
+  name: Classical Roman
+  aliases:
+  - renaissance classical
+  - rinascimentale classico
+  - rinascimentale
+  - classico rinascimentale
+  - classical roman
+  summary: Tipografia iscrizionale romana, carta e materiali classici, una scultura o architettura e una
+    gerarchia editoriale sobria.
+  tags:
+  - rinascimentale
+  - classico
+  - capitali romane
+  - pergamena
+  - editoriale
+  profile: references/styles/renaissance-classical/profilo.yaml
+- id: medieval-folio
+  family: illustrazione-repertori-storici
+  name: Medieval Folio
+  aliases:
+  - medieval folio
+  - medieval illumination
+  - illuminated manuscript
+  - manoscritto miniato
+  - miniatura medievale
+  summary: Una citazione grande si integra con capilettera miniati, pigmenti opachi e marginalia su pergamena.
+    Ogni frase genera una nuova architettura di pagina.
+  tags:
+  - medievale
+  - capolettera
+  - miniatura
+  - manoscritto
+  - pergamena
+  profile: references/styles/medieval-folio/profilo.yaml
+- id: blue-chinoiserie
+  family: illustrazione-repertori-storici
+  name: Chinese Illustration
+  aliases:
+  - blue chinoiserie
+  - chinoiserie blu
+  - porcellana blu
+  - toile de jouy blu
+  - chinese illustration
+  summary: 'Illustrazione di ispirazione cinese: incisioni e acquerelli monocromi incorniciano una citazione
+    serif leggibile.'
+  tags:
+  - chinoiserie
+  - acquerello
+  - blu
+  - botanica
+  - paesaggio
+  profile: references/styles/blue-chinoiserie/profilo.yaml
+- id: cinema-editorial
+  family: immagine-concettuale-materia
+  name: Cinema Editorial
+  aliases:
+  - cinematic
+  - cinematic editorial
+  - cinema
+  - cinema editorial
+  summary: 'Poster cinematografico in bianco e nero: sans condensata, scena fotografica originale e grana
+    analogica marcata.'
+  tags:
+  - cinema
+  - cinematic
+  - bianco e nero
+  - grana analogica
+  - poster
+  - fotografico
+  profile: references/styles/cinema-editorial/profilo.yaml
+- id: monochrome-newspaper
+  family: collage-stampa
+  name: Newspaper
+  aliases:
+  - monochrome newspaper
+  - giornale monocromatico
+  - quotidiano in bianco e nero
+  - newsprint
+  - newspaper print
+  - newspaper
+  summary: Titolo serif da quotidiano, carta newsprint e immagini fotografiche o illustrate con retino
+    visibile.
+  tags:
+  - quotidiano
+  - newsprint
+  - serif
+  - halftone
+  - fotografia
+  - editoriale
+  profile: references/styles/monochrome-newspaper/profilo.yaml
+- id: child-design
+  family: segno-manuale-lettering
+  name: Child Design
+  aliases:
+  - child design
+  - naif
+  - naïf
+  - stile naïf
+  - crayon lettering
+  - pastello a cera
+  summary: Illustrazione naïf con segni a pastello visibili e lettering manuale latino; soggetti e tavolozza
+    variano in base alla frase.
+  tags:
+  - naïf
+  - pastello
+  - lettering manuale
+  - crayon
+  - illustrazione
+  - editoriale
+  profile: references/styles/child-design/profilo.yaml
+- id: watercolor
+  family: illustrazione-repertori-storici
+  name: Watercolor
+  aliases:
+  - watercolor
+  - acquerello
+  - acquerello editoriale
+  - watercolor editorial
+  summary: Acquerello editoriale su carta chiara, con lettering latino a pennellate, pigmenti traslucidi
+    e un campo leggibile per la citazione.
+  tags:
+  - acquerello
+  - watercolor
+  - carta
+  - editoriale
+  - calmo
+  - brush lettering
+  - pennellata
+  profile: references/styles/watercolor/profilo.yaml
+- id: architectural-isometric
+  family: disegno-tecnico-spazio
+  name: Architectural Isometric
+  aliases:
+  - architectural isometric
+  - isometrico architettonico
+  - architettura isometrica
+  - isometric architecture
+  summary: Geometrie architettoniche isometriche, sans-serif lineare e palette adattata al tema della
+    frase.
+  tags:
+  - isometrico
+  - architettura
+  - geometria
+  - modulare
+  - palette adattiva
+  - editoriale
+  profile: references/styles/architectural-isometric/profilo.yaml
+- id: retro-ui
+  family: interfacce-cultura-web
+  name: Retro UI
+  aliases:
+  - retro ui
+  - retro computer
+  - interfaccia anni novanta
+  - windows anni 90
+  summary: Finestre desktop anni Novanta, citazione monospace, contorni e ombre nette; colori variabili
+    secondo il contenuto.
+  tags:
+  - retro
+  - interfaccia
+  - anni novanta
+  - monospace
+  - quote card
+  profile: references/styles/retro-ui/profilo.yaml
+- id: internet-nostalgia
+  family: interfacce-cultura-web
+  name: Y2K
+  aliases:
+  - internet nostalgia
+  - web anni 2000
+  - homepage anni 2000
+  - y2k web
+  - y2k
+  summary: Collage web dei primi anni Duemila, sticker e clip-art intorno a una citazione in font pixel.
+  tags:
+  - internet
+  - nostalgia
+  - anni 2000
+  - pixel
+  - collage
+  - quote card
+  - y2k
+  - font pixel
+  profile: references/styles/internet-nostalgia/profilo.yaml
+- id: grottesco-editoriale-doppia-lettura
+  family: griglia-tipografia
+  name: Modern Minimalism
+  aliases:
+  - grottesco editoriale
+  - doppia lettura
+  - poster a doppia scala
+  - grottesco tipografico
+  - grottesco editoriale a doppia lettura
+  - modern minimalism
+  summary: 'Due masse tipografiche a scala diversa: citazione completa ed estratto letterale ingrandito,
+    sans-serif lineare, asse sinistro comune e griglia editoriale a quattro colonne. Variante facoltativa
+    con una sola parola serif corsiva.'
+  tags:
+  - tipografico
+  - grottesco
+  - editoriale
+  - modernista
+  - doppia lettura
+  - palette variabile
+  - minimalismo
+  - asimmetria
+  - sans-serif
+  profile: references/styles/grottesco-editoriale-doppia-lettura/profilo.yaml
+- id: editor-canvas
+  family: interfacce-cultura-web
+  name: Editor Canvas
+  aliases:
+  - editor canvas
+  - editor canvas
+  - editorial canvas
+  summary: 'La citazione come oggetto in un editor grafico: selezioni, maniglie, guide, puntatore ed evidenziazioni
+    coordinate.'
+  tags:
+  - tipografico
+  - editor
+  - selezione
+  - interfaccia
+  - palette variabile
+  profile: references/styles/editor-canvas/profilo.yaml

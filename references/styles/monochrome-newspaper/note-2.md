@@ -1,0 +1,1 @@
+Seconda prova: trasferire serif da quotidiano, carta newsprint, banda nera, gerarchia editoriale e retino fine confinato alla fotografia. Il ponte sul fiume è una scelta compositiva specifica per questa frase, non un soggetto ricorrente. La citazione è stata controllata visivamente, compreso il punto finale; non ci sono virgolette né altro testo.

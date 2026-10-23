@@ -1,0 +1,65 @@
+Composition Library:
+  Style Name: Symbol Loom
+  Selection:
+    Basis: >
+      Choose the structure from quotation length, meaning, ratio and any
+      attribution. Preserve the large intact quotation and a perceptible
+      modular symbol grammar in every family.
+    Variation: >
+      Families are adaptable spatial relationships, not fixed coordinates.
+      Change rhythm, active edges and symbol grouping for new cards.
+  Families:
+    - id: forked-field
+      Name: Forked field
+      Use When: >
+        A short or medium quotation suggests a choice, divergence or multiple
+        possible routes.
+      Structure: >
+        Two dense streams of small sign families diverge around a broad reading zone.
+        Their rhythms differ but share a cell module. The opening is shaped by
+        the complete quote block, not by individual letters.
+      Text Adaptation: >
+        Let the phrase's natural line breaks determine the width of the split.
+        Reduce symbol density before shrinking the quotation.
+      Format Adaptation: >
+        Change the direction and spread of the two streams for tall or wide
+        formats; preserve a strong common grid.
+      Variation Axes: [Split direction, Stream density, Sign-family contrast, Gap contour]
+
+    - id: interrupted-register
+      Name: Interrupted register
+      Use When: >
+        The quotation evokes a pause, refusal, discovery or a change in a
+        system that had seemed repetitive.
+      Structure: >
+        Repeated rows or columns of small signs travel beside the quote area and establish a
+        cadence. They break along the quote's side boundary to make room for
+        its full block, then resume with one changed rule. Keep at least one
+        register alongside the text through part of its height. The before and
+        after remain visible within one connected poster field, never as two
+        detached full-width stripes above and below a text panel.
+      Text Adaptation: >
+        Size the interruption for the whole quotation and any attribution.
+        Keep the type on calm, horizontal baselines. Let a pattern boundary
+        align with a text edge without entering the letter strokes.
+      Format Adaptation: >
+        Rechoose row or column direction and the scale of the pause for each
+        ratio rather than cropping a prior card.
+      Variation Axes: [Cadence, Missing cells, Changed rule, Restart position]
+
+    - id: edge-accumulation
+      Name: Edge accumulation
+      Use When: >
+        A longer quotation needs generous reading space or the idea suggests
+        pressure, growth or buildup.
+      Structure: >
+        Small symbol families accumulate at one or two cropped edges and thin out
+        toward a broad quote area. A few isolated signs extend the same grid
+        through the quieter space.
+      Text Adaptation: >
+        Make the quote block first and set the penetration of the pattern
+        around it; never treat text as a caption under the motif.
+      Format Adaptation: >
+        Reassign active edges and density for the ratio while preserving a
+        coherent unit and dominant text.
+      Variation Axes: [Active edge, Accumulation rate, Isolated signs, Crop]

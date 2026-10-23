@@ -1,0 +1,163 @@
+Design Style:
+  Name: "Faceted Ink"
+  Italian Name: "China sfaccettata"
+  Version: "0.1.0"
+  Status: "Calibrated with two generated quote-card examples; broader generation consistency not yet tested"
+  Concept: >
+    Represent a recognizable subject as an angular, partially unfinished
+    pen-and-ink construction on pale drawing paper. Irregular planar facets
+    describe its volume; directional hand-drawn hatching gives each plane
+    its own tone. Fine structural lines escape the contours and continue
+    into the surrounding space. The finished image sits between an expressive
+    architectural study, a sculptural portrait and a geometric ink drawing.
+  Signature:
+    - "Recognizable subject built from irregular polygonal planes"
+    - "Black ink hatching whose direction changes at plane boundaries"
+    - "Exposed construction lines extending beyond the subject"
+    - "Small concentrated black areas against generous untouched paper"
+    - "Precise spatial structure with visibly handmade line variation"
+  Canvas:
+    Reference Ratio: "2:3 portrait"
+    Adaptation: "Recompose freely for the requested ratio; do not stretch the subject"
+    Output: "Flat drawing on paper, without a frame or a staged sketchbook mockup"
+  Mood:
+    - Architectural
+    - Sculptural
+    - Analytical
+    - Expressive
+    - Austere
+    - Unfinished
+  Color Palette:
+    Paper: "#F4F3ED"
+    Ink: "#151515"
+    Roles: >
+      Strictly monochrome black ink on white or slightly warm off-white paper.
+      Intermediate tones come from line density and exposed paper, not grey
+      paint or smooth digital shading. The hex values are indicative visual
+      approximations, not sampled measurements from the reference files.
+  Medium:
+    Technique: "Fine pen or technical pen drawing with a freehand character"
+    Surface: "Matte drawing paper with subtle natural grain"
+    Finish: "Dry, crisp ink; no wet washes, glossy effects or heavy ageing"
+  Geometry:
+    Facets: >
+      Break the subject into unequal triangles, quadrilaterals and elongated
+      angular planes. Let their boundaries follow anatomy, structure,
+      perspective or terrain. Vary scale and orientation; avoid a uniform
+      triangulated mesh. Preserve the major silhouette and identifying features.
+    Contours: >
+      Alternate decisive ink edges with thin, broken or implied boundaries.
+      Allow some edges to dissolve into the construction drawing. Avoid a
+      uniformly heavy outline around every plane or the entire subject.
+    Construction: >
+      Retain projection lines, local axes, extended facet edges and incomplete
+      geometric scaffolding. Most lines are straight; occasional large arcs
+      may connect a spatial construction. Use selective overshoots and sparse
+      junction marks. Keep the scaffolding related to the subject's geometry,
+      with unequal lengths and density rather than an all-over random web.
+  Linework:
+    Character: "Mostly fine, slightly wavering strokes with restrained irregularity"
+    Hierarchy:
+      Primary: "Darker structural edges and focal details"
+      Secondary: "Fine, closely spaced shading strokes"
+      Tertiary: "Lighter and thinner construction lines in open areas"
+    Hatching: >
+      Fill selected planes with parallel hand-drawn strokes. Change stroke
+      angle between adjacent planes to reveal their orientation. Vary spacing,
+      length and pressure to build tonal differences. Use tighter hatching
+      and occasional cross-hatching in recesses, intersections and deep shadows;
+      leave other facets completely unhatched. Preserve visible individual
+      strokes instead of blending them into smooth grey surfaces.
+    Black Anchors: >
+      Concentrate near-solid ink in a few small, meaningful regions such as
+      deep recesses, focal features, silhouettes or contact shadows. Keep
+      broad light planes open so the drawing retains air and contrast.
+  Space and Composition:
+    Structure: >
+      Establish one coherent subject or scene with a clear visual focus.
+      Balance dense ink areas with broad intervals of blank paper. The subject
+      may occupy most of the frame; open sky, unhatched planes and peripheral
+      gaps still provide breathing room. Let the construction extend beyond
+      the main form without making every part of the page equally busy.
+    Depth: >
+      Express volume through perspective, overlapping planes, directional
+      hatching and contrast. Maintain a readable spatial framework while
+      allowing expressive fragmentation and a few ambiguous intersections.
+    Lighting: "Implied by the distribution of hatched and blank planes"
+    Editorial Grid: >
+      For quote cards, use an invisible print grid with consistent outer
+      margins, regular gutters and a shared baseline rhythm. Align major text
+      edges, image anchors and selected construction marks to that structure.
+      Integrate the illustration into the typographic field and its negative
+      spaces; do not isolate it in a separate picture box or bottom strip.
+      Let the quote's line breaks and image placement respond to each other
+      while keeping every word clear and the reading order natural.
+  Subject Adaptation:
+    Principle: >
+      Choose the subject from the user's request or content. Transfer the
+      drawing grammar, not the specific objects in the reference images.
+    Organic Forms: >
+      Align facets with underlying volume and anatomical landmarks. Preserve
+      identity, gaze and characteristic proportions where relevant; simplify
+      surface detail into directional ink planes.
+    Built Forms: >
+      Use perspective edges, structural junctions, recesses and projecting
+      volumes to organise fragmentation. Retain enough architectural logic
+      for the construction to remain legible.
+    Environments: >
+      Establish depth with a coherent spatial axis and overlapping forms.
+      Translate vegetation, terrain, water and distant masses into angular
+      contours and varying hatching densities. When reflections are present,
+      echo and loosen the vertical ink structures across the reflective plane.
+  Typography:
+    Role: >
+      For quote cards, make the supplied quotation the dominant subject. Pair
+      it with the faceted ink drawing as one editorial composition. Typography
+      is an approved quote-card adaptation of the drawing language.
+    Preferred Register: >
+      Use a sculptural display serif with distinctive wedge serifs and a strong
+      editorial character when suitable. Treat this as a typographic direction,
+      not a requirement for one exact font; follow any font explicitly requested.
+    Hierarchy: >
+      Font size and weight may vary from word to word for purposeful emphasis.
+      Preserve the typeface's letter shapes and proportions at every size.
+    Spacing: >
+      Respect the typeface's native spacing and proper optical kerning.
+      Never arbitrarily widen or tighten letter spacing to fill a line,
+      equalise word widths, fit a grid cell or accommodate an illustration.
+      Resolve layout through line breaks, intentional size or weight changes,
+      and the placement or scale of the image instead.
+  Avoid:
+    - "Smooth gradient shading, airbrushing or photorealistic surface rendering"
+    - "Coloured polygon fills or glossy low-poly 3D rendering"
+    - "Uniform vector triangulation, wire mesh or identical facets everywhere"
+    - "Random line tangles unrelated to the underlying subject"
+    - "Equal hatching density on every plane"
+    - "Perfectly regular CAD strokes or a sterile blueprint grid"
+    - "Heavy cartoon outlines, soft charcoal smudges or painterly brushwork"
+    - "Sepia nostalgia, distressed parchment or conspicuous paper stains"
+    - "Decorative technical labels, invented measurements or equations"
+  Generation Prompt: >
+    Draw {subject} as an expressive faceted pen-and-ink study on pale matte
+    drawing paper. Preserve its recognizable silhouette and defining features
+    while constructing its volume from unequal angular polygonal planes.
+    Shade selected facets with fine, visibly hand-drawn parallel hatching;
+    shift the hatch direction between adjacent planes and vary its density.
+    Use occasional cross-hatching and small deep-black accents at focal
+    recesses. Leave many planes as untouched paper. Extend fine perspective
+    guides, structural axes and selected facet edges beyond the contours into
+    open space, as a partially unfinished construction drawing. Maintain
+    coherent volume, clear focal hierarchy, slight freehand irregularity and
+    generous light areas. Strictly black ink on white or off-white paper.
+    Flat artwork, no smooth shading, no coloured fills, no glossy 3D, no
+    uniform wire mesh, no random scribble overlay, no extra labels, numbers
+    or watermark. For quote cards, integrate the exact supplied quotation as
+    the dominant editorial typography, preserving its characters and natural
+    spacing while keeping the drawing secondary and clear of every letter.
+  Verification:
+    - "Are letter spacing and kerning natural, without arbitrary stretching or tightening?"
+    - "Does the subject remain identifiable before inspecting its small details?"
+    - "Do the facets describe volume rather than merely decorate a silhouette?"
+    - "Does changing hatch direction distinguish adjacent planes?"
+    - "Do construction lines visibly continue into the surrounding paper?"
+    - "Are dense black accents balanced by open, unhatched areas?"

@@ -1,0 +1,91 @@
+Composition Library:
+  Style Name: "Pixel Field"
+  Selection:
+    Basis: >
+      Choose a primary spatial relation for the actual quotation, its likely
+      line breaks, the requested ratio and any supplied attribution or
+      signature. Preserve the style profile's dominant intact geometric
+      sans-serif quote and the collision of resolutions in every family.
+    Choice: >
+      These families are starting structures, not a random rotation or a
+      closed list. A requested arrangement wins when compatible. Compare
+      relevant families internally and send only the chosen structure and
+      its adaptations to ImageGen. Keep composition stable for targeted edits.
+    Variation: >
+      Across new cards or requested variants, vary the relation of raster
+      and text as well as transition direction, crop and density. Do not
+      repeat a clearing merely with a new colour or replace the chosen
+      structure during a correction of lettering.
+  Families:
+    - id: stepped-clearing
+      Name: "Stepped clearing"
+      Use When: >
+        A compact or medium quote forms a strong block and the idea suggests
+        emergence, repair or a space opening within a signal.
+      Structure: >
+        Place the quote inside a stepped, asymmetric clearing within the
+        raster field. Coarse cells stop at its outer edge; a finer screen
+        resumes beyond the clearing. Share an edge or module with the text.
+      Text Adaptation: >
+        Let the clearing grow from the phrase's readable line breaks. For a
+        longer quote enlarge the opening and reduce surrounding density.
+        Reserve a smaller right-aligned register only if a name is supplied.
+      Format Adaptation: >
+        In a tall ratio the opening may extend vertically; in a wide ratio
+        spread it laterally and crop the field. Preserve local contrast and
+        complete glyphs rather than clipping the existing card to fit.
+      Variation Axes: ["Clearing position", "Stepped contour", "Scale jump", "Density direction"]
+    - id: broken-diagonal
+      Name: "Broken diagonal"
+      Use When: >
+        The quote suggests movement, a boundary, transmission or changing
+        direction, and its words can form a stable block beside that movement.
+      Structure: >
+        Use an interrupted diagonal seam to join coarse pixels and a fine
+        screen. The quote occupies a calm area aligned with one seam endpoint
+        or a grid edge; raster continues beyond it as part of the same field.
+      Text Adaptation: >
+        Keep the type on clear horizontal baselines. Bend or interrupt the
+        raster path around the full block, not around individual letters.
+        For a long quote flatten or crop the diagonal to free more area.
+      Format Adaptation: >
+        Rechoose the seam angle and endpoints for the ratio. A wide card can
+        use a shallower traverse; a tall card can hold a steeper one, provided
+        it leaves a broad enough writing zone.
+      Variation Axes: ["Seam angle", "Interrupted segments", "Registration offset", "Screened subject"]
+    - id: raster-islands
+      Name: "Raster islands"
+      Use When: >
+        A short or medium phrase benefits from discontinuity, discovery,
+        connection or a deliberately less directional experimental field.
+      Structure: >
+        Distribute a few uneven raster islands around the dominant quote.
+        Islands share a base module but collide in scale and screen density.
+        Their cut edges and intervals echo the quote's block proportions.
+      Text Adaptation: >
+        Preserve a single continuous reading block. A longer phrase takes
+        priority over the number or size of islands. An optional name follows
+        a clear right axis and never becomes an extra bitmap island.
+      Format Adaptation: >
+        Rebalance island positions and crops for the ratio while keeping
+        unequal density and a coherent text anchor. Avoid four equal corner
+        ornaments or scattering elements uniformly.
+      Variation Axes: ["Island count and crop", "Empty intervals", "Checker fragments", "Density contrast"]
+    - id: edge-pressure
+      Name: "Edge pressure"
+      Use When: >
+        The phrase needs a broad writing field, including longer quotes, or
+        the idea suggests pressure, accumulation, resistance or a threshold.
+      Structure: >
+        Give the large quote a generous field. A dense cropped raster mass
+        presses from one edge and breaks into coarse cells or a fine screen
+        along a boundary aligned with the quote. A sparse echo may resume
+        beyond another edge, joining text and raster in one poster plane.
+      Text Adaptation: >
+        Choose natural line breaks first, then set the intrusion depth. Keep
+        the full quote prominent; crop the raster before shrinking type.
+        Reclaim the name register whenever attribution and signature are absent.
+      Format Adaptation: >
+        Select the active edge anew for the ratio. The raster remains an
+        integrated boundary, not a detached top illustration with a caption.
+      Variation Axes: ["Active edge", "Intrusion depth", "Boundary shape", "Sparse echo"]

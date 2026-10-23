@@ -1,0 +1,184 @@
+Design Style:
+  Name: Child Design
+  Concept: 'A playful naive editorial quote-card language combines the directness of children''s drawing
+    with confident contemporary poster typography. Uneven painted shapes, wax-crayon fills, coloured-pencil
+    hatching or simple ink contours preserve the visible act of drawing. Imagined creatures, familiar
+    objects and small scenes have expressive proportions rather than polished illustration finish. A strong
+    typographic structure keeps the quotation immediate and readable. The style is defined by its material
+    marks and editorial confidence, not a fixed palette, mascot or childhood subject.
+
+    '
+  Canvas:
+    Ratio: '4:5'
+    Output: Single finished vertical editorial quote card, full bleed
+  Mood:
+  - Playful
+  - Naive
+  - Friendly
+  - Expressive
+  - Curious
+  - Warm
+  - Graphic
+  - Editorial
+  Color Palette:
+    Fixed Colors: false
+    Background:
+      Role: A quiet off-white or lightly warm uncoated-paper field
+      Example: '#F6F2E8'
+    Text:
+      Role: High-contrast near-black, dark ink or deep navy
+      Example: '#151517'
+    Accent:
+      Role: 'Choose a small set of roughly two to four clear paint or pencil colours for the current composition.
+        A single-colour drawing with dark lettering is equally valid. Blue, coral, green, red or yellow
+        are possible choices, not permanent brand colours or prescribed positions.
+
+        '
+    Relationships: 'Keep the paper visible between marks. Colours can be bright and direct without becoming
+      a neon gradient or a mandatory pastel nursery palette. Let one or two illustrated masses establish
+      the main colour balance; use smaller colours to clarify expression or rhythm. The quotation needs
+      a clear light-dark contrast in every palette.
+
+      '
+  Typography:
+    Primary Registers:
+      Naive Hand Lettering:
+        Style: Simple ink, marker, dry-paint or crayon-drawn letters
+        Character: 'Slight baseline movement, irregular stroke edges and naturally varied letter shapes.
+          The words are deliberately drawn, not a decorative script or an illegible simulation of a child''s
+          first writing.
+
+          '
+      Bold Editorial Sans:
+        Style: Large confident grotesk or geometric sans-serif
+        Character: 'Clean substantial forms and firm editorial alignment contrast with the naive illustration.
+          A perfectly ordinary strong sans-serif may carry the quotation; a novelty children''s font is
+          not required.
+
+          '
+    Supporting:
+      Style: Plain readable sans-serif or quiet hand lettering
+      Role: Only supplied attribution or meaningful supporting copy
+    Hierarchy: For this test choose the Naive Hand Lettering register for the entire quotation. Draw simple
+      readable dark wax-crayon letters, with slightly uneven baselines, small changes of angle and visibly
+      hand-made forms. Preserve original words, sentence case and final period; no enclosing quotation
+      marks. Keep a coherent scale and stroke language across all lines. Natural hand variation is intentional;
+      never condense a last word or substitute a clean font to avoid an illustration.
+    Selected Register:
+      Style: Naive hand-printed wax-crayon lettering
+      Construction: Simple recognisable Latin letterforms with slightly uneven stems, open counters and
+        natural childlike drawing variation
+      Material: Dark charcoal wax strokes with visible paper gaps and broken pigment, not a smooth font
+        with a distressed overlay
+      Case: Original sentence case
+      Hierarchy: Large and immediately readable, with one coherent drawn-letter voice across the whole
+        quotation
+  Layout:
+    Structure:
+    - A clear editorial reading block with room for expressive drawing
+    - Intentional asymmetry, open paper and simple alignments
+    - One main illustrated relationship rather than an inventory of doodles
+    - Loose handmade energy contained by a confident typographic hierarchy
+    Relationships: 'Let the illustration respond to the meaning of the quotation through scale, action,
+      gesture, a shared edge or an interaction with the reading space. It can frame, support or partially
+      overlap the type while leaving all essential letter shapes clear. Images may extend beyond an edge.
+      A large naive drawing can coexist with clean typography. Avoid reducing illustration to an unrelated
+      corner sticker or filling every interval with tiny decorative characters.
+
+      '
+  Rendering Modes:
+    Selection: 'Choose one leading mark-making mode for each card, with a compatible secondary contour
+      if useful. These modes express the range visible in the reference set; do not combine all four into
+      a compulsory recipe.
+
+      '
+    Dry Paint and Ink:
+      Marks: Rough painted colour field, small paper gaps, simple dark ink contours
+      Rhythm: A few economical figures or gestures and direct drawn lettering
+    Painted Creatures and Bold Type:
+      Marks: Irregular flat painted silhouettes with tactile edges and minimal facial features
+      Rhythm: Loose playful figures balanced by large clean editorial sans-serif
+    Wax-Crayon Scene:
+      Marks: Dense wax strokes, broken fills, repeated directional scribbles and rough outlines
+      Rhythm: A familiar scene or object drawn with expressive proportions and material density
+    Coloured-Pencil Outline:
+      Marks: Visible contour drawing, coloured hatching and imperfect repeated pencil strokes
+      Rhythm: Imaginative figures or scenery in dialogue with a strong poster-like text field
+    Selected Mode: Wax-Crayon Scene for both illustration and the hand-printed quotation
+  Imagery:
+    Subjects:
+    - Friendly invented creatures and expressive animals
+    - People, simple gestures and everyday scenes
+    - Furniture, household objects and familiar tools
+    - Trees, plants, stars, clouds and imagined environments
+    - Abstract playful forms or symbolic objects suggested by the quotation
+    Selection: 'Subjects are an open repertoire selected for the actual words and context. There is no
+      mandatory dinosaur, monster, face, armchair, child or reading scene. Use a small coherent cast or
+      one substantial image. An expressive eye or mouth is optional; not every shape needs to become a
+      mascot.
+
+      '
+    Treatment:
+    - Visible uneven outlines and expressive, simplified proportions
+    - Material-specific imperfections instead of artificially smooth vector edges
+    - Flat colour and drawing depth, without realistic shading or glossy volume
+    - Direct friendly gestures and small asymmetries rather than polished character modelling
+    Avoid:
+    - Generic preschool mascot systems and nursery-only pastel styling
+    - Perfectly smooth cute vector illustration
+    - Photorealistic children, toy-product photography and glossy 3D
+    - Aggressive graffiti styling or dense unrelated doodle wallpaper
+  Graphic Elements:
+    Repertoire:
+    - A rough painted patch or crayon colour mass
+    - A few drawn marks, rays or a small gesture belonging to the illustration
+    - Loose simple borders only when they are part of the drawing
+    Restraint: 'Let mark-making and the main image provide most of the decoration. Do not import the rounded
+      screenshot frames, cropped publication edges, fold seams, brands or incidental caption blocks of
+      the reference images. Never add invented microtext to make the page look like a real poster.
+
+      '
+  Background:
+    Surface: Matte uncoated paper, off-white by default
+    Texture: Subtle paper grain beneath medium-specific paint, wax or pencil marks
+    Restraint: No obligatory distressed wall, heavy ageing, digital gradient or staged product mockup
+  Effects:
+    Material: Dry pigment gaps, waxy broken fills, pencil hatching or ink edges according to the selected
+      mode
+    Imperfection: Local, coherent with the drawing tool and intentionally visible
+    Finish: Flat matte print or drawn-on-paper appearance
+    Shadows: None
+    Depth: Scale, overlap and drawing relationships rather than realistic 3D rendering
+  Rules:
+  - Make the quotation the primary reading subject and preserve its exact words, case and sentence punctuation.
+  - Omit enclosing quotation marks by default and use only supplied attribution or supporting text.
+  - Keep typography coherent; change the layout or image instead of compressing an individual word or
+    line.
+  - Retain visible handmade marks rather than polishing the imagery into generic smooth vector art.
+  - Choose a coherent leading drawing medium; do not mechanically mix every reference technique.
+  - Treat colours and subjects as variable; neither a particular palette nor one mascot defines the style.
+  - Do not copy reference brands, slogans, characters, publication details, dates or incidental text.
+  - Do not add labels, signatures, logos, metadata or decorative microtext that the user did not supply.
+  - Avoid glossy effects, heavy shadows, UI panels and ornamental clutter.
+  User Overrides:
+    Format: Recompose the quotation and illustration for the requested card ratio.
+    Palette: Honour requested colours while preserving paper visibility and typographic contrast.
+    Fonts: Honour requested typography while retaining a clear hierarchy and coherent letter construction.
+    Medium: Use a requested drawing medium rather than forcing every available mode into one card.
+    Subject: Honour supplied subjects; otherwise choose imagery from the words and context.
+  Production:
+    Preferred Mode: generative
+    Reason: Nel profilo il registro Wax-Crayon Scene lega scena e citazione nello stesso tratto a cera.
+      La generazione completa è il modo ideale per preservare questa relazione materiale; una font overlay
+      standard può separare il lettering dal medium e sembrare applicata sopra.
+    Content Adaptation: Se una citazione esce con errori, usare un'illustrazione generata senza parole
+      e aggiungere testo composto come fallback esplicito, accettando che il lettering perda il tratto
+      a cera. Per frasi lunghe privilegiare il testo corretto e ridurre la complessità dell'illustrazione.
+    Required Capabilities: Generatore capace di testo latino affidabile insieme a segni a cera; per fallback,
+      pennellate/texture da applicare alle forme delle lettere, tracciati disegnati, maschere e controllo
+      delle parole.
+    Current Prototype: Il renderer numerico non crea illustrazione né lettering a cera. Una font overlay
+      è possibile ma non equivale al registro selezionato e non va presentata come implementazione fedele.
+    Validation Status: Una card generativa locale di una frase è stata prodotta oggi e la frase corretta
+      è stata osservata. Nessuna valutazione estetica, ripetibilità o compatibilità ChatGPT/Claude è stabilita
+      da questa singola prova.

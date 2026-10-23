@@ -1,0 +1,60 @@
+Composition Library:
+  Style Name: Glyph Terrain
+  Selection:
+    Basis: >
+      Select a family by quotation length, meaning and format. Preserve the
+      broad zone map, tiny typographic texture and one dominant clear quote.
+    Variation: >
+      These are adaptable relationships, not fixed maps or coordinates.
+      Rebuild seams, densities and active edges for every new card.
+  Families:
+    - id: seam-clearing
+      Name: Seam clearing
+      Use When: >
+        A short or medium quotation can anchor a generous opening where
+        several territories meet.
+      Structure: >
+        Three or four irregular territories approach one broad quiet area.
+        Their stepped borders bend around the full quote block. Tiny numerals
+        and marks are dense along one or two seams, then dissipate into the
+        clearing without touching the letters.
+      Text Adaptation: >
+        Establish large sans-serif line breaks first. Expand the opening or
+        reduce texture before reducing quote size.
+      Format Adaptation: >
+        Recalculate the zone map and seam directions for the ratio, with
+        texture present beside part of the quote.
+      Variation Axes: [Opening shape, Number of territories, Seam pressure, Texture falloff]
+
+    - id: crossing-current
+      Name: Crossing current
+      Use When: >
+        The phrase implies movement, change or interaction between different
+        domains.
+      Structure: >
+        A stream of tiny typography crosses two or more flat color territories.
+        The stream widens, thins and changes ink contrast at zone boundaries.
+        The large quotation interrupts it within the same visual field.
+      Text Adaptation: >
+        Keep words whole on calm horizontal baselines; route the current around
+        the full text block rather than between letters.
+      Format Adaptation: >
+        Choose a current direction that suits the canvas without reusing a
+        particular reference silhouette.
+      Variation Axes: [Current direction, Ink changes, Break interval, Zone order]
+
+    - id: margin-archipelago
+      Name: Margin archipelago
+      Use When: >
+        A longer quotation needs a wider reading area while the texture can
+        gather along the margins.
+      Structure: >
+        Several stepped color islands and dense microtype clusters occupy
+        one or two cropped margins. A few smaller islands extend toward the
+        quotation, keeping the visual system connected without invading it.
+      Text Adaptation: >
+        Size the clear area for the whole quotation and attribution, if any.
+        Maintain the quote as the principal mass.
+      Format Adaptation: >
+        Move active margins and rescale clusters for the chosen ratio.
+      Variation Axes: [Active margin, Island size, Cluster count, Penetration]

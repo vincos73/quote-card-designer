@@ -1,0 +1,161 @@
+Design Style:
+  Name: "Neo Swiss"
+  Concept: >
+    Contemporary editorial design informed by Swiss modernism, information
+    design, scientific atlases, timetables, archives and experimental posters.
+    Reconstruct the supplied content as a visual structure: typography,
+    geometric relationships and, when present, numbers or data form a precise
+    modular system. Combine analytical clarity with controlled experimentation
+    and an optimistic use of colour. A quotation without data remains a
+    typographic composition rather than an invitation to invent statistics.
+
+  Canvas:
+    Ratio: "4:5"
+    Output: "Single flat social quote card, full bleed"
+    Adaptation: >
+      Adapted from a 16:9 presentation reference to the skill's portrait default.
+      Recompose for 16:9 or another ratio when requested; retain the grid logic
+      and hierarchy rather than shrinking a landscape slide.
+
+  Mood:
+    - Intelligent
+    - Analytical
+    - Experimental
+    - Precise
+    - Editorial
+    - Contemporary
+    - Optimistic
+    - Systematic
+  Temperature:
+    Overall: "Cool"
+
+  Color Palette:
+    Background:
+      PaperWhite: "#F8F7F3"
+    Primary:
+      NeonPink: "#FF4FC3"
+      AcidYellow: "#E7FF38"
+      CyanBlue: "#72D7FF"
+    Secondary:
+      Black: "#111111"
+    Accent:
+      LightGray: "#DADADA"
+      White: "#FFFFFF"
+    Roles: >
+      Paper white provides generous open space; black carries the main text
+      and structural rules. Choose one dominant chromatic accent per card
+      from pink, yellow or cyan, using it as a classification plane or to
+      establish a meaningful relationship. Light grey supports subordinate
+      grid lines and white can create a counterspace. The three bright colours
+      are alternatives rather than a requirement to use all three together.
+
+  Typography:
+    Primary:
+      Style: >
+        Swiss grotesk sans-serif, recalling the functional character of
+        Helvetica, Univers or Akzidenz-Grotesk. Treat letterforms as geometry.
+      Weight: "700-900"
+      Tracking: "Tight, optically adjusted"
+      Scale: "Oversized"
+      Role: "Main quotation and its strongest phrase"
+    Secondary:
+      Style: "Light sans-serif"
+      Weight: "300-500"
+      Tracking: "Slightly wide, without impairing word recognition"
+      Role: "Quieter quotation fragments and supplied supporting text"
+    Numbers:
+      Style: "Heavy functional sans-serif"
+      Weight: "800-900"
+      Scale: "Monumental when the supplied content includes a meaningful number"
+      Role: >
+        Numbers can anchor the whole page when actually present in the text.
+        If the quotation contains none, use a large word or letterform as the
+        anchor; do not invent a number, percentage or index to imitate data design.
+    Body:
+      Weight: 400
+      LineHeight: "1.2-1.4"
+      Role: "Supporting text only when supplied"
+    Case: >
+      Preserve the quotation's original capitalization. The presentation
+      reference's preference for uppercase does not authorize changing the
+      supplied text; apply uppercase when requested or already present.
+    Hierarchy: >
+      Combine a dominant typographic mass, a clear secondary register and
+      sparse structural detail. Large letters may cross grid divisions, but
+      every word and punctuation mark must remain readable at phone size.
+
+  Layout:
+    Structure:
+      - "Strict modular grid and clear information hierarchy"
+      - "Structured asymmetry with generous editorial whitespace"
+      - "Typographic layering and selective crossings of grid boundaries"
+      - "Diagrammatic relationships derived from the supplied content"
+    Alignment:
+      Preference: "Grid-first"
+      ControlledChaos: "Low"
+    Relationships: >
+      Use the grid to connect the quotation, colour plane and any diagram or
+      archival image. Reveal selected rules or alignment datums where they
+      explain the arrangement. A deliberate typographic overshoot can create
+      experimentation within the system. Do not fill every module or render
+      a uniform decorative grid over all available whitespace.
+
+  Graphic Elements:
+    Repertoire:
+      - "Circles, rectangular panels and flat colour planes"
+      - "Rule lines, alignment marks and registration-like terminals"
+      - "Arrows and diagram indicators tied to meaningful relationships"
+      - "Timelines, tables and data callouts only when supported by supplied content"
+    Principles: >
+      Every graphic mark should have a clear compositional or explanatory
+      function. Let rhythm emerge from repeated intervals, shapes or rules.
+      Coordinates, measurements, classifications and scientific labels require
+      real supplied information; do not simulate them with filler notation.
+
+  Imagery:
+    Style: >
+      Treat an image as an archival specimen or an information element placed
+      within the grid. Imagery is optional and subordinate to typography and
+      any actual data, rather than a mandatory hero illustration.
+    Treatment:
+      - "High-contrast cutout or flat archival reproduction"
+      - "No shadows"
+      - "Precise editorial integration"
+      - "Technical labeling only when text is supplied or verified"
+    Subjects:
+      - "Scientific specimens and educational references"
+      - "Historical artifacts and everyday objects"
+      - "Charts, diagrams and classification relationships"
+    Selection: >
+      Choose a subject only when it supports the quotation's meaning. These
+      are an open repertoire, not instructions to add a specimen to every card.
+      A purely typographic card is equally valid.
+
+  Effects:
+    Texture: "Smooth offset print with slight paper grain or archival reproduction character"
+    Shadow: "None"
+    Depth: "Flat editorial layering"
+    Distortion: "Precise and controlled; no loss of text legibility"
+
+  Rules:
+    - "Preserve the quotation verbatim and render it once."
+    - "Use generous whitespace and let typography and real data dominate imagery."
+    - "Restrict each card to one dominant chromatic accent by default."
+    - "Balance grid precision with a deliberate change of typographic scale or alignment."
+    - "Treat diagrams as storytelling devices grounded in the supplied content."
+    - "Use only supplied supporting text and supplied or verified attribution."
+    - "Do not invent statistics, numbering, chart values, categories or filler microtext."
+    - "Avoid corporate presentation templates and photorealistic lifestyle imagery."
+    - "Avoid glassmorphism, heavy gradients, organic doodles and decorative serif typography."
+    - "Avoid skeuomorphic effects, excessive clutter and luxury branding aesthetics."
+
+  User Overrides:
+    Format: "Recompose the grid, typographic anchor and open space for the requested ratio."
+    Palette: >
+      Replace the colours when requested while keeping clear roles for paper,
+      text, structural detail and the dominant accent. An explicit request for
+      several accent colours overrides the single-accent default.
+    Fonts: >
+      Honour the requested type direction, maintaining hierarchy and geometric
+      relationships where compatible. A generated resemblance does not verify
+      an exact font family.

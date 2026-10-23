@@ -1,0 +1,92 @@
+Composition Library:
+  Style Name: "Medieval Folio"
+  Selection:
+    Basis: >
+      Fit the actual quote, its first word, likely line breaks, requested
+      ratio and any supplied name. Every family preserves large readable
+      bookhand-inspired type, matte pigment, parchment and the integration
+      of writing and painting defined by the style profile.
+    Preference: >
+      The illuminated-initial example is the preferred calibration. When no
+      composition is requested and text fit allows, favour an inhabited
+      initial. Treat its exact left vine, O, bird and tree as example choices.
+      Other families remain valid for longer phrases or meaningful variants.
+    Choice: >
+      Use one primary family and only compatible secondary details. The
+      repertoire stays open. Respect an explicit composition request and
+      preserve accepted placement during targeted edits. Send the chosen
+      structure to ImageGen, not the complete list of alternatives.
+  Families:
+    - id: inhabited-initial
+      Name: "Inhabited initial"
+      Use When: >
+        The first word can flow clearly from one large illuminated letter
+        and a small symbolic scene can enrich the quotation's meaning.
+      Structure: >
+        Make the first actual letter a painted initial with a miniature or
+        emblem inside. The remaining letters continue in normal reading
+        order. A restrained tendril grows from the initial or an adjacent
+        margin and shares its pigments and line weight.
+      Text Adaptation: >
+        Preserve the full first word without repeating its initial. Size
+        and place the letter to suit the reading block; a longer quote gets
+        a smaller initial and less marginal density. If the word becomes
+        unreliable, use a non-letter miniature and set the full text normally.
+      Format Adaptation: >
+        Recompose the initial, continuation and surrounding margin for each
+        ratio. In wide formats the initial can lead a broad writing field;
+        in tall formats its scale must leave room for the full quote.
+      Variation Axes: ["Initial letter and shape", "Inner miniature", "Tendril direction", "Pigment pair"]
+    - id: open-corners
+      Name: "Open folio with painted corners"
+      Use When: >
+        A longer or reflective phrase needs quiet parchment, or a sparse
+        manuscript page better supports the mood than a dense border.
+      Structure: >
+        Place two unequal painted interventions in separated corners, with
+        a broad writing field between them. One may be a small initial or
+        vignette. Their stems, directions or frame edges anchor the text.
+      Text Adaptation: >
+        Let the complete phrase establish the main mass. Paintings recede
+        toward the margins as it grows. If a name is present, integrate it
+        below or beside the writing field on a clear right-aligned axis.
+      Format Adaptation: >
+        Select the corner pair and distances anew for the ratio. Keep the
+        interventions unequal and avoid a pair of identical decorative badges.
+      Variation Axes: ["Corner pair", "Painted area", "Miniature subject", "Amount of open parchment"]
+    - id: asymmetric-border
+      Name: "Asymmetric botanical border"
+      Use When: >
+        The phrase benefits from a lively painted margin and still has enough
+        space to remain the largest readable mass.
+      Structure: >
+        Animate selected page edges with winding stems, leaves and small
+        creatures. Vary border depth and leave at least one meaningful opening.
+        Branches trace or point toward the writing field without touching words.
+      Text Adaptation: >
+        Set the whole quote in the organic bookhand register. Thin or crop the
+        border to accommodate more lines. A decorated initial is optional;
+        it must not compete with the phrase or duplicate its first letter.
+      Format Adaptation: >
+        Rechoose the active edges and border depth rather than stretching a
+        rectangular frame. Preserve a calm ground immediately behind all words.
+      Variation Axes: ["Active edges", "Border opening", "Foliage rhythm", "Pigments and small creatures"]
+    - id: marginal-miniature
+      Name: "Marginal miniature"
+      Use When: >
+        A small narrative scene clarifies the idea, or the user wants a
+        composition without a decorated letter while retaining the folio language.
+      Structure: >
+        Pair a large writing field with one subordinate painted scene in a
+        margin or a small frame. Share an edge, a baseline or a pigment accent
+        so the scene and words belong to the same page. Add sparse foliage
+        only where it joins those parts.
+      Text Adaptation: >
+        Keep the first word complete in the same organic bookhand as the rest.
+        Adapt the miniature's size to the phrase; for longer text move it
+        toward an outer corner and reduce its visual density.
+      Format Adaptation: >
+        A wide ratio can place the miniature beside the writing field; a
+        tall ratio can nest it in a lower margin. Avoid a separate picture
+        panel that turns the quote into a small caption.
+      Variation Axes: ["Miniature position", "Frame shape", "Narrative subject", "Foliage connection"]

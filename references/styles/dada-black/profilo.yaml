@@ -1,0 +1,94 @@
+Design Style:
+  Name: "Dada Black"
+  Concept: >
+    Expressive, experimental editorial photomontage inspired by Dada and vintage
+    handmade collage. Torn paper, magazine-cut typography, archival-looking
+    photographic cutouts and hand-drawn illustration express creative personality.
+    Scale, unexpected juxtaposition, irregular edges and purposeful empty space
+    give the composition an authored character.
+  Canvas:
+    Ratio: "4:5"
+    Output: "Single flat social quote card, full bleed"
+  Mood:
+    - Artistic
+    - Creative
+    - Editorial
+    - Handmade
+    - Experimental
+    - Vintage
+    - Expressive
+    - Cultural
+  Color Palette:
+    Background:
+      Primary: "#2E3122"
+    Text:
+      Primary: "#F4F4F4"
+    Accent:
+      Olive: "#788B5A"
+      Purple: "#8A6283"
+      Blue: "#74879A"
+      Beige: "#D9CDB2"
+      Terracotta: "#B55252"
+    Roles: >
+      Deep dark olive establishes the field. Off-white supports readable type
+      and beige provides paper. Select the coloured accents sparingly; the
+      composition need not use every accent.
+  Typography:
+    Primary:
+      Style: "Magazine-cutout typography"
+      Role: >
+        Expressive words or phrase clippings with contrasting size, weight and
+        printed character. Seek coherent groups rather than a random font for
+        every letter.
+    Secondary:
+      Style: "Thin clean sans-serif"
+      Weight: 300
+      Role: "Quieter parts of the quotation and supplied supporting text"
+    Hierarchy: >
+      Emphasize words chosen for the current quotation. Preserve natural reading
+      order and enough scale for a phone screen. All words remain unambiguous.
+  Layout:
+    Structure:
+      - "Asymmetrical composition"
+      - "Collage layering"
+      - "Torn-paper framing"
+      - "Editorial spacing"
+    Relationships: >
+      Balance a concentrated zone of photographic fragments with a quieter open
+      field. Let edges overlap and fragments sit at different angles while the
+      text remains readable. The lettering and photomontage share the composition;
+      avoid an isolated central quote panel.
+  Elements:
+    Background:
+      - "Torn-paper shapes"
+      - "Layered paper textures"
+    Decorative:
+      - "Hand-drawn lines and botanical drawings when pertinent"
+      - "Vintage label-shaped scraps"
+      - "Hand-cut typography"
+    Images:
+      - "Editorial portraits"
+      - "Art photography"
+      - "Photomontage compositions"
+    Selection: >
+      Choose a visual relationship for the current quotation. Select only
+      materials that support it; botanical drawings, labels and portraits are
+      possibilities rather than mandatory decorations.
+  Effects:
+    Shadows: "Restrained soft contact shadows only where paper overlaps"
+    Texture: "Matte paper grain and varied natural torn edges"
+    Depth: "Visible paper layering"
+  Rules:
+    - "Embrace intentional imperfection and creative juxtaposition."
+    - "Keep cutouts visibly assembled rather than painting a seamless scene."
+    - "Mix typography styles while preserving the reading sequence."
+    - "Use collage storytelling and editorial breathing room."
+    - "Vary torn edges and contact shadows according to the layers."
+    - "Preserve the quotation and its punctuation."
+    - "Do not add pseudo-newspaper text, invented labels or signatures."
+    - "Avoid a uniform scrapbook arrangement, a generic torn-edge filter and glossy effects."
+  User Overrides:
+    Format: "Recompose for the requested ratio."
+    Palette: "Replace the colours while keeping their compositional roles where compatible."
+    Fonts: "Honour the requested direction and preserve expression through clippings, scale and spacing."
+

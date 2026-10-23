@@ -1,0 +1,85 @@
+Design Style:
+  Canvas:
+    Ratio: '4:5'
+    Output: Single full-bleed quote card
+    Adaptation: Recompose for the requested ratio; do not stretch or crop the source poster.
+  Color Palette:
+    Fixed Colors: false
+    Roles:
+    - background
+    - primary ink
+    - inverse ink
+    - optional accent
+    Strategy: Choose colours per quote; preserve strong local contrast. Monochrome references do not require
+      monochrome output.
+  Content Contract:
+    quote: Preserve supplied words, case, accents and punctuation; show once.
+    author: Optional supplied or source-verified name, exact and smaller/lighter than quote; omit without placeholder.
+    supporting_text: Only supplied or explicitly requested content; never invent labels, microcopy, numbers,
+      dates, UI menus, barcodes or authors from the references.
+  User Overrides:
+    Format: Recompose rather than scale the whole poster.
+    Palette: Freely variable by compositional roles.
+    Font: Use requested actual font when available; natural metrics and word spacing. Exact font identification
+      from references is unverified.
+  Validation:
+    Status: First imagegen example approved. Native font identity and profile-aware deterministic renderer
+      unverified.
+    Required Followup:
+    - short and long quotation
+    - a different palette
+    - optional attribution
+    - native text and glyph spacing review
+  Name: Editor Canvas
+  Status: Catalog style; first visual example approved by user. Production capabilities remain separately unverified.
+  Concept: The quotation is displayed as an actively edited typographic object. Selection bounds, handles,
+    a guide and a cursor reveal a sparse graphic-design workspace rather than putting the quote inside a nostalgic
+    desktop window.
+  Mood:
+  - graphic
+  - precise
+  - playful process
+  - minimal
+  Typography:
+    Primary: Large bold clean proportional grotesque; no obligation to use monospace or pixel letters.
+    Hierarchy: One reading sequence; selected short clauses can invert on a solid plane or receive one translucent
+      highlight.
+    Spacing: Natural metrics, optical word spaces and clear leading. Do not compress lines to align frame edges.
+    Attribution: Optional supplied name in a smaller/lighter separate register, not an invented UI footer.
+  Layout:
+    Structure:
+    - Open canvas with a common reading axis
+    - Selection frame around one or two meaningful text fragments
+    - Small square handles attached to actual frame corners and midpoints
+    - One restrained vertical or horizontal guide
+    - At most one cursor if useful
+    Relation To Retro UI: Editing controls relate directly to letters, not a main retro desktop window containing
+      the quote.
+  Graphic Elements:
+    Repertoire:
+    - Thin solid selection bounds
+    - Optional dotted bounds for one secondary selection
+    - Small square handles
+    - One flat cursor arrow
+    - One inversion or highlight plane
+    Selection: Choose a few process marks. Do not recreate a complete app, toolbar or screenshot.
+  Effects:
+    Surface: Clean flat field
+    Depth: Flat layering
+    Shadows: None
+    Selection: Highlight sits behind words and preserves contrast.
+  Rules:
+  - Frames enclose real quotation fragments and follow their geometry.
+  - Do not copy NEW/LOAD/SAVE labels, creator handle or reference wording.
+  - No additional UI text unless explicitly supplied.
+  - Handles and cursor must not cover accents, punctuation or letters.
+  - Keep a large enough type scale for the final viewing size.
+  Production:
+    Preferred Mode: typeset
+    Required Capabilities:
+    - measured text bounds
+    - mixed text/background runs
+    - SVG or equivalent guides, handles and cursor
+    - layer order and local contrast
+    Implemented: Not implemented as a profile-aware renderer; geometry is suitable for deterministic layout.
+  Version: 0.1.0

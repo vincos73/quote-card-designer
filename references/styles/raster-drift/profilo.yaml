@@ -1,0 +1,157 @@
+Design Style:
+  Name: "Pixel Field"
+  Concept: >
+    An editorial image built from conflicting resolutions. Square cells,
+    checker fragments and fine printed screens interrupt one another across
+    a shared field. A form may emerge, disappear or remain ambiguous. The
+    quotation remains a large, dominant continuous block of geometric
+    sans-serif type, while the raster changes scale around it. Each
+    card invents a new relation between the stable text and unstable image,
+    not a smooth pixel fade attached to a conventional text box.
+
+  Reference Basis:
+    Material: "Two images supplied by the user in this conversation"
+    Observation: >
+      One reference moves from sparse white square pixels into a dense
+      monochrome screen and a planetary image. The other brings checkerboard
+      clusters, blue bitmap lettering and open paper into the same fragmented
+      field. Infer the shared resolution shift and editorial tension; do not
+      repeat either image's arrangement, words, logo-like marks or subject.
+
+  Canvas:
+    Ratio: "4:5"
+    Output: "One flat, finished editorial quote card"
+
+  Mood:
+    - Experimental
+    - Graphic
+    - Tactile
+    - Computational
+    - Unsettled
+    - Playful but controlled
+
+  Color Palette:
+    Fixed Colors: false
+    Starting Pairs:
+      DeepGreenAndPaper: ["#006D53", "#F1EEE2"]
+      CobaltAndPaper: ["#1428A0", "#F2F2ED"]
+      AubergineAndApricot: ["#432A52", "#F2D8BB"]
+    Roles: >
+      Prefer one dominant ink and one contrasting ground, with a third colour
+      only when it marks a fracture, alternate screen or typographic emphasis.
+      Keep the entire quotation one readable ink colour on one locally even
+      ground. A small accent belongs to the raster rather than an individual
+      word. The pairs are starting directions, not mandatory branding. User
+      colours replace them.
+
+  Typography:
+    Primary: >
+      Set the full quotation in one clear geometric sans-serif family, regular
+      or medium weight, at a scale that is the first thing read even in a small
+      preview. Keep one consistent typographic register across its words, with
+      natural character widths, optical kerning and ordinary word spaces. The
+      text breaks at sense units. Its line count and footprint follow the
+      selected composition and actual phrase length. Resolve fit with line
+      breaks and image placement before reducing the quote's prominence.
+    Graphic Contact: >
+      Let the raster approach, frame, erode or step around the block's outer
+      contour. A density seam may align with a text edge or baseline, but
+      individual cells must not obscure, replace or distort letter strokes.
+      Do not set one word as a giant knockout, bitmap glyph or separate font.
+    Attribution: >
+      If an author is supplied or verified, set the exact name smaller and
+      lighter on a clear right-aligned axis. If absent, omit the register and
+      reclaim its space.
+    Hierarchy: >
+      The quotation is the largest coherent visual mass and the first thing
+      read. Give it substantial width and height in the card, with one shared
+      left edge or another equally clear alignment. Integrate it into the
+      poster field through a shaped zone of local contrast and a shared grid;
+      do not place it as a caption below a detached illustration. No word
+      receives a different font, distorted form or opportunistic size change.
+      Do not invent labels, dates, institutions or microcopy from the references.
+
+  Layout:
+    Shared Structure: >
+      Lay out the large quote block first. Build a modular field around its
+      measured footprint with at least one deliberate discontinuity: an abrupt
+      jump in cell size, a missing strip, an offset grid, a hard mask or a
+      collision between raster regions. The quote and raster share axes and
+      proportions. Avoid the default split of artwork above and text below.
+      Negative space for the text can be irregular and internal to the image,
+      but the letters sit on an even, legible local ground.
+    Meaning: >
+      Interpret the quotation as a relation such as emergence, repair, loss,
+      transmission, change of scale or a newly visible boundary. Choose the
+      subject and composition for that relation; the planet in a reference
+      is not a recurring icon.
+    Module: >
+      Establish a base square cell or dot interval. Create at least two
+      clearly related scales, from coarse blocks to fine screen. A few cells
+      may break registration or switch density while the governing grid
+      remains perceptible. A photographic fragment or pure abstraction can
+      carry the field.
+    Integration: >
+      The raster must visibly respond to the complete quote block through
+      shared axes, boundaries or proportions. Keep letter strokes intact and
+      their immediate ground calm. Distribution, transition direction and
+      density path are chosen in the separate composition library.
+
+  Imagery:
+    Repertoire:
+      - "A photographed object or landscape reduced to a two-tone screen"
+      - "An abstract silhouette assembled from cells"
+      - "An aperture, negative-space cut or interrupted image"
+      - "A field that suggests a signal without a literal depicted subject"
+    Selection: >
+      Let the quotation determine whether recognisable imagery helps. A
+      fragment can be partly hidden by pixels or letterforms. Keep one focal
+      subject at most. The reference planet is not a recurring icon.
+
+  Graphic Elements:
+    - "Square bitmap cells at two or more sizes"
+    - "Checkerboard islands or broken modular bands"
+    - "Fine halftone dots or short hatch marks that build tonal mass"
+    - "Deliberate gaps and erased cells"
+    - "Hard crops, shifted grid strips or density seams"
+    - "Stepped or eroded negative space shaped around an intact quote block"
+
+  Effects:
+    Print: >
+      Matte ink and subtle paper grain may soften the digital geometry. Keep
+      the cells and tonal screen legible as an image-making structure, not a
+      generic distress overlay.
+    Depth: "Flat poster planes; any depth is carried by the screened subject"
+    Motion Translation: >
+      For a static card, suggest motion through a directional change in cell
+      density and scale. Timing for animation is a separate design decision.
+
+  Content Contract:
+    quote: "Show the exact user-supplied quotation once, including accents and punctuation."
+    author: "Show only a supplied or verified author, right-aligned and subordinate."
+    signature: "Use a personal signature only when explicitly requested."
+
+  Rules:
+    - "The collision of resolution scales must be a visible compositional event, not a decorative filter."
+    - "The quote is visually preeminent at thumbnail scale; reduce or crop raster before reducing type."
+    - "The raster responds to the complete quote block; avoid a detached image-above, quote-below layout."
+    - "Use one coherent geometric sans-serif register for all words of the quote."
+    - "Keep the quotation readable against its immediate ground at card scale."
+    - "Use a new density path and image relation for each text."
+    - "Do not reproduce text, subjects or exact arrangements from the references."
+    - "Avoid generic glitch effects, interface chrome, glossy 3D and mockups."
+    - "Do not add invented words, logos, attribution or source names."
+
+  Production:
+    Preferred Mode: "hybrid"
+    Rationale: >
+      Generate the entire card composition with ImageGen. Refine lettering
+      only if needed while preserving the generated raster composition.
+
+  User Overrides:
+    Format: "Recompose the density path and text zone for the requested ratio."
+    Palette: "Replace starting colours while preserving strong local contrast."
+    Typography: "Use the requested type direction without distorting glyphs or words."
+    Subject: "Use a requested subject, interpreted through the resolution transition."
+
+Composition Library: composizioni.yaml

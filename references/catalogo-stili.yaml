@@ -1,0 +1,1273 @@
+schema_version: '1.0'
+online_catalog_version: '2026-10-23'
+defaults:
+  ratio: '4:5'
+  variants: 1
+families:
+- id: griglia-tipografia
+  name: Griglia e tipografia
+- id: disegno-tecnico-spazio
+  name: Disegno tecnico e spazio
+- id: collage-stampa
+  name: Collage e stampa
+- id: illustrazione-repertori-storici
+  name: Illustrazione editoriale e repertori storici
+- id: segno-manuale-lettering
+  name: Segno manuale e lettering
+- id: immagine-concettuale-materia
+  name: Immagine concettuale e materia
+- id: interfacce-cultura-web
+  name: Interfacce e cultura web
+release_selection:
+  status: candidate
+  selected_by: user
+  date: '2026-10-23'
+  styles:
+  - neon-collage
+  - digital-blueprint
+  - playground-graffiti
+  - mixed-media-editorial
+  - ethereal-editorial
+  - raster-drift
+  - dynamic-gradient
+  - vintage-scientific-illustration
+  - renaissance-classical
+  - medieval-folio
+  - blue-chinoiserie
+  - cinema-editorial
+  - monochrome-newspaper
+  - child-design
+  - watercolor
+  - architectural-isometric
+  - retro-ui
+  - internet-nostalgia
+  - grottesco-editoriale-doppia-lettura
+  - editor-canvas
+  catalog_version: 0.2.5
+styles:
+- id: dada-black
+  release_candidate: false
+  family: collage-stampa
+  name: Dada Black
+  aliases:
+  - dada
+  - dada black
+  - collage dada
+  summary: 'Collage editoriale tattile: carta strappata, ritagli tipografici, fotomontaggio vintage e
+    imperfezioni intenzionali.'
+  tags:
+  - collage
+  - carta
+  - vintage
+  - editoriale
+  - sperimentale
+  profile: references/styles/dada-black/profilo.yaml
+  example: references/styles/dada-black/esempio.png
+  notes: references/styles/dada-black/note.md
+  example_prompt: references/styles/dada-black/prompt-esempio.md
+- id: neo-industrial
+  release_candidate: false
+  family: griglia-tipografia
+  name: Neo Industrial Editorial
+  aliases:
+  - neoindustriale
+  - neo-industriale
+  - neo-industrial
+  - neo industrial
+  - neo-industrial graphic design
+  summary: 'Grafica tecnica piana: tipografia decisa, forme modulari, assi di costruzione e superfici
+    retinate coordinate.'
+  tags:
+  - modulare
+  - tecnico
+  - geometrico
+  - tipografico
+  - editoriale
+  profile: references/styles/neo-industrial/profilo.yaml
+  example: references/styles/neo-industrial/esempio.png
+  notes: references/styles/neo-industrial/note.md
+  example_prompt: references/styles/neo-industrial/prompt-esempio.md
+- id: neon-collage
+  release_candidate: true
+  production_mode: hybrid
+  family: collage-stampa
+  name: Digital Collage
+  aliases:
+  - neon
+  - neon collage
+  - collage neon
+  - digital collage
+  summary: 'Collage digitale pop: foto ritagliate, strisce e contorni a contrasto, tipografia espressiva
+    integrata nei livelli.'
+  tags:
+  - neon
+  - pop
+  - internet
+  - poster
+  - collage
+  profile: references/styles/neon-collage/profilo.yaml
+  example: references/styles/neon-collage/esempio.png
+  notes: references/styles/neon-collage/note.md
+  example_prompt: references/styles/neon-collage/prompt-esempio.md
+- id: digital-blueprint
+  release_candidate: true
+  production_mode: typeset
+  family: disegno-tecnico-spazio
+  name: Digital Blueprint
+  aliases:
+  - blueprint
+  - digital blueprint
+  - blueprint digitale
+  - disegno tecnico
+  summary: 'Disegno tecnico con font monospace digitale, griglia discreta e wireframe a linee sottili:
+    struttura e citazione composte insieme.'
+  tags:
+  - blueprint
+  - tecnico
+  - wireframe
+  - architettura
+  - modulare
+  profile: references/styles/digital-blueprint/profilo.yaml
+- id: playground-graffiti
+  pilot_selected: true
+  release_candidate: true
+  production_mode: generative
+  family: segno-manuale-lettering
+  name: Graffiti
+  aliases:
+  - playground
+  - playground graffiti
+  - graffiti
+  - graffiti giocoso
+  summary: Lettering marker e bubble, segni dipinti e superficie urbana discreta. Colori scelti per ogni
+    frase, senza palette predefinita.
+  tags:
+  - graffiti
+  - giocoso
+  - lettering
+  - urbano
+  - palette variabile
+  profile: references/styles/playground-graffiti/profilo.yaml
+- id: neo-swiss
+  release_candidate: false
+  family: griglia-tipografia
+  name: Neo Swiss
+  aliases:
+  - neo swiss
+  - neo-swiss
+  - swiss
+  - svizzero
+  - neo svizzero
+  summary: 'Modernismo svizzero sperimentale: griglia modulare, tipografia monumentale, fondo carta e
+    un accento rosa, giallo o ciano per card.'
+  tags:
+  - svizzero
+  - tipografico
+  - griglia
+  - editoriale
+  - informazione
+  profile: references/styles/neo-swiss/profilo.yaml
+- id: ink-and-margin
+  release_candidate: false
+  family: illustrazione-repertori-storici
+  name: Ink
+  aliases:
+  - ink
+  - ink and margin
+  - ink & margin
+  - ink e margin
+  - inchiostro e margini
+  summary: 'Pagina letteraria su carta avorio: serif, sempre una piccola immagine a inchiostro,
+    pigmento che sbava nelle fibre, un accento rosso e ampi spazi vuoti.'
+  tags:
+  - inchiostro
+  - serif
+  - letterario
+  - carta
+  - minimale
+  profile: references/styles/ink-and-margin/profilo.yaml
+  example: references/styles/ink-and-margin/esempio.png
+  notes: references/styles/ink-and-margin/note.md
+  example_prompt: references/styles/ink-and-margin/prompt-esempio.md
+- id: pencil
+  release_candidate: false
+  production_mode: generative
+  family: illustrazione-repertori-storici
+  name: Pencil
+  aliases:
+  - pencil
+  - matita
+  - grafite
+  - graphite pencil
+  summary: 'Carta chiara, serif con un corsivo puntuale e sempre una piccola immagine a matita: linee di costruzione leggere, tratteggi e ombre dense di grafite.'
+  tags:
+  - matita
+  - grafite
+  - disegno
+  - carta
+  - minimale
+  profile: references/styles/pencil/profilo.yaml
+  example_count: 3
+  featured_example: 3
+  example: references/styles/pencil/esempio.png
+  example_label: Natura morta
+  example_text: Anche ciò che lasciamo fuori cambia il senso di ciò che resta.
+  notes: references/styles/pencil/note.md
+  example_prompt: references/styles/pencil/prompt-esempio.md
+  example_2: references/styles/pencil/esempio-2.png
+  example_2_label: Origami in grafite
+  example_2_text: Le idee prendono forma un tratto alla volta.
+  notes_2: references/styles/pencil/note-2.md
+  example_prompt_2: references/styles/pencil/prompt-esempio-2.md
+  example_3: references/styles/pencil/esempio-3.png
+  example_3_label: Corsivo in grafite
+  example_3_text: Le idee prendono forma un tratto alla volta.
+  notes_3: references/styles/pencil/note-3.md
+  example_prompt_3: references/styles/pencil/prompt-esempio-3.md
+- id: surreal-editorial
+  release_candidate: false
+  family: immagine-concettuale-materia
+  name: Surreal Editorial
+  aliases:
+  - surreal
+  - surreal editorial
+  - surreale
+  - editoriale surreale
+  summary: 'Fotografia impossibile su fondo avorio: un oggetto supera il bordo dell’immagine, con ombre
+    credibili, blu atmosferici e un accento arancio.'
+  tags:
+  - surreale
+  - fotografico
+  - concettuale
+  - editoriale
+  - spaziale
+  profile: references/styles/surreal-editorial/profilo.yaml
+  example: references/styles/surreal-editorial/esempio.png
+  notes: references/styles/surreal-editorial/note.md
+  example_prompt: references/styles/surreal-editorial/prompt-esempio.md
+- id: wireframe-library
+  release_candidate: false
+  family: disegno-tecnico-spazio
+  name: Wireframe Library
+  aliases:
+  - wireframe
+  - wireframe library
+  - mesh
+  - libreria wireframe
+  summary: 'Catalogo tecnico in grigio, nero e lime: mesh tridimensionali a linee sottili, tipografia
+    condensata e moduli chiari e scuri.'
+  tags:
+  - wireframe
+  - mesh
+  - lime
+  - tecnico
+  - y2k
+  profile: references/styles/wireframe-library/profilo.yaml
+  example: references/styles/wireframe-library/esempio.png
+  notes: references/styles/wireframe-library/note.md
+  example_prompt: references/styles/wireframe-library/prompt-esempio.md
+- id: chromatic-type
+  release_candidate: false
+  family: griglia-tipografia
+  name: Chromatic Type
+  aliases:
+  - chromatic type
+  - chromatic
+  - tipografia cromatica
+  - sovrastampa cromatica
+  summary: 'Tipografia e inchiostri trasparenti: ciano, magenta e giallo si sovrappongono fra lettere
+    e campi geometrici su carta bianca.'
+  tags:
+  - tipografico
+  - sovrastampa
+  - colore
+  - geometrico
+  - editoriale
+  profile: references/styles/chromatic-type/profilo.yaml
+  example: references/styles/chromatic-type/esempio.png
+  notes: references/styles/chromatic-type/note.md
+  example_prompt: references/styles/chromatic-type/prompt-esempio.md
+- id: optical-motion
+  release_candidate: false
+  family: griglia-tipografia
+  name: Optical Motion
+  aliases:
+  - optical motion
+  - optical
+  - op art
+  - movimento ottico
+  summary: 'Arte ottica in nero e avorio: curve ripetute e centri spostati suggeriscono movimento, con
+    testo arioso e un accento cobalto.'
+  tags:
+  - ottico
+  - curve
+  - geometrico
+  - movimento
+  - editoriale
+  profile: references/styles/optical-motion/profilo.yaml
+  example: references/styles/optical-motion/esempio.png
+  notes: references/styles/optical-motion/note.md
+  example_prompt: references/styles/optical-motion/prompt-esempio.md
+- id: orizzonte-modulare
+  release_candidate: false
+  family: griglia-tipografia
+  name: Analog Geometry
+  aliases:
+  - analog geometry
+  - geometria analogica
+  - vintage futurism geometrico
+  - bauhaus cosmico
+  - orizzonte modulare
+  summary: 'Poster vintage-futurista: cerchi, trapezi, triangoli o contorni ripetuti costruiscono un
+    simbolo variabile, con colore calibrato, campo quieto e tipografia leggera.'
+  tags:
+  - geometrico
+  - vintage futurism
+  - bauhaus
+  - poster
+  - carta
+  - editoriale
+  profile: references/styles/orizzonte-modulare/profilo.yaml
+  example_count: 2
+  example_label: Trapezi aperti
+  example_text: «Ogni scelta dà forma al futuro.»
+  example_2_label: Archi concentrici
+  example_2_text: «Anche il silenzio può indicare una direzione.»
+- id: interlocking-pop-geometry
+  release_candidate: false
+  production_mode: generative
+  family: griglia-tipografia
+  name: Interlocking Pop Geometry
+  aliases:
+  - interlocking pop geometry
+  - geometria pop a incastro
+  - mosaico pop geometrico
+  summary: 'Moduli geometrici dai colori pop si incastrano con curve morbide, grana di stampa locale e un campo nitido per la citazione.'
+  tags:
+  - geometrico
+  - modulare
+  - pop
+  - stampa
+  - colore
+  profile: references/styles/interlocking-pop-geometry/profilo.yaml
+  example_count: 2
+  featured_example: 1
+  example: references/styles/interlocking-pop-geometry/esempio.png
+  example_label: Mosaico aperto
+  example_text: Ogni scelta dà forma al futuro.
+  notes: references/styles/interlocking-pop-geometry/note.md
+  example_prompt: references/styles/interlocking-pop-geometry/prompt-esempio.md
+  example_2: references/styles/interlocking-pop-geometry/esempio-2.png
+  example_2_label: Moduli in movimento
+  example_2_text: Anche un piccolo cambiamento può aprire nuove possibilità.
+  notes_2: references/styles/interlocking-pop-geometry/note-2.md
+  example_prompt_2: references/styles/interlocking-pop-geometry/prompt-esempio-2.md
+- id: digital-textile
+  release_candidate: false
+  family: immagine-concettuale-materia
+  name: Digital Textile
+  aliases:
+  - digital textile
+  - textile
+  - tessile
+  - tessitura digitale
+  - jacquard digitale
+  summary: Tipografia geometrica e trame jacquard si intrecciano in un campo tessile contemporaneo, con
+    fili strutturati e un accento cromatico misurato.
+  tags:
+  - tessile
+  - jacquard
+  - trama
+  - tipografico
+  - computazionale
+  profile: references/styles/digital-textile/profilo.yaml
+  example: references/styles/digital-textile/esempio.png
+  notes: references/styles/digital-textile/note.md
+  example_prompt: references/styles/digital-textile/prompt-esempio.md
+  example_2: references/styles/digital-textile/esempio-2.png
+  notes_2: references/styles/digital-textile/note-2.md
+  example_prompt_2: references/styles/digital-textile/prompt-esempio-2.md
+- id: mixed-media-editorial
+  release_candidate: true
+  production_mode: hybrid
+  family: collage-stampa
+  name: Vintage Collage
+  aliases:
+  - mixed media
+  - mixed media editorial
+  - collage mixed media
+  - fotomontaggio editoriale
+  - vintage collage
+  summary: 'Collage vintage: ritagli fotografici d’archivio, frammenti di carta, scale alterate e tipografia
+    assemblata; palette libera.'
+  tags:
+  - collage
+  - fotomontaggio
+  - ritagli
+  - editoriale
+  - mixed media
+  profile: references/styles/mixed-media-editorial/profilo.yaml
+  example: references/styles/mixed-media-editorial/esempio.png
+  notes: references/styles/mixed-media-editorial/note.md
+  example_prompt: references/styles/mixed-media-editorial/prompt-esempio.md
+  example_2: references/styles/mixed-media-editorial/esempio-2.png
+  example_prompt_2: references/styles/mixed-media-editorial/prompt-esempio-2.md
+- id: ethereal-editorial
+  release_candidate: true
+  production_mode: hybrid
+  family: immagine-concettuale-materia
+  name: Ethereal Editorial
+  aliases:
+  - ethereal
+  - ethereal editorial
+  - etereo
+  - etereo editoriale
+  summary: 'Fotografia onirica poco definita: presenze luminose, contorni incompleti, sfocature e grana,
+    con tipografia delicata e palette variabile.'
+  tags:
+  - etereo
+  - onirico
+  - sfocato
+  - fotografico
+  - luminoso
+  profile: references/styles/ethereal-editorial/profilo.yaml
+  example: references/styles/ethereal-editorial/esempio.png
+  notes: references/styles/ethereal-editorial/note.md
+  example_prompt: references/styles/ethereal-editorial/prompt-esempio.md
+  example_2: references/styles/ethereal-editorial/esempio-2.png
+  example_prompt_2: references/styles/ethereal-editorial/prompt-esempio-2.md
+  example_2_text: «A volte per vedere meglio bisogna perdersi.»
+  example_2_label: Perdersi
+- id: halftone-editorial
+  release_candidate: false
+  family: collage-stampa
+  name: Halftone Editorial
+  aliases:
+  - halftone
+  - halftone editorial
+  - retino editoriale
+  - stampa retinata
+  summary: Immagini fotografiche ricostruite con retini a punti o linee, accostate a tipografia espressiva
+    e campi cromatici netti.
+  tags:
+  - halftone
+  - retino
+  - stampa
+  - editoriale
+  - fotografico
+  profile: references/styles/halftone-editorial/profilo.yaml
+  example: references/styles/halftone-editorial/esempio.png
+  notes: references/styles/halftone-editorial/note.md
+  example_prompt: references/styles/halftone-editorial/prompt-esempio.md
+  example_2: references/styles/halftone-editorial/esempio-2.png
+  notes_2: references/styles/halftone-editorial/note-2.md
+  example_prompt_2: references/styles/halftone-editorial/prompt-esempio-2.md
+- id: raster-drift
+  release_candidate: true
+  production_mode: hybrid
+  family: collage-stampa
+  name: Pixel Field
+  aliases:
+  - pixel field
+  - raster drift
+  - deriva raster
+  - pixel halftone
+  - retino digitale
+  summary: 'Una citazione grande e preminente in sans serif geometrico resta nitida dentro un campo sperimentale di pixel e retini.'
+  tags:
+  - raster
+  - pixel
+  - bitmap
+  - retino
+  - modulare
+  - stampa
+  profile: references/styles/raster-drift/profilo.yaml
+  example_count: 2
+  featured_example: 1
+  example: references/styles/raster-drift/esempio-8.png
+  example_asset_suffix: '-8'
+  example_label: Testo preminente
+  example_text: «Ogni scelta dà forma al futuro.»
+  notes: references/styles/raster-drift/note-8.md
+  example_prompt: references/styles/raster-drift/prompt-esempio-8.md
+  example_2: references/styles/raster-drift/esempio-7.png
+  example_2_asset_suffix: '-7'
+  example_2_label: Variante regolare
+  example_2_text: «Le idee crescono quando cambiano prospettiva.»
+  notes_2: references/styles/raster-drift/note-7.md
+  example_prompt_2: references/styles/raster-drift/prompt-esempio-7.md
+- id: symbol-loom
+  release_candidate: false
+  online_catalog: true
+  production_mode: hybrid
+  family: griglia-tipografia
+  name: Symbol Loom
+  aliases:
+  - symbol loom
+  - trama simbolica
+  - pattern di simboli
+  summary: 'Una citazione grande interrompe una trama modulare di piccoli segni geometrici ripetuti. Ritmo, gruppi e vuoti cambiano a ogni card.'
+  tags:
+  - geometrico
+  - tipografico
+  - sperimentale
+  - modulare
+  - pattern
+  profile: references/styles/symbol-loom/profilo.yaml
+  example_count: 2
+  featured_example: 1
+  example: references/styles/symbol-loom/esempio.png
+  example_label: Campo biforcato
+  example_text: Ogni scelta dà forma al futuro.
+  notes: references/styles/symbol-loom/note.md
+  example_prompt: references/styles/symbol-loom/prompt-esempio.md
+  example_2: references/styles/symbol-loom/esempio-2.png
+  example_2_label: Registro interrotto
+  example_2_text: Le idee crescono quando cambiano prospettiva.
+  notes_2: references/styles/symbol-loom/note-2.md
+  example_prompt_2: references/styles/symbol-loom/prompt-esempio-2.md
+- id: threshold-mosaic
+  release_candidate: false
+  online_catalog: true
+  production_mode: hybrid
+  family: collage-stampa
+  name: Threshold Mosaic
+  aliases:
+  - threshold mosaic
+  - mosaico granulare
+  - soglia a quadretti
+  summary: 'Microquadratini fitti si raccolgono in una griglia sottile e poi in piani pieni, con soglie frastagliate attorno a una citazione dominante.'
+  tags:
+  - microcelle
+  - geometrico
+  - granulare
+  - modulare
+  - sperimentale
+  profile: references/styles/threshold-mosaic/profilo.yaml
+  example_count: 2
+  featured_example: 1
+  example: references/styles/threshold-mosaic/esempio.png
+  example_label: Fronte granulare
+  example_text: Ogni scelta dà forma al futuro.
+  notes: references/styles/threshold-mosaic/note.md
+  example_prompt: references/styles/threshold-mosaic/prompt-esempio.md
+  example_2: references/styles/threshold-mosaic/esempio-2.png
+  example_2_label: Masse opposte
+  example_2_text: Le idee crescono quando cambiano prospettiva.
+  notes_2: references/styles/threshold-mosaic/note-2.md
+  example_prompt_2: references/styles/threshold-mosaic/prompt-esempio-2.md
+- id: glyph-terrain
+  release_candidate: false
+  online_catalog: true
+  production_mode: hybrid
+  family: griglia-tipografia
+  name: Glyph Terrain
+  aliases:
+  - glyph terrain
+  - terreno tipografico
+  - mappa di glifi
+  summary: 'Territori di colore a gradini e microcifre formano una trama variabile; la citazione resta grande e nitida in una zona quieta.'
+  tags:
+  - microtipografia
+  - cartografico
+  - geometrico
+  - sperimentale
+  - campi cromatici
+  profile: references/styles/glyph-terrain/profilo.yaml
+  example_count: 2
+  featured_example: 1
+  example: references/styles/glyph-terrain/esempio.png
+  example_label: Territori e cifre
+  example_text: Ogni scelta dà forma al futuro.
+  notes: references/styles/glyph-terrain/note.md
+  example_prompt: references/styles/glyph-terrain/prompt-esempio.md
+  example_2: references/styles/glyph-terrain/esempio-2.png
+  example_2_label: Corrente di glifi
+  example_2_text: Le idee crescono quando cambiano prospettiva.
+  notes_2: references/styles/glyph-terrain/note-2.md
+  example_prompt_2: references/styles/glyph-terrain/prompt-esempio-2.md
+- id: dynamic-gradient
+  release_candidate: true
+  production_mode: hybrid
+  family: immagine-concettuale-materia
+  name: Dynamic Gradient
+  aliases:
+  - dynamic gradient
+  - gradiente dinamico
+  - gradienti cromatici
+  summary: Campi cromatici molto sfocati, contorni quasi dissolti e grana fine fitta, con tipografia
+    grande e nitida in contrasto con la morbidezza del fondo.
+  tags:
+  - gradiente
+  - cromatico
+  - diffuso
+  - astratto
+  - editoriale
+  profile: references/styles/dynamic-gradient/profilo.yaml
+  example: references/styles/dynamic-gradient/esempio.png
+  notes: references/styles/dynamic-gradient/note.md
+  example_prompt: references/styles/dynamic-gradient/prompt-esempio.md
+  example_2: references/styles/dynamic-gradient/esempio-2.png
+  notes_2: references/styles/dynamic-gradient/note-2.md
+  example_prompt_2: references/styles/dynamic-gradient/prompt-esempio-2.md
+  example_count: 4
+  featured_example: 4
+  example_3: references/styles/dynamic-gradient/esempio-3.png
+  notes_3: references/styles/dynamic-gradient/note-3.md
+  example_prompt_3: references/styles/dynamic-gradient/prompt-esempio-3.md
+  example_3_text: Ogni scelta dà forma al futuro.
+  example_3_label: DG4 · testo grande approvato
+  example_3_method: targeted_typography_edit
+  example_4: references/styles/dynamic-gradient/esempio-4.png
+  notes_4: references/styles/dynamic-gradient/note-4.md
+  example_prompt_4: references/styles/dynamic-gradient/prompt-esempio-4.md
+  example_4_text: Ogni scelta dà forma al futuro.
+  example_4_label: DG5 · sfocatura e grana approvata
+- id: cosmic-wireframe-grid
+  release_candidate: false
+  family: disegno-tecnico-spazio
+  name: Cosmic Wireframe Grid
+  aliases:
+  - cosmic wireframe
+  - wireframe cosmico
+  - griglia wireframe cosmica
+  summary: Diagrammi geometrici matematici a linee sottili su campo azzurro, con griglie spaziali deformate
+    e gerarchia tipografica svizzera.
+  tags:
+  - wireframe
+  - griglia
+  - geometrico
+  - scientifico
+  - editoriale
+  profile: references/styles/cosmic-wireframe-grid/profilo.yaml
+  example: references/styles/cosmic-wireframe-grid/esempio.png
+  notes: references/styles/cosmic-wireframe-grid/note.md
+  example_prompt: references/styles/cosmic-wireframe-grid/prompt-esempio.md
+  example_2: references/styles/cosmic-wireframe-grid/esempio-2.png
+  notes_2: references/styles/cosmic-wireframe-grid/note-2.md
+  example_prompt_2: references/styles/cosmic-wireframe-grid/prompt-esempio-2.md
+- id: chromatic-liquid-metal
+  release_candidate: false
+  family: immagine-concettuale-materia
+  name: Chromatic Liquid Metal
+  aliases:
+  - chromatic liquid metal
+  - liquid metal
+  - cromo liquido cromatico
+  - metallo liquido cromatico
+  summary: Tipografia monumentale blu cobalto su campo quasi bianco, attraversata da una forma fluida
+    che passa dal cromo specchiante al vetro rifrangente.
+  tags:
+  - cromo
+  - vetro
+  - liquido
+  - cobalto
+  - 3D
+  - editoriale
+  - tipografico
+  profile: references/styles/chromatic-liquid-metal/profilo.yaml
+  example: references/styles/chromatic-liquid-metal/esempio.png
+  notes: references/styles/chromatic-liquid-metal/note.md
+  example_prompt: references/styles/chromatic-liquid-metal/prompt-esempio.md
+  example_2: references/styles/chromatic-liquid-metal/esempio-2.png
+  notes_2: references/styles/chromatic-liquid-metal/note-2.md
+  example_prompt_2: references/styles/chromatic-liquid-metal/prompt-esempio-2.md
+  example_text: «UNA BUONA DOMANDA SPOSTA IL CONFINE.»
+  example_label: La domanda
+  example_2_text: LE IDEE CRESCONO QUANDO CAMBIANO PROSPETTIVA.
+  example_2_label: Le idee
+- id: vintage-scientific-illustration
+  release_candidate: true
+  production_mode: hybrid
+  family: illustrazione-repertori-storici
+  name: Vintage Scientific Illustration
+  aliases:
+  - vintage scientific illustration
+  - illustrazione scientifica vintage
+  - atlante scientifico
+  - illustrazione d’archivio
+  summary: Citazioni editoriali su carta d’archivio con incisioni scientifiche delicate, serif classica
+    e dettagli blu-grigi o seppia.
+  tags:
+  - scientifico
+  - incisione
+  - archivio
+  - botanica
+  - editoriale
+  profile: references/styles/vintage-scientific-illustration/profilo.yaml
+  example: references/styles/vintage-scientific-illustration/esempio.png
+  notes: references/styles/vintage-scientific-illustration/note.md
+  example_prompt: references/styles/vintage-scientific-illustration/prompt-esempio.md
+  example_2: references/styles/vintage-scientific-illustration/esempio-2.png
+  notes_2: references/styles/vintage-scientific-illustration/note-2.md
+  example_prompt_2: references/styles/vintage-scientific-illustration/prompt-esempio-2.md
+  example_text: Una buona domanda sposta il confine.
+  example_label: La domanda
+  example_2_text: Le idee crescono quando cambiano prospettiva.
+  example_2_label: Le idee
+- id: renaissance-classical
+  release_candidate: true
+  production_mode: hybrid
+  family: illustrazione-repertori-storici
+  name: Classical Roman
+  aliases:
+  - renaissance classical
+  - rinascimentale classico
+  - rinascimentale
+  - classico rinascimentale
+  - classical roman
+  summary: Tipografia iscrizionale romana, carta e materiali classici, una scultura o architettura e una
+    gerarchia editoriale sobria.
+  tags:
+  - rinascimentale
+  - classico
+  - capitali romane
+  - pergamena
+  - editoriale
+  profile: references/styles/renaissance-classical/profilo.yaml
+  example: references/styles/renaissance-classical/esempio.png
+  notes: references/styles/renaissance-classical/note.md
+  example_prompt: references/styles/renaissance-classical/prompt-esempio.md
+  example_2: references/styles/renaissance-classical/esempio-2.png
+  notes_2: references/styles/renaissance-classical/note-2.md
+  example_prompt_2: references/styles/renaissance-classical/prompt-esempio-2.md
+  example_text: UNA BUONA DOMANDA SPOSTA IL CONFINE.
+  example_label: La domanda
+  example_2_text: LE IDEE CRESCONO QUANDO CAMBIANO PROSPETTIVA.
+  example_2_label: Le idee
+- id: medieval-folio
+  release_candidate: true
+  production_mode: hybrid
+  family: illustrazione-repertori-storici
+  name: Medieval Folio
+  aliases:
+  - medieval folio
+  - medieval illumination
+  - illuminated manuscript
+  - manoscritto miniato
+  - miniatura medievale
+  summary: Una citazione grande si integra con capilettera miniati, pigmenti opachi e marginalia su pergamena. Ogni frase genera una nuova architettura di pagina.
+  tags:
+  - medievale
+  - capolettera
+  - miniatura
+  - manoscritto
+  - pergamena
+  profile: references/styles/medieval-folio/profilo.yaml
+  example_count: 2
+  featured_example: 1
+  example: references/styles/medieval-folio/esempio.png
+  example_label: Capolettera
+  example_text: «Ogni scelta dà forma al futuro.»
+  notes: references/styles/medieval-folio/note.md
+  example_prompt: references/styles/medieval-folio/prompt-esempio.md
+  example_2: references/styles/medieval-folio/esempio-2.png
+  example_2_label: Miniatura marginale
+  example_2_text: «Una buona domanda sposta il confine.»
+  notes_2: references/styles/medieval-folio/note-2.md
+  example_prompt_2: references/styles/medieval-folio/prompt-esempio-2.md
+- id: blue-chinoiserie
+  release_candidate: true
+  production_mode: hybrid
+  family: illustrazione-repertori-storici
+  name: Chinese Illustration
+  aliases:
+  - blue chinoiserie
+  - chinoiserie blu
+  - porcellana blu
+  - toile de jouy blu
+  - chinese illustration
+  summary: 'Illustrazione di ispirazione cinese: incisioni e acquerelli monocromi incorniciano una citazione
+    serif leggibile.'
+  tags:
+  - chinoiserie
+  - acquerello
+  - blu
+  - botanica
+  - paesaggio
+  profile: references/styles/blue-chinoiserie/profilo.yaml
+  example: references/styles/blue-chinoiserie/esempio.png
+  notes: references/styles/blue-chinoiserie/note.md
+  example_prompt: references/styles/blue-chinoiserie/prompt-esempio.md
+  example_2: references/styles/blue-chinoiserie/esempio-2.png
+  notes_2: references/styles/blue-chinoiserie/note-2.md
+  example_prompt_2: references/styles/blue-chinoiserie/prompt-esempio-2.md
+  example_text: Una buona domanda sposta il confine.
+  example_label: La domanda
+  example_2_text: Le idee crescono quando cambiano prospettiva.
+  example_2_label: Le idee
+- id: ukiyo-e-editorial
+  release_candidate: false
+  family: illustrazione-repertori-storici
+  name: Ukiyo-e Editorial
+  aliases:
+  - ukiyo-e
+  - ukiyo-e editorial
+  - stampa giapponese
+  - woodblock giapponese
+  - lettering a pennello
+  summary: Carta washi, contorni e campiture da xilografia e lettering latino a pennello ispirato alla
+    calligrafia giapponese.
+  tags:
+  - ukiyo-e
+  - washi
+  - xilografia
+  - lettering a pennello
+  - editoriale
+  - botanica
+  profile: references/styles/ukiyo-e-editorial/profilo.yaml
+  example: references/styles/ukiyo-e-editorial/esempio.png
+  notes: references/styles/ukiyo-e-editorial/note.md
+  example_prompt: references/styles/ukiyo-e-editorial/prompt-esempio.md
+  example_2: references/styles/ukiyo-e-editorial/esempio-2.png
+  notes_2: references/styles/ukiyo-e-editorial/note-2.md
+  example_prompt_2: references/styles/ukiyo-e-editorial/prompt-esempio-2.md
+  example_text: Una buona domanda sposta il confine.
+  example_label: La domanda
+  example_2_text: Le idee crescono quando cambiano prospettiva.
+  example_2_label: Le idee
+- id: cinema-editorial
+  release_candidate: true
+  production_mode: hybrid
+  family: immagine-concettuale-materia
+  name: Cinema Editorial
+  aliases:
+  - cinematic
+  - cinematic editorial
+  - cinema
+  - cinema editorial
+  summary: 'Poster cinematografico in bianco e nero: sans condensata, scena fotografica originale e grana
+    analogica marcata.'
+  tags:
+  - cinema
+  - cinematic
+  - bianco e nero
+  - grana analogica
+  - poster
+  - fotografico
+  profile: references/styles/cinema-editorial/profilo.yaml
+  example: references/styles/cinema-editorial/esempio.png
+  notes: references/styles/cinema-editorial/note.md
+  example_prompt: references/styles/cinema-editorial/prompt-esempio.md
+  example_2: references/styles/cinema-editorial/esempio-2.png
+  notes_2: references/styles/cinema-editorial/note-2.md
+  example_prompt_2: references/styles/cinema-editorial/prompt-esempio-2.md
+  example_text: UNA BUONA DOMANDA SPOSTA IL CONFINE.
+  example_label: La domanda
+  example_2_text: LE IDEE CRESCONO QUANDO CAMBIANO PROSPETTIVA.
+  example_2_label: Le idee
+- id: faceted-ink
+  release_candidate: false
+  family: illustrazione-repertori-storici
+  name: Faceted Ink
+  aliases:
+  - faceted ink
+  - china sfaccettata
+  - inchiostro sfaccettato
+  - disegno a china geometrico
+  summary: Serif scultorea dominante e disegno a china sfaccettato, integrati in una griglia editoriale
+    su carta chiara.
+  tags:
+  - inchiostro
+  - serif
+  - griglia
+  - editoriale
+  - disegno sfaccettato
+  profile: references/styles/faceted-ink/profilo.yaml
+  example: references/styles/faceted-ink/esempio.png
+  notes: references/styles/faceted-ink/note.md
+  example_prompt: references/styles/faceted-ink/prompt-esempio.md
+  example_count: 2
+  example_text: Una buona domanda sposta il confine.
+  example_label: La domanda
+  example_2: references/styles/faceted-ink/esempio-2.png
+  notes_2: references/styles/faceted-ink/note-2.md
+  example_prompt_2: references/styles/faceted-ink/prompt-esempio-2.md
+  example_2_text: Le idee crescono quando cambiano prospettiva.
+  example_2_label: Le idee
+- id: monochrome-newspaper
+  release_candidate: true
+  production_mode: hybrid
+  family: collage-stampa
+  name: Newspaper
+  aliases:
+  - monochrome newspaper
+  - giornale monocromatico
+  - quotidiano in bianco e nero
+  - newsprint
+  - newspaper print
+  - newspaper
+  summary: Titolo serif da quotidiano, carta newsprint e immagini fotografiche o illustrate con retino
+    visibile.
+  tags:
+  - quotidiano
+  - newsprint
+  - serif
+  - halftone
+  - fotografia
+  - editoriale
+  profile: references/styles/monochrome-newspaper/profilo.yaml
+  example: references/styles/monochrome-newspaper/esempio.png
+  notes: references/styles/monochrome-newspaper/note.md
+  example_prompt: references/styles/monochrome-newspaper/prompt-esempio.md
+  example_2: references/styles/monochrome-newspaper/esempio-2.png
+  notes_2: references/styles/monochrome-newspaper/note-2.md
+  example_prompt_2: references/styles/monochrome-newspaper/prompt-esempio-2.md
+  example_text: UNA BUONA DOMANDA SPOSTA IL CONFINE.
+  example_label: La domanda
+  example_2_text: LE IDEE CRESCONO QUANDO CAMBIANO PROSPETTIVA.
+  example_2_label: Le idee
+- id: child-design
+  release_candidate: true
+  production_mode: generative
+  family: segno-manuale-lettering
+  name: Child Design
+  aliases:
+  - child design
+  - naif
+  - naïf
+  - stile naïf
+  - crayon lettering
+  - pastello a cera
+  summary: Illustrazione naïf con segni a pastello visibili e lettering manuale latino; soggetti e tavolozza
+    variano in base alla frase.
+  tags:
+  - naïf
+  - pastello
+  - lettering manuale
+  - crayon
+  - illustrazione
+  - editoriale
+  profile: references/styles/child-design/profilo.yaml
+  example: references/styles/child-design/esempio.png
+  notes: references/styles/child-design/note.md
+  example_prompt: references/styles/child-design/prompt-esempio.md
+  example_2: references/styles/child-design/esempio-2.png
+  notes_2: references/styles/child-design/note-2.md
+  example_prompt_2: references/styles/child-design/prompt-esempio-2.md
+  example_text: Una buona domanda sposta il confine.
+  example_label: La domanda
+  example_2_text: Le idee crescono quando cambiano prospettiva.
+  example_2_label: Le idee
+- id: neo-mondrian
+  release_candidate: false
+  family: griglia-tipografia
+  name: Neo Mondrian
+  aliases:
+  - neo mondrian
+  - neo-mondrian
+  - mondrian quote card
+  - geometria primaria
+  summary: Citazione condensata e dominante in una griglia modernista di campiture primarie e divisori
+    neri.
+  tags:
+  - mondrian
+  - modernismo
+  - geometrico
+  - griglia
+  - colori primari
+  - quote card
+  profile: references/styles/neo-mondrian/profilo.yaml
+  example: references/styles/neo-mondrian/esempio.png
+  notes: references/styles/neo-mondrian/note.md
+  example_prompt: references/styles/neo-mondrian/prompt-esempio.md
+  example_count: 2
+  example_text: Ogni scelta dà forma al futuro.
+  example_label: La scelta
+  example_2: references/styles/neo-mondrian/esempio-2.png
+  notes_2: references/styles/neo-mondrian/note-2.md
+  example_prompt_2: references/styles/neo-mondrian/prompt-esempio-2.md
+  example_2_text: La chiarezza nasce dall’ordine.
+  example_2_label: La chiarezza
+- id: watercolor
+  pilot_selected: true
+  release_candidate: true
+  production_mode: generative
+  family: illustrazione-repertori-storici
+  name: Watercolor
+  aliases:
+  - watercolor
+  - acquerello
+  - acquerello editoriale
+  - watercolor editorial
+  summary: Acquerello editoriale su carta chiara, con lettering latino a pennellate, pigmenti traslucidi
+    e un campo leggibile per la citazione.
+  tags:
+  - acquerello
+  - watercolor
+  - carta
+  - editoriale
+  - calmo
+  - brush lettering
+  - pennellata
+  profile: references/styles/watercolor/profilo.yaml
+  example: references/styles/watercolor/esempio-brush.png
+  notes: references/styles/watercolor/note-brush.md
+  example_prompt: references/styles/watercolor/prompt-esempio-brush.md
+  example_count: 3
+  example_text: Ogni scelta dà forma al futuro.
+  example_label: Pennellata
+  example_2: references/styles/watercolor/esempio.png
+  notes_2: references/styles/watercolor/note.md
+  example_prompt_2: references/styles/watercolor/prompt-esempio.md
+  example_2_label: Serif · prima prova
+  example_3: references/styles/watercolor/esempio-2.png
+  notes_3: references/styles/watercolor/note-2.md
+  example_prompt_3: references/styles/watercolor/prompt-esempio-2.md
+  example_3_label: Serif · seconda prova
+  example_2_text: Ogni scelta dà forma al futuro.
+  example_3_text: Anche il silenzio può indicare una direzione.
+- id: neo-risograph
+  release_candidate: false
+  family: collage-stampa
+  name: Neo Risograph
+  aliases:
+  - neo risograph
+  - risograph
+  - risograph editoriale
+  - risografia
+  - stampa risograph
+  summary: Ritagli d'archivio, retino e sovrapposizione controllata di inchiostri in un poster editoriale
+    tipografico.
+  tags:
+  - risograph
+  - risografia
+  - stampa
+  - retino
+  - halftone
+  - ritaglio d'archivio
+  profile: references/styles/neo-risograph/profilo.yaml
+  example: references/styles/neo-risograph/esempio.png
+  notes: references/styles/neo-risograph/note.md
+  example_prompt: references/styles/neo-risograph/prompt-esempio.md
+  example_count: 2
+  example_text: Ogni scelta dà forma al futuro.
+  example_label: La scelta
+  example_2: references/styles/neo-risograph/esempio-2.png
+  notes_2: references/styles/neo-risograph/note-2.md
+  example_prompt_2: references/styles/neo-risograph/prompt-esempio-2.md
+  example_2_text: Le idee antiche possono aprire strade nuove.
+  example_2_label: Le idee
+- id: underground-comic
+  release_candidate: false
+  family: segno-manuale-lettering
+  name: Underground Comic
+  aliases:
+  - underground comic
+  - fumetto underground
+  - zine
+  - comic DIY
+  - fumetto DIY
+  summary: 'Fumetto DIY su carta avorio: inchiostro ruvido e pannelli illustrati sostengono una citazione
+    grande e leggibile.'
+  tags:
+  - fumetto
+  - underground
+  - zine
+  - DIY
+  - inchiostro
+  - illustrazione
+  profile: references/styles/underground-comic/profilo.yaml
+  example: references/styles/underground-comic/esempio.png
+  notes: references/styles/underground-comic/note.md
+  example_prompt: references/styles/underground-comic/prompt-esempio.md
+  example_count: 2
+  example_text: Ogni scelta dà forma al futuro.
+  example_label: La scelta
+  example_2: references/styles/underground-comic/esempio-2.png
+  notes_2: references/styles/underground-comic/note-2.md
+  example_prompt_2: references/styles/underground-comic/prompt-esempio-2.md
+  example_2_text: A volte la via più strana è quella giusta.
+  example_2_label: La via
+- id: architectural-isometric
+  release_candidate: true
+  production_mode: typeset
+  family: disegno-tecnico-spazio
+  name: Architectural Isometric
+  aliases:
+  - architectural isometric
+  - isometrico architettonico
+  - architettura isometrica
+  - isometric architecture
+  summary: Geometrie architettoniche isometriche, sans-serif lineare e palette adattata al tema della
+    frase.
+  tags:
+  - isometrico
+  - architettura
+  - geometria
+  - modulare
+  - palette adattiva
+  - editoriale
+  profile: references/styles/architectural-isometric/profilo.yaml
+  example: references/styles/architectural-isometric/esempio.png
+  notes: references/styles/architectural-isometric/note.md
+  example_prompt: references/styles/architectural-isometric/prompt-esempio.md
+  example_count: 2
+  example_text: Ogni scelta dà forma al futuro.
+  example_label: La scelta
+  example_2: references/styles/architectural-isometric/esempio-2.png
+  notes_2: references/styles/architectural-isometric/note-2.md
+  example_prompt_2: references/styles/architectural-isometric/prompt-esempio-2.md
+  example_2_text: La fiducia si costruisce passo dopo passo.
+  example_2_label: La fiducia
+- id: retro-ui
+  release_candidate: true
+  production_mode: typeset
+  family: interfacce-cultura-web
+  name: Retro UI
+  aliases:
+  - retro ui
+  - retro computer
+  - interfaccia anni novanta
+  - windows anni 90
+  summary: Finestre desktop anni Novanta, citazione monospace, contorni e ombre nette; colori variabili
+    secondo il contenuto.
+  tags:
+  - retro
+  - interfaccia
+  - anni novanta
+  - monospace
+  - quote card
+  profile: references/styles/retro-ui/profilo.yaml
+  example: references/styles/retro-ui/esempio.png
+  notes: references/styles/retro-ui/note.md
+  example_prompt: references/styles/retro-ui/prompt-esempio.md
+  example_count: 2
+  example_text: Ogni scelta dà forma al futuro.
+  example_label: Sans UI
+  example_2: references/styles/retro-ui/esempio-2.png
+  notes_2: references/styles/retro-ui/note-2.md
+  example_prompt_2: references/styles/retro-ui/prompt-esempio-2.md
+  example_2_text: Ogni scelta dà forma al futuro.
+  example_2_label: Monospace
+- id: internet-nostalgia
+  release_candidate: true
+  production_mode: hybrid
+  family: interfacce-cultura-web
+  name: Y2K
+  aliases:
+  - internet nostalgia
+  - web anni 2000
+  - homepage anni 2000
+  - y2k web
+  - y2k
+  summary: Collage web dei primi anni Duemila, sticker e clip-art intorno a una citazione in font pixel.
+  tags:
+  - internet
+  - nostalgia
+  - anni 2000
+  - pixel
+  - collage
+  - quote card
+  - y2k
+  - font pixel
+  profile: references/styles/internet-nostalgia/profilo.yaml
+  example: references/styles/internet-nostalgia/esempio.png
+  notes: references/styles/internet-nostalgia/note.md
+  example_prompt: references/styles/internet-nostalgia/prompt-esempio.md
+  example_count: 2
+  example_text: Ogni scelta dà forma al futuro.
+  example_label: Web anni 2000
+  example_2: references/styles/internet-nostalgia/esempio-2.png
+  notes_2: references/styles/internet-nostalgia/note-2.md
+  example_prompt_2: references/styles/internet-nostalgia/prompt-esempio-2.md
+  example_2_text: Ogni scelta dà forma al futuro.
+  example_2_label: Pixel
+- id: grottesco-editoriale-doppia-lettura
+  pilot_selected: true
+  release_candidate: true
+  production_mode: typeset
+  family: griglia-tipografia
+  name: Modern Minimalism
+  aliases:
+  - grottesco editoriale
+  - doppia lettura
+  - poster a doppia scala
+  - grottesco tipografico
+  - grottesco editoriale a doppia lettura
+  - modern minimalism
+  summary: 'Due masse tipografiche a scala diversa: citazione completa ed estratto letterale ingrandito,
+    sans-serif lineare, asse sinistro comune e griglia editoriale a quattro colonne. Variante facoltativa
+    con una sola parola serif corsiva.'
+  tags:
+  - tipografico
+  - grottesco
+  - editoriale
+  - modernista
+  - doppia lettura
+  - palette variabile
+  - minimalismo
+  - asimmetria
+  - sans-serif
+  profile: references/styles/grottesco-editoriale-doppia-lettura/profilo.yaml
+  example: references/styles/grottesco-editoriale-doppia-lettura/esempio.png
+  notes: references/styles/grottesco-editoriale-doppia-lettura/note.md
+  example_prompt: references/styles/grottesco-editoriale-doppia-lettura/prompt-esempio.md
+  example_count: 4
+  example_text: Le idee acquistano valore quando diventano chiare. Progettare significa dare forma al
+    pensiero.
+  example_label: Forma e pensiero
+  example_2: references/styles/grottesco-editoriale-doppia-lettura/esempio-2.png
+  notes_2: references/styles/grottesco-editoriale-doppia-lettura/note-2.md
+  example_prompt_2: references/styles/grottesco-editoriale-doppia-lettura/prompt-esempio-2.md
+  example_2_text: Le idee crescono quando cambiano prospettiva.
+  example_2_label: La prospettiva
+  example_3: references/styles/grottesco-editoriale-doppia-lettura/esempio-3.png
+  notes_3: references/styles/grottesco-editoriale-doppia-lettura/note-3.md
+  example_3_source: references/styles/grottesco-editoriale-doppia-lettura/impaginatore/card.yaml
+  example_3_method: deterministic_typesetting
+  example_3_text: Le idee crescono quando cambiano prospettiva.
+  example_3_label: Archivo 700
+  example_4: references/styles/grottesco-editoriale-doppia-lettura/esempio-4.png
+  notes_4: references/styles/grottesco-editoriale-doppia-lettura/note-4.md
+  example_prompt_4: references/styles/grottesco-editoriale-doppia-lettura/prompt-esempio-4.md
+  example_4_text: Ogni scelta dà forma al futuro.
+  example_4_label: MR2 · serif corsivo approvato
+  example_4_method: targeted_typography_edit
+- id: condensed-editorial
+  release_candidate: false
+  production_mode: hybrid
+  family: griglia-tipografia
+  name: Condensed Editorial
+  aliases:
+  - condensed editorial
+  - condensed editorial
+  summary: Tipografia condensata monumentale, linee e cerchi sottili, macchie diffuse astratte; colori
+    variabili per ogni composizione.
+  tags:
+  - tipografico
+  - condensato
+  - editoriale
+  - palette variabile
+  - macchie diffuse
+  profile: references/styles/condensed-editorial/profilo.yaml
+  example: references/styles/condensed-editorial/esempio.png
+  notes: references/styles/condensed-editorial/note.md
+  example_prompt: references/styles/condensed-editorial/prompt-esempio.md
+  example_count: 1
+  example_text: Ogni scelta dà forma al futuro.
+  example_label: CT1 · approvata
+- id: editor-canvas
+  release_candidate: true
+  production_mode: typeset
+  family: interfacce-cultura-web
+  name: Editor Canvas
+  aliases:
+  - editor canvas
+  - editor canvas
+  - editorial canvas
+  summary: 'La citazione come oggetto in un editor grafico: selezioni, maniglie, guide, puntatore ed evidenziazioni
+    coordinate.'
+  tags:
+  - tipografico
+  - editor
+  - selezione
+  - interfaccia
+  - palette variabile
+  profile: references/styles/editor-canvas/profilo.yaml
+  example: references/styles/editor-canvas/esempio.png
+  notes: references/styles/editor-canvas/note.md
+  example_prompt: references/styles/editor-canvas/prompt-esempio.md
+  example_count: 1
+  example_text: Ogni scelta dà forma al futuro.
+  example_label: EC1 · approvata

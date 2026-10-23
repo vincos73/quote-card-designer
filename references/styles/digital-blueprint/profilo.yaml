@@ -1,0 +1,148 @@
+Design Style:
+  Name: Digital Blueprint
+  Concept: 'Editorial quote-card design inspired by architectural blueprints and engineering drawings.
+    A blue drawing field, a discreet grid and white-line wireframe illustrations express a quotation through
+    structure, relationships and purposeful construction. The result feels intelligent, analytical and
+    precise, with the quotation retaining priority over technical detail.
+
+    '
+  Canvas:
+    Ratio: '4:5'
+    Output: Single flat social quote card, full bleed
+    Adaptation: 'Adapted from a 16:9 presentation reference to the skill''s portrait default. Recompose
+      for 16:9 or another ratio when requested; do not merely shrink a landscape slide into a portrait
+      frame.
+
+      '
+  Mood:
+  - Technical
+  - Structured
+  - Intelligent
+  - Strategic
+  - Professional
+  - Analytical
+  - Futuristic
+  - Precise
+  Color Palette:
+    Background:
+      Primary: '#0066A8'
+      Secondary: '#0A7BC2'
+      Dark: '#004A80'
+    Text:
+      Primary: '#FFFFFF'
+      Secondary: '#D7E7F5'
+    Line:
+      Primary: '#FFFFFF'
+    Roles: 'The primary blue carries the drawing field. Lighter and darker blue may distinguish selected
+      planes or panels. White carries the main quotation and significant outlines; pale blue supports
+      quieter words and secondary construction. Keep the palette monochromatic rather than adding signal
+      colours.
+
+      '
+  Typography:
+    Primary:
+      Style: Technical digital monospace sans-serif, the default for the main quotation
+      Weight: 400 per Share Tech Mono; gerarchia attraverso corpo, a capo e posizione
+      Candidate Font: Share Tech Mono, suggested candidate; generative rendering does not guarantee the
+        exact font file
+      Role: Main quotation; large, precise and optically spaced
+    Secondary:
+      Style: Technical monospace, preferably from the same available family
+      Weight: 400 per Share Tech Mono
+      Role: Quieter quotation fragments and attribution when supplied
+    Case: 'Preserve the supplied quotation''s capitalization. Uppercase may be used when requested or
+      already present in the copy; it is not an automatic conversion inherited from presentation headings.
+
+      '
+    Hierarchy: 'Establish hierarchy through scale, spacing, line breaks and position. Light type must
+      remain readable at phone size; avoid hairline lettering or reducing the quotation to a drawing annotation.
+
+      '
+  Layout:
+    Structure:
+    - Framed composition with purposeful openings
+    - Technical panels and modular divisions
+    - Shared alignments between quotation and drawing
+    - A clear primary field and quieter construction zones
+    Relationships: 'Treat lettering and illustration as parts of the same drawing sheet. A frame, datum
+      or wireframe edge can establish a meaningful interval or transition for the words. Use only the
+      panels the quotation needs; dense technical detail must leave a calm reading area. Frames and panels
+      are available devices, not a mandatory dashboard template.
+
+      '
+  Elements:
+    Background:
+      Grid: Fine blueprint grid, approximately 12% opacity
+      Treatment: 'Keep the grid subordinate to both text and illustration; soften or interrupt it where
+        needed for readability.
+
+        '
+    Illustration:
+      Style: Monochrome white-line wireframe, technical sketch and CAD-inspired drawing
+      Subjects:
+      - Architectural structures and spatial thresholds
+      - Systems, networks and data architecture
+      - Process flows and relationships
+      - Infrastructure and technology
+      Selection: 'Choose a drawing or spatial relationship from the quotation and context. These subjects
+        are an open repertoire, not an instruction to insert a building or network in every card. Architectural
+        plans, sections, axonometric wireframes and schematic connections are possible treatments.
+
+        '
+    Construction:
+    - Consistent fine white outlines with a clear hierarchy of line weights
+    - Datums, projection lines and terminals tied to actual drawn elements
+    - Modular frames and geometric divisions
+  Effects:
+    Shadows: None
+    Gradients: Very subtle blue-to-blue variation only when useful
+    Borders: White technical lines
+    Depth: Wireframe projection and line hierarchy, without shaded solid rendering
+  Rules:
+  - Use the technical monospace quotation style by default and maintain a consistent drawing language.
+  - Preserve the quotation verbatim, render it once and make it the primary reading layer.
+  - Use line illustrations rather than realistic photography.
+  - Choose a meaningful structure before adding grid, panels or construction marks.
+  - Keep the composition modular and geometric, with enough open space for the text.
+  - Avoid fake dimensions, measurements, data, serial numbers and filler annotations.
+  - Do not invent cover titles, section numbers, KPI dashboards or comparison labels from the presentation
+    reference.
+  - Use only supplied supporting text and supplied or verified attribution.
+  - When attribution is present, right-align its name to the drawing sheet's right margin or a clear right-hand datum.
+  - Avoid neon glow, glossy 3D, photographic renders and decorative technical clutter.
+  User Overrides:
+    Format: Recompose the drawing and reading sequence for the requested ratio.
+    Palette: 'Replace the colours when requested while preserving the drawing-field, text and construction-line
+      roles and sufficient contrast.
+
+      '
+    Fonts: 'Honour the requested type direction while preserving clear hierarchy and technical precision.
+      A generated resemblance does not verify an exact font.
+
+      '
+  Production:
+    Preferred Mode: hybrid
+    Reason: ImageGen compone la card completa, integrando citazione, disegno tecnico e gerarchia visiva.
+      Un impaginatore può rifinire testo e linee se serve, conservando la composizione generata come base
+      effettiva. Una scena interamente vettoriale senza ImageGen non soddisfa il metodo della skill.
+    Content Adaptation: Scegliere una struttura di sistemi o flussi pertinente alla frase; evitare una
+      rappresentazione letterale generica della torta. Se si corregge il testo separatamente, conservare
+      le relazioni spaziali create nella generazione. Non dichiarare che un disegno CAD o un font siano
+      esatti senza averli verificati.
+    Required Capabilities: ImageGen per la composizione completa; per un'eventuale rifinitura vettoriale,
+      primitive di linea e rettangolo, gerarchia di spessori e testo letterale con contrasto controllabile.
+    Current Prototype: Linee, rettangoli e testo sono disponibili e bastano per una griglia e wireframe
+      poligonali semplici. Non esistono ancora scene parametriche CAD, assi curvi o parser di questo profilo;
+      queste capacità non vanno descritte come già implementate.
+    Validation Status: Profilo non renderizzato nelle tre prove odierne. Le primitive del prototipo consentono
+      una prova limitata, non dimostrano ancora una card Digital Blueprint riconoscibile.
+    Selected Font:
+      Family: Share Tech Mono
+      Provider: Google Fonts
+      Weight: 400
+      Metadata URL: https://raw.githubusercontent.com/google/fonts/main/ofl/sharetechmono/METADATA.pb
+      Source File URL: https://raw.githubusercontent.com/google/fonts/main/ofl/sharetechmono/ShareTechMono-Regular.ttf
+      License: OFL
+      Verified Metadata Date: '2026-10-22'
+      Local File Included: false
+      Status: Famiglia scelta per il prossimo test; file non ancora scaricato né verificato nel rendering

@@ -1,0 +1,202 @@
+{
+  "background_srgb_samples" : [
+    [
+      24,
+      33,
+      46
+    ],
+    [
+      24,
+      33,
+      46
+    ],
+    [
+      24,
+      33,
+      46
+    ],
+    [
+      24,
+      33,
+      46
+    ],
+    [
+      24,
+      33,
+      46
+    ]
+  ],
+  "blocks" : [
+    {
+      "bounds_top_left_px" : [
+        79.200000000000003,
+        72,
+        294.63999999430291,
+        53.555888807744367
+      ],
+      "font_family" : "Libre Caslon Text",
+      "font_size_px" : 23.603300488208191,
+      "line_count" : 2,
+      "line_height_px" : 28.323960585849829,
+      "requested_font_size_px" : 24.48,
+      "section" : "header-1",
+      "tracking_em" : 0
+    },
+    {
+      "bounds_top_left_px" : [
+        407.51999999999998,
+        72,
+        235.13607946353,
+        47.961906592039028
+      ],
+      "font_family" : "Libre Caslon Text",
+      "font_size_px" : 23.603300488208191,
+      "line_count" : 2,
+      "line_height_px" : 28.323960585849829,
+      "requested_font_size_px" : 24.48,
+      "section" : "header-2",
+      "tracking_em" : 0
+    },
+    {
+      "bounds_top_left_px" : [
+        735.84000000000003,
+        72,
+        234.14474084302526,
+        53.555888807744466
+      ],
+      "font_family" : "Libre Caslon Text",
+      "font_size_px" : 23.603300488208191,
+      "line_count" : 2,
+      "line_height_px" : 28.323960585849829,
+      "requested_font_size_px" : 24.48,
+      "section" : "header-3",
+      "tracking_em" : 0
+    },
+    {
+      "bounds_top_left_px" : [
+        1064.1600000000001,
+        72,
+        270.34040214169249,
+        53.791921812626455
+      ],
+      "font_family" : "Libre Caslon Text",
+      "font_size_px" : 23.603300488208191,
+      "line_count" : 2,
+      "line_height_px" : 28.323960585849829,
+      "requested_font_size_px" : 24.48,
+      "section" : "header-4",
+      "tracking_em" : 0
+    },
+    {
+      "bounds_top_left_px" : [
+        79.200000000000003,
+        270,
+        1279.5999999855892,
+        444.75040363636867
+      ],
+      "font_family" : "Archivo",
+      "font_size_px" : 155.34418569206031,
+      "line_count" : 3,
+      "line_height_px" : 152.23730197821911,
+      "requested_font_size_px" : 158.40000000000001,
+      "section" : "complete-quote",
+      "tracking_em" : -0.014999999999999999
+    },
+    {
+      "bounds_top_left_px" : [
+        79.200000000000003,
+        864,
+        1279.5999999910466,
+        435.85466313948837
+      ],
+      "font_family" : "Archivo",
+      "font_size_px" : 236.49194961448089,
+      "line_count" : 2,
+      "line_height_px" : 222.30243263761201,
+      "requested_font_size_px" : 244.80000000000001,
+      "section" : "repeated-excerpt",
+      "tracking_em" : -0.014999999999999999
+    },
+    {
+      "bounds_top_left_px" : [
+        79.200000000000003,
+        1530,
+        232.98817911910305,
+        47.961906592038986
+      ],
+      "font_family" : "Libre Caslon Text",
+      "font_size_px" : 23.603300488208191,
+      "line_count" : 2,
+      "line_height_px" : 28.323960585849829,
+      "requested_font_size_px" : 24.48,
+      "section" : "footer-1",
+      "tracking_em" : 0
+    },
+    {
+      "bounds_top_left_px" : [
+        407.51999999999998,
+        1530,
+        245.54513497882976,
+        53.555888807744395
+      ],
+      "font_family" : "Libre Caslon Text",
+      "font_size_px" : 23.603300488208191,
+      "line_count" : 2,
+      "line_height_px" : 28.323960585849829,
+      "requested_font_size_px" : 24.48,
+      "section" : "footer-2",
+      "tracking_em" : 0
+    }
+  ],
+  "dimensions_px" : [
+    1440,
+    1800
+  ],
+  "excerpt" : "cambiano prospettiva.",
+  "font_fallbacks_detected" : false,
+  "font_size_ratio_effective" : 1.5223740017105003,
+  "fonts" : {
+    "primary" : {
+      "effective_axes" : {
+        "wdth" : 100,
+        "wght" : 700
+      },
+      "family" : "Archivo",
+      "file_loaded" : "fonts\/Archivo-VF.ttf",
+      "postscript_name" : "ArchivoRoman-Bold",
+      "sha256" : "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+      "version" : "Version 2.001"
+    },
+    "secondary" : {
+      "effective_axes" : {
+        "wght" : 400
+      },
+      "family" : "Libre Caslon Text",
+      "file_loaded" : "fonts\/LibreCaslonText-VF.ttf",
+      "postscript_name" : "LibreCaslonText-Regular",
+      "sha256" : "c11809dbfd5445886293d89b32bfc2584075c80e77750cf1c284113e36b8b3f4",
+      "version" : "Version 2.000"
+    }
+  },
+  "line_collisions_detected" : false,
+  "missing_glyphs_detected" : false,
+  "os_version" : "Version 26.6.2 (Build 25G83)",
+  "outputs" : {
+    "card_pdf" : "card-archivo-700.pdf",
+    "card_png" : "card-archivo-700.png",
+    "card_svg" : "card-archivo-700.svg",
+    "comparison_png" : "confronto-generatore-impaginatore.png",
+    "metrics_json" : "verifica-impaginazione.json"
+  },
+  "palette" : {
+    "background" : "#18212E",
+    "emphasis" : "#F2EBDD",
+    "quote" : "#93AFC2",
+    "rules" : "#F2EBDD",
+    "secondary" : "#F2EBDD"
+  },
+  "quote" : "Le idee crescono quando cambiano prospettiva.",
+  "renderer" : "Apple CoreText \/ CoreGraphics",
+  "svg_outlined" : true,
+  "text_out_of_bounds" : false
+}

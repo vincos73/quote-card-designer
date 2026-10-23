@@ -1,0 +1,52 @@
+Design Style:
+  Name: "Underground Comic"
+  Concept: >
+    Quote card ispirata a zine e fumetto underground DIY: segni d'inchiostro,
+    stampa ruvida, composizione editoriale a pannelli e piccoli scarti manuali
+    controllati. La citazione resta l'elemento dominante e leggibile.
+  Canvas:
+    Ratio: "4:5"
+    Type: "Quote card verticale"
+  Mood: ["DIY", "Expressive", "Editorial", "Playful", "Human", "Raw"]
+  Color Palette:
+    Paper: "#F2E9D8"
+    Ink: "#151515"
+    Accents:
+      Vermilion: "#E64A35"
+      Pink: "#D95A8B"
+    Rules:
+      - "Carta avorio e nero come base; vermiglio o rosa sono accenti limitati."
+      - "Texture di stampa ruvida soprattutto nei disegni e nei campi, mai sopra le lettere fino a ridurne la chiarezza."
+  Typography:
+    Quote:
+      Style: "Bold hand-lettered comic grotesk"
+      Weight: "Bold to extra bold"
+      Rules:
+        - "Trattare la frase come headline principale, con righe brevi e ordinate."
+        - "Il carattere può avere un tono disegnato, ma forme, spazi e allineamenti devono restare leggibili."
+        - "Kerning e spaziatura naturali; nessun tracking artificiale, deformazione, giustificazione o spezzatura delle parole."
+    Supporting:
+      Style: "Plain compact sans"
+      Weight: "Regular"
+      Rules: ["Evitare testo di supporto se non richiesto."]
+  Layout:
+    Structure: "Griglia editoriale DIY a pannelli"
+    Composition:
+      - "Alternare campi e pannelli illustrati con margini esterni chiari."
+      - "Riservare alla citazione il blocco più ampio e il contrasto più alto."
+      - "Usare variazioni di pannello e ritaglio per dare ritmo, senza incrociare la zona di lettura."
+  Imagery:
+    Style: "Monochrome underground-comic line drawing"
+    Treatment: ["Black ink", "Screen-print grain", "Scratchy hatching", "Hand-cut panel edges"]
+    Rules:
+      - "Disegni in bianco e nero con texture stampa, occasionalmente evidenziati da un accento piatto."
+      - "Un soggetto pertinente alla frase, non decorazioni casuali."
+  Effects:
+    Texture: "Visible but controlled paper and print grain"
+    Shadows: "None"
+    Gradients: "None"
+    Borders: "Irregular panel rules, medium black ink"
+  Rules:
+    - "Gerarchia tipografica e leggibilità prima della densità zine."
+    - "Nessuna scritta fittizia, label, attribuzione o onomatopea non richiesta."
+    - "DIY e imperfezione restano intenzionali e non alterano la frase."

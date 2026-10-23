@@ -1,0 +1,6 @@
+Use case: precise-object-edit
+Input image: edit target, the supplied existing flat editorial quote card.
+Make one tightly targeted text correction only. Preserve the existing composition, photographic or abstract imagery, colours, materials, textures, typography direction, line breaks, scale relationships and flat card format. Add a clearly visible intact opening French double angle quotation mark « immediately before the capital U in Una, and a clearly visible intact closing French double angle quotation mark » immediately after the final period in confine. They should match the black type and weight. If needed, use only the minimum local spacing adjustment to fit the added marks without clipping; keep all existing text and imagery otherwise unchanged.
+The complete visible text must now be exactly, ONCE:
+«Una buona domanda sposta il confine.»
+Keep the initial capital U, all existing words, existing line breaks and the final period inside the closing guillemet. No other text, attribution, labels or symbols. Do not replace guillemets with ordinary quotes, single chevrons or parentheses. Both double angle marks must be unmistakably visible and fully inside the canvas. Do not regenerate the design or add anything else.

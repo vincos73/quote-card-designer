@@ -1,0 +1,5 @@
+interface:
+  display_name: "Quote Card Designer"
+  short_description: "Quote card artistiche da frasi, testi e articoli"
+  default_prompt: "Usa $quote-card-designer per creare una quote card da una frase, un testo o un link."
+

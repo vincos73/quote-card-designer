@@ -1,0 +1,201 @@
+Design Style:
+  Name: Ethereal Editorial
+  Concept: Dreamlike photographic editorial design centred on pronounced optical bokeh, shallow depth of field
+    and an organic 35mm-film-like grain. A half-remembered environment, light event or fragile trace of presence
+    remains softly unresolved. Defocused highlights create luminous depth and imperfect photographic atmosphere
+    while delicate typography stays sharply readable in a quieter tonal interval.
+  Canvas:
+    Ratio: '4:5'
+    Output: Single finished editorial quote card, full bleed
+    Adaptation: 'Use the quote-card workflow''s portrait default unless another ratio is requested. The four
+      source panels are separate compositions, not a required multi-panel template or proof of exact original
+      dimensions.
+
+      '
+  Mood:
+  - Ethereal
+  - Dreamlike
+  - Poetic
+  - Intimate
+  - Melancholic
+  - Luminous
+  - Contemplative
+  - Elusive
+  - Unresolved
+  - Imperfect
+  Color Palette:
+    Fixed Colors: false
+    Strategy: 'Choose a coherent atmosphere for the current image: warm natural tones, cool nocturnal colour,
+      muted urban tones or prismatic light can all express this language. No hue is essential. Preserve the
+      relationship between a quieter photographic field, a luminous event and readable type.
+
+      '
+    Roles:
+      Atmospheric Field: 'A loosely registered photographic environment or optical field carries broad tonal
+        masses and a calm area for the quotation. It may be warm or cool, light or dark; avoid automatic postcard-like
+        sunset lighting.
+
+        '
+      Luminous Presence: 'A bright, often near-white or colour-tinted highlight hints at a figure, motion trace,
+        edge or optical event. Let its contour and internal detail remain incomplete, with a partly ambiguous
+        identity.
+
+        '
+      Secondary Light: 'A small reflected, refracted or contrasting colour may add emotional tension. It belongs
+        to the light or scene rather than a flat sticker.
+
+        '
+      Typography: 'Choose light or dark lettering for contrast with a quiet image region. Do not force pale
+        text over the brightest flare or busy texture.
+
+        '
+  Typography:
+    Expressive:
+      Style: Delicate high-contrast serif, flowing italic or fine calligraphic lettering
+      Role: One meaningful word or short phrase with an expressive editorial scale
+      Character: 'Long strokes, elegant curves and occasional ligature-like relationships can carry a floating
+        rhythm. Keep the actual letters, accents and punctuation recognizable; do not let flourishes replace
+        words.
+
+        '
+    Supporting:
+      Style: Restrained clean sans-serif or a quieter related serif
+      Role: Connecting words within the supplied quotation
+    Hierarchy: 'Choose a coherent leading register and a quieter supporting register. The reference permits
+      either large expressive type or a small calm text block, but a quote card still needs full mobile readability.
+      Preserve the supplied case and reading sequence. Do not imitate the reference''s peripheral microtext
+      with invented captions.
+
+      '
+  Layout:
+    Structure:
+    - Atmospheric image field with a clear luminous focal event
+    - Delicate typography occupying quieter tonal intervals
+    - Selective overlap between light, image and lettering
+    - A deliberate balance between an expressive area and visual silence
+    Relationships: 'Let the luminous presence and typography share direction, scale or spacing. Place words
+      where the image allows them to breathe, rather than attaching a label panel to the scene. A flare may
+      approach a letter edge but must not erase the supplied text.
+
+      '
+    Composition Families:
+      Presence and Absence: 'A photographic subject or place is interrupted by a luminous trace, missing form
+        or partially dissolved presence.
+
+        '
+      Nocturnal Motion: 'A subject, reflection or light trace moves through a quieter dark field with localized
+        blur and a readable focal relationship.
+
+        '
+      Urban Apparition: 'A grainy architectural or everyday environment holds a soft luminous form, combining
+        familiar photographic detail with dreamlike ambiguity.
+
+        '
+      Prismatic Light: 'A concentrated diffraction, reflection or refracted-light event leads the composition,
+        with surrounding tonal space supporting the text.
+
+        '
+    Selection: 'Select one coherent family or a restrained combination from the quotation''s mood. Do not assemble
+      all four into every card or turn the style into a permanent glowing-person template.
+
+      '
+  Imagery:
+    Style: Dreamlike photographic fragment with strong optical bokeh, soft background detail and organic 35mm-like
+      reproduction.
+    Subjects:
+    - People, gestures and traces of presence
+    - Natural, urban or otherwise familiar photographic places
+    - Suggested organic forms, loose reflections and unresolved motion traces
+    - Light, glass or refractive events when relevant
+    Selection: 'Choose the subject from the quotation and context. The pair in a meadow, bird, city tower,
+      luminous silhouette and prismatic burst are specific reference examples, not mandatory protagonists.
+
+      '
+    Treatment:
+    - Pronounced optical defocus with luminous out-of-focus highlights, varying in size, softness and partial
+      overlap according to photographic depth.
+    - A few sharper photographic anchors may remain; do not describe the whole setting crisply.
+    - Restrained bloom and halation around plausible light sources.
+    - Visible fine-to-medium organic film-like grain and softly compressed tones; no compulsory scratch or
+      damage overlay.
+    - Optional motion softness, reflections, spectral fringes or imperfect glass when coherent with the scene.
+  Graphic Elements:
+    Repertoire:
+    - Optical glints or fine light streaks grounded in the luminous event
+    - Sparse delicate rules or open outline fragments when they support type
+    Selection: 'The image and light carry the identity. Supporting marks are optional; avoid adding a grid,
+      geometric sticker set or starburst decoration to simulate atmosphere. A prismatic flare is an optical
+      effect, not a flat icon.
+
+      '
+  Effects:
+    Light: Localized bloom, halation and bright spill into the surrounding image
+    Focus: Shallow depth of field and strongly defocused background; retain only a few suggestive anchors.
+      Keep lettering sharp rather than blurring the whole card uniformly.
+    Motion: Uneven directional smears, soft ghost traces and incomplete edges where appropriate
+    Texture: Organic visible grain recalling 35mm film, fine or medium according to scene and scale. No mandatory
+      scratches, film strip border, sprocket holes, date stamp or camera labels.
+    Fidelity: Low-fidelity photographic information with a carefully composed editorial reading layer
+    Refraction: Optional subtle spectral fringes and light scatter near a plausible source
+    Depth: Photographic space and atmosphere rather than paper-cutout layering
+    Text: Readable letter cores even when edges receive a faint optical softness
+    Bokeh: 'A defining default: pronounced optical bokeh from scene light, reflections or specular highlights.
+      Vary size, intensity, depth and edge softness; avoid a flat decorative circle or glitter overlay.'
+    Film Aesthetic: Use 35mm-like tonal compression, restrained highlight halation and imperfect photographic
+      capture as an aesthetic; do not claim actual analogue capture or a particular film stock.
+  Rules:
+  - Preserve the supplied quotation verbatim and normally render it once.
+  - Build the atmosphere around pronounced photographic bokeh and a coherent luminous event or fragile presence.
+  - Use colour flexibly while preserving readable luminance relationships.
+  - Prefer photographic suggestion, shallow depth and bokeh over a fully sharp, comprehensively described subject.
+  - Let photographic forms remain blurred and incomplete while protecting the quotation's readable cores.
+  - Avoid polished stock-photo beauty, intricate object rendering and sentimental postcard imagery.
+  - Use only supplied supporting text and supplied or verified attribution.
+  - Do not invent credits, lyrics, names, small captions or decorative microtext.
+  - Do not reproduce the reference screenshot's four-panel layout, central badge, navigation arrows or pagination
+    dots.
+  - Avoid sticker collage, hard vector bursts, technical grids, glossy product renders and unrelated fantasy
+    clutter.
+  - Keep bokeh in the photographic layer; preserve clean, readable quotation lettering.
+  - Do not make any scene, subject, bokeh hue or warm/cool palette obligatory.
+  User Overrides:
+    Format: Recompose the luminous event, photographic space and reading field for the requested ratio.
+    Palette: Honour the requested palette; no hue defines the style.
+    Fonts: 'Honour the requested direction while preserving delicacy, expressive hierarchy and full word recognition.
+      A generated resemblance does not verify an exact font family.
+
+      '
+    GlowIntensity: Adjust bloom and halation while protecting the reading layer and a few suggestive image
+      anchors.
+    Subjects: Use the requested subject and express the atmosphere through light and photographic treatment.
+    Bokeh: Adjust intensity and luminous highlight sizes while retaining optical coherence, depth and a quiet
+      readable text interval.
+    Grain: Adjust organic grain strength; preserve text clarity and do not substitute scratches or film borders
+      for photographic texture.
+  Production:
+    Preferred Mode: hybrid
+    Reason: The photographic bokeh, halation and 35mm-like grain build the atmosphere; a real measured text
+      layer preserves the delicate serif and full quotation legibility. Generate a text-free visual and place
+      typography in a quieter tonal interval when hybrid capabilities are available.
+    Content Adaptation: Se non è possibile analizzare o posizionare il testo sul campo fotografico, rigenerare
+      con una zona tonale quieta o usare un supporto editoriale minimo. Non generare l'intera quote card come
+      scorciatoia predefinita.
+    Required Capabilities: Immagine generata senza testo, misurazione o selezione del campo di luminanza, testo
+      fine su livelli sopra il visual e controllo della nitidezza dei glifi. Evitare box opachi obbligatori.
+    Current Prototype: Supporta testo e immagine come livelli, ma non stima luminanza, posizionamento semantico,
+      bloom, grana o contrasto locale. L'ibrido richiede scelta del campo da parte di un agente o un renderer
+      esteso.
+    Validation Status: The user preferred EE2 in the earlier full-imagegen comparison and approved the later
+      bokeh/35mm direction overall after EE4–EE6. No individual winner or per-card usability was supplied for
+      EE4–EE6. These are complete generative images; hybrid text insertion and exact font fidelity remain unverified.
+  Version: 0.1.1
+  Validation:
+    Approved Direction: Pronounced photographic bokeh and organic 35mm-like grain, approved by user after three
+      trials.
+    Scene And Palette: Variable; the nocturnal, botanical and warm-reflection examples are calibration, not
+      required templates.
+    Remaining Checks:
+    - a new quotation
+    - a substantially longer quotation
+    - optional attribution
+    - real-font hybrid rendering
