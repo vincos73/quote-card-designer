@@ -1508,3 +1508,30 @@ styles:
   example_count: 1
   example_text: CAMBIARE SGUARDO CAMBIA TUTTO.
   example_label: Black and white · stampa vissuta
+- id: ascii-editorial
+  release_candidate: false
+  v1_shortlisted: true
+  production_mode: generative
+  family: griglia-tipografia
+  name: ASCII Editorial
+  aliases:
+  - ascii
+  - ascii editorial
+  - ascii art
+  - arte ascii
+  summary: 'Un’immagine figurativa costruita con caratteri monospace apre il campo della citazione,
+    anch’essa in mono bold. Densità, glifi e vuoti creano una composizione condivisa.'
+  tags:
+  - ascii
+  - monospace
+  - caratteri
+  - figurativo
+  - computazionale
+  - editoriale
+  profile: references/styles/ascii-editorial/profilo.yaml
+  example: references/styles/ascii-editorial/esempio.png
+  notes: references/styles/ascii-editorial/note.md
+  example_prompt: references/styles/ascii-editorial/prompt-esempio.md
+  example_count: 1
+  example_text: Le idee crescono quando cambiano prospettiva.
+  example_label: Apertura nella figura

@@ -1,0 +1,33 @@
+Composition Library:
+  Style Name: ASCII Editorial
+  Selection:
+    Basis: Choose a figurative subject and a spatial relationship that enrich the meaning of the phrase.
+    Variation: Change subject, crop, scale, orientation and quiet opening; never apply all families at once.
+  Families:
+    - id: figure-and-opening
+      Name: Figura e apertura editoriale
+      Use When: A phrase can share the page with one distinct pictorial subject.
+      Structure: >
+        A large character-built figure opens a quiet field for the quotation.
+        Part of the figure continues beside the words, connecting image and
+        reading area into one asymmetrical composition.
+      Text Adaptation: Expand the opening for longer text and move or reduce the figure before shrinking the quote.
+      Format Adaptation: Recompose the opening, figure direction and text footprint for the requested ratio.
+    - id: cropped-study
+      Name: Studio figurativo al margine
+      Use When: A close crop can emphasize material, scale or a change of viewpoint.
+      Structure: >
+        A recognizable character-built subject is deliberately cropped by a
+        page edge. Its sparse boundary and active mass define the quotation's
+        position without invading letters or becoming a framed image panel.
+      Text Adaptation: Use semantic line breaks and retain a continuous quotation block with strong local contrast.
+      Format Adaptation: Change crop and subject scale to preserve recognition and useful reading space.
+    - id: inversion-field
+      Name: Figura in inversione
+      Use When: A phrase benefits from a large dark or coloured field and a luminous figurative image.
+      Structure: >
+        Light printable characters construct the subject against a dark
+        ground. Density shifts leave substantial quiet areas for a coherent
+        quotation, with the visual continuing alongside at least part of it.
+      Text Adaptation: Keep all words in an even local field and vary the image density at the block boundary.
+      Format Adaptation: Rebalance dark mass, open cells and quotation area rather than cropping a fixed poster.
