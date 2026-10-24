@@ -1,0 +1,37 @@
+Composition Library:
+  Style Name: Neo Industrial Editorial
+  Selection:
+    Basis: Choose a semantic relationship for the quote, then distribute a coherent micrographic system around it.
+    Variation: Change the main text structure, cluster positions, density and orange role; do not copy a fixed template.
+  Families:
+    - id: distributed-scaffold
+      Name: Struttura distribuita
+      Use When: A strong short or medium phrase can carry the page through typography.
+      Structure: >
+        Large asymmetrical text occupies the main field. Several small related
+        graphic clusters activate distant margins and internal intervals,
+        connected through shared axes and partial rules. One orange transition
+        links a clause to the micrographic system.
+      Text Adaptation: >
+        Preserve semantic groups and allow unequal line widths. Expand quiet
+        reading space for long text before reducing the type.
+      Format Adaptation: Recompose the scaffold and cluster distribution to the useful axes of the requested ratio.
+    - id: signal-band
+      Name: Fascia di segnale
+      Use When: The phrase contains an action, reversal or decisive clause.
+      Structure: >
+        A selective orange field anchors the decisive clause inside a broader
+        grey composition. Fine rules and small micrographics occupy both the
+        surrounding grey modules and an internal interval, avoiding a simple
+        banner framed by decoration.
+      Text Adaptation: Keep the sentence continuous in reading order and size the coloured field around the semantic group.
+      Format Adaptation: Change the band orientation, proportions and module relationships for each format.
+    - id: technical-margins
+      Name: Margini attivi e giunto interno
+      Use When: A longer quotation needs a relatively quiet, continuous text area.
+      Structure: >
+        A calm quotation block is supported by unequal technical margins with
+        small schematics and calibration marks. One internal alignment, cut
+        or typographic interval brings the same graphic logic into the page.
+      Text Adaptation: Increase the text area and simplify the marks while retaining several distributed clusters.
+      Format Adaptation: Reallocate the active margins and internal joint instead of shrinking an existing layout.

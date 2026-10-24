@@ -239,14 +239,14 @@ def build():
         is_candidate = bool(style.get('release_candidate'))
         is_shortlisted = bool(style.get('v1_shortlisted'))
         if is_candidate and is_shortlisted:
-            raise ValueError(f'Stato V1 ambiguo per {identifier}: selezionato e papabile')
+            raise ValueError(f'Stato V1 ambiguo per {identifier}: selezionato e candidate')
         method = MODE_LABELS.get(style.get('production_mode'), '')
         if (is_candidate or is_shortlisted) and not method:
             raise ValueError(f"Metodo di produzione assente o sconosciuto per {identifier}")
         pilot_tag = '<span class="pilot-badge">Test pilota</span>' if style.get('pilot_selected') else ''
         release_meta = f'<div class="release-meta"><span class="release-badge">Selezionata V1</span>{pilot_tag}<span>Metodo consigliato: {method}</span></div>' if is_candidate else ''
         if is_shortlisted:
-            release_meta = '<div class="release-meta"><span class="shortlist-badge">Papabile V1</span></div>'
+            release_meta = '<div class="release-meta"><span class="shortlist-badge">V1 candidate</span></div>'
         profile_path = SKILL/style['profile']
         original = profile_path.read_text()
         document, resources = load_style_document(profile_path)
@@ -310,7 +310,7 @@ def build():
 <fieldset class="release-filters"><legend>Stato release</legend><div class="release-options">
 <label class="release-filter"><input name="release-status" type="radio" value="all" aria-controls="catalogo" checked><span>Tutti ({count})</span></label>
 <label class="release-filter"><input name="release-status" type="radio" value="selected" aria-controls="catalogo"><span>Selezionati V1 ({release_count})</span></label>
-<label class="release-filter"><input name="release-status" type="radio" value="shortlisted" aria-controls="catalogo"><span>Papabili V1 ({shortlist_count})</span></label>
+<label class="release-filter"><input name="release-status" type="radio" value="shortlisted" aria-controls="catalogo"><span>Candidates ({shortlist_count})</span></label>
 <label class="release-filter"><input name="release-status" type="radio" value="unreleased" aria-controls="catalogo"><span>Non ancora nella release ({unreleased_count})</span></label>
 </div></fieldset>
 <p class="release-note">I metodi indicati sono consigli progettuali da verificare. Gli esempi possono precedere le ultime modifiche a font e palette.</p>

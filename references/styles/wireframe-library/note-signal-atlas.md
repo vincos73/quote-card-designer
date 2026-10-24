@@ -20,5 +20,5 @@ Piccoli effetti di volume sulle lettere restano osservabili: il profilo
 corrente richiede una resa tipografica piatta. È stato provato un solo testo;
 non sono ancora verificati testi diversi o un altro accento cromatico.
 
-Questo esempio è la copertina corrente. Lo stile è papabile per V1;
+Questo esempio è la copertina corrente. Lo stile è un V1 candidate;
 la candidatura non equivale all'inclusione nella selezione distribuita.
