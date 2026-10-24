@@ -1338,3 +1338,71 @@ styles:
   example_prompt_2: references/styles/dirty-brutalism/prompt-esempio-2.md
   example_2_text: Ogni scelta dà forma al futuro.
   example_2_label: Senza reference
+- id: ballpen
+  release_candidate: false
+  production_mode: generative
+  family: segno-manuale-lettering
+  name: Ballpen
+  aliases:
+  - ballpen
+  - ballpoint
+  - penna a sfera
+  - biro
+  summary: >-
+    Disegno e lettering a biro sulla stessa pagina: ripassi, tratteggi,
+    scarabocchi, macchie e sbavature organizzano un caos leggibile.
+    Modalità principale a tre penne colorate, con variante solo blu.
+  tags:
+  - ballpen
+  - biro
+  - lettering
+  - disegno
+  - caotico
+  - inchiostro
+  - palette variabile
+  profile: references/styles/ballpen/profilo.yaml
+  example: references/styles/ballpen/esempio-2.png
+  notes: references/styles/ballpen/note-2.md
+  example_prompt: references/styles/ballpen/prompt-esempio-2.md
+  example_count: 2
+  example_text: ANCHE IL CAOS HA UNA DIREZIONE.
+  example_label: Tre penne · principale
+  example_2: references/styles/ballpen/esempio.png
+  notes_2: references/styles/ballpen/note.md
+  example_prompt_2: references/styles/ballpen/prompt-esempio.md
+  example_2_text: ANCHE IL CAOS HA UNA DIREZIONE.
+  example_2_label: Solo blu · variante
+- id: neo-brutalism
+  release_candidate: false
+  production_mode: generative
+  family: griglia-tipografia
+  name: Neo Brutalism
+  aliases:
+  - neo brutalism
+  - neo-brutalism
+  - neobrutalism
+  - neubrutalism
+  - neobrutalismo
+  summary: >
+    Tipografia sans molto pesante, blocchi di colore piatto, contorni neri
+    marcati e ombre dure spostate; scarti e incastri danno energia alla
+    citazione senza comprometterne la lettura.
+  tags:
+  - tipografico
+  - neobrutalismo
+  - contorni netti
+  - ombre dure
+  - campiture piatte
+  - palette variabile
+  profile: references/styles/neo-brutalism/profilo.yaml
+  example: references/styles/neo-brutalism/esempio.png
+  notes: references/styles/neo-brutalism/note.md
+  example_prompt: references/styles/neo-brutalism/prompt-esempio.md
+  example_count: 2
+  example_text: Ogni scelta dà forma al futuro.
+  example_label: Pannello in scarto
+  example_2: references/styles/neo-brutalism/esempio-2.png
+  notes_2: references/styles/neo-brutalism/note-2.md
+  example_prompt_2: references/styles/neo-brutalism/prompt-esempio-2.md
+  example_2_text: Le idee crescono quando cambiano prospettiva.
+  example_2_label: Campi a incastro

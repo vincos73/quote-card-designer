@@ -1,0 +1,62 @@
+Composition Library:
+  Style Name: "Neo Brutalism"
+  Selection:
+    Basis: >
+      Scegliere una sola relazione principale fra frase, contorno e massa
+      cromatica in base a testo, formato ed eventuali nomi. Trasmettere al
+      generatore la famiglia scelta, non la somma delle alternative.
+    Variation: >
+      Per nuove card cambiare relazione spaziale oltre alla palette.
+      Per correzioni mirate conservare invece la composizione accettata.
+  Families:
+    - id: offset-panel
+      Name: "Pannello in scarto"
+      Use When: >
+        Una frase breve o media può costituire una massa compatta e beneficia
+        di un unico gesto grafico deciso.
+      Structure: >
+        Un grande piano tipografico contornato si discosta dall'asse di una
+        massa secondaria e proietta un'ombra nera netta. Una forma essenziale
+        si innesta su un bordo senza coprire la frase. Gli intervalli creano
+        asimmetria e tengono insieme testo e geometria.
+      Text Adaptation: >
+        Scegliere prima gli a capo e dimensionare il piano intorno al blocco.
+        Ridurre lo scarto o la rotazione per un testo lungo; lasciare un asse
+        destro distinto per un'attribuzione solo se presente.
+      Format Adaptation: >
+        Ricalibrare scala, scarto e masse per il rapporto richiesto, mantenendo
+        spazio per l'ombra e un campo di lettura continuo.
+    - id: interlocking-fields
+      Name: "Campi a incastro"
+      Use When: >
+        Una frase media o lunga richiede più spazio e può dialogare con una
+        separazione cromatica senza frammentarsi in etichette.
+      Structure: >
+        Poche campiture contornate si incastrano in una struttura asimmetrica.
+        Una apre il campo continuo della frase, un'altra ne sottolinea un
+        margine o un passaggio. La discontinuità interessa le masse, non le
+        parole, e un'ombra dura rivela lo scarto fra i piani.
+      Text Adaptation: >
+        Conservare un percorso di lettura unico. Allargare il campo uniforme
+        del testo prima di ridurre il corpo; non giustificare ogni riga né
+        collocare un blocco separato per ciascuna parola.
+      Format Adaptation: >
+        Ricomporre le masse e la direzione dell'incastro per il rapporto
+        richiesto, preservando leggibilità e pochi ancoraggi chiari.
+    - id: open-edge
+      Name: "Margine aperto"
+      Use When: >
+        Il testo ha bisogno di un campo ampio o la richiesta preferisce
+        una versione essenziale del linguaggio.
+      Structure: >
+        Il blocco della frase abita un campo cromatico aperto. Un piano
+        contornato e spostato preme da un margine, condividendo un asse con
+        il testo; un'ombra netta o una sola forma di accento rende evidente
+        il rapporto fra griglia e scarto. Il contenitore non è obbligatorio.
+      Text Adaptation: >
+        Dare priorità alle righe e ai nomi effettivi. Ridurre l'invasione dei
+        segni per un testo lungo e recuperare il registro dell'attribuzione
+        quando assente.
+      Format Adaptation: >
+        Scegliere nuovamente il margine attivo e la direzione della pressione
+        per il formato, senza riutilizzare lo stesso poster ritagliato.

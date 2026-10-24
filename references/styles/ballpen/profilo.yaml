@@ -1,0 +1,175 @@
+Design Style:
+  Name: "Ballpen"
+  Status: "Profilo sperimentale della libreria locale"
+  Concept: >
+    Una quote card che sembra nascere da una sessione di biro intensa e
+    imperfetta: citazione e disegno riconoscibile sono tracciati con la stessa
+    penna a sfera. Ripassi, scarabocchi, tratteggi, piccoli grumi d'inchiostro,
+    macchie e sbavature creano un caos visibile. La citazione resta completa e
+    leggibile; la densità cambia attorno alle parole e cresce nel disegno.
+    Il segno oleoso e discontinuo della biro distingue questo stile dalla
+    grafite asciutta di Pencil e dall'inchiostro liquido e arioso di Ink.
+
+  Reference Basis:
+    User Direction: >
+      Disegno e testo entrambi in stile ballpen; atmosfera caotica con
+      macchie e sbavature. Confrontare una versione solo blu con una versione
+      a più penne colorate.
+    Clean Comparison: >
+      L'immagine fornita dall'utente mostra una citazione in corsivo blu
+      elegante, molto spazio chiaro e un paesaggio ordinato con strada e
+      piante nella parte bassa. Ballpen sperimenta un disegno più presente,
+      lettering più irregolare e tracce d'errore, macchie e sbavature
+      riconoscibili; non riproduce quel paesaggio o il suo impaginato.
+    Operational References: >
+      Le istruzioni scritte sono autosufficienti. Non allegare automaticamente
+      immagini di esempio a una nuova generazione.
+
+  Canvas:
+    Ratio: "4:5"
+    Output: "Una card editoriale piatta a piena pagina, senza mockup della penna o del quaderno"
+    Adaptation: "Ricomporre disegno, campo della frase e scarabocchi per il formato richiesto."
+
+  Mood:
+    - Impulsivo
+    - Esplorativo
+    - Irregolare
+    - Umano
+    - Energico
+    - Leggibile
+
+  Color Palette:
+    Paper: "#F3F0E8, carta chiara non patinata"
+    Modes:
+      Blue Only:
+        Main Ink: "#234A9A, blu biro"
+        Dark Ink: "#162E72, ottenuto con ripassi e pressione"
+        Role: >
+          Tutto il contenuto a penna è blu. Profondità e variazione vengono
+          dalla densità dei tratti, non da un gradiente digitale.
+      Three Pens:
+        Main Ink: "#234A9A, blu biro per citazione e forma dominante"
+        Correction Ink: "#BA3341, rosso biro per deviazioni e correzioni"
+        Secondary Ink: "#357D5B, verde biro per tratteggi e percorsi secondari"
+        Role: >
+          Il blu resta dominante; rosso e verde compaiono come tratti di
+          penne diverse, con sovrapposizioni ottiche e sbavature localizzate.
+          Non trasformare i colori in campiture piene o pennarello.
+    Default: >
+      Three Pens è la modalità principale per la gallery generale: il blu
+      porta frase e disegno, il rosso e il verde rendono visibili correzioni
+      e percorsi. Blue Only resta una variante richiedibile.
+    Contrast: >
+      La frase mantiene nuclei blu scuri e spazi interni aperti. Macchie e
+      segni colorati non attraversano gli accenti o le lettere essenziali.
+
+  Typography:
+    Quote:
+      Style: "Lettering manuale a biro, con lettere costruite da tratti e ripassi visibili"
+      Case: >
+        Maiuscolo manuale come default di visualizzazione. Conservare la
+        cassa originale del testo fornito nei dati e rispettare una diversa
+        richiesta esplicita.
+      Hierarchy: >
+        Riportare la frase completa una sola volta. Variazioni di pressione,
+        piccoli scarti di inclinazione e lievi irregolarità di allineamento
+        danno ritmo; ogni parola conserva proporzioni naturali e ordine di
+        lettura. Una parola può essere sottolineata o ripassata se la frase lo
+        giustifica, senza simulare un font digitale perfetto.
+      Legibility: >
+        Le controforme, gli spazi fra parole, gli accenti e la punteggiatura
+        restano riconoscibili anche quando il segno è interrotto o addensato.
+    Attribution:
+      Style: "Stessa biro, corpo minore e pressione più leggera"
+      Placement: >
+        Solo se fornita o verificata, allineata a destra su un asse leggibile
+        e separata dai segni più densi. Se manca, recuperarne lo spazio.
+
+  Layout:
+    Principle: >
+      La card è una pagina di lavoro abitata, non una citazione pulita con
+      una vignetta decorativa. Un disegno riconoscibile occupa una porzione
+      importante della superficie e condivide traiettorie, tratteggi o linee
+      di costruzione con il lettering.
+    Reading Field: >
+      Il disordine può invadere margini, raccordi e disegno. Attorno al cuore
+      delle lettere lasciare pause locali; non mettere una fascia bianca
+      digitale dietro ogni riga. La frase resta la prima lettura.
+    Variation: >
+      Scegliere soggetto, scala e posizione del disegno dalla frase attuale.
+      Cambiare il rapporto fra testo e visual nelle nuove card, non soltanto
+      la palette. Evitare un unico motivo o una cornice ripetuta.
+
+  Elements:
+    Paper: "Fibra sottile e irregolare di carta non patinata, senza texture uniforme aggiunta"
+    Drawing:
+      Requirement: >
+        Sempre un soggetto leggibile e disegnato a biro, più articolato di
+        una semplice macchia, freccia o tratto astratto.
+      Style: >
+        Contorni cercati e ripassati, ombre a tratteggio incrociato, linee
+        scartate ma ancora visibili, variazioni di pressione e piccoli salti
+        della sfera sul foglio.
+      Selection: >
+        Scegliere un oggetto, una scena o una forma riconoscibile pertinente
+        al contenuto. La bussola delle prove è un esempio, non un soggetto fisso.
+    Marginal Marks: >
+      Loop, prove di tratto, cancellazioni a biro, curve interrotte e
+      brevi percorsi possono unire disegno e frase senza diventare parole
+      leggibili o dati inventati.
+
+  Effects:
+    Ballpoint: >
+      Simulare pasta d'inchiostro da penna a sfera: tratto sottile con piccoli
+      vuoti, depositi più scuri agli arresti, pressione variabile, ripassi che
+      scuriscono il blu e lievi variazioni di scorrimento. Non usare la
+      diffusione acquosa tipica della stilografica o dell'acquerello.
+    Disorder: >
+      Richiedere scarabocchi sovrapposti, almeno una macchia localizzata e una
+      sbavatura trascinata dall'inchiostro. Distribuirli in modo asimmetrico e
+      non omogeneo: il caos deve risultare dal gesto, non da un filtro grunge.
+    Surface: "Card piatta su carta; niente mano, penna, scrivania, spirale o fotografia di notebook"
+
+  Content Contract:
+    quotation: >
+      Parole, accenti e punteggiatura esatti, frase completa una volta sola.
+      Il maiuscolo di default è solo una trasformazione visiva esplicita del
+      profilo; il testo originale resta nei dati editoriali.
+    author: "Solo un nome fornito o verificato, più piccolo e allineato a destra."
+    other_text: "Nessuna parola di prova, appunto, firma, numero o etichetta inventati."
+
+  Rules:
+    - "Disegno riconoscibile e testo hanno entrambi un tratto da penna a sfera."
+    - "Includere macchia, sbavatura, ripassi e segni cercati visibili; non ripulire il foglio fino a renderlo minimale."
+    - "Rendere il disordine asimmetrico e materico, lasciando leggibili tutte le parole."
+    - "Usare solo inchiostri da biro: blu solo oppure blu, rosso e verde nella modalità multicolore."
+    - "Non rendere il disegno sempre piccolo o subordinato come in Pencil e Ink."
+    - "Non aggiungere acquerello, pennarello, pastello, xerografia o grana uniforme."
+    - "Niente mockup fisico o testo inventato nei margini."
+
+  User Overrides:
+    Palette: "Usare i colori richiesti mantenendo segni da biro e gerarchia della frase."
+    Case: "Una richiesta esplicita di cassa originale o minuscola prevale sul default maiuscolo."
+    Format: "Ricomporre la pagina e il disegno per il rapporto richiesto."
+    Subject: "Il soggetto richiesto dall'utente prevale sul repertorio esemplificativo."
+    Chaos: "Aumentare o attenuare la densità senza perdere macchia, sbavatura e frase leggibile."
+
+  Production:
+    Preferred Mode: "generative"
+    Validation Status: >
+      Profilo sperimentale. Le modalità blu e a tre penne sono state provate
+      sulla stessa frase e nella famiglia tangled-route, in due generazioni
+      distinte. Entrambe contengono testo e disegno a biro, macchie e
+      sbavature localizzate; la versione blu ha richiesto una correzione
+      tipografica delle I. La frase è stata controllata anche a 375 px di
+      larghezza. Non sono provati un'altra frase, attribuzioni, testi lunghi,
+      colori diversi o rapporti diversi dal 4:5. La pagina dell'utente è
+      stata osservata ma non usata come immagine di input. Una richiesta breve
+      senza il profilo è stata testata una volta con stessa frase, formato e
+      colori: ha prodotto anch'essa una card caotica leggibile, con schizzi
+      più ampi e tratti meno specifici della biro. Il singolo confronto non
+      dimostra superiorità generale né ripetibilità. Su scelta dell'utente,
+      la modalità a tre penne è stata impostata come principale per la gallery;
+      la prova solo blu rimane disponibile.
+
+Composition Library: composizioni.yaml

@@ -1,0 +1,156 @@
+Design Style:
+  Name: "Neo Brutalism"
+  Status: "Profilo sperimentale della libreria locale"
+  Concept: >
+    Una quote card schietta e giocosa costruita come un oggetto grafico:
+    tipografia sans molto pesante, pochi blocchi cromatici piatti, contorni
+    neri marcati e ombre dure spostate. Un incastro o uno scarto intenzionale
+    mette in tensione la griglia senza spezzare il messaggio. Il testo è la
+    massa dominante; forme e profondità grafica ne rendono visibile il ritmo.
+
+  Reference Basis:
+    Research: >
+      Interpretazione editoriale del filone neobrutalista documentato da
+      Neobrutalism Components e NeoBrutalismCSS. Il nome circola anche nelle
+      varianti neobrutalism e neubrutalism, soprattutto nel design digitale;
+      qui si trasferiscono principi grafici a una quote card.
+    Sources:
+      - "https://github.com/ekmas/neobrutalism-components"
+      - "https://github.com/matifandy8/NeoBrutalismCSS"
+    User Reference:
+      URL: "https://www.behance.net/gallery/180527665/Neo-Brutalism-Embracing-Digital-Rawness"
+      Access: >
+        Progetto segnalato dall'utente, non ispezionabile da questo ambiente:
+        il proxy restituisce 403. Nessun dettaglio visivo del progetto viene
+        presentato come osservato o riprodotto.
+    Transfer: >
+      Trasferire contorni espliciti, contrasti forti, ombre nette senza blur,
+      tipografia assertiva e asimmetria leggibile. Scegliere palette e forme
+      per ogni frase, senza copiare componenti, marchi o schermate delle fonti.
+    Operational References: >
+      Il profilo funziona attraverso le istruzioni scritte. Nessuna immagine
+      di riferimento è una dipendenza operativa o va allegata automaticamente.
+
+  Canvas:
+    Ratio: "4:5"
+    Output: "Una quote card editoriale piatta, verticale e a piena pagina"
+    Adaptation: "Ricomporre blocchi, testo e ombre per il rapporto richiesto."
+
+  Mood:
+    - Schietto
+    - Giocoso
+    - Audace
+    - Grafico
+    - Energico
+    - Leggibile
+
+  Color Palette:
+    Starting Colors:
+      Ground: "#FAF3E7"
+      Ink: "#121212"
+      Main: "#FFE44D"
+      Counterpoint: "#F3A8D4"
+      Accent: "#70D8E8"
+    Roles: >
+      Il fondo offre respiro, il nero definisce lettere, bordi e ombre, una
+      tinta principale sostiene il messaggio e una seconda massa crea tensione.
+      Un accento ulteriore è facoltativo. Colori saturi e pastelli possono
+      convivere; non è necessario usare tutta la palette in una sola card.
+    Variation: >
+      La palette è sostituibile: conservare la distinzione fra testo, campo
+      di lettura e masse di sostegno. Nessun giallo, rosa o ciano è obbligatorio.
+    Contrast: >
+      Il testo principale resta su un fondo uniforme con contrasto netto.
+      Le ombre e i bordi non passano attraverso lettere, accenti o nomi.
+
+  Typography:
+    Quote:
+      Style: "Grotesk o sans geometrica proporzionale, aperta e decisa"
+      Weight: "Bold o black, con larghezza naturale e controforme riconoscibili"
+      Treatment: >
+        Riportare la frase completa una sola volta, con maiuscole, minuscole,
+        accenti e punteggiatura originali. Scegliere a capo per gruppi di senso.
+        Il testo mantiene una scala generosa, con poche variazioni motivate
+        dal contenuto e senza trasformare ogni parola in uno sticker separato.
+    Attribution:
+      Style: "La stessa famiglia o una sans sobria, più piccola e leggera"
+      Placement: >
+        Allineata a destra su un asse chiaro, con contrasto e margine propri.
+        Mostrarla solo se fornita o verificata; in assenza di nome recuperarne
+        lo spazio. Una firma richiesta resta distinta dall'autore.
+    Spacing: >
+      Usare kerning ottico, normali spazi tra parole e interlinea sufficiente
+      per gli accenti. Evitare allargamenti, compressioni o tracking arbitrario.
+      Le rotazioni riguardano blocchi interi e restano compatibili con la lettura.
+
+  Layout:
+    Principle: >
+      Una griglia invisibile coordina il blocco della frase con poche forme
+      solide. Un bordo, un'interruzione o una sovrapposizione dà energia alla
+      struttura. Ogni elemento ha un ruolo nella distribuzione dei pesi.
+    Relationship: >
+      Il contenitore può coincidere con il campo della frase o essere parziale;
+      i segni condividono un asse, incorniciano un passaggio o rispondono alla
+      sua direzione. Evitare un pannello standard con decorazioni casuali attorno.
+    Depth: >
+      Il distacco fra blocchi nasce da sagome nere traslate con un vettore
+      coerente, non da illuminazione realistica. Conservare margini sufficienti
+      per non tagliare accidentalmente l'ombra del blocco di testo.
+    Density: >
+      Poche masse ampie e almeno una pausa significativa. Con frasi lunghe
+      allargare il campo di lettura e togliere elementi prima di ridurre il corpo.
+
+  Graphic Elements:
+    Core:
+      - "Blocchi piatti con contorno marcato e ombra nera dura"
+      - "Tagli, incastri o scarti rispetto a una griglia semplice"
+      - "Un cerchio, una freccia o una forma esplosa non alfabetica, se pertinente"
+    Optional: "Angoli netti o leggermente arrotondati, coerenti nella stessa card"
+    Restraint: >
+      Scegliere pochi elementi. Nessuna finestra desktop, barra titolo,
+      pulsantiera o campo modulo è necessario. La grammatica delle interfacce
+      viene tradotta in costruzione editoriale, senza simulare un'applicazione.
+
+  Effects:
+    Fill: "Campiture cromatiche opache, uniformi e nettamente separate"
+    Borders: "Contorni neri continui, con peso coerente alla scala degli elementi"
+    Shadow: "Sagoma nera spostata, con bordo netto, senza blur o sfumatura"
+    Surface: "Pulita, opaca, quasi vettoriale"
+    Exclusions: >
+      Nessuna xerografia, grana fotografica, carta strappata, glow,
+      gradiente, vetro, ombra morbida o volume 3D realistico come trattamento base.
+
+  Content Contract:
+    quotation: "Frase letterale e completa una sola volta, con ordine di lettura univoco."
+    author: "Solo attribuzione fornita o verificata, subordinata e allineata a destra."
+    other_text: >
+      Nessun titolo di stile sulla card, etichetta, slogan supplementare,
+      numero seriale, data, URL, logo o microtesto inventato. Eventuali segni
+      grafici non simulano nuovi contenuti o azioni di un'interfaccia.
+
+  Rules:
+    - "La frase è protagonista anche quando la geometria è energica."
+    - "Contorni netti e ombre senza blur sono firme del linguaggio."
+    - "La palette può cambiare mantenendo ruoli cromatici e contrasto."
+    - "Uno scarto intenzionale non giustifica collisioni o parole ambigue."
+    - "Preservare proporzioni dei glifi e integrità di accenti e punteggiatura."
+    - "Variare la relazione tra testo e masse nelle nuove composizioni."
+    - "Non importare nomi, scritte o disposizioni delle fonti consultate."
+
+  User Overrides:
+    Palette: "Sostituire i colori conservando contrasto, contorni e ombre nette."
+    Format: "Ricomporre la costruzione per il rapporto richiesto."
+    Fonts: "Rispettare il font richiesto conservando gerarchia e proporzioni."
+    Restraint: "Ridurre il repertorio a uno o due elementi mantenendo tensione e impatto."
+
+  Production:
+    Preferred Mode: "Generativo con eventuale rifinitura tipografica"
+    Validation Status: >
+      YAML e tre famiglie compositive validati. Due prove generative senza
+      reference, su frasi diverse, palette diverse e due strutture, conservano
+      testo e gerarchia. Contorni e ombre dure sono riconoscibili. Le campiture
+      presentano leggere variazioni di superficie, non uniformità vettoriale
+      certificata. Restano da provare attribuzioni, altri formati e testi lunghi;
+      il progetto Behance non è stato ispezionato.
+
+Composition Library: composizioni.yaml

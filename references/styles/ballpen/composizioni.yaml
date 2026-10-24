@@ -1,0 +1,62 @@
+Composition Library:
+  Style Name: "Ballpen"
+  Selection:
+    Basis: >
+      Scegliere una sola relazione tra disegno e frase in base al testo,
+      al formato e agli eventuali nomi. Disegno, lettering e segni di ricerca
+      devono sembrare nati nello stesso tempo e dallo stesso strumento.
+    Variation: >
+      Per nuove card cambiare scala del soggetto, traiettoria dei segni e
+      posizione del testo oltre alla palette. Una correzione mirata conserva
+      invece il rapporto compositivo già approvato.
+  Families:
+    - id: tangled-route
+      Name: "Percorso aggrovigliato"
+      Use When: >
+        Una frase breve può avere un campo tipografico netto mentre un disegno
+        ampio produce movimento e suggerisce svolte, ricerca o possibilità.
+      Structure: >
+        La citazione occupa un settore principale. Il disegno, decentrato e
+        parzialmente ritagliato, genera linee esplorative che raggiungono i
+        margini della frase. Ripassi e sbavature si addensano soprattutto
+        intorno all'immagine; una pausa locale preserva i nuclei delle lettere.
+      Text Adaptation: >
+        Suddividere la frase per gruppi di senso con lettering coerente e
+        leggere irregolarità manuali. Per un testo lungo ridurre i percorsi
+        marginali prima di comprimere o deformare le lettere.
+      Format Adaptation: >
+        Ridisegnare il rapporto fra blocco leggibile e disegno; non ritagliare
+        semplicemente il 4:5 per ottenere un quadrato o un formato alto.
+    - id: drawing-invasion
+      Name: "Disegno in invasione"
+      Use When: >
+        Il soggetto deve apparire attivo e di grande scala accanto a una
+        citazione breve o media.
+      Structure: >
+        Un'immagine riconoscibile entra da un lato e si intreccia con lo
+        spazio tra le righe senza sostituire lettere. Le linee di costruzione
+        collegano visivamente i due registri; macchie e prove di tratto
+        marcano alcuni incroci e lasciano altri punti aperti.
+      Text Adaptation: >
+        Scegliere a capo che rispettino le parole. Se il disegno ostacola
+        la lettura, spostare o ridurre il disegno e ricomporre il blocco
+        nel suo insieme, senza deformare una singola riga.
+      Format Adaptation: >
+        Cambiare lato d'ingresso e scala del disegno secondo il rapporto,
+        mantenendo chiaro l'ordine di lettura.
+    - id: crowded-study
+      Name: "Foglio di studio affollato"
+      Use When: >
+        Una frase più lunga richiede un campo di testo ampio, ma lo stile deve
+        conservare visibilmente prove, correzioni e accumuli da biro.
+      Structure: >
+        Il testo attraversa un'area centrale continua. Un disegno articolato
+        abita un angolo o un bordo esteso; intorno si stratificano schizzi
+        abortiti, tratteggi e sbavature in gruppi irregolari. Il foglio è
+        densamente lavorato senza riempire in modo uniforme ogni spazio.
+      Text Adaptation: >
+        Far crescere lo spazio centrale insieme alla frase e mantenere una
+        via libera verso l'eventuale attribuzione, a destra e subordinata.
+      Format Adaptation: >
+        Rimappare zone dense e pause per ciascun formato, conservando la
+        presenza del disegno e almeno una zona di gesto caotico.
