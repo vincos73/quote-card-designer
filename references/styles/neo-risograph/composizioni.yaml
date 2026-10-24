@@ -1,0 +1,60 @@
+Composition Library:
+  Style Name: "Risograph"
+  Selection:
+    Basis: >
+      Scegliere soggetti e significato dell'immagine dalla frase, poi una
+      struttura principale. Includere sempre overprint con mescolanza
+      visibile di almeno due inchiostri; regolarne soltanto l'estensione.
+    Variation: >
+      Per nuove card variare relazione tra immagini, ritaglio e carta libera;
+      un nuovo colore da solo non produce una nuova composizione.
+  Families:
+    - id: intersecting-images
+      Name: "Incontro fra immagini"
+      Use When: >
+        Due soggetti possono rendere concreto un incontro, una trasformazione
+        o una relazione suggeriti dalla frase.
+      Structure: >
+        Pochi frammenti fotografici di grande scala occupano passaggi di
+        colore distinti. Un'intersezione significativa deve mostrare il colore
+        misto; altre aree conservano i singoli inchiostri e la carta libera.
+        Il blocco della citazione condivide un asse con l'incontro.
+      Text Adaptation: >
+        Scegliere a capo e posizione insieme ai soggetti. Tenere i nuclei
+        delle lettere fuori dalle intersezioni meno contrastate.
+      Format Adaptation: >
+        Rimodulare diagonale, scala e punto d'incontro per il formato, senza
+        spostare semplicemente lo stesso collage dentro una nuova cornice.
+    - id: open-plate-field
+      Name: "Campo aperto e passaggi"
+      Use When: >
+        Una frase media o lunga richiede più carta libera e un gruppo
+        fotografico compatto ma sostanziale.
+      Structure: >
+        Il testo e i passaggi d'immagine si bilanciano attraverso pochi assi.
+        La sovrapposizione resta locale ma la mescolanza deve essere
+        evidente a scala card; grana e densità rendono riconoscibile il
+        materiale anche dove gli strati non si incontrano.
+      Text Adaptation: >
+        Allargare il campo tipografico prima di ridurre troppo il corpo.
+        Un eventuale nome resta subordinato su un asse destro chiaro.
+      Format Adaptation: >
+        Scegliere nuovamente il rapporto tra carta, foto e parole secondo
+        il formato, preservando il ruolo del gruppo fotografico.
+    - id: single-subject-overprint
+      Name: "Un soggetto, passaggi sovrapposti"
+      Use When: >
+        Un solo soggetto pertinente basta e la composizione deve restare
+        essenziale, senza rinunciare alla mescolanza degli inchiostri.
+      Structure: >
+        Un'immagine ampia dialoga con la citazione. Un secondo passaggio
+        fotografico, un ritaglio dello stesso soggetto o una campitura
+        pertinente attraversa una parte significativa della foto. Nel
+        punto d'incontro si leggono il colore misto e i dettagli sottostanti.
+        Non basta assegnare due colori alle luci e alle ombre della foto.
+      Text Adaptation: >
+        Integrare il testo al ritaglio o a una direzione della foto,
+        mantenendo un percorso di lettura completo e naturale.
+      Format Adaptation: >
+        Cambiare scala e ritaglio del soggetto per il formato richiesto,
+        evitando la ripetizione di un oggetto piccolo sotto un titolo.

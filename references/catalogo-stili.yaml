@@ -1020,34 +1020,35 @@ styles:
 - id: neo-risograph
   release_candidate: false
   family: collage-stampa
-  name: Neo Risograph
+  name: Risograph
+  production_mode: generative
   aliases:
   - neo risograph
+  - neo-risograph
   - risograph
+  - riso
+  - risoprint
   - risograph editoriale
   - risografia
   - stampa risograph
-  summary: Ritagli d'archivio, retino e sovrapposizione controllata di inchiostri in un poster editoriale
-    tipografico.
+  summary: Fotografie per passaggi di colore spot su carta non patinata, grana fine e copertura
+    irregolare. Include sempre overprint con mescolanza visibile degli inchiostri.
   tags:
   - risograph
   - risografia
   - stampa
-  - retino
-  - halftone
-  - ritaglio d'archivio
+  - fotografia
+  - grana fine
+  - inchiostri spot
+  - overprint
+  - carta non patinata
   profile: references/styles/neo-risograph/profilo.yaml
-  example: references/styles/neo-risograph/esempio.png
-  notes: references/styles/neo-risograph/note.md
-  example_prompt: references/styles/neo-risograph/prompt-esempio.md
-  example_count: 2
-  example_text: Ogni scelta dà forma al futuro.
-  example_label: La scelta
-  example_2: references/styles/neo-risograph/esempio-2.png
-  notes_2: references/styles/neo-risograph/note-2.md
-  example_prompt_2: references/styles/neo-risograph/prompt-esempio-2.md
-  example_2_text: Le idee antiche possono aprire strade nuove.
-  example_2_label: Le idee
+  example: references/styles/neo-risograph/esempio-overprint.png
+  notes: references/styles/neo-risograph/note-overprint.md
+  example_prompt: references/styles/neo-risograph/prompt-overprint.md
+  example_count: 1
+  example_text: LE IDEE CRESCONO QUANDO SI INCONTRANO.
+  example_label: Risograph · overprint con mescolanza
 - id: underground-comic
   release_candidate: false
   family: segno-manuale-lettering
