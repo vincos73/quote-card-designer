@@ -1,97 +1,107 @@
 Design Style:
-  Name: "Wireframe Library"
+  Name: Signal Atlas
+  Status: Library profile, shortlisted for V1
   Concept: >
-    Technical editorial design combining condensed Swiss typography, curved
-    wireframe geometry, Y2K graphic libraries, creative coding and industrial
-    packaging. A monochrome modular catalogue structure and a selective neon
-    lime accent give geometric assets a precise, experimental identity.
-    Three-dimensional shape is described by meshes, not by shaded solid renders.
+    Technical editorial graphics built from spatial constructions, directional
+    signals and modular typography. Curved meshes, projected grids, concentric
+    line fields and a few solid graphic marks share one visual system. Geometry
+    expresses a relationship in the quotation, rather than filling a technical
+    dashboard with unrelated ornaments.
   Canvas:
-    Ratio: "4:5"
-    Output: "Single flat editorial quote card, full bleed"
-    Adaptation: "Adapted from a 16:9 presentation direction; recompose for 16:9 when requested."
+    Ratio: '4:5'
+    Output: A single flat editorial quote card
+    Adaptation: Recompose the geometry, modules and reading order for each ratio.
   Mood:
     - Technical
     - Experimental
-    - Editorial
-    - Industrial
-    - Futuristic
-    - Minimal
+    - Precise
     - Graphic
-    - Brutalist
+    - Energetic
   Color Palette:
-    Background:
-      LightGray: "#D9D9D6"
-      Black: "#111111"
-    Primary:
-      OffWhite: "#F7F7F4"
-    Accent:
-      NeonLime: "#D8FF2F"
-    Text:
-      Secondary: "#444444"
+    Fixed Colors: false
+    Structure: >
+      Use a light neutral and a dark neutral with one contrasting accent.
+      Light and dark fields may exchange roles. A mostly dark or mostly light
+      card is also valid. Choose colours for the content, independently of
+      reference images.
+    Test Palette:
+      Light: '#E9E8E2'
+      Dark: '#171A1B'
+      Accent: '#FF5A36'
     Roles: >
-      Light grey and black divide the page into contrasting flat fields.
-      Text and fine mesh lines invert appropriately across them. Lime marks
-      a selected mesh sector or meaningful phrase rather than decorating
-      arbitrary components. Off-white supports strong inverse typography.
+      Neutral fields carry typography and precise linework. The accent identifies
+      a meaningful point, transition, direction or portion of the quotation.
+      It need not appear on every kind of element.
   Typography:
     Primary:
-      Style: "Bold condensed Swiss grotesk"
-      Role: "Dominant quotation and structural words"
+      Style: Bold or condensed grotesk with natural glyph proportions
+      Role: The complete quotation, clearly the first reading level
     Secondary:
-      Style: "Regular Swiss sans-serif"
-      Role: "Quieter quotation fragments and supplied supporting text"
-    Case: >
-      Preserve the quotation's supplied capitalization. Use the reference's
-      uppercase treatment only when requested or present in the text.
-    Hierarchy: >
-      Combine expressive condensed type with a quieter register. Let words
-      and mesh assets share datums, without obscuring letters or punctuation.
-      Keep all text readable at phone size.
-  Layout:
-    Structure:
-      - "Alternating light and dark fields"
-      - "Orderly catalogue-like modules with ample open space"
-      - "One dominant geometric asset and a quieter related study"
-      - "Fine frames and shared alignment datums"
+      Style: Restrained sans serif or monospace
+      Role: Only supplied supporting text, attribution or personal signature
+    Case: Preserve supplied capitalization and punctuation.
     Relationships: >
-      A curved mesh can bridge contrasting sections, with its line colour
-      changing across the boundary. Outline labels may hold actual words from
-      the quotation. Editing handles and crosshairs belong to the geometry or
-      alignment system rather than functioning as a decorative scatter.
+      Type and geometry share a few clear datums. The quotation may cross
+      modules but retains an unambiguous reading order and generous local
+      contrast. Avoid shrinking individual words to fit around the visual.
+    Attribution: >
+      If supplied, use a smaller and quieter register, readable at phone size
+      and aligned on a clear right edge. If absent, recover the space.
+  Layout:
+    Invariants:
+      - One dominant spatial or optical construction related to the text
+      - A clear quotation block and a small set of shared geometric alignments
+      - Deliberate contrast between active linework and quiet reading space
+      - A limited selection of mutually compatible secondary signals
+    Integration: >
+      Geometry can cross a module boundary or change projection across it.
+      Frames, crosshairs and directional marks must locate a point, axis or
+      transition. They are part of the construction, not scattered decoration.
+    Density: >
+      A page may feel spare or dense, but should not become a specimen sheet
+      containing every available asset. Do not require a fixed split-screen
+      template or a permanent central sphere.
   Graphic Elements:
-    Geometry:
-      - "Wireframe tori and related curved surfaces"
-      - "Wireframe spheres and open meshes"
-      - "Bounded grid planes and abstract spatial constructions"
-    Framing:
-      - "Fine consistent outline frames"
-      - "Square editing handles and purposeful crosshair datums"
-      - "Label-like modules containing supplied quotation fragments"
+    Spatial Repertoire:
+      - Open meshes, curved surfaces, spheres, rings and tori
+      - Projected grids, corridors, planes and changing vanishing points
+      - Concentric or deformed line fields with controlled optical rhythm
+    Signal Repertoire:
+      - Crosshairs, small crosses and alignment ticks
+      - Directional arrows and trajectories
+      - Sparse four-point marks, discs or solid geometric anchors
+      - Abstract bars and repeated strokes that carry visual rhythm, not data
     Selection: >
-      Choose a compatible geometric family and relationship for the text.
-      The torus is an example, not a mandatory emblem. A small set of related
-      forms should feel like a coherent asset library, not a checklist of shapes.
-      Product numbers, barcodes and UI metadata from the source reference are
-      optional only when real supporting information is supplied; never invent
-      them to make a quote card appear technical.
+      Select one main construction and a few supporting marks from the same
+      graphic logic. Subject, orientation, crop and density change with each
+      quotation. None of these shapes is a mandatory emblem.
   Imagery:
-    Style: "Monochrome vector-quality wireframe and technical outlines"
-    Treatment: "Perspective is expressed through mesh projection and linework only"
+    Default: Precise graphic geometry with depth expressed through projection
+    Optional: >
+      A small monochrome material or photographic study can be explored when
+      motivated by the text, but it is not required and is not validated by
+      the first test.
   Effects:
-    Shadows: "None"
-    Backgrounds: "Flat colour fields"
-    Linework: "Precise, consistent line weights with restrained hierarchy"
-    Depth: "Open three-dimensional meshes in a flat editorial composition"
+    Surface: Flat paper or screen-like fields with optional restrained fine grain
+    Typography: Flat printed letters without extrusion, bevels or cast shadows
+    Linework: Fine continuous lines with clear contrast and a controlled hierarchy
+    Depth: Spatial projection and overlap, without obligatory glossy 3D effects
+    Wear: Optional and subordinate; avoid making heavy distress the identity.
   Rules:
-    - "Preserve the quotation verbatim and render it once."
-    - "Make wireframe assets and light/dark modular structure carry the identity."
-    - "Keep line contrast clear on each background field."
-    - "Use only supplied supporting text and supplied or verified attribution."
-    - "Avoid photography, solid shaded 3D, cast shadows, distressed surfaces and glossy effects."
-    - "Do not invent product IDs, codes, labels, data, pseudo-code or UI filler."
-    - "Do not add functional-looking buttons or claims to a flat quote card."
-  User Overrides:
-    Format: "Recompose the mesh, contrasting fields and reading order for the requested ratio."
-    Palette: "Replace the colours when requested while preserving contrast and the focal accent's role."
-    Fonts: "Honour the requested type direction; retain hierarchy and shared geometric alignments."
+    - Preserve the quotation verbatim, once, including its punctuation.
+    - Keep the quotation legible before secondary technical details.
+    - Use geometry to express a relationship or tension in the phrase.
+    - Vary composition, dominant geometry and palette across new cards.
+    - Use only supplied supporting text and supplied or verified attribution.
+    - Never invent system status, coordinates, numbers, labels, code or chart data.
+    - Do not reproduce logos, watermarks, smiley stickers or packaging icons from references.
+    - Do not copy a reference sheet or reproduce its precise composition.
+    - Do not imply that the card is a working software interface.
+  Reference Policy: >
+    References served as experimental calibration in a matched comparison.
+    Their permanent use has not been established. The written profile is
+    self-contained; do not require external reference files for new cards.
+  Validation:
+    Tested: One phrase, two composition families and light/dark field distributions
+    Limits: Other phrases and independent accent palettes have not yet been tested.
+Composition Library: composizioni.yaml

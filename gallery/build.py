@@ -40,6 +40,10 @@ CSS += r'''
 @media print{.family-filters,.reset-filters{display:none!important}.family-tag{border:0;padding:0;min-height:0}}
 '''
 
+CSS += r'''
+.shortlist-badge{border:1px solid #8a5a17;background:#fff4df;color:#68410b;padding:3px 8px}
+'''
+
 JS = r'''
 const search = document.getElementById('search');
 const styles = [...document.querySelectorAll('.style')];
@@ -66,7 +70,10 @@ function applyFilters(){
   styles.forEach(style => {
     const familyMatches = !selectedFamily || style.dataset.family === selectedFamily;
     const searchMatches = terms.every(term => normalise(style.dataset.search).includes(term));
-    const releaseMatches = releaseStatus === 'all' || style.dataset.releaseCandidate === String(releaseStatus === 'selected');
+    const releaseMatches = releaseStatus === 'all'
+      || (releaseStatus === 'selected' && style.dataset.releaseCandidate === 'true')
+      || (releaseStatus === 'shortlisted' && style.dataset.v1Shortlisted === 'true')
+      || (releaseStatus === 'unreleased' && style.dataset.releaseCandidate === 'false');
     style.hidden = !(familyMatches && searchMatches && releaseMatches);
   });
   familyOptions.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.familyFilter === selectedFamily)));
@@ -213,6 +220,7 @@ def build():
         stale_preview.unlink()
     catalog = yaml.safe_load((SKILL/'references/catalogo-stili.yaml').read_text())
     release_count = sum(bool(style.get('release_candidate')) for style in catalog['styles'])
+    shortlist_count = sum(bool(style.get('v1_shortlisted')) for style in catalog['styles'])
     unreleased_count = len(catalog['styles']) - release_count
     families = catalog['families']
     family_by_id = {family['id']: family['name'] for family in families}
@@ -229,11 +237,16 @@ def build():
         family_id = style['family']
         family_name = family_by_id[family_id]
         is_candidate = bool(style.get('release_candidate'))
+        is_shortlisted = bool(style.get('v1_shortlisted'))
+        if is_candidate and is_shortlisted:
+            raise ValueError(f'Stato V1 ambiguo per {identifier}: selezionato e papabile')
         method = MODE_LABELS.get(style.get('production_mode'), '')
-        if is_candidate and not method:
+        if (is_candidate or is_shortlisted) and not method:
             raise ValueError(f"Metodo di produzione assente o sconosciuto per {identifier}")
         pilot_tag = '<span class="pilot-badge">Test pilota</span>' if style.get('pilot_selected') else ''
         release_meta = f'<div class="release-meta"><span class="release-badge">Selezionata V1</span>{pilot_tag}<span>Metodo consigliato: {method}</span></div>' if is_candidate else ''
+        if is_shortlisted:
+            release_meta = '<div class="release-meta"><span class="shortlist-badge">Papabile V1</span></div>'
         profile_path = SKILL/style['profile']
         original = profile_path.read_text()
         document, resources = load_style_document(profile_path)
@@ -265,7 +278,7 @@ def build():
             label = 'Palette variabile' if variable_palette else 'Colori nel profilo'
             palette_info = f'<span class="palette-note">{label}</span>'
         search = ' '.join([style['name'], style['summary'], family_name, method, *style['tags'], *style['aliases'], *profile.get('Mood',[])])
-        cards.append(f'''<article class="style" id="{identifier}" data-family="{escape(family_id)}" data-release-candidate="{str(is_candidate).lower()}" data-production-mode="{escape(style.get('production_mode', ''))}" data-search="{escape(search)}">
+        cards.append(f'''<article class="style" id="{identifier}" data-family="{escape(family_id)}" data-release-candidate="{str(is_candidate).lower()}" data-v1-shortlisted="{str(is_shortlisted).lower()}" data-production-mode="{escape(style.get('production_mode', ''))}" data-search="{escape(search)}">
 <div class="examples">{''.join(panels)}<div class="example-picker" role="group" aria-label="Scegli un esempio di {escape(style['name'])}">{''.join(choices)}</div><p class="example-count" aria-live="polite">Esempio {featured} di {len(examples)}</p></div>
 <div class="style-info"><div class="style-header"><h2>{escape(style['name'])}</h2>{palette_info}</div>
 <button class="family-tag" data-family-filter="{escape(family_id)}" aria-controls="catalogo" aria-pressed="false" aria-label="Filtra per famiglia: {escape(family_name)}">{escape(family_name)}</button>
@@ -297,6 +310,7 @@ def build():
 <fieldset class="release-filters"><legend>Stato release</legend><div class="release-options">
 <label class="release-filter"><input name="release-status" type="radio" value="all" aria-controls="catalogo" checked><span>Tutti ({count})</span></label>
 <label class="release-filter"><input name="release-status" type="radio" value="selected" aria-controls="catalogo"><span>Selezionati V1 ({release_count})</span></label>
+<label class="release-filter"><input name="release-status" type="radio" value="shortlisted" aria-controls="catalogo"><span>Papabili V1 ({shortlist_count})</span></label>
 <label class="release-filter"><input name="release-status" type="radio" value="unreleased" aria-controls="catalogo"><span>Non ancora nella release ({unreleased_count})</span></label>
 </div></fieldset>
 <p class="release-note">I metodi indicati sono consigli progettuali da verificare. Gli esempi possono precedere le ultime modifiche a font e palette.</p>

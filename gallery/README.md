@@ -1,10 +1,10 @@
 # Galleria degli stili
 
-Questa directory contiene il sorgente della [galleria Sites](https://quote-card-designer-style-gallery.vincos.chatgpt.site/) e il generatore. Il catalogo è `references/catalogo-stili.yaml`; i profili e la maggior parte delle immagini sono in `references/styles/`. `source-assets/` contiene solo 19 immagini usate dalla galleria precedente che non coincidono con gli esempi del profilo o non hanno un riferimento nel catalogo. Non sostituire il catalogo esteso con `references/catalogo-v1.yaml`.
+Questa directory contiene il sorgente della [galleria Sites](https://quote-card-designer-style-gallery.vincos.chatgpt.site/) e il generatore. Il catalogo è `references/catalogo-stili.yaml`; i profili e la maggior parte delle immagini sono in `references/styles/`. `source-assets/` contiene solo 18 immagini usate dalla galleria precedente che non coincidono con gli esempi correnti del profilo o non hanno un riferimento nel catalogo. Non sostituire il catalogo esteso con `references/catalogo-v1.yaml`.
 
 ## Aggiornare la galleria
 
-1. Aggiungi o modifica il profilo, le immagini e la voce in `references/catalogo-stili.yaml`. Gli stili sperimentali hanno `release_candidate: false`.
+1. Aggiungi o modifica il profilo, le immagini e la voce in `references/catalogo-stili.yaml`. Gli stili fuori release hanno `release_candidate: false`. Per un papabile V1 aggiungi anche `v1_shortlisted: true`: mostra badge e filtro dedicati, senza inserirlo nei selezionati. I due stati non possono essere attivi insieme.
 2. Installa le dipendenze: `python3 -m pip install -r gallery/requirements.txt`.
 3. Dalla radice del repository esegui `python3 gallery/build.py`. La build genera `gallery/dist/index.html` e una JPEG per ogni esempio. `dist/` è ignorata da Git perché deriva dai sorgenti.
 4. Controlla il risultato e committa i sorgenti su GitHub.

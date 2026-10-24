@@ -247,25 +247,38 @@ styles:
   example_prompt: references/styles/surreal-editorial/prompt-esempio.md
 - id: wireframe-library
   release_candidate: false
+  v1_shortlisted: true
+  production_mode: generative
   family: disegno-tecnico-spazio
-  name: Wireframe Library
+  name: Signal Atlas
   aliases:
+  - signal atlas
   - wireframe
   - wireframe library
   - mesh
   - libreria wireframe
-  summary: 'Catalogo tecnico in grigio, nero e lime: mesh tridimensionali a linee sottili, tipografia
-    condensata e moduli chiari e scuri.'
+  summary: 'Sistema editoriale tecnico: tipografia forte, campi ottici, geometrie spaziali e pochi
+    segnali di orientamento. Mesh, griglie e cornici costruiscono una relazione con la frase.'
   tags:
   - wireframe
   - mesh
-  - lime
+  - campo ottico
+  - segnali
+  - prospettiva
   - tecnico
   - y2k
   profile: references/styles/wireframe-library/profilo.yaml
-  example: references/styles/wireframe-library/esempio.png
-  notes: references/styles/wireframe-library/note.md
-  example_prompt: references/styles/wireframe-library/prompt-esempio.md
+  example: references/styles/wireframe-library/esempio-signal-atlas.png
+  notes: references/styles/wireframe-library/note-signal-atlas.md
+  example_prompt: references/styles/wireframe-library/prompt-signal-atlas.md
+  example_count: 2
+  example_text: Le idee crescono quando cambiano prospettiva.
+  example_label: Campo ottico
+  example_2: references/styles/wireframe-library/esempio-signal-atlas-2.png
+  notes_2: references/styles/wireframe-library/note-signal-atlas-2.md
+  example_prompt_2: references/styles/wireframe-library/prompt-signal-atlas-2.md
+  example_2_text: Le idee crescono quando cambiano prospettiva.
+  example_2_label: Prospettiva in trasformazione
 - id: chromatic-type
   release_candidate: false
   family: griglia-tipografia

@@ -1,0 +1,50 @@
+Composition Library:
+  Style Name: Signal Atlas
+  Selection:
+    Basis: >
+      Choose a relationship between the meaning of the phrase and one spatial
+      or optical operation. Adapt text and visual together, rather than adding
+      a standard technical emblem below a title.
+    Variation: >
+      Change the main operation, geometry, orientation, density and balance
+      between fields. Do not accumulate all families in one card.
+  Families:
+    - id: changing-projection
+      Name: Prospettiva in trasformazione
+      Use When: A phrase concerns change, interpretation, movement or possibility.
+      Structure: >
+        A connected geometric construction changes orientation or projection
+        across two editorial fields. The quotation anchors the transition and
+        retains a clear linear reading order.
+      Text Adaptation: >
+        Break into semantic groups; keep long words on quiet fields and let
+        the geometry change size or position before compressing the type.
+      Format Adaptation: >
+        Place the transition along the useful direction of the requested
+        ratio, adjusting the relationship between text and geometric span.
+    - id: optical-field
+      Name: Campo ottico e apertura
+      Use When: A phrase benefits from tension between repetition and interruption.
+      Structure: >
+        Repeated curved or projected lines form an active field with a deliberate
+        opening for the quotation. Sparse signals mark the interruption or a
+        change in direction rather than forming a decorative border.
+      Text Adaptation: >
+        Expand the opening for longer text and alter the line field around it;
+        preserve natural type proportions and clear punctuation.
+      Format Adaptation: >
+        Recompose the opening and line rhythm for the format, without simply
+        cropping the same field.
+    - id: related-studies
+      Name: Studi geometrici in relazione
+      Use When: A phrase suggests comparison, connection or more than one viewpoint.
+      Structure: >
+        Two related geometric studies occupy modules of different scale. One
+        dominates and the other clarifies its transformation; typography and
+        a shared axis connect them into one composition.
+      Text Adaptation: >
+        Use a single readable quotation block or sequential semantic groups.
+        Secondary modules do not require invented captions.
+      Format Adaptation: >
+        Adjust the module proportions and their relation to the quotation;
+        avoid a fixed dashboard or specimen-grid template.
