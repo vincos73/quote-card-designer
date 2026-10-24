@@ -1,0 +1,65 @@
+Composition Library:
+  Style Name: "Halftone B/W"
+  Selection:
+    Basis: >
+      Interpretare la frase e scegliere prima un soggetto pertinente;
+      poi scegliere una sola struttura per frase, fotografia e formato. In tutte
+      le famiglie la foto retinata è il campo di fondo e la frase passa
+      direttamente sopra l'immagine, senza riquadri opachi o zone di
+      didascalia separate.
+    Variation: >
+      Per nuove card cambiare ritaglio, direzione, distribuzione tonale e
+      relazione fra parole e soggetto, oltre alla palette. Per una
+      correzione mirata conservare la composizione approvata.
+  Families:
+    - id: crossing-field
+      Name: "Sovraimpressione sul campo fotografico"
+      Use When: >
+        Una fotografia ravvicinata può sostenere una frase breve o media
+        senza perdere riconoscibilità.
+      Structure: >
+        La foto occupa la card da bordo a bordo. Un blocco di parole ampio
+        attraversa una porzione del soggetto e prosegue su una massa tonale
+        coerente. Retino e usura restano visibili intorno e dietro al testo;
+        la frase costituisce il primo livello di lettura.
+      Text Adaptation: >
+        Scegliere a capo per gruppi di senso e un solo registro dominante.
+        Per una frase più lunga cercare un ritaglio con una massa più ampia,
+        mantenendo il testo leggibile senza deformare singole righe.
+      Format Adaptation: >
+        Ricalibrare il rapporto fra dettaglio fotografico e blocco testuale
+        per ogni formato, conservando sovrapposizione e continuità del fondo.
+    - id: tonal-corridor
+      Name: "Percorso nei toni della foto"
+      Use When: >
+        Una frase media o lunga richiede una zona di lettura più continua,
+        presente naturalmente nella fotografia.
+      Structure: >
+        Ritaglio e valori della foto aprono un percorso più uniforme fra
+        dettagli più densi. Le parole seguono quel percorso e si sovrappongono
+        comunque all'immagine. I cambi tonali restano fotografici e retinati,
+        senza diventare fasce grafiche sotto il testo.
+      Text Adaptation: >
+        Regolare ampiezza del campo e a capo insieme al ritaglio; usare un
+        colore tipografico coerente con il contrasto locale. Se presente,
+        l'attribuzione usa un registro minore su un asse destro chiaro.
+      Format Adaptation: >
+        Scegliere nuovamente la direzione del percorso e la posizione del
+        soggetto per il formato, senza riutilizzare un ritaglio meccanico.
+    - id: edge-pressure
+      Name: "Pressione dal margine"
+      Use When: >
+        Un dettaglio grande e un testo compatto possono costruire tensione
+        attraverso un ritaglio deciso.
+      Structure: >
+        Il soggetto fotografico preme da un margine e viene tagliato a grande
+        scala; il contesto della foto continua nel resto della card. La frase
+        si ancora a pochi assi e invade una parte della massa fotografica,
+        mentre retino e abrasioni rafforzano il bordo attivo.
+      Text Adaptation: >
+        Conservare le parole complete e un percorso unico; spostare ritaglio
+        o blocco se il dettaglio interferisce con la lettura. Non isolare il
+        testo in una zona di carta aggiunta.
+      Format Adaptation: >
+        Ridefinire margine attivo, scala e pressione del ritaglio per ogni
+        rapporto, mantenendo una fotografia continua sotto le parole.

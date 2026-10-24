@@ -1406,3 +1406,68 @@ styles:
   example_prompt_2: references/styles/neo-brutalism/prompt-esempio-2.md
   example_2_text: Le idee crescono quando cambiano prospettiva.
   example_2_label: Campi a incastro
+
+- id: duotone-editorial
+  release_candidate: false
+  production_mode: generative
+  family: collage-stampa
+  name: Duotone Halftone
+  aliases:
+  - duotone
+  - duotone editorial
+  - bicromia
+  - bicromia fotografica
+  - duotono
+  - duotone halftone
+  - duotono halftone
+  - duotone retinato
+  - bicromia retinata
+  summary: Fotografia retinata a piena pagina con due colori dominanti a forte contrasto.
+    Punti fotografici sempre visibili e citazione in sovraimpressione con uno dei due colori.
+  tags:
+  - duotone
+  - bicromia
+  - fotografico
+  - stampa
+  - retino
+  - contrasti cromatici
+  - sovraimpressione
+  profile: references/styles/duotone-editorial/profilo.yaml
+  example: references/styles/duotone-editorial/esempio-retinato.png
+  notes: references/styles/duotone-editorial/note-retinato.md
+  example_prompt: references/styles/duotone-editorial/prompt-retinato.md
+  example_count: 1
+  example_text: CAMBIARE SGUARDO CAMBIA TUTTO.
+  example_label: Blu e giallo · stampa vissuta
+- id: halftone-editorial-bw
+  release_candidate: false
+  production_mode: generative
+  family: collage-stampa
+  name: Halftone B/W
+  aliases:
+  - retino editoriale
+  - stampa retinata
+  - halftone underground
+  - dirty halftone
+  - retino underground
+  - halftone black and white
+  - halftone bianco e nero
+  summary: Fotografia scelta dalla frase, retino a punti tondi visibili e testo in sovraimpressione.
+    Nero neutro e bianco puro, luci aperte, neri compatti, depositi e mancanze d'inchiostro
+    da stampa vissuta.
+  tags:
+  - halftone
+  - retino
+  - stampa
+  - editoriale
+  - fotografico
+  - underground
+  - sovraimpressione
+  - stampa sporca
+  profile: references/styles/halftone-editorial-bw/profilo.yaml
+  example: references/styles/halftone-editorial-bw/esempio-bianco-nero-stampa.png
+  notes: references/styles/halftone-editorial-bw/note-stampa.md
+  example_prompt: references/styles/halftone-editorial-bw/prompt-stampa.md
+  example_count: 1
+  example_text: CAMBIARE SGUARDO CAMBIA TUTTO.
+  example_label: Black and white · stampa vissuta

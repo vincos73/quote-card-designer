@@ -1,0 +1,56 @@
+Composition Library:
+  Style Name: "Duotone Halftone"
+  Selection:
+    Basis: >
+      Interpretare la frase e scegliere una fotografia pertinente; poi
+      scegliere una sola relazione fra soggetto retinato, coppia cromatica
+      e testo sovrapposto. Il retino è obbligatorio in tutte le famiglie.
+    Variation: >
+      Variare soggetto, ritaglio e distribuzione dei valori nelle nuove card.
+      Due colori nuovi non bastano a definire una composizione diversa.
+  Families:
+    - id: tonal-anchor
+      Name: "Ancoraggio nelle ombre"
+      Use When: >
+        Una frase breve o media può dialogare con una massa scura presente
+        nella foto senza coprirne il punto focale.
+      Structure: >
+        La fotografia a pieno campo mantiene un soggetto riconoscibile.
+        Un blocco di parole ampio si stampa su una parte delle sue ombre;
+        i due colori e il punto fotografico costruiscono i toni attorno alla frase.
+      Text Adaptation: >
+        Scegliere a capo per gruppi di senso e mantenere uno stesso registro.
+        La citazione può essere in negativo del colore della carta.
+      Format Adaptation: >
+        Ricomporre punto focale e massa tonale per il formato, senza
+        trasformare l'area sotto il testo in un pannello.
+    - id: tonal-transition
+      Name: "Percorso tra i toni"
+      Use When: >
+        Il soggetto produce una transizione luminosa naturale utile a una
+        frase media o lunga.
+      Structure: >
+        Ritaglio e profondità della foto creano un percorso continuo per le
+        parole. I punti cambiano area con i valori fotografici,
+        mentre il colore della citazione resta coerente e contrastato.
+      Text Adaptation: >
+        Dare priorità al testo completo e ai suoi nessi. Se il percorso è
+        insufficiente, cambiare ritaglio prima di comprimere le lettere.
+      Format Adaptation: >
+        Ridefinire la direzione del percorso fotografico secondo il rapporto,
+        mantenendo toni intermedi e sovraimpressione.
+    - id: wide-detail
+      Name: "Dettaglio a grande scala"
+      Use When: >
+        Una foto di gesto, oggetto o ambiente può essere ingrandita e tagliata
+        per dare rilievo a una frase compatta.
+      Structure: >
+        Il dettaglio fotografico supera uno o più margini della card. La
+        frase attraversa una sua porzione e si ancora a pochi assi; la
+        bicromia sostiene superfici e volumi senza aggiungere ornamenti.
+      Text Adaptation: >
+        Usare poche righe ampie, senza nascondere la relazione fra soggetto
+        e messaggio. L'eventuale nome resta più piccolo e su un asse destro.
+      Format Adaptation: >
+        Scegliere un nuovo ingrandimento e un nuovo ritaglio per il formato,
+        preservando riconoscibilità e contrasto della frase.

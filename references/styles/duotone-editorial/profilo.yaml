@@ -1,0 +1,153 @@
+Design Style:
+  Name: "Duotone Halftone"
+  Status: "Revisione bicroma retinata basata sulla direzione esplicita dell'utente"
+  Concept: >
+    Una fotografia ricostruita con un retino sempre visibile usa due colori
+    dominanti a forte contrasto. Punti, intervalli e masse dense danno il
+    tono fotografico; la coppia cromatica sostituisce il bianco e nero senza
+    cancellare la struttura di stampa. Il soggetto nasce dalla frase e il
+    testo si sovrappone direttamente alla foto di sfondo.
+
+  Reference Basis:
+    User Direction: >
+      La foto deve restare retinata e usare due colori a contrasto.
+      Il nome Duotone Halftone distingue questa direzione dalla fotografia
+      bicroma a toni continui della prima proposta.
+    Observed References:
+      - "Ritratto giallo e blu con retino fotografico chiaramente leggibile."
+      - "Astronauta arancio e blu con retino visibile su figura e fondo."
+    Research: "../../ricerca-halftone-duotone.md"
+    Naming: >
+      Nel catalogo questo nome indica la combinazione richiesta di bicromia
+      e retino. Non si assume che ogni duotone tecnico debba mostrare punti
+      macroscopici, né si certificano separazioni fisiche d'inchiostro.
+    Operational References: >
+      Usare il profilo scritto per nuove card. Le immagini dell'utente
+      servono a calibrare il materiale e non impongono volti o astronauti.
+
+  Canvas:
+    Ratio: "4:5"
+    Output: "Una card piatta a piena pagina, con foto retinata e testo in sovraimpressione"
+    Adaptation: "Ricomporre ritaglio, densità del retino e citazione per il formato richiesto."
+
+  Mood:
+    - Fotografico
+    - Underground
+    - Cromatico
+    - Ruvido
+    - Diretto
+    - Leggibile
+
+  Color Palette:
+    Dominant Color Count: 2
+    Starting Colors:
+      Dark: "#183EAE, blu cobalto"
+      Light: "#F2EC20, giallo acido"
+    Roles: >
+      Il colore scuro porta punti e masse d'ombra. Il colore chiaro emerge
+      negli intervalli, nelle luci e nel fondo; uno dei due porta la frase
+      secondo il contrasto locale. Entrambi devono essere percepibili.
+      Evitare un terzo accento indipendente per tipografia o decorazione.
+    Variation: >
+      La coppia si sceglie per il contenuto. Blu/giallo e arancio/blu sono
+      esempi, non soggetti o palette da imporre a ogni frase. Conservare
+      contrasto di luminanza oltre al contrasto di tinta.
+    Tonal Values: >
+      Il retino costruisce i toni con area dei punti, zone aperte e densità.
+      Piccole miscele o valori di bordo appartengono alla riproduzione
+      dei due colori; non aggiungere una fotografia liscia sotto la trama.
+
+  Typography:
+    Quote:
+      Style: "Grotesk o sans compatta molto pesante, con proporzioni naturali"
+      Case: >
+        Maiuscolo di visualizzazione come default; conservare la cassa
+        originale nei dati editoriali e rispettare una diversa richiesta.
+      Treatment: >
+        Riportare tutta la frase una sola volta, in gruppi di senso chiari.
+        Usare uno dei due colori della card e mantenere aperte controforme,
+        accenti e punteggiatura. La trama della foto continua attorno alle
+        lettere; il testo rimane il primo livello di lettura.
+      Spacing: "Spazi ottici coerenti e a capo naturali, senza deformare le parole."
+    Attribution:
+      Style: "Sans più piccola e leggera, con contrasto leggibile"
+      Placement: >
+        Solo se fornita o verificata, allineata a destra su un asse chiaro.
+        Recuperare lo spazio se assente; una firma resta distinta dall'autore.
+
+  Layout:
+    Background: >
+      Una fotografia retinata occupa l'intero campo. Non inserirla in un
+      riquadro o come icona accanto al testo.
+    Overprint: >
+      La frase passa direttamente sopra una parte riconoscibile del
+      soggetto. Foto e testo condividono lo spazio; evitare una fascia
+      separata di didascalia o un pannello opaco sotto le parole.
+    Contrast: >
+      Progettare ritaglio e valori della foto per la lettura. Se necessario
+      correggere le ombre fotografiche, senza aggiungere rettangoli o
+      gradienti grafici dietro il testo.
+    Variation: >
+      Variare la relazione tra parole e foto: il testo non deve finire
+      automaticamente sempre nello stesso blocco inferiore.
+
+  Imagery:
+    Medium: "Fotografia bicroma retinata, con soggetto riconoscibile"
+    Selection: >
+      Scegliere il soggetto dal significato della frase, in modo letterale,
+      metaforico o attraverso un punto di vista pertinente. Il ritratto e
+      l'astronauta degli esempi non sono soggetti fissi.
+    Preservation: >
+      In una revisione solo cromatica conservare soggetto, inquadratura,
+      retino e testo della card approvata.
+
+  Effects:
+    Halftone: >
+      Retino obbligatorio e chiaramente visibile. Punti fotografici ordinati,
+      prevalentemente tondi, cambiano area con il tono: separati nelle luci,
+      più grandi nei mezzitoni, fusi nelle ombre. I punti ricostruiscono la
+      fotografia e non sono una decorazione aggiunta a una foto continua.
+    Ink: >
+      Irregolarità del bordo, intasamenti, depositi, brevi trascinamenti
+      secchi e mancanze locali danno carattere di stampa. Concentrare lo
+      sporco in poche zone, conservando la forma del punto; evitare che
+      diventi una trama incisa, una maglia o rumore indistinto. Nelle
+      revisioni cromatiche conservare lo sporco della base approvata.
+    Surface: "Grana fine coerente con i due colori e usura locale contenuta"
+    Exclusions: >
+      Nessuna versione a toni continui priva di retino, patina uniforme,
+      gradiente arcobaleno, terzo accento cromatico, incisione o mockup.
+
+  Content Contract:
+    quotation: >
+      Testo integrale una volta sola, con parole, accenti e punteggiatura
+      esatti. Il maiuscolo è solo una trasformazione visiva.
+    author: "Solo nome fornito o verificato, subordinato e allineato a destra."
+    other_text: "Nessun titolo di stile, etichetta, numero, logo o firma inventati."
+
+  Rules:
+    - "Fotografia retinata sempre visibile e due colori dominanti a forte contrasto."
+    - "Il colore non sostituisce la struttura del punto fotografico."
+    - "Scegliere immagine e colori dalla frase, senza soggetti ricorrenti obbligatori."
+    - "La foto è lo sfondo e la citazione è in sovraimpressione."
+    - "Il testo usa la coppia cromatica della card, mantenendo contrasto e parole esatte."
+
+  User Overrides:
+    Palette: "Sostituire la coppia cromatica conservando due colori leggibili e il retino."
+    Format: "Ricomporre il rapporto tra foto e frase per il formato richiesto."
+    Case: "Rispettare una richiesta esplicita di cassa originale o minuscola."
+    Fonts: "Applicare la direzione richiesta senza deformare le parole."
+    Imagery: "Usare il soggetto o la fotografia richiesti, mantenendo la relazione con la frase."
+
+  Production:
+    Preferred Mode: "generative"
+    Print Accuracy: "Simulazione visiva RGB di bicromia retinata, non separazioni fisiche certificate."
+    Validation Status: >
+      La prima proposta a toni continui è superata. Il test corrente deriva
+      dalla card B/W con sporco di stampa: blu e giallo dominanti, retino
+      fotografico visibile e frase esatta nelle stesse tre righe. Foto,
+      composizione e usura appaiono mantenute, senza identità al pixel.
+      La verifica è visiva, anche a 375 px; altre coppie cromatiche,
+      soggetti, testi e formati restano da provare.
+
+Composition Library: composizioni.yaml
