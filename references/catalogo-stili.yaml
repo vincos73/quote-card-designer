@@ -5,15 +5,15 @@ defaults:
   variants: 1
 families:
 - id: griglia-tipografia
-  name: Griglia e tipografia
+  name: Tipografia e geometria
 - id: disegno-tecnico-spazio
   name: Disegno tecnico e spazio
 - id: collage-stampa
-  name: Collage e stampa
+  name: Collage, retini e stampa
 - id: illustrazione-repertori-storici
-  name: Illustrazione editoriale e repertori storici
+  name: Repertori storici
 - id: segno-manuale-lettering
-  name: Segno manuale e lettering
+  name: Segno e tecniche manuali
 - id: immagine-concettuale-materia
   name: Immagine concettuale e materia
 - id: interfacce-cultura-web
@@ -169,7 +169,7 @@ styles:
   profile: references/styles/neo-swiss/profilo.yaml
 - id: ink-and-margin
   release_candidate: false
-  family: illustrazione-repertori-storici
+  family: segno-manuale-lettering
   name: Ink
   aliases:
   - ink
@@ -192,7 +192,7 @@ styles:
 - id: pencil
   release_candidate: false
   production_mode: generative
-  family: illustrazione-repertori-storici
+  family: segno-manuale-lettering
   name: Pencil
   aliases:
   - pencil
@@ -858,7 +858,7 @@ styles:
   example_2_label: Le idee
 - id: faceted-ink
   release_candidate: false
-  family: illustrazione-repertori-storici
+  family: segno-manuale-lettering
   name: Faceted Ink
   aliases:
   - faceted ink
@@ -983,7 +983,7 @@ styles:
   pilot_selected: true
   release_candidate: true
   production_mode: generative
-  family: illustrazione-repertori-storici
+  family: segno-manuale-lettering
   name: Watercolor
   aliases:
   - watercolor
