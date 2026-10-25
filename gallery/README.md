@@ -11,6 +11,8 @@ Questa directory contiene il sorgente della [galleria Sites](https://quote-card-
 
 La build conserva ricerca, filtri per famiglia e release, profili YAML integrali e selettore degli esempi. Le immagini sono file separati: Sites rifiuta un singolo HTML oltre 25 MB.
 
+La sincronizzazione controlla gli identificatori degli stili già presenti nel checkout Sites. Se il sito contiene stili assenti dalla build locale, si ferma prima di sostituire `dist/`: occorre allineare i sorgenti per conservare gli aggiornamenti pubblicati da altri ambienti.
+
 ## Pubblicare sul Sites esistente
 
 La pubblicazione richiede il plugin **Sites** con accesso al progetto `appgprj_6adb7b4f342881918cd48a4c247a3092`. Il progetto è privato. Il manifest `gallery/.openai/hosting.json` conserva l'ID e la directory statica. Una credenziale Git di Sites è temporanea: non salvarla nel repository o nei segreti di GitHub.

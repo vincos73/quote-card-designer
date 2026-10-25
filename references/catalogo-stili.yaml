@@ -1535,3 +1535,30 @@ styles:
   example_count: 1
   example_text: Le idee crescono quando cambiano prospettiva.
   example_label: Apertura nella figura
+- id: handwritten
+  release_candidate: false
+  v1_shortlisted: true
+  production_mode: generative
+  family: segno-manuale-lettering
+  name: Handwritten
+  aliases:
+  - handwritten
+  - scrittura a mano
+  - fotografia annotata
+  - handwritter
+  summary: Fotografia analogica 35mm o istantanea interamente virata in un colore, con grana controllata e scrittura manuale irregolare. Inchiostro sempre distinto dal viraggio per colore e luminosità.
+  tags:
+  - fotografico
+  - handwritten
+  - manuale
+  - analogico
+  - 35mm
+  - monocromatico
+  - grana
+  profile: references/styles/handwritten/profilo.yaml
+  example: references/styles/handwritten/esempio.png
+  notes: references/styles/handwritten/note.md
+  example_prompt: references/styles/handwritten/prompt-esempio.md
+  example_count: 1
+  example_text: A volte basta cambiare passo.
+  example_label: 35mm · rosso ruggine e azzurro ghiaccio
