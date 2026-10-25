@@ -1,0 +1,114 @@
+Design Style:
+  Name: Psychedelic Art
+  Status: Profilo della libreria, V1 candidate approvato
+  Concept: >
+    La frase prende corpo in un campo organico: lettere elastiche e piene,
+    curve che si stringono e si aprono, figure e ornamenti che condividono
+    lo stesso ritmo. Il linguaggio riprende la grafica dei poster musicali
+    psichedelici degli anni Sessanta e Settanta, adattandone la densità a una
+    citazione leggibile. Non basta aggiungere funghi, occhi o colori neon.
+  Reference Basis:
+    History: >
+      Lettere libere costruite dentro forme, curve d'ispirazione Art Nouveau
+      e Secessione, compenetrazione fra immagine e testo. I poster storici
+      potevano rallentare intenzionalmente la lettura; la quote card deve
+      conservare una prima lettura chiara della frase completa.
+    Contemporary Reinterpretations: >
+      Gli allegati includono poster contemporanei datati e reinterpretazioni
+      ornamentali. Trasferire qualità di ritmo, colore e materia senza
+      attribuire automaticamente ogni immagine al periodo storico.
+    Runtime: >
+      Il profilo è autosufficiente. Le immagini hanno un ruolo di studio,
+      non diventano allegati operativi obbligatori per ogni nuova card.
+  Canvas:
+    Ratio: '4:5'
+    Output: Una card editoriale piatta, senza mockup del manifesto
+    Adaptation: Ricomporre flussi, figure e gruppi di parole per il rapporto richiesto.
+  Mood: [Visionario, Fluido, Organico, Avvolgente, Espressivo, Stampato]
+  Color Palette:
+    Fixed Colors: false
+    Starting Relationship:
+      Deep Ink: '#173C3A'
+      Warm Signal: '#E77658'
+      Light Paper: '#EEE1BD'
+    Strategy: >
+      Scegliere pochi colori di inchiostro con un rapporto intenzionale.
+      Una palette ridotta può essere psichedelica quanto una molto satura.
+      La vibrazione fra tinte vicine per luminosità può vivere nell'ornamento,
+      mentre i contorni essenziali della citazione mantengono contrasto.
+    Overrides: >
+      Le tinte sono sostituibili. Evitare gradienti luminosi digitali o un
+      arcobaleno obbligatorio per dimostrare il carattere psichedelico.
+  Typography:
+    Quote:
+      Character: >
+        Lettering disegnato a mano, gonfio e sinuoso, con terminali svasati,
+        raccordi organici e controforme che cambiano ampiezza. Le lettere
+        si allungano o si raccolgono per abitare una forma fluida, senza
+        ridursi a un font ondulato applicato sopra un'immagine.
+      Reading: >
+        Preservare scheletri riconoscibili, spazi fra parole, accenti e
+        punteggiatura. Rendere chiara la sequenza dei gruppi di senso; evitare
+        giri completi, specchiature, parole capovolte o dettagli essenziali nascosti.
+      Hierarchy: >
+        La citazione completa è la prima lettura. Tutte le parole partecipano
+        al linguaggio, comprese congiunzioni e articoli. Variare scala e ritmo
+        senza spostare la frase integrale in una didascalia secondaria.
+    Attribution:
+      Style: Registro più piccolo e semplice, coerente con l'inchiostro del lettering
+      Placement: Solo se fornita o verificata, subordinata e allineata a destra in un intervallo calmo.
+  Layout:
+    Shared Flow: >
+      Una continuità di curve struttura la figura illustrata, i campi
+      cromatici e le sagome delle parole. Le forme
+      accolgono la citazione e la citazione modifica il percorso delle forme.
+    Density: >
+      Addensare i dettagli in zone scelte; aprire localmente il campo delle
+      parole. La complessità non richiede un inventario simmetrico di simboli
+      né una superficie uniformemente piena.
+    Variation: >
+      Soggetto e costruzione dipendono dalla frase. Ritratto, pianta, animale,
+      paesaggio e forma astrale sono possibilità, non contenuti obbligatori.
+  Imagery:
+    Character: >
+      Illustrazione originale a contorni e campiture, con metamorfosi graduali
+      fra forme naturali, figura e spazio. La realtà può aprirsi, piegarsi,
+      moltiplicarsi o fondersi senza diventare rendering tridimensionale.
+    Repertoire: >
+      Flussi vegetali, petali, raggi, archi, stelle o un simbolo cosmico
+      possono sostenere il tema. Sceglierne pochi pertinenti; non rendere
+      obbligatori mandala, funghi, serpenti o occhi.
+    Independence: >
+      Non copiare ritratti, personaggi, marchi, nomi di gruppi, informazioni
+      di concerto o composizioni precise degli esempi.
+  Effects:
+    Print: >
+      Inchiostri piatti, leggere variazioni di deposito e carta percepibile.
+      Il retino è facoltativo e localizzato. La simulazione della stampa non
+      equivale a una tecnica o tiratura storica certificata.
+    Contours: Linee incisive e continue, senza nero indistinto nei dettagli delle lettere.
+    Exclusions: Niente luci al neon, bevel, plastica lucida, ombre realistiche o grunge uniforme.
+  Content Contract:
+    quotation: Parole, cassa, accenti, apostrofi e punteggiatura esatti; frase completa una volta sola.
+    author: Solo fornito o verificato, più piccolo e allineato a destra.
+    other_text: Nessun nome di evento, etichetta, firma, prezzo o parola decorativa inventati.
+  Rules:
+    - Far abitare alle parole il medesimo flusso organico dell'illustrazione.
+    - Conservare leggibilità della frase completa anche in una card nel feed.
+    - Scegliere il soggetto dalla frase, senza ripetere un repertorio stereotipato.
+    - Usare i colori come rapporti fra campi, non come effetto digitale automatico.
+    - Evitare una grande illustrazione con il testo ridotto a piccolo cartiglio inferiore.
+  Production:
+    Preferred Mode: generative
+    Validation Status: >
+      Provata una frase nella famiglia liquid-fields, palette petrolio,
+      corallo e crema, formato verticale richiesto 4:5. Confrontate una
+      generazione senza immagini e una con tre reference effettive, stesso
+      prompt di base. La seconda mantiene più chiari i diacritici e la
+      relazione fra campi fluidi e frase, senza copiare i soggetti forniti.
+      Controllo visivo nel nativo e a 375 px di larghezza. Nella prima la
+      forma della à finale di realtà si fonde maggiormente nell'ornamento.
+      Nessuna prova di ripetibilità, altri testi, formati o attribuzioni;
+      le altre famiglie restano ipotesi progettuali.
+
+Composition Library: composizioni.yaml

@@ -1,0 +1,45 @@
+Composition Library:
+  Style Name: Optical
+  Selection:
+    Guidance: >
+      Scegliere il meccanismo che lascia leggere quella frase con più chiarezza.
+      Le famiglie sono alternative. Per testi più lunghi, applicare l'effetto
+      all'ancoraggio espressivo e integrare i raccordi nello stesso campo con più respiro.
+  Families:
+    - id: typographic-contours
+      Name: Contorni generati dalle parole
+      Use When: Una frase breve o media presenta parole con una silhouette riconoscibile.
+      Structure: >
+        Le forme dei gruppi di parole originano contorni ripetuti che diventano
+        bande e si trasformano nei vuoti fra righe. Le parole rimangono una massa
+        leggibile, il campo si dilata e si comprime attorno a loro.
+      Text Adaptation: >
+        Disporre i gruppi di senso in poche righe e dare più spazio alle parole
+        lunghe. I contorni sono geometrie, non copie ripetute della frase.
+      Format Adaptation: >
+        Ricomporre le righe e i percorsi delle bande per il nuovo rapporto.
+        Conservare margini di lettura intorno ai glifi esterni.
+    - id: curved-corridor
+      Name: Corridoio nel campo
+      Use When: Il testo beneficia di un percorso fluido senza distorsioni marcate dei glifi.
+      Structure: >
+        Le onde aprono un intervallo che accoglie la frase, cambiando densità e
+        direzione in relazione alle parole. Il corridoio attraversa il campo,
+        senza diventare una fascia rettangolare sovrapposta.
+      Text Adaptation: >
+        Usare uno o pochi percorsi leggibili; evitare svolte strette e parole
+        ruotate fino a richiedere di girare la card. La frase mantiene il suo ordine.
+      Format Adaptation: Adattare la curvatura e la larghezza del corridoio al formato.
+    - id: phase-and-counterform
+      Name: Fase e controforma
+      Use When: Una frase molto breve consente glifi grandi e un contrasto locale netto.
+      Structure: >
+        Un campo ripetuto cambia fase o si inverte nelle sagome di alcune parole.
+        La continuità delle bande crea il gioco percettivo, mentre le controforme
+        e i bordi decisivi consentono di leggere immediatamente.
+      Text Adaptation: >
+        Limitare l'inversione alle parole che reggono l'effetto; conservare una
+        lettura solida per i raccordi. Non occultare interi tratti distintivi.
+      Format Adaptation: >
+        Rifare passo e orientamento del campo in funzione della dimensione finale,
+        senza ridurre la frequenza a righe illeggibili nel feed.

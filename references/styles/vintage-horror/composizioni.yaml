@@ -1,0 +1,43 @@
+Composition Library:
+  Style Name: Vintage Horror
+  Selection:
+    Guidance: >
+      Scegliere una struttura principale in funzione dei gruppi di senso e
+      dell'ingombro della frase. Il visual accompagna la frase, non aggiunge
+      informazioni da locandina di spettacolo.
+  Families:
+    - id: two-act-marquee
+      Name: Due tempi della frase
+      Use When: Due proposizioni o gruppi principali creano una tensione o un contrasto.
+      Structure: >
+        Due masse di lettering rispondono l'una all'altra attraverso una
+        figura o una campitura che fa da cerniera. Una parola di ogni gruppo
+        può crescere di scala; le parti minori mantengono una lettura forte.
+      Text Adaptation: >
+        Conservare la sequenza fra i due gruppi. Aumentare righe e spazio
+        prima di ridurre tutto a microtesto.
+      Format Adaptation: >
+        Cambiare il rapporto fra masse e cerniera per il nuovo formato,
+        evitando di ritagliare le estremità del lettering.
+    - id: dominant-title
+      Name: Titolo che invade
+      Use When: Una frase breve ha una parola dominante e un gesto figurativo forte.
+      Structure: >
+        Un grande blocco di lettere disegnate occupa il campo; la figura
+        entra da un bordo e ne sostiene la direzione. Il resto della frase
+        completa il titolo nello stesso sistema visivo.
+      Text Adaptation: >
+        La parola dominante non sostituisce la frase. Disporre i raccordi
+        in gruppi di senso senza trasformarli in etichette sparse.
+      Format Adaptation: Ridisegnare il rapporto fra taglio della figura e sagoma del titolo.
+    - id: torn-broadside
+      Name: Campiture da affissione
+      Use When: La frase richiede più righe ma conserva gruppi chiaramente distinti.
+      Structure: >
+        Due o tre pannelli irregolari alternano carta, nero e colore piatto.
+        Il lettering cambia registro per ragioni espressive, mantenendo un
+        percorso continuo. Un solo nucleo figurativo raccorda le campiture.
+      Text Adaptation: >
+        Ogni pannello contiene un gruppo di senso. Non ripetere parole per
+        imitare il riempimento informativo delle locandine storiche.
+      Format Adaptation: Ridistribuire altezza e larghezza dei pannelli senza comprimere i caratteri.

@@ -315,15 +315,16 @@ styles:
   example_prompt: references/styles/chromatic-type/prompt-esempio.md
 - id: optical-motion
   release_candidate: false
+  v1_shortlisted: true
+  production_mode: generative
   family: griglia-tipografia
-  name: Optical Motion
+  name: Optical
   aliases:
   - optical motion
   - optical
   - op art
   - movimento ottico
-  summary: 'Arte ottica in nero e avorio: curve ripetute e centri spostati suggeriscono movimento, con
-    testo arioso e un accento cobalto.'
+  summary: 'La frase partecipa all’illusione: contorni generati dalle parole, aperture nelle onde o inversioni figura-sfondo. Testo dominante e campo ottico progettati insieme.'
   tags:
   - ottico
   - curve
@@ -331,9 +332,18 @@ styles:
   - movimento
   - editoriale
   profile: references/styles/optical-motion/profilo.yaml
-  example: references/styles/optical-motion/esempio.png
+  example: references/styles/optical-motion/esempio-optical.png
+  example_2: references/styles/optical-motion/esempio-optical-2.png
+  example_3: references/styles/optical-motion/esempio-optical-3.png
   notes: references/styles/optical-motion/note.md
   example_prompt: references/styles/optical-motion/prompt-esempio.md
+  example_count: 3
+  example_text: Ogni punto di vista apre una possibilità.
+  example_label: Apertura ondulata
+  example_2_text: Ogni punto di vista apre una possibilità.
+  example_2_label: Fase e inversione
+  example_3_text: Le idee crescono quando cambiano prospettiva.
+  example_3_label: Contorni tipografici
 - id: orizzonte-modulare
   release_candidate: false
   family: griglia-tipografia
@@ -1562,3 +1572,55 @@ styles:
   example_count: 1
   example_text: A volte basta cambiare passo.
   example_label: 35mm · rosso ruggine e azzurro ghiaccio
+- id: psychedelic-art
+  release_candidate: false
+  v1_shortlisted: true
+  production_mode: generative
+  family: illustrazione-repertori-storici
+  name: Psychedelic Art
+  aliases:
+  - psychedelic
+  - psichedelia art
+  - psichedelia
+  - poster psichedelico
+  summary: Lettere elastiche e svasate abitano campi fluidi, condividendo ritmo e contorni con l’illustrazione. Ispirazione ai poster psichedelici, con frase dominante e leggibile.
+  tags: [psichedelico, lettering, organico, poster, stampa, illustrazione]
+  profile: references/styles/psychedelic-art/profilo.yaml
+  example: references/styles/psychedelic-art/esempio.png
+  notes: references/styles/psychedelic-art/note.md
+  example_prompt: references/styles/psychedelic-art/prompt-esempio.md
+  example_count: 1
+  example_text: La realtà è solo l’inizio.
+  example_label: Campi fluidi · petrolio e corallo
+- id: lowbrow
+  release_candidate: false
+  v1_shortlisted: true
+  production_mode: generative
+  family: illustrazione-repertori-storici
+  name: Lowbrow
+  aliases: [lowbrow, lowbrow anni 70, cartoon underground, grottesco underground]
+  summary: Caricature elastiche, oggetti animati e umorismo grottesco da cultura underground. Lettering disegnato e contorni marcati condividono inchiostri piatti e materia di stampa.
+  tags: [lowbrow, underground, cartoon, grottesco, lettering, stampa]
+  profile: references/styles/lowbrow/profilo.yaml
+  example: references/styles/lowbrow/esempio.png
+  notes: references/styles/lowbrow/note.md
+  example_prompt: references/styles/lowbrow/prompt-esempio.md
+  example_count: 1
+  example_text: La realtà è solo l’inizio.
+  example_label: Oggetto animato · porta sul mondo
+- id: vintage-horror
+  release_candidate: false
+  v1_shortlisted: true
+  production_mode: generative
+  family: illustrazione-repertori-storici
+  name: Vintage Horror
+  aliases: [vintage horror, horror vintage, locandina horror, horror show]
+  summary: La frase diventa il titolo di una locandina horror d’epoca, con lettering irregolare, blocchi condensati, figure a inchiostro e pochi colori da stampa economica.
+  tags: [horror, vintage, locandina, lettering, stampa, illustrazione]
+  profile: references/styles/vintage-horror/profilo.yaml
+  example: references/styles/vintage-horror/esempio.png
+  notes: references/styles/vintage-horror/note.md
+  example_prompt: references/styles/vintage-horror/prompt-esempio.md
+  example_count: 1
+  example_text: La paura bussa. La curiosità apre.
+  example_label: Due tempi · nero e vermiglione

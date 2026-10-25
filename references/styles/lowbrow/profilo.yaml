@@ -1,0 +1,88 @@
+Design Style:
+  Name: Lowbrow
+  Status: Profilo della libreria, V1 candidate approvato
+  Concept: >
+    Una quote card dalla cultura underground: caricature elastiche, umorismo
+    insolente, oggetti quotidiani animati e lettering disegnato condividono
+    un campo di inchiostri piatti. Il grottesco è giocoso e assurdo; la frase
+    guida il piccolo mondo illustrato, senza diventare un testo da locandina.
+  Canvas:
+    Ratio: '4:5'
+    Output: Card editoriale piatta e stampata, non mockup di un poster
+    Adaptation: Ricomporre parole, personaggi e intervalli per il formato richiesto.
+  Mood: [Grottesco, Ironico, Underground, Artigianale, Irriverente, Fantastico]
+  Color Palette:
+    Principle: >
+      Nero strutturale e pochi inchiostri saturi su carta chiara o campo scuro.
+      La palette può essere acida o più calda e polverosa. Il contrasto separa
+      frase, personaggio e dettagli; non assegnare un colore diverso a ogni oggetto.
+    Starting Example: Carta crema, nero, arancio vermiglione, turchese e giallo senape.
+    Freedom: >
+      Il colore è sostituibile. Il neon digitale, il fondo nero e la carta
+      invecchiata non sono ingredienti obbligatori.
+  Typography:
+    Quote:
+      Skeleton: >
+        Lettering latino disegnato a mano: masse gonfie, profili sghembi,
+        incavi concavi e controforme aperte. Peso irregolare ma intenzionale,
+        spazi fra parole chiari. Un secondo registro più stretto può sostenere
+        le parole di raccordo, sempre abbastanza grandi da leggere nel feed.
+      Integration: >
+        Le parole possono appoggiarsi a un oggetto, deformare il bordo di una
+        scena o abitare un vuoto fra personaggi. Il gesto delle lettere può
+        condividere l'inchiostro e i contorni delle figure.
+      Limits: >
+        Una deformazione non deve cambiare il glifo. Evitare colature seriali
+        da font horror generico o un set di lettere calligrafiche eleganti.
+    Attribution:
+      Style: Piccolo lettering semplice o sans condensata, coerente con la stampa
+      Placement: Solo fornita o verificata, più leggera e allineata a destra.
+  Layout:
+    Hierarchy: >
+      Dare alla frase un campo ampio e una lettura immediata. Un fulcro
+      illustrato originale interagisce con le parole; dettagli minori e
+      piccole azioni possono addensarsi alla periferia senza coprire il testo.
+    Density: >
+      Il mondo può essere affollato ma non è obbligatorio saturare ogni
+      centimetro. Variare scala e densità e aprire pause attorno alle lettere.
+    Variation: >
+      Scegliere soggetto e gag visiva dal contenuto. Non rendere fissi occhi
+      sporgenti, funghi, cervelli, teschi, veicoli o sostanze psicotrope.
+  Graphic Elements:
+    Drawing: >
+      Contorni neri marcati, lievemente vibranti, cambi di spessore e dettagli
+      interni a piccoli tratteggi o punti. Anatomie di gomma, proporzioni
+      comiche e materiali che si comportano in modo assurdo rendono il mondo
+      vivo. L'espressione conta più dell'accumulo di simboli.
+    Repertoire: >
+      Personaggi originali, oggetti animati, piccole collisioni impossibili,
+      frammenti di paesaggio e metamorfosi quotidiane. Un motivo ricorrente
+      può legare gli elementi senza imitare mascotte o icone riconoscibili.
+  Effects:
+    Print: >
+      Campiture piatte da inchiostri separati, lievi disallineamenti locali,
+      deposito irregolare e retino selettivo nelle ombre. Tenere netta la
+      costruzione, evitando gradiente 3D o grunge uniforme sovrapposto.
+    Paper: Fibra sottile e tono della carta possono emergere negli spazi non stampati.
+  Content Contract:
+    quotation: Parole, cassa, accenti e punteggiatura esatti, frase completa una volta sola.
+    author: Solo fornito o verificato, subordinato e allineato a destra.
+    other_text: Nessun fumetto parlato, titolo evento, prezzo, marchio o firma inventato.
+  Rules:
+    - La frase è il messaggio principale, con un mondo illustrato che reagisce al suo contenuto.
+    - Usare un disegno grottesco e ironico senza ridurlo a una collezione di mostri o simboli psichedelici.
+    - Integrare lettering e illustrazione con lo stesso linguaggio di inchiostro.
+    - Conservare leggibilità, accenti e spazi anche quando le lettere cambiano forma.
+    - Non copiare personaggi, slogan, firme o impaginati precisi degli allegati.
+    - Non aggiungere contenuto testuale da locandina per riempire il campo.
+  Production:
+    Preferred Mode: generative
+    Validation Status: >
+      Prima coppia su una frase, palette e famiglia animated-hinge, con e
+      senza tre immagini di riferimento effettive. Testo verificato nel
+      nativo e a 375 px, senza parole aggiunte. La prova con reference ha
+      segno più grottesco e densità da stampa underground; quella senza
+      reference è più ordinata e illustrativa. Approvato per la libreria
+      e candidato V1. Non provate altre frasi, palette, formati o famiglie.
+
+Composition Library: composizioni.yaml

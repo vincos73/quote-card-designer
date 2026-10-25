@@ -1,87 +1,91 @@
 Design Style:
-  Name: "Optical Motion"
+  Name: Optical
+  Status: Profilo della libreria, V1 candidate approvato; revisione di Optical Motion
   Concept: >
-    A precisely controlled optical-art editorial language in which static,
-    repeated curves create apparent movement. Carefully spaced concentric
-    bands and a displaced centre shift the visual balance, while typography
-    and quiet negative space remain integral to the composition.
+    La citazione partecipa a un'illusione ottica statica: le parole generano
+    curve, perturbano una trama o emergono da un'inversione figura-sfondo.
+    Testo e campo ottico sono progettati insieme. Il colpo d'occhio invita
+    alla lettura, senza relegare la frase a didascalia di un pattern autonomo.
   Canvas:
-    Ratio: "4:5"
-    Output: "Single finished flat editorial quote card, full bleed"
-  Mood:
-    - Intelligent
-    - Lucid
-    - Dynamic
-    - Precise
-    - Editorial
-    - Geometric
+    Ratio: '4:5'
+    Output: Card editoriale piatta a piena pagina
+    Adaptation: Ricomporre il campo ottico e i gruppi di parole per il formato richiesto.
+  Mood: [Percettivo, Preciso, Dinamico, Geometrico, Editoriale]
   Color Palette:
-    Background:
-      Paper: "Warm ivory or soft off-white"
-    Primary:
-      Black: "Deep, crisp black"
-      Ivory: "Warm ivory, continuous with the open paper field"
-    Accent:
-      Cobalt Blue: "One vivid, saturated cobalt blue"
-    Roles: >
-      Black and ivory form the alternating optical bands and the principal
-      typographic contrast. Cobalt blue is a single restrained planar accent
-      that marks a shift or opening in the geometry. Keep the overall image
-      predominantly black and ivory.
+    Starting Point: Nero profondo e avorio, oppure bianco e nero.
+    Contrast: >
+      Usare due valori nettamente separati per rendere leggibili ripetizione
+      e figura-sfondo. La palette è sostituibile, conservando il contrasto.
+    Accent: >
+      Un accento cromatico facoltativo può segnare una transizione. Non è
+      obbligatorio il cobalto e non occorre un terzo colore in ogni card.
   Typography:
-    Primary:
-      Style: "Clear contemporary sans-serif with geometric character"
-      Weight: "Medium to bold, with sturdy open letterforms"
-      Tracking: "Optically adjusted, never compressed to force a fit"
-      Role: "The dominant word or phrase, set large and highly legible"
-    Secondary:
-      Style: "The same sans-serif family at a quieter scale"
-      Role: "Introductory and connecting words in the quotation"
-    Hierarchy: >
-      Use a clear difference in scale between the phrase's anchor and its
-      supporting words. Keep the natural reading sequence, exact case,
-      spelling and punctuation. Use deliberate shifts in alignment only when
-      they remain immediately legible. All text stays horizontal.
+    Quote:
+      Base: Grotesk contemporaneo con forme robuste e controforme aperte.
+      Integration: >
+        La silhouette di alcune parole può modellare le bande, continuare
+        nei contorni o apparire per inversione del campo. Adottare un solo
+        meccanismo principale per card, mantenendo una massa di lettura chiara.
+      Transformation: >
+        Curve, contorni e deformazioni locali sono ammessi se motivati
+        dall'illusione e leggibili. Conservare la riconoscibilità di ciascun
+        glifo e gli spazi fra parole. Non schiacciare una riga per farla entrare.
+      Hierarchy: >
+        La citazione completa è la prima lettura. Un ancoraggio espressivo può
+        usare una scala o un trattamento diverso; le parole di raccordo non
+        diventano microtesto. Non tutte le lettere devono ricevere lo stesso effetto.
+    Attribution:
+      Style: Sans-serif più piccolo e leggero, senza distorsione ottica
+      Placement: Solo fornita o verificata, in un intervallo calmo e allineata a destra.
   Layout:
-    Structure:
-      - "Asymmetrical editorial composition"
-      - "Optical geometry balanced with calm typographic space"
-      - "Open negative space around and between text and bands"
-      - "A controlled shift in alignment or centre that supports the meaning"
-    Relationships: >
-      Integrate the lettering with the rhythm and spacing of the curves, while
-      reserving quiet, low-interference areas for every word. The optical
-      centre may shift or flex across a small opening; do not let the bands
-      obscure, distort or compete with the quotation.
+    Shared Field: >
+      Testo e illusione appartengono allo stesso campo: spazi fra righe,
+      contorni, vuoti e densità delle bande organizzano la frase. La geometria
+      reagisce alla citazione, non riempie soltanto lo spazio rimasto.
+    Readability: >
+      La sequenza di lettura resta univoca. Aprire intervalli e ridurre la
+      frequenza delle bande vicino ai dettagli delle lettere; il respiro può
+      essere un vuoto interno al campo, senza diventare un riquadro da didascalia.
+    Variation: >
+      Scegliere direzione, fulcri, densità e distribuzione dalla frase. Tunnel,
+      onde e cerchi sono possibilità, non soggetti fissi da ripetere.
   Graphic Elements:
     Repertoire:
-      - "Repeated concentric arcs and curved bands"
-      - "Alternating black and ivory intervals"
-      - "A displaced centre of curvature"
-      - "One small planar cobalt-blue opening or accent"
+      - Bande alternate e contorni che si incurvano attorno alla forma delle parole.
+      - Compressione e dilatazione graduale degli intervalli per suggerire profondità.
+      - Un campo regolare localmente perturbato dalle lettere.
+      - Inversioni figura-sfondo e cambi di fase limitati, con glifi riconoscibili.
     Selection: >
-      Choose a restrained number of related bands with spacing broad enough
-      to remain crisp and calm. Arrange their centre, scale and interruption
-      for the specific card. The location and shape of the optical field are
-      compositional choices, not fixed elements in every application.
+      Selezionare una sola famiglia principale. Non sommare spirale, scacchiera,
+      moiré e tunnel come inventario di effetti. Una variazione geometrica
+      controllata conta più di un gran numero di elementi.
   Effects:
-    Edges: "Crisp, clean and precisely rendered"
-    Repetition: "Consistent intervals with subtle, intentional variation near the shifted centre"
-    Motion: "Apparent movement created by static geometry only"
-    Texture: "None or imperceptible; preserve clean flat surfaces"
-    Depth: "Flat graphic construction"
-    Shadows: "None"
+    Apparent Motion: Creato da ripetizione e variazioni di forma, spessore o intervallo.
+    Depth: Illusione bidimensionale, senza ombre o volume renderizzato.
+    Edges: Nitidi e coerenti; preferire bande leggibili a reticoli microscopici.
+    Surface: Piatta, senza texture grunge o grana aggiunta obbligatoria.
+  Content Contract:
+    quotation: Frase completa una volta sola, con cassa e punteggiatura esatte.
+    author: Solo fornito o verificato, subordinato e allineato a destra.
+    other_text: Nessuna etichetta, istruzione, parola ornamentale, firma o numero inventati.
   Rules:
-    - "Preserve the supplied quotation verbatim and render it once."
-    - "Keep black and ivory dominant, with cobalt blue as the sole accent colour."
-    - "Make the apparent movement come from curved repetition and a displaced centre."
-    - "Keep all text horizontal, complete and readable at phone size."
-    - "Protect quiet spaces around text; never place copy over dense, high-frequency bands."
-    - "Use enough band spacing to avoid visual vibration that harms legibility."
-    - "Avoid gradients, blur, motion blur, 3D, shadows and photographic material."
-    - "Avoid arrows, grids, labels, decorative microtext, logos and signatures."
-    - "Do not add titles, invented words or repeated copy."
-  User Overrides:
-    Format: "Recompose the optical field and typography for the requested ratio."
-    Palette: "Replace colours when requested while keeping a clear distinction between geometry, text and background."
-    Fonts: "Honour the requested type direction while retaining strong readability and a clear hierarchy."
+    - Far partecipare almeno una parte sostanziale della frase al meccanismo ottico.
+    - Mantenere la citazione completa leggibile alla scala di una card nel feed.
+    - Usare il vuoto come parte della costruzione ottica e del percorso di lettura.
+    - Non trasformare la frase in una didascalia sotto un'illusione autonoma.
+    - Non copiare parole, marchi o impaginati precisi dei riferimenti.
+    - Evitare fotografie, motion blur, sfocatura, ombre e oggetti tridimensionali.
+  Production:
+    Preferred Mode: generative
+    Validation Status: >
+      Profilo esplorato su due frasi, nero e avorio, formato richiesto 4:5.
+      Nella prima famiglia sono state confrontate una generazione senza
+      immagini e una con quattro reference effettive, con identico prompt
+      di base: la prima è più pulita. Dopo ricerca visiva su poster sono
+      state esplorate anche fase/inversione e apertura ondulata su una seconda
+      frase. La fase è più impegnativa da leggere, l'apertura ondulata più
+      immediata. Testo controllato nei nativi e a 375 px di larghezza. Non
+      sono provati palette diverse, altri formati o attribuzioni. Questi
+      esempi non dimostrano ripetibilità né un effetto percettivo universale.
+
+Composition Library: composizioni.yaml

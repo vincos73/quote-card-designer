@@ -1,0 +1,2 @@
+The three attached images are aesthetic references, not edit targets. Transfer their bold imperfect ink outlines, caricatural elastic anatomy, hand-drawn lettering, flat print colours and selective internal hatching or stippling. Do not copy their characters, gestures, subjects, words, logos, signatures or compositions. The independent warm cream, black, orange, turquoise and mustard palette and original animated-doorway scene below take precedence over the reference palettes. No event copy or speech-balloon text from the posters should appear.
+

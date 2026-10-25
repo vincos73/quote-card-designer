@@ -1,6 +1,6 @@
 # Galleria degli stili
 
-Questa directory contiene il sorgente della [galleria Sites](https://quote-card-designer-style-gallery.vincos.chatgpt.site/) e il generatore. Il catalogo è `references/catalogo-stili.yaml`; i profili e la maggior parte delle immagini sono in `references/styles/`. `source-assets/` contiene solo 16 immagini usate dalla galleria precedente che non coincidono con gli esempi correnti del profilo o non hanno un riferimento nel catalogo. Non sostituire il catalogo esteso con `references/catalogo-v1.yaml`.
+Questa directory contiene il sorgente della [galleria Sites](https://quote-card-designer-style-gallery.vincos.chatgpt.site/) e il generatore. Il catalogo è `references/catalogo-stili.yaml`; i profili e la maggior parte delle immagini sono in `references/styles/`. `source-assets/` contiene solo 15 immagini usate dalla galleria precedente che non coincidono con gli esempi correnti del profilo o non hanno un riferimento nel catalogo. Non sostituire il catalogo esteso con `references/catalogo-v1.yaml`.
 
 ## Aggiornare la galleria
 

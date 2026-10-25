@@ -1,0 +1,11 @@
+Create one complete flat editorial quote card, vertical 4:5, with the convincing typography and cheap printed-ink character of an old horror stage-show broadside. The quotation itself is the main title, not a caption. Use black and vermilion-red spot inks on warm cream uncoated paper.
+
+The exact and only text, once, preserving capitalization, accent and both periods:
+La paura bussa. La curiosità apre.
+No attribution, signature, extra title or event information.
+
+Compose the first sentence as a strong title mass in the upper part and the second as a responding title mass below. Let “paura” and “curiosità” be the expressive anchors. Draw these words in chunky, irregular horror lettering with tall, uneven silhouettes, slightly chiseled organic edges, small hand-cut notches, open counters and modest shifts of baseline. Preserve lowercase letters, including the grave accent on “curiosità”. Give the remaining words a sturdy, very condensed hand-painted poster-lettering register. The typography should feel specially drawn and printed, not a clean modern font with a distress filter. Use only those two coherent lettering registers, a few controlled tilts, and deliberate differences of scale. Keep the reading order obvious and every word substantial enough to read on a phone.
+
+Between and beside the two title masses, integrate one original black-ink illustration: a skeletal hand knocking on a slightly open wooden door, with one curious eye visible through the opening. Bold black shapes, expressive brush contours and selective coarse halftone or hatching in shadow areas, no smooth digital shading. The illustration connects the two sentences without hiding their letters. Text and image share the same warm paper and red/black printing.
+
+Make the ink tactile: slight edge absorption, tiny uneven ink voids inside broad black areas, restrained local color misregistration, selective halftone dots, subtle paper fibers. Keep the words crisp enough to read, without uniform digital noise, heavy fake grunge or mandatory drips on every letter. Flat printed colors, no gradient, gloss, 3D, photographic mockup, stock Halloween icon collage, copied characters, decorative microtext, logos, watermark or fake film billing. All text and punctuation fully inside the frame.
