@@ -1,0 +1,13 @@
+Create one complete flat editorial quote card, vertical 4:5, with the unmistakable hand-built lettering and cheap printed-ink character of an old horror stage-show broadside. Use one dense black ink on warm ochre-yellow uncoated paper, with yellow paper showing through the black. No other colors.
+
+The exact and only text, once, preserving capitalization and the final period:
+Le idee migliori prendono strade inattese.
+No attribution, signature, event details, title, labels or extra text.
+
+The quotation is the poster's main title, substantial and fully readable on a phone. Build a lively broadside composition with two or three irregular printed fields rather than a neat modern grid. “Le idee migliori” occupies a strong upper title mass; “prendono” connects it to the lower title mass “strade inattese.” Keep the words in natural top-to-bottom reading order, with both “strade” and “inattese.” large. Preserve the lowercase letters after the initial L.
+
+Draw the emphatic words in compact, deliberately irregular horror lettering: tall and slightly crooked silhouettes, chiseled organic edges, small hand-cut notches, open counters, uneven but controlled baselines. Supporting words use a very condensed hand-painted affiche register with sturdy strokes. The character must be in the actual letter shapes, not a normal modern typeface under a grunge filter. Alternate black lettering on yellow with yellow lettering reserved inside a black printed field, keeping every word and the period clear. No obligatory dripping decoration on every letter.
+
+Integrate one original illustration into the gaps and side of the title masses: an impossible narrow road winds sharply upward through a few stark leafless trees toward a freestanding, strangely tilted doorway on a hill. A small crescent moon and the distorted perspective create an eerie theatrical mood. The road must feel unexpected, not a generic landscape. Bold black silhouettes, scratchy brush contours, yellow paper reserves, a little coarse halftone or hatching only where the illustration needs midtones. The image supports the reading and never obscures letters. No skeleton hands, eyes peering through doors, copied characters or collage of Halloween icons.
+
+Make this feel like real economical print: flat black masses, small uneven ink voids, subtle edge absorption, restrained localized paper wear and warm paper fibers. Clean enough to read; no uniform digital noise, heavy faux-grunge, gradients, smooth digital shading, gloss, 3D or photographic mockup. Do not invent film billing, dates, tickets, brand names, logos, watermark or decorative microtext. All text and punctuation fully inside the frame.

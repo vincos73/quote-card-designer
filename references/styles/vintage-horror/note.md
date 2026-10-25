@@ -17,4 +17,12 @@ La coppia mantiene frase, palette, formato e composizione. La versione scelta
 ricorre maggiormente alle colature. Font e processo di stampa sono simulati,
 non identificazioni tecniche certificate. Testo, cassa, accento e due punti
 fermi controllati nel nativo 1122 × 1402 e a 375 px. Nessun testo evento aggiunto.
-Non sono provati altri testi, palette, formati, attribuzioni o tutte le famiglie.
+Non sono provati altri formati, attribuzioni o tutte le famiglie.
+
+Il secondo esempio `esempio-2.png` usa «Le idee migliori prendono strade
+inattese.», nero su carta ocra e un sentiero impossibile verso una porta.
+Il lettering è più appuntito della prima locandina, mantenendo stampa e
+gerarchia del profilo. Generazione completa ImageGen senza reference,
+prompt effettivo in `prompt-secondo-testo.md`. Parole, cassa e punto
+controllati nel nativo 1122 × 1402 e a 375 px. Due esempi visibili,
+con testi differenti.

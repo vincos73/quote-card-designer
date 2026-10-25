@@ -333,17 +333,14 @@ styles:
   - editoriale
   profile: references/styles/optical-motion/profilo.yaml
   example: references/styles/optical-motion/esempio-optical.png
-  example_2: references/styles/optical-motion/esempio-optical-2.png
-  example_3: references/styles/optical-motion/esempio-optical-3.png
+  example_2: references/styles/optical-motion/esempio-optical-secondo-testo.png
   notes: references/styles/optical-motion/note.md
   example_prompt: references/styles/optical-motion/prompt-esempio.md
-  example_count: 3
+  example_count: 2
   example_text: Ogni punto di vista apre una possibilità.
   example_label: Apertura ondulata
-  example_2_text: Ogni punto di vista apre una possibilità.
-  example_2_label: Fase e inversione
-  example_3_text: Le idee crescono quando cambiano prospettiva.
-  example_3_label: Contorni tipografici
+  example_2_text: Le idee migliori prendono strade inattese.
+  example_2_label: Fase e inversione · nuovo testo
 - id: orizzonte-modulare
   release_candidate: false
   family: griglia-tipografia
@@ -1567,11 +1564,14 @@ styles:
   - grana
   profile: references/styles/handwritten/profilo.yaml
   example: references/styles/handwritten/esempio.png
+  example_2: references/styles/handwritten/esempio-2.png
   notes: references/styles/handwritten/note.md
   example_prompt: references/styles/handwritten/prompt-esempio.md
-  example_count: 1
+  example_count: 2
   example_text: A volte basta cambiare passo.
   example_label: 35mm · rosso ruggine e azzurro ghiaccio
+  example_2_text: Le idee migliori prendono strade inattese.
+  example_2_label: 35mm · petrolio e albicocca
 - id: psychedelic-art
   release_candidate: false
   v1_shortlisted: true
@@ -1587,11 +1587,14 @@ styles:
   tags: [psichedelico, lettering, organico, poster, stampa, illustrazione]
   profile: references/styles/psychedelic-art/profilo.yaml
   example: references/styles/psychedelic-art/esempio.png
+  example_2: references/styles/psychedelic-art/esempio-2.png
   notes: references/styles/psychedelic-art/note.md
   example_prompt: references/styles/psychedelic-art/prompt-esempio.md
-  example_count: 1
+  example_count: 2
   example_text: La realtà è solo l’inizio.
   example_label: Campi fluidi · petrolio e corallo
+  example_2_text: Le idee migliori prendono strade inattese.
+  example_2_label: Campi fluidi · viola e giallo
 - id: lowbrow
   release_candidate: false
   v1_shortlisted: true
@@ -1603,11 +1606,14 @@ styles:
   tags: [lowbrow, underground, cartoon, grottesco, lettering, stampa]
   profile: references/styles/lowbrow/profilo.yaml
   example: references/styles/lowbrow/esempio.png
+  example_2: references/styles/lowbrow/esempio-2.png
   notes: references/styles/lowbrow/note.md
   example_prompt: references/styles/lowbrow/prompt-esempio.md
-  example_count: 1
+  example_count: 2
   example_text: La realtà è solo l’inizio.
   example_label: Oggetto animato · porta sul mondo
+  example_2_text: Le idee migliori prendono strade inattese.
+  example_2_label: Percorso assurdo · viola e lime
 - id: vintage-horror
   release_candidate: false
   v1_shortlisted: true
@@ -1619,8 +1625,11 @@ styles:
   tags: [horror, vintage, locandina, lettering, stampa, illustrazione]
   profile: references/styles/vintage-horror/profilo.yaml
   example: references/styles/vintage-horror/esempio.png
+  example_2: references/styles/vintage-horror/esempio-2.png
   notes: references/styles/vintage-horror/note.md
   example_prompt: references/styles/vintage-horror/prompt-esempio.md
-  example_count: 1
+  example_count: 2
   example_text: La paura bussa. La curiosità apre.
   example_label: Due tempi · nero e vermiglione
+  example_2_text: Le idee migliori prendono strade inattese.
+  example_2_label: Sentiero impossibile · nero e ocra

@@ -25,5 +25,13 @@ La fotografia e la resa analogica sono simulate, non documentano un evento
 reale né una scansione di pellicola. Le prove precedenti confrontavano
 scrittura e fotografia con e senza riferimenti; il soggetto della versione
 con reference risultava troppo simile a un allegato ed è stato scartato
-come esempio principale. Non è stata provata la resa Polaroid, un'altra
-frase, una foto fornita, un'attribuzione o un altro formato.
+come esempio principale. Non è stata provata la resa Polaroid, una foto
+fornita, un'attribuzione o un altro formato.
+
+Secondo esempio della galleria: `esempio-2.png`, «Le idee migliori prendono
+strade inattese.», fotografia 35mm interamente petrolio e scrittura
+albicocca. Scena diversa con scala esterna; il contrasto di colore e
+luminosità resta leggibile. `prompt-secondo-testo.md` conserva l'editing
+effettivo che sostituisce la frase su una precedente versione della stessa
+fotografia generata. Immagine completa prodotta da ImageGen, verificata nel
+nativo 1122 × 1402 e a 375 px. Due esempi visibili, con testi differenti.

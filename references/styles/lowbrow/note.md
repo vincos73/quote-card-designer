@@ -20,4 +20,10 @@ Testo completo, cassa, accenti, apostrofo e punto verificati nel nativo
 
 La ricerca distingue radici underground e Kustom Kulture dalle riletture
 contemporanee degli allegati. Il segno stampato è simulato, non una prova di
-processo storico. Altre frasi, palette, formati e famiglie non sono provati.
+processo storico. Altri formati e tutte le famiglie non sono provati.
+
+Il secondo esempio `esempio-2.png` usa «Le idee migliori prendono strade
+inattese.», un personaggio-lumaca con scala e una palette viola/lime.
+Generazione completa ImageGen senza reference, prompt effettivo in
+`prompt-secondo-testo.md`. Parole, cassa e punto controllati nel nativo
+1122 × 1402 e a 375 px. Due esempi visibili, con testi differenti.

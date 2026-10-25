@@ -83,6 +83,8 @@ Design Style:
       nativo e a 375 px, senza parole aggiunte. La prova con reference ha
       segno più grottesco e densità da stampa underground; quella senza
       reference è più ordinata e illustrativa. Approvato per la libreria
-      e candidato V1. Non provate altre frasi, palette, formati o famiglie.
+      e candidato V1. Un secondo esempio cambia frase, soggetto e palette
+      in viola e lime, mantenendo testo leggibile a 375 px. Non provati
+      altri formati, attribuzioni o tutte le famiglie.
 
 Composition Library: composizioni.yaml

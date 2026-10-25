@@ -18,5 +18,12 @@ rapporto tra frase e flussi. Verificati parole, cassa, accenti, apostrofo e
 punto nel nativo 1122 × 1402 e a 375 px. Nessun testo aggiunto.
 
 Il PNG non certifica un font o una tecnica di stampa storici. Non sono
-provati altri testi, palette, formati, attribuzioni o tutte le composizioni.
+provati altri formati, attribuzioni o tutte le composizioni.
 La figura vegetale appartiene alla prova, non è un soggetto fisso.
+
+Il secondo esempio `esempio-2.png` usa «Le idee migliori prendono strade
+inattese.», campi fluidi viola/giallo/crema e un piccolo percorso sinuoso.
+Generazione completa ImageGen senza reference, prompt effettivo in
+`prompt-secondo-testo.md`. La riga di raccordo è più piccola ma leggibile.
+Parole, cassa e punto controllati nel nativo 1122 × 1402 e a 375 px.
+Due esempi visibili, con testi differenti.

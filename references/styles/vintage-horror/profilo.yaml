@@ -110,8 +110,10 @@ Design Style:
       accento e punti verificati nel nativo e a 375 px di larghezza. La prova
       con reference presenta lettering più compatto e da affiche, mentre la
       prima ricorre maggiormente a colature convenzionali. Preferenza iniziale
-      per la seconda, approvata per la libreria e candidata V1. Non sono provate
-      altre frasi, palette, formati, attribuzioni o le altre due famiglie.
+      per la seconda, approvata per la libreria e candidata V1. Il secondo
+      esempio della galleria usa una nuova frase, nero su carta ocra e un
+      sentiero impossibile; testo controllato anche a 375 px. Non sono provati
+      altri formati, attribuzioni o tutte le famiglie.
       Font e processo di stampa sono simulati, non certificati come identici
       agli originali. Le immagini non diventano una dipendenza automatica.
 
