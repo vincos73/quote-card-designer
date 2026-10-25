@@ -19,10 +19,10 @@ La pubblicazione richiede il plugin **Sites** con accesso al progetto `appgprj_6
 
 Nel contesto Codex che dispone del plugin Sites:
 
-1. Chiama `get_site` per confermare l'accesso privato e `create_source_repository_write_credential` per ottenere la credenziale temporanea.
+1. Chiama `get_site` per confermare gli accessi correnti e `create_source_repository_write_credential` per ottenere la credenziale temporanea.
 2. Apri la sorgente Sites con lo `site-workflow.mjs` del plugin in una directory vuota. Invia la credenziale al processo tramite stdin, come indicato dallo skill Sites. Conserva il `checkout_path` restituito.
 3. Esegui `python3 gallery/sync_to_site_checkout.py <checkout_path>` dalla radice del repository GitHub.
 4. Richiama `site-workflow.mjs` nello stesso checkout, passando la credenziale e un `archivePath` temporaneo. Il risultato deve contenere `commit_sha` e `archive` della sorgente caricata.
-5. Chiama `save_version_and_deploy_private` con quel `project_id`, `commit_sha` e `archive`. Se il risultato non è terminale, consulta `get_deployment_status`.
+5. Conserva gli accessi restituiti da `get_site`. Se il sito è riservato al solo proprietario, usa `save_version_and_deploy_private` con quel `project_id`, `commit_sha` e `archive`. Se include altri visitatori, usa `save_site_version` e poi `deploy_site_version` con l'ID esatto della versione salvata. Se il risultato non è terminale, consulta `get_deployment_status`.
 
 Se il plugin Sites non è disponibile in Codex Cloud, la build può essere preparata e committata da lì, ma la pubblicazione sul Sites esistente deve essere eseguita in una chat con il plugin abilitato. Il repository da solo non fornisce una credenziale di pubblicazione.

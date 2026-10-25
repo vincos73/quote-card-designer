@@ -39,7 +39,7 @@ def main() -> None:
     if target.is_dir():
         shutil.rmtree(target)
     shutil.copytree(built, target)
-    print(f"Galleria copiata in {checkout}. Usa il flusso Sites per push e deploy privato.")
+    print(f"Galleria copiata in {checkout}. Usa il flusso Sites per push e pubblicazione mantenendo gli accessi.")
 
 
 if __name__ == "__main__":
