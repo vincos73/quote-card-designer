@@ -12,15 +12,17 @@ Non si limita a cambiare colori o caratteri. Per ogni stile usa indicazioni su t
 
 La versione **0.4.0** comprende **50 stili**. Il formato predefinito è una card verticale 4:5; una richiesta esplicita può cambiarlo. ImageGen deve essere disponibile nell'ambiente usato: un prompt scritto da solo non è una card generata.
 
-## Un esempio: prompt breve e direzione della skill
+## Un esempio: Editorial Interlock
 
-Due prove reali con la stessa frase, formato 4:5 e ruoli cromatici. A sinistra il generatore riceve una richiesta breve; a destra il prompt traduce le indicazioni del profilo **Neo Swiss** della skill, inclusi gerarchia, spazi e forma grafica.
+Due prove reali con ImageGen, la stessa frase e il formato verticale 4:5. A sinistra una richiesta breve con il solo nome dello stile; a destra un prompt che traduce le indicazioni del profilo **Editorial Interlock** della skill, registrato nella prova come versione 0.3.3.
 
-| Senza indicazioni della skill | Con la direzione della skill |
+| Prompt breve, senza profilo | Indicazioni del profilo della skill |
 | :---: | :---: |
-| <img src="docs/confronto-neo-swiss/senza-skill.png" width="360" alt="Quote card ottenuta con prompt breve, testo blu su fondo avorio con forma arancione"> | <img src="docs/confronto-neo-swiss/con-direzione-skill.png" width="360" alt="Quote card ottenuta con indicazioni Neo Swiss della skill, testo blu su fondo avorio con forma arancione"> |
+| <img src="docs/confronto-editorial-interlock/prompt-breve.png" width="360" alt="Quote card con testo su un paesaggio architettonico, generata con prompt breve"> | <img src="docs/confronto-editorial-interlock/direzione-skill.png" width="360" alt="Quote card con un prisma centrale di vetro e carta intrecciato alla tipografia"> |
 
-Nel primo risultato la frase usa un registro uniforme; nel secondo il contrasto tipografico mette in evidenza «cambiano». Entrambi riportano la frase completa. Sono **due output singoli**, non una misura generale dell'efficacia della skill: i prompt differiscono anche per livello di dettaglio e le prove non dimostrano ripetibilità. [Leggi condizioni, prompt e limiti](docs/confronto-neo-swiss/note-originali.md).
+Nel primo risultato la frase occupa un paesaggio architettonico; nel secondo un soggetto centrale attraversa la composizione tipografica. Alcune lettere del secondo si sovrappongono al prisma e richiedono più attenzione nella lettura.
+
+È un **confronto illustrativo fra due prompt**, non una dimostrazione isolata dell'effetto della skill: il secondo è più dettagliato e specifica anche il soggetto. Le immagini sono singoli risultati, senza prova di ripetibilità; il prompt guidato non documenta l'esecuzione dell'intero flusso della skill. [Condizioni, prompt integrali e limiti](docs/confronto-editorial-interlock/README.md).
 
 ## Installa la skill
 

@@ -1,0 +1,40 @@
+{
+  "style": "Editorial Interlock",
+  "date": "2026-10-26",
+  "generator": "Integrated ImageGen tool; underlying raster model, seed and settings are not exposed",
+  "isolation_recorded": "A prompts frozen from style IDs and public names only; A must finish before B profiles are read. Same-context sequential limitation.",
+  "phrase": "Le idee crescono quando cambiano prospettiva.",
+  "format": "4:5 vertical; no attribution or signature; one card; palette delegated",
+  "A": {
+    "prompt": "Crea una quote card verticale 4:5 con la frase «Le idee crescono quando cambiano prospettiva.» nello stile Editorial Interlock.",
+    "status": "complete",
+    "image": "prompt-breve.png",
+    "sha256": "42ff354bbaa42f51eba945487a2dae6d481150011a11ce1acc5cec81a3eb334c",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 2582741,
+    "generation_metadata": "ImageGen integrato; modello raster, seed e impostazioni non esposti."
+  },
+  "B": {
+    "prompt": "Card editoriale completa 4:5 con un forte soggetto materiale centrale intrecciato alla tipografia come copertina di rivista sperimentale. Frase esatta «Le idee crescono quando cambiano prospettiva.» una volta come composizione principale, distribuita in gruppi di parole di scale diverse ma con ordine di lettura naturale; il soggetto centrale (un prisma di vetro e carta che cambia asse prospettico) attraversa selettivamente spazi e alcuni contorni, passando davanti/dietro in pochi punti precisi senza coprire lettere. Colore tipografico armonizzato al soggetto, contrasto verificato, carta opaca, intervalli calmi; niente titoli o testi ulteriori.",
+    "status": "complete",
+    "image": "direzione-skill.png",
+    "sha256": "688a30faa9e8630f7881694b96f04e079d9f43da4eec47e4d89e4d33fc3cb0b8",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 2177299,
+    "generation_metadata": "ImageGen integrato; modello raster, seed e impostazioni non esposti.",
+    "profile_id": "editorial-interlock",
+    "profile_version": "0.3.3",
+    "recorded_at": "2026-10-26T11:00:18Z",
+    "feedback_revision": false
+  },
+  "observations": {
+    "literal": "La frase appare distribuita in gruppi di parole, nell’ordine consueto e con punto finale.",
+    "readability": "B alterna aree tipografiche grandi e colori distinti; la sovrapposizione con il prisma copre in parte alcuni tratti ma il testo resta ricostruibile.",
+    "language": "Un volume centrale traslucido e piegato si intreccia alla tipografia serif verde, marrone e scura su campo cartaceo.",
+    "composition": "Il prisma attraversa la colonna centrale; le parole si dispongono ai lati e in zone diverse della card, con sovrapposizioni davanti/dietro.",
+    "defects": "Il soggetto e le parole si contendono la priorità e alcune lettere si fondono con i bordi del prisma; la sequenza richiede attenzione.",
+    "future": "Ridurre gli incontri a pochi punti tracciabili e proteggere le sagome delle lettere nelle zone sovrapposte."
+  }
+}
