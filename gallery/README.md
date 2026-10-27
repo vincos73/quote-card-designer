@@ -1,5 +1,20 @@
 # Galleria degli stili
 
+## Sites allineati alla 0.4.0 · 27 ottobre 2026
+
+Pubblicate e verificate la **gallery versione 39** (77 stili, 165 immagini,
+50 inclusi, zero candidati, 27 fuori release) e il **catalogo visivo V1
+versione 3** (50 stili inclusi, una delle anteprime pubblicate per ogni stile).
+Tutti i 167 file della gallery diversi da index.html sono conservati identici,
+inclusi immagini e confronto Neo Swiss. Gli YAML dei 50 stili corrispondono
+alla release 0.4.0. La gallery mantiene il pubblico condiviso esistente; il
+catalogo resta pubblico. Politiche e revisioni di accesso verificate invariate.
+
+Ricerca, filtri, copia nome e ingrandimento verificati nel browser;
+contenuti delle schede e dati del catalogo ricontrollati sulle pagine live.
+Ricevute: `pubblicazione-v39.json` e `pubblicazione-catalogo-v1-v3.json`.
+Le sezioni successive descrivono lo stato storico precedente.
+
 ## Distribuzione 0.4.0 · 27 ottobre 2026
 
 La skill distribuita comprende ora **50 stili**: tutti i 41 precedenti più
