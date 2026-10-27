@@ -331,6 +331,8 @@ def build():
 <footer class="footer"><p>Il numero di esempi varia per stile. Soggetti, palette e composizioni possono variare; ogni immagine conserva il proprio testo di prova. Formato di riferimento verticale 4:5.</p><p>Catalogo degli stili · Quote Card Designer</p></footer></div>
 <dialog id="image-dialog" aria-labelledby="dialog-title"><div class="dialog-bar"><h2 id="dialog-title" class="dialog-title"></h2><button id="close-dialog" class="close" autofocus>{ICONS['close']} Chiudi</button></div><div id="image-slot"></div></dialog>
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div><script>{JS}</script></body></html>'''
+    from swiss_gallery import to_swiss
+    page = to_swiss(page)
     validate_gallery(page, DESTINATION.parent)
     DESTINATION.write_text(page,encoding='utf-8')
     print(f'Catalogo creato: {DESTINATION} ({DESTINATION.stat().st_size/1024/1024:.2f} MB, {count} stili, {example_total} immagini)')

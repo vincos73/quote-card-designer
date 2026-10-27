@@ -1,0 +1,20 @@
+{
+  "project_id": "appgprj_6adb7b4f342881918cd48a4c247a3092",
+  "version_number": 41,
+  "commit_sha": "4b1399059c919306eaec71f70c83efdbf80fd1ea",
+  "deployment_id": "appgdep_6ae063df99e08191bd1856cf11d3a438",
+  "status": "succeeded",
+  "url": "https://quote-card-designer-style-gallery.vincos.chatgpt.site",
+  "access_mode": "custom",
+  "access_policy_unchanged": true,
+  "access_policy_revision": 1,
+  "styles": 78,
+  "images": 167,
+  "included": 50,
+  "candidates": [
+    "Photo Marker",
+    "Décollage",
+    "Typewritten Marginalia"
+  ],
+  "unreleased": 28
+}

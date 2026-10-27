@@ -2315,6 +2315,7 @@ styles:
   example_prompt_2: references/styles/symbolic-modernism/prompt-esempio-3.md
 - id: photo-marker
   release_candidate: false
+  v1_shortlisted: true
   production_mode: generative
   family: fotografia-atmosfere
   name: Photo Marker
@@ -2413,6 +2414,7 @@ styles:
   example_prompt_2: references/styles/photo-type-monument/prompt-esempio-2.md
 - id: decollage
   release_candidate: false
+  v1_shortlisted: true
   production_mode: hybrid
   family: collage-fotomontaggio
   name: Décollage
@@ -2565,3 +2567,25 @@ styles:
   example_2_text: IL CAMBIAMENTO PRENDE VELOCITÀ.
   notes_2: references/studi-20261027-nuove-composizioni.md
   example_prompt_2: references/studi-20261027-nuove-composizioni.md
+- id: typewritten-marginalia
+  release_candidate: false
+  v1_shortlisted: true
+  production_mode: generative
+  family: tipografia-editoriale
+  name: Typewritten Marginalia
+  aliases: [typewritten marginalia, macchina da scrivere, dattiloscritto annotato]
+  summary: Citazione dattiloscritta con inchiostro irregolare, macchie da contatto e annotazioni a biro colorata.
+  tags: [dattiloscritto, macchina da scrivere, inchiostro, annotazioni, biro, carta]
+  profile: references/styles/typewritten-marginalia/profilo.yaml
+  example_count: 2
+  featured_example: 2
+  example: references/styles/typewritten-marginalia/prova-1.png
+  example_label: Maiuscole · appunto a penna
+  example_text: LE IDEE NON NASCONO PERFETTE.
+  notes: references/styles/typewritten-marginalia/note-prova-1.md
+  example_prompt: references/styles/typewritten-marginalia/note-prova-1.md
+  example_2: references/styles/typewritten-marginalia/prova-4-contatto-inchiostro.png
+  example_2_label: Minuscole · macchie da contatto
+  example_2_text: Le idee non nascono perfette.
+  notes_2: references/styles/typewritten-marginalia/note-prova-contatto.md
+  example_prompt_2: references/styles/typewritten-marginalia/note-prova-contatto.md
