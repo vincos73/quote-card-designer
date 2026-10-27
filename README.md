@@ -10,7 +10,7 @@ Nuovi stili inclusi: **Neo Swiss, Ink, Pencil, Ballpen, Photo Type Split, Photo 
 - Il [catalogo visivo V1](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site) è il collegamento per chi usa la skill ed è aggiornato ai 50 stili della 0.4.0. Per la disponibilità fa fede il catalogo incluso nel pacchetto.
 - La [gallery completa](https://quote-card-designer-style-gallery.vincos.chatgpt.site/) è lo spazio di sviluppo del proprietario. `references/catalogo-stili.yaml` e i suoi file collegati conservano i 77 stili della libreria estesa; solo 50 entrano nel pacchetto.
 
-La skill, i sorgenti e lo ZIP sono pubblicati su GitHub. Il 27 ottobre 2026 sono stati allineati anche i Sites: **gallery versione 39**, con 77 stili, 165 immagini, 50 inclusi e zero candidati; **catalogo V1 versione 3**, con i 50 stili della release. Accessi conservati: gallery condivisa con gli invitati esistenti, catalogo pubblico. Ricevute in `gallery/pubblicazione-v39.json` e `gallery/pubblicazione-catalogo-v1-v3.json`.
+La skill, i sorgenti e lo ZIP sono pubblicati su GitHub. Il **catalogo visivo V1 versione 4** usa l’interfaccia Indice svizzero e mantiene i 50 stili della release. I suoi [sorgenti riproducibili](gallery/catalogo-v1/README.md) includono le anteprime approvate e la ricevuta di pubblicazione. La gallery versione 39 e il catalogo versione 3 sono documentati nelle ricevute precedenti; la gallery di sviluppo può essere aggiornata separatamente. Accessi conservati: gallery condivisa con gli invitati esistenti, catalogo pubblico.
 
 ## Build e distribuzione
 

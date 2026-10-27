@@ -1,0 +1,1053 @@
+{
+  "version": "0.4.0",
+  "families": [
+    {
+      "id": "tipografia-editoriale",
+      "name": "Tipografia e impaginazione",
+      "description": "Caratteri, gerarchie e sovrapposizioni tipografiche costruiscono la composizione."
+    },
+    {
+      "id": "geometrie-pattern",
+      "name": "Geometrie e pattern",
+      "description": "Moduli, campiture, trame di segni e illusioni ottiche danno ritmo alla frase."
+    },
+    {
+      "id": "disegno-tecnico",
+      "name": "Disegno tecnico e wireframe",
+      "description": "Griglie spaziali, diagrammi, architetture e micrografica tecnica organizzano la pagina."
+    },
+    {
+      "id": "collage-fotomontaggio",
+      "name": "Collage e fotomontaggio",
+      "description": "Ritagli, fotografie e frammenti di carta si ricompongono in immagini inattese."
+    },
+    {
+      "id": "retini-stampa",
+      "name": "Retini e stampa",
+      "description": "Punti, pixel, sovrastampe e grana degli inchiostri sono il tratto visivo principale."
+    },
+    {
+      "id": "fotografia-atmosfere",
+      "name": "Fotografia e atmosfere",
+      "description": "Fotografie, soggetti materici e scene oniriche dialogano con la citazione."
+    },
+    {
+      "id": "luce-materiali",
+      "name": "Luce e materiali",
+      "description": "Riflessi, vetro, metallo, tessuti e campi di luce o colore caratterizzano la superficie."
+    },
+    {
+      "id": "disegno-lettering",
+      "name": "Disegno e lettering",
+      "description": "Matita, biro, china, pennello e acquerello lasciano un segno manuale riconoscibile."
+    },
+    {
+      "id": "illustrazione-decorazione",
+      "name": "Illustrazione e decorazione",
+      "description": "Sagome organiche, ornamenti, fumetti e mondi immaginati accompagnano la frase."
+    },
+    {
+      "id": "classici-incisioni",
+      "name": "Classici e incisioni",
+      "description": "Pagine miniate, incisioni, repertori classici e tradizioni illustrative ispirano la card."
+    },
+    {
+      "id": "cultura-digitale",
+      "name": "Interfacce e cultura digitale",
+      "description": "Finestre, editor, codici visivi del web, glitch e pannelli cyberpunk entrano nel progetto."
+    }
+  ],
+  "items": [
+    {
+      "id": "neon-collage",
+      "index": 1,
+      "name": "Digital Collage",
+      "aliases": [
+        "neon",
+        "neon collage",
+        "collage neon",
+        "digital collage"
+      ],
+      "summary": "Collage digitale pop: foto ritagliate, strisce e contorni a contrasto, tipografia espressiva integrata nei livelli.",
+      "family": "collage-fotomontaggio",
+      "familyName": "Collage e fotomontaggio",
+      "exampleLabel": "1 · La domanda",
+      "availability": "included",
+      "asset": "assets/neon-collage.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "digital-blueprint",
+      "index": 2,
+      "name": "Digital Blueprint",
+      "aliases": [
+        "blueprint",
+        "digital blueprint",
+        "blueprint digitale",
+        "disegno tecnico"
+      ],
+      "summary": "Disegno tecnico con font monospace digitale, griglia discreta e wireframe a linee sottili: struttura e citazione composte insieme.",
+      "family": "disegno-tecnico",
+      "familyName": "Disegno tecnico e wireframe",
+      "exampleLabel": "1 · La domanda",
+      "availability": "included",
+      "asset": "assets/digital-blueprint.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "playground-graffiti",
+      "index": 3,
+      "name": "Graffiti",
+      "aliases": [
+        "playground",
+        "playground graffiti",
+        "graffiti",
+        "graffiti giocoso"
+      ],
+      "summary": "Lettering marker e bubble, segni dipinti e superficie urbana discreta. Colori scelti per ogni frase, senza palette predefinita.",
+      "family": "disegno-lettering",
+      "familyName": "Disegno e lettering",
+      "exampleLabel": "1 · La domanda",
+      "availability": "included",
+      "asset": "assets/playground-graffiti.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "mixed-media-editorial",
+      "index": 4,
+      "name": "Vintage Collage",
+      "aliases": [
+        "mixed media",
+        "mixed media editorial",
+        "collage mixed media",
+        "fotomontaggio editoriale",
+        "vintage collage"
+      ],
+      "summary": "Collage vintage: ritagli fotografici d’archivio, frammenti di carta, scale alterate e tipografia assemblata; palette libera.",
+      "family": "collage-fotomontaggio",
+      "familyName": "Collage e fotomontaggio",
+      "exampleLabel": "1 · La domanda",
+      "availability": "included",
+      "asset": "assets/mixed-media-editorial.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "raster-drift",
+      "index": 5,
+      "name": "Pixel Field",
+      "aliases": [
+        "pixel field",
+        "raster drift",
+        "deriva raster",
+        "pixel halftone",
+        "retino digitale"
+      ],
+      "summary": "Una citazione grande e preminente in sans serif geometrico resta nitida dentro un campo sperimentale di pixel e retini.",
+      "family": "retini-stampa",
+      "familyName": "Retini e stampa",
+      "exampleLabel": "1 · Testo preminente",
+      "availability": "included",
+      "asset": "assets/raster-drift.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "dynamic-gradient",
+      "index": 6,
+      "name": "Dynamic Gradient",
+      "aliases": [
+        "dynamic gradient",
+        "gradiente dinamico",
+        "gradienti cromatici"
+      ],
+      "summary": "Campi cromatici molto sfocati, contorni quasi dissolti e grana fine fitta, con tipografia grande e nitida in contrasto con la morbidezza del fondo.",
+      "family": "luce-materiali",
+      "familyName": "Luce e materiali",
+      "exampleLabel": "4 · DG5 · sfocatura e grana approvata",
+      "availability": "included",
+      "asset": "assets/dynamic-gradient.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "vintage-scientific-illustration",
+      "index": 7,
+      "name": "Vintage Scientific Illustration",
+      "aliases": [
+        "vintage scientific illustration",
+        "illustrazione scientifica vintage",
+        "atlante scientifico",
+        "illustrazione d’archivio"
+      ],
+      "summary": "Citazioni editoriali su carta d’archivio con incisioni scientifiche delicate, serif classica e dettagli blu-grigi o seppia.",
+      "family": "classici-incisioni",
+      "familyName": "Classici e incisioni",
+      "exampleLabel": "1 · La domanda",
+      "availability": "included",
+      "asset": "assets/vintage-scientific-illustration.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "renaissance-classical",
+      "index": 8,
+      "name": "Classical Roman",
+      "aliases": [
+        "renaissance classical",
+        "rinascimentale classico",
+        "rinascimentale",
+        "classico rinascimentale",
+        "classical roman"
+      ],
+      "summary": "Tipografia iscrizionale romana, carta e materiali classici, una scultura o architettura e una gerarchia editoriale sobria.",
+      "family": "classici-incisioni",
+      "familyName": "Classici e incisioni",
+      "exampleLabel": "1 · La domanda",
+      "availability": "included",
+      "asset": "assets/renaissance-classical.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "medieval-folio",
+      "index": 9,
+      "name": "Medieval Folio",
+      "aliases": [
+        "medieval folio",
+        "medieval illumination",
+        "illuminated manuscript",
+        "manoscritto miniato",
+        "miniatura medievale"
+      ],
+      "summary": "Una citazione grande si integra con capilettera miniati, pigmenti opachi e marginalia su pergamena. Ogni frase genera una nuova architettura di pagina.",
+      "family": "classici-incisioni",
+      "familyName": "Classici e incisioni",
+      "exampleLabel": "1 · Capolettera",
+      "availability": "included",
+      "asset": "assets/medieval-folio.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "blue-chinoiserie",
+      "index": 10,
+      "name": "Chinese Illustration",
+      "aliases": [
+        "blue chinoiserie",
+        "chinoiserie blu",
+        "porcellana blu",
+        "toile de jouy blu",
+        "chinese illustration"
+      ],
+      "summary": "Illustrazione di ispirazione cinese in blu monocromo, con dettagli marginali contenuti e un ampio campo chiaro per la citazione serif.",
+      "family": "classici-incisioni",
+      "familyName": "Classici e incisioni",
+      "exampleLabel": "1 · La domanda",
+      "availability": "included",
+      "asset": "assets/blue-chinoiserie.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "child-design",
+      "index": 11,
+      "name": "Child Design",
+      "aliases": [
+        "child design",
+        "naif",
+        "naïf",
+        "stile naïf",
+        "crayon lettering",
+        "pastello a cera"
+      ],
+      "summary": "Illustrazione naïf semplice, con poche forme a pastello e lettering manuale leggibile, allineato e con spaziatura regolare.",
+      "family": "illustrazione-decorazione",
+      "familyName": "Illustrazione e decorazione",
+      "exampleLabel": "1 · La domanda",
+      "availability": "included",
+      "asset": "assets/child-design.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "watercolor",
+      "index": 12,
+      "name": "Watercolor",
+      "aliases": [
+        "watercolor",
+        "acquerello",
+        "acquerello editoriale",
+        "watercolor editorial"
+      ],
+      "summary": "Acquerello editoriale su carta chiara, con lettering latino a pennellate, pigmenti traslucidi e un campo leggibile per la citazione.",
+      "family": "disegno-lettering",
+      "familyName": "Disegno e lettering",
+      "exampleLabel": "1 · Pennellata",
+      "availability": "included",
+      "asset": "assets/watercolor.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "retro-ui",
+      "index": 13,
+      "name": "Retro UI",
+      "aliases": [
+        "retro ui",
+        "retro computer",
+        "desktop bitmap",
+        "interfaccia retro",
+        "desktop monocromatico",
+        "desktop pastello"
+      ],
+      "summary": "Desktop bitmap con finestre diseguali, barre a righe, retini e pittogrammi; frase protagonista in un registro monocromatico o pastello.\n",
+      "family": "cultura-digitale",
+      "familyName": "Interfacce e cultura digitale",
+      "exampleLabel": "1 · Desktop monocromatico",
+      "availability": "included",
+      "asset": "assets/retro-ui.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "internet-nostalgia",
+      "index": 14,
+      "name": "Y2K",
+      "aliases": [
+        "y2k",
+        "internet nostalgia",
+        "y2k chrome",
+        "y2k olografico",
+        "y2k lucido",
+        "web anni 2000"
+      ],
+      "summary": "Lettering cromato con riflessi olografici controllati, capitalizzazione fedele e pochi richiami grafici alle interfacce dei primi Duemila.",
+      "family": "cultura-digitale",
+      "familyName": "Interfacce e cultura digitale",
+      "exampleLabel": "2 · Cromo e lamina olografica",
+      "availability": "included",
+      "asset": "assets/internet-nostalgia.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "dada-black",
+      "index": 15,
+      "name": "Dada",
+      "aliases": [
+        "dada",
+        "dada black",
+        "collage dada"
+      ],
+      "summary": "Carta strappata, tipografia ritagliata e fotomontaggi surreali: immagini e parole ricomposte con materia, colore libero e imperfezioni intenzionali.",
+      "family": "collage-fotomontaggio",
+      "familyName": "Collage e fotomontaggio",
+      "exampleLabel": "1 · Ricomposizione cromatica · volto e carta",
+      "availability": "included",
+      "asset": "assets/dada-black.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "neo-industrial",
+      "index": 16,
+      "name": "Neo Industrial Editorial",
+      "aliases": [
+        "neoindustriale",
+        "neoindustrial",
+        "neo-industriale",
+        "neo-industrial",
+        "neo industrial",
+        "neo-industrial graphic design"
+      ],
+      "summary": "Tipografia forte su grigio e arancio preferenziali, con pochi gruppi di micrografica industriale distribuiti nella pagina: nodi, terminali, parentesi e segni di calibrazione.",
+      "family": "disegno-tecnico",
+      "familyName": "Disegno tecnico e wireframe",
+      "exampleLabel": "1 · Micrographics essenziali",
+      "availability": "included",
+      "asset": "assets/neo-industrial.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "wireframe-library",
+      "index": 17,
+      "name": "Signal Atlas",
+      "aliases": [
+        "signal atlas",
+        "wireframe",
+        "wireframe library",
+        "mesh",
+        "libreria wireframe"
+      ],
+      "summary": "Sistema editoriale tecnico: tipografia forte, campi ottici, geometrie spaziali e pochi segnali di orientamento. Mesh, griglie e cornici costruiscono una relazione con la frase.",
+      "family": "disegno-tecnico",
+      "familyName": "Disegno tecnico e wireframe",
+      "exampleLabel": "1 · Campo ottico",
+      "availability": "included",
+      "asset": "assets/wireframe-library.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "symbol-loom",
+      "index": 18,
+      "name": "Symbol Loom",
+      "aliases": [
+        "symbol loom",
+        "trama simbolica",
+        "pattern di simboli"
+      ],
+      "summary": "Una citazione grande interrompe una trama modulare di piccoli segni geometrici ripetuti. Ritmo, gruppi e vuoti cambiano a ogni card.",
+      "family": "geometrie-pattern",
+      "familyName": "Geometrie e pattern",
+      "exampleLabel": "1 · Campo biforcato",
+      "availability": "included",
+      "asset": "assets/symbol-loom.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "editorial-interlock",
+      "index": 19,
+      "name": "Editorial Interlock",
+      "aliases": [
+        "editorial interlock",
+        "intreccio editoriale",
+        "copertina magazine",
+        "soggetto e tipografia"
+      ],
+      "summary": "Una frase monumentale e un soggetto materico centrale si intrecciano con occlusioni leggibili, ancoraggi asimmetrici e direzione editoriale da copertina.",
+      "family": "fotografia-atmosfere",
+      "familyName": "Fotografia e atmosfere",
+      "exampleLabel": "2 · Iris blu · inchiostro indaco",
+      "availability": "included",
+      "asset": "assets/editorial-interlock.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "cyberpunk-editorial",
+      "index": 20,
+      "name": "Cyberpunk Editorial",
+      "aliases": [
+        "cyberpunk",
+        "cyberpunk editorial",
+        "cyberpunk panels",
+        "pannelli cyberpunk",
+        "sci-fi panels",
+        "cyber graphics"
+      ],
+      "summary": "Frase dominante in nero e grigio, pannelli smussati, piste con nodi, chevron, retini e stampa consumata. Dettagli astratti, senza personaggi o cyborg.",
+      "family": "cultura-digitale",
+      "familyName": "Interfacce e cultura digitale",
+      "exampleLabel": "1 · CP6 · stampa consumata approvata",
+      "availability": "included",
+      "asset": "assets/cyberpunk-editorial.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "oneiric-glow",
+      "index": 21,
+      "name": "Oneiric Glow",
+      "aliases": [
+        "onirico glow",
+        "glow onirico",
+        "oneiric glow",
+        "dream glow",
+        "presenza luminosa"
+      ],
+      "summary": "Presenze dal nucleo quasi bianco illuminano uno spazio fotografico scuro e granuloso, con tipografia editoriale e accenti corsivi. Blu notte preferito; prove con figure, animale e pianta.",
+      "family": "fotografia-atmosfere",
+      "familyName": "Fotografia e atmosfere",
+      "exampleLabel": "1 · Presenza nella distanza · petrolio e ciano",
+      "availability": "included",
+      "asset": "assets/oneiric-glow.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "glitch-editorial",
+      "index": 22,
+      "name": "Glitch Editorial",
+      "aliases": [
+        "glitch",
+        "glitch art",
+        "glitch editorial",
+        "segnale corrotto",
+        "signal decay"
+      ],
+      "summary": "Immagini e caratteri attraversati da strappi di segnale e rumore; lettering preferito della proposta A ripreso nella composizione B.",
+      "family": "cultura-digitale",
+      "familyName": "Interfacce e cultura digitale",
+      "exampleLabel": "2 · Tipografia · onda e rumore",
+      "availability": "included",
+      "asset": "assets/glitch-editorial.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "prismatic-flutes",
+      "index": 23,
+      "name": "Prismatic Flutes",
+      "aliases": [
+        "prismatic flutes",
+        "vetro scanalato",
+        "vetro rigato",
+        "reeded glass",
+        "fluted gradient",
+        "gradiente scanalato"
+      ],
+      "summary": "Campi di luce sfocati e scanalature verticali rifrangenti; la luce posteriore del vetro interagisce con le lettere applicate mantenendo leggibile la citazione.",
+      "family": "luce-materiali",
+      "familyName": "Luce e materiali",
+      "exampleLabel": "3 · Lettere applicate · luce posteriore",
+      "availability": "included",
+      "asset": "assets/prismatic-flutes.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "ukiyo-e-editorial",
+      "index": 24,
+      "name": "Ukiyo-e Editorial",
+      "aliases": [
+        "ukiyo-e",
+        "ukiyo-e editorial",
+        "stampa giapponese",
+        "woodblock giapponese",
+        "lettering a pennello"
+      ],
+      "summary": "Carta washi, contorni e campiture da xilografia e lettering latino a pennello ispirato alla calligrafia giapponese.",
+      "family": "classici-incisioni",
+      "familyName": "Classici e incisioni",
+      "exampleLabel": "1 · La domanda",
+      "availability": "included",
+      "asset": "assets/ukiyo-e-editorial.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "neo-risograph",
+      "index": 25,
+      "name": "Risograph",
+      "aliases": [
+        "neo risograph",
+        "neo-risograph",
+        "risograph",
+        "riso",
+        "risoprint",
+        "risograph editoriale",
+        "risografia",
+        "stampa risograph"
+      ],
+      "summary": "Pochi frammenti fotografici stratificati su carta non patinata, con grana fine e copertura irregolare. Include sempre overprint con mescolanza visibile degli inchiostri.",
+      "family": "retini-stampa",
+      "familyName": "Retini e stampa",
+      "exampleLabel": "1 · Risograph · overprint con mescolanza",
+      "availability": "included",
+      "asset": "assets/neo-risograph.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "type-overprint",
+      "index": 26,
+      "name": "Type Overprint",
+      "aliases": [
+        "type overprint",
+        "sovrastampa tipografica",
+        "lettere trasparenti",
+        "numeri sovrapposti",
+        "glifi sovrapposti"
+      ],
+      "summary": "Glifi monumentali in inchiostri trasparenti mostrano aste e controforme riconoscibili senza formare parole; la citazione compare una sola volta in un registro distinto.\n",
+      "family": "tipografia-editoriale",
+      "familyName": "Tipografia e impaginazione",
+      "exampleLabel": "1 · Con reference",
+      "availability": "included",
+      "asset": "assets/type-overprint.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "dirty-brutalism",
+      "index": 27,
+      "name": "Dirty Brutalism",
+      "aliases": [
+        "dirty brutalism",
+        "brutalismo sporco",
+        "xerox brutalism",
+        "brutalismo xerografico"
+      ],
+      "summary": "Tipografia condensata massiccia, superfici xerografiche granulose e carta segnata; un margine netto separa la citazione dalla fotografia.\n",
+      "family": "tipografia-editoriale",
+      "familyName": "Tipografia e impaginazione",
+      "exampleLabel": "1 · Con reference",
+      "availability": "included",
+      "asset": "assets/dirty-brutalism.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "duotone-editorial",
+      "index": 28,
+      "name": "Duotone Halftone",
+      "aliases": [
+        "duotone",
+        "duotone editorial",
+        "bicromia",
+        "bicromia fotografica",
+        "duotono",
+        "duotone halftone",
+        "duotono halftone",
+        "duotone retinato",
+        "bicromia retinata"
+      ],
+      "summary": "Fotografia riconoscibile ricostruita con retino tondo ben visibile anche in anteprima ridotta, in due colori a forte contrasto; citazione in sovraimpressione.",
+      "family": "retini-stampa",
+      "familyName": "Retini e stampa",
+      "exampleLabel": "1 · Blu e giallo · stampa vissuta",
+      "availability": "included",
+      "asset": "assets/duotone-editorial.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "halftone-editorial-bw",
+      "index": 29,
+      "name": "Halftone B/W",
+      "aliases": [
+        "retino editoriale",
+        "stampa retinata",
+        "halftone underground",
+        "dirty halftone",
+        "retino underground",
+        "halftone black and white",
+        "halftone bianco e nero"
+      ],
+      "summary": "Fotografia in bianco e nero costruita da un retino tondo molto evidente, leggibile anche in anteprima ridotta; testo in sovraimpressione, luci aperte e neri compatti.",
+      "family": "retini-stampa",
+      "familyName": "Retini e stampa",
+      "exampleLabel": "1 · Black and white · stampa vissuta",
+      "availability": "included",
+      "asset": "assets/halftone-editorial-bw.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "ascii-editorial",
+      "index": 30,
+      "name": "ASCII Editorial",
+      "aliases": [
+        "ascii",
+        "ascii editorial",
+        "ascii art",
+        "arte ascii"
+      ],
+      "summary": "Un’immagine figurativa costruita con caratteri monospace apre il campo della citazione, anch’essa in mono bold. Densità, glifi e vuoti creano una composizione condivisa.",
+      "family": "tipografia-editoriale",
+      "familyName": "Tipografia e impaginazione",
+      "exampleLabel": "1 · Apertura nella figura",
+      "availability": "included",
+      "asset": "assets/ascii-editorial.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "organic",
+      "index": 31,
+      "name": "Organic",
+      "aliases": [
+        "organic",
+        "organico",
+        "botanica organica",
+        "organic cutout"
+      ],
+      "summary": "Sagome botaniche e biomorfe grandi, colori piatti opachi e vuoti attivi su carta. Una sans corposa guida la lettura, con ritmo asimmetrico e texture di stampa leggera.",
+      "family": "illustrazione-decorazione",
+      "familyName": "Illustrazione e decorazione",
+      "exampleLabel": "1 · Botanica · arancio e verde",
+      "availability": "included",
+      "asset": "assets/organic.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "folk-art",
+      "index": 32,
+      "name": "Folk Art",
+      "aliases": [
+        "folk art",
+        "folk",
+        "arte popolare",
+        "folk dipinto"
+      ],
+      "summary": "Lettere dipinte e ornamenti botanici su carta opaca. Rami, fiori e figure scelte dalla frase creano un equilibrio vivo, con piccoli dettagli e pigmenti coordinati.",
+      "family": "illustrazione-decorazione",
+      "familyName": "Illustrazione e decorazione",
+      "exampleLabel": "1 · Radici e volo · uccelli e cornice",
+      "availability": "included",
+      "asset": "assets/folk-art.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "retro-futurism-art",
+      "index": 33,
+      "name": "Retro-futurism Art",
+      "aliases": [
+        "retro-futurism art",
+        "retro futurism",
+        "retrofuturismo",
+        "retrofuturism",
+        "space art retro"
+      ],
+      "summary": "Collage cosmico psichedelico con frammenti analogici, colori alterati e scale incompatibili. Grana densa da stampa e lettering grafico, coerente con il collage, partecipano allo stesso mondo surreale.",
+      "family": "collage-fotomontaggio",
+      "familyName": "Collage e fotomontaggio",
+      "exampleLabel": "1 · Collage cosmico · bobina e mondo rovesciato",
+      "availability": "included",
+      "asset": "assets/retro-futurism-art.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "occult-editorial",
+      "index": 34,
+      "name": "Occult Editorial",
+      "aliases": [
+        "occult",
+        "occulto",
+        "occultism art",
+        "occult art",
+        "occult editorial",
+        "occultismo",
+        "incisione esoterica"
+      ],
+      "summary": "Incisioni arcane bianche su nero opaco, cornici consumate e segni simbolici. La frase entra in una pagina occulta materica, con tratteggi irregolari e stampa abrasa.",
+      "family": "classici-incisioni",
+      "familyName": "Classici e incisioni",
+      "exampleLabel": "1 · Bianco e nero · figura e specchio",
+      "availability": "included",
+      "asset": "assets/occult-editorial.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "futurismo-italiano",
+      "index": 35,
+      "name": "Futurismo Italiano",
+      "aliases": [
+        "futurismo italiano",
+        "italian futurism",
+        "manifesto futurista",
+        "grafica futurista",
+        "futurismo"
+      ],
+      "summary": "Diagonali, volumi sfaccettati e ritmi di movimento uniscono frase e illustrazione in un manifesto grafico dalla materia di stampa opaca.",
+      "family": "illustrazione-decorazione",
+      "familyName": "Illustrazione e decorazione",
+      "exampleLabel": "1 · Diagonale e movimento · ciclista",
+      "availability": "included",
+      "asset": "assets/futurismo-italiano.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "blue-note",
+      "index": 36,
+      "name": "Blue Note",
+      "aliases": [
+        "blue note",
+        "jazz modernist",
+        "jazz sleeve",
+        "bande fotografiche"
+      ],
+      "summary": "Una fotografia legata al significato della frase si ricompone in bande verticali di altezze diverse. Le aperture accolgono la citazione, con tipografia forte, pause di carta e grana di stampa.",
+      "family": "fotografia-atmosfere",
+      "familyName": "Fotografia e atmosfere",
+      "exampleLabel": "1 · Mosaico fotografico · mani e ceramica",
+      "availability": "included",
+      "asset": "assets/blue-note.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "handwritten",
+      "index": 37,
+      "name": "Handwritten",
+      "aliases": [
+        "handwritten",
+        "scrittura a mano",
+        "fotografia annotata",
+        "handwritter"
+      ],
+      "summary": "Fotografia analogica 35mm o istantanea interamente virata in un colore, con grana controllata e scrittura manuale irregolare. Inchiostro sempre distinto dal viraggio per colore e luminosità.",
+      "family": "fotografia-atmosfere",
+      "familyName": "Fotografia e atmosfere",
+      "exampleLabel": "1 · 35mm · rosso ruggine e azzurro ghiaccio",
+      "availability": "included",
+      "asset": "assets/handwritten.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "psychedelic-art",
+      "index": 38,
+      "name": "Psychedelic Art",
+      "aliases": [
+        "psychedelic art",
+        "psychedelic",
+        "psichedelia art",
+        "psichedelia",
+        "poster psichedelico"
+      ],
+      "summary": "Lettere elastiche e svasate abitano campi fluidi, condividendo ritmo e contorni con l’illustrazione. Ispirazione ai poster psichedelici, con frase dominante e leggibile.",
+      "family": "illustrazione-decorazione",
+      "familyName": "Illustrazione e decorazione",
+      "exampleLabel": "1 · Campi fluidi · petrolio e corallo",
+      "availability": "included",
+      "asset": "assets/psychedelic-art.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "lowbrow",
+      "index": 39,
+      "name": "Lowbrow",
+      "aliases": [
+        "lowbrow",
+        "lowbrow anni 70",
+        "cartoon underground",
+        "grottesco underground"
+      ],
+      "summary": "Caricature elastiche, oggetti animati e umorismo grottesco da cultura underground. Lettering disegnato e contorni marcati condividono inchiostri piatti e materia di stampa.",
+      "family": "illustrazione-decorazione",
+      "familyName": "Illustrazione e decorazione",
+      "exampleLabel": "1 · Oggetto animato · porta sul mondo",
+      "availability": "included",
+      "asset": "assets/lowbrow.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "vintage-horror",
+      "index": 40,
+      "name": "Vintage Horror",
+      "aliases": [
+        "vintage horror",
+        "horror vintage",
+        "locandina horror",
+        "horror show"
+      ],
+      "summary": "La frase diventa il titolo di una locandina horror d’epoca, con lettering irregolare, blocchi condensati, figure a inchiostro e pochi colori da stampa economica.",
+      "family": "illustrazione-decorazione",
+      "familyName": "Illustrazione e decorazione",
+      "exampleLabel": "1 · Due tempi · nero e vermiglione",
+      "availability": "included",
+      "asset": "assets/vintage-horror.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "symbolic-modernism",
+      "index": 41,
+      "name": "Symbolic Modernism",
+      "aliases": [
+        "modernismo simbolico",
+        "symbolic modernism",
+        "emblema modernista",
+        "emblema geometrico",
+        "poster concettuale flat"
+      ],
+      "summary": "Una frase diventa un simbolo essenziale, con forme geometriche semplici, pieni e vuoti, campiture flat e tipografia forte. Colore e soggetto seguono l'idea.",
+      "family": "geometrie-pattern",
+      "familyName": "Geometrie e pattern",
+      "exampleLabel": "2 · Il tempo · clessidra flat",
+      "availability": "included",
+      "asset": "assets/symbolic-modernism.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "neo-swiss",
+      "index": 42,
+      "name": "Neo Swiss",
+      "aliases": [
+        "neo swiss",
+        "neo-swiss",
+        "swiss",
+        "svizzero",
+        "neo svizzero"
+      ],
+      "summary": "Tipografia svizzera contemporanea: composizioni da poster, griglia implicita, asimmetria e contrasti di scala. Palette variabile.",
+      "family": "tipografia-editoriale",
+      "familyName": "Tipografia e impaginazione",
+      "exampleLabel": "6 · Assi asimmetrici · simbolo",
+      "availability": "included",
+      "asset": "assets/neo-swiss.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "ink-and-margin",
+      "index": 43,
+      "name": "Ink",
+      "aliases": [
+        "ink",
+        "ink and margin",
+        "ink & margin",
+        "ink e margin",
+        "inchiostro e margini"
+      ],
+      "summary": "Scrittura a inchiostro protagonista, sbavature naturali e un disegno ispirato alla frase, su carta con ampi spazi vuoti. Palette variabile.",
+      "family": "disegno-lettering",
+      "familyName": "Disegno e lettering",
+      "exampleLabel": "3 · Scrittura a inchiostro · felce",
+      "availability": "included",
+      "asset": "assets/ink-and-margin.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "pencil",
+      "index": 44,
+      "name": "Pencil",
+      "aliases": [
+        "pencil",
+        "matita",
+        "grafite",
+        "graphite pencil"
+      ],
+      "summary": "Lettering a matita in costruzione: contorni ripetuti, segni più calcati e tracce leggere raccontano la ricerca della forma.",
+      "family": "disegno-lettering",
+      "familyName": "Disegno e lettering",
+      "exampleLabel": "4 · Lettere in costruzione",
+      "availability": "included",
+      "asset": "assets/pencil.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "ballpen",
+      "index": 45,
+      "name": "Ballpen",
+      "aliases": [
+        "ballpen",
+        "ballpoint",
+        "penna a sfera",
+        "biro"
+      ],
+      "summary": "Frase protagonista scritta a biro, con ripassi, tratteggi e scarabocchi irregolari; piccoli segni colorati e un disegno secondario animano la pagina.",
+      "family": "disegno-lettering",
+      "familyName": "Disegno e lettering",
+      "exampleLabel": "3 · Testo protagonista · caos equilibrato",
+      "availability": "included",
+      "asset": "assets/ballpen.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "photo-type-split",
+      "index": 46,
+      "name": "Photo Type Split",
+      "aliases": [
+        "photo type split",
+        "foto nelle lettere",
+        "fotografia a metà",
+        "maschera tipografica",
+        "foto e testo divisi"
+      ],
+      "summary": "Una stessa fotografia continua da un lato aperto dentro le lettere sull'altro lato, con un asse netto e un fondo piatto. Il soggetto segue la frase, anche con oggetti.",
+      "family": "fotografia-atmosfere",
+      "familyName": "Fotografia e atmosfere",
+      "exampleLabel": "2 · Clessidra · lettere a contatto con la foto",
+      "availability": "included",
+      "asset": "assets/photo-type-split.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "photo-type-monument",
+      "index": 47,
+      "name": "Photo Type Monument",
+      "aliases": [
+        "photo type monument",
+        "foto tipografica monumentale",
+        "fotografia a lettere giganti",
+        "maschera fotografica a pagina intera",
+        "parole fotografiche monumentali"
+      ],
+      "summary": "Una fotografia continua riempie lettere monumentali su quasi tutta la pagina, con fondo piatto fuori dai glifi. Persone o oggetti seguono il significato della frase.",
+      "family": "fotografia-atmosfere",
+      "familyName": "Fotografia e atmosfere",
+      "exampleLabel": "2 · Dare luce · lampadina e toni freddi",
+      "availability": "included",
+      "asset": "assets/photo-type-monument.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "ink-drip",
+      "index": 48,
+      "name": "Ink Drip",
+      "aliases": [
+        "ink drip",
+        "inchiostro che cola",
+        "inchiostro colato",
+        "colature di inchiostro"
+      ],
+      "summary": "Inchiostro fluido e traslucido, assorbimento nella carta e colature che nascono dalle lettere. Priorità al realismo della materia; pigmento e fondo variabili.",
+      "family": "disegno-lettering",
+      "familyName": "Disegno e lettering",
+      "exampleLabel": "1 · Lascia scorrere · inchiostro blu",
+      "availability": "included",
+      "asset": "assets/ink-drip.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "type-blur",
+      "index": 49,
+      "name": "Type Blur",
+      "aliases": [
+        "type blur",
+        "tipografia sfocata",
+        "sfocatura selettiva del testo",
+        "lettere a fuoco alterno"
+      ],
+      "summary": "Tipografia sperimentale con passaggi credibili fra nitido e sfocato dentro le parole. Priorità al realismo ottico, con ancoraggi di lettura chiari.",
+      "family": "tipografia-editoriale",
+      "familyName": "Tipografia e impaginazione",
+      "exampleLabel": "2 · Il dubbio · transizioni di fuoco",
+      "availability": "included",
+      "asset": "assets/type-blur.jpg",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "id": "graphite-negative",
+      "index": 50,
+      "name": "Graphite Negative",
+      "aliases": [
+        "graphite negative",
+        "grafite in negativo",
+        "scarabocchi a matita"
+      ],
+      "summary": "La frase emerge come carta chiara da un intreccio di scarabocchi a matita; i segni ne definiscono le lettere per contrasto.",
+      "family": "disegno-lettering",
+      "familyName": "Disegno e lettering",
+      "exampleLabel": "1 · Dal caos · prima prova",
+      "availability": "included",
+      "asset": "assets/graphite-negative.jpg",
+      "width": 800,
+      "height": 1000
+    }
+  ]
+}

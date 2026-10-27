@@ -1,0 +1,513 @@
+{
+  "catalog_version": "2026-10-27",
+  "v1_catalog_version": "0.4.0",
+  "generated_at_utc": "2026-10-27T07:47:13.735963+00:00",
+  "source_release_commit": "9df8b0fe25b33dee37fdf9a5b8fd461ba9441f6b",
+  "release_candidate_count": 50,
+  "release_candidate_ids": [
+    "neon-collage",
+    "digital-blueprint",
+    "playground-graffiti",
+    "mixed-media-editorial",
+    "raster-drift",
+    "dynamic-gradient",
+    "vintage-scientific-illustration",
+    "renaissance-classical",
+    "medieval-folio",
+    "blue-chinoiserie",
+    "child-design",
+    "watercolor",
+    "retro-ui",
+    "internet-nostalgia",
+    "dada-black",
+    "neo-industrial",
+    "wireframe-library",
+    "symbol-loom",
+    "editorial-interlock",
+    "cyberpunk-editorial",
+    "oneiric-glow",
+    "glitch-editorial",
+    "prismatic-flutes",
+    "ukiyo-e-editorial",
+    "neo-risograph",
+    "type-overprint",
+    "dirty-brutalism",
+    "duotone-editorial",
+    "halftone-editorial-bw",
+    "ascii-editorial",
+    "organic",
+    "folk-art",
+    "retro-futurism-art",
+    "occult-editorial",
+    "futurismo-italiano",
+    "blue-note",
+    "handwritten",
+    "psychedelic-art",
+    "lowbrow",
+    "vintage-horror",
+    "symbolic-modernism",
+    "neo-swiss",
+    "ink-and-margin",
+    "pencil",
+    "ballpen",
+    "photo-type-split",
+    "photo-type-monument",
+    "ink-drip",
+    "type-blur",
+    "graphite-negative"
+  ],
+  "experimental_count": 0,
+  "experimental_ids": [],
+  "assets": [
+    {
+      "style_id": "neon-collage",
+      "source_gallery_asset": "assets/neon-collage.jpg",
+      "asset_path": "assets/neon-collage.jpg",
+      "asset_sha256": "78f47bd5a07e6d24218c8861c787cdc95f1ccf07b78a8f967bd0c71e5bed9ab5",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 432591
+    },
+    {
+      "style_id": "digital-blueprint",
+      "source_gallery_asset": "assets/digital-blueprint.jpg",
+      "asset_path": "assets/digital-blueprint.jpg",
+      "asset_sha256": "75fda1e99f4a6e2789f84a3a0ae7e8ababde50becff047215bd266cdec214392",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 209088
+    },
+    {
+      "style_id": "playground-graffiti",
+      "source_gallery_asset": "assets/playground-graffiti.jpg",
+      "asset_path": "assets/playground-graffiti.jpg",
+      "asset_sha256": "1ee2116ce8a627f067497ed8d2ae0b6f77dbd18810f1ee21f16d5d8232d5241e",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 287794
+    },
+    {
+      "style_id": "mixed-media-editorial",
+      "source_gallery_asset": "assets/mixed-media-editorial.jpg",
+      "asset_path": "assets/mixed-media-editorial.jpg",
+      "asset_sha256": "50b8eb140f40570ac4e30df33bf4f248bb5777bfe0083565cbcc939322db19e5",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 290826
+    },
+    {
+      "style_id": "raster-drift",
+      "source_gallery_asset": "assets/raster-drift-8.jpg",
+      "asset_path": "assets/raster-drift.jpg",
+      "asset_sha256": "6abd40754cb5bec1cc7c5cba4b24e3f2af10cb65eb743ebbe3d4bff062ca49cd",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 500543
+    },
+    {
+      "style_id": "dynamic-gradient",
+      "source_gallery_asset": "assets/dynamic-gradient-4.jpg",
+      "asset_path": "assets/dynamic-gradient.jpg",
+      "asset_sha256": "7e03be15535c75008e4a9a1eec7879c0acb48b1b1edbd73205a3ef0cdd2774b1",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 238392
+    },
+    {
+      "style_id": "vintage-scientific-illustration",
+      "source_gallery_asset": "assets/vintage-scientific-illustration.jpg",
+      "asset_path": "assets/vintage-scientific-illustration.jpg",
+      "asset_sha256": "431c96cdd9432978e5489fa7a848548972245a33286697d3c495e2c564860e39",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 296358
+    },
+    {
+      "style_id": "renaissance-classical",
+      "source_gallery_asset": "assets/renaissance-classical.jpg",
+      "asset_path": "assets/renaissance-classical.jpg",
+      "asset_sha256": "dd1a88537a3a0cd791008dac37d374e41043dcd3f760f54068a41137ba31fd5f",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 173553
+    },
+    {
+      "style_id": "medieval-folio",
+      "source_gallery_asset": "assets/medieval-folio.jpg",
+      "asset_path": "assets/medieval-folio.jpg",
+      "asset_sha256": "b8130ba787c8a27853ce7bd5cc1246950f9737b1419ec84f0c1a46533e2b50e4",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 358655
+    },
+    {
+      "style_id": "blue-chinoiserie",
+      "source_gallery_asset": "assets/blue-chinoiserie.jpg",
+      "asset_path": "assets/blue-chinoiserie.jpg",
+      "asset_sha256": "9d3a85324d99c8cb9344683ada6f35fe0abb3a7a067aa4f285d66d18084b66f4",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 274364
+    },
+    {
+      "style_id": "child-design",
+      "source_gallery_asset": "assets/child-design.jpg",
+      "asset_path": "assets/child-design.jpg",
+      "asset_sha256": "8e047c784c0ed9bc6d99356a00ca7f8f6f09507a6097362145561835229dc9f4",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 272109
+    },
+    {
+      "style_id": "watercolor",
+      "source_gallery_asset": "assets/watercolor.jpg",
+      "asset_path": "assets/watercolor.jpg",
+      "asset_sha256": "c779466c2a36fd20c65fd0b246c2bfaf6b729ed00defb879f2c3be42cf491893",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 134053
+    },
+    {
+      "style_id": "retro-ui",
+      "source_gallery_asset": "assets/retro-ui-3.jpg",
+      "asset_path": "assets/retro-ui.jpg",
+      "asset_sha256": "9b6a79adbecff659e17464afec97c892caac30aa129bdbd08e63ffeb340a6740",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 186959
+    },
+    {
+      "style_id": "internet-nostalgia",
+      "source_gallery_asset": "assets/internet-nostalgia-6.jpg",
+      "asset_path": "assets/internet-nostalgia.jpg",
+      "asset_sha256": "b85e8a100c0fbc67b7fc9726a00245b50d354309babad967b1f22452a2406591",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 266223
+    },
+    {
+      "style_id": "dada-black",
+      "source_gallery_asset": "assets/dada-black-3.jpg",
+      "asset_path": "assets/dada-black.jpg",
+      "asset_sha256": "71a842d0ad3c90e508a51405416aa612b14bf314639d3577cfec7a30f852c5fa",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 345717
+    },
+    {
+      "style_id": "neo-industrial",
+      "source_gallery_asset": "assets/neo-industrial.jpg",
+      "asset_path": "assets/neo-industrial.jpg",
+      "asset_sha256": "f155e0acb1ba1fe403df7f179f44b0bf5c1b609a64a78e94f1e4d7675af1e294",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 102704
+    },
+    {
+      "style_id": "wireframe-library",
+      "source_gallery_asset": "assets/wireframe-library.jpg",
+      "asset_path": "assets/wireframe-library.jpg",
+      "asset_sha256": "ebd4414df0d57c884dfdf7287612dec62b2a79ae01e60744ee0d539282bce10d",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 246158
+    },
+    {
+      "style_id": "symbol-loom",
+      "source_gallery_asset": "assets/symbol-loom.jpg",
+      "asset_path": "assets/symbol-loom.jpg",
+      "asset_sha256": "037bbec8c5a00d1c301e9ab9595e79c79e0c82cc04bcb40134584df558bc2348",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 279316
+    },
+    {
+      "style_id": "editorial-interlock",
+      "source_gallery_asset": "assets/editorial-interlock-2.jpg",
+      "asset_path": "assets/editorial-interlock.jpg",
+      "asset_sha256": "4a48a5bc63bb530cb8ee833361f5a0c217b7df369cd80b37c08b0bb54b35a52c",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 216765
+    },
+    {
+      "style_id": "cyberpunk-editorial",
+      "source_gallery_asset": "assets/cyberpunk-editorial.jpg",
+      "asset_path": "assets/cyberpunk-editorial.jpg",
+      "asset_sha256": "e51189dffbcca293bc3ed9cba2ac5a36d5fce723c542d135d2128cc801909f58",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 347894
+    },
+    {
+      "style_id": "oneiric-glow",
+      "source_gallery_asset": "assets/oneiric-glow.jpg",
+      "asset_path": "assets/oneiric-glow.jpg",
+      "asset_sha256": "1d22cf9fc36ca5eccd4489ce458c7ae31250e3da182f7b3fa158d283ca269b35",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 161534
+    },
+    {
+      "style_id": "glitch-editorial",
+      "source_gallery_asset": "assets/glitch-editorial-2.jpg",
+      "asset_path": "assets/glitch-editorial.jpg",
+      "asset_sha256": "cff033d06a95cf241d4e2fc538a4f103eb3622b1cbe03f4d44f642da9862707d",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 538009
+    },
+    {
+      "style_id": "prismatic-flutes",
+      "source_gallery_asset": "assets/prismatic-flutes-3.jpg",
+      "asset_path": "assets/prismatic-flutes.jpg",
+      "asset_sha256": "6a48406a1eaa89d9f2f15bea20f7819b6f4cf31e47e29ff0b50a943f03c82a19",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 179076
+    },
+    {
+      "style_id": "ukiyo-e-editorial",
+      "source_gallery_asset": "assets/ukiyo-e-editorial.jpg",
+      "asset_path": "assets/ukiyo-e-editorial.jpg",
+      "asset_sha256": "858a3fba871922fa1e03020a449f8c3a50e10ee6836e9a8caac9f954e069d70c",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 342294
+    },
+    {
+      "style_id": "neo-risograph",
+      "source_gallery_asset": "assets/neo-risograph.jpg",
+      "asset_path": "assets/neo-risograph.jpg",
+      "asset_sha256": "9a0d1c0dd74511a5173b46cd3247f9df94b41afe38b5ee737b52697e7583f7fb",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 376086
+    },
+    {
+      "style_id": "type-overprint",
+      "source_gallery_asset": "assets/type-overprint.jpg",
+      "asset_path": "assets/type-overprint.jpg",
+      "asset_sha256": "4ea9c89c17f6eb9a390cf1eeb269cf6a0f463be68407f99ce2865138c5ec624e",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 75049
+    },
+    {
+      "style_id": "dirty-brutalism",
+      "source_gallery_asset": "assets/dirty-brutalism.jpg",
+      "asset_path": "assets/dirty-brutalism.jpg",
+      "asset_sha256": "a5f22cca17bbff286b26d102d19e2038908951fa687a2c47a305f1a21ef4f436",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 336585
+    },
+    {
+      "style_id": "duotone-editorial",
+      "source_gallery_asset": "assets/duotone-editorial.jpg",
+      "asset_path": "assets/duotone-editorial.jpg",
+      "asset_sha256": "95cafaf7caf1cb3f515d88467f9ef2dede7fb6e693f01b5304dfcf2472158afe",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 573176
+    },
+    {
+      "style_id": "halftone-editorial-bw",
+      "source_gallery_asset": "assets/halftone-editorial-bw.jpg",
+      "asset_path": "assets/halftone-editorial-bw.jpg",
+      "asset_sha256": "0382f2cc0ada1a8ab16aed9e983132823926c90079ecaa178fca2d823a2cd28f",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 479700
+    },
+    {
+      "style_id": "ascii-editorial",
+      "source_gallery_asset": "assets/ascii-editorial.jpg",
+      "asset_path": "assets/ascii-editorial.jpg",
+      "asset_sha256": "b691d4ba273e3bd4be504fedd445146a04d136eabeecff7f4156316e579cc3b2",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 302510
+    },
+    {
+      "style_id": "organic",
+      "source_gallery_asset": "assets/organic.jpg",
+      "asset_path": "assets/organic.jpg",
+      "asset_sha256": "0f681d233ad12f3d02500546eccce8c3f5a42314ac2e971115981110c53f46f7",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 180733
+    },
+    {
+      "style_id": "folk-art",
+      "source_gallery_asset": "assets/folk-art.jpg",
+      "asset_path": "assets/folk-art.jpg",
+      "asset_sha256": "7bc8fdbbcb3365e8798e95b09f09acd9bcfdb9be17637d81a2f376f6e4532d83",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 449137
+    },
+    {
+      "style_id": "retro-futurism-art",
+      "source_gallery_asset": "assets/retro-futurism-art-3.jpg",
+      "asset_path": "assets/retro-futurism-art.jpg",
+      "asset_sha256": "260e9be387f797eee775f42934cadba54fda239d3393ddb6db37d79a08d2c286",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 477060
+    },
+    {
+      "style_id": "occult-editorial",
+      "source_gallery_asset": "assets/occult-editorial-8.jpg",
+      "asset_path": "assets/occult-editorial.jpg",
+      "asset_sha256": "44c4078396daf7345f63e9a29dd64ed8355c74fd51511fe35a2d13c4ef325d6a",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 388217
+    },
+    {
+      "style_id": "futurismo-italiano",
+      "source_gallery_asset": "assets/futurismo-italiano.jpg",
+      "asset_path": "assets/futurismo-italiano.jpg",
+      "asset_sha256": "20a12bff7c99bdacfeae6de9c2ff45cee348b871ed2206618a490f46b85376f6",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 320201
+    },
+    {
+      "style_id": "blue-note",
+      "source_gallery_asset": "assets/blue-note-5.jpg",
+      "asset_path": "assets/blue-note.jpg",
+      "asset_sha256": "8e8c7debe3317c1ea281a5666334bd691384723ee5b973c5440902f8dabb7e96",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 253027
+    },
+    {
+      "style_id": "handwritten",
+      "source_gallery_asset": "assets/handwritten.jpg",
+      "asset_path": "assets/handwritten.jpg",
+      "asset_sha256": "0d733e068f8efe2d1d85a0258f91585897a394093c99d26249f4277db13ec6fb",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 267716
+    },
+    {
+      "style_id": "psychedelic-art",
+      "source_gallery_asset": "assets/psychedelic-art.jpg",
+      "asset_path": "assets/psychedelic-art.jpg",
+      "asset_sha256": "111d936d3aff64be85e348c3dbaab281f4651394fcdddd667088b15503a809a1",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 342149
+    },
+    {
+      "style_id": "lowbrow",
+      "source_gallery_asset": "assets/lowbrow.jpg",
+      "asset_path": "assets/lowbrow.jpg",
+      "asset_sha256": "5e47e7e5455fe9cdd27abe681a73b95b3864d134a6bb82d3c55d8692240af1b5",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 468464
+    },
+    {
+      "style_id": "vintage-horror",
+      "source_gallery_asset": "assets/vintage-horror.jpg",
+      "asset_path": "assets/vintage-horror.jpg",
+      "asset_sha256": "f738803224a8e010449fc7414d9778c5c822e711a1e1da56c42fd8e7f8f3afdb",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 408925
+    },
+    {
+      "style_id": "symbolic-modernism",
+      "source_gallery_asset": "assets/symbolic-modernism-3.jpg",
+      "asset_path": "assets/symbolic-modernism.jpg",
+      "asset_sha256": "7b8250844c69d2052a6558892ac06a02de14f99eb3a2d237579aa2949f62a26c",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 99926
+    },
+    {
+      "style_id": "neo-swiss",
+      "source_gallery_asset": "assets/neo-swiss-10.jpg",
+      "asset_path": "assets/neo-swiss.jpg",
+      "asset_sha256": "0d715bdd2dcbe0eee9b26db1607216b0bf3b1621a0db1ad0fb35740a47d8881f",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 51482
+    },
+    {
+      "style_id": "ink-and-margin",
+      "source_gallery_asset": "assets/ink-and-margin-3.jpg",
+      "asset_path": "assets/ink-and-margin.jpg",
+      "asset_sha256": "139f760b1f77e34dcdcc9c8375b3e72426ba8a35e98eb8b5479400c486580828",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 141589
+    },
+    {
+      "style_id": "pencil",
+      "source_gallery_asset": "assets/pencil-4.jpg",
+      "asset_path": "assets/pencil.jpg",
+      "asset_sha256": "e999a8e973d5c6fa1e44c8c3bbcfbc527a3efbc72249ad220e697dbb28e79d65",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 152272
+    },
+    {
+      "style_id": "ballpen",
+      "source_gallery_asset": "assets/ballpen-3.jpg",
+      "asset_path": "assets/ballpen.jpg",
+      "asset_sha256": "66291f20360c98c8930090edb19a3ecdfb0e690e8cfb9d38d93c8f7f3d6f62ae",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 242008
+    },
+    {
+      "style_id": "photo-type-split",
+      "source_gallery_asset": "assets/photo-type-split-2.jpg",
+      "asset_path": "assets/photo-type-split.jpg",
+      "asset_sha256": "f6f0e4bebe3d5de29ff4d01fadb69b1090fea5d9cd488a0d5d7eb6d7b20efce0",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 123863
+    },
+    {
+      "style_id": "photo-type-monument",
+      "source_gallery_asset": "assets/photo-type-monument-2.jpg",
+      "asset_path": "assets/photo-type-monument.jpg",
+      "asset_sha256": "26a1599b08cde4367c47044d28d25a9e4c6d6625029d4d2ec89c3421fb488589",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 102743
+    },
+    {
+      "style_id": "ink-drip",
+      "source_gallery_asset": "assets/ink-drip.jpg",
+      "asset_path": "assets/ink-drip.jpg",
+      "asset_sha256": "c4c4492a778fc443f30271fe8863d5d829dcbe83bf2c1bfa6af22dd8a4562f26",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 113030
+    },
+    {
+      "style_id": "type-blur",
+      "source_gallery_asset": "assets/type-blur-2.jpg",
+      "asset_path": "assets/type-blur.jpg",
+      "asset_sha256": "b415608fa32b1966f30aab8d46f5770d6bd826948c26f0fc8de108d458f3ddb3",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 43215
+    },
+    {
+      "style_id": "graphite-negative",
+      "source_gallery_asset": "assets/graphite-negative.jpg",
+      "asset_path": "assets/graphite-negative.jpg",
+      "asset_sha256": "84afda7190baa74c858845f015f5a396a99513066530c8dc702de1c8e10dcb9b",
+      "asset_width": 800,
+      "asset_height": 1000,
+      "asset_bytes": 270330
+    }
+  ]
+}

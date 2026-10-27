@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Esplora i 50 stili visivi inclusi in Quote Card Designer.">
+  <title>Catalogo stili · Quote Card Designer</title>
+  <link rel="stylesheet" href="assets/catalog.css">
+</head>
+<body>
+  <a class="skip-link" href="#catalogo">Vai al catalogo</a>
+  <header class="site-header" id="top">
+    <a class="wordmark" href="#top">Quote Card Designer</a>
+    <span class="header-meta">Catalogo visivo <span aria-hidden="true">·</span> __CATALOG_VERSION__</span>
+  </header>
+  <div class="page-layout">
+    <aside class="sidebar" aria-label="Categorie">
+      <div class="sidebar-heading">Categorie</div>
+      <nav id="family-nav" class="family-nav" aria-label="Filtra per categoria"></nav>
+      <p class="sidebar-note">Copia il nome e usalo<br>con la tua frase.</p>
+    </aside>
+    <main id="catalogo" class="catalog" tabindex="-1">
+      <div class="catalog-heading">
+        <div><h1 id="page-title">__STYLE_COUNT__ stili</h1><p class="catalog-intro">Scegli uno stile e copia il nome per creare la tua quote card.</p></div>
+        <label class="search-field"><span class="visually-hidden">Cerca uno stile</span><span class="search-icon" aria-hidden="true">⌕</span><input id="search-input" type="search" autocomplete="off" placeholder="Cerca uno stile o una tecnica"><kbd aria-hidden="true">/</kbd></label>
+      </div>
+      <div class="mobile-filter"><label for="family-filter">Categoria</label><select id="family-filter"><option value="">Tutte le categorie</option></select></div>
+      <div class="results-line"><p id="result-count" role="status" aria-live="polite">__STYLE_COUNT__ stili</p><button id="reset-filters" class="reset-button" type="button" hidden>Azzera filtri</button></div>
+      <div class="style-grid" id="style-grid"></div>
+      <div class="empty-state" id="empty-state" hidden><p>Nessuno stile corrisponde alla ricerca.</p><button id="reset-empty" class="reset-button" type="button">Azzera i filtri</button></div>
+      <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+      <footer class="site-footer"><span>QUOTE CARD DESIGNER</span><span>Catalogo visivo · __CATALOG_VERSION__</span><a href="#top">Torna all’inizio ↑</a></footer>
+    </main>
+  </div>
+  <dialog class="zoom-dialog" id="zoom-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-frame">
+      <div class="dialog-heading"><div><p class="dialog-kicker">Esempio ingrandito</p><h2 id="dialog-title"></h2></div><button class="close-button" id="dialog-close" type="button" aria-label="Chiudi l’esempio">×</button></div>
+      <img id="dialog-image" alt=""><p class="dialog-caption" id="dialog-caption"></p>
+    </div>
+  </dialog>
+  <script id="style-data" type="application/json">__STYLE_DATA__</script>
+  <script src="assets/catalog.js" defer></script>
+</body>
+</html>

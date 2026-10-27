@@ -1,0 +1,14 @@
+{
+  "project_id": "appgprj_6ada2fd721f48191a060f7d475f6c5f2",
+  "version_number": 4,
+  "commit_sha": "c17d842fff2d81d922fb93bd23e15a485d7d6575",
+  "deployment_id": "appgdep_6ae05f0aeba0819183fe9b32f84362a9",
+  "status": "succeeded",
+  "url": "https://quote-card-designer-catalogo-v1.vincos.chatgpt.site",
+  "access_mode": "public",
+  "access_policy_unchanged": true,
+  "access_policy_revision": 2,
+  "skill_version": "0.4.0",
+  "styles": 50,
+  "categories": 11
+}
