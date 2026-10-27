@@ -1,0 +1,75 @@
+Composition Library:
+  Style Name: Symbolic Modernism
+  Selection:
+    Current Preference: >
+      The user preferred the first study on 2026-10-26 and requested
+      simple forms, confident colour and flat design. Choose
+      single-semantic-emblem by default, with a reduced legible pictogram
+      and solid colour fields. The curve system is a secondary alternative,
+      not a reason to reintroduce diagrammatic density automatically.
+    Basis: >
+      Read the quotation for one action or relation and select the
+      construction that can express it with the fewest necessary visual
+      operations. Choose one family rather than combining all three.
+    Variation: >
+      Change the semantic mechanism, focal form, crop and reading anchors
+      for new applications. An accepted composition remains stable during
+      a targeted edit. Examples do not fix subjects, counts or palettes.
+    Reading: >
+      Keep the complete sentence in one immediate route at substantial
+      scale. Move or simplify the visual before distorting the type or
+      turning the phrase into a small caption.
+  Families:
+    - id: single-semantic-emblem
+      Name: One reduced emblem with a meaningful figure-ground event
+      Use When: >
+        A short or medium quotation can be condensed into an aperture,
+        boundary, contact or other strong visual relationship.
+      Structure: >
+        Build one large compound symbol from a few solids and cutouts.
+        One accent may mark the decisive transition. Relate its scale,
+        position or crop to an anchored quiet field for the quotation.
+      Text Adaptation: >
+        Use substantial semantic groups with natural unequal line
+        lengths. Keep all words intact and preserve optical spacing.
+        A supplied name uses the subordinate right-aligned register.
+      Format Adaptation: >
+        Recompose emblem scale, crop and the verbal field for each ratio.
+        Keep the aperture or other meaningful event visible and retain
+        the full sentence rather than cropping a fixed arrangement.
+    - id: contained-modular-system
+      Name: A bounded repeated system with one significant difference
+      Use When: >
+        A quotation concerns plurality, belonging, difference or a
+        relationship between an individual element and an ensemble.
+      Structure: >
+        Establish a coherent repeated module within a clear boundary.
+        Change one relation, orientation, colour role or position to
+        create the focal event. Avoid random packing or a generic pattern
+        with an unrelated slogan. The container need not be circular.
+      Text Adaptation: >
+        Anchor substantial words to the boundary or a related interval,
+        maintaining a complete reading route. Simplify module density
+        before reducing required lettering or its word spaces.
+      Format Adaptation: >
+        Change module count, container and quiet field for the ratio.
+        Keep the exception perceptible without preserving a fixed grid,
+        number of elements or proportion from a reference.
+    - id: serial-curves-and-anchor
+      Name: Regular curve systems with one highlighted transition or encounter
+      Use When: >
+        A quotation concerns motion, connection, deviation or a
+        relationship that gains clarity through an ordered line system.
+      Structure: >
+        Use regularly related curves as one field, with a selected
+        interruption, tangent or encounter marked by an accent. Let
+        a crop or opening in that field establish a quiet word area.
+        Do not invent a literal astronomical chart or calibrated data.
+      Text Adaptation: >
+        Keep dense curves away from the letters. Give the full quotation
+        title-like scale, natural spacing and one clear axis. An accent
+        can link a meaningful word to the focal event when useful.
+      Format Adaptation: >
+        Rebalance line count, spacing, crop and reading area for each
+        format. Preserve distinct strokes at phone scale and a legible
+        event instead of shrinking an arbitrarily dense line field.

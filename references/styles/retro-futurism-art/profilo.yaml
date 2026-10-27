@@ -1,0 +1,221 @@
+Design Style:
+  Name: Retro-futurism Art
+  Status: "Incluso nel catalogo V1 il 26 ottobre 2026"
+  Concept: >
+    A quotation enters a densely printed psychedelic cosmic montage.
+    Photographic-looking fragments, astronomical inner worlds, altered
+    terrestrial colour and incompatible scales create a strange but authored
+    visual argument. Material discontinuities, layered silhouettes and
+    analogue colour separations evoke experimental speculative covers.
+    Forceful Western lettering makes the complete sentence present within
+    the montage rather than an incidental caption.
+
+  Reference Basis:
+    Scope: >
+      A contemporary direction informed by the supplied images and selected
+      museum, film and space-agency sources. The references show several
+      historical and contemporary approaches, not one authenticated period.
+    Transfer: >
+      Transfer cosmic photomontage, impossible scale relationships,
+      false-colour terrestrial fragments, layered organic silhouettes,
+      analogue bands, thick print grain and strong cover typography.
+      The early scenic and travel-poster reading was rejected by the user;
+      it no longer defines the default direction.
+    Research Notes: ricerca.md
+    Independence: >
+      Existing cover titles, authors, film identities, signatures and complete
+      compositions are not content to reuse. Invent the current world and
+      its visual relationship to the quotation. The written profile is
+      sufficient; reference images are not mandatory generation inputs.
+
+  Canvas:
+    Ratio: '4:5'
+    Output: One complete flat editorial quote card, full bleed
+    Adaptation: >
+      Recompose the montage, contour relationships and reading field for a new
+      ratio. Preserve the complete quotation rather than cropping a poster.
+
+  Mood: [Psychedelic, Speculative, Strange, Dense, Tactile, Cosmic, Exploratory]
+
+  Color Palette:
+    Fixed Colors: false
+    Strategy: >
+      Choose a small group of forceful altered-colour inks, dark cosmic
+      depth and warm or cool reading ink. Make colour separation visible
+      through flat strata, local offsets and different fragment temperatures.
+      Quiet local contrast protects the words inside an otherwise dense
+      field. Replace hues freely while retaining material and scale contrasts.
+    Study Directions:
+      Cosmic Montage:
+        Cosmic Ink: '#152A38'
+        Reading Ink: '#F3DC9C'
+        Altered Terrain: '#DE5D40'
+        Reversed World: '#4AADB2'
+        Ochre: '#C88C3B'
+      Embodied Cosmos:
+        Cosmic Field: '#2F1C33'
+        Reading Ink: '#E0B852'
+        Nebula: '#A34D76'
+        Offset Stratum: '#319DA9'
+        Mineral Fragment: '#B96745'
+    Roles: >
+      Use luminance to separate the quotation from its actual background.
+      Strong colour masses distinguish fragments and scale changes; dark
+      fields create depth and support the sentence. A printed offset should
+      enrich an edge without making letters ambiguous. Rainbow bands are
+      one possible choice, not a recurring colour preset.
+    Overrides: >
+      Change palette freely when requested. Resolve all material and text
+      roles together instead of retaining conflicting study colours.
+
+  Typography:
+    Main Reading:
+      Direction: >
+        Substantial expanded or curvilinear Western cover lettering, a
+        soft-shouldered grotesk, or a coherent bold condensed display face.
+        Keep recognisable word shapes, open counters and natural proportions.
+        Prefer display forms whose silhouette and movement visibly belong
+        to the montage: expanded, angular, curvilinear or condensed lettering
+        that echoes its cutout contours, altered-colour strata and cover energy.
+        A plain editorial serif or neutral grotesk should not sit apart from
+        the image as a generic overlay; use one only when its treatment is
+        adapted to the same graphic language.
+      Character: >
+        The lettering can suggest an earlier print culture without imitating
+        a named cover or rigidly reconstructing a period. Match its scale,
+        curves or stance to the montage. Shallow arcs and stepped anchors
+        can belong to the cover rhythm while every glyph stays recognisable.
+        Carry the montage's contour, colour and print character into the
+        lettering so text and image read as parts of one graphic composition.
+      Hierarchy: >
+        The complete quotation is the principal verbal layer. Emphasis can
+        support meaning; connecting words remain substantial and readable.
+        Do not reduce the quote to an incidental caption.
+      Integrity: >
+        Preserve literal words, case, accents, punctuation and word spaces.
+        Choose line breaks by meaning and keep a clear reading sequence.
+        Move the image before squeezing a line around a planet or rock.
+    Attribution: >
+      Use only a supplied or verified exact name, smaller and quieter than
+      the quotation but readable, right-aligned to a clear right axis.
+      Omit the name and its reserved area when absent.
+    Font Fidelity: >
+      Generated lettering does not certify an exact typeface or editable
+      text. Do not claim either without the corresponding assets.
+
+  Layout:
+    Montage Logic: >
+      Relate a small number of strong anomalies through a visual loop or
+      shared contour: a world inside an object, a reversed horizon, an
+      organic cutout filled with stars, or a scale change between analogue
+      matter and cosmic space. Several relations may coexist when they
+      strengthen one authored montage. Do not sterilise the image into
+      a single neat planet above a landscape.
+    Shared Reading Field: >
+      Plan local open intervals, dark printed areas and contour directions
+      together with the sentence. Let words occupy a substantial portion
+      of the montage, rather than isolating them in a blank header above
+      scenic art. The type and fragments share the same printed surface.
+    Depth and Scale: >
+      Combine photographic-looking terrain and flat strata with deliberate
+      shifts of scale, orientation or representation. Local perspective can
+      be coherent even where two fragments contradict one another. The
+      contradiction should be legible and purposeful. A person, body
+      fragment or analogue object may help but is not required.
+    Density: >
+      Dense grain, stars, nebulae and printed fragments can occupy much of
+      the card. Distinguish that richness from local noise directly across
+      reading strokes. Protect counters, word spaces, accents and punctuation
+      without reducing the whole composition to an empty minimalist field.
+    Integration: >
+      Colour strata, cutout edges, ribbons and scale changes can lead into
+      verbal anchors. A shared print texture unifies letters and collage.
+      Required letters and punctuation remain whole even when a fragment
+      approaches or passes behind a word group.
+    Variation: >
+      Change subjects, montage relationships, crop, scale and reading field
+      for new quotations. A colour change alone is not a new composition.
+
+  Imagery:
+    Repertoire: >
+      False-colour terrain, astronomical interiors, cutout profiles, hands,
+      other organic forms, analogue objects, circular worlds, dislocated
+      horizons and optical bands are possibilities. Choose a coherent group
+      from the quotation and user request, not a fixed inventory.
+    Representation:
+      Painterly: >
+        Illustrated or photographic-looking fragments may retain local
+        modelling before being flattened, recoloured or cut into another
+        scale. The print surface and visible montage decisions remain strong.
+      Drawn: >
+        Deliberate contours, engraved hatching, stippled shadows and a
+        limited number of opaque inks.
+      Optical: >
+        Shifted contour strata, analogue bands and colour separations can
+        reveal an expanded body or passage. Use purposeful offsets and
+        relationships instead of an automatic soft glowing aura.
+    Boundaries: >
+      Do not copy recognisable film iconography, historical cover layouts
+      or named spacecraft. No recurring astronaut, CRT computer, rocket,
+      rainbow or human figure is required.
+
+  Effects:
+    Surface: >
+      Dusty matte paper, dense fine grain, visible halftone, selective
+      registration drift and small ink losses make the collage physical.
+      Text may share the grain but keeps its substantial reading silhouette.
+    Colour Modelling: >
+      False colour, flat contour echoes and overprinted edges can contrast
+      with depth inside a fragment. Preserve these material discontinuities
+      rather than smoothing every layer into glossy digital atmosphere.
+    Restraint: >
+      Avoid indiscriminate ageing, giant scratches, plastic gloss, HDR
+      rendering and heavy noise that destroys depth or reading.
+
+  Rules:
+    - Keep the exact complete quotation prominent and normally show it once.
+    - Build an authored cosmic montage with strong relationships between a few incompatible scales.
+    - Protect local reading contrast while retaining psychedelic density and material richness.
+    - Preserve natural glyph proportions, word spaces, accents and punctuation.
+    - Let cosmic photomontage, altered colour, graphic cover lettering and physical print carry the retro character.
+    - Make the lettering visibly share the montage's shape language, movement and print treatment; avoid a detached generic type overlay.
+    - Adapt palette, subject, typography and format to the current quotation.
+    - Treat people, machines, planets and optical bands as choices, not a fixed inventory.
+    - Distinguish imaginative space from scientifically validated depiction.
+  Exclusions:
+    - Invented captions, tourism titles, labels, coordinates, credits, author names or signatures
+    - Existing film titles, identifiable copied covers, logos, watermarks or brands
+    - Synthwave grids, modern cyberpunk HUDs or neon cities as automatic shorthand
+    - Glossy 3D spectacle, photorealistic astronomy or generic digital fantasy art
+    - Dense clutter behind letters, tiny connectors, squeezed words or cropped required text
+    - Decorative four-point starbursts and pseudo-scientific microcopy
+
+  Content Contract:
+    quote: Preserve the supplied sentence literally, including case and punctuation.
+    author: Optional exact supplied or verified name, smaller and right-aligned.
+    personal_signature: Only on explicit request, distinct from the author.
+    additional_copy: Do not invent any.
+
+  Production:
+    Preferred Mode: generative
+    Method: >
+      Use integrated ImageGen to create the whole card, including quotation,
+      scene, hierarchy and material. A generated background alone does not
+      establish the designed quote card.
+    Reference Inputs: >
+      All four applications used written prompts without image
+      inputs. No matched A/B trial with and without references has been
+      performed, and an image-reference dependency is not adopted.
+    Validation: >
+      The user rejected the first two scenic applications. They remain as
+      development history, not the preferred calibration. Two new complete
+      approximately 4:5 cards reuse those exact demonstration sentences to
+      test a denser cosmic montage and an organic cosmic cutout. Both new
+      images were inspected at native size and 320 by 400 pixels; text and
+      punctuation remain complete and legible. The user approved the revised
+      direction and requested its inclusion as a V1 candidate on 2026-10-25.
+      Long quotations, attribution, other ratios, exact font fidelity and
+      the third composition remain untested. Universal repeatability does
+      not follow from these studies.
+
+Composition Library: composizioni.yaml

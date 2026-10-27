@@ -1,0 +1,45 @@
+source:
+  project_id: appgprj_6adb7b4f342881918cd48a4c247a3092
+  version: 23
+  commit_sha: bb6358c372ea774bb122ac41095546f1e714233f
+  url: https://quote-card-designer-style-gallery.vincos.chatgpt.site/?v=23#handwritten
+  retrieved_on: '2026-10-26'
+profile:
+  export: profilo-gallery-v23.yaml
+  export_sha256: b49c10cd8b3a30add95b3f0a59dd9e12daed9698203ce10be5495dfc7e892466
+  runtime: profilo.yaml
+  composition_library: composizioni.yaml
+  content_policy: Contenuto del profilo e libreria identico semanticamente all’export pubblicato; solo
+    separazione in due file locali.
+catalog:
+  source_search_index: Handwritten Fotografia analogica 35mm o istantanea interamente virata in un colore,
+    con grana controllata e scrittura manuale irregolare. Inchiostro sempre distinto dal viraggio per
+    colore e luminosità. Fotografia e atmosfere Generativa fotografico handwritten manuale analogico 35mm
+    monocromatico grana handwritten scrittura a mano fotografia annotata handwritter Personale Spontaneo
+    Fotografico Tattile Imperfetto
+  metadata_policy: Nome, categoria, descrizione, metodo, stato, etichette e frase da scheda pubblicata.
+    Alias e tag ricavati dai termini del suo indice di ricerca; non inventata una segmentazione storica
+    esatta.
+images:
+- example: 1
+  source: assets/handwritten.jpg
+  local: esempio.jpg
+  sha256: eb1f292f38adf0f47935099cf641b76f5632683300bbb2b3dacf318a55d4022b
+  width: 800
+  height: 1000
+  mode: RGB
+  format: JPEG
+  quote: A volte basta cambiare passo.
+  label: 35mm · rosso ruggine e azzurro ghiaccio
+- example: 2
+  source: assets/handwritten-2.jpg
+  local: esempio-2.jpg
+  sha256: 386c56ca6bf10427f59171fdc7cdb9520783d1150e9fe4f5dbbd6053de274873
+  width: 800
+  height: 1000
+  mode: RGB
+  format: JPEG
+  quote: Le idee migliori prendono strade inattese.
+  label: 35mm · petrolio e albicocca
+original_generation_assets_recovered: false
+original_generation_prompts_recovered: false

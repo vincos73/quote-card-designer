@@ -1,0 +1,15 @@
+# Organic · prova biomorfica
+
+Prompt effettivo per ImageGen integrato. Nessuna immagine di input.
+
+```text
+Use case: stylized-concept
+Asset type: one complete flat editorial quote card, portrait 4:5, full bleed, not a framed print or mockup.
+Primary request: create an original abstract organic graphic quote card. The Italian phrase must be a strong visible part of a composed field of a few large cut-paper biomorphic forms.
+Style and material: opaque matte cut-paper silhouettes and lightly imperfect screenprint on a warm off-white stock. Sinuous branching shape, broad curved ribbon and one irregular rounded colour mass. Hand-cut contours have purposeful slight variation; colour interiors are flat, with only restrained fine ink grain and a few tiny ink misses. Do not imitate any recognizable existing artwork or brand pattern.
+Composition: develop a strong open diagonal relationship, deliberately different from a flower above a text block. A large deep-petrol bold sans sentence starts in the upper-right half and steps downward through a generous negative-space channel toward the lower-left. Use the line sequence LASCIA / SPAZIO / A NUOVE / FORME. Keep the four groups in normal top-to-bottom reading order, with two clear related left axes instead of random floating words. The lettering is substantial, coherent, naturally proportioned, clear and never squeezed to dodge a shape. Three large graphic masses define the channel: a cobalt-blue lobed branching silhouette rises from and is cropped by the lower-left edge; a moss-green sinuous band curves through the right edge; one small muted-coral roundish mass balances the top-left. A few larger cream holes or slits within shapes make the negative space active. Leave enough connected unprinted field around and between the words to read the entire sentence in one glance. The organic masses and the type answer each other's contours without covering, attaching to or replacing any letter. Avoid a uniform pattern, equal tiles, symmetrical wreath, an all-over decorative border, a generic centered quote and confetti dots. One or two short fine printed interior marks are enough; omit unnecessary ornaments.
+Palette chosen for this study: warm off-white #F1EDE1 paper, deep petrol #153F45 text, cobalt #24649A, moss green #7D9851 and a restrained muted coral #DF896C. Few large opaque solid colour areas; no gradient or gloss.
+Text verbatim, exactly once, including the final period: "LASCIA SPAZIO A NUOVE FORME."
+Content constraints: all and only those words in uppercase, no author or signature. Every word, clear word space and final period must be intact, high contrast and comfortably readable at phone scale. Quote is the first communicative layer, not a tiny caption under an illustration.
+Avoid: letters used as abstract blobs, any other words, dates, exhibition copy, logos, watermarks, numbers, microtext, decorative grids, four-point stars, detailed plants or animals, photos, watercolor, soft digital gradients, faux 3D, cast shadows, torn collage layers, heavy grunge, folk miniature ornament and hundreds of filler marks.
+```

@@ -1,37 +1,31 @@
-# Handwritten
+# Handwritten · esempio 1 recuperato dalla galleria
 
-Profilo approvato per la libreria e V1 candidate. La selezione V1 resta uno
-stato distinto dalla candidatura.
+Riallineamento del **26 ottobre 2026**. Frase indicata nella scheda pubblicata:
+**A volte basta cambiare passo.**
 
-L'esempio usa «A volte basta cambiare passo.», senza attribuzione. Fotografia
-generata con una persona in cammino, interamente virata al rosso ruggine,
-resa 35mm e grana percepibile. Scrittura manuale azzurro ghiaccio: una scelta
-in contrasto cromatico e luminoso con la fotografia, secondo la regola del
-profilo. Soggetto e coppia di colori appartengono a questa prova, non sono
-vincoli per le nuove card.
+- Immagine locale: [esempio.jpg](esempio.jpg).
+- Esempio: **35mm · rosso ruggine e azzurro ghiaccio**.
+- Sorgente: galleria Sites, versione **23**, asset `assets/handwritten.jpg`.
+- Copia verificata byte per byte con SHA-256 `eb1f292f38adf0f47935099cf641b76f5632683300bbb2b3dacf318a55d4022b`.
+- File effettivo recuperato: **800 × 1000 px, RGB, JPEG**.
 
-L'intera card deriva da ImageGen integrato. Il prompt effettivo conservato
-in `prompt-esempio.md` è l'ultimo passaggio di editing su una versione già
-monocromatica: cambia l'inchiostro avorio in azzurro ghiaccio, conservando
-foto, grana, frase e composizione. Il profilo guida anche generazioni nuove
-senza immagini obbligatorie. L'esempio non è un livello testuale editabile.
+È il JPEG di anteprima già pubblicato, non il file nativo di generazione.
+Gli attributi dimensionali dell'HTML non certificano la risoluzione originaria.
+Non sono stati recuperati dalla sorgente Sites il prompt effettivo o un
+originale PNG: non sono stati ricostruiti né inventati e il catalogo non
+collega un prompt precedente a questa immagine.
 
-Verificati nel nativo e a dimensione feed: frase completa una volta sola,
-maiuscola iniziale e punto, assenza di testo aggiunto, leggibilità del
-lettering e monocromia della foto. I tratti terminali restano vicini al
-margine destro, con tutte le lettere leggibili. Nativo 1122 × 1402.
+Profilo e tre famiglie compositive sono ripresi dall'export YAML pubblicato,
+conservato in [profilo-gallery-v23.yaml](profilo-gallery-v23.yaml). Il profilo
+locale usa il collegamento relativo a `composizioni.yaml`; la risoluzione
+è stata confrontata con l'export e conserva gli stessi contenuti.
 
-La fotografia e la resa analogica sono simulate, non documentano un evento
-reale né una scansione di pellicola. Le prove precedenti confrontavano
-scrittura e fotografia con e senza riferimenti; il soggetto della versione
-con reference risultava troppo simile a un allegato ed è stato scartato
-come esempio principale. Non è stata provata la resa Polaroid, una foto
-fornita, un'attribuzione o un altro formato.
+Lo stato **V1 candidate** riproduce quello della galleria. Questo recupero
+non promuove lo stile nella release né costituisce una nuova approvazione.
+Nessuna nuova generazione o pubblicazione eseguita. I dettagli di provenienza
+sono in [provenienza-gallery.yaml](provenienza-gallery.yaml).
 
-Secondo esempio della galleria: `esempio-2.png`, «Le idee migliori prendono
-strade inattese.», fotografia 35mm interamente petrolio e scrittura
-albicocca. Scena diversa con scala esterna; il contrasto di colore e
-luminosità resta leggibile. `prompt-secondo-testo.md` conserva l'editing
-effettivo che sostituisce la frase su una precedente versione della stessa
-fotografia generata. Immagine completa prodotta da ImageGen, verificata nel
-nativo 1122 × 1402 e a 375 px. Due esempi visibili, con testi differenti.
+Le due immagini dello stile sono state ispezionate nel JPEG disponibile:
+le frasi corrispondono ai metadati pubblicati. Questo controllo non è una
+nuova prova di generazione, un controllo di font reale o una certificazione
+della risoluzione originale.

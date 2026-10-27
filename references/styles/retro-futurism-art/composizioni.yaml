@@ -1,0 +1,72 @@
+Composition Library:
+  Style Name: Retro-futurism Art
+  Selection:
+    Basis: >
+      Begin with the exact sentence and a few related speculative scale
+      changes. Choose a montage that makes the words substantial while
+      keeping the cosmic field materially rich and strange.
+    Variation: >
+      Select one main family. Vary the cutout subjects, scale relationships,
+      crop, colour strata and reading anchors for a new quotation.
+      Preserve an accepted composition during a targeted correction.
+  Families:
+    - id: cosmic-montage
+      Name: Incompatible worlds and an analogue material loop
+      Use When: >
+        A quotation benefits from a material object or terrestrial fragment
+        that opens into a different cosmic scale.
+      Structure: >
+        Combine a few forceful cutout fragments with incompatible scale
+        or orientation. A ribbon, aperture or repeated edge can connect
+        them into a visual loop. Broad false-colour planes and dense printed
+        interiors contrast with locally open areas for substantial words.
+        The material link should make the strangeness feel authored.
+      Text Adaptation: >
+        Use meaningful groups, shallow arcs or stepped related anchors,
+        keeping substantial connectors and natural glyph proportions.
+        Reduce a collision rather than the whole collage's richness.
+        Required punctuation and a smaller right-aligned name stay clear.
+      Format Adaptation: >
+        Recompose the cutout relations, loop and verbal anchors for each
+        ratio. Portraits may stack scales; wider formats can make a lateral
+        exchange. Never crop or abbreviate the required sentence.
+
+    - id: embodied-cosmos
+      Name: An organic cutout containing another scale
+      Use When: >
+        A quotation can gain power from an anonymous organic silhouette
+        containing an astronomical, mineral or optical interior.
+      Structure: >
+        Make one large recognisable organic fragment an aperture into a
+        different world. Shift broad contour strata behind it and relate
+        its interior to a terrestrial fragment at another scale. Let the
+        sentence occupy the same material field, with density changing
+        locally around the letters. Keep the anatomy or contour legible.
+      Text Adaptation: >
+        Keep the full quotation in a simple recoverable route with strong
+        word shapes. An oversized semantic group may answer the silhouette;
+        connectors remain substantial. Move the cutout before squeezing a
+        line, and preserve every required stroke and punctuation mark.
+      Format Adaptation: >
+        Change crop, gesture and contour drift to suit the ratio and phrase.
+        A wider format can open the silhouette's relation to text laterally.
+        Preserve the body fragment's recognition and the full verbal route.
+
+    - id: optical-threshold
+      Name: A threshold between familiar scale and an imagined world
+      Use When: >
+        A quotation supports a stronger perceptual transition while retaining
+        an immediate reading order.
+      Structure: >
+        Connect a small number of apparent scales or states through a band,
+        aperture or repeated contour. The passage can be strange and densely
+        layered while the sentence anchors a connected local reading plane.
+        Choose related transformations instead of random effect accumulation.
+      Text Adaptation: >
+        Preserve the full phrase in a connected field. Optical distortion
+        belongs to the scene and must not make required words ambiguous.
+        Keep an optional attribution smaller and right-aligned.
+      Format Adaptation: >
+        Rebalance the passage and reading plane for each ratio. Reduce the
+        number of transitions when space is limited rather than sacrificing
+        text or compressing individual lines.

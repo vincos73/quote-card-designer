@@ -1,0 +1,44 @@
+source:
+  project_id: appgprj_6adb7b4f342881918cd48a4c247a3092
+  version: 23
+  commit_sha: bb6358c372ea774bb122ac41095546f1e714233f
+  url: https://quote-card-designer-style-gallery.vincos.chatgpt.site/?v=23#optical-motion
+  retrieved_on: '2026-10-26'
+profile:
+  export: profilo-gallery-v23.yaml
+  export_sha256: 2684aafc6c9e9ca69e157b42299e4da25599ff677e028bb2d6724386e76b0e75
+  runtime: profilo.yaml
+  composition_library: composizioni.yaml
+  content_policy: Contenuto del profilo e libreria identico semanticamente all’export pubblicato; solo
+    separazione in due file locali.
+catalog:
+  source_search_index: 'Optical La frase partecipa all’illusione: contorni generati dalle parole, aperture
+    nelle onde o inversioni figura-sfondo. Testo dominante e campo ottico progettati insieme. Geometrie
+    e pattern Generativa ottico curve geometrico movimento editoriale optical motion optical op art movimento
+    ottico Percettivo Preciso Dinamico Geometrico Editoriale'
+  metadata_policy: Nome, categoria, descrizione, metodo, stato, etichette e frase da scheda pubblicata.
+    Alias e tag ricavati dai termini del suo indice di ricerca; non inventata una segmentazione storica
+    esatta.
+images:
+- example: 1
+  source: assets/optical-motion.jpg
+  local: esempio-gallery.jpg
+  sha256: 6e9635ce325eeb5865f94abb6cf9f88aab6171a6146b039c51fc57a650002282
+  width: 800
+  height: 1000
+  mode: RGB
+  format: JPEG
+  quote: Ogni punto di vista apre una possibilità.
+  label: Apertura ondulata
+- example: 2
+  source: assets/optical-motion-2.jpg
+  local: esempio-gallery-2.jpg
+  sha256: d9f2a10c7ceb4a64720a43313216c83d15d3a3ebbf309bd0abc5dbb562b6c812
+  width: 800
+  height: 1000
+  mode: RGB
+  format: JPEG
+  quote: Le idee migliori prendono strade inattese.
+  label: Fase e inversione · nuovo testo
+original_generation_assets_recovered: false
+original_generation_prompts_recovered: false

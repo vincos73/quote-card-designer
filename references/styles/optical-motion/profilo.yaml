@@ -1,64 +1,78 @@
 Design Style:
   Name: Optical
-  Status: Profilo della libreria, V1 candidate approvato; revisione di Optical Motion
-  Concept: >
-    La citazione partecipa a un'illusione ottica statica: le parole generano
-    curve, perturbano una trama o emergono da un'inversione figura-sfondo.
-    Testo e campo ottico sono progettati insieme. Il colpo d'occhio invita
-    alla lettura, senza relegare la frase a didascalia di un pattern autonomo.
+  Status: "Incluso nel catalogo V1 il 26 ottobre 2026; revisione di Optical Motion"
+  Concept: 'La citazione partecipa a un''illusione ottica statica: le parole generano curve, perturbano
+    una trama o emergono da un''inversione figura-sfondo. Testo e campo ottico sono progettati insieme.
+    Il colpo d''occhio invita alla lettura, senza relegare la frase a didascalia di un pattern autonomo.
+
+    '
   Canvas:
     Ratio: '4:5'
     Output: Card editoriale piatta a piena pagina
     Adaptation: Ricomporre il campo ottico e i gruppi di parole per il formato richiesto.
-  Mood: [Percettivo, Preciso, Dinamico, Geometrico, Editoriale]
+  Mood:
+  - Percettivo
+  - Preciso
+  - Dinamico
+  - Geometrico
+  - Editoriale
   Color Palette:
     Starting Point: Nero profondo e avorio, oppure bianco e nero.
-    Contrast: >
-      Usare due valori nettamente separati per rendere leggibili ripetizione
-      e figura-sfondo. La palette è sostituibile, conservando il contrasto.
-    Accent: >
-      Un accento cromatico facoltativo può segnare una transizione. Non è
-      obbligatorio il cobalto e non occorre un terzo colore in ogni card.
+    Contrast: 'Usare due valori nettamente separati per rendere leggibili ripetizione e figura-sfondo.
+      La palette è sostituibile, conservando il contrasto.
+
+      '
+    Accent: 'Un accento cromatico facoltativo può segnare una transizione. Non è obbligatorio il cobalto
+      e non occorre un terzo colore in ogni card.
+
+      '
   Typography:
     Quote:
       Base: Grotesk contemporaneo con forme robuste e controforme aperte.
-      Integration: >
-        La silhouette di alcune parole può modellare le bande, continuare
-        nei contorni o apparire per inversione del campo. Adottare un solo
-        meccanismo principale per card, mantenendo una massa di lettura chiara.
-      Transformation: >
-        Curve, contorni e deformazioni locali sono ammessi se motivati
-        dall'illusione e leggibili. Conservare la riconoscibilità di ciascun
-        glifo e gli spazi fra parole. Non schiacciare una riga per farla entrare.
-      Hierarchy: >
-        La citazione completa è la prima lettura. Un ancoraggio espressivo può
-        usare una scala o un trattamento diverso; le parole di raccordo non
-        diventano microtesto. Non tutte le lettere devono ricevere lo stesso effetto.
+      Integration: 'La silhouette di alcune parole può modellare le bande, continuare nei contorni o apparire
+        per inversione del campo. Adottare un solo meccanismo principale per card, mantenendo una massa
+        di lettura chiara.
+
+        '
+      Transformation: 'Curve, contorni e deformazioni locali sono ammessi se motivati dall''illusione
+        e leggibili. Conservare la riconoscibilità di ciascun glifo e gli spazi fra parole. Non schiacciare
+        una riga per farla entrare.
+
+        '
+      Hierarchy: 'La citazione completa è la prima lettura. Un ancoraggio espressivo può usare una scala
+        o un trattamento diverso; le parole di raccordo non diventano microtesto. Non tutte le lettere
+        devono ricevere lo stesso effetto.
+
+        '
     Attribution:
       Style: Sans-serif più piccolo e leggero, senza distorsione ottica
       Placement: Solo fornita o verificata, in un intervallo calmo e allineata a destra.
   Layout:
-    Shared Field: >
-      Testo e illusione appartengono allo stesso campo: spazi fra righe,
-      contorni, vuoti e densità delle bande organizzano la frase. La geometria
-      reagisce alla citazione, non riempie soltanto lo spazio rimasto.
-    Readability: >
-      La sequenza di lettura resta univoca. Aprire intervalli e ridurre la
-      frequenza delle bande vicino ai dettagli delle lettere; il respiro può
-      essere un vuoto interno al campo, senza diventare un riquadro da didascalia.
-    Variation: >
-      Scegliere direzione, fulcri, densità e distribuzione dalla frase. Tunnel,
-      onde e cerchi sono possibilità, non soggetti fissi da ripetere.
+    Shared Field: 'Testo e illusione appartengono allo stesso campo: spazi fra righe, contorni, vuoti
+      e densità delle bande organizzano la frase. La geometria reagisce alla citazione, non riempie soltanto
+      lo spazio rimasto.
+
+      '
+    Readability: 'La sequenza di lettura resta univoca. Aprire intervalli e ridurre la frequenza delle
+      bande vicino ai dettagli delle lettere; il respiro può essere un vuoto interno al campo, senza diventare
+      un riquadro da didascalia.
+
+      '
+    Variation: 'Scegliere direzione, fulcri, densità e distribuzione dalla frase. Tunnel, onde e cerchi
+      sono possibilità, non soggetti fissi da ripetere.
+
+      '
   Graphic Elements:
     Repertoire:
-      - Bande alternate e contorni che si incurvano attorno alla forma delle parole.
-      - Compressione e dilatazione graduale degli intervalli per suggerire profondità.
-      - Un campo regolare localmente perturbato dalle lettere.
-      - Inversioni figura-sfondo e cambi di fase limitati, con glifi riconoscibili.
-    Selection: >
-      Selezionare una sola famiglia principale. Non sommare spirale, scacchiera,
-      moiré e tunnel come inventario di effetti. Una variazione geometrica
-      controllata conta più di un gran numero di elementi.
+    - Bande alternate e contorni che si incurvano attorno alla forma delle parole.
+    - Compressione e dilatazione graduale degli intervalli per suggerire profondità.
+    - Un campo regolare localmente perturbato dalle lettere.
+    - Inversioni figura-sfondo e cambi di fase limitati, con glifi riconoscibili.
+    Selection: 'Selezionare una sola famiglia principale. Non sommare spirale, scacchiera, moiré e tunnel
+      come inventario di effetti. Una variazione geometrica controllata conta più di un gran numero di
+      elementi.
+
+      '
   Effects:
     Apparent Motion: Creato da ripetizione e variazioni di forma, spessore o intervallo.
     Depth: Illusione bidimensionale, senza ombre o volume renderizzato.
@@ -69,23 +83,21 @@ Design Style:
     author: Solo fornito o verificato, subordinato e allineato a destra.
     other_text: Nessuna etichetta, istruzione, parola ornamentale, firma o numero inventati.
   Rules:
-    - Far partecipare almeno una parte sostanziale della frase al meccanismo ottico.
-    - Mantenere la citazione completa leggibile alla scala di una card nel feed.
-    - Usare il vuoto come parte della costruzione ottica e del percorso di lettura.
-    - Non trasformare la frase in una didascalia sotto un'illusione autonoma.
-    - Non copiare parole, marchi o impaginati precisi dei riferimenti.
-    - Evitare fotografie, motion blur, sfocatura, ombre e oggetti tridimensionali.
+  - Far partecipare almeno una parte sostanziale della frase al meccanismo ottico.
+  - Mantenere la citazione completa leggibile alla scala di una card nel feed.
+  - Usare il vuoto come parte della costruzione ottica e del percorso di lettura.
+  - Non trasformare la frase in una didascalia sotto un'illusione autonoma.
+  - Non copiare parole, marchi o impaginati precisi dei riferimenti.
+  - Evitare fotografie, motion blur, sfocatura, ombre e oggetti tridimensionali.
   Production:
     Preferred Mode: generative
-    Validation Status: >
-      Profilo esplorato su tre frasi, nero e avorio, formato richiesto 4:5.
-      Nella prima famiglia sono state confrontate una generazione senza
-      immagini e una con quattro reference effettive, con identico prompt
-      di base: la prima è più pulita. Dopo ricerca visiva su poster sono
-      state esplorate anche fase/inversione e apertura ondulata su una seconda
-      frase. La fase è più impegnativa da leggere, l'apertura ondulata più
-      immediata. Testo controllato nei nativi e a 375 px di larghezza. Non
-      sono provati palette diverse, altri formati o attribuzioni. Questi
-      esempi non dimostrano ripetibilità né un effetto percettivo universale.
+    Validation Status: 'Profilo esplorato su tre frasi, nero e avorio, formato richiesto 4:5. Nella prima
+      famiglia sono state confrontate una generazione senza immagini e una con quattro reference effettive,
+      con identico prompt di base: la prima è più pulita. Dopo ricerca visiva su poster sono state esplorate
+      anche fase/inversione e apertura ondulata su una seconda frase. La fase è più impegnativa da leggere,
+      l''apertura ondulata più immediata. Testo controllato nei nativi e a 375 px di larghezza. Non sono
+      provati palette diverse, altri formati o attribuzioni. Questi esempi non dimostrano ripetibilità
+      né un effetto percettivo universale.
 
+      '
 Composition Library: composizioni.yaml

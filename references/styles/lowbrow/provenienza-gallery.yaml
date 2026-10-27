@@ -1,0 +1,45 @@
+source:
+  project_id: appgprj_6adb7b4f342881918cd48a4c247a3092
+  version: 23
+  commit_sha: bb6358c372ea774bb122ac41095546f1e714233f
+  url: https://quote-card-designer-style-gallery.vincos.chatgpt.site/?v=23#lowbrow
+  retrieved_on: '2026-10-26'
+profile:
+  export: profilo-gallery-v23.yaml
+  export_sha256: d5ddc2dbde52d1d15f8fd1a66e40e83fe639305fbc737491ac6e94781e2792cf
+  runtime: profilo.yaml
+  composition_library: composizioni.yaml
+  content_policy: Contenuto del profilo e libreria identico semanticamente all’export pubblicato; solo
+    separazione in due file locali.
+catalog:
+  source_search_index: Lowbrow Caricature elastiche, oggetti animati e umorismo grottesco da cultura underground.
+    Lettering disegnato e contorni marcati condividono inchiostri piatti e materia di stampa. Illustrazione
+    e decorazione Generativa lowbrow underground cartoon grottesco lettering stampa lowbrow lowbrow anni
+    70 cartoon underground grottesco underground Grottesco Ironico Underground Artigianale Irriverente
+    Fantastico
+  metadata_policy: Nome, categoria, descrizione, metodo, stato, etichette e frase da scheda pubblicata.
+    Alias e tag ricavati dai termini del suo indice di ricerca; non inventata una segmentazione storica
+    esatta.
+images:
+- example: 1
+  source: assets/lowbrow.jpg
+  local: esempio.jpg
+  sha256: 1842d23944481b8dbf4dcd81337ed0dfeafab8a43cf4d4640551c53b459a0750
+  width: 800
+  height: 1000
+  mode: RGB
+  format: JPEG
+  quote: La realtà è solo l’inizio.
+  label: Oggetto animato · porta sul mondo
+- example: 2
+  source: assets/lowbrow-2.jpg
+  local: esempio-2.jpg
+  sha256: d8c09b35482019d3d7e5437710ab9aea49ef5a52e331f0c7a73083f2daa50cc4
+  width: 800
+  height: 1000
+  mode: RGB
+  format: JPEG
+  quote: Le idee migliori prendono strade inattese.
+  label: Percorso assurdo · viola e lime
+original_generation_assets_recovered: false
+original_generation_prompts_recovered: false

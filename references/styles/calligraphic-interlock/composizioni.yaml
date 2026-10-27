@@ -1,0 +1,67 @@
+Composition Library:
+  Style Name: Calligraphic Brush
+  Selection:
+    Principle: >
+      Compose the complete supplied phrase as Western brush calligraphy.
+      Choose line rhythm and density from its meaning and length. All words
+      stay painted and readable; neither family uses isolated initials,
+      a monogram or a secondary typeset version of the quotation.
+    Short Text: >
+      Use moving lines for a forceful or dynamic cadence. Use airy writing
+      for a quieter or reflective phrase with generous paper intervals.
+    Longer Text: >
+      Plan more meaning-based lines with restrained baseline movement and
+      fewer flourishes. Keep the same painted language for the whole text.
+      Open the writing area before reducing the entire phrase uniformly.
+    Overrides: User-specified text, Western writing direction, format and palette take precedence.
+  Families:
+    - id: moving-lines
+      Name: Painted lines in motion
+      Use When: >
+        The phrase has a clear cadence or a forceful idea that benefits from
+        an active hand, fuller pressure strokes and movement between lines.
+      Structure: >
+        Paint the entire quotation across a small number of lines whose
+        beginnings, lengths and baselines create a coherent movement.
+        Vary brush pressure within a confident continuous hand, combining
+        loaded strokes, thinner turns and selected dry drags. Emphasise a
+        meaningful word by pressure, scale or an optional ink colour. Let
+        movement emerge from the writing rather than detached brush marks
+        or a compulsory diagonal staircase. Keep clear paper intervals
+        between words, lines, ascenders, descenders and punctuation.
+      Text Adaptation: >
+        Preserve the complete literal phrase once, including connecting
+        words, capitalization, accents and punctuation. Break lines at
+        meaningful groups without hiding smaller words. Paint all words;
+        do not introduce a sans-serif caption. An optional attribution is
+        exact, quieter and right-aligned, distinct from the sentence.
+      Format Adaptation: >
+        For 4:5, balance lateral strokes and compact meaning-based lines
+        within quiet margins. A tall card can use more lines and stronger
+        vertical progression; a wider card can lengthen the writing path.
+        Recompose rather than cropping strokes or distorting individual words.
+    - id: airy-writing
+      Name: Airy painted phrase
+      Use When: >
+        The quotation benefits from an open, intimate or reflective cadence,
+        with lighter rhythm and generous paper around the painted words.
+      Structure: >
+        Paint the full quotation in a coherent flowing Western hand with
+        open counters, breathable word spacing and quieter changes of
+        pressure. Place meaningful groups on naturally unequal lines,
+        connected visually by their gesture and rhythm rather than by
+        literal overprinting. Let a few entrance or exit strokes extend
+        into free paper. Dense ink and a few dry bristle passages preserve
+        material presence even when the overall composition is spacious.
+      Text Adaptation: >
+        Show every supplied word once in the same painted language, with
+        literal case, accents and punctuation. Keep linking words readable
+        instead of treating them as ornamental microtext. A longer phrase
+        uses more calm lines and fewer flourishes; do not drop or rewrite
+        words to preserve empty space. An optional author is subordinate
+        and right-aligned.
+      Format Adaptation: >
+        For 4:5, distribute calm lines within a balanced area of paper without
+        shrinking the phrase into a caption. A tall format can increase
+        vertical breathing room and line count. A wider format can open
+        lateral spacing, preserving natural letter proportions and legibility.

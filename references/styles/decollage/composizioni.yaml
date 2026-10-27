@@ -1,0 +1,37 @@
+Composition Library:
+  Style Name: Décollage
+  Selection:
+    Basis: Choose one revealing relationship between tear, printed image and quotation from the actual phrase.
+    Variation: Vary the dominant revealed area and tear logic, not only colours or a stock distressed texture.
+  Families:
+    - id: revealed-image
+      Name: Immagine riaffiorante
+      Use When: A recognisable printed subject can embody the sentence's idea of memory, identity or discovery.
+      Structure: >
+        A dominant older printed image is partly uncovered beneath broad
+        upper poster remnants. A few stable neighbouring print areas carry
+        the sentence. Tear paths connect these regions while leaving enough
+        of the image intact to make its reappearance perceptible.
+      Text Adaptation: Use semantic groups and a continuous reading order; do not use damage to justify missing letters.
+      Format Adaptation: Rebalance image scale and surviving reading islands for the requested ratio.
+    - id: typographic-excavation
+      Name: Parole sotto la superficie
+      Use When: The wording itself can lead the composition without a figurative protagonist.
+      Structure: >
+        Selective removal exposes related large printed words from one or
+        two lower paper layers. Upper fields and interrupted older graphics
+        surround them with real material depth. The quotation is the focus;
+        no complete poster caption is added on top.
+      Text Adaptation: Preserve the whole sentence once and make its semantic sequence unambiguous across the openings.
+      Format Adaptation: Adapt openings and text group sizes together rather than shrink a fixed torn frame.
+    - id: verso-and-print
+      Name: Retro e tracce di stampa
+      Use When: A quieter material interpretation is more useful than a saturated iconic poster.
+      Structure: >
+        Expose broad regions of paper backing, glue-toned areas and restrained
+        printed remnants. A surviving printed region carries the readable
+        sentence; absence and residue shape the page. This is an editorial
+        adaptation informed by verso paper, not a claim that historical
+        retro d'affiches always contained a readable quotation.
+      Text Adaptation: Use a coherent high-contrast register on the surviving print area; omit invented labels or archive metadata.
+      Format Adaptation: Preserve broad material intervals and substantial text at the target ratio.

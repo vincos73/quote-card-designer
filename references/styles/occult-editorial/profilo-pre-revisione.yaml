@@ -1,0 +1,180 @@
+Design Style:
+  Name: Occult Editorial
+  Status: Experimental library profile; two studies awaiting user feedback
+  Concept: >
+    A quotation takes the verbal centre of an engraved symbolic plate.
+    One coherent emblem, selected geometric relationships and substantial
+    literary lettering share a carefully opened reading field. Incised
+    strokes, hatching and matte print create a mysterious editorial object
+    without requiring a historical replica or a catalogue of esoteric signs.
+
+  Reference Basis:
+    Transfer: >
+      Extract engraved contour, crosshatching, concentric or axial
+      construction, restrained ornamental edges and the contrast of a
+      detailed emblem with quiet paper from the supplied images.
+      The modern reverse-ink route is as compatible as a light book plate.
+    Sources: ricerca.md
+    Independence: >
+      The references are visual material, not instructions or copy.
+      Existing titles, names, alphabets, seals, symbols and compositions
+      are not automatically carried into a new card. The profile is a
+      contemporary synthesis, not an authenticated regional or doctrinal style.
+
+  Canvas:
+    Ratio: '4:5'
+    Output: One complete flat editorial quote card, full bleed
+    Adaptation: >
+      Recompose the reading field, emblem and geometric reach for each
+      ratio. Preserve the sentence instead of cropping a page or reducing
+      the quotation to a caption.
+
+  Mood: [Mysterious, Engraved, Contemplative, Symbolic, Literary, Tactile, Precise]
+
+  Color Palette:
+    Fixed Colors: false
+    Strategy: >
+      Use a strong ink-ground relationship with a small number of colours.
+      Near-black on warm paper and warm white on dark paper are useful
+      initial routes. Other palettes remain possible when they retain
+      incised material, coherent marks and clear reading contrast.
+    Study Directions:
+      Light Plate:
+        Paper: '#E9DFC5'
+        Ink: '#242018'
+      Reverse Plate:
+        Paper: '#121312'
+        Ink: '#E8E2D3'
+    Roles: >
+      The quotation carries the strongest continuous contrast. The emblem
+      can vary in density through hatching and negative space. Fine lines
+      remain visibly separate from the letter strokes and punctuation.
+    Overrides: >
+      Replace hues on request. A restrained additional pigment may mark
+      one purposeful relationship, without becoming metallic shine or glow.
+
+  Typography:
+    Main Reading:
+      Direction: >
+        A substantial Western literary serif, book-like capitals or
+        restrained old-style lettering. Clear counters, natural glyph
+        proportions and a stable rhythm matter more than an ornate font name.
+      Material: >
+        The type may share light ink variation with the print. Keep
+        stems, accents and punctuation intact; do not make distress a
+        substitute for engraved character.
+      Hierarchy: >
+        Use a few coherent registers and clear groups of meaning.
+        Connecting words stay substantial. Supplied case is preserved;
+        uppercase is a study choice, not a requirement.
+      Integrity: >
+        Preserve the full literal sentence, word spaces, accents and
+        punctuation. Normally show it once, without decorative word echoes.
+        Never replace a required letter with a symbol.
+    Attribution: >
+      Use only an exact supplied or verified name, smaller and visually
+      quieter than the quotation but readable, right-aligned on a clear
+      right edge. Omit its reserved space when no name is supplied.
+    Font Claims: >
+      A generated serif appearance does not certify a real typeface or
+      editable text. Do not require blackletter, tarot display lettering
+      or a fantasy logo as universal markers of the style.
+
+  Layout:
+    Shared Structure: >
+      Plan the sentence and plate together. A ring may open around the
+      text, an emblem may share its axis, or a contour may direct the eye
+      toward a word group. Their scale and printed material establish a
+      relationship rather than adding a small symbol to an unrelated title.
+    Reading Field: >
+      Keep a connected quiet interval for the complete quotation. Fine
+      constructions may approach or run alongside this field but stop
+      before letter silhouettes, accents and punctuation. Simplify geometry
+      before compressing words or reducing their reading size.
+    Density: >
+      Concentrate texture in selected engraved forms and allow the ground
+      to remain visible. Fine lines, solid areas and empty intervals need
+      distinct roles; not every gap requires a sign or stippled fill.
+    Balance: >
+      A centred axis and restrained bilateral rhythm are possible, as are
+      offset rings and asymmetric emblems. Choose the relation from the
+      quotation and its length instead of imposing a fixed talisman layout.
+    Capacity: >
+      For longer text open a broader field, reduce the number of secondary
+      constructions and use fewer size changes. A new format needs a new
+      distribution of the plate, not squeezed lettering.
+
+  Elements:
+    Emblem Repertoire: >
+      An eye, key, selected botanical or animal form, celestial body,
+      human gesture or another coherent image can support the current
+      phrase. None is a mandatory mascot. Select a main relationship
+      instead of combining skull, snake, eye, moon and star by default.
+    Geometric Construction: >
+      Open rings, concentric arcs, a selected triangle, axes, radial
+      strokes and a few terminal dots can organise the field. Their
+      geometry may be an original formal construction; do not imply
+      a calibrated cosmology or a historical magical seal.
+    Optional Border: >
+      A fine double rule, restrained curling corner cuts or an interrupted
+      ornamental edge can connect the plate. The border may be partial
+      or absent when another structure already contains the composition.
+    Symbol Boundary: >
+      Historical symbols are contextual content rather than random filler.
+      When a particular traditional sign or meaning is requested, use a
+      verified source and preserve that context. Do not invent pseudo Latin,
+      Hebrew, alphabets, formulae, numerology or purported magical claims.
+
+  Effects:
+    Line: >
+      Tapering engraved strokes, crosshatching, small stippled transitions
+      and controlled variation in ink coverage describe material and depth.
+      Preserve enough line separation for the intended viewing scale.
+    Surface: >
+      Matte ink on lightly grained paper or a deep matte reverse field.
+      Gentle print variation is sufficient; large stains, burnt edges,
+      heavy cracks and false ageing are not required.
+    Depth: >
+      Build form with line density and negative space. Avoid photographed
+      objects, glossy 3D rendering, metallic jewellery, lighting effects,
+      photographic cast shadows and digital glow.
+
+  Content Contract:
+    quote: Complete literal quotation, normally once, as the principal readable layer
+    author: Optional exact supplied or verified name, subordinate and right-aligned
+    personal_signature: Only when explicitly requested, distinct from the author
+    additional_copy: Do not invent any headings, labels, dates, formulae or captions.
+
+  Rules:
+    - Make the quotation complete, prominent and readable at phone scale.
+    - Build the plate around one coherent emblem or geometric relationship.
+    - Let engraved density alternate with a connected quiet reading field.
+    - Keep required glyphs, punctuation and word spaces distinct from ornament.
+    - Adapt subject, palette, lettering and structure to each new quotation.
+    - Keep the appearance matte, printed and materially coherent.
+    - Distinguish contemporary formal invention from historical attribution.
+    - Do not reuse reference titles, signatures, names, alphabets or complete compositions.
+    - Avoid a mandatory inventory of esoteric motifs or a uniform symbol sheet.
+    - Avoid HUD graphics, neon, four-point starbursts, heavy ageing and fantasy gloss.
+
+  Production:
+    Preferred Mode: generative
+    ImageGen Role: >
+      Generate the complete card, including quotation, emblem, construction,
+      hierarchy and print material. An isolated generated symbol placed
+      into a separately scripted poster does not establish this direction.
+    Reference Inputs: >
+      The initial studies use written specifications without image inputs.
+      References inform analysis only. A matched with-reference versus
+      without-reference trial has not been performed, so no permanent
+      operational image-reference dependency is adopted.
+    Validation: >
+      Two complete approximately 4:5 cards were generated with different
+      original demonstration sentences and different light/dark structures.
+      Both were inspected at native size and in 320 by 400 pixel previews;
+      full wording, punctuation and reading order are intact. Details are
+      recorded in the example notes. Long quotations, supplied attribution, other ratios, a named
+      font and the third family remain untested. These studies await user
+      feedback and do not establish V1 candidacy or historical authenticity.
+
+Composition Library: composizioni.yaml

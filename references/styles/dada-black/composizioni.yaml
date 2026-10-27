@@ -1,0 +1,63 @@
+Composition Library:
+  Style Name: Dada
+  Selection:
+    Basis: >
+      Choose a focal relationship and reading route from the exact sentence.
+      Use one principal structure and a few supporting materials rather
+      than accumulating every reference device.
+    Variation: >
+      Change subject, recombination, scale, fragment angles and density for
+      new quotations. Keep an accepted arrangement during a targeted edit.
+  Families:
+    - id: chromatic-recombination
+      Name: Chromatic paper and reconstructed form
+      Use When: >
+        A quotation about change, creativity or identity benefits from a
+        familiar form rebuilt through a few contrasting materials.
+      Structure: >
+        Assemble related monochrome fragments with a limited group of torn
+        colour planes. Replace or displace one part with an unexpected
+        material. Integrate substantial word scraps into the same layered
+        field, with a concentrated area and quieter intervals.
+      Text Adaptation: >
+        Keep the complete sentence once. A meaningful word may use cut
+        letters, while connecting groups remain coherent strips. Preserve
+        punctuation and the reading route through changes of scale.
+      Format Adaptation: >
+        Portrait formats can develop a diagonal or staggered assembly;
+        wider formats can open the relationship laterally. Reposition
+        fragments and text rather than cropping required content.
+
+    - id: surreal-assemblage
+      Name: Surprising assemblage of printed fragments
+      Use When: >
+        A concise quotation is served by an impossible role or scale
+        relationship between a few recognisable objects or subjects.
+      Structure: >
+        Construct one surprising encounter with visibly separate cutouts.
+        A torn field and a few text scraps organise the hierarchy. Physical
+        paper edges stay credible while the pictured assembly is impossible.
+      Text Adaptation: >
+        Use large readable word units and occasional individual-letter
+        emphasis. Keep every word in the main sentence; add no explanatory
+        caption to make the visual joke work.
+      Format Adaptation: >
+        Rebalance the main cutout, supporting fragment and open reading
+        area for each ratio. Reduce extra fragments before shrinking text.
+
+    - id: torn-editorial-field
+      Name: Editorial hierarchy across torn planes
+      Use When: >
+        A longer quotation needs stronger typographic continuity while
+        retaining paper collage and an unexpected image relationship.
+      Structure: >
+        Let one substantial typographic register establish the reading
+        field. Torn paper boundaries and a few related image fragments
+        interrupt it at deliberate intervals. Avoid a uniform frame.
+      Text Adaptation: >
+        Group the full sentence by meaning, using fewer type changes for
+        longer content. A smaller supplied name is exact and right-aligned.
+      Format Adaptation: >
+        In tall formats use unequal vertical intervals; in wider cards
+        open the text field laterally and reduce the number of scraps.
+        Keep word shapes natural and the quotation complete.

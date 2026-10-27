@@ -1,75 +1,143 @@
 schema_version: '1.0'
-online_catalog_version: '2026-10-23'
+online_catalog_version: '2026-10-27'
 defaults:
   ratio: '4:5'
   variants: 1
 families:
-- id: griglia-tipografia
-  name: Tipografia e geometria
-- id: disegno-tecnico-spazio
-  name: Disegno tecnico e spazio
-- id: collage-stampa
-  name: Collage, retini e stampa
-- id: illustrazione-repertori-storici
-  name: Repertori storici
-- id: segno-manuale-lettering
-  name: Segno e tecniche manuali
-- id: immagine-concettuale-materia
-  name: Immagine concettuale e materia
-- id: interfacce-cultura-web
-  name: Interfacce e cultura web
+- id: tipografia-editoriale
+  name: Tipografia e impaginazione
+  description: Caratteri, gerarchie e sovrapposizioni tipografiche costruiscono la composizione.
+- id: geometrie-pattern
+  name: Geometrie e pattern
+  description: Moduli, campiture, trame di segni e illusioni ottiche danno ritmo alla frase.
+- id: disegno-tecnico
+  name: Disegno tecnico e wireframe
+  description: Griglie spaziali, diagrammi, architetture e micrografica tecnica organizzano la pagina.
+- id: collage-fotomontaggio
+  name: Collage e fotomontaggio
+  description: Ritagli, fotografie e frammenti di carta si ricompongono in immagini inattese.
+- id: retini-stampa
+  name: Retini e stampa
+  description: Punti, pixel, sovrastampe e grana degli inchiostri sono il tratto visivo principale.
+- id: fotografia-atmosfere
+  name: Fotografia e atmosfere
+  description: Fotografie, soggetti materici e scene oniriche dialogano con la citazione.
+- id: luce-materiali
+  name: Luce e materiali
+  description: Riflessi, vetro, metallo, tessuti e campi di luce o colore caratterizzano la superficie.
+- id: disegno-lettering
+  name: Disegno e lettering
+  description: Matita, biro, china, pennello e acquerello lasciano un segno manuale riconoscibile.
+- id: illustrazione-decorazione
+  name: Illustrazione e decorazione
+  description: Sagome organiche, ornamenti, fumetti e mondi immaginati accompagnano la frase.
+- id: classici-incisioni
+  name: Classici e incisioni
+  description: Pagine miniate, incisioni, repertori classici e tradizioni illustrative ispirano la card.
+- id: cultura-digitale
+  name: Interfacce e cultura digitale
+  description: Finestre, editor, codici visivi del web, glitch e pannelli cyberpunk entrano nel progetto.
 release_selection:
-  status: candidate
+  status: selected
   selected_by: user
-  date: '2026-10-23'
+  date: '2026-10-27'
   styles:
   - neon-collage
   - digital-blueprint
   - playground-graffiti
   - mixed-media-editorial
-  - ethereal-editorial
   - raster-drift
   - dynamic-gradient
   - vintage-scientific-illustration
   - renaissance-classical
   - medieval-folio
   - blue-chinoiserie
-  - cinema-editorial
-  - monochrome-newspaper
   - child-design
   - watercolor
-  - architectural-isometric
   - retro-ui
   - internet-nostalgia
-  - grottesco-editoriale-doppia-lettura
-  - editor-canvas
-  catalog_version: 0.2.5
+  - dada-black
+  - neo-industrial
+  - wireframe-library
+  - symbol-loom
+  - editorial-interlock
+  - cyberpunk-editorial
+  - oneiric-glow
+  - glitch-editorial
+  - prismatic-flutes
+  - ukiyo-e-editorial
+  - neo-risograph
+  - type-overprint
+  - dirty-brutalism
+  - duotone-editorial
+  - halftone-editorial-bw
+  - ascii-editorial
+  - organic
+  - folk-art
+  - retro-futurism-art
+  - occult-editorial
+  - futurismo-italiano
+  - blue-note
+  - handwritten
+  - psychedelic-art
+  - lowbrow
+  - vintage-horror
+  - symbolic-modernism
+  - neo-swiss
+  - ink-and-margin
+  - pencil
+  - ballpen
+  - photo-type-split
+  - photo-type-monument
+  - ink-drip
+  - type-blur
+  - graphite-negative
+  catalog_version: 0.4.0
 styles:
 - id: dada-black
-  release_candidate: false
-  family: collage-stampa
-  name: Dada Black
+  release_candidate: true
+  production_mode: hybrid
+  family: collage-fotomontaggio
+  name: Dada
   aliases:
   - dada
   - dada black
   - collage dada
-  summary: 'Collage editoriale tattile: carta strappata, ritagli tipografici, fotomontaggio vintage e
-    imperfezioni intenzionali.'
+  summary: 'Carta strappata, tipografia ritagliata e fotomontaggi surreali: immagini e parole ricomposte
+    con materia, colore libero e imperfezioni intenzionali.'
   tags:
   - collage
   - carta
   - vintage
   - editoriale
   - sperimentale
+  - fotomontaggio
+  - surreale
   profile: references/styles/dada-black/profilo.yaml
-  example: references/styles/dada-black/esempio.png
-  notes: references/styles/dada-black/note.md
-  example_prompt: references/styles/dada-black/prompt-esempio.md
+  example_count: 3
+  featured_example: 1
+  example: references/styles/dada-black/esempio-2.png
+  example_asset_suffix: '-3'
+  example_label: Ricomposizione cromatica · volto e carta
+  example_text: CAMBIA L'ORDINE. TROVA UN SENSO NUOVO.
+  notes: references/styles/dada-black/note-2.md
+  example_prompt: references/styles/dada-black/prompt-esempio-2.md
+  example_2: references/styles/dada-black/esempio-3.png
+  example_2_asset_suffix: '-4'
+  example_2_label: Assemblaggio surreale · monocromo
+  example_2_text: IL CASO CAMBIA LE REGOLE.
+  notes_2: references/styles/dada-black/note-3.md
+  example_prompt_2: references/styles/dada-black/prompt-esempio-3.md
+  example_3: references/styles/dada-black/esempio.png
+  example_3_asset_suffix: '-5'
+  example_3_label: Studio precedente · oliva scuro
+  example_3_text: 'Il futuro non si aspetta: si progetta.'
+  notes_3: references/styles/dada-black/note.md
+  example_prompt_3: references/styles/dada-black/prompt-esempio.md
 - id: neo-industrial
-  release_candidate: false
-  v1_shortlisted: true
+  release_candidate: true
   production_mode: generative
-  family: griglia-tipografia
+  family: disegno-tecnico
   name: Neo Industrial Editorial
   aliases:
   - neoindustriale
@@ -78,8 +146,8 @@ styles:
   - neo-industrial
   - neo industrial
   - neo-industrial graphic design
-  summary: 'Tipografia forte su grigio e arancio preferenziali, con pochi gruppi di micrografica
-    industriale distribuiti nella pagina: nodi, terminali, parentesi e segni di calibrazione.'
+  summary: 'Tipografia forte su grigio e arancio preferenziali, con pochi gruppi di micrografica industriale
+    distribuiti nella pagina: nodi, terminali, parentesi e segni di calibrazione.'
   tags:
   - modulare
   - tecnico
@@ -103,7 +171,7 @@ styles:
 - id: neon-collage
   release_candidate: true
   production_mode: hybrid
-  family: collage-stampa
+  family: collage-fotomontaggio
   name: Digital Collage
   aliases:
   - neon
@@ -125,7 +193,7 @@ styles:
 - id: digital-blueprint
   release_candidate: true
   production_mode: typeset
-  family: disegno-tecnico-spazio
+  family: disegno-tecnico
   name: Digital Blueprint
   aliases:
   - blueprint
@@ -145,7 +213,7 @@ styles:
   pilot_selected: true
   release_candidate: true
   production_mode: generative
-  family: segno-manuale-lettering
+  family: disegno-lettering
   name: Graffiti
   aliases:
   - playground
@@ -162,8 +230,9 @@ styles:
   - palette variabile
   profile: references/styles/playground-graffiti/profilo.yaml
 - id: neo-swiss
-  release_candidate: false
-  family: griglia-tipografia
+  release_candidate: true
+  production_mode: hybrid
+  family: tipografia-editoriale
   name: Neo Swiss
   aliases:
   - neo swiss
@@ -171,18 +240,60 @@ styles:
   - swiss
   - svizzero
   - neo svizzero
-  summary: 'Modernismo svizzero sperimentale: griglia modulare, tipografia monumentale, fondo carta e
-    un accento rosa, giallo o ciano per card.'
+  summary: 'Tipografia svizzera contemporanea: composizioni da poster, griglia implicita, asimmetria e
+    contrasti di scala. Palette variabile.'
   tags:
   - svizzero
   - tipografico
   - griglia
   - editoriale
-  - informazione
+  - asimmetria
+  - grotesk
   profile: references/styles/neo-swiss/profilo.yaml
+  example_count: 10
+  featured_example: 10
+  example_3: references/styles/neo-swiss/esempio-3.png
+  example_3_label: Griglia implicita · asse spostato
+  example_3_text: «Una buona domanda sposta il confine.»
+  notes_3: references/styles/neo-swiss/note-3.md
+  example_prompt_3: references/styles/neo-swiss/prompt-esempio-3.md
+  example_4: references/styles/neo-swiss/esempio-4.png
+  example_4_label: Griglia affiorante · test
+  example_4_text: «Una buona domanda sposta il confine.»
+  notes_4: references/styles/neo-swiss/note-4.md
+  example_prompt_4: references/styles/neo-swiss/prompt-esempio-4.md
+  example_5: references/styles/neo-swiss/esempio-5.png
+  example_5_label: Tipografia e vuoto · senza campiture
+  example_5_text: «Una buona domanda sposta il confine.»
+  notes_5: references/styles/neo-swiss/note-5.md
+  example_prompt_5: references/styles/neo-swiss/prompt-esempio-5.md
+  example_6: references/styles/neo-swiss/esempio-6.png
+  example_6_label: Giallo e nero · verbo d'azione
+  example_6_text: «Una buona domanda sposta il confine.»
+  notes_6: references/styles/neo-swiss/note-6.md
+  example_prompt_6: references/styles/neo-swiss/prompt-esempio-6.md
+  example_7: references/styles/neo-swiss/esempio-7.png
+  example_7_label: Griglia completa e leggera · nuova frase
+  example_7_text: «Le idee crescono quando cambiano prospettiva.»
+  notes_7: references/styles/neo-swiss/note-7.md
+  example_prompt_7: references/styles/neo-swiss/prompt-esempio-7.md
+  example_8: references/styles/neo-swiss/esempio-8.png
+  example_8_label: Senza griglia · nuova direzione
+  example_8_text: «Le idee crescono quando cambiano prospettiva.»
+  notes_8: references/styles/neo-swiss/note-8.md
+  example_prompt_8: references/styles/neo-swiss/prompt-correzione-8.md
+  example_9: references/styles/neo-swiss/prova-12-simbolo-freccia.png
+  example_9_label: Simbolo ingrandito · freccia
+  example_9_text: Ogni cambiamento apre una nuova direzione.
+  example_10: references/styles/neo-swiss/prova-13-assi-asimmetrici.png
+  example_10_label: Assi asimmetrici · simbolo
+  example_10_text: Ogni cambiamento apre una nuova direzione.
+  notes_10: references/styles/neo-swiss/note-prova-13.md
+  example_prompt_10: references/styles/neo-swiss/prompt-prova-13.md
 - id: ink-and-margin
-  release_candidate: false
-  family: segno-manuale-lettering
+  release_candidate: true
+  production_mode: hybrid
+  family: disegno-lettering
   name: Ink
   aliases:
   - ink
@@ -190,8 +301,8 @@ styles:
   - ink & margin
   - ink e margin
   - inchiostro e margini
-  summary: 'Pagina letteraria su carta avorio: serif, sempre una piccola immagine a inchiostro,
-    pigmento che sbava nelle fibre, un accento rosso e ampi spazi vuoti.'
+  summary: Scrittura a inchiostro protagonista, sbavature naturali e un disegno ispirato alla frase, su
+    carta con ampi spazi vuoti. Palette variabile.
   tags:
   - inchiostro
   - serif
@@ -202,26 +313,34 @@ styles:
   example: references/styles/ink-and-margin/esempio.png
   notes: references/styles/ink-and-margin/note.md
   example_prompt: references/styles/ink-and-margin/prompt-esempio.md
+  example_count: 3
+  featured_example: 3
+  example_3: references/styles/ink-and-margin/prova-felce-pause.png
+  example_3_label: Scrittura a inchiostro · felce
+  example_3_text: Anche le pause fanno crescere le idee.
+  notes_3: references/styles/ink-and-margin/prova-inchiostro-note.md
+  example_prompt_3: references/styles/ink-and-margin/prompt-felce.md
 - id: pencil
-  release_candidate: false
+  release_candidate: true
   production_mode: generative
-  family: segno-manuale-lettering
+  family: disegno-lettering
   name: Pencil
   aliases:
   - pencil
   - matita
   - grafite
   - graphite pencil
-  summary: 'Carta chiara, serif con un corsivo puntuale e sempre una piccola immagine a matita: linee di costruzione leggere, tratteggi e ombre dense di grafite.'
+  summary: 'Lettering a matita in costruzione: contorni ripetuti, segni più calcati e tracce leggere raccontano
+    la ricerca della forma.'
   tags:
   - matita
   - grafite
   - disegno
   - carta
   - minimale
-  profile: references/styles/pencil/profilo.yaml
-  example_count: 3
-  featured_example: 3
+  profile: references/styles/pencil/profilo-costruzione.yaml
+  example_count: 4
+  featured_example: 4
   example: references/styles/pencil/esempio.png
   example_label: Natura morta
   example_text: Anche ciò che lasciamo fuori cambia il senso di ciò che resta.
@@ -237,9 +356,14 @@ styles:
   example_3_text: Le idee prendono forma un tratto alla volta.
   notes_3: references/styles/pencil/note-3.md
   example_prompt_3: references/styles/pencil/prompt-esempio-3.md
+  example_4: references/styles/pencil/prova-costruzione-20261027.png
+  example_4_label: Lettere in costruzione
+  example_4_text: Le idee prendono forma.
+  notes_4: references/styles/pencil/note-costruzione-20261027.md
+  example_prompt_4: references/styles/pencil/note-costruzione-20261027.md
 - id: surreal-editorial
   release_candidate: false
-  family: immagine-concettuale-materia
+  family: fotografia-atmosfere
   name: Surreal Editorial
   aliases:
   - surreal
@@ -259,10 +383,9 @@ styles:
   notes: references/styles/surreal-editorial/note.md
   example_prompt: references/styles/surreal-editorial/prompt-esempio.md
 - id: wireframe-library
-  release_candidate: false
-  v1_shortlisted: true
+  release_candidate: true
   production_mode: generative
-  family: disegno-tecnico-spazio
+  family: disegno-tecnico
   name: Signal Atlas
   aliases:
   - signal atlas
@@ -270,8 +393,8 @@ styles:
   - wireframe library
   - mesh
   - libreria wireframe
-  summary: 'Sistema editoriale tecnico: tipografia forte, campi ottici, geometrie spaziali e pochi
-    segnali di orientamento. Mesh, griglie e cornici costruiscono una relazione con la frase.'
+  summary: 'Sistema editoriale tecnico: tipografia forte, campi ottici, geometrie spaziali e pochi segnali
+    di orientamento. Mesh, griglie e cornici costruiscono una relazione con la frase.'
   tags:
   - wireframe
   - mesh
@@ -294,7 +417,7 @@ styles:
   example_2_label: Prospettiva in trasformazione
 - id: chromatic-type
   release_candidate: false
-  family: griglia-tipografia
+  family: tipografia-editoriale
   name: Chromatic Type
   aliases:
   - chromatic type
@@ -315,35 +438,38 @@ styles:
   example_prompt: references/styles/chromatic-type/prompt-esempio.md
 - id: optical-motion
   release_candidate: false
-  v1_shortlisted: true
   production_mode: generative
-  family: griglia-tipografia
+  family: geometrie-pattern
   name: Optical
   aliases:
   - optical motion
   - optical
   - op art
   - movimento ottico
-  summary: 'La frase partecipa all’illusione: contorni generati dalle parole, aperture nelle onde o inversioni figura-sfondo. Testo dominante e campo ottico progettati insieme.'
   tags:
   - ottico
   - curve
   - geometrico
   - movimento
   - editoriale
+  summary: 'La frase partecipa all’illusione: contorni generati dalle parole, aperture nelle onde o inversioni
+    figura-sfondo. Testo dominante e campo ottico progettati insieme.'
   profile: references/styles/optical-motion/profilo.yaml
-  example: references/styles/optical-motion/esempio-optical.png
-  example_2: references/styles/optical-motion/esempio-optical-secondo-testo.png
-  notes: references/styles/optical-motion/note.md
-  example_prompt: references/styles/optical-motion/prompt-esempio.md
   example_count: 2
+  example: references/styles/optical-motion/esempio-gallery.jpg
+  example_asset_suffix: '-3'
+  notes: references/styles/optical-motion/note-riallineamento.md
   example_text: Ogni punto di vista apre una possibilità.
   example_label: Apertura ondulata
+  featured_example: 1
+  example_2: references/styles/optical-motion/esempio-gallery-2.jpg
+  example_2_asset_suffix: '-4'
+  notes_2: references/styles/optical-motion/note-riallineamento-2.md
   example_2_text: Le idee migliori prendono strade inattese.
   example_2_label: Fase e inversione · nuovo testo
 - id: orizzonte-modulare
   release_candidate: false
-  family: griglia-tipografia
+  family: geometrie-pattern
   name: Analog Geometry
   aliases:
   - analog geometry
@@ -351,8 +477,8 @@ styles:
   - vintage futurism geometrico
   - bauhaus cosmico
   - orizzonte modulare
-  summary: 'Poster vintage-futurista: cerchi, trapezi, triangoli o contorni ripetuti costruiscono un
-    simbolo variabile, con colore calibrato, campo quieto e tipografia leggera.'
+  summary: 'Poster vintage-futurista: cerchi, trapezi, triangoli o contorni ripetuti costruiscono un simbolo
+    variabile, con colore calibrato, campo quieto e tipografia leggera.'
   tags:
   - geometrico
   - vintage futurism
@@ -369,13 +495,14 @@ styles:
 - id: interlocking-pop-geometry
   release_candidate: false
   production_mode: generative
-  family: griglia-tipografia
+  family: geometrie-pattern
   name: Interlocking Pop Geometry
   aliases:
   - interlocking pop geometry
   - geometria pop a incastro
   - mosaico pop geometrico
-  summary: 'Moduli geometrici dai colori pop si incastrano con curve morbide, grana di stampa locale e un campo nitido per la citazione.'
+  summary: Moduli geometrici dai colori pop si incastrano con curve morbide, grana di stampa locale e
+    un campo nitido per la citazione.
   tags:
   - geometrico
   - modulare
@@ -397,7 +524,7 @@ styles:
   example_prompt_2: references/styles/interlocking-pop-geometry/prompt-esempio-2.md
 - id: digital-textile
   release_candidate: false
-  family: immagine-concettuale-materia
+  family: luce-materiali
   name: Digital Textile
   aliases:
   - digital textile
@@ -423,7 +550,7 @@ styles:
 - id: mixed-media-editorial
   release_candidate: true
   production_mode: hybrid
-  family: collage-stampa
+  family: collage-fotomontaggio
   name: Vintage Collage
   aliases:
   - mixed media
@@ -446,9 +573,9 @@ styles:
   example_2: references/styles/mixed-media-editorial/esempio-2.png
   example_prompt_2: references/styles/mixed-media-editorial/prompt-esempio-2.md
 - id: ethereal-editorial
-  release_candidate: true
+  release_candidate: false
   production_mode: hybrid
-  family: immagine-concettuale-materia
+  family: fotografia-atmosfere
   name: Ethereal Editorial
   aliases:
   - ethereal
@@ -473,7 +600,7 @@ styles:
   example_2_label: Perdersi
 - id: halftone-editorial
   release_candidate: false
-  family: collage-stampa
+  family: retini-stampa
   name: Halftone Editorial
   aliases:
   - halftone
@@ -498,7 +625,7 @@ styles:
 - id: raster-drift
   release_candidate: true
   production_mode: hybrid
-  family: collage-stampa
+  family: retini-stampa
   name: Pixel Field
   aliases:
   - pixel field
@@ -506,7 +633,8 @@ styles:
   - deriva raster
   - pixel halftone
   - retino digitale
-  summary: 'Una citazione grande e preminente in sans serif geometrico resta nitida dentro un campo sperimentale di pixel e retini.'
+  summary: Una citazione grande e preminente in sans serif geometrico resta nitida dentro un campo sperimentale
+    di pixel e retini.
   tags:
   - raster
   - pixel
@@ -530,17 +658,17 @@ styles:
   notes_2: references/styles/raster-drift/note-7.md
   example_prompt_2: references/styles/raster-drift/prompt-esempio-7.md
 - id: symbol-loom
-  release_candidate: false
-  v1_shortlisted: true
+  release_candidate: true
   online_catalog: true
   production_mode: hybrid
-  family: griglia-tipografia
+  family: geometrie-pattern
   name: Symbol Loom
   aliases:
   - symbol loom
   - trama simbolica
   - pattern di simboli
-  summary: 'Una citazione grande interrompe una trama modulare di piccoli segni geometrici ripetuti. Ritmo, gruppi e vuoti cambiano a ogni card.'
+  summary: Una citazione grande interrompe una trama modulare di piccoli segni geometrici ripetuti. Ritmo,
+    gruppi e vuoti cambiano a ogni card.
   tags:
   - geometrico
   - tipografico
@@ -562,16 +690,16 @@ styles:
   example_prompt_2: references/styles/symbol-loom/prompt-esempio-2.md
 - id: threshold-mosaic
   release_candidate: false
-  v1_shortlisted: true
   online_catalog: true
   production_mode: hybrid
-  family: collage-stampa
+  family: retini-stampa
   name: Threshold Mosaic
   aliases:
   - threshold mosaic
   - mosaico granulare
   - soglia a quadretti
-  summary: 'Microquadratini fitti si raccolgono in una griglia sottile e poi in piani pieni, con soglie frastagliate attorno a una citazione dominante.'
+  summary: Microquadratini fitti si raccolgono in una griglia sottile e poi in piani pieni, con soglie
+    frastagliate attorno a una citazione dominante.
   tags:
   - microcelle
   - geometrico
@@ -593,16 +721,16 @@ styles:
   example_prompt_2: references/styles/threshold-mosaic/prompt-esempio-2.md
 - id: glyph-terrain
   release_candidate: false
-  v1_shortlisted: true
   online_catalog: true
   production_mode: hybrid
-  family: griglia-tipografia
+  family: geometrie-pattern
   name: Glyph Terrain
   aliases:
   - glyph terrain
   - terreno tipografico
   - mappa di glifi
-  summary: 'Territori di colore a gradini e microcifre formano una trama variabile; la citazione resta grande e nitida in una zona quieta.'
+  summary: Territori di colore a gradini e microcifre formano una trama variabile; la citazione resta
+    grande e nitida in una zona quieta.
   tags:
   - microtipografia
   - cartografico
@@ -625,14 +753,14 @@ styles:
 - id: dynamic-gradient
   release_candidate: true
   production_mode: hybrid
-  family: immagine-concettuale-materia
+  family: luce-materiali
   name: Dynamic Gradient
   aliases:
   - dynamic gradient
   - gradiente dinamico
   - gradienti cromatici
-  summary: Campi cromatici molto sfocati, contorni quasi dissolti e grana fine fitta, con tipografia
-    grande e nitida in contrasto con la morbidezza del fondo.
+  summary: Campi cromatici molto sfocati, contorni quasi dissolti e grana fine fitta, con tipografia grande
+    e nitida in contrasto con la morbidezza del fondo.
   tags:
   - gradiente
   - cromatico
@@ -659,9 +787,236 @@ styles:
   example_prompt_4: references/styles/dynamic-gradient/prompt-esempio-4.md
   example_4_text: Ogni scelta dà forma al futuro.
   example_4_label: DG5 · sfocatura e grana approvata
+- id: editorial-interlock
+  release_candidate: true
+  production_mode: hybrid
+  family: fotografia-atmosfere
+  name: Editorial Interlock
+  aliases:
+  - editorial interlock
+  - intreccio editoriale
+  - copertina magazine
+  - soggetto e tipografia
+  summary: Una frase monumentale e un soggetto materico centrale si intrecciano con occlusioni leggibili,
+    ancoraggi asimmetrici e direzione editoriale da copertina.
+  tags:
+  - editoriale
+  - tipografia
+  - materia
+  - intreccio
+  - magazine
+  profile: references/styles/editorial-interlock/profilo.yaml
+  example_count: 4
+  featured_example: 2
+  example: references/styles/editorial-interlock/esempio.png
+  example_label: Intreccio editoriale · falena ruggine
+  example_text: CAMBIA FORMA, CAMBIA SGUARDO.
+  notes: references/styles/editorial-interlock/note.md
+  example_prompt: references/styles/editorial-interlock/prompt-esempio.md
+  example_2: references/styles/editorial-interlock/esempio-5.png
+  example_2_label: Iris blu · inchiostro indaco
+  example_2_text: LA CURIOSITÀ CAMBIA LA PROSPETTIVA.
+  notes_2: references/styles/editorial-interlock/note-5.md
+  example_prompt_2: references/styles/editorial-interlock/prompt-esempio-5.md
+  example_3: references/styles/editorial-interlock/esempio-3.png
+  example_3_label: Studio di capienza · carta e bordeaux
+  example_3_text: CAMBIARE SGUARDO È IL PRIMO PASSO PER VEDERE POSSIBILITÀ NUOVE.
+  notes_3: references/styles/editorial-interlock/note-3.md
+  example_prompt_3: references/styles/editorial-interlock/prompt-esempio-3.md
+  example_4: references/styles/editorial-interlock/esempio-4.png
+  example_4_label: Soggetto centrale · conchiglia
+  example_4_text: OGNI DETTAGLIO APRE UN MONDO.
+  notes_4: references/styles/editorial-interlock/note-4.md
+  example_prompt_4: references/styles/editorial-interlock/prompt-esempio-4.md
+- id: cyberpunk-editorial
+  release_candidate: true
+  production_mode: hybrid
+  family: cultura-digitale
+  name: Cyberpunk Editorial
+  aliases:
+  - cyberpunk
+  - cyberpunk editorial
+  - cyberpunk panels
+  - pannelli cyberpunk
+  - sci-fi panels
+  - cyber graphics
+  summary: Frase dominante in nero e grigio, pannelli smussati, piste con nodi, chevron, retini e stampa
+    consumata. Dettagli astratti, senza personaggi o cyborg.
+  tags:
+  - cyberpunk
+  - pannelli
+  - tipografia tecnica
+  - monocromatico
+  - retini
+  - stampa consumata
+  profile: references/styles/cyberpunk-editorial/profilo.yaml
+  example_count: 2
+  featured_example: 1
+  example: references/styles/cyberpunk-editorial/esempio-6.png
+  example_label: CP6 · stampa consumata approvata
+  example_text: IL FUTURO NON DECIDE AL POSTO TUO.
+  notes: references/styles/cyberpunk-editorial/note-6.md
+  example_prompt: references/styles/cyberpunk-editorial/prompt-esempio-6.md
+  example_2: references/styles/cyberpunk-editorial/esempio-5.png
+  example_2_label: CP5 · base monocromatica più pulita
+  example_2_text: IL FUTURO NON DECIDE AL POSTO TUO.
+  notes_2: references/styles/cyberpunk-editorial/note-5.md
+  example_prompt_2: references/styles/cyberpunk-editorial/prompt-esempio-5.md
+- id: calligraphic-interlock
+  release_candidate: false
+  v1_shortlisted: false
+  production_mode: generative
+  family: disegno-lettering
+  name: Calligraphic Brush
+  aliases:
+  - calligrafico occidentale
+  - calligrafia occidentale
+  - calligraphic brush
+  - frase dipinta
+  - brush calligraphy
+  - calligraphic interlock
+  summary: La frase intera è dipinta in calligrafia occidentale a pennello, con pressione, passaggi asciutti
+    e ritmo sulla carta calda. Studio ancora in valutazione.
+  tags:
+  - calligrafia
+  - lettering
+  - pennello
+  - frase dipinta
+  - carta
+  - editoriale
+  profile: references/styles/calligraphic-interlock/profilo.yaml
+  example_count: 2
+  featured_example: 1
+  example: references/styles/calligraphic-interlock/frase.png
+  example_label: Frase dipinta · nero e vermiglione
+  example_text: Ogni gesto lascia una traccia.
+  notes: references/styles/calligraphic-interlock/note-frase.md
+  example_prompt: references/styles/calligraphic-interlock/prompt-frase.md
+  example_2: references/styles/calligraphic-interlock/frase-2.png
+  example_2_label: Scrittura ariosa · blu
+  example_2_text: Segui il ritmo delle tue idee.
+  notes_2: references/styles/calligraphic-interlock/note-frase-2.md
+  example_prompt_2: references/styles/calligraphic-interlock/prompt-frase-2.md
+- id: oneiric-glow
+  release_candidate: true
+  production_mode: hybrid
+  family: fotografia-atmosfere
+  name: Oneiric Glow
+  aliases:
+  - onirico glow
+  - glow onirico
+  - oneiric glow
+  - dream glow
+  - presenza luminosa
+  summary: Presenze dal nucleo quasi bianco illuminano uno spazio fotografico scuro e granuloso, con tipografia
+    editoriale e accenti corsivi. Blu notte preferito; prove con figure, animale e pianta.
+  tags:
+  - onirico
+  - glow
+  - luce
+  - fotografia
+  - grana
+  - editoriale
+  profile: references/styles/oneiric-glow/profilo.yaml
+  example_count: 4
+  featured_example: 1
+  example: references/styles/oneiric-glow/esempio.png
+  example_label: Presenza nella distanza · petrolio e ciano
+  example_text: Anche nel buio resta una luce.
+  notes: references/styles/oneiric-glow/note.md
+  example_prompt: references/styles/oneiric-glow/prompt-esempio.md
+  example_2: references/styles/oneiric-glow/esempio-2.png
+  example_2_label: Apparizione ravvicinata · oliva e luce calda
+  example_2_text: Ci sono presenze che restano.
+  notes_2: references/styles/oneiric-glow/note-2.md
+  example_prompt_2: references/styles/oneiric-glow/prompt-esempio-2.md
+  example_3: references/styles/oneiric-glow/esempio-3.png
+  example_3_label: Soggetto animale · volpe in blu notte
+  example_3_text: Anche nel buio resta una luce.
+  notes_3: references/styles/oneiric-glow/note-3.md
+  example_prompt_3: references/styles/oneiric-glow/prompt-esempio-3.md
+  example_4: references/styles/oneiric-glow/esempio-4.png
+  example_4_label: Soggetto vegetale · albero in blu notte
+  example_4_text: Anche nel buio resta una luce.
+  notes_4: references/styles/oneiric-glow/note-4.md
+  example_prompt_4: references/styles/oneiric-glow/prompt-esempio-4.md
+- id: glitch-editorial
+  release_candidate: true
+  production_mode: generative
+  family: cultura-digitale
+  name: Glitch Editorial
+  aliases:
+  - glitch
+  - glitch art
+  - glitch editorial
+  - segnale corrotto
+  - signal decay
+  summary: Immagini e caratteri attraversati da strappi di segnale e rumore; lettering preferito della
+    proposta A ripreso nella composizione B.
+  tags:
+  - glitch
+  - RGB
+  - distorsione
+  - segnale
+  - rumore
+  - digitale
+  - editoriale
+  profile: references/styles/glitch-editorial/profilo.yaml
+  example_count: 2
+  featured_example: 2
+  example: references/styles/glitch-editorial/esempio.png
+  example_label: Figura · segnale interrotto
+  example_text: ANCHE UN ERRORE PUÒ APRIRE UNA STRADA.
+  notes: references/styles/glitch-editorial/note.md
+  example_prompt: references/styles/glitch-editorial/prompt-esempio.md
+  example_2: references/styles/glitch-editorial/esempio-2.png
+  example_2_label: Tipografia · onda e rumore
+  example_2_text: IL RUMORE RIVELA IL SEGNALE.
+  notes_2: references/styles/glitch-editorial/note-2.md
+  example_prompt_2: references/styles/glitch-editorial/prompt-esempio-2.md
+- id: prismatic-flutes
+  release_candidate: true
+  production_mode: hybrid
+  family: luce-materiali
+  name: Prismatic Flutes
+  aliases:
+  - prismatic flutes
+  - vetro scanalato
+  - vetro rigato
+  - reeded glass
+  - fluted gradient
+  - gradiente scanalato
+  summary: Campi di luce sfocati e scanalature verticali rifrangenti; la luce posteriore del vetro interagisce
+    con le lettere applicate mantenendo leggibile la citazione.
+  tags:
+  - vetro scanalato
+  - rifrazione
+  - gradiente
+  - luce
+  - grana
+  - astratto
+  - editoriale
+  profile: references/styles/prismatic-flutes/profilo.yaml
+  example_count: 3
+  featured_example: 3
+  example: references/styles/prismatic-flutes/esempio.png
+  example_label: Nocturne · verticale
+  example_text: Anche la luce ha bisogno dell’ombra.
+  notes: references/styles/prismatic-flutes/note.md
+  example_prompt: references/styles/prismatic-flutes/prompt-esempio.md
+  example_2: references/styles/prismatic-flutes/esempio-2.png
+  example_2_label: Dawn Bloom · quadrato
+  example_2_text: Cambiare prospettiva è il primo passo per vedere possibilità nuove.
+  notes_2: references/styles/prismatic-flutes/note-2.md
+  example_prompt_2: references/styles/prismatic-flutes/prompt-esempio-2.md
+  example_3: references/styles/prismatic-flutes/esempio-3.png
+  example_3_label: Lettere applicate · luce posteriore
+  example_3_text: Anche la luce ha bisogno dell’ombra.
+  notes_3: references/styles/prismatic-flutes/note-3.md
+  example_prompt_3: references/styles/prismatic-flutes/prompt-esempio-3.md
 - id: cosmic-wireframe-grid
   release_candidate: false
-  family: disegno-tecnico-spazio
+  family: disegno-tecnico
   name: Cosmic Wireframe Grid
   aliases:
   - cosmic wireframe
@@ -684,7 +1039,7 @@ styles:
   example_prompt_2: references/styles/cosmic-wireframe-grid/prompt-esempio-2.md
 - id: chromatic-liquid-metal
   release_candidate: false
-  family: immagine-concettuale-materia
+  family: luce-materiali
   name: Chromatic Liquid Metal
   aliases:
   - chromatic liquid metal
@@ -715,7 +1070,7 @@ styles:
 - id: vintage-scientific-illustration
   release_candidate: true
   production_mode: hybrid
-  family: illustrazione-repertori-storici
+  family: classici-incisioni
   name: Vintage Scientific Illustration
   aliases:
   - vintage scientific illustration
@@ -744,7 +1099,7 @@ styles:
 - id: renaissance-classical
   release_candidate: true
   production_mode: hybrid
-  family: illustrazione-repertori-storici
+  family: classici-incisioni
   name: Classical Roman
   aliases:
   - renaissance classical
@@ -774,7 +1129,7 @@ styles:
 - id: medieval-folio
   release_candidate: true
   production_mode: hybrid
-  family: illustrazione-repertori-storici
+  family: classici-incisioni
   name: Medieval Folio
   aliases:
   - medieval folio
@@ -782,7 +1137,8 @@ styles:
   - illuminated manuscript
   - manoscritto miniato
   - miniatura medievale
-  summary: Una citazione grande si integra con capilettera miniati, pigmenti opachi e marginalia su pergamena. Ogni frase genera una nuova architettura di pagina.
+  summary: Una citazione grande si integra con capilettera miniati, pigmenti opachi e marginalia su pergamena.
+    Ogni frase genera una nuova architettura di pagina.
   tags:
   - medievale
   - capolettera
@@ -805,7 +1161,7 @@ styles:
 - id: blue-chinoiserie
   release_candidate: true
   production_mode: hybrid
-  family: illustrazione-repertori-storici
+  family: classici-incisioni
   name: Chinese Illustration
   aliases:
   - blue chinoiserie
@@ -813,8 +1169,8 @@ styles:
   - porcellana blu
   - toile de jouy blu
   - chinese illustration
-  summary: 'Illustrazione di ispirazione cinese: incisioni e acquerelli monocromi incorniciano una citazione
-    serif leggibile.'
+  summary: Illustrazione di ispirazione cinese in blu monocromo, con dettagli marginali contenuti e un
+    ampio campo chiaro per la citazione serif.
   tags:
   - chinoiserie
   - acquerello
@@ -833,10 +1189,9 @@ styles:
   example_2_text: Le idee crescono quando cambiano prospettiva.
   example_2_label: Le idee
 - id: ukiyo-e-editorial
-  release_candidate: false
-  v1_shortlisted: true
+  release_candidate: true
   production_mode: generative
-  family: illustrazione-repertori-storici
+  family: classici-incisioni
   name: Ukiyo-e Editorial
   aliases:
   - ukiyo-e
@@ -865,9 +1220,9 @@ styles:
   example_2_text: Le idee crescono quando cambiano prospettiva.
   example_2_label: Le idee
 - id: cinema-editorial
-  release_candidate: true
+  release_candidate: false
   production_mode: hybrid
-  family: immagine-concettuale-materia
+  family: fotografia-atmosfere
   name: Cinema Editorial
   aliases:
   - cinematic
@@ -896,7 +1251,7 @@ styles:
   example_2_label: Le idee
 - id: faceted-ink
   release_candidate: false
-  family: segno-manuale-lettering
+  family: disegno-lettering
   name: Faceted Ink
   aliases:
   - faceted ink
@@ -924,9 +1279,9 @@ styles:
   example_2_text: Le idee crescono quando cambiano prospettiva.
   example_2_label: Le idee
 - id: monochrome-newspaper
-  release_candidate: true
+  release_candidate: false
   production_mode: hybrid
-  family: collage-stampa
+  family: retini-stampa
   name: Newspaper
   aliases:
   - monochrome newspaper
@@ -935,8 +1290,8 @@ styles:
   - newsprint
   - newspaper print
   - newspaper
-  summary: Titolo serif da quotidiano, carta newsprint e immagini fotografiche o illustrate con retino
-    visibile.
+  summary: Titolo serif da quotidiano, carta newsprint leggermente stropicciata con poche macchie tipografiche
+    e immagini fotografiche o illustrate a retino.
   tags:
   - quotidiano
   - newsprint
@@ -958,7 +1313,7 @@ styles:
 - id: child-design
   release_candidate: true
   production_mode: generative
-  family: segno-manuale-lettering
+  family: illustrazione-decorazione
   name: Child Design
   aliases:
   - child design
@@ -967,8 +1322,8 @@ styles:
   - stile naïf
   - crayon lettering
   - pastello a cera
-  summary: Illustrazione naïf con segni a pastello visibili e lettering manuale latino; soggetti e tavolozza
-    variano in base alla frase.
+  summary: Illustrazione naïf semplice, con poche forme a pastello e lettering manuale leggibile, allineato
+    e con spaziatura regolare.
   tags:
   - naïf
   - pastello
@@ -989,7 +1344,7 @@ styles:
   example_2_label: Le idee
 - id: neo-mondrian
   release_candidate: false
-  family: griglia-tipografia
+  family: geometrie-pattern
   name: Neo Mondrian
   aliases:
   - neo mondrian
@@ -1021,7 +1376,7 @@ styles:
   pilot_selected: true
   release_candidate: true
   production_mode: generative
-  family: segno-manuale-lettering
+  family: disegno-lettering
   name: Watercolor
   aliases:
   - watercolor
@@ -1056,9 +1411,8 @@ styles:
   example_2_text: Ogni scelta dà forma al futuro.
   example_3_text: Anche il silenzio può indicare una direzione.
 - id: neo-risograph
-  release_candidate: false
-  v1_shortlisted: true
-  family: collage-stampa
+  release_candidate: true
+  family: retini-stampa
   name: Risograph
   production_mode: generative
   aliases:
@@ -1070,7 +1424,7 @@ styles:
   - risograph editoriale
   - risografia
   - stampa risograph
-  summary: Fotografie per passaggi di colore spot su carta non patinata, grana fine e copertura
+  summary: Pochi frammenti fotografici stratificati su carta non patinata, con grana fine e copertura
     irregolare. Include sempre overprint con mescolanza visibile degli inchiostri.
   tags:
   - risograph
@@ -1090,7 +1444,7 @@ styles:
   example_label: Risograph · overprint con mescolanza
 - id: underground-comic
   release_candidate: false
-  family: segno-manuale-lettering
+  family: illustrazione-decorazione
   name: Underground Comic
   aliases:
   - underground comic
@@ -1120,17 +1474,17 @@ styles:
   example_2_text: A volte la via più strana è quella giusta.
   example_2_label: La via
 - id: architectural-isometric
-  release_candidate: true
+  release_candidate: false
   production_mode: typeset
-  family: disegno-tecnico-spazio
+  family: disegno-tecnico
   name: Architectural Isometric
   aliases:
   - architectural isometric
   - isometrico architettonico
   - architettura isometrica
   - isometric architecture
-  summary: Geometrie architettoniche isometriche, sans-serif lineare e palette adattata al tema della
-    frase.
+  summary: Geometrie architettoniche isometriche integrate con la citazione in sans-serif, su palette
+    adattata al tema della frase.
   tags:
   - isometrico
   - architettura
@@ -1152,83 +1506,96 @@ styles:
   example_2_label: La fiducia
 - id: retro-ui
   release_candidate: true
-  production_mode: typeset
-  family: interfacce-cultura-web
+  production_mode: generative
+  family: cultura-digitale
   name: Retro UI
   aliases:
   - retro ui
   - retro computer
-  - interfaccia anni novanta
-  - windows anni 90
-  summary: Finestre desktop anni Novanta, citazione monospace, contorni e ombre nette; colori variabili
-    secondo il contenuto.
+  - desktop bitmap
+  - interfaccia retro
+  - desktop monocromatico
+  - desktop pastello
+  summary: 'Desktop bitmap con finestre diseguali, barre a righe, retini e pittogrammi; frase protagonista
+    in un registro monocromatico o pastello.
+
+    '
   tags:
   - retro
   - interfaccia
-  - anni novanta
-  - monospace
+  - bitmap
+  - desktop
+  - retino
   - quote card
   profile: references/styles/retro-ui/profilo.yaml
-  example: references/styles/retro-ui/esempio.png
-  notes: references/styles/retro-ui/note.md
-  example_prompt: references/styles/retro-ui/prompt-esempio.md
+  example: references/styles/retro-ui/esempio-3.png
+  notes: references/styles/retro-ui/note-3.md
+  example_prompt: references/styles/retro-ui/prompt-esempio-3.md
   example_count: 2
-  example_text: Ogni scelta dà forma al futuro.
-  example_label: Sans UI
-  example_2: references/styles/retro-ui/esempio-2.png
-  notes_2: references/styles/retro-ui/note-2.md
-  example_prompt_2: references/styles/retro-ui/prompt-esempio-2.md
-  example_2_text: Ogni scelta dà forma al futuro.
-  example_2_label: Monospace
+  example_text: NON DEVI ESSERE SEMPRE DISPONIBILE.
+  example_label: Desktop monocromatico
+  example_2: references/styles/retro-ui/esempio-4.png
+  notes_2: references/styles/retro-ui/note-4.md
+  example_prompt_2: references/styles/retro-ui/prompt-esempio-4.md
+  example_2_text: FAI SPAZIO A CIÒ CHE CONTA.
+  example_2_label: Desktop pastello
+  featured_example: 1
+  example_asset_suffix: '-3'
+  example_2_asset_suffix: '-4'
 - id: internet-nostalgia
   release_candidate: true
-  production_mode: hybrid
-  family: interfacce-cultura-web
+  production_mode: generative
+  family: cultura-digitale
   name: Y2K
   aliases:
+  - y2k
   - internet nostalgia
+  - y2k chrome
+  - y2k olografico
+  - y2k lucido
   - web anni 2000
-  - homepage anni 2000
-  - y2k web
-  - y2k
-  summary: Collage web dei primi anni Duemila, sticker e clip-art intorno a una citazione in font pixel.
+  summary: Lettering cromato con riflessi olografici controllati, capitalizzazione fedele e pochi richiami
+    grafici alle interfacce dei primi Duemila.
   tags:
-  - internet
-  - nostalgia
-  - anni 2000
-  - pixel
-  - collage
-  - quote card
   - y2k
-  - font pixel
+  - anni 2000
+  - cromo
+  - olografico
+  - iridescente
+  - lucido
+  - interfacce
+  - quote card
   profile: references/styles/internet-nostalgia/profilo.yaml
-  example: references/styles/internet-nostalgia/esempio.png
-  notes: references/styles/internet-nostalgia/note.md
-  example_prompt: references/styles/internet-nostalgia/prompt-esempio.md
   example_count: 2
-  example_text: Ogni scelta dà forma al futuro.
-  example_label: Web anni 2000
-  example_2: references/styles/internet-nostalgia/esempio-2.png
-  notes_2: references/styles/internet-nostalgia/note-2.md
-  example_prompt_2: references/styles/internet-nostalgia/prompt-esempio-2.md
-  example_2_text: Ogni scelta dà forma al futuro.
-  example_2_label: Pixel
+  featured_example: 2
+  example: references/styles/internet-nostalgia/esempio-3.png
+  example_asset_suffix: '-3'
+  notes: references/styles/internet-nostalgia/note-3.md
+  example_prompt: references/styles/internet-nostalgia/prompt-esempio-3.md
+  example_text: IL FUTURO HA BISOGNO DI SOGNI.
+  example_label: Cromo e disco ottico
+  example_2: references/styles/internet-nostalgia/esempio-6-spazi.png
+  example_2_asset_suffix: '-6'
+  notes_2: references/styles/internet-nostalgia/note-6.md
+  example_prompt_2: references/styles/internet-nostalgia/prompt-esempio-6.md
+  example_2_text: LE IDEE CRESCONO QUANDO LE CONDIVIDI.
+  example_2_label: Cromo e lamina olografica
 - id: grottesco-editoriale-doppia-lettura
   pilot_selected: true
-  release_candidate: true
+  release_candidate: false
   production_mode: typeset
-  family: griglia-tipografia
+  family: tipografia-editoriale
   name: Modern Minimalism
   aliases:
   - grottesco editoriale
-  - doppia lettura
+  - enfasi tipografica
   - poster a doppia scala
   - grottesco tipografico
   - grottesco editoriale a doppia lettura
   - modern minimalism
-  summary: 'Due masse tipografiche a scala diversa: citazione completa ed estratto letterale ingrandito,
-    sans-serif lineare, asse sinistro comune e griglia editoriale a quattro colonne. Variante facoltativa
-    con una sola parola serif corsiva.'
+  summary: Una sola citazione in sans-serif lineare, con un estratto interno evidenziato in un altro colore
+    e corpo maggiore, senza ripetere il testo; griglia editoriale a quattro colonne. Variante facoltativa
+    con una parola serif corsiva.
   tags:
   - tipografico
   - grottesco
@@ -1267,7 +1634,7 @@ styles:
 - id: condensed-editorial
   release_candidate: false
   production_mode: hybrid
-  family: griglia-tipografia
+  family: tipografia-editoriale
   name: Condensed Editorial
   aliases:
   - condensed editorial
@@ -1288,16 +1655,16 @@ styles:
   example_text: Ogni scelta dà forma al futuro.
   example_label: CT1 · approvata
 - id: editor-canvas
-  release_candidate: true
+  release_candidate: false
   production_mode: typeset
-  family: interfacce-cultura-web
+  family: cultura-digitale
   name: Editor Canvas
   aliases:
   - editor canvas
   - editor canvas
   - editorial canvas
-  summary: 'La citazione come oggetto in un editor grafico: selezioni, maniglie, guide, puntatore ed evidenziazioni
-    coordinate.'
+  summary: La citazione come oggetto in un canvas di design realistico, con selezioni, guide, righelli,
+    controlli contestuali e pannello proprietà discreto.
   tags:
   - tipografico
   - editor
@@ -1312,10 +1679,9 @@ styles:
   example_text: Ogni scelta dà forma al futuro.
   example_label: EC1 · approvata
 - id: type-overprint
-  release_candidate: false
-  v1_shortlisted: true
+  release_candidate: true
   production_mode: generative
-  family: griglia-tipografia
+  family: tipografia-editoriale
   name: Type Overprint
   aliases:
   - type overprint
@@ -1323,10 +1689,10 @@ styles:
   - lettere trasparenti
   - numeri sovrapposti
   - glifi sovrapposti
-  summary: >
-    Lettere o cifre monumentali in inchiostri trasparenti formano campiture
-    e nuovi colori nelle intersezioni; la citazione resta nitida in un
-    registro distinto, integrata fra aste e controforme.
+  summary: 'Glifi monumentali in inchiostri trasparenti mostrano aste e controforme riconoscibili senza
+    formare parole; la citazione compare una sola volta in un registro distinto.
+
+    '
   tags:
   - tipografico
   - sovrastampa
@@ -1347,20 +1713,19 @@ styles:
   example_2_text: Ogni scelta dà forma al futuro.
   example_2_label: Senza reference
 - id: dirty-brutalism
-  release_candidate: false
-  v1_shortlisted: true
+  release_candidate: true
   production_mode: generative
-  family: griglia-tipografia
+  family: tipografia-editoriale
   name: Dirty Brutalism
   aliases:
   - dirty brutalism
   - brutalismo sporco
   - xerox brutalism
   - brutalismo xerografico
-  summary: >
-    Tipografia condensata massiccia, fotografia xerografica e carta segnata;
-    neri profondi, tagli netti e un accento cromatico granuloso costruiscono
-    una gerarchia editoriale cruda.
+  summary: 'Tipografia condensata massiccia, superfici xerografiche granulose e carta segnata; un margine
+    netto separa la citazione dalla fotografia.
+
+    '
   tags:
   - brutalismo
   - tipografia condensata
@@ -1381,19 +1746,17 @@ styles:
   example_2_text: Ogni scelta dà forma al futuro.
   example_2_label: Senza reference
 - id: ballpen
-  release_candidate: false
+  release_candidate: true
   production_mode: generative
-  family: segno-manuale-lettering
+  family: disegno-lettering
   name: Ballpen
   aliases:
   - ballpen
   - ballpoint
   - penna a sfera
   - biro
-  summary: >-
-    Disegno e lettering a biro sulla stessa pagina: ripassi, tratteggi,
-    scarabocchi, macchie e sbavature organizzano un caos leggibile.
-    Modalità principale a tre penne colorate, con variante solo blu.
+  summary: Frase protagonista scritta a biro, con ripassi, tratteggi e scarabocchi irregolari; piccoli
+    segni colorati e un disegno secondario animano la pagina.
   tags:
   - ballpen
   - biro
@@ -1402,11 +1765,12 @@ styles:
   - caotico
   - inchiostro
   - palette variabile
-  profile: references/styles/ballpen/profilo.yaml
+  profile: references/styles/ballpen/profilo-testo-protagonista.yaml
   example: references/styles/ballpen/esempio-2.png
   notes: references/styles/ballpen/note-2.md
   example_prompt: references/styles/ballpen/prompt-esempio-2.md
-  example_count: 2
+  example_count: 3
+  featured_example: 3
   example_text: ANCHE IL CAOS HA UNA DIREZIONE.
   example_label: Tre penne · principale
   example_2: references/styles/ballpen/esempio.png
@@ -1414,10 +1778,15 @@ styles:
   example_prompt_2: references/styles/ballpen/prompt-esempio.md
   example_2_text: ANCHE IL CAOS HA UNA DIREZIONE.
   example_2_label: Solo blu · variante
+  example_3: references/styles/ballpen/esperimenti/ab-chiave-20261027/e-equilibrio.png
+  example_3_label: Testo protagonista · caos equilibrato
+  example_3_text: LE DOMANDE APRONO NUOVE STRADE.
+  notes_3: references/styles/ballpen/esperimenti/ab-chiave-20261027/confronto.md
+  example_prompt_3: references/styles/ballpen/esperimenti/ab-chiave-20261027/confronto.md
 - id: neo-brutalism
   release_candidate: false
   production_mode: generative
-  family: griglia-tipografia
+  family: tipografia-editoriale
   name: Neo Brutalism
   aliases:
   - neo brutalism
@@ -1425,10 +1794,10 @@ styles:
   - neobrutalism
   - neubrutalism
   - neobrutalismo
-  summary: >
-    Tipografia sans molto pesante, blocchi di colore piatto, contorni neri
-    marcati e ombre dure spostate; scarti e incastri danno energia alla
-    citazione senza comprometterne la lettura.
+  summary: 'Tipografia sans molto pesante, blocchi di colore piatto, contorni neri marcati e ombre dure
+    spostate; scarti e incastri danno energia alla citazione senza comprometterne la lettura.
+
+    '
   tags:
   - tipografico
   - neobrutalismo
@@ -1448,12 +1817,10 @@ styles:
   example_prompt_2: references/styles/neo-brutalism/prompt-esempio-2.md
   example_2_text: Le idee crescono quando cambiano prospettiva.
   example_2_label: Campi a incastro
-
 - id: duotone-editorial
-  release_candidate: false
-  v1_shortlisted: true
+  release_candidate: true
   production_mode: generative
-  family: collage-stampa
+  family: retini-stampa
   name: Duotone Halftone
   aliases:
   - duotone
@@ -1465,8 +1832,8 @@ styles:
   - duotono halftone
   - duotone retinato
   - bicromia retinata
-  summary: Fotografia retinata a piena pagina con due colori dominanti a forte contrasto.
-    Punti fotografici sempre visibili e citazione in sovraimpressione con uno dei due colori.
+  summary: Fotografia riconoscibile ricostruita con retino tondo ben visibile anche in anteprima ridotta,
+    in due colori a forte contrasto; citazione in sovraimpressione.
   tags:
   - duotone
   - bicromia
@@ -1483,10 +1850,9 @@ styles:
   example_text: CAMBIARE SGUARDO CAMBIA TUTTO.
   example_label: Blu e giallo · stampa vissuta
 - id: halftone-editorial-bw
-  release_candidate: false
-  v1_shortlisted: true
+  release_candidate: true
   production_mode: generative
-  family: collage-stampa
+  family: retini-stampa
   name: Halftone B/W
   aliases:
   - retino editoriale
@@ -1496,9 +1862,8 @@ styles:
   - retino underground
   - halftone black and white
   - halftone bianco e nero
-  summary: Fotografia scelta dalla frase, retino a punti tondi visibili e testo in sovraimpressione.
-    Nero neutro e bianco puro, luci aperte, neri compatti, depositi e mancanze d'inchiostro
-    da stampa vissuta.
+  summary: Fotografia in bianco e nero costruita da un retino tondo molto evidente, leggibile anche in
+    anteprima ridotta; testo in sovraimpressione, luci aperte e neri compatti.
   tags:
   - halftone
   - retino
@@ -1516,18 +1881,17 @@ styles:
   example_text: CAMBIARE SGUARDO CAMBIA TUTTO.
   example_label: Black and white · stampa vissuta
 - id: ascii-editorial
-  release_candidate: false
-  v1_shortlisted: true
+  release_candidate: true
   production_mode: generative
-  family: griglia-tipografia
+  family: tipografia-editoriale
   name: ASCII Editorial
   aliases:
   - ascii
   - ascii editorial
   - ascii art
   - arte ascii
-  summary: 'Un’immagine figurativa costruita con caratteri monospace apre il campo della citazione,
-    anch’essa in mono bold. Densità, glifi e vuoti creano una composizione condivisa.'
+  summary: Un’immagine figurativa costruita con caratteri monospace apre il campo della citazione, anch’essa
+    in mono bold. Densità, glifi e vuoti creano una composizione condivisa.
   tags:
   - ascii
   - monospace
@@ -1542,18 +1906,222 @@ styles:
   example_count: 1
   example_text: Le idee crescono quando cambiano prospettiva.
   example_label: Apertura nella figura
-- id: handwritten
-  release_candidate: false
-  v1_shortlisted: true
+- id: organic
+  release_candidate: true
   production_mode: generative
-  family: segno-manuale-lettering
+  family: illustrazione-decorazione
+  name: Organic
+  aliases:
+  - organic
+  - organico
+  - botanica organica
+  - organic cutout
+  summary: Sagome botaniche e biomorfe grandi, colori piatti opachi e vuoti attivi su carta. Una sans
+    corposa guida la lettura, con ritmo asimmetrico e texture di stampa leggera.
+  tags:
+  - organico
+  - botanica
+  - biomorfo
+  - ritagli
+  - stampa
+  - editoriale
+  profile: references/styles/organic/profilo.yaml
+  example_count: 2
+  featured_example: 1
+  example: references/styles/organic/esempio.png
+  example_label: Botanica · arancio e verde
+  example_text: OGNI COSA CRESCE AL PROPRIO RITMO.
+  notes: references/styles/organic/note.md
+  example_prompt: references/styles/organic/prompt-esempio.md
+  example_2: references/styles/organic/esempio-2.png
+  example_2_label: Biomorfica · blu, muschio e corallo
+  example_2_text: LASCIA SPAZIO A NUOVE FORME.
+  notes_2: references/styles/organic/note-2.md
+  example_prompt_2: references/styles/organic/prompt-esempio-2.md
+- id: folk-art
+  release_candidate: true
+  production_mode: generative
+  family: illustrazione-decorazione
+  name: Folk Art
+  aliases:
+  - folk art
+  - folk
+  - arte popolare
+  - folk dipinto
+  summary: Lettere dipinte e ornamenti botanici su carta opaca. Rami, fiori e figure scelte dalla frase
+    creano un equilibrio vivo, con piccoli dettagli e pigmenti coordinati.
+  tags:
+  - folk
+  - ornamento
+  - dipinto
+  - botanica
+  - artigianale
+  - editoriale
+  profile: references/styles/folk-art/profilo.yaml
+  example_count: 2
+  featured_example: 1
+  example: references/styles/folk-art/esempio.png
+  example_label: Radici e volo · uccelli e cornice
+  example_text: LE RADICI CUSTODISCONO. I SOGNI FANNO VOLARE.
+  notes: references/styles/folk-art/note.md
+  example_prompt: references/styles/folk-art/prompt-esempio.md
+  example_2: references/styles/folk-art/esempio-2.png
+  example_2_label: Gesto di cura · albero fiorito
+  example_2_text: OGNI GESTO DI CURA FA FIORIRE IL MONDO.
+  notes_2: references/styles/folk-art/note-2.md
+  example_prompt_2: references/styles/folk-art/prompt-esempio-2.md
+- id: retro-futurism-art
+  release_candidate: true
+  production_mode: generative
+  family: collage-fotomontaggio
+  name: Retro-futurism Art
+  aliases:
+  - retro-futurism art
+  - retro futurism
+  - retrofuturismo
+  - retrofuturism
+  - space art retro
+  summary: Collage cosmico psichedelico con frammenti analogici, colori alterati e scale incompatibili.
+    Grana densa da stampa e lettering grafico, coerente con il collage, partecipano allo stesso mondo
+    surreale.
+  tags:
+  - retrofuturismo
+  - cosmico
+  - collage
+  - psichedelico
+  - analogico
+  - fantascienza
+  - illustrazione
+  - stampa
+  - editoriale
+  profile: references/styles/retro-futurism-art/profilo.yaml
+  example_count: 2
+  featured_example: 1
+  example: references/styles/retro-futurism-art/esempio-3.png
+  example_asset_suffix: '-3'
+  example_label: Collage cosmico · bobina e mondo rovesciato
+  example_text: IL FUTURO COMINCIA OLTRE CIÒ CHE CONOSCIAMO.
+  notes: references/styles/retro-futurism-art/note-3.md
+  example_prompt: references/styles/retro-futurism-art/prompt-esempio-3.md
+  example_2: references/styles/retro-futurism-art/esempio-4.png
+  example_2_asset_suffix: '-4'
+  example_2_label: Collage psichedelico · mano cosmica
+  example_2_text: ANCHE L'IMPOSSIBILE HA UN ORIZZONTE.
+  notes_2: references/styles/retro-futurism-art/note-4.md
+  example_prompt_2: references/styles/retro-futurism-art/prompt-esempio-4.md
+- id: occult-editorial
+  monochrome: true
+  release_candidate: true
+  production_mode: generative
+  family: classici-incisioni
+  name: Occult Editorial
+  aliases:
+  - occult
+  - occulto
+  - occultism art
+  - occult art
+  - occult editorial
+  - occultismo
+  - incisione esoterica
+  summary: Incisioni arcane bianche su nero opaco, cornici consumate e segni simbolici. La frase entra
+    in una pagina occulta materica, con tratteggi irregolari e stampa abrasa.
+  tags:
+  - occulto
+  - esoterico
+  - grimorio
+  - carta consumata
+  - alchimia
+  - incisione
+  - simbolico
+  - geometria
+  - editoriale
+  profile: references/styles/occult-editorial/profilo.yaml
+  example_count: 2
+  featured_example: 1
+  example: references/styles/occult-editorial/esempio-6-bw.png
+  example_asset_suffix: '-8'
+  example_label: Bianco e nero · figura e specchio
+  example_text: CIÒ CHE CERCHI CAMBIA IL TUO SGUARDO.
+  notes: references/styles/occult-editorial/note-6-bw.md
+  example_prompt: references/styles/occult-editorial/prompt-esempio-6-bw.md
+  example_2: references/styles/occult-editorial/esempio-7-bw.png
+  example_2_asset_suffix: '-9'
+  example_2_label: Bianco e nero · corvo e chiave
+  example_2_text: OGNI RISPOSTA APRE UN NUOVO MISTERO.
+  notes_2: references/styles/occult-editorial/note-7-bw.md
+  example_prompt_2: references/styles/occult-editorial/prompt-esempio-7-bw.md
+- id: futurismo-italiano
+  release_candidate: true
+  production_mode: generative
+  family: illustrazione-decorazione
+  name: Futurismo Italiano
+  aliases:
+  - futurismo italiano
+  - italian futurism
+  - manifesto futurista
+  - grafica futurista
+  - futurismo
+  summary: Diagonali, volumi sfaccettati e ritmi di movimento uniscono frase e illustrazione in un manifesto
+    grafico dalla materia di stampa opaca.
+  tags:
+  - futurismo
+  - dinamismo
+  - manifesto
+  - illustrazione
+  - diagonali
+  - stampa
+  - quote card
+  profile: references/styles/futurismo-italiano/profilo.yaml
+  example_count: 2
+  featured_example: 1
+  example: references/styles/futurismo-italiano/esempio.png
+  notes: references/styles/futurismo-italiano/note.md
+  example_prompt: references/styles/futurismo-italiano/prompt-esempio.md
+  example_text: IL MOVIMENTO DÀ FORMA ALLE IDEE.
+  example_label: Diagonale e movimento · ciclista
+  example_2: references/styles/futurismo-italiano/esempio-2.png
+  notes_2: references/styles/futurismo-italiano/note-2.md
+  example_prompt_2: references/styles/futurismo-italiano/prompt-esempio-2.md
+  example_2_text: LE IDEE PRENDONO FORMA NEL FARE.
+  example_2_label: Gesto e costruzione · carta e mani
+- id: blue-note
+  release_candidate: true
+  production_mode: generative
+  family: fotografia-atmosfere
+  name: Blue Note
+  aliases:
+  - blue note
+  - jazz modernist
+  - jazz sleeve
+  - bande fotografiche
+  summary: Una fotografia legata al significato della frase si ricompone in bande verticali di altezze
+    diverse. Le aperture accolgono la citazione, con tipografia forte, pause di carta e grana di stampa.
+  tags:
+  - fotografia
+  - duotono
+  - bande
+  - mosaico
+  - tipografia
+  - stampa
+  profile: references/styles/blue-note/profilo.yaml
+  example_count: 1
+  featured_example: 1
+  example: references/styles/blue-note/esempio-5.png
+  example_asset_suffix: '-5'
+  example_label: Mosaico fotografico · mani e ceramica
+  example_text: CIÒ CHE CONTA MERITA TEMPO E ATTENZIONE.
+  notes: references/styles/blue-note/note-5.md
+  example_prompt: references/styles/blue-note/prompt-esempio-5.md
+- id: handwritten
+  release_candidate: true
+  production_mode: generative
+  family: fotografia-atmosfere
   name: Handwritten
   aliases:
   - handwritten
   - scrittura a mano
   - fotografia annotata
   - handwritter
-  summary: Fotografia analogica 35mm o istantanea interamente virata in un colore, con grana controllata e scrittura manuale irregolare. Inchiostro sempre distinto dal viraggio per colore e luminosità.
   tags:
   - fotografico
   - handwritten
@@ -1562,74 +2130,438 @@ styles:
   - 35mm
   - monocromatico
   - grana
+  summary: Fotografia analogica 35mm o istantanea interamente virata in un colore, con grana controllata
+    e scrittura manuale irregolare. Inchiostro sempre distinto dal viraggio per colore e luminosità.
   profile: references/styles/handwritten/profilo.yaml
-  example: references/styles/handwritten/esempio.png
-  example_2: references/styles/handwritten/esempio-2.png
-  notes: references/styles/handwritten/note.md
-  example_prompt: references/styles/handwritten/prompt-esempio.md
   example_count: 2
+  example: references/styles/handwritten/esempio.jpg
+  example_asset_suffix: ''
+  notes: references/styles/handwritten/note.md
   example_text: A volte basta cambiare passo.
   example_label: 35mm · rosso ruggine e azzurro ghiaccio
+  featured_example: 1
+  example_2: references/styles/handwritten/esempio-2.jpg
+  example_2_asset_suffix: '-2'
+  notes_2: references/styles/handwritten/note-2.md
   example_2_text: Le idee migliori prendono strade inattese.
   example_2_label: 35mm · petrolio e albicocca
 - id: psychedelic-art
-  release_candidate: false
-  v1_shortlisted: true
+  release_candidate: true
   production_mode: generative
-  family: illustrazione-repertori-storici
+  family: illustrazione-decorazione
   name: Psychedelic Art
   aliases:
+  - psychedelic art
   - psychedelic
   - psichedelia art
   - psichedelia
   - poster psichedelico
-  summary: Lettere elastiche e svasate abitano campi fluidi, condividendo ritmo e contorni con l’illustrazione. Ispirazione ai poster psichedelici, con frase dominante e leggibile.
-  tags: [psichedelico, lettering, organico, poster, stampa, illustrazione]
+  tags:
+  - psichedelico
+  - lettering
+  - organico
+  - poster
+  - stampa
+  - illustrazione
+  summary: Lettere elastiche e svasate abitano campi fluidi, condividendo ritmo e contorni con l’illustrazione.
+    Ispirazione ai poster psichedelici, con frase dominante e leggibile.
   profile: references/styles/psychedelic-art/profilo.yaml
-  example: references/styles/psychedelic-art/esempio.png
-  example_2: references/styles/psychedelic-art/esempio-2.png
-  notes: references/styles/psychedelic-art/note.md
-  example_prompt: references/styles/psychedelic-art/prompt-esempio.md
   example_count: 2
+  example: references/styles/psychedelic-art/esempio.jpg
+  example_asset_suffix: ''
+  notes: references/styles/psychedelic-art/note.md
   example_text: La realtà è solo l’inizio.
   example_label: Campi fluidi · petrolio e corallo
+  featured_example: 1
+  example_2: references/styles/psychedelic-art/esempio-2.jpg
+  example_2_asset_suffix: '-2'
+  notes_2: references/styles/psychedelic-art/note-2.md
   example_2_text: Le idee migliori prendono strade inattese.
   example_2_label: Campi fluidi · viola e giallo
 - id: lowbrow
-  release_candidate: false
-  v1_shortlisted: true
+  release_candidate: true
   production_mode: generative
-  family: illustrazione-repertori-storici
+  family: illustrazione-decorazione
   name: Lowbrow
-  aliases: [lowbrow, lowbrow anni 70, cartoon underground, grottesco underground]
-  summary: Caricature elastiche, oggetti animati e umorismo grottesco da cultura underground. Lettering disegnato e contorni marcati condividono inchiostri piatti e materia di stampa.
-  tags: [lowbrow, underground, cartoon, grottesco, lettering, stampa]
+  aliases:
+  - lowbrow
+  - lowbrow anni 70
+  - cartoon underground
+  - grottesco underground
+  tags:
+  - lowbrow
+  - underground
+  - cartoon
+  - grottesco
+  - lettering
+  - stampa
+  summary: Caricature elastiche, oggetti animati e umorismo grottesco da cultura underground. Lettering
+    disegnato e contorni marcati condividono inchiostri piatti e materia di stampa.
   profile: references/styles/lowbrow/profilo.yaml
-  example: references/styles/lowbrow/esempio.png
-  example_2: references/styles/lowbrow/esempio-2.png
-  notes: references/styles/lowbrow/note.md
-  example_prompt: references/styles/lowbrow/prompt-esempio.md
   example_count: 2
+  example: references/styles/lowbrow/esempio.jpg
+  example_asset_suffix: ''
+  notes: references/styles/lowbrow/note.md
   example_text: La realtà è solo l’inizio.
   example_label: Oggetto animato · porta sul mondo
+  featured_example: 1
+  example_2: references/styles/lowbrow/esempio-2.jpg
+  example_2_asset_suffix: '-2'
+  notes_2: references/styles/lowbrow/note-2.md
   example_2_text: Le idee migliori prendono strade inattese.
   example_2_label: Percorso assurdo · viola e lime
 - id: vintage-horror
-  release_candidate: false
-  v1_shortlisted: true
+  release_candidate: true
   production_mode: generative
-  family: illustrazione-repertori-storici
+  family: illustrazione-decorazione
   name: Vintage Horror
-  aliases: [vintage horror, horror vintage, locandina horror, horror show]
-  summary: La frase diventa il titolo di una locandina horror d’epoca, con lettering irregolare, blocchi condensati, figure a inchiostro e pochi colori da stampa economica.
-  tags: [horror, vintage, locandina, lettering, stampa, illustrazione]
+  aliases:
+  - vintage horror
+  - horror vintage
+  - locandina horror
+  - horror show
+  tags:
+  - horror
+  - vintage
+  - locandina
+  - lettering
+  - stampa
+  - illustrazione
+  summary: La frase diventa il titolo di una locandina horror d’epoca, con lettering irregolare, blocchi
+    condensati, figure a inchiostro e pochi colori da stampa economica.
   profile: references/styles/vintage-horror/profilo.yaml
-  example: references/styles/vintage-horror/esempio.png
-  example_2: references/styles/vintage-horror/esempio-2.png
-  notes: references/styles/vintage-horror/note.md
-  example_prompt: references/styles/vintage-horror/prompt-esempio.md
   example_count: 2
+  example: references/styles/vintage-horror/esempio.jpg
+  example_asset_suffix: ''
+  notes: references/styles/vintage-horror/note.md
   example_text: La paura bussa. La curiosità apre.
   example_label: Due tempi · nero e vermiglione
+  featured_example: 1
+  example_2: references/styles/vintage-horror/esempio-2.jpg
+  example_2_asset_suffix: '-2'
+  notes_2: references/styles/vintage-horror/note-2.md
   example_2_text: Le idee migliori prendono strade inattese.
   example_2_label: Sentiero impossibile · nero e ocra
+- id: literary-editorial
+  release_candidate: false
+  v1_shortlisted: false
+  production_mode: generative
+  family: tipografia-editoriale
+  name: Literary Editorial
+  aliases:
+  - editoriale letterario
+  - letterario
+  - literary editorial
+  - marginalia
+  - pagina annotata
+  summary: Stile in esplorazione con serif da lettura, corsivo e margini ampi. La variante annotata collega
+    un estratto della frase alla sua ripresa laterale.
+  tags:
+  - letterario
+  - editoriale
+  - serif
+  - corsivo
+  - annotazioni
+  - carta
+  - tipografia
+  profile: references/styles/literary-editorial/profilo.yaml
+  example_count: 2
+  featured_example: 2
+  example: references/styles/literary-editorial/esempio.png
+  example_label: Prima esplorazione · colonna letteraria
+  example_text: Leggere è dare tempo a un’altra vita.
+  notes: references/styles/literary-editorial/note.md
+  example_prompt: references/styles/literary-editorial/prompt-esempio.md
+  example_2: references/styles/literary-editorial/esempio-2.png
+  example_2_label: Seconda esplorazione · pagina annotata
+  example_2_text: Ciò che resta ai margini cambia il centro.
+  notes_2: references/styles/literary-editorial/note-2.md
+  example_prompt_2: references/styles/literary-editorial/prompt-esempio-2.md
+- id: symbolic-modernism
+  release_candidate: true
+  v1_shortlisted: false
+  production_mode: generative
+  family: geometrie-pattern
+  name: Symbolic Modernism
+  aliases:
+  - modernismo simbolico
+  - symbolic modernism
+  - emblema modernista
+  - emblema geometrico
+  - poster concettuale flat
+  summary: Una frase diventa un simbolo essenziale, con forme geometriche semplici, pieni e vuoti, campiture
+    flat e tipografia forte. Colore e soggetto seguono l'idea.
+  tags:
+  - geometria
+  - simbolo
+  - concettuale
+  - modernismo
+  - flat
+  - colore
+  - tipografia
+  profile: references/styles/symbolic-modernism/profilo.yaml
+  example_count: 2
+  featured_example: 2
+  example: references/styles/symbolic-modernism/esempio.png
+  example_label: Il passaggio · emblema e apertura
+  example_text: Un limite può diventare un passaggio.
+  notes: references/styles/symbolic-modernism/note.md
+  example_prompt: references/styles/symbolic-modernism/prompt-esempio.md
+  example_2: references/styles/symbolic-modernism/esempio-3.png
+  example_2_asset_suffix: '-3'
+  example_2_label: Il tempo · clessidra flat
+  example_2_text: La pazienza dà forma al tempo.
+  notes_2: references/styles/symbolic-modernism/note-3.md
+  example_prompt_2: references/styles/symbolic-modernism/prompt-esempio-3.md
+- id: photo-marker
+  release_candidate: false
+  production_mode: generative
+  family: fotografia-atmosfere
+  name: Photo Marker
+  aliases:
+  - photo marker
+  - foto marker
+  - foto e contorni
+  - foto con testo intorno
+  summary: Fotografia con lettering a pennarello disposto intorno al soggetto e tratti sottili che ne
+    riprendono i contorni. Persone o oggetti scelti dalla frase.
+  tags:
+  - fotografia
+  - pennarello
+  - lettering
+  - contorni
+  - scrittura manuale
+  - palette variabile
+  profile: references/styles/photo-marker/profilo.yaml
+  example_count: 2
+  featured_example: 2
+  example: references/styles/photo-marker/esempio.png
+  example_label: Ritratto · lascia il tuo segno
+  example_text: NON SEGUIRE LE TRACCE DEGLI ALTRI. LASCIA IL TUO SEGNO.
+  notes: references/styles/photo-marker/note.md
+  example_prompt: references/styles/photo-marker/prompt-esempio.md
+  example_2: references/styles/photo-marker/esempio-2.png
+  example_2_label: Oggetto · vaso e imperfezione
+  example_2_text: OGNI NUOVA FORMA NASCE DA UN TENTATIVO IMPERFETTO.
+  notes_2: references/styles/photo-marker/note-2.md
+  example_prompt_2: references/styles/photo-marker/prompt-esempio-2.md
+- id: photo-type-split
+  release_candidate: true
+  production_mode: hybrid
+  family: fotografia-atmosfere
+  name: Photo Type Split
+  aliases:
+  - photo type split
+  - foto nelle lettere
+  - fotografia a metà
+  - maschera tipografica
+  - foto e testo divisi
+  summary: Una stessa fotografia continua da un lato aperto dentro le lettere sull'altro lato, con un
+    asse netto e un fondo piatto. Il soggetto segue la frase, anche con oggetti.
+  tags:
+  - fotografia
+  - tipografia
+  - maschera
+  - split
+  - oggetti
+  - condensato
+  profile: references/styles/photo-type-split/profilo.yaml
+  example_count: 2
+  featured_example: 2
+  example: references/styles/photo-type-split/esempio.png
+  example_label: Cambiare rotta · bussola
+  example_text: CAMBIARE ROTTA È GIÀ UN NUOVO INIZIO.
+  notes: references/styles/photo-type-split/note.md
+  example_prompt: references/styles/photo-type-split/prompt-esempio.md
+  example_2: references/styles/photo-type-split/esempio-2.png
+  example_2_label: Clessidra · lettere a contatto con la foto
+  example_2_text: OGNI ISTANTE CONTA.
+  notes_2: references/styles/photo-type-split/note-2.md
+  example_prompt_2: references/styles/photo-type-split/prompt-esempio-2.md
+- id: photo-type-monument
+  release_candidate: true
+  production_mode: hybrid
+  family: fotografia-atmosfere
+  name: Photo Type Monument
+  aliases:
+  - photo type monument
+  - foto tipografica monumentale
+  - fotografia a lettere giganti
+  - maschera fotografica a pagina intera
+  - parole fotografiche monumentali
+  summary: Una fotografia continua riempie lettere monumentali su quasi tutta la pagina, con fondo piatto
+    fuori dai glifi. Persone o oggetti seguono il significato della frase.
+  tags:
+  - fotografia
+  - tipografia monumentale
+  - photo mask
+  - pagina intera
+  - oggetti
+  - condensato
+  profile: references/styles/photo-type-monument/profilo.yaml
+  example_count: 2
+  featured_example: 2
+  example: references/styles/photo-type-monument/esempio.png
+  example_label: Mettere a fuoco · macchina fotografica
+  example_text: METTI A FUOCO LE IDEE.
+  notes: references/styles/photo-type-monument/note.md
+  example_prompt: references/styles/photo-type-monument/prompt-esempio.md
+  example_2: references/styles/photo-type-monument/esempio-2.png
+  example_2_label: Dare luce · lampadina e toni freddi
+  example_2_text: DAI LUCE ALLE IDEE.
+  notes_2: references/styles/photo-type-monument/note-2.md
+  example_prompt_2: references/styles/photo-type-monument/prompt-esempio-2.md
+- id: decollage
+  release_candidate: false
+  production_mode: hybrid
+  family: collage-fotomontaggio
+  name: Décollage
+  aliases:
+  - decollage
+  - décollage
+  - manifesti strappati
+  - strappi di manifesti
+  - rotella
+  summary: Manifesti stratificati e lacerati rivelano immagini, parole e carte precedenti. La frase resta
+    leggibile dentro la storia materiale della superficie.
+  tags:
+  - strappi
+  - manifesti
+  - carta
+  - stratificazione
+  - stampa
+  - palinsesto
+  - palette variabile
+  profile: references/styles/decollage/profilo.yaml
+  example_count: 2
+  featured_example: 2
+  example: references/styles/decollage/esempio.png
+  example_label: Una storia sotto lo strappo
+  example_text: SOTTO OGNI STRAPPO RESTA UNA STORIA.
+  notes: references/styles/decollage/note.md
+  example_prompt: references/styles/decollage/prompt-esempio.md
+  example_2: references/styles/decollage/esempio-2.png
+  example_2_label: Chiave · il passato apre porte
+  example_2_text: IL PASSATO APRE ANCORA PORTE.
+  notes_2: references/styles/decollage/note-2.md
+  example_prompt_2: references/styles/decollage/prompt-esempio-2.md
+- id: ink-drip
+  release_candidate: true
+  production_mode: generative
+  family: disegno-lettering
+  name: Ink Drip
+  aliases:
+  - ink drip
+  - inchiostro che cola
+  - inchiostro colato
+  - colature di inchiostro
+  summary: Inchiostro fluido e traslucido, assorbimento nella carta e colature che nascono dalle lettere.
+    Priorità al realismo della materia; pigmento e fondo variabili.
+  tags:
+  - inchiostro
+  - colature
+  - pennello
+  - scrittura
+  - gravità
+  - palette variabile
+  profile: references/styles/ink-drip/profilo.yaml
+  example_count: 2
+  featured_example: 1
+  example: references/styles/ink-drip/esempio.png
+  example_label: Lascia scorrere · inchiostro blu
+  example_text: Lascia scorrere i pensieri.
+  notes: references/styles/ink-drip/note.md
+  example_prompt: references/styles/ink-drip/prompt-esempio.md
+  example_2: references/styles/ink-drip/esempio-2.png
+  example_2_label: Non trattenere · avorio su nero
+  example_2_text: Non trattenere quello che senti.
+  notes_2: references/styles/ink-drip/note-2.md
+  example_prompt_2: references/styles/ink-drip/prompt-esempio-2.md
+- id: type-blur
+  release_candidate: true
+  production_mode: generative
+  family: tipografia-editoriale
+  name: Type Blur
+  aliases:
+  - type blur
+  - tipografia sfocata
+  - sfocatura selettiva del testo
+  - lettere a fuoco alterno
+  summary: Tipografia sperimentale con passaggi credibili fra nitido e sfocato dentro le parole. Priorità
+    al realismo ottico, con ancoraggi di lettura chiari.
+  tags:
+  - tipografia
+  - sfocatura selettiva
+  - rifrazione
+  - sperimentale
+  - nitidezza
+  - palette variabile
+  profile: references/styles/type-blur/profilo.yaml
+  example_count: 2
+  featured_example: 2
+  example: references/styles/type-blur/esempio.png
+  example_label: Non tutto è chiaro · fuoco selettivo
+  example_text: Non tutto è chiaro, subito.
+  notes: references/styles/type-blur/note.md
+  example_prompt: references/styles/type-blur/prompt-esempio.md
+  example_2: references/styles/type-blur/esempio-2.png
+  example_2_label: Il dubbio · transizioni di fuoco
+  example_2_text: Il dubbio cambia lo sguardo.
+  notes_2: references/styles/type-blur/note-2.md
+  example_prompt_2: references/styles/type-blur/prompt-esempio-2.md
+- id: graphite-negative
+  release_candidate: true
+  production_mode: generative
+  family: disegno-lettering
+  name: Graphite Negative
+  aliases:
+  - graphite negative
+  - grafite in negativo
+  - scarabocchi a matita
+  summary: La frase emerge come carta chiara da un intreccio di scarabocchi a matita; i segni ne definiscono
+    le lettere per contrasto.
+  tags:
+  - grafite
+  - matita
+  - scarabocchi
+  - lettering
+  - negativo
+  - sperimentale
+  profile: references/styles/graphite-negative/profilo.yaml
+  example_count: 1
+  featured_example: 1
+  example: references/styles/graphite-negative/prova-1.png
+  example_label: Dal caos · prima prova
+  example_text: DAL CAOS NASCE LA FORMA.
+  notes: references/styles/graphite-negative/note-prove.md
+  example_prompt: references/styles/graphite-negative/note-prove.md
+- id: kinetic-impact
+  release_candidate: false
+  production_mode: generative
+  family: fotografia-atmosfere
+  name: Kinetic Impact
+  aliases:
+  - kinetic impact
+  - tipografia cinetica
+  - movimento fotografico
+  summary: Tipografia monumentale e una scena in movimento condividono direzione, profondità e cambi di
+    scala.
+  tags:
+  - movimento
+  - tipografia
+  - fotografia
+  - profondità
+  - dinamico
+  profile: references/styles/kinetic-impact/profilo.yaml
+  example_count: 2
+  featured_example: 2
+  example: references/styles/kinetic-impact/prova-1.png
+  example_label: Ruota e velocità
+  example_text: IL CAMBIAMENTO PRENDE VELOCITÀ.
+  notes: references/styles/kinetic-impact/note-prova-1.md
+  example_prompt: references/styles/kinetic-impact/prompt-prova-1.md
+  example_2: references/styles/kinetic-impact/prova-vetro-acqua-20261027.png
+  example_2_label: Vetro e acqua
+  example_2_text: IL CAMBIAMENTO PRENDE VELOCITÀ.
+  notes_2: references/studi-20261027-nuove-composizioni.md
+  example_prompt_2: references/studi-20261027-nuove-composizioni.md

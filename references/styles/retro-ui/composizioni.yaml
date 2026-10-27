@@ -1,0 +1,70 @@
+Composition Library:
+  Style Name: Retro UI
+  Selection:
+    Basis: >
+      Scegliere la relazione fra frase, finestra attiva e contenuti secondari
+      a partire da ingombro e significato. Il sistema di finestre deve rendere
+      la lettura più riconoscibile, non più lenta.
+    Variation: >
+      Usare una famiglia principale. Per nuove frasi variare proporzioni,
+      sovrapposizioni, contenuto bitmap e intervalli; non limitarsi a ricolorare
+      due pannelli identici. Conservare l'impianto accettato nelle revisioni mirate.
+    Development Status: >
+      desktop-cascade e workspace-preview provate il 26 ottobre 2026;
+      dialogue-sequence è una possibilità progettuale ancora non verificata.
+  Families:
+    - id: desktop-cascade
+      Name: Desktop di finestre con un documento attivo
+      Use When: >
+        Una frase breve o media può dominare un documento e trarre un
+        secondo significato da una piccola immagine o utility adiacente.
+      Structure: >
+        Finestre diseguali si incastrano sul desktop. Il documento attivo
+        avanza davanti alle altre e ha un campo calmo per la citazione.
+        Un'immagine in un pannello secondario e pochi oggetti desktop
+        occupano gli intervalli senza fare da bordo decorativo completo.
+      Text Adaptation: >
+        Tenere i gruppi di senso collegati dentro il documento; dimensionare
+        il corpo con la parola più lunga. Ridurre il repertorio secondario
+        prima di comprimere il testo. Nome eventuale più piccolo sull'asse destro.
+      Format Adaptation: >
+        Cambiare larghezza e profondità delle finestre per il rapporto.
+        In verticale è possibile una cascata alta; in largo le finestre
+        possono scambiarsi spazio lateralmente. Non ritagliare la citazione.
+    - id: workspace-preview
+      Name: Area di lavoro e anteprima sovrapposta
+      Use When: >
+        Una frase beneficia dell'idea di creazione, scelta o cura e può
+        dialogare con un'immagine bitmap chiaramente subordinata.
+      Structure: >
+        Un documento ampio si allinea con una barra desktop o un utensile
+        laterale. Una finestra di anteprima attraversa un margine vuoto
+        e sporge verso il desktop, lasciando la frase integra. Wallpaper
+        e piccole selezioni collegano zone dense e pause visive.
+      Text Adaptation: >
+        Mantenere la frase come blocco continuo e sostanziale, senza
+        trasformare connettivi in label. Spostare l'anteprima e ampliare
+        il documento per parole o nomi più lunghi.
+      Format Adaptation: >
+        Ripensare posizione dell'anteprima e respiro del wallpaper per
+        ciascun formato; l'anteprima non deve diventare più importante
+        solo perché la card è quadrata o più stretta.
+    - id: dialogue-sequence
+      Name: Sequenza di finestre come percorso della frase
+      Use When: >
+        Una frase con due o tre unità semantiche nette può attraversare
+        superfici collegate senza spezzare negazioni o relazioni sintattiche.
+      Structure: >
+        Una successione di dialoghi o documenti guida la lettura tramite
+        posizione e sovrapposizione. I gruppi testuali compongono una sola
+        frase; controlli e dettagli restano subordinati. Evitare riquadri
+        equivalenti che creino una lettura incerta o un effetto dashboard.
+      Text Adaptation: >
+        Ripartire soltanto per gruppi di senso e rispettare l'ordine
+        letterale. Se i collegamenti richiedono spiegazioni, ricondurre
+        la frase a una superficie principale. Non aggiungere risposte,
+        etichette o parole che non appartengono al testo fornito.
+      Format Adaptation: >
+        Rendere esplicito un percorso alto-basso, o sinistra-destra quando
+        il rapporto lo consente. Ridurre il numero di finestre per card
+        piccole invece di ridurre tutte le parole a microtesto.

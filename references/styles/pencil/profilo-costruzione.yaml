@@ -1,0 +1,44 @@
+Design Style:
+  Name: Pencil
+  Status: Incluso nella versione distribuita 0.4.0; direzione lettering in costruzione
+  Concept: >
+    Una citazione disegnata a matita conserva i tentativi e le correzioni
+    che ne hanno costruito la forma. Tracce leggere e segni più calcati
+    danno ritmo al lettering su carta chiara.
+  Canvas:
+    Ratio: '4:5'
+    Output: Quote card piatta su carta, ricomposta per ogni formato.
+  Mood: [Tattile, Esplorativo, Umano, Editoriale]
+  Color Palette:
+    Paper: '#F2F0E9'
+    Light Graphite: '#B5B4AE'
+    Mid Graphite: '#777772'
+    Dark Graphite: '#292A29'
+  Typography:
+    Quote: >
+      Lettering a mano, anche con grazie, costruito attraverso contorni
+      successivi dello stesso glifo. Alternare tratti più calcati a segni
+      più leggeri e suggeriti, preservando un profilo leggibile per ogni
+      lettera. Non duplicare parole, alterare caratteri o inventare testo.
+    Reading: >
+      Conservare esattamente parole, maiuscole, accenti e punteggiatura.
+      Spazi, occhielli e sequenza restano chiari anche su schermi piccoli.
+    Attribution: Solo se fornita o verificata, discreta su un asse destro.
+  Layout:
+    Structure: >
+      Frase protagonista su carta aperta e un piccolo disegno a matita
+      pertinente, secondario e non sovrapposto al testo.
+  Effects:
+    Graphite: >
+      Grafite asciutta, pressione variabile, linee di costruzione, piccole
+      correzioni e cancellature locali. Evitare inchiostro liquido e sfocature.
+  Content Contract:
+    quote: Citazione completa ed esatta una sola volta.
+    author: Solo se fornito o verificato.
+    other_text: Nessuna firma, etichetta o testo inventato.
+  Production:
+    Preferred Mode: generative
+    Validation Status: >
+      La prova scelta mostra lettering a grazie e contorni ripetuti. La
+      variazione di pressione più accentuata resta da affinare; non sono
+      dimostrate ripetibilità o leggibilità di testi lunghi.

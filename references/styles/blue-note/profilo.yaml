@@ -1,0 +1,253 @@
+Design Style:
+  Name: Blue Note
+  Status: "Incluso nel catalogo V1 il 26 ottobre 2026"
+  Concept: >
+    A quotation becomes a rhythmic editorial composition of unequal vertical
+    photographic strips, forceful Western type and printed pauses.
+    Candid high-contrast imagery, unequal intervals and purposeful changes
+    of scale evoke experimental editorial sleeve design. The photographic
+    subject is chosen from the quotation; the sentence, crop and graphic
+    masses organise the same printed page.
+
+  Reference Basis:
+    Scope: >
+      A contemporary quote-card direction informed by the supplied images
+      and documented jazz-cover design. The references include work from
+      more than one label and contemporary reinterpretations; they do not
+      establish one author, one period or a single mandatory layout.
+    Transfer: >
+      Transfer expressive photographic crops, duotone or monochrome print,
+      bold typographic hierarchy and unequal photographic intervals. Treat
+      the source covers as references for graphic structure and printing only:
+      do not carry over jazz-related subject matter or iconography. The
+      approved direction reconstructs a quote-relevant image through vertical
+      strips of different heights. The word blue in the name does not fix the palette.
+    Research Notes: ricerca.md
+    Independence: >
+      Existing photographs, musician identities, cover compositions, album
+      titles, label marks and catalog information are not content to reuse.
+      New subjects and arrangements respond to the quotation. Reference
+      images are analytical material, not mandatory generation inputs.
+
+  Canvas:
+    Ratio: '4:5'
+    Output: One complete flat editorial quote card, full bleed
+    Adaptation: >
+      Recompose photographic crops, typographic anchors and the rhythm of
+      intervals for each ratio. Preserve the complete quotation instead of
+      cropping a square sleeve or shrinking it into a small caption.
+
+  Mood: [Rhythmic, Candid, Assured, Modernist, Intimate, Graphic, Tactile]
+
+  Color Palette:
+    Fixed Colors: false
+    Strategy: >
+      Use a small number of strong printed colour relationships. Blue,
+      turquoise and near-black are useful options; red, ochre, cream,
+      monochrome and other requested palettes are equally valid. Separate
+      the reading ink from its actual background at every word.
+    Study Directions:
+      Blue Pause:
+        Flat Field: '#207A9B'
+        Dark Ink: '#101A1C'
+        Reading Ink: '#E9E0C8'
+      Red Rhythm:
+        Paper: '#EEE4CF'
+        Main Ink: '#161716'
+        Photographic Ink: '#B33E32'
+    Roles: >
+      A flat field provides a broad pause. Photographic tonal separation
+      supplies intimacy and depth. Type can share the accent pigment or
+      use a contrasting paper colour. A meaningful emphasis may change
+      colour, but not every word requires a different ink.
+    Overrides: >
+      Replace study hues freely when requested. Resolve the photograph,
+      photographic strips and lettering as one ink system instead of retaining old blue
+      details after a palette change.
+
+  Typography:
+    Main Reading:
+      Direction: >
+        A substantial Western grotesk, often coherently condensed, is a
+        useful register. A broader bold face or a selected book serif can
+        also work when it contributes to the photographic and graphic
+        rhythm. Choose related voices with clear word shapes and counters.
+      Hierarchy: >
+        Let semantic groups create a syncopated silhouette through scale,
+        line breaks, alignment or a selected ink change. Keep connecting
+        words substantial and recoverable in the main reading route.
+      Integrity: >
+        Preserve exact words, supplied case, accents, punctuation and word
+        spaces. Normally show the sentence once. Use a genuine coherent
+        condensed drawing rather than squeezing a single word to fit a bar.
+      Spacing: >
+        Maintain a coherent optical rhythm within each typographic register,
+        with distinct natural word spaces and enough separation between
+        lines. Pair-specific optical kerning compensations are appropriate;
+        equal numeric gaps between all letters are not the objective.
+        Semantic scale changes may require optical spacing adjustments,
+        but never introduce arbitrary local tracking, word compression or
+        glyph stretching to fill a notch or equalise line lengths. Use a
+        consistently condensed drawing for the condensed register. Move
+        the crop, change line breaks or scale a whole register instead.
+    Attribution: >
+      Use only a supplied or verified exact name, smaller and visually
+      quieter than the quotation but readable, right-aligned to a clear
+      right edge. Omit the name and its reserved field when absent.
+    Font Fidelity: >
+      A generated type direction does not certify an exact typeface or
+      editable lettering. A named font requires a verified actual asset.
+
+  Layout:
+    User Preference: >
+      On 2026-10-26 the user clarified that bands must contain portions
+      of the image, as a mosaic of strips with different heights, or
+      actively enrich the quotation. Standalone coloured side bands were
+      rejected. Study 5 establishes the approved photographic-strip
+      direction. Vary widths, heights, starts, ends and paper intervals
+      according to the quotation. Its pottery subject, cobalt ink, exact
+      number of strips and positions are example choices, not a template.
+    Shared Structure: >
+      Reveal one coherent photographic scene through adjacent vertical
+      strips of deliberately different heights, with narrow paper gaps
+      and a stepped outer silhouette. Register neighbouring fragments
+      against the same underlying scene so they reconstruct one gesture
+      or object. Place related word groups in purposeful openings created
+      by the starts and ends of those strips. A text-bearing band may
+      support a semantic group directly. The phrase and the image cuts
+      determine the same composition.
+    Rhythm: >
+      Use deliberate inequality in widths, heights, starts, ends and gaps.
+      Repetition may create a pulse, with selected interruptions and quiet
+      fields. Avoid a mechanical equalizer or a fixed keyboard pattern.
+      A strip is a meaningful photographic fragment or a support for
+      supplied text, never an unrelated decorative side column.
+    Reading: >
+      Maintain one immediate order for the complete sentence through clear
+      related anchors. Dense photography can meet substantial type only
+      where local contrast is stable. Move a crop or bar before reducing
+      a necessary word, altering local tracking or distorting a glyph.
+    Negative Space: >
+      Broad black, paper or flat-colour pauses are active compositional
+      material. Choose their size and placement in relation to the crop
+      and sentence; a pause is not an obligation to make the image minimal.
+    Variation: >
+      Change photographic subject, crop, graphic structure, typographic
+      cadence and the distribution of pauses for a new quotation. A new
+      duotone colour alone is not a new composition.
+    Capacity: >
+      For longer wording open a larger connected reading field, reduce
+      interruptions and simplify the graphic masses before shrinking type.
+
+  Imagery:
+    Photographic Character: >
+      Intimate, candid-looking observation with tactile grain, decisive
+      shadow and human detail. Use high-contrast monochrome, duotone or
+      selected colour printing. Preserve a photographic tonal structure
+      rather than replacing a face or hand with a smooth vector silhouette.
+    Crop: >
+      Tight, off-centre or partial crops can be expressive. A sliver may
+      work when it still conveys a meaningful gesture or form. Adjacent
+      strips must preserve spatial continuity of one scene. Do not
+      repeat a hand or face, stretch a fragment, or assemble unrelated
+      photographs to imitate a mosaic. Crop the photograph deliberately
+      rather than hiding an anatomical defect.
+    Subject Selection: >
+      Choose a photograph or scene that directly illustrates, extends or
+      metaphorically interprets the supplied quotation. The subject must be
+      justified by its meaning, not by the style name or source-cover history.
+      Do not use musicians, instruments, listening audiences, performance
+      scenes, cigarettes or other jazz-associated imagery. Choose only a
+      subject that refers to the quotation's words, idea or metaphor.
+    Repertoire: >
+      Any person, gesture, object, place, material or architectural detail
+      may be used when its relationship to the quotation is clear. Prefer
+      meaningful crops and human-scale observation over generic genre cues.
+    Identity: >
+      Invent original anonymous subjects unless the user supplies a person
+      or image. Do not imply that a generated photograph is an archival
+      Francis Wolff image or portray a named musician without a request.
+
+  Graphic Elements:
+    Repertoire: >
+      Unequal-height photographic strips, narrow paper seams and selected
+      text-bearing bands establish the visual beat. Starts and endings
+      create quiet notches for the phrase. A restrained rule may support
+      an actual typographic anchor. Strip count and position come from
+      the composition, without reproducing an existing sleeve.
+    Purpose: >
+      Every band contains part of the photograph or directly supports
+      supplied text. Do not add independent solid-colour side bars.
+      Graphic masses support the phrase and photographic structure.
+      Do not add music-note clipart, equalizers, instruments, performance
+      imagery or other genre cues. Graphic marks must support the subject
+      derived from the quotation and the editorial rhythm.
+
+  Effects:
+    Surface: >
+      Matte printed colour, fine paper tooth, photographic grain and
+      restrained ink-density variation are useful. Slight handling can
+      coexist with clear purposeful edges. Heavy artificial ageing is not
+      necessary to give the work a sense of print.
+    Contrast: >
+      Deep photographic shadows and broad flat inks can coexist with
+      lighter detail. Retain identifying gestures and the complete words.
+    Depth: Photographic tonal form, without glossy 3D or cast-shadow graphic stickers
+
+  Content Contract:
+    quote: Complete literal sentence as the principal verbal layer, normally once
+    author: Optional exact supplied or verified name, subordinate and right-aligned
+    personal_signature: Only on explicit request, distinct from the author
+    additional_copy: Do not invent label information, album details, credits or filler prose.
+
+  Rules:
+    - Keep the full quotation prominent and readable at phone scale.
+    - Compose photography, typography, graphic masses and pauses together.
+    - Build a purposeful rhythm through scale and unequal intervals.
+    - Preserve natural glyphs, word spaces, accents and punctuation.
+    - Maintain coherent optical spacing within each register; never justify through local distortion.
+    - Make bands carry image fragments or supplied text, with unequal photographic heights as the default.
+    - Choose imagery from the quotation's subject or meaning, never from the Blue Note name alone.
+    - Keep palettes, subjects, crops and type direction adaptable.
+    - Use original imagery and arrangements instead of copied album designs.
+    - Distinguish visual affinity from archival photography or label affiliation.
+  Exclusions:
+    - Label logos, catalog numbers, stereo badges, invented credits or track listings
+    - Reference artist names, album titles, famous portraits or complete cover layouts
+    - Jazz-related imagery or iconography
+    - A compulsory blue palette, central musician, saxophone or cigarette
+    - Unreadable outlines, tiny connectors, individually squeezed words or cropped required text
+    - Decorative side stripes, unrelated solid-colour columns or arbitrary local tracking
+    - Repeated anatomy, stretched photo strips or disconnected scenes masquerading as one mosaic
+    - Neon, glossy 3D, frame mockups, heavy grunge or generic musical clipart
+
+  Production:
+    Preferred Mode: generative
+    Method: >
+      Use integrated ImageGen to generate the complete card, including
+      quotation, photographic crop, graphic structure and print surface.
+      A separately generated portrait inserted into a scripted template
+      does not establish the composed quote card.
+    Reference Inputs: >
+      Studies 1 through 4 use written specifications without image inputs.
+      Study 5 is an integrated ImageGen edit of the generated study 4;
+      that input preserves its subject, wording and print treatment during
+      a targeted recomposition. No matched A/B trial with and without
+      reference images has been performed. No permanent image-reference
+      dependency is adopted for new compositions.
+    Validation: >
+      Four initial complete generations explore different subjects,
+      palettes and structures. Study 5 edits study 4 into the photographic
+      strip mosaic and was approved by the user on 2026-10-26, with an
+      explicit reminder to preserve coherent letter spacing. The approved
+      direction is represented by study 5; earlier studies document
+      development rather than five independently validated applications
+      of the final rule. Its wording, grave accent, final punctuation,
+      reading order and optical spacing were visually checked at native
+      size and at 320 by 400 pixels. This raster review does not certify
+      an exact font or numerical kerning values. Notes record the actual
+      checks and superseded directions. A second quotation in the final
+      mosaic, long wording, attribution, other ratios and the secondary
+      composition families remain untested.
+
+Composition Library: composizioni.yaml

@@ -1,27 +1,46 @@
 schema_version: '1.0'
-catalog_version: 0.2.5
+catalog_version: 0.4.0
 visual_catalog_url: https://quote-card-designer-catalogo-v1.vincos.chatgpt.site
 defaults:
   ratio: '4:5'
   variants: 1
 families:
-- id: griglia-tipografia
-  name: Tipografia e geometria
-- id: disegno-tecnico-spazio
-  name: Disegno tecnico e spazio
-- id: collage-stampa
-  name: Collage, retini e stampa
-- id: illustrazione-repertori-storici
-  name: Repertori storici
-- id: segno-manuale-lettering
-  name: Segno e tecniche manuali
-- id: immagine-concettuale-materia
-  name: Immagine concettuale e materia
-- id: interfacce-cultura-web
-  name: Interfacce e cultura web
+- id: tipografia-editoriale
+  name: Tipografia e impaginazione
+  description: Caratteri, gerarchie e sovrapposizioni tipografiche costruiscono la composizione.
+- id: geometrie-pattern
+  name: Geometrie e pattern
+  description: Moduli, campiture, trame di segni e illusioni ottiche danno ritmo alla frase.
+- id: disegno-tecnico
+  name: Disegno tecnico e wireframe
+  description: Griglie spaziali, diagrammi, architetture e micrografica tecnica organizzano la pagina.
+- id: collage-fotomontaggio
+  name: Collage e fotomontaggio
+  description: Ritagli, fotografie e frammenti di carta si ricompongono in immagini inattese.
+- id: retini-stampa
+  name: Retini e stampa
+  description: Punti, pixel, sovrastampe e grana degli inchiostri sono il tratto visivo principale.
+- id: fotografia-atmosfere
+  name: Fotografia e atmosfere
+  description: Fotografie, soggetti materici e scene oniriche dialogano con la citazione.
+- id: luce-materiali
+  name: Luce e materiali
+  description: Riflessi, vetro, metallo, tessuti e campi di luce o colore caratterizzano la superficie.
+- id: disegno-lettering
+  name: Disegno e lettering
+  description: Matita, biro, china, pennello e acquerello lasciano un segno manuale riconoscibile.
+- id: illustrazione-decorazione
+  name: Illustrazione e decorazione
+  description: Sagome organiche, ornamenti, fumetti e mondi immaginati accompagnano la frase.
+- id: classici-incisioni
+  name: Classici e incisioni
+  description: Pagine miniate, incisioni, repertori classici e tradizioni illustrative ispirano la card.
+- id: cultura-digitale
+  name: Interfacce e cultura digitale
+  description: Finestre, editor, codici visivi del web, glitch e pannelli cyberpunk entrano nel progetto.
 styles:
 - id: neon-collage
-  family: collage-stampa
+  family: collage-fotomontaggio
   name: Digital Collage
   aliases:
   - neon
@@ -38,7 +57,7 @@ styles:
   - collage
   profile: references/styles/neon-collage/profilo.yaml
 - id: digital-blueprint
-  family: disegno-tecnico-spazio
+  family: disegno-tecnico
   name: Digital Blueprint
   aliases:
   - blueprint
@@ -55,7 +74,7 @@ styles:
   - modulare
   profile: references/styles/digital-blueprint/profilo.yaml
 - id: playground-graffiti
-  family: segno-manuale-lettering
+  family: disegno-lettering
   name: Graffiti
   aliases:
   - playground
@@ -72,7 +91,7 @@ styles:
   - palette variabile
   profile: references/styles/playground-graffiti/profilo.yaml
 - id: mixed-media-editorial
-  family: collage-stampa
+  family: collage-fotomontaggio
   name: Vintage Collage
   aliases:
   - mixed media
@@ -89,25 +108,8 @@ styles:
   - editoriale
   - mixed media
   profile: references/styles/mixed-media-editorial/profilo.yaml
-- id: ethereal-editorial
-  family: immagine-concettuale-materia
-  name: Ethereal Editorial
-  aliases:
-  - ethereal
-  - ethereal editorial
-  - etereo
-  - etereo editoriale
-  summary: 'Fotografia onirica poco definita: presenze luminose, contorni incompleti, sfocature e grana,
-    con tipografia delicata e palette variabile.'
-  tags:
-  - etereo
-  - onirico
-  - sfocato
-  - fotografico
-  - luminoso
-  profile: references/styles/ethereal-editorial/profilo.yaml
 - id: raster-drift
-  family: collage-stampa
+  family: retini-stampa
   name: Pixel Field
   aliases:
   - pixel field
@@ -126,7 +128,7 @@ styles:
   - stampa
   profile: references/styles/raster-drift/profilo.yaml
 - id: dynamic-gradient
-  family: immagine-concettuale-materia
+  family: luce-materiali
   name: Dynamic Gradient
   aliases:
   - dynamic gradient
@@ -142,7 +144,7 @@ styles:
   - editoriale
   profile: references/styles/dynamic-gradient/profilo.yaml
 - id: vintage-scientific-illustration
-  family: illustrazione-repertori-storici
+  family: classici-incisioni
   name: Vintage Scientific Illustration
   aliases:
   - vintage scientific illustration
@@ -159,7 +161,7 @@ styles:
   - editoriale
   profile: references/styles/vintage-scientific-illustration/profilo.yaml
 - id: renaissance-classical
-  family: illustrazione-repertori-storici
+  family: classici-incisioni
   name: Classical Roman
   aliases:
   - renaissance classical
@@ -177,7 +179,7 @@ styles:
   - editoriale
   profile: references/styles/renaissance-classical/profilo.yaml
 - id: medieval-folio
-  family: illustrazione-repertori-storici
+  family: classici-incisioni
   name: Medieval Folio
   aliases:
   - medieval folio
@@ -195,7 +197,7 @@ styles:
   - pergamena
   profile: references/styles/medieval-folio/profilo.yaml
 - id: blue-chinoiserie
-  family: illustrazione-repertori-storici
+  family: classici-incisioni
   name: Chinese Illustration
   aliases:
   - blue chinoiserie
@@ -203,8 +205,8 @@ styles:
   - porcellana blu
   - toile de jouy blu
   - chinese illustration
-  summary: 'Illustrazione di ispirazione cinese: incisioni e acquerelli monocromi incorniciano una citazione
-    serif leggibile.'
+  summary: Illustrazione di ispirazione cinese in blu monocromo, con dettagli marginali contenuti e un
+    ampio campo chiaro per la citazione serif.
   tags:
   - chinoiserie
   - acquerello
@@ -212,46 +214,8 @@ styles:
   - botanica
   - paesaggio
   profile: references/styles/blue-chinoiserie/profilo.yaml
-- id: cinema-editorial
-  family: immagine-concettuale-materia
-  name: Cinema Editorial
-  aliases:
-  - cinematic
-  - cinematic editorial
-  - cinema
-  - cinema editorial
-  summary: 'Poster cinematografico in bianco e nero: sans condensata, scena fotografica originale e grana
-    analogica marcata.'
-  tags:
-  - cinema
-  - cinematic
-  - bianco e nero
-  - grana analogica
-  - poster
-  - fotografico
-  profile: references/styles/cinema-editorial/profilo.yaml
-- id: monochrome-newspaper
-  family: collage-stampa
-  name: Newspaper
-  aliases:
-  - monochrome newspaper
-  - giornale monocromatico
-  - quotidiano in bianco e nero
-  - newsprint
-  - newspaper print
-  - newspaper
-  summary: Titolo serif da quotidiano, carta newsprint e immagini fotografiche o illustrate con retino
-    visibile.
-  tags:
-  - quotidiano
-  - newsprint
-  - serif
-  - halftone
-  - fotografia
-  - editoriale
-  profile: references/styles/monochrome-newspaper/profilo.yaml
 - id: child-design
-  family: segno-manuale-lettering
+  family: illustrazione-decorazione
   name: Child Design
   aliases:
   - child design
@@ -260,8 +224,8 @@ styles:
   - stile naïf
   - crayon lettering
   - pastello a cera
-  summary: Illustrazione naïf con segni a pastello visibili e lettering manuale latino; soggetti e tavolozza
-    variano in base alla frase.
+  summary: Illustrazione naïf semplice, con poche forme a pastello e lettering manuale leggibile, allineato
+    e con spaziatura regolare.
   tags:
   - naïf
   - pastello
@@ -271,7 +235,7 @@ styles:
   - editoriale
   profile: references/styles/child-design/profilo.yaml
 - id: watercolor
-  family: segno-manuale-lettering
+  family: disegno-lettering
   name: Watercolor
   aliases:
   - watercolor
@@ -289,98 +253,747 @@ styles:
   - brush lettering
   - pennellata
   profile: references/styles/watercolor/profilo.yaml
-- id: architectural-isometric
-  family: disegno-tecnico-spazio
-  name: Architectural Isometric
-  aliases:
-  - architectural isometric
-  - isometrico architettonico
-  - architettura isometrica
-  - isometric architecture
-  summary: Geometrie architettoniche isometriche, sans-serif lineare e palette adattata al tema della
-    frase.
-  tags:
-  - isometrico
-  - architettura
-  - geometria
-  - modulare
-  - palette adattiva
-  - editoriale
-  profile: references/styles/architectural-isometric/profilo.yaml
 - id: retro-ui
-  family: interfacce-cultura-web
+  family: cultura-digitale
   name: Retro UI
   aliases:
   - retro ui
   - retro computer
-  - interfaccia anni novanta
-  - windows anni 90
-  summary: Finestre desktop anni Novanta, citazione monospace, contorni e ombre nette; colori variabili
-    secondo il contenuto.
+  - desktop bitmap
+  - interfaccia retro
+  - desktop monocromatico
+  - desktop pastello
+  summary: 'Desktop bitmap con finestre diseguali, barre a righe, retini e pittogrammi; frase protagonista
+    in un registro monocromatico o pastello.
+
+    '
   tags:
   - retro
   - interfaccia
-  - anni novanta
-  - monospace
+  - bitmap
+  - desktop
+  - retino
   - quote card
   profile: references/styles/retro-ui/profilo.yaml
 - id: internet-nostalgia
-  family: interfacce-cultura-web
+  family: cultura-digitale
   name: Y2K
   aliases:
+  - y2k
   - internet nostalgia
+  - y2k chrome
+  - y2k olografico
+  - y2k lucido
   - web anni 2000
-  - homepage anni 2000
-  - y2k web
-  - y2k
-  summary: Collage web dei primi anni Duemila, sticker e clip-art intorno a una citazione in font pixel.
+  summary: Lettering cromato con riflessi olografici controllati, capitalizzazione fedele e pochi richiami
+    grafici alle interfacce dei primi Duemila.
   tags:
-  - internet
-  - nostalgia
+  - y2k
   - anni 2000
-  - pixel
-  - collage
+  - cromo
+  - olografico
+  - iridescente
+  - lucido
+  - interfacce
   - quote card
-  - y2k
-  - font pixel
   profile: references/styles/internet-nostalgia/profilo.yaml
-- id: grottesco-editoriale-doppia-lettura
-  family: griglia-tipografia
-  name: Modern Minimalism
+- id: dada-black
+  family: collage-fotomontaggio
+  name: Dada
   aliases:
-  - grottesco editoriale
-  - doppia lettura
-  - poster a doppia scala
-  - grottesco tipografico
-  - grottesco editoriale a doppia lettura
-  - modern minimalism
-  summary: 'Due masse tipografiche a scala diversa: citazione completa ed estratto letterale ingrandito,
-    sans-serif lineare, asse sinistro comune e griglia editoriale a quattro colonne. Variante facoltativa
-    con una sola parola serif corsiva.'
+  - dada
+  - dada black
+  - collage dada
+  summary: 'Carta strappata, tipografia ritagliata e fotomontaggi surreali: immagini e parole ricomposte
+    con materia, colore libero e imperfezioni intenzionali.'
   tags:
-  - tipografico
-  - grottesco
+  - collage
+  - carta
+  - vintage
   - editoriale
-  - modernista
-  - doppia lettura
-  - palette variabile
-  - minimalismo
-  - asimmetria
-  - sans-serif
-  profile: references/styles/grottesco-editoriale-doppia-lettura/profilo.yaml
-- id: editor-canvas
-  family: interfacce-cultura-web
-  name: Editor Canvas
+  - sperimentale
+  - fotomontaggio
+  - surreale
+  profile: references/styles/dada-black/profilo.yaml
+- id: neo-industrial
+  family: disegno-tecnico
+  name: Neo Industrial Editorial
   aliases:
-  - editor canvas
-  - editor canvas
-  - editorial canvas
-  summary: 'La citazione come oggetto in un editor grafico: selezioni, maniglie, guide, puntatore ed evidenziazioni
-    coordinate.'
+  - neoindustriale
+  - neoindustrial
+  - neo-industriale
+  - neo-industrial
+  - neo industrial
+  - neo-industrial graphic design
+  summary: 'Tipografia forte su grigio e arancio preferenziali, con pochi gruppi di micrografica industriale
+    distribuiti nella pagina: nodi, terminali, parentesi e segni di calibrazione.'
+  tags:
+  - modulare
+  - tecnico
+  - geometrico
+  - tipografico
+  - editoriale
+  - micrographics
+  - micrografica industriale
+  profile: references/styles/neo-industrial/profilo.yaml
+- id: wireframe-library
+  family: disegno-tecnico
+  name: Signal Atlas
+  aliases:
+  - signal atlas
+  - wireframe
+  - wireframe library
+  - mesh
+  - libreria wireframe
+  summary: 'Sistema editoriale tecnico: tipografia forte, campi ottici, geometrie spaziali e pochi segnali
+    di orientamento. Mesh, griglie e cornici costruiscono una relazione con la frase.'
+  tags:
+  - wireframe
+  - mesh
+  - campo ottico
+  - segnali
+  - prospettiva
+  - tecnico
+  - y2k
+  profile: references/styles/wireframe-library/profilo.yaml
+- id: symbol-loom
+  family: geometrie-pattern
+  name: Symbol Loom
+  aliases:
+  - symbol loom
+  - trama simbolica
+  - pattern di simboli
+  summary: Una citazione grande interrompe una trama modulare di piccoli segni geometrici ripetuti. Ritmo,
+    gruppi e vuoti cambiano a ogni card.
+  tags:
+  - geometrico
+  - tipografico
+  - sperimentale
+  - modulare
+  - pattern
+  profile: references/styles/symbol-loom/profilo.yaml
+- id: editorial-interlock
+  family: fotografia-atmosfere
+  name: Editorial Interlock
+  aliases:
+  - editorial interlock
+  - intreccio editoriale
+  - copertina magazine
+  - soggetto e tipografia
+  summary: Una frase monumentale e un soggetto materico centrale si intrecciano con occlusioni leggibili,
+    ancoraggi asimmetrici e direzione editoriale da copertina.
+  tags:
+  - editoriale
+  - tipografia
+  - materia
+  - intreccio
+  - magazine
+  profile: references/styles/editorial-interlock/profilo.yaml
+- id: cyberpunk-editorial
+  family: cultura-digitale
+  name: Cyberpunk Editorial
+  aliases:
+  - cyberpunk
+  - cyberpunk editorial
+  - cyberpunk panels
+  - pannelli cyberpunk
+  - sci-fi panels
+  - cyber graphics
+  summary: Frase dominante in nero e grigio, pannelli smussati, piste con nodi, chevron, retini e stampa
+    consumata. Dettagli astratti, senza personaggi o cyborg.
+  tags:
+  - cyberpunk
+  - pannelli
+  - tipografia tecnica
+  - monocromatico
+  - retini
+  - stampa consumata
+  profile: references/styles/cyberpunk-editorial/profilo.yaml
+- id: oneiric-glow
+  family: fotografia-atmosfere
+  name: Oneiric Glow
+  aliases:
+  - onirico glow
+  - glow onirico
+  - oneiric glow
+  - dream glow
+  - presenza luminosa
+  summary: Presenze dal nucleo quasi bianco illuminano uno spazio fotografico scuro e granuloso, con tipografia
+    editoriale e accenti corsivi. Blu notte preferito; prove con figure, animale e pianta.
+  tags:
+  - onirico
+  - glow
+  - luce
+  - fotografia
+  - grana
+  - editoriale
+  profile: references/styles/oneiric-glow/profilo.yaml
+- id: glitch-editorial
+  family: cultura-digitale
+  name: Glitch Editorial
+  aliases:
+  - glitch
+  - glitch art
+  - glitch editorial
+  - segnale corrotto
+  - signal decay
+  summary: Immagini e caratteri attraversati da strappi di segnale e rumore; lettering preferito della
+    proposta A ripreso nella composizione B.
+  tags:
+  - glitch
+  - RGB
+  - distorsione
+  - segnale
+  - rumore
+  - digitale
+  - editoriale
+  profile: references/styles/glitch-editorial/profilo.yaml
+- id: prismatic-flutes
+  family: luce-materiali
+  name: Prismatic Flutes
+  aliases:
+  - prismatic flutes
+  - vetro scanalato
+  - vetro rigato
+  - reeded glass
+  - fluted gradient
+  - gradiente scanalato
+  summary: Campi di luce sfocati e scanalature verticali rifrangenti; la luce posteriore del vetro interagisce
+    con le lettere applicate mantenendo leggibile la citazione.
+  tags:
+  - vetro scanalato
+  - rifrazione
+  - gradiente
+  - luce
+  - grana
+  - astratto
+  - editoriale
+  profile: references/styles/prismatic-flutes/profilo.yaml
+- id: ukiyo-e-editorial
+  family: classici-incisioni
+  name: Ukiyo-e Editorial
+  aliases:
+  - ukiyo-e
+  - ukiyo-e editorial
+  - stampa giapponese
+  - woodblock giapponese
+  - lettering a pennello
+  summary: Carta washi, contorni e campiture da xilografia e lettering latino a pennello ispirato alla
+    calligrafia giapponese.
+  tags:
+  - ukiyo-e
+  - washi
+  - xilografia
+  - lettering a pennello
+  - editoriale
+  - botanica
+  profile: references/styles/ukiyo-e-editorial/profilo.yaml
+- id: neo-risograph
+  family: retini-stampa
+  name: Risograph
+  aliases:
+  - neo risograph
+  - neo-risograph
+  - risograph
+  - riso
+  - risoprint
+  - risograph editoriale
+  - risografia
+  - stampa risograph
+  summary: Pochi frammenti fotografici stratificati su carta non patinata, con grana fine e copertura
+    irregolare. Include sempre overprint con mescolanza visibile degli inchiostri.
+  tags:
+  - risograph
+  - risografia
+  - stampa
+  - fotografia
+  - grana fine
+  - inchiostri spot
+  - overprint
+  - carta non patinata
+  profile: references/styles/neo-risograph/profilo.yaml
+- id: type-overprint
+  family: tipografia-editoriale
+  name: Type Overprint
+  aliases:
+  - type overprint
+  - sovrastampa tipografica
+  - lettere trasparenti
+  - numeri sovrapposti
+  - glifi sovrapposti
+  summary: 'Glifi monumentali in inchiostri trasparenti mostrano aste e controforme riconoscibili senza
+    formare parole; la citazione compare una sola volta in un registro distinto.
+
+    '
   tags:
   - tipografico
-  - editor
-  - selezione
-  - interfaccia
+  - sovrastampa
+  - trasparenza
+  - lettere
+  - numeri
   - palette variabile
-  profile: references/styles/editor-canvas/profilo.yaml
+  profile: references/styles/type-overprint/profilo.yaml
+- id: dirty-brutalism
+  family: tipografia-editoriale
+  name: Dirty Brutalism
+  aliases:
+  - dirty brutalism
+  - brutalismo sporco
+  - xerox brutalism
+  - brutalismo xerografico
+  summary: 'Tipografia condensata massiccia, superfici xerografiche granulose e carta segnata; un margine
+    netto separa la citazione dalla fotografia.
+
+    '
+  tags:
+  - brutalismo
+  - tipografia condensata
+  - xerografia
+  - grana
+  - editoriale
+  - palette variabile
+  profile: references/styles/dirty-brutalism/profilo.yaml
+- id: duotone-editorial
+  family: retini-stampa
+  name: Duotone Halftone
+  aliases:
+  - duotone
+  - duotone editorial
+  - bicromia
+  - bicromia fotografica
+  - duotono
+  - duotone halftone
+  - duotono halftone
+  - duotone retinato
+  - bicromia retinata
+  summary: Fotografia riconoscibile ricostruita con retino tondo ben visibile anche in anteprima ridotta,
+    in due colori a forte contrasto; citazione in sovraimpressione.
+  tags:
+  - duotone
+  - bicromia
+  - fotografico
+  - stampa
+  - retino
+  - contrasti cromatici
+  - sovraimpressione
+  profile: references/styles/duotone-editorial/profilo.yaml
+- id: halftone-editorial-bw
+  family: retini-stampa
+  name: Halftone B/W
+  aliases:
+  - retino editoriale
+  - stampa retinata
+  - halftone underground
+  - dirty halftone
+  - retino underground
+  - halftone black and white
+  - halftone bianco e nero
+  summary: Fotografia in bianco e nero costruita da un retino tondo molto evidente, leggibile anche in
+    anteprima ridotta; testo in sovraimpressione, luci aperte e neri compatti.
+  tags:
+  - halftone
+  - retino
+  - stampa
+  - editoriale
+  - fotografico
+  - underground
+  - sovraimpressione
+  - stampa sporca
+  profile: references/styles/halftone-editorial-bw/profilo.yaml
+- id: ascii-editorial
+  family: tipografia-editoriale
+  name: ASCII Editorial
+  aliases:
+  - ascii
+  - ascii editorial
+  - ascii art
+  - arte ascii
+  summary: Un’immagine figurativa costruita con caratteri monospace apre il campo della citazione, anch’essa
+    in mono bold. Densità, glifi e vuoti creano una composizione condivisa.
+  tags:
+  - ascii
+  - monospace
+  - caratteri
+  - figurativo
+  - computazionale
+  - editoriale
+  profile: references/styles/ascii-editorial/profilo.yaml
+- id: organic
+  family: illustrazione-decorazione
+  name: Organic
+  aliases:
+  - organic
+  - organico
+  - botanica organica
+  - organic cutout
+  summary: Sagome botaniche e biomorfe grandi, colori piatti opachi e vuoti attivi su carta. Una sans
+    corposa guida la lettura, con ritmo asimmetrico e texture di stampa leggera.
+  tags:
+  - organico
+  - botanica
+  - biomorfo
+  - ritagli
+  - stampa
+  - editoriale
+  profile: references/styles/organic/profilo.yaml
+- id: folk-art
+  family: illustrazione-decorazione
+  name: Folk Art
+  aliases:
+  - folk art
+  - folk
+  - arte popolare
+  - folk dipinto
+  summary: Lettere dipinte e ornamenti botanici su carta opaca. Rami, fiori e figure scelte dalla frase
+    creano un equilibrio vivo, con piccoli dettagli e pigmenti coordinati.
+  tags:
+  - folk
+  - ornamento
+  - dipinto
+  - botanica
+  - artigianale
+  - editoriale
+  profile: references/styles/folk-art/profilo.yaml
+- id: retro-futurism-art
+  family: collage-fotomontaggio
+  name: Retro-futurism Art
+  aliases:
+  - retro-futurism art
+  - retro futurism
+  - retrofuturismo
+  - retrofuturism
+  - space art retro
+  summary: Collage cosmico psichedelico con frammenti analogici, colori alterati e scale incompatibili.
+    Grana densa da stampa e lettering grafico, coerente con il collage, partecipano allo stesso mondo
+    surreale.
+  tags:
+  - retrofuturismo
+  - cosmico
+  - collage
+  - psichedelico
+  - analogico
+  - fantascienza
+  - illustrazione
+  - stampa
+  - editoriale
+  profile: references/styles/retro-futurism-art/profilo.yaml
+- id: occult-editorial
+  family: classici-incisioni
+  name: Occult Editorial
+  aliases:
+  - occult
+  - occulto
+  - occultism art
+  - occult art
+  - occult editorial
+  - occultismo
+  - incisione esoterica
+  summary: Incisioni arcane bianche su nero opaco, cornici consumate e segni simbolici. La frase entra
+    in una pagina occulta materica, con tratteggi irregolari e stampa abrasa.
+  tags:
+  - occulto
+  - esoterico
+  - grimorio
+  - carta consumata
+  - alchimia
+  - incisione
+  - simbolico
+  - geometria
+  - editoriale
+  profile: references/styles/occult-editorial/profilo.yaml
+- id: futurismo-italiano
+  family: illustrazione-decorazione
+  name: Futurismo Italiano
+  aliases:
+  - futurismo italiano
+  - italian futurism
+  - manifesto futurista
+  - grafica futurista
+  - futurismo
+  summary: Diagonali, volumi sfaccettati e ritmi di movimento uniscono frase e illustrazione in un manifesto
+    grafico dalla materia di stampa opaca.
+  tags:
+  - futurismo
+  - dinamismo
+  - manifesto
+  - illustrazione
+  - diagonali
+  - stampa
+  - quote card
+  profile: references/styles/futurismo-italiano/profilo.yaml
+- id: blue-note
+  family: fotografia-atmosfere
+  name: Blue Note
+  aliases:
+  - blue note
+  - jazz modernist
+  - jazz sleeve
+  - bande fotografiche
+  summary: Una fotografia legata al significato della frase si ricompone in bande verticali di altezze
+    diverse. Le aperture accolgono la citazione, con tipografia forte, pause di carta e grana di stampa.
+  tags:
+  - fotografia
+  - duotono
+  - bande
+  - mosaico
+  - tipografia
+  - stampa
+  profile: references/styles/blue-note/profilo.yaml
+- id: handwritten
+  family: fotografia-atmosfere
+  name: Handwritten
+  aliases:
+  - handwritten
+  - scrittura a mano
+  - fotografia annotata
+  - handwritter
+  summary: Fotografia analogica 35mm o istantanea interamente virata in un colore, con grana controllata
+    e scrittura manuale irregolare. Inchiostro sempre distinto dal viraggio per colore e luminosità.
+  tags:
+  - fotografico
+  - handwritten
+  - manuale
+  - analogico
+  - 35mm
+  - monocromatico
+  - grana
+  profile: references/styles/handwritten/profilo.yaml
+- id: psychedelic-art
+  family: illustrazione-decorazione
+  name: Psychedelic Art
+  aliases:
+  - psychedelic art
+  - psychedelic
+  - psichedelia art
+  - psichedelia
+  - poster psichedelico
+  summary: Lettere elastiche e svasate abitano campi fluidi, condividendo ritmo e contorni con l’illustrazione.
+    Ispirazione ai poster psichedelici, con frase dominante e leggibile.
+  tags:
+  - psichedelico
+  - lettering
+  - organico
+  - poster
+  - stampa
+  - illustrazione
+  profile: references/styles/psychedelic-art/profilo.yaml
+- id: lowbrow
+  family: illustrazione-decorazione
+  name: Lowbrow
+  aliases:
+  - lowbrow
+  - lowbrow anni 70
+  - cartoon underground
+  - grottesco underground
+  summary: Caricature elastiche, oggetti animati e umorismo grottesco da cultura underground. Lettering
+    disegnato e contorni marcati condividono inchiostri piatti e materia di stampa.
+  tags:
+  - lowbrow
+  - underground
+  - cartoon
+  - grottesco
+  - lettering
+  - stampa
+  profile: references/styles/lowbrow/profilo.yaml
+- id: vintage-horror
+  family: illustrazione-decorazione
+  name: Vintage Horror
+  aliases:
+  - vintage horror
+  - horror vintage
+  - locandina horror
+  - horror show
+  summary: La frase diventa il titolo di una locandina horror d’epoca, con lettering irregolare, blocchi
+    condensati, figure a inchiostro e pochi colori da stampa economica.
+  tags:
+  - horror
+  - vintage
+  - locandina
+  - lettering
+  - stampa
+  - illustrazione
+  profile: references/styles/vintage-horror/profilo.yaml
+- id: symbolic-modernism
+  family: geometrie-pattern
+  name: Symbolic Modernism
+  aliases:
+  - modernismo simbolico
+  - symbolic modernism
+  - emblema modernista
+  - emblema geometrico
+  - poster concettuale flat
+  summary: Una frase diventa un simbolo essenziale, con forme geometriche semplici, pieni e vuoti, campiture
+    flat e tipografia forte. Colore e soggetto seguono l'idea.
+  tags:
+  - geometria
+  - simbolo
+  - concettuale
+  - modernismo
+  - flat
+  - colore
+  - tipografia
+  profile: references/styles/symbolic-modernism/profilo.yaml
+- id: neo-swiss
+  family: tipografia-editoriale
+  name: Neo Swiss
+  aliases:
+  - neo swiss
+  - neo-swiss
+  - swiss
+  - svizzero
+  - neo svizzero
+  summary: 'Tipografia svizzera contemporanea: composizioni da poster, griglia implicita, asimmetria e
+    contrasti di scala. Palette variabile.'
+  tags:
+  - svizzero
+  - tipografico
+  - griglia
+  - editoriale
+  - asimmetria
+  - grotesk
+  profile: references/styles/neo-swiss/profilo.yaml
+- id: ink-and-margin
+  family: disegno-lettering
+  name: Ink
+  aliases:
+  - ink
+  - ink and margin
+  - ink & margin
+  - ink e margin
+  - inchiostro e margini
+  summary: Scrittura a inchiostro protagonista, sbavature naturali e un disegno ispirato alla frase, su
+    carta con ampi spazi vuoti. Palette variabile.
+  tags:
+  - inchiostro
+  - serif
+  - letterario
+  - carta
+  - minimale
+  profile: references/styles/ink-and-margin/profilo.yaml
+- id: pencil
+  family: disegno-lettering
+  name: Pencil
+  aliases:
+  - pencil
+  - matita
+  - grafite
+  - graphite pencil
+  summary: 'Lettering a matita in costruzione: contorni ripetuti, segni più calcati e tracce leggere raccontano
+    la ricerca della forma.'
+  tags:
+  - matita
+  - grafite
+  - disegno
+  - carta
+  - minimale
+  profile: references/styles/pencil/profilo-costruzione.yaml
+- id: ballpen
+  family: disegno-lettering
+  name: Ballpen
+  aliases:
+  - ballpen
+  - ballpoint
+  - penna a sfera
+  - biro
+  summary: Frase protagonista scritta a biro, con ripassi, tratteggi e scarabocchi irregolari; piccoli
+    segni colorati e un disegno secondario animano la pagina.
+  tags:
+  - ballpen
+  - biro
+  - lettering
+  - disegno
+  - caotico
+  - inchiostro
+  - palette variabile
+  profile: references/styles/ballpen/profilo-testo-protagonista.yaml
+- id: photo-type-split
+  family: fotografia-atmosfere
+  name: Photo Type Split
+  aliases:
+  - photo type split
+  - foto nelle lettere
+  - fotografia a metà
+  - maschera tipografica
+  - foto e testo divisi
+  summary: Una stessa fotografia continua da un lato aperto dentro le lettere sull'altro lato, con un
+    asse netto e un fondo piatto. Il soggetto segue la frase, anche con oggetti.
+  tags:
+  - fotografia
+  - tipografia
+  - maschera
+  - split
+  - oggetti
+  - condensato
+  profile: references/styles/photo-type-split/profilo.yaml
+- id: photo-type-monument
+  family: fotografia-atmosfere
+  name: Photo Type Monument
+  aliases:
+  - photo type monument
+  - foto tipografica monumentale
+  - fotografia a lettere giganti
+  - maschera fotografica a pagina intera
+  - parole fotografiche monumentali
+  summary: Una fotografia continua riempie lettere monumentali su quasi tutta la pagina, con fondo piatto
+    fuori dai glifi. Persone o oggetti seguono il significato della frase.
+  tags:
+  - fotografia
+  - tipografia monumentale
+  - photo mask
+  - pagina intera
+  - oggetti
+  - condensato
+  profile: references/styles/photo-type-monument/profilo.yaml
+- id: ink-drip
+  family: disegno-lettering
+  name: Ink Drip
+  aliases:
+  - ink drip
+  - inchiostro che cola
+  - inchiostro colato
+  - colature di inchiostro
+  summary: Inchiostro fluido e traslucido, assorbimento nella carta e colature che nascono dalle lettere.
+    Priorità al realismo della materia; pigmento e fondo variabili.
+  tags:
+  - inchiostro
+  - colature
+  - pennello
+  - scrittura
+  - gravità
+  - palette variabile
+  profile: references/styles/ink-drip/profilo.yaml
+- id: type-blur
+  family: tipografia-editoriale
+  name: Type Blur
+  aliases:
+  - type blur
+  - tipografia sfocata
+  - sfocatura selettiva del testo
+  - lettere a fuoco alterno
+  summary: Tipografia sperimentale con passaggi credibili fra nitido e sfocato dentro le parole. Priorità
+    al realismo ottico, con ancoraggi di lettura chiari.
+  tags:
+  - tipografia
+  - sfocatura selettiva
+  - rifrazione
+  - sperimentale
+  - nitidezza
+  - palette variabile
+  profile: references/styles/type-blur/profilo.yaml
+- id: graphite-negative
+  family: disegno-lettering
+  name: Graphite Negative
+  aliases:
+  - graphite negative
+  - grafite in negativo
+  - scarabocchi a matita
+  summary: La frase emerge come carta chiara da un intreccio di scarabocchi a matita; i segni ne definiscono
+    le lettere per contrasto.
+  tags:
+  - grafite
+  - matita
+  - scarabocchi
+  - lettering
+  - negativo
+  - sperimentale
+  profile: references/styles/graphite-negative/profilo.yaml

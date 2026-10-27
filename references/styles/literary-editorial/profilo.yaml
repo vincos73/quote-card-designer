@@ -1,0 +1,172 @@
+Design Style:
+  Name: Literary Editorial
+  Status: Exploratory gallery profile; user not convinced; explicitly excluded from V1 candidates
+  User Decision: >
+    On 2026-10-26 the user requested inclusion in the gallery without
+    candidate status. Preserve both exploratory applications. Gallery
+    visibility is not approval of this direction for the V1 release.
+  Concept: >
+    A quotation takes the pace and typographic care of a contemporary
+    literary quarterly or essay collection. Bookish serif letterforms,
+    selective true italic, generous margins and deliberate line breaks
+    make reading itself the principal visual experience. The current
+    exploration gives that page a more specific identity through a
+    functional annotation margin, a typographic callout and a literal
+    fragment that is visibly connected to its place in the quotation.
+  Reference Basis:
+    Sources: ricerca.md
+    Transfer: >
+      Transfer the relationship between reading type, page proportion,
+      restrained hierarchy and printed material. The source publications
+      have distinct identities, rather than constituting one historical
+      style or a single layout to reproduce.
+    Independence: >
+      Do not reproduce a publisher's mark, custom typeface, cover layout,
+      title, author or identifying colour system. Reference images inform
+      the written direction; they are not mandatory generation inputs.
+  Canvas:
+    Ratio: '4:5'
+    Output: One complete flat quote card
+    Adaptation: >
+      Recompose margins, line breaks and the reading field for each ratio.
+      Preserve the sentence and a substantial reading size.
+  Mood: [Attentive, Literary, Intimate, Lucid, Assured, Tactile, Contemporary]
+  Color Palette:
+    Fixed Colors: false
+    Strategy: >
+      Prefer a limited, readable ink system with one dominant reading ink
+      and an optional restrained accent. A light paper field is a useful
+      starting point; darker fields or other palettes remain possible
+      when the quotation and local contrast support them.
+    First Study:
+      Paper: '#F3EBDD'
+      Reading Ink: '#492C32'
+      Accent: '#A74839'
+    Overrides: >
+      Replace study hues as a coherent system. Warm ivory, oxblood and
+      vermilion describe the first application rather than a permanent
+      three-colour requirement.
+  Typography:
+    Main Reading: >
+      Use a substantial Western old-style or transitional book serif
+      with open counters, natural proportions and controlled contrast.
+      Mixed case is a useful starting point; supplied case remains exact.
+      Use the chosen family's related true italic for a meaningful group
+      rather than assembling unrelated display voices.
+    Hierarchy: >
+      Let semantic groups, upright and italic, a few deliberate scale
+      relationships and unequal natural line lengths provide emphasis.
+      The full quotation remains the primary verbal layer, normally once.
+      In the annotated-page family a short literal excerpt may appear
+      once more in a clearly subordinate margin, linked to the original
+      words. This deliberate echo must not replace any part of the main
+      quotation or introduce invented explanatory prose.
+    Spacing: >
+      Maintain coherent optical rhythm within each register, natural word
+      spaces and sufficient line separation. Pair-specific optical
+      compensations are appropriate. Avoid arbitrary tracking, forced
+      justification, individually compressed words or stretched glyphs
+      used to fill the remaining width. Adjust line breaks or scale a
+      whole register instead.
+    Attribution: >
+      Use only an exact supplied or verified name, clearly smaller and
+      quieter than the quotation, readable and right-aligned to a clear
+      right edge. Omit the name and its reserved space when absent.
+    Font Fidelity: >
+      A generated serif direction does not certify an exact typeface,
+      licensed font asset, editable text or numerical kerning values.
+  Layout:
+    Current Exploration: >
+      After finding the first serif-and-paper study insufficiently
+      distinctive, the user requested another example. Test annotated-page
+      as a recognisable literary mechanism: a complete reading column,
+      a separate marginal voice and one precise connection between them.
+      This direction remains an exploration. The user requested gallery
+      display without V1 candidate status, rather than endorsing a final
+      literary identity.
+    Reading: >
+      Build one immediate reading route through a connected field.
+      Keep clauses and natural word groups together. An italic ending
+      may provide a final cadence without disconnecting a necessary word.
+    Margins: >
+      Treat margins and pauses as intentional page proportions. The
+      quotation must remain substantial at phone scale; literary restraint
+      does not justify making it a tiny paragraph in a largely empty card.
+    Anchors: >
+      Establish a clear left or central axis and consistent relations
+      between text, any rule and optional subordinate visual. Let line
+      lengths vary naturally rather than making an artificial rectangle.
+    Variation: >
+      Choose the page structure from the actual quotation. A reading
+      column, a balanced centred setting or a subordinate image may each
+      belong to this language. Do not require the same four lines,
+      margins, ink tab, italic words or placement in every application.
+      In an annotated page, change the selected excerpt, marginal position
+      and callout scale according to meaning. One functioning annotation
+      system is enough; do not accumulate unrelated editorial ornaments.
+  Graphic Elements:
+    Repertoire: >
+      An exceptionally restrained rule or small ink tab may clarify an
+      actual page anchor. A meaningful initial may remain part of the
+      first word. Such details are optional and must not duplicate the
+      whole quotation, simulate a publication identity or interrupt reading.
+    Marginalia: >
+      A substantial typographic asterisk or related callout can establish
+      the page's silhouette. A fine rule, bracket or underline must connect
+      an actual quoted fragment to its literal marginal echo. These are
+      editorial annotation signs, not a light sparkle, logo or random
+      ornament. Keep every necessary word in the main reading column.
+    Imagery: >
+      Typography may carry the complete card. When a visual is useful,
+      choose an original subordinate fragment tied to the quotation and
+      design its relation to the reading field. Books, quills, coffee,
+      botanicals and portraits are not compulsory literary symbols.
+  Effects:
+    Surface: >
+      Subtle uncoated paper tooth and slight printed ink bite, with
+      clean contemporary edges and readable thin strokes. Texture stays
+      subordinate to the letterforms.
+    Depth: Flat print; no perspective, frame mockup or glossy dimensional lettering
+  Content Contract:
+    quote: Complete literal sentence, including supplied case, accents and punctuation
+    author: Optional exact supplied or verified name, subordinate and right-aligned
+    personal_signature: Only on explicit request, separate from attribution
+    additional_copy: >
+      Do not invent mastheads, issue details, folios, labels or filler
+      prose. The annotated-page family permits one clearly subordinate
+      literal excerpt of the supplied quotation, repeated as a marginal note.
+  Rules:
+    - Keep the full quotation substantial, connected and readable at phone scale.
+    - Use a coherent serif voice and selective related italic for meaningful emphasis.
+    - Preserve natural glyphs, optical spacing, word spaces and punctuation.
+    - Let margins, unequal line lengths and page anchors create the composition.
+    - Keep subjects, ink colours, line count and page structure adaptable.
+  Exclusions:
+    - Publisher logos, copied covers, invented author names or publication metadata
+    - Arbitrary tracking, forced justification or local word distortion
+    - Required antique parchment, heavy ageing, distressed lettering or ornamental frames
+    - Unreadable hairline type, generic quotation icons, excess swashes or glossy 3D
+  Production:
+    Preferred Mode: generative
+    Method: >
+      Generate the complete quote-card composition with integrated
+      ImageGen, including lettering, hierarchy, page structure and surface.
+    Reference Inputs: >
+      The first two studies use written specifications and no image inputs.
+      No matched A/B trial has established a permanent reference dependency.
+    Validation: >
+      Two complete applications were generated without image inputs and
+      inspected at native 1122 by 1402 pixels and at 320 by 400. Complete
+      wording, relevant accents and punctuation, reading order and
+      optical spacing were visually checked.
+      The user considered that first study insufficiently distinctive.
+      The second composition tests a different original quotation and a
+      functional marginal annotation. Its actual output and observed
+      checks are recorded separately in note-2.md. These raster checks
+      do not certify an exact font or
+      numerical kerning. Attribution, other ratios, matched palette-only
+      variations and the secondary families remain untested. The revised
+      identity is retained in the gallery for exploration and is not
+      approved as a V1 candidate.
+
+Composition Library: composizioni.yaml

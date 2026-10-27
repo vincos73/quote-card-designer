@@ -1,0 +1,10 @@
+Edit this exact black-and-grey quote card with ONE material-and-detail refinement. Preserve the whole composition, black/graphite/light-grey palette, typography, line breaks and exact sentence unchanged:
+"IL FUTURO NON DECIDE AL POSTO TUO."
+Show it once only, including the final period.
+
+Make the surface noticeably ROUGHER and more tactile, like a worn monochrome screen print or repeatedly photocopied technical poster. Use uneven dry toner deposits, scattered paper-fibre specks, selected scuffed and chipped ink edges, a few short dragged scratches, coarse halftone breakup in small regions and subtle grey ghost-registration along parts of the panel linework. Distress must vary by area and scale rather than being a uniform noise overlay. Keep the dark ground dark and the broad letter cores solid enough to read immediately. The main words can have fine dry-ink pinholes and slightly worn edges, but no missing strokes, letters or punctuation. Avoid realistic rust colour or a sepia vintage treatment.
+
+Enrich the existing panel rails with just THREE restrained original nonverbal details: a small irregular wireframe mesh inset in the upper-left open panel interval, a compact staggered group of fine unequal bars and terminal dots near a lower panel edge, and a short secondary routed line with tiny bracket-like couplers beside an existing main path. Integrate these into the shared chamfered-corner geometry. They are fine discoveries after reading the quotation, not new focal objects. The wireframe is abstract geometry, with no face, body or recognisable object.
+
+Let a few connectors and dot fields gain a slightly rough print edge, while other fine tracks stay crisp. Preserve clear levels between bold plate silhouettes, fine etched-looking lines and grain. Do not fill every gap or add another complete border. No new words, labels, code, numbers, barcodes, QR, logos, watermarks, human forms, cyborgs, pictures, bright accents, holographic effects or 3D. Keep all existing text exact and all other layout decisions stable.
+

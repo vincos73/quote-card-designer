@@ -1,0 +1,87 @@
+Composition Library:
+  Style Name: Blue Note
+  Selection:
+    Current Preference: >
+      Choose photographic-strip-mosaic by default. The user approved
+      study 5 on 2026-10-26 after rejecting independent coloured side
+      bands. Every band must reveal the image or actively support the
+      quotation. Unequal photographic heights create the principal rhythm.
+    Basis: >
+      Plan one coherent scene and the openings needed by the exact
+      quotation. Choose the strip boundaries, crop and typographic
+      anchors together, preserving an immediate reading order.
+    Variation: >
+      Change subject, crop, palette, strip proportions and reading
+      intervals for new applications. Do not fix the pottery scene,
+      cobalt ink or strip count of study 5. Preserve an accepted
+      arrangement during a targeted edit.
+    Typography: >
+      Maintain a coherent optical rhythm within each register. Allow
+      optical pair compensation and purposeful semantic scale changes,
+      without arbitrary tracking, forced justification or local glyph
+      compression to fit a strip. Adjust image cuts and line breaks first.
+  Families:
+    - id: photographic-strip-mosaic
+      Name: One photograph reconstructed through unequal-height strips
+      Use When: >
+        The default for a concise or medium quotation and a subject
+        whose gesture or material remains recognisable through adjacent cuts.
+      Structure: >
+        Reveal one coherent photographic scene in adjacent vertical
+        strips of different widths, starts and endings. Narrow paper
+        gaps separate the strips; their varied heights create a stepped
+        silhouette and meaningful openings for connected word groups.
+        Neighbouring fragments register to the same underlying scene.
+        No independent coloured side bar or repeated subject fragment.
+      Text Adaptation: >
+        Place substantial semantic groups in the upper opening, selected
+        paper notches and lower interval, following one clear reading
+        route. Keep whole words, accents, spaces and punctuation. Shift
+        a crop boundary before compromising the lettering. An exact
+        supplied name is subordinate and right-aligned.
+      Format Adaptation: >
+        Recompose strip widths, heights and openings for each ratio.
+        Portrait cards may deepen the photographic gesture; wider cards
+        may broaden the scene. Neither cropping required words nor
+        stretching a photographic fragment is a format adaptation.
+
+    - id: typographic-image-bands
+      Name: Photographic bands that directly enrich the quotation
+      Use When: >
+        A particular word group benefits from a stronger printed anchor
+        while image fragments continue to participate in the verbal rhythm.
+      Structure: >
+        Connect photographic strips to substantial text-bearing intervals.
+        A band may carry supplied words in negative or continue an image
+        boundary into a typographic anchor. Every solid area supports
+        actual supplied text; do not introduce ornamental side columns.
+        Keep one dominant photographic scene and an asymmetrical cadence.
+      Text Adaptation: >
+        Keep semantic groups together and all connectors recoverable.
+        Use a coherent typographic register with a few meaningful scale
+        or ink changes. Adjust band dimensions to the words, preserving
+        optical spacing instead of fitting words through local distortion.
+      Format Adaptation: >
+        Redistribute the photographic and text-bearing intervals for
+        the format. Reduce their number before making required wording
+        small or turning the reading route into scattered labels.
+
+    - id: continuous-reading-with-photo-strips
+      Name: Connected verbal field with fewer photographic cuts
+      Use When: >
+        A longer quotation needs greater continuity while retaining
+        photographic fragmentation and the cadence of printed jazz design.
+      Structure: >
+        Reserve a broad connected reading field and let a smaller set
+        of unequal-height photographic strips shape its edge. Keep one
+        recognisable scene across those fragments. Share selected anchors
+        with word groups instead of making each line a separate tile.
+      Text Adaptation: >
+        Keep clauses together, simplify interruptions and reduce
+        unnecessary scale changes before shrinking the phrase. Preserve
+        natural word spaces and one coherent optical rhythm. Omit the
+        attribution field when no name is supplied.
+      Format Adaptation: >
+        Rebalance the reading field and photographic fragments for each
+        ratio. Do not abbreviate the sentence, distort glyphs or retain
+        a fixed number and position of strips from another format.

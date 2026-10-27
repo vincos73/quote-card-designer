@@ -1,119 +1,127 @@
 Design Style:
   Name: Handwritten
-  Status: Profilo della libreria, V1 candidate approvato
-  Concept: >
-    Fotografia e scrittura personale convivono come su una stampa annotata
-    a mano. La frase porta la presenza fisica del gesto: pressione, ritmo,
-    inclinazioni e pause irregolari. Il realismo nasce dall'incontro fra
-    una scena credibile e un segno manuale credibile.
+  Status: "Incluso nel catalogo V1 il 26 ottobre 2026"
+  Concept: 'Fotografia e scrittura personale convivono come su una stampa annotata a mano. La frase porta
+    la presenza fisica del gesto: pressione, ritmo, inclinazioni e pause irregolari. Il realismo nasce
+    dall''incontro fra una scena credibile e un segno manuale credibile.
+
+    '
   Canvas:
     Ratio: '4:5'
     Output: Card editoriale piatta, fotografia a piena pagina
     Adaptation: Ricomporre foto e percorsi di lettura per il formato richiesto.
-  Mood: [Personale, Spontaneo, Fotografico, Tattile, Imperfetto]
+  Mood:
+  - Personale
+  - Spontaneo
+  - Fotografico
+  - Tattile
+  - Imperfetto
   Color Palette:
-    Photography: >
-      Fotografia interamente virata a un solo colore, oppure in bianco e
-      nero. Tutte le aree fotografiche, compresi abiti e vegetazione, seguono
-      la stessa famiglia cromatica: non basta una luce colorata sullo sfondo.
-      Conservare ombre, mezzi toni e dettagli reali. La tinta si sceglie
-      in relazione alla frase, senza fissare una palette per tutte le card.
-    Handwriting: >
-      Un inchiostro dominante con contrasto di colore e luminosità rispetto
-      al viraggio della fotografia. Evitare scritta tono su tono: su una
-      foto calda può funzionare un inchiostro freddo chiaro, su una foto
-      fredda un inchiostro caldo chiaro, valutando le zone attraversate.
-      Un secondo colore è possibile per un'enfasi circoscritta, senza diventare obbligo.
-    Contrast Check: >
-      Controllare tutte le parole anche a dimensione feed, comprese le zone
-      di alte luci fotografiche e i tratti più fini del pennarello. Se una
-      zona perde leggibilità, scegliere un colore d'inchiostro più distinto
-      o ricomporre foto e frase; non affidarsi a ombre, contorni o pannelli.
+    Photography: 'Fotografia interamente virata a un solo colore, oppure in bianco e nero. Tutte le aree
+      fotografiche, compresi abiti e vegetazione, seguono la stessa famiglia cromatica: non basta una
+      luce colorata sullo sfondo. Conservare ombre, mezzi toni e dettagli reali. La tinta si sceglie in
+      relazione alla frase, senza fissare una palette per tutte le card.
+
+      '
+    Handwriting: 'Un inchiostro dominante con contrasto di colore e luminosità rispetto al viraggio della
+      fotografia. Evitare scritta tono su tono: su una foto calda può funzionare un inchiostro freddo
+      chiaro, su una foto fredda un inchiostro caldo chiaro, valutando le zone attraversate. Un secondo
+      colore è possibile per un''enfasi circoscritta, senza diventare obbligo.
+
+      '
+    Contrast Check: 'Controllare tutte le parole anche a dimensione feed, comprese le zone di alte luci
+      fotografiche e i tratti più fini del pennarello. Se una zona perde leggibilità, scegliere un colore
+      d''inchiostro più distinto o ricomporre foto e frase; non affidarsi a ombre, contorni o pannelli.
+
+      '
     Starting Example: Foto virata e pennarello chiaro; tinta scelta per la singola prova.
   Typography:
     Quote:
-      Style: >
-        Scrittura manuale personale, libera e leggibile. Corsivo spontaneo
-        con raccordi incompleti e lettere talvolta staccate, senza la regolarità
-        di un font calligrafico. Le lettere ripetute non devono essere cloni.
-      Gesture: >
-        Pressione e spessore variabili, accelerazioni, terminali asciutti,
-        piccoli ripassi e soste. Una sola mano coerente, senza obbligare
-        tutti questi effetti in ogni parola.
-      Rhythm: >
-        Righe localmente inclinate o incurvate, parole non perfettamente
-        allineate, spazi diseguali ma intenzionali. Il disordine mantiene
-        un ordine di lettura univoco. Una parola può crescere di scala.
+      Style: 'Scrittura manuale personale, libera e leggibile. Corsivo spontaneo con raccordi incompleti
+        e lettere talvolta staccate, senza la regolarità di un font calligrafico. Le lettere ripetute
+        non devono essere cloni.
+
+        '
+      Gesture: 'Pressione e spessore variabili, accelerazioni, terminali asciutti, piccoli ripassi e soste.
+        Una sola mano coerente, senza obbligare tutti questi effetti in ogni parola.
+
+        '
+      Rhythm: 'Righe localmente inclinate o incurvate, parole non perfettamente allineate, spazi diseguali
+        ma intenzionali. Il disordine mantiene un ordine di lettura univoco. Una parola può crescere di
+        scala.
+
+        '
     Attribution:
       Style: Scrittura più piccola e leggera della stessa mano
       Placement: Solo se fornita o verificata, leggibile e allineata a destra.
   Layout:
-    Integration: >
-      La frase interviene sulla fotografia e può attraversarne più zone,
-      senza assumere sempre la forma di un titolo sopra una foto. Comporre
-      insieme scena, masse tonali e parole per conservare il soggetto e
-      rendere la frase la prima lettura.
-    Breathing Space: >
-      Le pause della foto accolgono i tratti più delicati. L'irregolarità
-      riguarda il gesto e i rapporti fra parole, non il taglio accidentale
-      di porzioni della citazione.
-    Variation: >
-      Scegliere soggetto, taglio, tinta e distribuzione della frase dal testo.
-      Non rendere fissi passeggiata, ritratto, spiaggia o posizione del lettering.
+    Integration: 'La frase interviene sulla fotografia e può attraversarne più zone, senza assumere sempre
+      la forma di un titolo sopra una foto. Comporre insieme scena, masse tonali e parole per conservare
+      il soggetto e rendere la frase la prima lettura.
+
+      '
+    Breathing Space: 'Le pause della foto accolgono i tratti più delicati. L''irregolarità riguarda il
+      gesto e i rapporti fra parole, non il taglio accidentale di porzioni della citazione.
+
+      '
+    Variation: 'Scegliere soggetto, taglio, tinta e distribuzione della frase dal testo. Non rendere fissi
+      passeggiata, ritratto, spiaggia o posizione del lettering.
+
+      '
   Elements:
-    Photography: >
-      Fotografia realistica con resa analogica da pellicola 35mm o fotografia
-      istantanea Polaroid: luce naturale, materiali credibili, dettagli
-      quotidiani e una posa o un momento non artificiosi. Il carattere
-      fotografico non richiede una cornice Polaroid. Può usare una foto
-      fornita o una scena originale generata. Volti e identità dei riferimenti
-      non sono soggetti da ricopiare.
-    Ink: >
-      Pennarello, paint marker o penna dalla traccia riconoscibile. La scrittura
-      sembra applicata sulla stampa fotografica. La grana può affiorare nel
-      segno; evitare rilievo e ombre da testo tridimensionale.
-    Optional Marks: >
-      Un sottolineato o un breve gesto può accompagnare un'enfasi. Non
-      aggiungere automaticamente frecce, scarabocchi o firme.
+    Photography: 'Fotografia realistica con resa analogica da pellicola 35mm o fotografia istantanea Polaroid:
+      luce naturale, materiali credibili, dettagli quotidiani e una posa o un momento non artificiosi.
+      Il carattere fotografico non richiede una cornice Polaroid. Può usare una foto fornita o una scena
+      originale generata. Volti e identità dei riferimenti non sono soggetti da ricopiare.
+
+      '
+    Ink: 'Pennarello, paint marker o penna dalla traccia riconoscibile. La scrittura sembra applicata
+      sulla stampa fotografica. La grana può affiorare nel segno; evitare rilievo e ombre da testo tridimensionale.
+
+      '
+    Optional Marks: 'Un sottolineato o un breve gesto può accompagnare un''enfasi. Non aggiungere automaticamente
+      frecce, scarabocchi o firme.
+
+      '
   Effects:
-    Photo: >
-      Viraggio monocromatico o bianco e nero che preserva la fotografia.
-      Alte luci morbide, ombre non eccessivamente chiuse e lieve morbidezza
-      ottica suggeriscono la stampa analogica senza cancellare il soggetto.
-    Grain: >
-      Una grana fotografica fine, irregolare e percepibile può sostenere il
-      realismo 35mm o istantaneo. Non confonderla con retino, rumore uniforme,
-      sporco, graffi o un filtro grunge applicato a tutta la composizione.
-    Hand: >
-      Bordi leggermente incerti, depositi d'inchiostro e irregolarità locali
-      producono realismo. Non basta ruotare un blocco di font script.
+    Photo: 'Viraggio monocromatico o bianco e nero che preserva la fotografia. Alte luci morbide, ombre
+      non eccessivamente chiuse e lieve morbidezza ottica suggeriscono la stampa analogica senza cancellare
+      il soggetto.
+
+      '
+    Grain: 'Una grana fotografica fine, irregolare e percepibile può sostenere il realismo 35mm o istantaneo.
+      Non confonderla con retino, rumore uniforme, sporco, graffi o un filtro grunge applicato a tutta
+      la composizione.
+
+      '
+    Hand: 'Bordi leggermente incerti, depositi d''inchiostro e irregolarità locali producono realismo.
+      Non basta ruotare un blocco di font script.
+
+      '
   Content Contract:
     quotation: Frase completa una volta sola, parole, cassa e punteggiatura esatte.
     author: Solo fornito o verificato, subordinato e allineato a destra.
     other_text: Nessuna etichetta, parola decorativa, firma o attribuzione inventata.
   Rules:
-    - Conservare una fotografia riconoscibile e una scrittura convincente nello stesso campo.
-    - Rendere il gesto irregolare senza compromettere la lettura della frase.
-    - Virare tutta la fotografia in una sola famiglia cromatica o in bianco e nero.
-    - Distinguere sempre l'inchiostro dal viraggio fotografico per colore e luminosità, evitando il tono su tono.
-    - Usare una resa analogica 35mm o istantanea, con grana fotografica controllata se utile.
-    - Non imitare l'identità, le parole, i marchi o l'impaginato preciso dei riferimenti.
-    - Non rendere obbligatori retino, grana, ritratto o pennarello di un colore specifico.
+  - Conservare una fotografia riconoscibile e una scrittura convincente nello stesso campo.
+  - Rendere il gesto irregolare senza compromettere la lettura della frase.
+  - Virare tutta la fotografia in una sola famiglia cromatica o in bianco e nero.
+  - Distinguere sempre l'inchiostro dal viraggio fotografico per colore e luminosità, evitando il tono
+    su tono.
+  - Usare una resa analogica 35mm o istantanea, con grana fotografica controllata se utile.
+  - Non imitare l'identità, le parole, i marchi o l'impaginato preciso dei riferimenti.
+  - Non rendere obbligatori retino, grana, ritratto o pennarello di un colore specifico.
   Production:
     Preferred Mode: generative
-    Validation Status: >
-      Due prove sulla stessa frase e palette, con e senza le quattro immagini
-      di riferimento effettive. La prova senza reference è la direzione
-      inizialmente preferita per l'indipendenza del soggetto fotografico.
-      Una successiva variante rossa, ancora parzialmente policroma, è stata
-      corretta su richiesta dell'utente in una resa 35mm interamente virata
-      al rosso ruggine con grana visibile. Il testo resta verificato e
-      leggibile a dimensione feed. L'esempio finale contrappone scrittura
-      azzurro ghiaccio al viraggio rosso ruggine, recependo il contrasto
-      cromatico e luminoso richiesto. Profilo approvato per la libreria
-      e candidato V1, distinto dalla selezione di release.
-      Un secondo esempio usa una frase diversa, una scena su scala esterna,
-      foto petrolio e inchiostro albicocca. Testo e contrasto verificati
-      anche a 375 px. Non sono provati altri formati o la resa Polaroid.
+    Validation Status: 'Due prove sulla stessa frase e palette, con e senza le quattro immagini di riferimento
+      effettive. La prova senza reference è la direzione inizialmente preferita per l''indipendenza del
+      soggetto fotografico. Una successiva variante rossa, ancora parzialmente policroma, è stata corretta
+      su richiesta dell''utente in una resa 35mm interamente virata al rosso ruggine con grana visibile.
+      Il testo resta verificato e leggibile a dimensione feed. L''esempio finale contrappone scrittura
+      azzurro ghiaccio al viraggio rosso ruggine, recependo il contrasto cromatico e luminoso richiesto.
+      Profilo approvato per la libreria e candidato V1, distinto dalla selezione di release. Un secondo
+      esempio usa una frase diversa, una scena su scala esterna, foto petrolio e inchiostro albicocca.
+      Testo e contrasto verificati anche a 375 px. Non sono provati altri formati o la resa Polaroid.
 
+      '
 Composition Library: composizioni.yaml

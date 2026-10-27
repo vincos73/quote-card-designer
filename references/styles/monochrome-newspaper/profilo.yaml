@@ -59,7 +59,8 @@ Design Style:
       quotation does not need two-to-four body columns or simulated articles. Align type, photograph borders
       and rules to the same page measure. Adapt the photographic crop and block positions to the words;
       do not distort typography to fill residual space. Alternative quotes can use an asymmetrical newspaper
-      feature layout without losing the common hierarchy.
+      feature layout without losing the common hierarchy. The paper may show a few restrained creases and
+      small printing marks, placed away from the most important letterforms.
   Imagery:
     Style: Black-and-white editorial or documentary photography, or a purposeful newspaper illustration
     Subjects:
@@ -99,13 +100,15 @@ Design Style:
     - Colourful fields
     - Gradients
   Effects:
-    Texture: Delicate clean newsprint fibres and ink absorption; no heavy antiquing or staged folds
+    Texture: Visible newsprint fibres and ink absorption, with a lightly rumpled sheet and a few small,
+      irregular ink or registration blemishes. Keep these marks sparse and secondary to the quote; no heavy
+      antiquing, torn edges or theatrical damage.
     Image Print: Visible but light fine halftone dots, roughly diagonally screened, with dot density and
       size following photographic tonal values; keep architecture and figures readable
     Depth: Flat matte editorial reproduction
     Shadow: None
-    Wear: Slight natural ink spread at some letter and rule edges, without erasing fine serifs or degrading
-      text
+    Wear: Slight natural ink spread at some letter and rule edges, plus occasional small typographic ink spots
+      on open paper. Never obscure, duplicate or degrade a letter or punctuation mark.
   Rules:
   - Render the quotation once, preserving every word and sentence punctuation in the requested headline
     case, without enclosing quotation marks.
@@ -121,6 +124,8 @@ Design Style:
   - Avoid rounded UI cards, icons, colour accents, gradients, glossy effects and 3D.
   - 'Make the photographic print screen visible but fine: avoid oversized pop-art dots, coarse raster
     patterns or a uniform noise overlay across the entire card.'
+  - Give the sheet a lightly crumpled newsprint character and a few believable print blemishes; keep the
+    headline, banner and image readable and avoid theatrical grime.
   User Overrides:
     Format: Recompose the page hierarchy and photo crop for the requested card ratio.
     Palette: Honour explicit changes while preserving a clear editorial ink-and-paper hierarchy.

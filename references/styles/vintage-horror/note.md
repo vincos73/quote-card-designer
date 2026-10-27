@@ -1,28 +1,31 @@
-# Vintage Horror
+# Vintage Horror · esempio 1 recuperato dalla galleria
 
-Profilo approvato per la libreria e V1 candidate. Esempio scelto:
-«La paura bussa. La curiosità apre.», senza attribuzione. La composizione
-two-act-marquee lega due masse tipografiche con una figura a inchiostro.
-Mano, porta, occhio e palette nero/vermilione sono scelte di questa prova.
+Riallineamento del **26 ottobre 2026**. Frase indicata nella scheda pubblicata:
+**La paura bussa. La curiosità apre.**
 
-Card completa generata con ImageGen integrato. Prompt effettivo:
-`reference-prefix.md`, una riga vuota e `prompt-esempio.md`, con tre immagini
-estetiche effettive: i manifesti Spooks, Dr. Jekyl e Voodoo Show. Trasferiti
-lettering massiccio e irregolare, registro condensato e rapporto tra pochi
-inchiostri. Non riprodotti parole, marchi, eventi o impaginati originali.
-Le immagini non sono una dipendenza automatica delle nuove generazioni.
+- Immagine locale: [esempio.jpg](esempio.jpg).
+- Esempio: **Due tempi · nero e vermiglione**.
+- Sorgente: galleria Sites, versione **23**, asset `assets/vintage-horror.jpg`.
+- Copia verificata byte per byte con SHA-256 `c6a4f73590e4b92dc1f34102e676bf08239e33d1abe485da2be4f3530ac14df6`.
+- File effettivo recuperato: **800 × 1000 px, RGB, JPEG**.
 
-La coppia mantiene frase, palette, formato e composizione. La versione scelta
-è più compatta e vicina all'affiche rispetto alla prova senza immagini, che
-ricorre maggiormente alle colature. Font e processo di stampa sono simulati,
-non identificazioni tecniche certificate. Testo, cassa, accento e due punti
-fermi controllati nel nativo 1122 × 1402 e a 375 px. Nessun testo evento aggiunto.
-Non sono provati altri formati, attribuzioni o tutte le famiglie.
+È il JPEG di anteprima già pubblicato, non il file nativo di generazione.
+Gli attributi dimensionali dell'HTML non certificano la risoluzione originaria.
+Non sono stati recuperati dalla sorgente Sites il prompt effettivo o un
+originale PNG: non sono stati ricostruiti né inventati e il catalogo non
+collega un prompt precedente a questa immagine.
 
-Il secondo esempio `esempio-2.png` usa «Le idee migliori prendono strade
-inattese.», nero su carta ocra e un sentiero impossibile verso una porta.
-Il lettering è più appuntito della prima locandina, mantenendo stampa e
-gerarchia del profilo. Generazione completa ImageGen senza reference,
-prompt effettivo in `prompt-secondo-testo.md`. Parole, cassa e punto
-controllati nel nativo 1122 × 1402 e a 375 px. Due esempi visibili,
-con testi differenti.
+Profilo e tre famiglie compositive sono ripresi dall'export YAML pubblicato,
+conservato in [profilo-gallery-v23.yaml](profilo-gallery-v23.yaml). Il profilo
+locale usa il collegamento relativo a `composizioni.yaml`; la risoluzione
+è stata confrontata con l'export e conserva gli stessi contenuti.
+
+Lo stato **V1 candidate** riproduce quello della galleria. Questo recupero
+non promuove lo stile nella release né costituisce una nuova approvazione.
+Nessuna nuova generazione o pubblicazione eseguita. I dettagli di provenienza
+sono in [provenienza-gallery.yaml](provenienza-gallery.yaml).
+
+Le due immagini dello stile sono state ispezionate nel JPEG disponibile:
+le frasi corrispondono ai metadati pubblicati. Questo controllo non è una
+nuova prova di generazione, un controllo di font reale o una certificazione
+della risoluzione originale.

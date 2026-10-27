@@ -1,9 +1,10 @@
 Design Style:
   Name: Modern Minimalism
-  Concept: Una citazione e un suo estratto letterale ingrandito formano due masse tipografiche distinte, allineate
-    allo stesso asse sinistro e ordinate da una griglia editoriale a quattro colonne. Sans-serif lineari, doppia
-    scala monumentale, contrasto netto e apparato minuto quando pertinente definiscono lo stile dei riferimenti.
-    Il nome Modern Minimalism conserva questa grammatica.
+  Concept: Una singola citazione forma un blocco tipografico essenziale, ordinato da una griglia editoriale
+    a quattro colonne. Un breve estratto continuo della frase riceve una scala maggiore e un colore distinto
+    dentro la sua unica occorrenza, con una gerarchia che nasce dal contrasto interno senza ripetere una seconda volta
+    parole o frasi. Sans-serif lineare, spazio negativo e apparato minuto quando pertinente definiscono il
+    nome Modern Minimalism.
   Canvas:
     Ratio: '4:5'
     Output: Single flat full-bleed typography-only quote card
@@ -23,8 +24,8 @@ Design Style:
     - emphasis
     - secondary
     - rules
-    Logic: Una campitura dominante e due ruoli di testo differenziati per luminanza. Il secondo registro è
-      più grande e visivamente più forte; le tinte possono cambiare liberamente.
+    Logic: Una campitura dominante e due ruoli tipografici differenziati per colore e scala, testo corrente
+      e un estratto enfatizzato nella stessa frase. Le tinte possono cambiare liberamente mantenendo contrasto.
     Contrast Targets:
       main_text_vs_background: 4.5
       secondary_vs_background: 4.5
@@ -67,11 +68,11 @@ Design Style:
       - 3
       - 5
       color_role: quote
-    Repeated Excerpt:
-      optional: false
-      use: 'Secondo registro strutturale predefinito: estratto continuo e letterale scelto dalla citazione,
-        ripetuto molto più grande. Ometterlo soltanto per una richiesta esplicita incompatibile o dopo aver
-        segnalato un conflitto concreto.'
+    Inline Emphasis:
+      required: true
+      use: Estratto continuo e letterale enfatizzato nella sua unica occorrenza all'interno della frase completa.
+      repetition: Nessuna seconda occorrenza in un blocco separato.
+      selection: Scegliere un segmento breve e significativo o usare quello indicato dall'utente.
       font_size_W:
         min: 0.13
         target: 0.16
@@ -90,11 +91,11 @@ Design Style:
       default: false
       status: Variante approvata visivamente in MR2, attiva su richiesta; la versione interamente sans-serif resta disponibile.
       selection: Scegliere una sola parola significativa della citazione, oppure usare quella indicata dall’utente.
-      occurrence: Una sola occorrenza, preferibilmente nell’estratto ingrandito; non cambiare automaticamente entrambe le letture.
+      occurrence: Una sola occorrenza, preferibilmente nell'estratto enfatizzato; non duplicare né spostare la parola.
       treatment: Serif editoriale in corsivo autentico, con grazie riconoscibili; niente semplice inclinazione della sans-serif.
-      hierarchy: La sans-serif resta dominante nei due blocchi. Accordare altezza ottica e peso della parola serif al registro vicino, preservando il rapporto di scala fra citazione ed estratto.
+      hierarchy: La sans-serif resta dominante nella frase unica. Accordare altezza ottica e peso della parola serif corsiva alle lettere vicine, preservando la continuità di lettura.
       spacing: Spaziatura naturale, baseline ottica coerente e spazio per aggetti corsivi e punteggiatura; niente compressione o tracking arbitrario.
-      invariants: Conservare testo letterale, doppia lettura, asse sinistro comune, griglia a quattro colonne e contrasto netto. Nessun altro cambio di font decorativo.
+      invariants: Conservare testo letterale, citazione unica, griglia a quattro colonne e contrasto netto. Nessun altro cambio di font decorativo.
       production: Nel renderer usare un vero file serif italic e misurarne le metriche; i font attualmente inclusi non certificano la disponibilità del corsivo. La prova generativa non garantisce una famiglia esatta.
     Secondary:
       family_mode: serif_editoriale oppure sans_sobrio, scegliere una modalità coerente
@@ -159,11 +160,11 @@ Design Style:
       Required: false
       Content: Nome fornito dall’utente o verificato nella fonte, conservato esattamente; nessun titolo o prefisso
         aggiunto.
-      Visual Priority: 'Secondaria: corpo inferiore e peso visivo minore rispetto alla citazione e all’eventuale
-        estratto; mantenere contrasto e leggibilità.'
+      Visual Priority: Secondaria, con corpo e peso minori rispetto alla citazione e all'estratto enfatizzato;
+        mantenere contrasto e leggibilità.
       Style: Sans-serif sobria o registro secondario coerente con il profilo, con peso regolare; non adottare
         l’enfasi del testo principale.
-      Placement: Modulo inferiore della griglia dopo i due blocchi, con spazio di separazione; nome allineato
+      Placement: Modulo inferiore della griglia dopo il blocco della citazione, con spazio di separazione; nome allineato
         a destra sull'asse della quarta colonna.
       Absent: Omettere e ricomporre il layout, senza segnaposto o spazio vuoto riservato.
       font_size_W:
@@ -175,8 +176,8 @@ Design Style:
   Layout:
     units: frazioni della larghezza W e dell'altezza H dell'asset, non dello screenshot
     columns: 4
-    grid_usage: Griglia editoriale a quattro colonne come struttura di allineamenti e filetti. L’assenza di
-      microtesti non elimina l’asse comune o la relazione fra i due blocchi principali.
+    grid_usage: Griglia editoriale a quattro colonne come struttura di allineamenti e filetti. La citazione
+      resta un blocco unico; la griglia ordina il flusso e la sua enfasi interna.
     equal_columns: true
     margin_x_W:
       min: 0.036
@@ -196,41 +197,35 @@ Design Style:
       max: 0.035
     equation: column_width = (W - 2 * margin_x - 3 * gutter) / 4
     anchors:
-      left: inizio della prima colonna, comune a citazione completa ed estratto ingrandito
+      left: inizio della prima colonna, asse del blocco unico di citazione
       right: fine della quarta colonna, limite massimo e non obiettivo di ogni riga
     spans:
       header_item: 1
-      full_quote: 4
-      emphasis: 4
+      quote: 4
+      inline_emphasis: 1-4, in continuità con il flusso della frase
       footer_item: 1
       optional_number: ultime 2 colonne, allineato a destra
     vertical:
-      approach: Due fasce principali in flusso, con frase completa sopra ed estratto ingrandito sotto. Header
-        e footer si ricompongono quando mancano testi pertinenti; le finestre sono indicative, non scatole
-        da riempire.
+      approach: Un solo blocco di testo in flusso. L'estratto enfatizzato resta nella posizione originale
+        della frase e mantiene un collegamento tipografico diretto con le parole vicine. Header e footer sono
+        facoltativi e si ricompongono quando mancano contenuti pertinenti; le finestre sono indicative, non
+        scatole da riempire.
       header_end_H:
       - 0.08
       - 0.16
-      full_quote_start_H:
-      - 0.1
-      - 0.18
-      full_quote_end_H:
-      - 0.35
-      - 0.49
-      emphasis_start_H:
-      - 0.43
-      - 0.52
-      emphasis_end_H:
-      - 0.76
-      - 0.81
+      quote_start_H:
+      - 0.16
+      - 0.3
+      quote_end_H:
+      - 0.68
+      - 0.82
       footer_start_H:
       - 0.8
       - 0.85
-      gap_between_main_blocks_H:
-      - 0.015
-      - 0.075
-      conflict_resolution: 'Applicare in ordine: testo fedele, assenza di collisioni, rapporto di scala, a
-        capo sensati, finestre indicative. Le fasce non devono sovrapporsi.'
+      inline_emphasis: L'estratto può occupare una propria riga solo se il flusso conserva contiguità e
+        ordine di lettura; non spostarlo in un blocco separato.
+      conflict_resolution: "Applicare in ordine: testo fedele, assenza di collisioni, leggibilità dell'enfasi,
+        a capo sensati e finestre indicative. Non separare né duplicare l'estratto."
     grid_required: true
     fixed_column_count: true
   Graphic Elements:
@@ -276,15 +271,14 @@ Design Style:
     Depth: None
     Distortion: None; retain natural letter proportions
   Rules:
-  - 'Due blocchi tipografici principali allineati allo stesso asse sinistro: frase completa sopra, estratto
-    letterale ingrandito sotto.'
-  - L’estratto è più grande del testo completo e usa un ruolo cromatico distinto. La doppia scala è strutturale
-    anche con una citazione breve.
-  - La frase completa compare una volta; il secondo blocco ne ripete intenzionalmente soltanto un estratto
-    significativo. Non trattare questa ripetizione come testo spurio.
-  - Una stessa famiglia sans-serif lineare domina i due registri, con corpo uniforme e proporzioni naturali.
-    Solo nella variante Serif Italic Accent è ammessa una singola occorrenza serif corsiva, accordata otticamente
-    alla scala del registro; questa eccezione non elimina la doppia lettura.
+  - La citazione compare una sola volta in un unico flusso di lettura.
+  - Scegliere un breve estratto continuo e significativo della citazione e distinguerlo nella sua stessa
+    occorrenza con colore diverso e corpo maggiore; non ripeterlo in un secondo blocco.
+  - Mantenere ordine, spaziatura naturale e collegamento visivo fra estratto e parole adiacenti; la variazione
+    di scala non deve spezzare o confondere la frase.
+  - Una stessa famiglia sans-serif lineare domina la frase; il solo estratto enfatizzato cambia scala e
+    colore. Nella variante Serif Italic Accent una sola parola può anche usare un serif corsivo autentico,
+    accordato otticamente alle lettere vicine.
   - Nessun tracking arbitrario, giustificazione forzata o deformazione orizzontale dei glifi.
   - Interlinea compatta ma leggibile, senza contatti accidentali fra lettere, accenti o discendenti.
   - Griglia a quattro colonne, filetti sottili ed eventuale apparato minuto ordinano gli allineamenti; numeri
@@ -296,7 +290,7 @@ Design Style:
   - deformare o comprimere singole righe per farle entrare
   - giustificare ogni riga o scalarla a una larghezza identica
   - usare virgolette giganti come decorazione
-  - centrare i blocchi principali
+  - centrare il blocco principale
   - introdurre font display geometrici, calligrafici o decorativi
   - riempire gli spazi con biografie, dati o attribuzioni inventati
   - conservare un buco riservato a un elemento opzionale assente
@@ -305,13 +299,13 @@ Design Style:
     - quote
     emphasis:
       required: true
-      use: Seconda lettura strutturale predefinita
-      selection: scegliere autonomamente un estratto continuo, significativo e letterale della citazione
+      use: Enfasi tipografica interna alla citazione unica
+      selection: scegliere autonomamente un estratto continuo, significativo e letterale, oppure usare quello
+        indicato dall'utente
       line_breaks: possono cambiare senza cambiare parole, accenti e punteggiatura
-      repetition: 'intenzionale: il secondo registro ripete una parte della frase completa, non una seconda
-        citazione inventata'
-      if_unusable: segnalare il conflitto con un vincolo esplicito o con la capienza; non trasformare silenziosamente
-        lo stile in un singolo blocco generico
+      repetition: nessuna; l'estratto cambia colore e scala soltanto nella propria occorrenza originale
+      if_unusable: segnalare il conflitto con un vincolo esplicito o con la capienza; non duplicare l'estratto
+        e non alterare il testo
     author:
       required: false
       absent: omettere senza Anonimo, segnaposto o nomi ricavati dai riferimenti
@@ -320,17 +314,16 @@ Design Style:
     editorial_text:
       required: false
       rule: solo contenuto pertinente disponibile o esplicitamente composto per la card
-      absent: ridurre l'apparato e ricomporre lo spazio, senza pseudo-microtesto
+      absent: ridurre l'apparato e ricomporre lo spazio intorno alla citazione unica, senza pseudo-microtesto
     series_number:
       required: false
       absent: nessun segnaposto e nessuna riserva di spazio obbligatoria
   Adaptation Rules:
-    short_quote: Conservare frase completa ed estratto ingrandito, anche con circa sei parole come nel secondo
-      esempio del catalogo. Scegliere un estratto breve e significativo, ricomporre le fasce e mantenere una
-      differenza di scala visibile; non inventare una seconda frase.
-    long_quote: Ridistribuire gli a capo e ridurre uniformemente il corpo del registro completo, conservando
-      l’estratto ingrandito. Se testo fedele, assenza di collisioni e gerarchia non possono convivere nel formato,
-      segnalare il conflitto prima di eliminare la seconda lettura.
+    short_quote: Conservare la frase una sola volta e aumentare un estratto breve, continuo e significativo
+      nella sua occorrenza originale; il colore distinto lo mantiene visibile anche quando la scala cresce poco.
+    long_quote: Ridistribuire gli a capo e ridurre uniformemente il corpo della frase, conservando l'estratto
+      più grande e cromaticamente distinto. Se fedeltà, assenza di collisioni e gerarchia non possono convivere,
+      segnalare il conflitto senza duplicare o eliminare silenziosamente l'enfasi.
     long_word: provare altri a capo, poi un corpo minore per tutto il blocco; mai deformare la parola
     missing_microtext: togliere le relative righe e ridurre la fascia editoriale
     missing_number: riequilibrare il fondo pagina con spazio o moduli esistenti
@@ -338,16 +331,17 @@ Design Style:
   Validation:
     hard_checks:
     - Frase completa identica al contenuto approvato.
-    - Estratto letterale e continuo, ignorando i soli ritorni a capo, presente come secondo blocco salvo richiesta
-      esplicita incompatibile.
+    - Estratto letterale e continuo presente una sola volta, nella posizione originale dentro la frase, senza
+      duplicazione in un secondo blocco.
     - Nessuna attribuzione, numero o testo spurio.
     - Nessun taglio, stiramento o collisione delle lettere.
     - Rapporto reale del file misurato, con scostamenti dichiarati.
     visual_checks:
-    - Due registri chiaramente riconoscibili per dimensione anche senza colore.
-    - Asse sinistro comune fra frase ed estratto; il secondo registro è sensibilmente più grande.
-    - Sans-serif dominante e corpo uniforme entro ciascun blocco; solo l’accento serif italic facoltativo
-      può cambiare famiglia, in una singola occorrenza e con scala ottica coerente. Griglia e filetti condividono gli allineamenti.
+    - Una sola frase completa con una sola sequenza di lettura.
+    - Estratto riconoscibile nella sua posizione originale attraverso colore e dimensione, senza duplicazione;
+      il testo circostante rimane collegato e leggibile.
+    - Sans-serif dominante e corpo uniforme nel testo corrente; solo l’accento serif italic facoltativo può
+      cambiare famiglia in una singola occorrenza, con scala ottica coerente. Griglia e filetti condividono gli allineamenti.
     - Nessun obbligo di portare tutte le righe al bordo destro.
     - Microtesti leggibili a dimensione finale oppure ridotti o rimossi.
     - Numero e pallini non indispensabili alla riconoscibilità.
@@ -375,20 +369,23 @@ Design Style:
     Serif Italic Accent: Attivare soltanto su richiesta o per una variante dichiarata, selezionando una parola significativa e una sola occorrenza.
   Production:
     Preferred Mode: hybrid
-    Reason: ImageGen genera la card completa con frase, estratto ingrandito e griglia editoriale. Se occorre
-      correggere il testo, l’impaginazione con Archivo locale può offrire metriche e allineamenti controllabili
-      senza ricostruire da zero il disegno generato. La doppia lettura resta il nucleo predefinito.
-    Content Adaptation: Adattare gli a capo e i corpi per conservare i due registri. Numeri, pallini e microtesti
-      possono mancare. Se un vincolo esplicito o la capienza impedisce la doppia lettura, dichiarare il conflitto;
-      se il file Archivo manca, dichiarare il sostituto e rimisurare.
+    Reason: ImageGen genera la card completa con frase e un estratto ingrandito nella stessa occorrenza,
+      usando la griglia editoriale. Se occorre correggere il testo, l’impaginazione con Archivo locale può
+      offrire metriche e allineamenti controllabili senza ricostruire da zero il disegno. L'enfasi interna resta
+      il nucleo predefinito.
+    Content Adaptation: Adattare gli a capo e il corpo della frase per conservare l'estratto ingrandito nella
+      sua occorrenza originale. Numeri, pallini e microtesti possono mancare. Se un vincolo esplicito o la
+      capienza impedisce un'enfasi interna leggibile, dichiarare il conflitto senza duplicare il segmento; se il
+      file Archivo manca, dichiarare il sostituto e rimisurare.
     Required Capabilities: ImageGen per la composizione completa. Per un'eventuale correzione tipografica,
       caricare il font locale e verificarne hash e assi; comporre su griglia relativa, mantenere i corpi
       uniformi per blocco e misurare glifi e collisioni. La variante serif italic corretta con un renderer
       richiede un file corsivo autentico e composizione di run misti sulla stessa baseline.
     Current Prototype: Il prototipo ha testo con file font reale, box, allineamento e fit uniforme, ma non
-      interpreta il profilo né valida automaticamente il contratto dell'estratto o il contrasto.
+      interpreta il profilo né valida automaticamente l'estratto inline, le dimensioni miste o il contrasto.
     Validation Status: Nucleo originale ripristinato dopo il confronto con i primi due esempi e il backup precedente
-      alla rinomina. MR1 recupera la doppia lettura su una frase di sei parole ed è stata ritenuta accettabile
-      dall’utente. M1–M4 e ML1/ML2 usavano il profilo generalizzato precedente. La gerarchia dell’attribuzione
-      è stata verificata nei prompt con e senza nome; non ancora in una nuova immagine.
-  Version: 0.1.3
+      alla rinomina. La precedente versione a due blocchi aveva ottenuto un'accettazione visiva su una frase
+      breve; questa gerarchia è stata sostituita con enfasi inline dopo il nuovo feedback e non è ancora stata
+      verificata in una nuova immagine. M1–M4 e ML1/ML2 usavano il profilo generalizzato precedente. La gerarchia
+      dell'attribuzione è stata verificata nei prompt con e senza nome; non ancora in una nuova immagine.
+  Version: 0.1.4

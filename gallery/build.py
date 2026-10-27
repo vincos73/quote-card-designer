@@ -5,6 +5,7 @@ import re
 import subprocess
 import yaml
 from style_resources import load_style_document
+from validate import validate_gallery
 
 ROOT = Path(__file__).resolve().parent.parent
 SKILL = ROOT
@@ -42,6 +43,8 @@ CSS += r'''
 
 CSS += r'''
 .shortlist-badge{border:1px solid #8a5a17;background:#fff4df;color:#68410b;padding:3px 8px}
+.preview[data-monochrome="true"] img{filter:grayscale(1)}
+.preview-placeholder{display:grid;place-content:center;gap:10px;aspect-ratio:4/5;background:#e6e5df;padding:32px;text-align:center}.preview-placeholder p{margin:0}.preview-placeholder p+p{font-size:14px;line-height:1.6;color:var(--muted)}
 '''
 
 JS = r'''
@@ -54,6 +57,8 @@ const resetFilters = document.getElementById('reset-filters');
 const releaseFilters = [...document.querySelectorAll('input[name="release-status"]')];
 const familyOptions = [...document.querySelectorAll('.family-option')];
 const familyTags = [...document.querySelectorAll('.family-tag')];
+const familyDescription = document.getElementById('family-description');
+const defaultFamilyDescription = familyDescription.textContent;
 let selectedFamily = '';
 const normalise = text => text.toLocaleLowerCase('it').normalize('NFD').replace(/[\u0300-\u036f]/g,'');
 const visibleStyles = () => styles.filter(style => !style.hidden);
@@ -78,6 +83,8 @@ function applyFilters(){
   });
   familyOptions.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.familyFilter === selectedFamily)));
   familyTags.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.familyFilter === selectedFamily)));
+  const selectedOption = familyOptions.find(button => button.dataset.familyFilter === selectedFamily);
+  familyDescription.textContent = selectedOption?.dataset.familyDescription || defaultFamilyDescription;
   const n = visibleStyles().length;
   count.textContent = n === styles.length ? `${n} stili` : `${n} di ${styles.length} stili`;
   empty.hidden = n !== 0;
@@ -136,6 +143,7 @@ document.querySelectorAll('.preview').forEach(button=>button.addEventListener('c
   trigger=button;
   const image=button.querySelector('img');
   const large=document.createElement('img');large.className='large-image';large.src=image.src;large.alt=image.alt;document.getElementById('image-slot').replaceChildren(large);
+  large.style.filter=button.dataset.monochrome==='true'?'grayscale(1)':'';
   document.getElementById('dialog-title').textContent=`${button.dataset.name} · Esempio ${button.dataset.example}`;
   dialog.showModal();
 }));
@@ -195,7 +203,7 @@ def image_uri(style, number, example):
 def examples_for_style(style):
     examples = []
     count = style.get('example_count', len(EXAMPLES))
-    if not isinstance(count, int) or count < 1:
+    if not isinstance(count, int) or count < 0:
         raise ValueError(f"example_count non valido per {style.get('id')}: {count}")
     for number in range(1, count + 1):
         default = EXAMPLES[number - 1] if number <= len(EXAMPLES) else {
@@ -256,7 +264,7 @@ def build():
         profile.update(document['Design Style'])
         examples = examples_for_style(style)
         featured = style.get('featured_example', 1)
-        if not isinstance(featured, int) or not 1 <= featured <= len(examples):
+        if examples and (not isinstance(featured, int) or not 1 <= featured <= len(examples)):
             raise ValueError(f'featured_example non valido per {identifier}: {featured}')
         panels, choices = [], []
         for number, example in enumerate(examples, 1):
@@ -264,11 +272,15 @@ def build():
             panel_id = f'{identifier}-example-{number}'
             hidden = ' hidden' if number != featured else ''
             panels.append(f'''<div class="example-panel" id="{panel_id}"{hidden}>
-<button class="preview" data-name="{escape(style['name'])}" data-example="{number}" aria-label="Ingrandisci l’esempio {number} di {escape(style['name'])}">
+<button class="preview" data-name="{escape(style['name'])}" data-example="{number}" data-monochrome="{str(bool(style.get('monochrome'))).lower()}" aria-label="Ingrandisci l’esempio {number} di {escape(style['name'])}">
 <img src="{uri}" width="1122" height="1402" alt="{escape(style['name'])}, esempio {number}: {escape(example['text'])}" decoding="async">
 <span class="preview-hint">{ICONS['zoom']} Ingrandisci</span></button></div>''')
             pressed = 'true' if number == featured else 'false'
             choices.append(f'<button data-example-target="{panel_id}" data-example-number="{number}" aria-controls="{panel_id}" aria-pressed="{pressed}">{number} · {escape(example["label"])}</button>')
+        if examples:
+            example_html = f'''{''.join(panels)}<div class="example-picker" role="group" aria-label="Scegli un esempio di {escape(style['name'])}">{''.join(choices)}</div><p class="example-count" aria-live="polite">Esempio {featured} di {len(examples)}</p>'''
+        else:
+            example_html = '<div class="preview-placeholder"><p>Anteprima da realizzare</p><p>Il profilo YAML è disponibile nella descrizione estesa.</p></div>'
         colours = palette(profile)
         swatches = ''.join(f'<span class="swatch" style="background:{c}" title="{c}"></span>' for c in colours)
         if colours:
@@ -279,9 +291,9 @@ def build():
             palette_info = f'<span class="palette-note">{label}</span>'
         search = ' '.join([style['name'], style['summary'], family_name, method, *style['tags'], *style['aliases'], *profile.get('Mood',[])])
         cards.append(f'''<article class="style" id="{identifier}" data-family="{escape(family_id)}" data-release-candidate="{str(is_candidate).lower()}" data-v1-shortlisted="{str(is_shortlisted).lower()}" data-production-mode="{escape(style.get('production_mode', ''))}" data-search="{escape(search)}">
-<div class="examples">{''.join(panels)}<div class="example-picker" role="group" aria-label="Scegli un esempio di {escape(style['name'])}">{''.join(choices)}</div><p class="example-count" aria-live="polite">Esempio {featured} di {len(examples)}</p></div>
+<div class="examples">{example_html}</div>
 <div class="style-info"><div class="style-header"><h2>{escape(style['name'])}</h2>{palette_info}</div>
-<button class="family-tag" data-family-filter="{escape(family_id)}" aria-controls="catalogo" aria-pressed="false" aria-label="Filtra per famiglia: {escape(family_name)}">{escape(family_name)}</button>
+<button class="family-tag" data-family-filter="{escape(family_id)}" aria-controls="catalogo" aria-pressed="false" aria-label="Filtra per categoria: {escape(family_name)}">{escape(family_name)}</button>
 {release_meta}
 <p class="description">{escape(style['summary'])}</p>
 <details class="profile"><summary>Descrizione estesa</summary><div class="profile-content">
@@ -291,7 +303,7 @@ def build():
 </div></details></div></article>''')
     count=len(cards)
     family_filters = ''.join(
-        f'<button class="family-option" data-family-filter="{escape(family["id"])}" aria-controls="catalogo" aria-pressed="false"><span>{escape(family["name"])}</span><span class="family-number">{family_counts[family["id"]]}</span></button>'
+        f'<button class="family-option" data-family-filter="{escape(family["id"])}" data-family-description="{escape(family.get("description", ""))}" aria-controls="catalogo" aria-pressed="false"><span>{escape(family["name"])}</span><span class="family-number">{family_counts[family["id"]]}</span></button>'
         for family in families
     )
     example_total=sum(len(examples_for_style(style)) for style in catalog['styles'])
@@ -304,9 +316,9 @@ def build():
 <header class="masthead"><span class="wordmark">Quote Card Designer</span><span class="edition">{count} stili · {example_total} immagini</span></header>
 <main><div class="intro"><div><h1>Catalogo degli stili</h1><p>Esplora gli esempi disponibili per ogni linguaggio visivo ed espandi la scheda per consultare il profilo completo.</p>{comparison_link}</div></div>
 <section aria-label="Strumenti del catalogo" class="toolbar">
-<label class="searchbox" for="search"><span>Cerca uno stile</span><span class="input-wrap">{ICONS['search']}<input id="search" type="search" placeholder="Nome, famiglia, atmosfera o tecnica" autocomplete="off" aria-controls="catalogo"></span></label>
+<label class="searchbox" for="search"><span>Cerca uno stile</span><span class="input-wrap">{ICONS['search']}<input id="search" type="search" placeholder="Nome, categoria, atmosfera o tecnica" autocomplete="off" aria-controls="catalogo"></span></label>
 <div class="toolbar-right"><span class="count" id="result-count" role="status" aria-live="polite">{count} stili</span><button class="text-button reset-filters" id="reset-filters" disabled>Azzera filtri</button><button class="text-button" id="expand-all" aria-controls="catalogo" aria-expanded="false">Apri tutte le descrizioni</button></div></section>
-<fieldset class="family-filters"><legend>Filtra per famiglia</legend><div class="family-options"><button class="family-option" data-family-filter="" aria-controls="catalogo" aria-pressed="true"><span>Tutte le famiglie</span><span class="family-number">{count}</span></button>{family_filters}</div><p class="filter-note">I numeri indicano gli stili di ogni famiglia. Puoi combinare una famiglia con la ricerca.</p></fieldset>
+<fieldset class="family-filters"><legend>Filtra per categoria</legend><div class="family-options"><button class="family-option" data-family-filter="" aria-controls="catalogo" aria-pressed="true"><span>Tutte le categorie</span><span class="family-number">{count}</span></button>{family_filters}</div><p class="filter-note" id="family-description" aria-live="polite">Ogni stile ha una categoria principale. Puoi combinarla con la ricerca e lo stato release.</p></fieldset>
 <fieldset class="release-filters"><legend>Stato release</legend><div class="release-options">
 <label class="release-filter"><input name="release-status" type="radio" value="all" aria-controls="catalogo" checked><span>Tutti ({count})</span></label>
 <label class="release-filter"><input name="release-status" type="radio" value="selected" aria-controls="catalogo"><span>Selezionati V1 ({release_count})</span></label>
@@ -315,10 +327,11 @@ def build():
 </div></fieldset>
 <p class="release-note">I metodi indicati sono consigli progettuali da verificare. Gli esempi possono precedere le ultime modifiche a font e palette.</p>
 <section class="gallery" id="catalogo" aria-label="Stili disponibili">{''.join(cards)}</section>
-<div id="empty" class="empty" hidden><h2>Nessuno stile trovato</h2><p>Prova un'altra ricerca o famiglia, oppure azzera i filtri per tornare al catalogo completo.</p><button class="copy" id="reset-search">Azzera i filtri</button></div></main>
+<div id="empty" class="empty" hidden><h2>Nessuno stile trovato</h2><p>Prova un'altra ricerca o categoria, oppure azzera i filtri per tornare al catalogo completo.</p><button class="copy" id="reset-search">Azzera i filtri</button></div></main>
 <footer class="footer"><p>Il numero di esempi varia per stile. Soggetti, palette e composizioni possono variare; ogni immagine conserva il proprio testo di prova. Formato di riferimento verticale 4:5.</p><p>Catalogo degli stili · Quote Card Designer</p></footer></div>
 <dialog id="image-dialog" aria-labelledby="dialog-title"><div class="dialog-bar"><h2 id="dialog-title" class="dialog-title"></h2><button id="close-dialog" class="close" autofocus>{ICONS['close']} Chiudi</button></div><div id="image-slot"></div></dialog>
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div><script>{JS}</script></body></html>'''
+    validate_gallery(page, DESTINATION.parent)
     DESTINATION.write_text(page,encoding='utf-8')
     print(f'Catalogo creato: {DESTINATION} ({DESTINATION.stat().st_size/1024/1024:.2f} MB, {count} stili, {example_total} immagini)')
 

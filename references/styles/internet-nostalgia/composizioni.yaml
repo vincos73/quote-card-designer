@@ -1,0 +1,64 @@
+Composition Library:
+  Style Name: Y2K
+  Selection:
+    Basis: >
+      Scegliere la relazione più utile alla frase mantenendo il registro
+      cromo/olografico. Il repertorio comprende metallo, superfici ottiche e
+      pochi frammenti digitali; nessun oggetto è obbligatorio.
+    Variation: >
+      Cambiare rapporto fra testo e materiale, assi e densità. Le prove rosa
+      gel appartengono alla ricerca e non sono esempi del registro scelto.
+  Families:
+    - id: chrome-hero-field
+      Name: Parole cromate e presenza ottica
+      Use When: >
+        Una frase breve o media può sostenere una massa tipografica forte
+        in relazione a un singolo elemento riflettente riconoscibile.
+      Structure: >
+        La frase completa occupa un campo dominante. Un elemento ottico o
+        plastico bilancia la massa e ne intercetta un bordo o un intervallo.
+        Metallo e iridescenza restano materiali distinti. Piccoli frammenti
+        grafici possono sostenere un asse, senza cornice decorativa uniforme.
+      Text Adaptation: >
+        A capo per gruppi di senso, mantenendo connettivi e spazi evidenti.
+        Con più testo ridurre ingombro e riflessi dell'elemento secondario.
+        Un nome richiesto trova un asse destro subordinato.
+      Format Adaptation: >
+        Ridistribuire massa tipografica, elemento e campi di riflesso per
+        il rapporto scelto. Ritagliare la grafica, mai le parole.
+      Validation: Prima prova cromo; oggetto e palette della dimostrazione non sono vincoli.
+    - id: folded-foil-stagger
+      Name: Lettura sfalsata e lamina riflettente
+      Use When: >
+        La frase può articolarsi in gruppi di lunghezza diversa e un
+        materiale astratto può collegarli senza richiedere un soggetto.
+      Structure: >
+        Gruppi tipografici sfalsati formano una lettura continua. Una lamina
+        o un nastro olografico percorre i vuoti e passa dietro alcune parole.
+        Le superfici cromate della frase restano più ferme e contrastate
+        rispetto al materiale ottico. I dettagli digitali sono subordinati.
+      Text Adaptation: >
+        Risolvere gli scarti con la lunghezza reale delle parole, senza
+        una griglia di righe tutte uguali e senza frammentare ogni parola.
+        Stabilizzare o semplificare le riflessioni con testi più lunghi.
+      Format Adaptation: >
+        Ricostruire il percorso nei vuoti del nuovo formato. Ridurre anse
+        e intersezioni prima di ridurre la leggibilità.
+      Validation: Seconda frase verificata nel nativo e a 320 pixel; una correzione degli spazi fra parole. Registro approvato dall'utente il 26 ottobre 2026.
+    - id: translucent-desktop
+      Name: Superfici sovrapposte e frase metallica
+      Use When: >
+        Il tono della frase può dialogare con la memoria delle interfacce
+        digitali senza diventare una schermata piena di etichette.
+      Structure: >
+        Pochi piani traslucidi si sovrappongono e ospitano una frase cromata
+        che li attraversa o li collega. Una zona più quieta apre la lettura.
+        Controlli e griglie restano dettagli grafici, non testi inventati.
+      Text Adaptation: >
+        La citazione resta intera e dominante. Aumentare il piano utile
+        di lettura e ridurre le finestre quando il contenuto cresce.
+        Non trasformare connettivi o nomi in elementi illeggibili dell'UI.
+      Format Adaptation: >
+        Cambiare dimensione e sovrapposizione dei piani per il rapporto
+        richiesto, evitando di ritagliare una schermata già composta.
+      Validation: Famiglia prevista dal profilo ma non ancora provata nel registro cromo.

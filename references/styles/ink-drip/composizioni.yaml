@@ -1,0 +1,24 @@
+Composition Library:
+  Style Name: Ink Drip
+  Selection:
+    Basis: Choose a readable word mass and an open destination for its liquid ink.
+    Variation: Change flow origin and spatial rhythm, not only the number of drops.
+  Families:
+    - id: descending-letter-field
+      Name: Lettere e campo di discesa
+      Use When: A short phrase can sit above a substantial open area.
+      Structure: Selected low letter strokes release unequal trails into the space below.
+      Text Adaptation: Keep upper-line runs short and reserve the longest for the final line.
+      Format Adaptation: Rebalance word mass and trail destination for the ratio.
+    - id: ink-between-groups
+      Name: Colature fra due gruppi
+      Use When: Two semantic groups can share an open interval.
+      Structure: Upper lettering releases ink into a gap; the lower group remains outside its paths.
+      Text Adaptation: Preserve sentence order and keep every lower glyph clear of the runs.
+      Format Adaptation: Adjust gap and lower-group position together.
+    - id: absorbed-descent
+      Name: Discesa e assorbimento
+      Use When: A quieter phrase benefits from diluted traces as well as dark cores.
+      Structure: Local pools release narrow downward trails and restrained feathered halos.
+      Text Adaptation: Preserve solid readable letter cores; soften only selected wet areas.
+      Format Adaptation: Recompose open paper and trail extent without shrinking the phrase.

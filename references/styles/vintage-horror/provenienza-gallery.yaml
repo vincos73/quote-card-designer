@@ -1,0 +1,45 @@
+source:
+  project_id: appgprj_6adb7b4f342881918cd48a4c247a3092
+  version: 23
+  commit_sha: bb6358c372ea774bb122ac41095546f1e714233f
+  url: https://quote-card-designer-style-gallery.vincos.chatgpt.site/?v=23#vintage-horror
+  retrieved_on: '2026-10-26'
+profile:
+  export: profilo-gallery-v23.yaml
+  export_sha256: 68c881117a6d422053bec3ff46315b534082e669d4caa25948eee8a4332e581f
+  runtime: profilo.yaml
+  composition_library: composizioni.yaml
+  content_policy: Contenuto del profilo e libreria identico semanticamente all’export pubblicato; solo
+    separazione in due file locali.
+catalog:
+  source_search_index: Vintage Horror La frase diventa il titolo di una locandina horror d’epoca, con
+    lettering irregolare, blocchi condensati, figure a inchiostro e pochi colori da stampa economica.
+    Illustrazione e decorazione Generativa horror vintage locandina lettering stampa illustrazione vintage
+    horror horror vintage locandina horror horror show Teatrale Inquietante Popolare Stampato Energico
+    Imperfetto
+  metadata_policy: Nome, categoria, descrizione, metodo, stato, etichette e frase da scheda pubblicata.
+    Alias e tag ricavati dai termini del suo indice di ricerca; non inventata una segmentazione storica
+    esatta.
+images:
+- example: 1
+  source: assets/vintage-horror.jpg
+  local: esempio.jpg
+  sha256: c6a4f73590e4b92dc1f34102e676bf08239e33d1abe485da2be4f3530ac14df6
+  width: 800
+  height: 1000
+  mode: RGB
+  format: JPEG
+  quote: La paura bussa. La curiosità apre.
+  label: Due tempi · nero e vermiglione
+- example: 2
+  source: assets/vintage-horror-2.jpg
+  local: esempio-2.jpg
+  sha256: ba047857246fa05ba0a6000bda917a78d54865fc2db2a86eaef1b3578b34b1a2
+  width: 800
+  height: 1000
+  mode: RGB
+  format: JPEG
+  quote: Le idee migliori prendono strade inattese.
+  label: Sentiero impossibile · nero e ocra
+original_generation_assets_recovered: false
+original_generation_prompts_recovered: false

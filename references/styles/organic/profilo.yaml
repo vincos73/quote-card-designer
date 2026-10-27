@@ -1,0 +1,199 @@
+Design Style:
+  Name: Organic
+  Status: "Incluso nel catalogo V1 il 26 ottobre 2026"
+  Concept: >
+    A complete quotation and a few large living silhouettes compose the
+    same page. Flat botanical or biomorphic shapes, sinuous contours and
+    active unprinted intervals create an open, rhythmic field. Opaque
+    colour and a restrained print surface give the image a handmade
+    presence while robust editorial type carries the sentence clearly.
+
+  Reference Basis:
+    Transfer: >
+      Extract simplified flowers, broad leaves, branching silhouettes,
+      curved ribbons, large flat colour masses, spare interior lines and
+      uneven but deliberate contours from the supplied images. The wider
+      research supports cut-paper construction, scale, rhythmic colour
+      relationships and the formal role of readable enlarged type.
+    Sources: ricerca.md
+    Independence: >
+      This is an original synthesis, not an attribution of the supplied
+      images to a named artist or brand. Reference patterns, particular
+      flower designs, existing text, dates, logos and layouts are not
+      content to reuse. The written profile is sufficient for generation;
+      do not automatically pass reference images to the generator.
+
+  Canvas:
+    Ratio: '4:5'
+    Output: One complete flat editorial quote card, full bleed
+    Adaptation: >
+      Recompose the sentence, contour directions, crops and quiet intervals
+      for a new format. Preserve all required text rather than cropping a
+      poster or compressing individual words.
+
+  Mood: [Lively, Open, Tactile, Assured, Warm, Rhythmic, Playful, Editorial]
+
+  Color Palette:
+    Fixed Colors: false
+    Strategy: >
+      Choose a limited group of opaque inks and one broad reading field.
+      A light warm paper with one dark reading ink and two or three
+      distinct colour masses is a useful starting relationship, not a
+      mandatory palette. Warm, cool, muted or brighter variations are
+      valid when they preserve clear shapes and text contrast.
+    Study Directions:
+      Botanical:
+        Field: '#F3EEDC'
+        Type and Foliage: '#17483D'
+        Flower: '#EF7B33'
+        Small Accent: '#D9AD3F'
+      Biomorphic:
+        Field: '#F1EDE1'
+        Type: '#153F45'
+        Broad Shape: '#24649A'
+        Ribbon: '#7D9851'
+        Small Mass: '#DF896C'
+    Roles: >
+      Give large shapes a small number of distinct flat inks. Relate the
+      text ink to the visual palette while retaining enough luminance
+      separation from every area it meets. Neither black nor green is
+      compulsory. Negative space is an active part of the colour balance.
+    Overrides: >
+      Replace study hues freely for content or user preference. Retain
+      opaque colour, a coherent reading ink and separation between masses.
+
+  Typography:
+    Main Reading:
+      Direction: >
+        A substantial editorial sans or grotesk, bold or semibold, with
+        clear counters and natural proportions. A coherent condensed
+        drawing is possible for a short emphatic sentence. Do not squeeze
+        one line or stretch a word to fill a gap.
+      Structure: >
+        Let actual word groups make a strong readable shape. Use optical
+        alignment and line breaks by meaning; a deliberate emphasis may
+        change scale without making connecting words into tiny captions.
+      Case: Preserve supplied case; uppercase is a study choice, not a rule.
+      Ink: A darkened or lightened palette-related tone with clear local contrast
+      Integrity: >
+        Preserve the complete literal sentence, punctuation, accents and
+        word spaces. Normally show it once. Foliage and abstract shapes
+        must not replace letters or hide identifying strokes.
+    Attribution: >
+      Use only a supplied or verified name, exact, smaller and visually
+      lighter than the quotation, ending on a clear right axis. Omit
+      its space when absent. A personal signature is separate and added
+      only when requested.
+    Font Fidelity: >
+      A generated sans appearance does not certify an exact typeface or
+      provide editable type. Use a named font only when an actual asset
+      and its use have been verified.
+
+  Layout:
+    Shared Field: >
+      Design words and silhouettes together. A curved contour may open a
+      channel for a word group, a leaf may answer the angle or width of a
+      text block, or a crop may direct attention back to the sentence.
+      An illustration simply parked under a tiny quotation is insufficient.
+    Rhythm: >
+      Use unequal masses, scale changes and purposeful asymmetry with
+      coherent reading anchors. A few large forms matter more than an
+      inventory of motifs. Let dense shapes alternate with unprinted field.
+    Negative Space: >
+      Keep quiet connected intervals around the phrase. Slits, holes and
+      gaps inside organic forms can echo the open field. Avoid accidental
+      tangencies with letters and narrow pockets that trap tiny words.
+    Focal Relation: >
+      The visual can be off-centre, edge-cropped, dispersed or arranged
+      along a curve. A single central object is not required. Botanical
+      and abstract routes are equally valid when the material language
+      and the sentence remain clear.
+    Capacity: >
+      For longer text, reduce the number and invasion of shapes, open a
+      larger reading interval and use fewer changes of scale before
+      shrinking the sentence. Do not turn it into a caption.
+
+  Imagery:
+    Construction: >
+      Simplify a familiar natural rhythm into a flat silhouette or invent
+      a biomorphic form with related growth, branching or curving movement.
+      Contours feel confidently cut or painted, not geometrically perfect
+      and not randomly ragged.
+    Repertoire: >
+      Broad leaves, petals, stems, lobed branches, seed-like forms,
+      rippling ribbons and irregular rounded masses are possible. Choose
+      only those that serve the current quotation; no flower or inventory
+      is mandatory and literal illustration is optional.
+    Interior: >
+      A few thin veins, cuts or simple secondary colour shapes may explain
+      direction. Retain broad readable areas; do not build a fine botanical
+      drawing or a field of tiny folk ornament.
+
+  Graphic Elements:
+    Default: Main silhouettes, type and negative space supply the structure.
+    Optional: >
+      A few dots, a short rule or one spare interior gesture can mark a
+      rhythm when useful. Do not add decorative marks to every empty gap.
+    Pattern Boundary: >
+      Repetition can support rhythm, but the result must be a quote card
+      composed for its sentence, not a uniform tile sheet, motif catalogue
+      or ornamental frame with a small quotation dropped into the centre.
+
+  Effects:
+    Surface: >
+      Matte opaque ink on paper, subtle fibre and controlled fine grain.
+      Sparse tiny ink skips or a small local overprint can enrich the
+      large colour areas. Keep the text substantially intact and crisp.
+    Depth: Flat graphic relationships; no realistic volume or cast shadows
+    Restraint: >
+      Avoid watery transparency, digital gradients, gloss, torn-paper
+      assemblage, heavy ageing and indiscriminate grunge. Surface texture
+      cannot become the main subject or erase the contours.
+
+  Content Contract:
+    quote: Complete literal sentence once as the main typographic layer
+    author: Optional exact supplied or verified name, subordinate and right-aligned
+    supporting: Only supplied text; omit invented headings, events, dates and labels
+    repetition: Preserve literal repetition in supplied copy; add no decorative word echoes
+
+  Rules:
+    - Keep the quotation prominent, complete and readable at phone scale.
+    - Use a few large opaque organic shapes and active negative space.
+    - Let words and silhouettes organise the same composition.
+    - Prefer deliberate asymmetrical rhythm over an equal tile grid.
+    - Keep glyph proportions, punctuation, word spaces and reading order intact.
+    - Adapt subject, layout, type choice and palette to each new quotation.
+    - Keep handmade contour variation controlled and recognisable.
+    - Use texture sparingly and protect reading ink.
+    - Do not require a central subject, botanical literalism or a recurring flower.
+    - Do not copy identifiable branded patterns or reference compositions.
+    - Do not invent attribution, microcopy, logos, dates or exhibition information.
+    - Avoid four-point starbursts, HUD graphics, 3D and photorealistic botanical imagery.
+
+  Production:
+    Preferred Mode: generative
+    ImageGen Role: >
+      Generate the complete card, including quotation, organic field,
+      hierarchy, print treatment and their relationship. An isolated
+      generated flower placed into a separately scripted poster does
+      not establish this style.
+    Refinement: >
+      When available, refine observed lettering defects while preserving
+      the generated direction and original. Do not claim editable layers
+      or verified fonts without providing those assets.
+    Reference Inputs: >
+      Both initial studies used the written specification without image
+      inputs. Supplied and researched images informed analysis only. No
+      matched with-reference versus without-reference trial has been
+      performed, and a permanent image-reference workflow is not adopted.
+    Validation: >
+      Two complete approximately 4:5 cards were generated with different
+      original demonstration sentences, a warm botanical direction and
+      a cooler abstract biomorphic direction. Both were visually inspected
+      at native size and in 320 by 400 pixel previews. Text is complete
+      and prominent in each. These studies do not validate all quotations,
+      palettes or families. Long text, supplied attribution, different
+      ratios and an exact requested font remain untested. The user approved
+      the style and requested its inclusion as a V1 candidate on 2026-10-25.
+
+Composition Library: composizioni.yaml

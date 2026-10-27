@@ -1,0 +1,15 @@
+{
+  "project_id": "appgprj_6adb7b4f342881918cd48a4c247a3092",
+  "version_number": 38,
+  "commit_sha": "0d567a0aa4017415560ecfe77d6527f54f28da59",
+  "deployment_id": "appgdep_6ae0506eeaa88191970cdff65acd7fd5",
+  "status": "succeeded",
+  "url": "https://quote-card-designer-style-gallery.vincos.chatgpt.site",
+  "styles": 77,
+  "images": 165,
+  "selected_v1": 41,
+  "v1_candidates": 9,
+  "not_in_release_including_candidates": 36,
+  "change": "Ballpen candidato con prova testo protagonista e caos equilibrato come anteprima, esempi precedenti conservati.",
+  "validation": "Griglia e conteggi verificati nella sorgente; scheda e filtro Candidates con 9 risultati verificati online."
+}

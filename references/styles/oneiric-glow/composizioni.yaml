@@ -1,0 +1,76 @@
+Composition Library:
+  Style Name: Oneiric Glow
+  Selection:
+    Basis: >
+      Choose the relationship between text and presence from quotation length,
+      emotional distance, format and any supplied subject. Use one principal
+      structure rather than combining every motif.
+    Variation: >
+      For new cards vary scale, setting, gesture, crop and reading axis as well
+      as colour. Preserve a chosen composition during a targeted revision.
+  Families:
+    - id: distant-presence
+      Name: Presenza nella distanza
+      Use When: >
+        A quotation about waiting, hope, absence or belonging benefits from
+        open space and a small or medium recognisable apparition.
+      Structure: >
+        A luminous form occupies a grounded photographic interval at some
+        distance. A larger quiet field carries the quotation, and the local
+        light spill connects the presence with the nearby surface.
+      Text Adaptation: >
+        Keep the text visibly larger than incidental scenery. A short phrase
+        can use a leading line and an expressive continuation; a longer one
+        needs a broader calm block rather than more decorative flourishes.
+      Format Adaptation: >
+        In tall formats use spatial distance between text and presence.
+        In square or wide formats shift the relationship sideways and
+        preserve the source-to-ground connection.
+      Checks:
+        - The presence remains recognisable without filling the card.
+        - The quotation is readable before inspecting small scenic detail.
+        - Darkness and local spill describe an environment, not a blank gradient.
+
+    - id: close-apparition
+      Name: Apparizione ravvicinata
+      Use When: >
+        An intimate or direct quotation needs the physical scale of a body,
+        gesture or familiar form close to the viewer.
+      Structure: >
+        Crop an emissive presence decisively along an edge, retaining enough
+        contour to read the form. Place the quotation in the quieter interval
+        beside or above it; a halo may approach but cannot erase the words.
+      Text Adaptation: >
+        Use clear groups of meaning with a generous leading register.
+        A selected italic phrase can answer the contour, while the rest
+        holds a stable reading axis.
+      Format Adaptation: >
+        Rechoose the crop for each ratio. In a square card allow an oblique
+        relationship; in a tall card use the cropped body to lead the eye
+        toward the quotation rather than enlarging it without limit.
+      Checks:
+        - The crop is intentional and the form still reads.
+        - Type is not compressed locally to avoid the body.
+        - The white core and surrounding light remain distinct in scale.
+
+    - id: shared-trace
+      Name: Traccia condivisa
+      Use When: >
+        A quotation about connection, memory or coexistence is served by a
+        relationship between an ordinary presence and a luminous one.
+      Structure: >
+        Two forms share a simple gesture, overlap or spatial interval.
+        One remains photographic while the other becomes emissive. The
+        scene and quotation form one hierarchy rather than a story collage.
+      Text Adaptation: >
+        Let the quotation describe the relationship without adding explanatory
+        captions. Keep one clear reading sequence and omit unsupported names.
+      Format Adaptation: >
+        In tall formats stagger the forms or use depth; in square formats
+        simplify the gesture and open a text interval beside or above it.
+        Do not crop a necessary contact out of the new ratio.
+      Checks:
+        - Contact, overlap and visible anatomy remain plausible.
+        - The ordinary form catches some light from the luminous form.
+        - No unrequested identity or narrative is assigned to either subject.
+

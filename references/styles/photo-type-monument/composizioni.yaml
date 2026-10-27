@@ -1,0 +1,40 @@
+Composition Library:
+  Style Name: Photo Type Monument
+  Selection:
+    Basis: Select a meaningful photographic subject and fit one complete quotation into broad readable bands.
+    Variation: Vary photographic scale, band structure and negative space rather than only replacing the field colour.
+  Families:
+    - id: full-page-object
+      Name: Oggetto nelle fasce monumentali
+      Use When: A recognisable object can embody the quotation's main action or concept.
+      Structure: >
+        Place one large photographic object beneath the full typographic
+        field. Reveal its coherent form through several broad word bands,
+        leaving the outside and counters opaque. Let the object's defining
+        features cross the bands instead of centring a separate object in
+        every word.
+      Text Adaptation: >
+        Break into semantic groups with intact word spaces and punctuation.
+        Fit the type and crop together so neither object recognition nor
+        sentence reading depends on hidden or missing details.
+      Format Adaptation: Rebalance object crop, band height and margins for the canvas ratio.
+    - id: immersive-subject
+      Name: Soggetto immerso nella tipografia
+      Use When: A close photographic subject has recognisable features that can connect several bands.
+      Structure: >
+        Let the subject span the whole page behind the word silhouettes.
+        Multiple photographic features connect across the flat row gaps,
+        making one image perceptible through the complete quotation.
+      Text Adaptation: Preserve the sentence in natural order without making a particular facial feature or word position compulsory.
+      Format Adaptation: Recompose the photographic focus and word grouping rather than cropping complete letters.
+    - id: controlled-emergence
+      Name: Un dettaglio emerge dalle lettere
+      Use When: A meaningful feature of the same subject can cross the mask without compromising the quotation.
+      Structure: >
+        Begin with the full-page photographic letter field, then let one
+        restrained photographic feature emerge in front. Its scale and
+        overlap remain subordinate to the full reading sequence.
+      Text Adaptation: >
+        Preserve every word and glyph identity. Move or reduce the emerged
+        fragment before obscuring letters; never require a person or face.
+      Format Adaptation: Rebalance the emerging feature and negative spaces for every ratio.

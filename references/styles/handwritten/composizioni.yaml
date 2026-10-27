@@ -1,31 +1,35 @@
 Composition Library:
   Style Name: Handwritten
   Selection:
-    Guidance: >
-      Scegliere il rapporto fra campo fotografico e gesto in funzione della frase
-      e delle masse tonali della foto. Mantenere un percorso di lettura chiaro.
+    Guidance: 'Scegliere il rapporto fra campo fotografico e gesto in funzione della frase e delle masse
+      tonali della foto. Mantenere un percorso di lettura chiaro.
+
+      '
   Families:
-    - id: wandering-lines
-      Name: Righe in movimento
-      Use When: Una frase breve può articolarsi in pochi gruppi espressivi.
-      Structure: >
-        Distribuire i gruppi su traiettorie leggermente diverse, collegati dal
-        gesto della stessa mano. La fotografia rimane continua fra le parole.
-      Text Adaptation: Variare spazi e scala senza alterare l'ordine delle parole.
-      Format Adaptation: Ridistribuire i gruppi e rifare il taglio della foto.
-    - id: intimate-note
-      Name: Nota sulla fotografia
-      Use When: Il tono della frase è raccolto o il soggetto fotografico è forte.
-      Structure: >
-        Un nucleo di scrittura irregolare abita una zona della foto, con righe
-        raccolte e un'inclinazione locale. Lasciare respiro al soggetto.
-      Text Adaptation: Aumentare le righe prima di ridurre troppo il corpo.
-      Format Adaptation: Scegliere un'area adatta nel nuovo taglio, senza imporre un riquadro.
-    - id: crossing-gesture
-      Name: Gesto che attraversa
-      Use When: Una frase molto breve ammette un segno ampio e fisico.
-      Structure: >
-        Le parole attraversano la scena con ampiezze diverse e una continuità
-        gestuale. Una parola può diventare dominante senza coprire tutto il soggetto.
-      Text Adaptation: Riservare la scala maggiore all'enfasi già presente nella frase.
-      Format Adaptation: Cambiare direzione e distanze per mantenere tutte le parole nel campo.
+  - id: wandering-lines
+    Name: Righe in movimento
+    Use When: Una frase breve può articolarsi in pochi gruppi espressivi.
+    Structure: 'Distribuire i gruppi su traiettorie leggermente diverse, collegati dal gesto della stessa
+      mano. La fotografia rimane continua fra le parole.
+
+      '
+    Text Adaptation: Variare spazi e scala senza alterare l'ordine delle parole.
+    Format Adaptation: Ridistribuire i gruppi e rifare il taglio della foto.
+  - id: intimate-note
+    Name: Nota sulla fotografia
+    Use When: Il tono della frase è raccolto o il soggetto fotografico è forte.
+    Structure: 'Un nucleo di scrittura irregolare abita una zona della foto, con righe raccolte e un''inclinazione
+      locale. Lasciare respiro al soggetto.
+
+      '
+    Text Adaptation: Aumentare le righe prima di ridurre troppo il corpo.
+    Format Adaptation: Scegliere un'area adatta nel nuovo taglio, senza imporre un riquadro.
+  - id: crossing-gesture
+    Name: Gesto che attraversa
+    Use When: Una frase molto breve ammette un segno ampio e fisico.
+    Structure: 'Le parole attraversano la scena con ampiezze diverse e una continuità gestuale. Una parola
+      può diventare dominante senza coprire tutto il soggetto.
+
+      '
+    Text Adaptation: Riservare la scala maggiore all'enfasi già presente nella frase.
+    Format Adaptation: Cambiare direzione e distanze per mantenere tutte le parole nel campo.

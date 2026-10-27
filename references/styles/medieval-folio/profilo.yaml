@@ -56,18 +56,20 @@ Design Style:
 
   Typography:
     Quote: >
-      Large, readable bookhand-inspired serif or humanist calligraphic serif
-      with coherent letterforms. A medieval flavour can come from pen rhythm,
-      moderate stroke contrast and slightly organic contours, not from dense
-      illegible blackletter. Keep one consistent type register across the
-      quote, with natural word spaces, optical kerning and clear line breaks.
+      Use a legible Gothic textura or blackletter register when it suits the
+      phrase, with the strong vertical rhythm and angular forms of manuscript
+      writing. Keep counters open, word spaces distinct, and letterforms large
+      enough to read at phone size. If the selected Gothic construction makes
+      any word uncertain, reduce ornament or use a clearer Gothic variant
+      before shrinking the quotation. A bookhand serif remains a fallback only
+      when the requested Gothic treatment cannot preserve the text.
     Initial: >
       Optionally make the first letter of the actual quote a painted or
       historiated initial. It replaces that letter; do not repeat it in plain
       type. If an exact first word cannot be rendered reliably, use a painted
       non-letter vignette near the text and set the full quote normally.
     Hierarchy: >
-      The complete quotation is the largest readable mass and first reading
+      The complete quotation in Gothic lettering is the largest readable mass and first reading
       priority, normally across two to five lines. Ornament can be vivid but
       stays beyond the letter interiors and leaves the text's local ground
       calm. Change line breaks, initial size or marginal density before

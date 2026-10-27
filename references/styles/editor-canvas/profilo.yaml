@@ -32,9 +32,10 @@ Design Style:
     - native text and glyph spacing review
   Name: Editor Canvas
   Status: Catalog style; first visual example approved by user. Production capabilities remain separately unverified.
-  Concept: The quotation is displayed as an actively edited typographic object. Selection bounds, handles,
-    a guide and a cursor reveal a sparse graphic-design workspace rather than putting the quote inside a nostalgic
-    desktop window.
+  Concept: The quotation is displayed as an actively edited typographic object inside a believable contemporary
+    design canvas. A ruler, alignment guides, selection bounds, handles, contextual controls and a compact
+    properties area make the editing environment recognizable while keeping the quote as the primary subject.
+    This is a modern design workspace, not a nostalgic desktop window.
   Mood:
   - graphic
   - precise
@@ -48,21 +49,24 @@ Design Style:
     Attribution: Optional supplied name in a smaller/lighter separate register, not an invented UI footer.
   Layout:
     Structure:
-    - Open canvas with a common reading axis
+    - Large open artboard with a common reading axis
+    - Slim top control strip and a compact side properties panel, kept secondary to the artboard
+    - Small ruler ticks, one or two alignment guides and a restrained grid cue
     - Selection frame around one or two meaningful text fragments
     - Small square handles attached to actual frame corners and midpoints
-    - One restrained vertical or horizontal guide
-    - At most one cursor if useful
+    - One cursor or contextual tool cue when useful
     Relation To Retro UI: Editing controls relate directly to letters, not a main retro desktop window containing
       the quote.
   Graphic Elements:
     Repertoire:
-    - Thin solid selection bounds
-    - Optional dotted bounds for one secondary selection
-    - Small square handles
-    - One flat cursor arrow
-    - One inversion or highlight plane
-    Selection: Choose a few process marks. Do not recreate a complete app, toolbar or screenshot.
+    - Thin solid selection bounds with small square handles
+    - Ruler ticks, alignment guides and a light canvas grid
+    - Compact icon-like controls for selection, text, alignment and colour
+    - A few colour swatches and restrained spacing or size controls in a side panel
+    - One flat cursor arrow and one inversion or highlight plane
+    Selection: Combine enough recognizable canvas details to suggest a real vector or editorial design
+      workspace. Keep controls small, quiet and subordinate; do not fill the card with a full screenshot or
+      allow generated pseudo-labels and illegible interface copy.
   Effects:
     Surface: Clean flat field
     Depth: Flat layering
@@ -70,8 +74,8 @@ Design Style:
     Selection: Highlight sits behind words and preserves contrast.
   Rules:
   - Frames enclose real quotation fragments and follow their geometry.
-  - Do not copy NEW/LOAD/SAVE labels, creator handle or reference wording.
-  - No additional UI text unless explicitly supplied.
+  - Do not copy NEW/LOAD/SAVE labels, creator handles or reference wording; do not invent readable UI labels.
+  - Small non-verbal controls, ruler ticks, swatches and panel divisions may add realism without adding copy.
   - Handles and cursor must not cover accents, punctuation or letters.
   - Keep a large enough type scale for the final viewing size.
   Production:
@@ -82,4 +86,4 @@ Design Style:
     - SVG or equivalent guides, handles and cursor
     - layer order and local contrast
     Implemented: Not implemented as a profile-aware renderer; geometry is suitable for deterministic layout.
-  Version: 0.1.0
+  Version: 0.1.1

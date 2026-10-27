@@ -1,0 +1,20 @@
+- id: photo-type-monument
+  release_candidate: false
+  production_mode: hybrid
+  family: fotografia-atmosfere
+  name: Photo Type Monument
+  aliases:
+    - photo type monument
+    - foto tipografica monumentale
+    - fotografia a lettere giganti
+    - maschera fotografica a pagina intera
+    - parole fotografiche monumentali
+  summary: Una fotografia continua riempie lettere monumentali su quasi tutta la pagina, con fondo piatto fuori dai glifi. Persone o oggetti seguono il significato della frase.
+  tags: [fotografia, tipografia monumentale, photo mask, pagina intera, oggetti, condensato]
+  profile: references/styles/photo-type-monument/profilo.yaml
+  example_count: 1
+  example: references/styles/photo-type-monument/esempio.png
+  example_label: Mettere a fuoco · macchina fotografica
+  example_text: METTI A FUOCO LE IDEE.
+  notes: references/styles/photo-type-monument/note.md
+  example_prompt: references/styles/photo-type-monument/prompt-esempio.md

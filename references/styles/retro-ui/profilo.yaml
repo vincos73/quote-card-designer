@@ -1,80 +1,131 @@
 Design Style:
   Name: Retro UI
-  Concept: 'Quote card editoriale che reinterpreta le finestre desktop anni Novanta con forme minimali,
-    pannelli cromaticamente adattabili, contorni netti e ombre dure offset. La citazione diventa il contenuto
-    centrale dell''interfaccia.
-
-    '
+  Status: Revisione bitmap approvata dall'utente il 26 ottobre 2026
+  Concept: >
+    La frase diventa il contenuto di un desktop bitmap: finestre attive e
+    inattive, barre a righe, retini, cursori e piccole immagini cooperano
+    alla sua lettura. Il carattere nasce dai dettagli delle prime interfacce
+    grafiche, reinterpretati come quote card contemporanea; non è una
+    ricostruzione certificata di un sistema operativo specifico.
   Canvas:
     Ratio: '4:5'
-    Type: Quote card
+    Type: Quote card raster completa
+    Adaptation: Ricomporre finestre e contenuti per il formato richiesto.
   Mood:
-  - Nostalgic
-  - Graphic
-  - Playful
-  - Minimal
-  - Editorial
+    - Nostalgic
+    - Personal
+    - Quietly playful
+    - Graphic
+    - Tactile digital
   Color Palette:
-    Background: Campo dell'interfaccia, scelto in base al significato della citazione
-    Panel: Tinta distinta dal fondo e adatta a contenere la citazione
-    Ink: Colore ad alto contrasto per testo e contorni
-    Accents:
-      Selection: Uno o due accenti scelti semanticamente dal tono della citazione
-    Rules:
-    - Adattare fondo, pannello, inchiostro e accenti al significato, mantenendo contrasto sufficiente.
-    - Mantenere contorni netti e ombre dure spostate, usando il ruolo ink o un colore equivalente ad alto
-      contrasto.
     Fixed Colors: false
+    Roles:
+      Desktop: Campo continuo che collega le finestre e lascia pause visive.
+      Content: Superficie calma e distinta per la frase.
+      Ink: Contrasto forte per lettering, bordi e pittogrammi.
+      Selection: Un eventuale accento per uno stato o un dettaglio scelto.
+    Directions:
+      Monochrome: >
+        Nero e bianco; mezzi toni simulati da retini regolari di pixel,
+        senza un velo grigio sopra tutta la card.
+      Pastel desktop: >
+        Crema e una tinta morbida per il desktop, inchiostro scuro,
+        un accento limitato. Una campitura ondulata può differenziare
+        sfondo e pannelli senza introdurre gradienti o vetro.
+    Rules:
+      - Scegliere i ruoli dal tono della frase e dalle preferenze dell'utente.
+      - La variante pastello è una rilettura contemporanea, non una pretesa storica.
+      - Non imporre sempre menta, rosa o il desktop nero degli esempi.
+      - Tenere il campo immediatamente dietro al testo uniforme e leggibile.
   Typography:
     Quote:
-      Style: Monospace as the default, with a contemporary late-90s interface character
-      Weight: Medium to bold, according to the font and reading size
-      Color: High-contrast ink role selected for the active palette
-      Spacing: Natural kerning and word spacing; no arbitrary tracking
+      Style: >
+        Lettering derivato dai caratteri bitmap di sistema, con gradini
+        intenzionali e controforme aperte. Può essere proporzionale o
+        monospaziato: il monospace non è un requisito dello stile.
+      Weight: Sostanziale, coerente con la scala di lettura della card.
+      Hierarchy: >
+        La frase è il primo livello visivo. I connettivi restano leggibili
+        e appartengono al percorso principale, non a microetichette UI.
+      Spacing: >
+        Spazi fra parole e ritmo ottico regolari; nessuna parola schiacciata
+        o allargata per entrare in una finestra.
+    Attribution:
+      Condition: Solo se fornita o verificata nella fonte.
+      Treatment: Più piccola e quieta della frase, allineata a un asse destro utile.
+      Absence: Ricomporre lo spazio senza segnaposto.
   Layout:
-    Structure: Layered retro desktop windows adapted to a vertical 4:5 card
-    Composition:
-    - Una finestra principale contiene la citazione e domina la gerarchia.
-    - Un pannello secondario può sporgere dietro la finestra principale.
-    - Le cornici formano una griglia pulita e lasciano margini generosi.
+    Principle: >
+      Progettare una scrivania con gerarchia, non incollare cornici intorno
+      a una citazione generica. Frase, finestra attiva e finestre secondarie
+      devono condividere bordi, sovrapposizioni e ordine di lettura.
+    Relations:
+      - Una superficie attiva o una sequenza chiaramente collegata ospita il testo.
+      - Finestre di scala diversa creano un fronte e un retro riconoscibili.
+      - Le sovrapposizioni attraversano margini liberi, mai parole necessarie.
+      - Il desktop resta visibile in pause e intervalli, senza riempire ogni spazio.
+      - Barra titolo, corpo e controlli sono distinguibili per funzione e peso.
+    Adaptation: >
+      Per frasi lunghe ampliare il contenuto e togliere utility secondarie
+      prima di ridurre il testo. Non obbligare ogni card allo stesso grande
+      rettangolo centrale né alla stessa coppia di finestre.
   Elements:
-    Interface:
-      Style: Generic minimal 1990s desktop window frames
-      Rules:
-      - Finestre e barre titolo restano prive di testo leggibile inventato.
-      - Usare solo forme geometriche semplici per i controlli.
-      - La UI incornicia il contenuto, non lo sostituisce.
+    Interface grammar:
+      - Barre titolo a righe sottili, piccoli controlli coerenti e bordi doppi.
+      - Scroll bar con frecce e cursore, angoli di ridimensionamento, selezioni tratteggiate.
+      - Cartelle, documenti e utensili riconoscibili disegnati con economia di pixel.
+      - Cursore freccia o puntatore di selezione in posizione plausibile.
+      - Poche utility senza testo, scelte in rapporto al significato e alla composizione.
+    Imagery:
+      Treatment: >
+        Disegni bitmap, ritagli trattati a retino o piccole metafore visive
+        dentro una finestra. Una sola immagine significativa può bastare.
+      Selection: >
+        Scegliere il soggetto in base alla frase. Luna, germoglio e cartella
+        degli esempi sono scelte delle prove, non mascotte obbligatorie.
+    Consistency: >
+      Usare una logica di controlli coerente nella singola card. È possibile
+      reinterpretare convenzioni di epoche diverse, senza dichiarare una
+      schermata storicamente esatta né accumulare controlli casuali.
   Effects:
-    Borders: Bold outline in a color with strong contrast against panel and background
-    Shadow: Hard-edged offset shadow, no blur
-    Gradients: None
+    Pixel: Contorni scalettati nitidi, passo visivo coerente, senza sfocatura artificiale.
+    Dither: Trame ordinate o stipple controllato per tono e profondità di immagini e stati.
+    Shadow: Piccolo scarto netto per separare livelli; evitare grandi lastre nere decorative.
+    Texture: Eventuale traccia di stampa leggera, senza usura imposta o sporco uniforme.
+    Gradients: Nessuno nel registro ordinario.
+  Content Contract:
+    quote: Conservare parole, maiuscole, accenti e punteggiatura; mostrare la frase una volta.
+    author: Facoltativo, letterale, subordinato e allineato a destra; non inventarlo.
+    personal_signature: >
+      Solo su richiesta esplicita dell'utente. Conservare il nome esatto e
+      distinguere la firma personale dall'autore della citazione; non
+      ricavarla dal profilo dell'utente. Registro subordinato sull'asse destro.
+    Interface copy: >
+      Nessun testo di riempimento. Barre e utility possono usare solo segni
+      e pittogrammi; etichette o menu testuali richiedono contenuto fornito
+      o esplicitamente richiesto. La citazione resta l'unica prosa ordinaria.
   Rules:
-  - La citazione deve essere protagonista e conservata esattamente.
-  - Mantenere kerning naturale e proporzioni integre dei glifi.
-  - Non aggiungere testo UI, label, numeri o icone con lettere.
-  - Usare con moderazione accenti, finestre e ombre per mantenere leggibilità.
+    - La card deve leggere prima come frase e poi come piccolo mondo desktop.
+    - I dettagli bitmap devono caratterizzare il disegno, non ridursi al solo font.
+    - Non certificare una famiglia di font o una griglia pixel esatta dalla sola immagine.
+    - Evitare loghi, marchi di software, date, clock, metadati e nomi inventati.
+    - Evitare vetro, cromo, glow, lens flare e interfacce fantascientifiche.
+    - Non trasformare la card in un inventario di icone o in un mockup di dispositivo.
+    - La variante monocromatica conserva il contrasto anche senza accenti cromatici.
   Production:
-    Preferred Mode: typeset
-    Reason: Finestre, pannelli, contorni e ombre dure sono forme semplici con coordinate esatte; il testo
-      monospace reale si inserisce come contenuto dell'interfaccia. Colori variabili possono essere assegnati
-      a ruoli con contrasto e verificati numericamente.
-    Content Adaptation: Se non esiste un font monospace adeguato tra i file già disponibili, usare un
-      font locale leggibile e dichiarare la sostituzione. Per una frase lunga ridimensionare l'intero
-      blocco o aumentare il pannello, non trasformare la card in una schermata piena di UI.
-    Required Capabilities: Font monospace locale, rettangoli sovrapposti, contorni e ombre offset non
-      sfocate, palette assegnata per ruoli, margini e box di testo misurati.
-    Current Prototype: Rettangoli, linee e testo sono supportati e l'ombra offset può essere rappresentata
-      da un secondo rettangolo. Non interpreta però la UI né applica controlli automatici di contrasto
-      o palette.
-    Validation Status: Profilo non renderizzato nelle prove odierne; font monospace, palette variabile
-      e gerarchia di finestre non testati come card.
-    Selected Font:
-      Family: IBM Plex Mono
-      Provider: Google Fonts
-      Weight: 500
-      Metadata URL: https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/METADATA.pb
-      Source File URL: https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Medium.ttf
-      License: OFL
-      Verified Metadata Date: '2026-10-22'
-      Local File Included: false
-      Status: Famiglia scelta per il prossimo test; file non ancora scaricato né verificato nel rendering
+    Preferred Mode: generative
+    Method: >
+      ImageGen integrato per l'intera composizione, inclusi testo, finestre,
+      retini e illustrazione. Correzioni generative mirate in caso di errori;
+      eventuale rifinitura con font reali solo conservando la base generata.
+    Reference Policy: >
+      Gli allegati sono riferimenti analizzati e tradotti nel prompt; non
+      sono dipendenze operative. Non è stato eseguito un confronto A/B
+      controllato per adottare stabilmente immagini di input.
+    Validation Status: >
+      Revisione approvata dall'utente il 26 ottobre 2026. Due card complete
+      con frasi diverse, una monocromatica e una pastello, controllate native
+      e a 320 x 400 px. Frasi lunghe, attribuzione e altri formati non ancora
+      provati. Una prova riuscita non dimostra ripetibilità. L'utente ha
+      richiesto l'aggiornamento della galleria e della skill.
+Composition Library: composizioni.yaml

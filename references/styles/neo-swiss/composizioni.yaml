@@ -1,0 +1,141 @@
+Composition Library:
+  Style Name: Neo Swiss
+  Selection:
+    Basis: >
+      Scegliere una relazione principale in base alla frase, al formato e alla
+      presenza di nomi. Portare nel prompt soltanto la struttura scelta.
+      La griglia organizza gli intervalli e resta implicita di default.
+      Mostrarla solo su richiesta esplicita, quando guida realmente gli assi
+      del testo. In quel caso mantenerla completa e leggera sull'intera superficie.
+      Il reticolo resta dietro ai glifi opachi; evitare interruzioni estese
+      o frammenti isolati attorno ai blocchi.
+      Se si sceglie la sovrapposizione, usare due registri con una sequenza
+      univoca: la complessità visiva non giustifica ripetizioni del testo.
+    Variation: >
+      Nelle nuove card cambiare la relazione fra masse e frase, non soltanto
+      il colore. Per una revisione mirata conservare invece gli ancoraggi accettati.
+  Families:
+    - id: exposed-modular-grid
+      Name: Griglia affiorante
+      Use When: >
+        L'utente richiede esplicitamente la costruzione visibile e questa
+        può essere collegata agli allineamenti effettivi. La frase breve o media
+        può occupare fasce di diversa altezza e
+        lasciare aperti alcuni moduli, rendendo percepibile la costruzione.
+      Structure: >
+        Pochi assi verticali e intervalli orizzontali coordinano tipografia,
+        campo vuoto e una campitura o un segno geometrico facoltativo.
+        Mostrare il reticolo completo con filetti leggeri, continui fino
+        ai bordi e coerenti con gli allineamenti. Una fascia può avere un corpo molto
+        maggiore delle altre senza cambiare famiglia tipografica. Le linee
+        affiorano sul fondo e sono coperti solo dai tratti opachi delle lettere;
+        i moduli aperti contano quanto quelli occupati.
+      Text Adaptation: >
+        Dividere per gruppi di senso, senza imporre una parola per casella
+        né giustificare le righe deformando spazi e glifi. La citazione resta
+        integra e compare una volta sola. Attribuzione solo se presente,
+        subordinata e allineata a destra su un asse reale.
+      Format Adaptation: >
+        Nel verticale sviluppare le fasce lungo la lettura; nel quadrato
+        ridistribuire pieni e vuoti, nel largo usare colonne più ampie.
+        Ricalibrare la densità dei filetti per il formato e la scala finale.
+    - id: interlocked-type-registers
+      Name: Registri tipografici intrecciati
+      Use When: >
+        La frase contiene un passaggio chiave che può assumere una scala
+        maggiore mentre le altre parole lo collegano in una lettura continua.
+      Structure: >
+        Un registro grande in colore e uno più compatto ad alto contrasto
+        condividono una griglia asimmetrica. Collocare i gruppi in zone diverse,
+        accostarli lungo un bordo comune o incastrarli negli spazi aperti;
+        pochi attraversamenti controllati sono facoltativi. La massa maggiore
+        può guidare la pagina, lasciando un controspazio riconoscibile. Cambi di
+        scala, bordi comuni e un eventuale filetto costruiscono profondità
+        grafica senza ombre. La gerarchia deve indicare dove iniziare e come
+        continuare; evitare due messaggi indipendenti che competono.
+      Text Adaptation: >
+        Assegnare ai due registri parti distinte e consecutive della frase,
+        preservandone maiuscole e punteggiatura. Nessuna duplicazione di
+        parole sul fondo, titolo aggiunto o lettera decorativa fuori testo.
+        Il colore del registro grande deve consentirne la lettura. Se gli
+        incroci nascondono lettere o confondono l'ordine, separarli e
+        mantenere il rapporto di scala. Non ritagliare i glifi della frase.
+      Format Adaptation: >
+        Nel verticale collegare i registri lungo una discesa leggibile;
+        nel largo ricomporli su moduli affiancati con un punto d'incontro.
+        Per frasi lunghe ridurre gli incroci e aumentare lo spazio fra blocchi
+        prima di ridurre indiscriminatamente il corpo.
+    - id: offset-reading-axis
+      Name: Asse di lettura spostato
+      Use When: >
+        Una citazione contiene due gruppi di senso legati da un cambiamento,
+        un contrasto o una conseguenza e può sostenere uno scarto di allineamento.
+      Structure: >
+        Il primo gruppo stabilisce un asse netto. Il secondo si sposta di un
+        intervallo riconoscibile, mantenendo baselines e ritmo coerenti. Una
+        campitura o un limite grafico riprende quello stesso scarto e collega
+        le due parti della pagina. Il vuoto rende percepibile il passaggio.
+      Text Adaptation: >
+        Conservare il testo integrale in un ordine naturale. Non isolare
+        articoli o congiunzioni soltanto per costruire una sagoma. Il cambio
+        d'asse non richiede automaticamente un cambio di font o di peso.
+      Format Adaptation: >
+        Nel verticale distribuire lo scarto lungo la sequenza di lettura;
+        nei formati larghi svilupparlo fra due aree collegate. Ricalibrare
+        margini e campitura senza ritagliare parole.
+    - id: typographic-counterspace
+      Name: Massa e controspazio
+      Use When: >
+        La frase ha un ritmo forte o un ingombro esteso e deve portare quasi
+        da sola la composizione, senza un soggetto illustrato.
+      Structure: >
+        Una massa tipografica dominante si bilancia con un intervallo aperto
+        e asimmetrico. Articolare il testo in gruppi di scala diversa quando la
+        sintassi lo consente, evitando un unico rettangolo centrato. Una
+        campitura facoltativa definisce un bordo o una
+        controforma della stessa area di lettura. Il contrasto tra pieno e
+        vuoto sostiene il messaggio senza apparati decorativi.
+      Text Adaptation: >
+        Usare a capo per gruppi di senso e pochi registri coerenti. La frase
+        completa resta presente una sola volta. Se serve enfasi, darle una
+        funzione di lettura; non aggiungere un'enorme iniziale ripetuta sul fondo.
+      Format Adaptation: >
+        Ridefinire la massa e il vuoto per il rapporto richiesto, mantenendo
+        almeno un ancoraggio forte. Una frase lunga può usare un blocco più
+        esteso senza riempire tutti i moduli.
+    - id: cropped-geometric-counterweight
+      Name: Contrappeso geometrico al vivo
+      Use When: >
+        Un segno astratto può rafforzare il ritmo o il significato della frase
+        senza competere con la lettura; non è necessario per ogni card.
+      Structure: >
+        La citazione occupa fasce allineate, con differenze di scala motivate
+        dalla sintassi. Una forma piatta, anche parzialmente fuori campo, fa da
+        contrappeso e condivide un asse o un intervallo con il testo. Conservare
+        aree libere irregolari e una gerarchia netta; nessun simbolo o colore è
+        obbligatorio.
+      Text Adaptation: >
+        Il segno può essere ritagliato dal bordo, le parole della citazione no.
+        Non coprire lettere, spazi o punteggiatura né introdurre testo fittizio.
+        La citazione rimane completa, una sola volta e in ordine naturale.
+      Format Adaptation: >
+        Riadattare forma, testo e spazio aperto al formato e alla lunghezza
+        della frase; ridurre o togliere la forma se compromette la leggibilità.
+        L'attribuzione eventuale mantiene un asse destro leggibile.
+    - id: image-type-dialogue
+      Name: Dialogo fra immagine e carattere
+      Use When: >
+        Un'immagine pertinente può introdurre un contrasto o una tensione
+        che la sola tipografia non esprime altrettanto bene.
+      Structure: >
+        Un solo frammento visivo con forte separazione tonale incontra la
+        frase attraverso un margine, una controforma o un intervallo comune.
+        Il ritaglio partecipa al progetto della pagina; il testo conserva un
+        campo locale leggibile e un percorso continuo.
+      Text Adaptation: >
+        Scegliere l'immagine per il significato della frase. Correggerne scala
+        o ritaglio prima di comprimere parole o nascondere la citazione.
+        L'attribuzione, se presente, resta sul proprio asse destro subordinato.
+      Format Adaptation: >
+        Ricomporre ritaglio, scala e zona di lettura per ogni formato; non
+        trasformare l'immagine in una fotografia autonoma sopra una didascalia.

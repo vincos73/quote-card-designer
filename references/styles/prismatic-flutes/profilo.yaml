@@ -1,0 +1,233 @@
+Design Style:
+  Name: Prismatic Flutes
+  Status: "Incluso nel catalogo V1 il 26 ottobre 2026; applied-lettering example approved by the user"
+  Concept: >
+    Broad, defocused fields of coloured light appear through closely spaced
+    vertical flutes, like an abstract view through reeded glass. Each flute
+    subtly refracts the same continuous field and introduces a narrow change
+    of light and shade. Fine dry grain gives the light a tactile surface.
+    A large, sharply readable quotation sits optically in front of this field:
+    soft colour, regular refraction and clear type remain distinct scales.
+
+  Reference Basis:
+    Observed: >
+      Five text-free references share parallel vertical flutes, broad luminous
+      transitions and fine grain. Their colour arrangements range from dark
+      blue with warm light to coral and mint, a diagonal spectral current,
+      vermilion with blue, and pale lilac with peach.
+    Proposed: >
+      The typography, reading hierarchy and quote-card layout are new design
+      choices. No typeface or text placement can be inferred from these images.
+    Use: >
+      The written profile is self-contained. References informed its authoring
+      but are not required image inputs. Transfer the optical construction;
+      recompose the light and quotation rather than tracing a source image.
+
+  Canvas:
+    Ratio: '4:5'
+    Output: One finished flat full-bleed editorial quote card
+    Adaptation: >
+      Recompose the luminous masses and reading area for each ratio. The
+      landscape and square references do not prescribe the card format.
+
+  Mood: [Atmospheric, Optical, Tactile, Luminous, Rhythmic, Contemplative]
+
+  Color Palette:
+    Fixed Colors: false
+    Strategy: >
+      Choose one coherent colour relationship for the quotation. The five
+      studies below are starting directions derived from the references,
+      not simultaneous ingredients or mandatory palettes. Their HEX values
+      are visual approximations, not sampled or colour-managed measurements.
+    Roles:
+      Field: The continuous low-frequency colour atmosphere behind every flute
+      Light: One or a few oversized luminous concentrations with very soft edges
+      Depth: Submerged darker regions that shape the field and support the text
+      Flutes: Local lighter and darker versions of the underlying field, not a separate stripe colour
+      Type: One light or dark ink, chosen for contrast across the entire quotation
+    Studies:
+      - id: nocturne
+        Name: Nocturne
+        Field: {Midnight: '#06151D', Petrol: '#123B50', Steel: '#3A748E'}
+        Light: {Ice: '#9DC8D0', Ivory: '#EEE8CB', Amber: '#C99566'}
+        Type: '#F5F0E7'
+        Direction: >
+          Deep blue and petrol carry unequal pools of warm ivory and cool
+          light near the edges. Keep a continuous dark interval for the words.
+      - id: ember-mint
+        Name: Ember Mint
+        Field: {Burgundy: '#54242A', Coral: '#F35938', Mint: '#88E8A6'}
+        Light: {Cream: '#F5E8A5', Teal: '#03C294'}
+        Type: '#191B21'
+        Direction: >
+          Let warm coral pass through a broad creamy transition into luminous
+          mint. Place dark type on the lighter continuous part of the field.
+      - id: spectral-current
+        Name: Spectral Current
+        Field: {Midnight: '#040A20', Blue: '#0B2B4C', Raspberry: '#C31152'}
+        Light: {Cyan: '#1CA7C3', Orange: '#F0633C', Peach: '#F5BC85'}
+        Type: '#FAF2E4'
+        Direction: >
+          A broad diagonal current passes from cyan through raspberry into
+          warm peach, with deep blue around it. Its contour stays unresolved;
+          reserve a dark interval for the quotation rather than crossing a flare.
+      - id: solar-cobalt
+        Name: Solar Cobalt
+        Field: {Wine: '#170F1B', Ember: '#AB1E10', Cobalt: '#4376C2'}
+        Light: {Vermilion: '#FF4D0B', Apricot: '#FF9650', Ice: '#7EC8DE'}
+        Type: '#FAF2E8'
+        Direction: >
+          A hot vermilion field and a cool blue field meet through a broad,
+          deep-toned transition. Light type occupies that quieter dark region.
+      - id: dawn-bloom
+        Name: Dawn Bloom
+        Field: {Lilac: '#CBC6ED', Lavender: '#E6DFF4', Rose: '#EA8FAF'}
+        Light: {Coral: '#F77D81', Peach: '#FFB779', Apricot: '#F8CD88'}
+        Type: '#262037'
+        Direction: >
+          Pale lilac and rose open into a warm peach bloom. Use dark plum type
+          across an even luminous area; white would lose its reading contrast.
+
+  Typography:
+    Quotation:
+      Style: Contemporary neo-grotesque sans serif with open counters and natural proportions
+      Suggested Direction: Inter Medium or Semibold, or a comparable neutral neo-grotesque
+      Weight: Medium to semibold; substantial enough to remain clear over the fine fluting
+      Scale: >
+        Make the complete quotation the main reading mass. A short phrase can
+        occupy two to five lines, with its longest line using roughly 70–85
+        percent of the useful width. Recompose for longer text rather than
+        reducing it to a small caption.
+      Spacing: >
+        Preserve natural glyph widths and optical word spacing. Begin with
+        compact but open leading, roughly 1.08–1.16 times the type size, then
+        adjust for accents and line endings. Do not stretch or condense words
+        to match the flutes or force equal line lengths.
+      Case: Preserve the supplied capitalization, wording, accents and punctuation
+      Alignment: Left-aligned by default, with horizontal baselines and meaningful line breaks
+      Surface: Sharp, solid letterforms by default; the applied-lettering variant adds a physical surface and restrained edge light
+    Attribution: >
+      If supplied or verified, use the exact name in the same family at a
+      smaller, quieter but readable size, aligned on a clear right edge.
+      Omit the register and recover its space when no author is present.
+    Alternatives: >
+      Respect an explicitly requested font. A restrained serif can create a
+      more literary reading, but the default proposal is one sans-serif
+      family rather than a decorative display face or a mixture of registers.
+    Font Certainty: >
+      The named family is a design suggestion, not a font identified in the
+      references or verified in a generated image.
+    Applied Lettering:
+      Activation: Use when the composition places lettering on or against the illuminated fluted glass; the backlight interaction is part of the treatment
+      Material: >
+        Very thin matte adhesive lettering bonded flush to the front glass
+        surface. Keep the letter faces predominantly opaque, with a minute
+        contact edge and a subtly tangible surface rather than visible extrusion.
+      Rear Light: >
+        Light transmitted through the fluted glass must visibly affect the lettering:
+        let the local backlight scatter along selected edges, softly bloom through
+        translucent portions and cast a restrained coloured fringe that follows
+        the glass flutes. Preserve opaque or darker letter cores and open counters
+        so the quote remains legible. The glow belongs to the glass behind the
+        text; do not turn the letters into self-luminous neon.
+      Contact: >
+        Minimal contact-darkening may anchor the lettering to the pane.
+        Avoid offset floating shadows, thick bevels and three-dimensional signs.
+
+  Layout:
+    Invariants:
+      - A continuous luminous field extending to every edge
+      - Parallel vertical flutes that remain perceptible through the colour transitions
+      - Broad soft colour masses, fine grain and sharp type at separate visual scales
+      - A generous, tonally coherent reading area within the same fluted field
+      - A clear relationship between the light's direction and the quotation's position
+    Integration: >
+      Shape the light and depth around the actual footprint of the words.
+      The quotation may meet the edge of a luminous concentration, but each
+      letter needs sufficient contrast across its complete stroke. Let the
+      flutes continue through the reading area with restrained tonal variation;
+      do not cover them with a detached opaque panel or remove them in a box.
+    Variation: >
+      Change the number, scale and direction of luminous concentrations and
+      the quotation's anchor for each composition. The vertical flute axis
+      remains stable while the light behind it may spread, cross diagonally
+      or emerge near an edge. Preserve ample margins and a continuous reading
+      sequence rather than locking every card to a centred slogan.
+
+  Graphic Elements:
+    Repertoire: [Vertical optical flute, Diffuse colour field, Submerged shadow, Soft luminous concentration]
+    Construction: >
+      Begin with one coherent blurred colour field. Adjacent vertical bands
+      show subtly displaced or tonally modulated versions of that same field,
+      suggesting repeated shallow refraction. Each flute has a restrained
+      light-to-dark roll and a narrow tonal reset at its edge. Highlights and
+      shadows inherit the local colour instead of forming unrelated stripes.
+    Rhythm: >
+      Use many slender flutes, approximately 40–55 across the width as an
+      initial visual target. Keep their pitch regular and their axes vertical.
+      Let the underlying light vary their visibility. These are qualitative
+      generation targets, not claims of exact physical geometry.
+
+  Effects:
+    Diffusion: Broad optical defocus in the colour field; no sharply outlined coloured objects
+    Refraction: Repeated shallow lateral displacement and tonal resets along the flutes
+    Relief: Subtle cylindrical light and shade; no heavy bevels or deep extruded ribs
+    Grain: >
+      Fine dry monochromatic grain throughout the colour field, visible on
+      close inspection without turning into coarse speckle, scratches or
+      fabric. Add its visual presence after the broad defocus so it stays fine.
+    Light: >
+      Soft local bloom belongs to the field by default. When lettering sits on the glass, restrained edge halation and transmitted
+      colour must join the letters
+      to the same backlit material scene without blurring their readable cores.
+    Scale Separation: >
+      Keep colour transitions broad, flute edges more defined and grain much
+      smaller than the flute pitch. Do not apply blur, slicing or refraction
+      to the quotation itself.
+
+  Content Contract:
+    quote: Preserve the complete supplied quotation once, including case and punctuation.
+    author: Use only supplied or verified attribution, subordinate and right-aligned.
+    signature: Include a separate personal signature only when explicitly requested.
+
+  Rules:
+    - Make repeated vertical refraction a defining feature, not an optional stripe overlay.
+    - Keep a single coherent colour field continuous across adjacent flutes.
+    - Preserve broad diffusion, fine grain and crisp lettering as distinct scales.
+    - Use one consistent type ink with adequate local contrast throughout every word.
+    - Recompose the underlying light before shrinking or fragmenting the quotation.
+    - Keep the flutes behind the type; do not split, duplicate, blur or distort letters.
+    - Avoid opaque alternating bars, hard rainbow stops and visible horizontal tile seams.
+    - Avoid literal glass objects, product mockups, metallic curtains and glossy 3D tubes.
+    - Add no decorative captions, labels, symbols, logos or invented attribution.
+
+  Production:
+    Preferred Mode: hybrid
+    Rationale: >
+      Generate the complete visual and typographic composition with ImageGen.
+      Refine exact lettering with a real font if needed, preserving the
+      generated light, flute rhythm and reading-area relationship. A generated
+      resemblance alone does not establish an exact font family. In the
+      applied-lettering variant, retain the contact and edge-light relationship
+      when refining text rather than replacing it with an unrelated flat overlay.
+    Validation Status: >
+      Two complete ImageGen studies without source images: a short quotation
+      in a dark portrait field and a longer quotation in a luminous square.
+      Both were visually checked at native resolution and reduced to a
+      400-pixel longest side. One targeted edit corrected a narrow word space
+      in the square study. The user preferred the dark study and requested a
+      third test with physically applied, gently backlit lettering; this was
+      generated by editing that card. Wording, accents and punctuation are
+      intact in the three final images. The light study has more pronounced
+      flute relief than the source references. Exact font identity, physical
+      lighting accuracy, wider repeatability and the benefit of source-reference
+      inputs remain untested. The user approved the applied-lettering study
+      and requested this style in the V1 candidate shortlist. That image is
+      the featured catalogue example; the material treatment remains an
+      optional variant rather than a mandatory replacement for the default.
+
+  User Overrides:
+    Palette: Replace all hues together while retaining field, light, depth, flute and text roles.
+    Format: Recompose light masses, margins and reading space for the requested ratio.
+    Typography: Honour the requested font while preserving clear letterforms and local contrast.
+    Texture: Adjust grain strength as requested while keeping the flute rhythm perceptible.

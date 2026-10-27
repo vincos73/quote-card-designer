@@ -1,0 +1,275 @@
+Design Style:
+  Name: Oneiric Glow
+  Status: "Incluso nel catalogo V1 il 26 ottobre 2026; user prefers the night-blue treatment"
+  Concept: >
+    A familiar photographic place contains a presence that seems made of light.
+    A recognisable silhouette has an almost white, overexposed interior and a
+    soft halo that spills onto nearby surfaces. The environment stays dim,
+    grainy and tangible. Expressive editorial lettering gives a precise voice
+    to the apparition: intimate, suspended and quietly uncanny.
+  Reference Basis:
+    Transfer: >
+      Readable luminous bodies, dark photographic space, local light spill,
+      visible grain and a deliberate relationship between restrained type and
+      a more expressive italic or calligraphic register.
+    Independence: >
+      Source posters inform the language, not a recurring person, scene,
+      headline, colour scheme or arrangement. Recreate none of their credits,
+      logos, promotional overlays, QR codes, dates, captions or status labels.
+    Boundary: >
+      Here the defining event is an emissive, recognisable presence with an
+      erased interior and environmental light spill. Optical bokeh is optional.
+      This differs from a general defocused photographic or lens-flare style.
+
+  Canvas:
+    Ratio: '4:5'
+    Output: Single finished editorial quote card, full bleed
+    Adaptation: >
+      Recompose for requested ratios. A vertical 9:16 poster can give the
+      presence more space; a square card needs a shorter spatial interval
+      between lettering and apparition. Do not simply crop a portrait master.
+
+  Mood:
+    - Oneiric
+    - Intimate
+    - Luminous
+    - Suspended
+    - Melancholic
+    - Quietly uncanny
+    - Tender without sentimentality
+
+  Color Palette:
+    Fixed Colors: false
+    Preferred Study: Nocturnal Cyan
+    Strategy: >
+      Begin with deep night blue, petroleum and restrained cyan around a
+      near-white core, the treatment preferred by the user. Adapt the scene
+      to the quotation. Other palettes remain available when requested;
+      preserve the light core, local halo, quieter field and readable type.
+    Roles:
+      Photographic Field: >
+        Dark or muted midtones with enough local information to describe
+        ground, depth and a few familiar forms. Black can be tinted rather
+        than neutral.
+      Emissive Core: >
+        Almost white, with most internal detail intentionally lost. The
+        outline must still read as the chosen presence.
+      Light Spill: >
+        A restrained colour from the scene, brighter and more saturated near
+        the source, fading unevenly through air and across nearby surfaces.
+      Typography: >
+        Usually soft white against a calm dark interval. Use a darker
+        contrasting tone when the scene requires it; protect the words from
+        the brightest halo.
+    Starting Studies:
+      Nocturnal Cyan:
+        Field: '#092532'
+        Midtone: '#32637A'
+        Halo: '#66D9F1'
+        Core: '#FCFFFF'
+        Text: '#F5F6EF'
+      Sage Afterglow:
+        Field: '#182720'
+        Midtone: '#596F5C'
+        Halo: '#D9EDB6'
+        Core: '#FFFFF2'
+        Text: '#F5F3E8'
+      Mauve Dusk:
+        Field: '#202237'
+        Midtone: '#716B8D'
+        Halo: '#DACCF7'
+        Core: '#FFFDFB'
+        Text: '#F4F1ED'
+    Overrides: >
+      Replace these starting hues when requested, translating their luminance
+      roles rather than adding a conflicting second palette.
+
+  Typography:
+    Leading Register:
+      Direction: >
+        A legible editorial serif, italic serif or clean grotesk with an
+        assured scale. Choose the register for the current quotation rather
+        than using every option in one card.
+      Character: >
+        Natural Latin letter proportions, considered word spaces and coherent
+        line spacing. A large first line may establish the reading axis.
+    Expressive Register:
+      Direction: >
+        A refined serif italic or controlled Western calligraphic hand for
+        one meaningful word or phrase. Long entries and exits may connect
+        the text to the surrounding light or horizon.
+      Limits: >
+        Flourishes cannot substitute for letters, accents or punctuation.
+        Do not make an ornamental initial look like a different character.
+        This register is optional when a single serif treatment is stronger.
+    Relationship: >
+      Keep one clear reading sequence across the registers. A change in
+      letterform expresses meaning, not a workaround for a collision.
+      Connecting words remain fully legible; do not reduce them to microtext.
+    Light Treatment: >
+      Letter cores stay crisp. A faint edge softness may echo the scene,
+      but avoid a heavy neon halo on every word or uniformly blurred type.
+    Attribution:
+      Presence: Only a name supplied by the user or verified in the source
+      Treatment: >
+        Exact, smaller and visually quieter than the quotation, with adequate
+        contrast and its right edge aligned to the useful right margin or
+        another clear right axis. Omit the reserved space when absent.
+    Font Fidelity: >
+      These are visual directions. An ImageGen result does not certify an
+      exact font family.
+
+  Layout:
+    Essential Relationship: >
+      Compose quotation, luminous presence and surrounding darkness together.
+      The apparition can be the strongest light event while the quotation
+      remains the communicative priority. A quiet image interval supports
+      a deliberate text shape.
+    Spatial Logic: >
+      Keep enough grounded detail around the presence to make the glow
+      spatial: feet meet a surface, a cropped shoulder has a plausible edge,
+      or nearby material catches the light. Allow darkness and empty air to
+      separate the bright body from the words.
+    Reading Sequence: >
+      Arrange the literal quotation once, in a small number of clear groups
+      of meaning. Avoid scattering individual words merely to fill space.
+      An attribution, if present, forms a separate subordinate register.
+    Occlusion: >
+      Light or a silhouette may approach lettering, but neither can erase
+      a required character. Move or rescale the image before distorting type.
+    Density: >
+      A sparse composition can feel expansive without a tiny quotation.
+      For longer text enlarge the calm interval and simplify the scenery.
+    Variation: >
+      Vary presence scale, crop, gesture, setting, horizon and text relation.
+      Do not turn the reference's centrally standing person in blue grass
+      into a permanent template.
+
+  Imagery:
+    Medium: >
+      Photographic spatial cues with deliberate grain, soft tonal transitions
+      and selectively unresolved detail. The scene should feel encountered,
+      not like a glossy fantasy render.
+    Presence:
+      Definition: >
+        A recognisable person, gesture, animal, plant or meaningful familiar form
+        becomes an apparent light source. Human presences are a strong
+        starting repertoire, not the only allowed subject.
+      Body: >
+        Broad near-white interior, intentionally missing facial or clothing
+        detail, with enough contour and posture to retain identity as a form.
+        Avoid a thin outline around an otherwise normally exposed body.
+      Selection: >
+        Choose a subject and relationship appropriate to the quotation.
+        Respect a user-supplied subject. Do not infer a religious identity,
+        a deceased person or a supernatural story from glow alone.
+    Environment:
+      Repertoire: >
+        Wind-moved grass, a shore, a dim room, a threshold, a quiet road,
+        distant trees or another familiar place can anchor the apparition.
+        These are possibilities rather than a required background checklist.
+      Treatment: >
+        Retain a few believable photographic anchors near the source and
+        quieter information farther away. Not every surface needs equal
+        sharpness or brightness.
+    Interaction:
+      Light: >
+        Nearby grass, ground, clothing or a surface catches a graduated
+        reflection of the source. Keep the brightest spill local; it should
+        fade rather than wash the whole scene equally.
+      Contact: >
+        A simple gesture or contact between luminous and ordinary forms is
+        optional. Preserve plausible anatomy and a clear overlap.
+
+  Graphic Elements:
+    Use: Optional and subordinate
+    Repertoire:
+      - A fine open arc or orbit that supports the spatial relationship
+      - A quiet rule or partial outline that clarifies the text axis
+      - A few scene-grounded points of distant light
+    Selection: >
+      Use none when the image and type are sufficient. Do not assemble orbit
+      diagrams, crosshairs, stars and boxes as a compulsory decorative kit.
+      Do not invent technical or astronomical labels.
+
+  Effects:
+    Core and Halo: >
+      Separate a concentrated, almost-white body from a softer halo on a
+      larger scale. Bloom follows the silhouette but is not a perfectly
+      uniform vector stroke.
+    Atmospheric Light: >
+      Soft scatter and faint haze may bridge the body and nearby surfaces.
+      Preserve a visible relationship between source and reflected light.
+    Grain: >
+      Visible fine-to-medium photographic grain across scene and light,
+      adjusted to output scale. This is a generated aesthetic, not evidence
+      of actual analogue capture or a specific film stock.
+    Motion: >
+      Optional uneven motion softness in grass, air or a passing gesture;
+      keep enough stable structure for a believable scene.
+    Depth: >
+      Build depth from tonal distance, scale and selective focus. Bokeh
+      circles, glitter particles and lens flares are not required.
+    Print Character: >
+      Mildly compressed tones and soft reproduction can keep the card
+      tactile without making all text fuzzy.
+
+  Rules:
+    - Preserve quotation, supplied case, accents and punctuation verbatim.
+    - Render the complete quotation once unless the user explicitly requests repetition.
+    - Make a recognisable presence emit light with a near-white interior and local environmental spill.
+    - Keep the scene grounded and the quote readable at mobile viewing size.
+    - Choose setting, subject and composition for the content; honour the preferred night-blue treatment and explicit palette overrides.
+    - Retain natural letter proportions and meaningful word spacing across the quotation.
+    - Add no verbal content beyond the quotation and optional supplied or verified names.
+    - Do not copy reference headlines, credits, copyright notices, logos, QR codes or promotional overlays.
+    - Do not certify exact fonts, physical lighting measurements or photographic capture from a generated image.
+
+  Exclusions:
+    - Thin neon outlines presented as the entire glow effect
+    - Flat white cutouts with no spatial interaction
+    - Uniformly blurred lettering or unreadable decorative swashes
+    - Glossy 3D, superhero energy effects, mandatory wings or religious symbols
+    - Horror-sheet ghosts, exaggerated faces or ominous eyes inside the white core
+    - Automatic star fields, glitter inventories or science-fiction interface overlays
+    - Decorative invented microcopy, file codes, timestamps and labels
+    - Outer poster mockups, watermarks and promotional QR codes
+
+  Production:
+    Preferred Mode: hybrid
+    ImageGen Role: >
+      Generate each new card as a complete composition, including lettering,
+      light and scene. Check the literal text before delivery. A photographic
+      background alone followed by an unrelated scripted layout is insufficient.
+    Refinement: >
+      Real-font or masking refinements are possible when supported and useful,
+      preserving the generated composition and original image. A specific font
+      claim requires the actual font asset and a verified typesetting step.
+    Reference Images: >
+      The profile is self-contained. Reference images are not required runtime
+      inputs. Test matched with-image and without-image variants before making
+      a reference set part of the production workflow.
+    Validation Status: >
+      Four 4:5 studies cover two human presences, an animal and a plant.
+      The animal and plant use the preferred night-blue direction and the
+      same quotation as the first human study. The plant required one
+      focused lighting correction. Native and mobile-scale visual checks
+      were performed. These are initial applications, not evidence of
+      repeatability across all subjects, formats or text lengths. The user
+      approved V1 candidacy; individual new subject studies await feedback.
+    Checks:
+      - Literal quotation, punctuation, case and optional names
+      - Clear reading order across typographic registers
+      - Recognisable emissive contour, broad white core and local reflected light
+      - Plausible ground, contact and anatomy where visible
+      - Full-size and mobile-scale legibility without excessive text glow
+      - No copied reference text, logos, QR codes or invented labels
+
+  Content Contract:
+    quote: Required literal text; normally once in full
+    author: Optional exact user-supplied or source-verified attribution, smaller and right-aligned
+    personal_signature: Optional exact name explicitly requested, distinct from authorship
+    missing_author: Omit attribution and recover its space
+
+Composition Library: composizioni.yaml
+

@@ -1,36 +1,43 @@
 Composition Library:
   Style Name: Psychedelic Art
   Selection:
-    Guidance: >
-      Scegliere la costruzione che lascia leggere la citazione dentro il ritmo
-      organico. Le famiglie sono alternative, non effetti da sommare.
+    Guidance: 'Scegliere la costruzione che lascia leggere la citazione dentro il ritmo organico. Le famiglie
+      sono alternative, non effetti da sommare.
+
+      '
   Families:
-    - id: liquid-fields
-      Name: Campi liquidi della frase
-      Use When: Una citazione breve o media si articola in pochi gruppi di senso.
-      Structure: >
-        Campi sinuosi si allargano per accogliere le parole e si stringono
-        per raccordarle a una figura o metamorfosi. Il lettering abita le
-        forme e ne modifica il contorno, condividendo il gesto illustrativo.
-      Text Adaptation: >
-        Variare gli a capo, le ampiezze e il ritmo delle lettere; non risolvere
-        la capienza schiacciando o nascondendo le parole di raccordo.
-      Format Adaptation: Ridisegnare i percorsi e il rapporto fra figura e parole per il nuovo campo.
-    - id: ornamental-axis
-      Name: Asse ornamentale
-      Use When: Il tono della frase sostiene un ritmo cerimoniale o raccolto.
-      Structure: >
-        Un asse organizza campi e ornamenti, con una figura o forma centrale
-        subordinata alla frase. I gruppi di parole sono larghi e integrati
-        nelle aperture; la simmetria può interrompersi per favorire la lettura.
-      Text Adaptation: Usare gruppi in sequenza chiara, senza mandare metà frase su un giro capovolto.
-      Format Adaptation: Ridistribuire i campi lungo l'asse, evitando di ridurre il testo per conservare tutti gli ornamenti.
-    - id: metamorphic-word-image
-      Name: Metamorfosi fra parola e figura
-      Use When: Una citazione breve presenta una relazione figurativa forte.
-      Structure: >
-        Una parte della forma illustrata diventa bordo o controforma del
-        lettering. La metamorfosi lega il soggetto al testo, ma ogni glifo
-        e parola resta riconoscibile senza dover indovinare parti nascoste.
-      Text Adaptation: Concentrare la metamorfosi nell'ancoraggio espressivo, mantenendo la frase completa nello stesso campo.
-      Format Adaptation: Cambiare taglio e direzione della metamorfosi senza ritagliare parole o segni diacritici.
+  - id: liquid-fields
+    Name: Campi liquidi della frase
+    Use When: Una citazione breve o media si articola in pochi gruppi di senso.
+    Structure: 'Campi sinuosi si allargano per accogliere le parole e si stringono per raccordarle a una
+      figura o metamorfosi. Il lettering abita le forme e ne modifica il contorno, condividendo il gesto
+      illustrativo.
+
+      '
+    Text Adaptation: 'Variare gli a capo, le ampiezze e il ritmo delle lettere; non risolvere la capienza
+      schiacciando o nascondendo le parole di raccordo.
+
+      '
+    Format Adaptation: Ridisegnare i percorsi e il rapporto fra figura e parole per il nuovo campo.
+  - id: ornamental-axis
+    Name: Asse ornamentale
+    Use When: Il tono della frase sostiene un ritmo cerimoniale o raccolto.
+    Structure: 'Un asse organizza campi e ornamenti, con una figura o forma centrale subordinata alla
+      frase. I gruppi di parole sono larghi e integrati nelle aperture; la simmetria può interrompersi
+      per favorire la lettura.
+
+      '
+    Text Adaptation: Usare gruppi in sequenza chiara, senza mandare metà frase su un giro capovolto.
+    Format Adaptation: Ridistribuire i campi lungo l'asse, evitando di ridurre il testo per conservare
+      tutti gli ornamenti.
+  - id: metamorphic-word-image
+    Name: Metamorfosi fra parola e figura
+    Use When: Una citazione breve presenta una relazione figurativa forte.
+    Structure: 'Una parte della forma illustrata diventa bordo o controforma del lettering. La metamorfosi
+      lega il soggetto al testo, ma ogni glifo e parola resta riconoscibile senza dover indovinare parti
+      nascoste.
+
+      '
+    Text Adaptation: Concentrare la metamorfosi nell'ancoraggio espressivo, mantenendo la frase completa
+      nello stesso campo.
+    Format Adaptation: Cambiare taglio e direzione della metamorfosi senza ritagliare parole o segni diacritici.

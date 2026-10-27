@@ -1,0 +1,52 @@
+Composition Library:
+  Style Name: Cyberpunk Editorial
+  Selection:
+    Basis: >
+      Choose the relationship between the exact sentence and its graphic
+      surrounds. Use one main structure, adapting it to phrase length,
+      meaningful emphasis, format and any supplied name.
+    Variation: >
+      Change plate extent, reading axis, density and open intervals for new
+      quotations. Preserve the accepted arrangement during a targeted edit.
+  Families:
+    - id: layered-panel-rails
+      Name: Phrase within layered technical rails
+      Use When: >
+        An assertive short or medium sentence benefits from substantial
+        semantic groups and one deliberate inversion or ending.
+      Structure: >
+        Let the quotation establish a clear main axis. A few chamfered
+        plates and nested contours locate its groups; one plate may invert
+        a meaningful clause. Routed edges, a directional cluster and one
+        or two finer discoveries connect the reading intervals. Keep some
+        paths partial and leave calmer fields around the words.
+      Text Adaptation: >
+        Keep the full sentence once, including connecting words and
+        punctuation. Vary group scale by meaning without isolating an
+        ornamental initial. Extend or reduce plates to fit the actual words.
+        A supplied name forms a smaller, quieter right-aligned register.
+      Format Adaptation: >
+        Portrait formats can progress through unequal stacked groups.
+        Wider formats can open a lateral route. Recompose rails and line
+        breaks instead of cropping words or stretching letters.
+
+    - id: open-node-grid
+      Name: Open reading with sparse linked modules
+      Use When: >
+        A quotation needs more breathing room, a longer reading path or
+        less enclosing geometry while retaining the technical vocabulary.
+      Structure: >
+        Place the main sentence in a few clear unequal groups within a
+        largely open field. Cropped brackets, short routes, a restrained
+        panel fragment and a small abstract texture module connect useful
+        axes. Fine and bold marks share construction without forming a
+        uniform border or a full sheet of symbols.
+      Text Adaptation: >
+        Preserve natural sentence order and every linking word. Longer
+        phrases use more stable lines and fewer decorative modules.
+        Protect accents and names from print wear and intersections.
+      Format Adaptation: >
+        A tall card can stagger open groups along one clear reading axis;
+        a square or wide card can spread them laterally. Reduce modules
+        before making the text too small or rotating entire clauses.
+

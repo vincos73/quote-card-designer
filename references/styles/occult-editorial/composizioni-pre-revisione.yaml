@@ -1,0 +1,67 @@
+Composition Library:
+  Style Name: Occult Editorial
+  Selection:
+    Basis: >
+      Choose one relationship from the exact sentence, its length and
+      its desired cadence. Decide where reading needs quiet ground and
+      which emblem or construction can relate to that field.
+    Variation: >
+      Vary the shared axis, opening of rings, emblem, crop and distribution
+      of engraving density. A new ink alone is not a new composition.
+      Keep an accepted arrangement during a targeted correction.
+  Families:
+    - id: axial-emblem-plate
+      Name: Shared reading axis and engraved emblem
+      Use When: >
+        A concise or medium quotation benefits from a substantial verbal
+        field and a clearly recognisable emblem on a related axis.
+      Structure: >
+        Let the phrase and a large engraved form share a deliberate axis,
+        interval or scale relationship. An incomplete ring, restrained rays
+        or a fine border can connect them while leaving quiet ground
+        behind the words. Keep secondary detail concentrated in the emblem.
+      Text Adaptation: >
+        Break the entire sentence into clear semantic groups. Enlarge the
+        reading field or simplify secondary construction before reducing
+        the quotation. An optional name stays smaller and right-aligned.
+      Format Adaptation: >
+        Portrait formats can extend a shared vertical relationship. A
+        wider card may open it laterally. Recompose the emblem and rule
+        system while preserving the whole sentence and natural glyphs.
+
+    - id: offset-diagram-field
+      Name: Offset engraving and an open diagram
+      Use When: >
+        A short or medium quotation can carry a more asymmetric symbolic
+        tension with a broad connected reading field.
+      Structure: >
+        Offset one detailed engraved form from a substantial word field.
+        A few open arcs, one selected polygon or axis and sparse endpoints
+        lead between them. Interrupt construction near letters and retain
+        large quiet intervals rather than filling the ground with signs.
+      Text Adaptation: >
+        Use related alignment anchors and an immediate reading route.
+        Keep connecting words and punctuation substantial. Move the
+        diagram before squeezing a word into a narrow gap.
+      Format Adaptation: >
+        Change the spread of the diagram and the width of the reading
+        field for each ratio. Simplify the geometry for longer copy and
+        avoid cutting required text or emblem recognition at the edge.
+
+    - id: marginal-engraved-registers
+      Name: Continuous quotation with selective marginal engraving
+      Use When: >
+        A longer quotation needs greater verbal continuity while retaining
+        the character of an engraved symbolic page.
+      Structure: >
+        Give the sentence a broad principal field with a few related
+        marginal engraved forms or short construction intervals. Allow
+        quiet stretches; the margin is not an equal grid of small symbols.
+      Text Adaptation: >
+        Keep clauses together and use fewer scale changes. Reduce
+        marginal detail before reducing reading size. Omit name space
+        when no attribution is supplied.
+      Format Adaptation: >
+        Redistribute margins and intervals to fit the ratio and wording.
+        A tall format may use side relationships; a wide format can open
+        lateral registers. Never crop or abbreviate the sentence.

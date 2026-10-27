@@ -1,0 +1,50 @@
+Composition Library:
+  Style Name: Photo Marker
+  Selection:
+    Basis: >
+      Choose the relationship between subject silhouette and writing from
+      the quotation, photo subject and format. Transfer only the selected
+      structure into the prompt, preserving natural reading order.
+    Variation: Change pose, negative pockets and word movement rather than only the ink colour.
+  Families:
+    - id: surrounding-portrait
+      Name: Ritratto avvolto dal testo
+      Use When: A person and a short or medium statement can share the frame clearly.
+      Structure: >
+        Place the figure in a central but asymmetric photographic area.
+        Surround it with writing above the head, along both sides and near
+        the lower edge. Use successive spatial bands to connect the phrase;
+        finer contour marks follow selected clothes or gesture details.
+      Text Adaptation: >
+        Set semantic groups in their natural sequence. Keep the face clear
+        and every fragment legible; not every empty pocket needs lettering.
+      Format Adaptation: >
+        In portrait formats distribute bands vertically. In wide formats
+        broaden the lateral pockets and reconnect them through an upper
+        or lower band rather than shrinking the entire portrait.
+    - id: diagonal-gesture
+      Name: Scrittura lungo il gesto
+      Use When: The quotation and a dynamic pose suggest a shared direction.
+      Structure: >
+        Use a seated, reaching or moving silhouette to create diagonal
+        pockets. The writing changes angle around the gesture while staying
+        in a clear sequence; contour strokes extend actual folds or motion.
+      Text Adaptation: >
+        Rotate groups moderately without reversing the reading direction.
+        Keep functional words with their neighbours and avoid lettering
+        on the face or hands that carry the gesture.
+      Format Adaptation: >
+        Recompose pose and open areas for each ratio; keep the subject and
+        word groups large enough to remain identifiable at feed scale.
+    - id: object-and-negative-space
+      Name: Oggetto e spazi di scrittura
+      Use When: An object or still life is more relevant than a person.
+      Structure: >
+        Place one photographic object or a coherent small arrangement so
+        its silhouette produces useful spaces for surrounding writing.
+        Fine marker accents echo real edges or details without replacing
+        the object's photographic material.
+      Text Adaptation: >
+        Distribute the complete phrase through successive open areas.
+        Avoid fictitious labels or brand lettering on the object itself.
+      Format Adaptation: Rebalance object scale and surrounding text regions for the requested canvas.

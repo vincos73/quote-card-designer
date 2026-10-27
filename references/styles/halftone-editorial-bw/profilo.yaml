@@ -1,6 +1,6 @@
 Design Style:
   Name: "Halftone B/W"
-  Status: "Revisione fotografica black and white basata sui riferimenti dell'utente"
+  Status: "Incluso nel catalogo V1 il 26 ottobre 2026"
   Concept: >
     Una fotografia in bianco e nero puro viene ricostruita con punti tondi
     ordinati e ben visibili. I punti crescono nei mezzitoni e si fondono
@@ -140,8 +140,12 @@ Design Style:
       Punti tondi su una griglia ordinata di passo regolare. La loro area
       varia con il tono: piccoli cerchi separati nelle luci, cerchi più
       grandi nei mezzitoni, masse nere con fori bianchi nelle ombre. I
-      singoli punti devono essere riconoscibili e costruire la foto, non
-      funzionare da trama sopra un'immagine ancora liscia. Evitare segni
+      singoli punti devono essere immediatamente riconoscibili e costruire
+      tutta la foto, non funzionare da trama sopra un'immagine ancora liscia.
+      Rispetto alla proposta A, aumentare visibilmente contrasto e scala del
+      retino: rendere leggibile il passo dei punti già alla dimensione di una
+      card social, soprattutto nei mezzitoni, mantenendo il soggetto chiaro.
+      Evitare segni
       incrociati, maglie triangolari e solchi che facciano sembrare il
       risultato un'incisione. Una lieve irregolarità dei bordi è ammessa.
     Ink Wear: >
@@ -177,6 +181,7 @@ Design Style:
     - "Il soggetto fotografico deve dipendere dal significato della frase; il retino non impone ritratti fissi."
     - "Fotografia in halftone come sfondo e citazione direttamente in sovraimpressione sono obbligatorie."
     - "Il retino deve costruire l'immagine, non soltanto sporcare una foto continua."
+    - "Rendere il retino più evidente della proposta A: punti tondi leggibili anche in anteprima ridotta, soprattutto nei mezzitoni."
     - "Rendere visibili usura e irregolarità senza perdere la frase o il soggetto."
     - "Aggiungere sporco da trasferimento d'inchiostro e pressione di stampa, concentrato in poche zone."
     - "Scegliere nuovi soggetti in funzione del contenuto, mantenendo il bianco e nero."

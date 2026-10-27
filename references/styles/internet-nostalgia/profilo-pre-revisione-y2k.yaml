@@ -1,0 +1,99 @@
+Design Style:
+  Name: Y2K
+  Concept: 'Quote card ispirata alle homepage personali e ai blog dei primi anni 2000. Codici web, sticker,
+    fondi e clip-art formano un repertorio da cui scegliere in base al significato della citazione. Una
+    zona tipografica nitida mantiene la citazione al centro della comunicazione.
+
+    '
+  Canvas:
+    Ratio: '4:5'
+    Type: Quote card verticale
+  Mood:
+  - Playful
+  - Nostalgic
+  - Exuberant
+  - Digital
+  - DIY
+  - Colorful
+  Color Palette:
+    Background: Y2K web colors selected to suit the quotation and preserve contrast
+    Text: Near-black or white, selected for strong contrast
+    Accents:
+    - Neon pink
+    - Electric blue
+    - Lime
+    - Yellow
+    - Purple
+    Selection: Tonalità e motivi sono opzioni da scegliere in base alla citazione; non usare tutta la
+      palette o il repertorio in ogni card.
+    Rules:
+    - Usare saturazione e varietà nello sfondo e negli sticker solo quando sostengono il contenuto.
+    - Mantenere la zona della citazione visivamente quieta e ad alto contrasto.
+  Typography:
+    Quote:
+      Style: Pixel display lettering as the default, bold and playful
+      Weight: Regular to bold according to the selected font; Pixelify Sans supports 400–700
+      Candidate: Pixelify Sans is a suggestion; generative rendering does not guarantee the exact font
+        file
+      Rules:
+      - Conservare il testo fornito e usare a capo per gruppi di senso.
+      - Variare corpo, peso o colore solo per una gerarchia espressiva chiara.
+      - Kerning e spaziatura naturali; niente tracking arbitrario o stile lettera per lettera.
+      - Nessuna compressione o stiramento dei glifi.
+    Supporting:
+      Rules:
+      - Non inventare testo, nickname, indirizzi o attribuzioni.
+  Layout:
+    Structure: Collage verticale da homepage personale con pannello centrale di lettura
+    Composition:
+    - Motivi e adesivi, se scelti, restano intorno alla zona di lettura.
+    - Pannello centrale pulito con margini interni generosi.
+    - Decorazioni asimmetriche, ritmo digitale volutamente esuberante.
+    - La citazione resta la prima cosa che si legge.
+  Graphics:
+    Elements:
+    - Pixel stars
+    - Smiley stickers
+    - Sparkles
+    - Hearts
+    - Simple clip-art
+    - Rainbow shapes
+    Style: Flat early-web sticker collage, playful and slightly handmade
+    Selection: Choose web codes, stickers, backgrounds and motifs from the quotation's meaning; none is
+      mandatory
+    Rules:
+    - Usare simboli grafici senza parole o numeri.
+    - Tenere gli sticker fuori dal testo e dai suoi margini di sicurezza.
+  Effects:
+    Texture: Light web-era pixel texture or glossy sticker finish, kept away from type
+    Gradients: Rainbow gradients permitted in decorative background only
+    Shadows: Small sticker-like shadows, never behind the quote
+  Rules:
+  - Citazione fedele, leggibile in miniatura e separata dal collage.
+  - Nessuna attribuzione inventata, scritta fittizia, contatore visite o logo.
+  - L'esuberanza visiva non deve causare collisioni o confondere le parole.
+  Production:
+    Preferred Mode: hybrid
+    Reason: 'Il collage di sticker web e sfondi colorati può essere generato o composto come asset, mentre
+      un pannello centrale pulito ospita la citazione. Il pixel lettering è un registro tipografico deliberato:
+      va composto con un vero file font già disponibile, non affidato al caso.'
+    Content Adaptation: Recuperare un font pixel locale o accessibile nell’ambiente, conservando la direzione
+      pixel richiesta. Se manca l’esecuzione di codice, la generazione completa con lettering pixel è
+      un’alternativa dichiarata, con verifica del testo; non sostituire silenziosamente il registro pixel
+      con una sans-serif ordinaria.
+    Required Capabilities: Asset grafici separati, livelli ruotabili, pixelazione e texture controllate,
+      ombre sticker lontane dal testo, font pixel reale e testo misurato dentro il pannello.
+    Current Prototype: Supporta testo, immagini, rettangoli ed ellissi, ma non pixelazione, rotazioni,
+      texture o ombre sfocate. Font pixel non incluso nello schema dei 17 profili e nessun download previsto.
+    Validation Status: Profilo non renderizzato nelle tre prove odierne; il pixel lettering e la composizione
+      early-web restano non verificati.
+    Selected Font:
+      Family: Pixelify Sans
+      Provider: Google Fonts
+      Weight: 600
+      Metadata URL: https://raw.githubusercontent.com/google/fonts/main/ofl/pixelifysans/METADATA.pb
+      Source File URL: https://raw.githubusercontent.com/google/fonts/main/ofl/pixelifysans/PixelifySans%5Bwght%5D.ttf
+      License: OFL
+      Verified Metadata Date: '2026-10-22'
+      Local File Included: false
+      Status: Famiglia scelta per il prossimo test; file non ancora scaricato né verificato nel rendering

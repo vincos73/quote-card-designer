@@ -1,0 +1,78 @@
+Composition Library:
+  Style Name: Occult Editorial
+  Selection:
+    Basis: >
+      Plan a complete readable sentence as part of a used grimoire page.
+      Choose a diagrammatic and material relationship from the phrase,
+      its length and the desired tension. Arcane density and physical
+      wear belong to the composition rather than a final texture pass.
+    Variation: >
+      Vary the construction, drawings, sequence of annotations, paper
+      damage and relation to the words. Colour alone is not a different
+      composition. Preserve an accepted arrangement in a targeted edit.
+  Families:
+    - id: layered-grimoire-circle
+      Name: Worn grimoire page with layered circular construction
+      Use When: >
+        A concise or medium quotation can form clear word groups inside
+        and across a dense circular system with related arcane drawings.
+      Structure: >
+        Build intersecting rings, radial strokes and subsidiary wheels
+        on a folded, handled page. A selected animal, celestial form or
+        allegorical drawing can follow or break the circular construction.
+        Symbolic formulas and later marginal additions accumulate around
+        and between the words. Keep ink and wear continuous across the page.
+      Text Adaptation: >
+        Give the complete phrase substantial scale and a clear order.
+        Let circles enter intervals and respond to word contours without
+        hiding required strokes. Avoid a pristine cartouche; achieve
+        contrast through local spacing and ink density.
+      Format Adaptation: >
+        Portrait formats may extend the circular system along a vertical
+        reading route. Wider formats can spread related wheels laterally.
+        Recompose words, diagrams and creases rather than cropping text
+        or squeezing glyphs into the inherited construction.
+
+    - id: arcane-working-sheet
+      Name: Handled sheet of arcane studies and symbolic notes
+      Use When: >
+        A short or medium quotation benefits from the feeling of active
+        investigation, fragments of observation and revised constructions.
+      Structure: >
+        Arrange a dominant study of a hand, instrument, eye, creature or
+        another selected form with overlapping diagrams, formula-like
+        sign sequences, crossed-out construction and later ink marks.
+        Folds, rubbing and a chosen secondary pigment may connect stages
+        of work. The distribution can be asymmetric and densely worked.
+      Text Adaptation: >
+        Keep the phrase in substantial related groups with a recoverable
+        route through the working sheet. Separate prose from symbolic
+        notes by scale and rhythm, without isolating it on a clean panel.
+        Move a subsidiary sketch before compromising a required word.
+      Format Adaptation: >
+        Change the spread of studies and the direction of annotations
+        for the ratio and wording. Preserve enough connected ground for
+        the complete sentence while allowing wear and diagrams to remain
+        visible through the card rather than confined to its margins.
+
+    - id: accumulated-marginalia-page
+      Name: Continuous phrase within accumulated marginal diagrams
+      Use When: >
+        A longer quotation needs verbal continuity while retaining the
+        density and material history of a heavily consulted page.
+      Structure: >
+        Let the phrase establish the main sequence while layered marginal
+        drawings, symbolic formulas and partial circles reach into selected
+        intervals. Use differently worn ink, overlapping repairs and
+        physical folds to imply repeated work. Keep density varied rather
+        than filling the margin with evenly spaced decorative symbols.
+      Text Adaptation: >
+        Preserve whole clauses, natural glyphs and a clear reading order.
+        Redistribute marginal systems before reducing reading size.
+        An optional supplied or verified name remains smaller and
+        right-aligned in a usable part of the page.
+      Format Adaptation: >
+        Redistribute the writing field, diagrams and material traces for
+        each ratio. A tall page can develop side marginalia; a wide page
+        can open lateral exchanges. Keep all required wording visible
+        and let the physical page fill the image.

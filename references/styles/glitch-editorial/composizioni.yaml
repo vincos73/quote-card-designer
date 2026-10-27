@@ -1,0 +1,49 @@
+Composition Library:
+  Style Name: Glitch Editorial
+  Selection:
+    Basis: >
+      Scegliere una struttura in base al ruolo dell'immagine e al ritmo della
+      frase. Portare nel prompt soltanto quella struttura, risolvendo palette,
+      quantità di danno ed eventuale eco letterale per la singola card.
+    Variation: >
+      Cambiare il percorso delle fratture e il rapporto fra testo e visual.
+      La variante chiara non richiede un ritratto; quella figurativa non
+      richiede obbligatoriamente una statua o un'interfaccia rétro.
+  Families:
+    - id: fractured-image-field
+      Name: Figura e segnale interrotto
+      Use When: >
+        Un'immagine riconoscibile può dare alla citazione una presenza,
+        una tensione o un contrasto semantico.
+      Structure: >
+        Una figura o un soggetto principale e una citazione grande condividono
+        il campo. Alcune bande spostano insieme parti del visual e frammenti
+        del lettering, con intensità diversa. Intervalli più stabili permettono
+        di ricostruire immagine e parole. Pochi frammenti secondari possono
+        avvicinarsi ai margini senza diventare una cornice di finte informazioni.
+      Text Adaptation: >
+        Disporre prima la frase completa. Con un testo più lungo ridurre
+        l'invasione del soggetto e la frequenza delle fratture sul lettering;
+        lasciare più danno nel visual. Attribuzione e firma, se richieste,
+        mantengono un asse destro quieto.
+      Format Adaptation: >
+        Ricomporre ritaglio, zone di danno e massa tipografica per ogni formato,
+        senza tagliare parole o limitarsi a ritagliare il poster precedente.
+    - id: typographic-wave-field
+      Name: Campo tipografico disturbato
+      Use When: >
+        La frase e il suo ritmo possono sostenere da soli la composizione,
+        senza una figura dominante.
+      Structure: >
+        Un campo elettronico granuloso ospita un blocco tipografico forte,
+        con piccoli disallineamenti cromatici e fratture locali. Può comparire
+        una sola eco ondulata e subordinata di un estratto letterale. La
+        lettura integrale resta distinta dall'eco e conserva un ordine chiaro.
+      Text Adaptation: >
+        Scegliere l'eventuale estratto soltanto dalla frase fornita. Se l'eco
+        sottrae leggibilità o spazio, ometterla prima di rimpicciolire il testo.
+        Una frase lunga richiede un campo di lettura più stabile.
+      Format Adaptation: >
+        Ridistribuire il campo di rumore e la distanza fra citazione ed eco
+        per il rapporto scelto. I colori chiari e il monospace sono opzioni
+        espressive; non impongono il medesimo impaginato a ogni card.

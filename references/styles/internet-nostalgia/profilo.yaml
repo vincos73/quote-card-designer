@@ -1,99 +1,196 @@
 Design Style:
   Name: Y2K
-  Concept: 'Quote card ispirata alle homepage personali e ai blog dei primi anni 2000. Codici web, sticker,
-    fondi e clip-art formano un repertorio da cui scegliere in base al significato della citazione. Una
-    zona tipografica nitida mantiene la citazione al centro della comunicazione.
+  Status: Registro cromo/olografico approvato dall'utente il 26 ottobre 2026
+  Concept: >
+    La citazione diventa una grande forma tipografica metallica, lucida e
+    leggibile. Cromo specchiante, riflessi prismatici e superfici sintetiche
+    riprendono il repertorio grafico Y2K in una composizione contemporanea.
+    Pochi elementi ottici o frammenti di interfaccia partecipano alla frase,
+    senza trasformare la card in un inventario di oggetti nostalgici.
 
-    '
+  Reference Basis:
+    User Direction: >
+      Privilegiare il registro cromo/olografico indicato dall'utente.
+      Il trattamento rosa gel e bubblegum delle prove intermedie non è la
+      direzione scelta. La lucentezza deriva da metallo, film ottico e
+      materiale traslucido, non da un mondo fantascientifico obbligatorio.
+    Transfer: >
+      Trasferire qualità delle superfici, grandi titoli metallici,
+      rifrazione ottica, piccoli richiami al desktop e contrasti di scala.
+      Soggetti, loghi, parole, apparati promozionali e impaginati degli
+      allegati non sono elementi da copiare.
+    Research Notes: ricerca.md
+    Image Inputs: >
+      Il profilo è autosufficiente. Gli allegati hanno informato la ricerca,
+      ma non sono immagini operative obbligatorie. Le prove documentate
+      sono state generate da prompt testuali, senza immagini di input.
+
   Canvas:
     Ratio: '4:5'
-    Type: Quote card verticale
-  Mood:
-  - Playful
-  - Nostalgic
-  - Exuberant
-  - Digital
-  - DIY
-  - Colorful
+    Type: Quote card verticale completa
+    Adaptation: >
+      Ricomporre parole e superfici per il formato richiesto. I bordi degli
+      elementi possono uscire dal campo; nessuna parola può essere tagliata.
+
+  Mood: [Glossy, Reflective, Prismatic, Digital, Assertive, Playful]
+
   Color Palette:
-    Background: Y2K web colors selected to suit the quotation and preserve contrast
-    Text: Near-black or white, selected for strong contrast
-    Accents:
-    - Neon pink
-    - Electric blue
-    - Lime
-    - Yellow
-    - Purple
-    Selection: Tonalità e motivi sono opzioni da scegliere in base alla citazione; non usare tutta la
-      palette o il repertorio in ogni card.
-    Rules:
-    - Usare saturazione e varietà nello sfondo e negli sticker solo quando sostengono il contenuto.
-    - Mantenere la zona della citazione visivamente quieta e ad alto contrasto.
+    Fixed Colors: false
+    Starting Roles:
+      Field: '#D6D9E0'
+      Pearl: '#F4F5F7'
+      Dark Contours: '#191C2C'
+      Optical Cyan: '#9AE7F3'
+      Reflected Cobalt: '#3D59CE'
+      Optical Violet: '#A39AE2'
+    Selection: >
+      Scegliere un campo dominante, un contrasto scuro e pochi riflessi.
+      L'argento conserva fasce chiare e scure riconoscibili; l'iridescenza
+      attraversa porzioni della superficie senza riempire ogni lettera
+      con un arcobaleno. Il campionario è un punto di partenza, non una
+      palette da usare integralmente.
+    User Overrides: >
+      Conservare il linguaggio cromo/olografico anche con una preferenza
+      cromatica diversa. Una rifrazione può contenere un piccolo riflesso
+      magenta, ma il fondo rosa e il gel confetto non definiscono il profilo.
+    Contrast: >
+      Distinguere facce metalliche, contorni e fondo. Se i riflessi chiari
+      cancellano la lettura, stabilizzare prima le lettere e semplificare
+      la superficie circostante.
+
   Typography:
-    Quote:
-      Style: Pixel display lettering as the default, bold and playful
-      Weight: Regular to bold according to the selected font; Pixelify Sans supports 400–700
-      Candidate: Pixelify Sans is a suggestion; generative rendering does not guarantee the exact font
-        file
-      Rules:
-      - Conservare il testo fornito e usare a capo per gruppi di senso.
-      - Variare corpo, peso o colore solo per una gerarchia espressiva chiara.
-      - Kerning e spaziatura naturali; niente tracking arbitrario o stile lettera per lettera.
-      - Nessuna compressione o stiramento dei glifi.
-    Supporting:
-      Rules:
-      - Non inventare testo, nickname, indirizzi o attribuzioni.
+    Main Reading:
+      Direction: >
+        Grottesco latino display forte, arrotondato o naturalmente esteso,
+        con possibile inclinazione controllata e terminali netti. Le facce
+        cromate e i contorni scuri rendono le parole oggetti grafici.
+        Il volume resta contenuto: evitare lettere gonfie da palloncino.
+      Hierarchy: >
+        La frase completa è il primo livello. A capo per gruppi di senso,
+        con connettivi sostanziali e spazi tra parole evidenti. Nessun
+        titolo Y2K inventato può sostituire la citazione.
+      Spacing: >
+        Conservare proporzioni naturali, controforme aperte e distinzione
+        fra lettere adiacenti. Risolvere la capienza con a capo, scala e
+        composizione, senza comprimere o stirare singoli glifi.
+      Fidelity: >
+        Riportare esattamente parole, maiuscole, accenti e punteggiatura
+        richiesti, inclusa la distinzione originale fra maiuscole e minuscole.
+        Non convertire l'intera frase in maiuscolo né cambiare il testo per
+        adattarlo a un effetto.
+    Secondary Register: >
+      Una sans semplice o un monospace può accogliere solo contenuti
+      secondari forniti. Il pixel non è il carattere predefinito della
+      citazione e non richiede il download di un font specifico.
+    Attribution: >
+      Solo un nome fornito o verificato, più piccolo e leggero della
+      citazione, allineato a destra su un asse utile. In assenza di nome,
+      recuperare lo spazio. La firma personale compare solo se richiesta
+      e resta distinta dall'autore.
+    Font Certainty: >
+      Le indicazioni descrivono l'aspetto. Un raster generato non certifica
+      l'uso di un particolare file font.
+
   Layout:
-    Structure: Collage verticale da homepage personale con pannello centrale di lettura
-    Composition:
-    - Motivi e adesivi, se scelti, restano intorno alla zona di lettura.
-    - Pannello centrale pulito con margini interni generosi.
-    - Decorazioni asimmetriche, ritmo digitale volutamente esuberante.
-    - La citazione resta la prima cosa che si legge.
-  Graphics:
-    Elements:
-    - Pixel stars
-    - Smiley stickers
-    - Sparkles
-    - Hearts
-    - Simple clip-art
-    - Rainbow shapes
-    Style: Flat early-web sticker collage, playful and slightly handmade
-    Selection: Choose web codes, stickers, backgrounds and motifs from the quotation's meaning; none is
-      mandatory
-    Rules:
-    - Usare simboli grafici senza parole o numeri.
-    - Tenere gli sticker fuori dal testo e dai suoi margini di sicurezza.
+    Invariants:
+      - Citazione completa, dominante e leggibile anche in miniatura
+      - Cromo e rifrazione ottica come linguaggio materiale principale
+      - Integrazione fra massa delle parole e uno o pochi elementi scelti
+      - Contrasto locale fra metallo, ombre riflesse e campo di fondo
+      - Densità variabile e intervalli di riposo per ricostruire la frase
+    Relationships: >
+      Un nastro riflettente può passare dietro un gruppo di parole; un
+      oggetto ottico può controbilanciare il blocco tipografico; una finestra
+      traslucida può fornire un asse o una discontinuità. Ogni relazione
+      sostiene l'ordine di lettura. Il pannello avorio centrale non è un
+      requisito e la tipografia non deve restare separata dalla grafica.
+    Variation: >
+      Cambiare assi, rapporti di scala, ritagli e distribuzione dei riflessi
+      per ogni frase. Non ripetere sempre titolo in alto e CD in basso.
+    Capacity: >
+      Per frasi più lunghe ridurre elementi secondari, profondità e
+      complessità delle riflessioni prima di ridurre troppo il testo.
+
+  Graphic Elements:
+    Material Repertoire:
+      - Cromo specchiante con transizioni nette fra luce e riflessi scuri
+      - Film olografico, lamina ottica e iridescenze localizzate
+      - Plastica traslucida fredda e superfici perlate
+      - Nastri, pieghe, anelli o volumi astratti riflettenti
+    Optional Repertoire:
+      - Un oggetto ottico o un accessorio digitale privo di marchio
+      - Frammenti di finestre desktop e controlli grafici non verbali
+      - Piccoli campi wireframe, griglie deformate o interruzioni a pixel
+      - Pochi punti speculari o forme adesive con finitura metallica
+    Selection: >
+      Scegliere un insieme coerente, non tutte le opzioni. CD, telefoni,
+      delfini, cuori e finestre non sono mascotte obbligatorie. Il soggetto
+      resta sostituibile secondo la frase e una richiesta esplicita.
+    Text Limits: >
+      Non inventare titoli di finestre, nomi di file, slogan, codici,
+      percentuali, date, marche, URL o scritte in altre lingue. Il dettaglio
+      secondario può essere geometria non verbale, non microtesto fittizio.
+    Reference Identity: >
+      Non riprodurre marchi, personaggi, collage, watermark o inventari
+      degli allegati. Evitare cartigli promozionali e codici a barre.
+
   Effects:
-    Texture: Light web-era pixel texture or glossy sticker finish, kept away from type
-    Gradients: Rainbow gradients permitted in decorative background only
-    Shadows: Small sticker-like shadows, never behind the quote
+    Chrome: >
+      Alternare riflessi chiari e scuri con bordi definiti e profondità
+      contenuta. Riflessi e lucidità seguono la superficie invece di
+      diventare bagliori uniformi che impastano le parole.
+    Holography: >
+      Usare cambi di colore coerenti su una superficie ottica, con
+      orientamento e intensità differenti rispetto al metallo.
+    Depth: >
+      Ombre di contatto e sovrapposizioni rendono plausibili i materiali.
+      Proteggere facce, controforme e spazi della citazione.
+    Restraint: >
+      Pochi riflessi puntuali, soprattutto sui bordi delle lettere; evitare bagliori forti sopra i tratti
+      centrali e dentro le controforme. Nessuna sequenza obbligatoria di stelle negli
+      angoli. Paesaggi spaziali, pianeti, robot e HUD non sono necessari.
+      Evitare il trattamento confetto e l'effetto di normale testo piatto
+      circondato da sticker scollegati.
+
   Rules:
-  - Citazione fedele, leggibile in miniatura e separata dal collage.
-  - Nessuna attribuzione inventata, scritta fittizia, contatore visite o logo.
-  - L'esuberanza visiva non deve causare collisioni o confondere le parole.
+    - Riportare la frase completa una volta, con un ordine di lettura chiaro.
+    - Privilegiare il registro cromo/olografico selezionato dall'utente.
+    - Mantenere distinti materiali metallici, ottici e plastici.
+    - Integrare parole e grafica senza sacrificare nessuna lettera.
+    - Conservare esattamente la capitalizzazione fornita; se il raster non la rispetta, correggere le lettere
+      prima della consegna e ricontrollare il testo completo.
+    - Proteggere gli spazi fra parole e la punteggiatura dai riflessi.
+    - Semplificare il repertorio per testi lunghi o formati piccoli.
+    - Omettere testo e attribuzioni non forniti.
+    - Non imporre un font pixel, una mascotte o un pannello centrale fisso.
+
   Production:
-    Preferred Mode: hybrid
-    Reason: 'Il collage di sticker web e sfondi colorati può essere generato o composto come asset, mentre
-      un pannello centrale pulito ospita la citazione. Il pixel lettering è un registro tipografico deliberato:
-      va composto con un vero file font già disponibile, non affidato al caso.'
-    Content Adaptation: Recuperare un font pixel locale o accessibile nell’ambiente, conservando la direzione
-      pixel richiesta. Se manca l’esecuzione di codice, la generazione completa con lettering pixel è
-      un’alternativa dichiarata, con verifica del testo; non sostituire silenziosamente il registro pixel
-      con una sans-serif ordinaria.
-    Required Capabilities: Asset grafici separati, livelli ruotabili, pixelazione e texture controllate,
-      ombre sticker lontane dal testo, font pixel reale e testo misurato dentro il pannello.
-    Current Prototype: Supporta testo, immagini, rettangoli ed ellissi, ma non pixelazione, rotazioni,
-      texture o ombre sfocate. Font pixel non incluso nello schema dei 17 profili e nessun download previsto.
-    Validation Status: Profilo non renderizzato nelle tre prove odierne; il pixel lettering e la composizione
-      early-web restano non verificati.
-    Selected Font:
-      Family: Pixelify Sans
-      Provider: Google Fonts
-      Weight: 600
-      Metadata URL: https://raw.githubusercontent.com/google/fonts/main/ofl/pixelifysans/METADATA.pb
-      Source File URL: https://raw.githubusercontent.com/google/fonts/main/ofl/pixelifysans/PixelifySans%5Bwght%5D.ttf
-      License: OFL
-      Verified Metadata Date: '2026-10-22'
-      Local File Included: false
-      Status: Famiglia scelta per il prossimo test; file non ancora scaricato né verificato nel rendering
+    Preferred Mode: generative
+    Method: >
+      Generare ogni nuova card completa con ImageGen integrato, includendo
+      lettering, materiali e composizione. Verificare poi fedeltà testuale,
+      leggibilità e relazioni fisiche. Conservare prompt e originale.
+    Refinement: >
+      Una correzione mirata può rifinire testo o geometria conservando la
+      direzione. Non dichiarare editabilità vettoriale o font reali senza
+      asset effettivi verificati.
+    References: >
+      Non adottare immagini esterne come dipendenze permanenti senza una
+      prova comparabile con e senza immagini e valutazione dell'utente.
+    Validation Status: >
+      La ricerca e gli allegati hanno portato a una prima prova cromo e a
+      due studi rosa/gel. L'utente ha escluso il registro rosa e indicato
+      cromo/olografico. La prova cromo è stata ispezionata nel nativo e a
+      320 pixel. Una seconda frase coerente con il registro scelto è stata
+      verificata nel nativo e a 320 pixel, con una correzione degli spazi fra
+      parole. Il 26 ottobre 2026 l'utente ha approvato questa revisione e
+      richiesto l'aggiornamento della galleria e della skill. Nomi, accenti
+      e altri formati richiedono ancora prove specifiche.
+
+  Content Contract:
+    quote: Frase completa e letterale richiesta
+    author: Nome facoltativo fornito o verificato, subordinato e allineato a destra
+    signature: Nome personale solo se richiesto, distinto dall'autore
+    supporting: Solo contenuti secondari forniti; nessun riempitivo
+
+Composition Library: composizioni.yaml

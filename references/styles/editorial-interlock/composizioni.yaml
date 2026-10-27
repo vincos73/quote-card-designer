@@ -1,0 +1,39 @@
+Composition Library:
+  Style Name: Editorial Interlock
+  Selection:
+    Basis: >
+      Group the exact sentence into a small number of semantic units, usually
+      four when corner anchors are appropriate. Select a subject whose
+      contours can enter those units without hiding the reading. Its main
+      mass must always occupy the central visual field and remain recognisable.
+    Variation: >
+      Vary subject, crop, anchor size, offset and the location of foreground
+      reversals. A new palette alone is not a new composition.
+  Families:
+    - id: four-anchor-weave
+      Name: Unequal editorial anchors with material crossings
+      Use When: >
+        A short or medium quotation can form substantial semantic groups
+        around a material subject without becoming isolated initials.
+      Structure: >
+        Place unequal word groups near different corner-related areas,
+        keeping a clear normal reading route. Place one large recognisable
+        subject centrally, with an oblique pose if useful, and let it enter
+        several word areas. Use alternating opaque occlusion in two
+        or three deliberate locations, with enough intact contours to
+        follow both letters and subject. Leave quiet intervals between
+        dense encounters.
+      Text Adaptation: >
+        Render the full phrase once, including connecting words, accents
+        and punctuation. Four groups are a compositional opportunity,
+        not permission to shorten or rewrite a sentence. Reduce an overlap
+        before sacrificing an identifying letter stroke. An optional name
+        remains smaller and right-aligned.
+      Format Adaptation: >
+        In 4:5 use staggered anchors and a subject crop that supports the
+        reading path. A taller format can lengthen the encounter; a square
+        or wide format needs a broader route and fewer extensions. Recompose
+        rather than crop required words or distort their glyphs. Preserve
+        the central subject in every ratio rather than expanding it into
+        an unbounded background pattern.
+

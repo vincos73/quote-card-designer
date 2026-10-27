@@ -1,0 +1,63 @@
+Composition Library:
+  Style Name: Futurismo Italiano
+  Selection:
+    Basis: >
+      Scegliere l'asse e il rapporto con il visual dalla frase, mantenendo
+      sintesi geometrica, dinamismo e materia opaca. La velocità può essere
+      letterale oppure nascere da un gesto o da una costruzione astratta.
+    Variation: >
+      Cambiare il percorso di lettura, il soggetto e il rapporto fra campo
+      scuro e carta. Non ripetere sempre un titolo sopra un veicolo.
+  Families:
+    - id: diagonal-motion-field
+      Name: Frase architettonica e ritmo di movimento
+      Use When: >
+        Una frase energica può dialogare con un soggetto in azione e con
+        un asse diagonale forte.
+      Structure: >
+        La frase occupa una grande struttura obliqua. Un soggetto sintetico
+        intercetta i suoi vuoti e prosegue nell'asse generale. Contorni
+        parziali o piani ripetuti suggeriscono tempi successivi. Le ombre
+        delle parole e dell'illustrazione condividono una logica costruita.
+      Text Adaptation: >
+        A capo per gruppi di senso, con parole brevi ancora sostanziali.
+        Per testi lunghi ridurre le ripetizioni del visual e semplificare
+        il volume delle lettere prima di rimpicciolire la frase.
+      Format Adaptation: >
+        Ricomporre la pendenza degli assi e l'ingombro del soggetto per
+        il nuovo rapporto, proteggendo tutte le parole.
+      Validation: Prima prova con un ciclista; soggetto e diagonali non sono un modello fisso.
+    - id: constructive-action-field
+      Name: Gesto centrale fra registri tipografici
+      Use When: >
+        Il contenuto può essere reso con un gesto, una trasformazione
+        materiale o una relazione fra pochi elementi.
+      Structure: >
+        Un'azione connessa attraversa il centro. La frase comincia sopra
+        e continua sotto, con assi condivisi, piani che si compenetrano e
+        contrasto di scala controllato. Una superficie o un'ombra del
+        soggetto prolunga la geometria del testo.
+      Text Adaptation: >
+        Conservare l'ordine della frase attraverso i registri. Con più
+        testo ampliare il campo di lettura e ridurre l'intervallo visivo;
+        non trasformare connettivi e nomi in microtesto.
+      Format Adaptation: >
+        Cambiare rapporto fra azione centrale e gruppi testuali, senza
+        ritagliare o comprimere un poster già composto.
+      Validation: Seconda prova con mani e carta; l'azione specifica non è obbligatoria.
+    - id: typographic-force-lines
+      Name: Campo tipografico e piani di forza
+      Use When: >
+        La frase può reggere la card senza una figura o un oggetto dominante.
+      Structure: >
+        Gruppi tipografici connessi attraversano piani, ombre e curve
+        ritmiche. Un solo sistema di forze lega la lettura. La geometria
+        sostiene le parole senza frammentarle o aggiungere pseudoformule.
+      Text Adaptation: >
+        Regolare scala e direzione dei gruppi sulla frase reale. Un
+        estratto non può sostituire la lettura completa né aggiungere
+        contenuto. Nomi eventuali trovano un asse destro quieto.
+      Format Adaptation: >
+        Ricostruire spazi, piani e margini per il rapporto scelto,
+        mantenendo naturali le proporzioni del lettering.
+      Validation: Famiglia prevista ma non ancora provata.

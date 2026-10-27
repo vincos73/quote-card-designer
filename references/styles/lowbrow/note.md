@@ -1,29 +1,31 @@
-# Lowbrow
+# Lowbrow · esempio 1 recuperato dalla galleria
 
-Profilo approvato per la libreria e V1 candidate. Esempio scelto:
-«La realtà è solo l’inizio.», senza attribuzione, famiglia animated-hinge.
-Porta animata, mondo interno e personaggi grotteschi sono una gag visiva
-specifica di questa frase, non soggetti obbligatori dello stile.
+Riallineamento del **26 ottobre 2026**. Frase indicata nella scheda pubblicata:
+**La realtà è solo l’inizio.**
 
-Card completa generata con ImageGen integrato. Prompt effettivo:
-`reference-prefix.md`, una riga vuota e `prompt-esempio.md`, con tre immagini
-estetiche che mostrano un manifesto cartoon musicale, una figura grottesca
-con libro e un mondo illustrato con veicoli e paesaggio impossibile. Si
-trasferiscono segno, caricatura e campiture; nessuna mascotte, parola o
-composizione precisa viene riprodotta. Le reference non sono obbligatorie.
+- Immagine locale: [esempio.jpg](esempio.jpg).
+- Esempio: **Oggetto animato · porta sul mondo**.
+- Sorgente: galleria Sites, versione **23**, asset `assets/lowbrow.jpg`.
+- Copia verificata byte per byte con SHA-256 `1842d23944481b8dbf4dcd81337ed0dfeafab8a43cf4d4640551c53b459a0750`.
+- File effettivo recuperato: **800 × 1000 px, RGB, JPEG**.
 
-La coppia di confronto conserva frase, palette, formato e composizione.
-La versione scelta è più elastica e irregolare della prova senza reference,
-che risulta più ordinata e illustrativa. La coppia non prova ripetibilità.
-Testo completo, cassa, accenti, apostrofo e punto verificati nel nativo
-1122 × 1402 e a 375 px, senza parole aggiunte.
+È il JPEG di anteprima già pubblicato, non il file nativo di generazione.
+Gli attributi dimensionali dell'HTML non certificano la risoluzione originaria.
+Non sono stati recuperati dalla sorgente Sites il prompt effettivo o un
+originale PNG: non sono stati ricostruiti né inventati e il catalogo non
+collega un prompt precedente a questa immagine.
 
-La ricerca distingue radici underground e Kustom Kulture dalle riletture
-contemporanee degli allegati. Il segno stampato è simulato, non una prova di
-processo storico. Altri formati e tutte le famiglie non sono provati.
+Profilo e tre famiglie compositive sono ripresi dall'export YAML pubblicato,
+conservato in [profilo-gallery-v23.yaml](profilo-gallery-v23.yaml). Il profilo
+locale usa il collegamento relativo a `composizioni.yaml`; la risoluzione
+è stata confrontata con l'export e conserva gli stessi contenuti.
 
-Il secondo esempio `esempio-2.png` usa «Le idee migliori prendono strade
-inattese.», un personaggio-lumaca con scala e una palette viola/lime.
-Generazione completa ImageGen senza reference, prompt effettivo in
-`prompt-secondo-testo.md`. Parole, cassa e punto controllati nel nativo
-1122 × 1402 e a 375 px. Due esempi visibili, con testi differenti.
+Lo stato **V1 candidate** riproduce quello della galleria. Questo recupero
+non promuove lo stile nella release né costituisce una nuova approvazione.
+Nessuna nuova generazione o pubblicazione eseguita. I dettagli di provenienza
+sono in [provenienza-gallery.yaml](provenienza-gallery.yaml).
+
+Le due immagini dello stile sono state ispezionate nel JPEG disponibile:
+le frasi corrispondono ai metadati pubblicati. Questo controllo non è una
+nuova prova di generazione, un controllo di font reale o una certificazione
+della risoluzione originale.

@@ -1,5 +1,10 @@
 # Calibrazione: Dada Black
 
+Studio precedente, conservato dopo la rinomina del profilo in **Dada**.
+La revisione corrente introduce palette più libere e nuove composizioni,
+documentate in [note-2.md](note-2.md), [note-3.md](note-3.md) e
+[reference.md](reference.md). Questa palette scura non è più un default.
+
 Guarda [esempio.png](esempio.png) se serve una lettura visiva del linguaggio.
 Il [prompt effettivo](prompt-esempio.md) documenta la composizione di questo esempio.
 

@@ -1,161 +1,285 @@
 Design Style:
-  Name: "Neo Swiss"
+  Name: Neo Swiss
+  Status: Reference-led revision of 27 October 2026; prior studies have documented limits; new layered compositions untested; included in distributed version 0.4.0
   Concept: >
-    Contemporary editorial design informed by Swiss modernism, information
-    design, scientific atlases, timetables, archives and experimental posters.
-    Reconstruct the supplied content as a visual structure: typography,
-    geometric relationships and, when present, numbers or data form a precise
-    modular system. Combine analytical clarity with controlled experimentation
-    and an optimistic use of colour. A quotation without data remains a
-    typographic composition rather than an invitation to invent statistics.
+    A contemporary interpretation of Swiss typography in which the quotation,
+    open space and graphic planes form a single precise composition.
+    A flexible modular grid coordinates the page through actual text axes
+    and spacing, remaining invisible by default. Clear grotesk letterforms,
+    deliberate asymmetry and measured intervals give the message authority;
+    pronounced scale contrasts, unexpected shifts and controlled interlocking
+    give it the energy of a contemporary typographic poster. Compose the
+    quotation across the page instead of placing it in a centered template.
+    Precision should produce tension and rhythm, not a generic minimal page
+    with a coloured block.
+
+  Reference Basis:
+    Scope: >
+      Neo Swiss is the name of this project's interpretation, not a claim
+      that all historical or contemporary Swiss design follows one formula.
+      Keep the structural clarity of Swiss modernism while allowing the
+      scale, layering and exposed construction observed in the user's
+      contemporary references. These are related sources of inspiration,
+      not evidence that every reference is a historical Swiss poster.
+    Research Notes: ricerca.md
+    Transfer: >
+      Transfer spatial relationships, optical judgement and the integration
+      of message and form. Reference works do not impose their text, subjects,
+      palette or layout, and are not required image inputs. In particular,
+      do not copy event data, Japanese lettering, handles or decorative
+      background words from the supplied references.
 
   Canvas:
-    Ratio: "4:5"
-    Output: "Single flat social quote card, full bleed"
-    Adaptation: >
-      Adapted from a 16:9 presentation reference to the skill's portrait default.
-      Recompose for 16:9 or another ratio when requested; retain the grid logic
-      and hierarchy rather than shrinking a landscape slide.
+    Ratio: '4:5'
+    Output: One finished flat full-bleed editorial quote card
+    Adaptation: Recompose the grid, typographic mass and open intervals for each ratio.
 
-  Mood:
-    - Intelligent
-    - Analytical
-    - Experimental
-    - Precise
-    - Editorial
-    - Contemporary
-    - Optimistic
-    - Systematic
-  Temperature:
-    Overall: "Cool"
+  Mood: [Precise, Lucid, Confident, Rhythmic, Editorial, Contemporary]
 
   Color Palette:
-    Background:
-      PaperWhite: "#F8F7F3"
-    Primary:
-      NeonPink: "#FF4FC3"
-      AcidYellow: "#E7FF38"
-      CyanBlue: "#72D7FF"
-    Secondary:
-      Black: "#111111"
-    Accent:
-      LightGray: "#DADADA"
-      White: "#FFFFFF"
-    Roles: >
-      Paper white provides generous open space; black carries the main text
-      and structural rules. Choose one dominant chromatic accent per card
-      from pink, yellow or cyan, using it as a classification plane or to
-      establish a meaningful relationship. Light grey supports subordinate
-      grid lines and white can create a counterspace. The three bright colours
-      are alternatives rather than a requirement to use all three together.
+    Fixed Colors: false
+    Starting Palette:
+      Paper: '#F6F4EE'
+      Ink: '#141414'
+      Signal: '#E6462D'
+    Roles:
+      Ground: An open paper field or a deliberate solid-colour field
+      Typography: One clear high-contrast reading ink, with a purposeful second register if useful
+      Graphic Field: A flat colour plane or image mass that creates a compositional relationship
+      Construction: A quiet tint of the ink or accent, perceptible after the quotation
+    Selection: >
+      A monochrome card, one strong spot colour on paper, or an inverted
+      saturated ground are all valid. Pink, yellow and cyan remain possible
+      but do not define the style. Choose the colour relationship for the
+      phrase; a plane can organize space rather than merely highlight a word.
+      Begin with a ground and a reading ink; add an accent only if it has
+      a clear reading or structural role. A purely typographic composition
+      does not need a coloured plane to qualify as Swiss. The supplied
+      references suggest warm paper with red, or cool grey with sharp yellow;
+      these are options, not fixed palettes. Multiple colours are available
+      when they serve a clear hierarchy. On a pale ground, yellow is better
+      used as a plane or a large secondary mass than as small reading text.
 
   Typography:
     Primary:
       Style: >
-        Swiss grotesk sans-serif, recalling the functional character of
-        Helvetica, Univers or Akzidenz-Grotesk. Treat letterforms as geometry.
-      Weight: "700-900"
-      Tracking: "Tight, optically adjusted"
-      Scale: "Oversized"
-      Role: "Main quotation and its strongest phrase"
-    Secondary:
-      Style: "Light sans-serif"
-      Weight: "300-500"
-      Tracking: "Slightly wide, without impairing word recognition"
-      Role: "Quieter quotation fragments and supplied supporting text"
-    Numbers:
-      Style: "Heavy functional sans-serif"
-      Weight: "800-900"
-      Scale: "Monumental when the supplied content includes a meaningful number"
-      Role: >
-        Numbers can anchor the whole page when actually present in the text.
-        If the quotation contains none, use a large word or letterform as the
-        anchor; do not invent a number, percentage or index to imitate data design.
-    Body:
-      Weight: 400
-      LineHeight: "1.2-1.4"
-      Role: "Supporting text only when supplied"
-    Case: >
-      Preserve the quotation's original capitalization. The presentation
-      reference's preference for uppercase does not authorize changing the
-      supplied text; apply uppercase when requested or already present.
+        A clear grotesk or neo-grotesque sans serif, in the broad direction
+        of Akzidenz-Grotesk, Univers or Helvetica, with natural letter proportions.
+      Weight: >
+        Choose regular, medium or bold for the actual scale and reading field.
+        A heavy anchor is possible; black weight is not a default for every line.
+      Spacing: >
+        Use optical kerning and clearly visible word spaces. Compact setting
+        should retain open counters and separation between neighbouring glyphs.
+        Do not squeeze a word or tighten tracking to make it fit a module.
+      Role: The complete quotation, large enough to be the first clear reading.
     Hierarchy: >
-      Combine a dominant typographic mass, a clear secondary register and
-      sparse structural detail. Large letters may cross grid divisions, but
-      every word and punctuation mark must remain readable at phone size.
+      Give each change of size or weight a reading function. Explore a
+      pronounced contrast between a large anchor and a smaller connecting
+      phrase, or between regular and bold within the same grotesk family.
+      A single register remains valid when the phrase calls for it, but do
+      not flatten every composition into one uniformly heavy text block.
+      Avoid a new style for every word or arbitrary light/black alternation.
+    Alignment: >
+      Prefer a clear left edge and natural ragged right. A second alignment
+      axis can create a deliberate shift between semantic groups. Maintain
+      one obvious reading sequence. Optical overhang of punctuation is valid
+      when the marks remain complete and the line is clearer.
+    Case: Preserve the supplied capitalization, wording, accents and punctuation.
+    Scale: >
+      Use confident editorial scale with complete, recognisable letters.
+      Reflow the phrase and change the graphic mass before shrinking the
+      quotation or deforming individual words. Longer quotations need a new fit.
+    Poster Rhythm: >
+      Set distinct phrases as contrasting typographic masses, with one
+      dramatically larger and another more compact when the wording supports
+      it. Place them across the page, sharing axes or edges instead of stacking
+      every line into one rectangular block. Pair dense areas with open
+      counterspace and keep the reading order immediately apparent. Scale can
+      carry the visual energy without a shape.
+    Layering: >
+      Two typographic registers may interlock across the same modules.
+      Distribute different, sequential parts of the supplied quotation
+      between them; do not repeat a word to manufacture a background layer.
+      Large coloured type must remain readable if it carries quotation text.
+      Let open space or a flat colour field pass behind the main text;
+      letter-on-letter crossings are selective and never erase a letter's
+      identity, a word space or punctuation. If reading becomes ambiguous,
+      separate the registers while retaining the contrast of scale.
+    Attribution: >
+      If supplied or verified, set the exact name in a smaller, quieter
+      register, readable and aligned to a clear right edge. If absent, recover
+      that space. A personal signature remains separate and is only added
+      when requested.
+    Font Certainty: A generated resemblance does not establish the use of an exact font family.
 
   Layout:
-    Structure:
-      - "Strict modular grid and clear information hierarchy"
-      - "Structured asymmetry with generous editorial whitespace"
-      - "Typographic layering and selective crossings of grid boundaries"
-      - "Diagrammatic relationships derived from the supplied content"
-    Alignment:
-      Preference: "Grid-first"
-      ControlledChaos: "Low"
-    Relationships: >
-      Use the grid to connect the quotation, colour plane and any diagram or
-      archival image. Reveal selected rules or alignment datums where they
-      explain the arrangement. A deliberate typographic overshoot can create
-      experimentation within the system. Do not fill every module or render
-      a uniform decorative grid over all available whitespace.
+    Invariants:
+      - A small set of shared alignment axes and repeatable spatial intervals
+      - Asymmetrical balance between the quotation, open space and the graphic mass
+      - A dominant contrast that establishes where reading begins
+      - A continuous, unambiguous reading order through the complete quotation
+      - A meaningful relationship between the message and its visual construction
+    Grid: >
+      Derive a small modular system from the actual phrase and format: shared
+      column edges, a consistent gutter and repeated vertical intervals.
+      Snap text edges and colour planes to that system, with optical
+      corrections for letterforms. Leave some modules open. Keep the grid
+      implicit by default: the user rejected a visible network that did not
+      actually guide the typography. Derive text placement from the modules
+      first. Do not force every text line into a separate box.
+    Visible Construction: >
+      Expose construction only when explicitly requested, and only when
+      its axes demonstrably guide the actual text. A decorative overlay is
+      insufficient. When requested, show the complete light modular network
+      across the entire canvas. Every vertical rule reaches the top and
+      bottom edges; every horizontal rule reaches the left and right edges.
+      Keep a coherent set of broad modules rather than dense graph paper.
+      Derive the text axes from this same matrix. All segments have a
+      consistently delicate contrast against the ground, perceptible at
+      full size and secondary in a thumbnail. The grid is behind opaque
+      lettering: only actual glyph strokes cover it; counters, word spaces
+      and surrounding ground retain the network. Do not erase clearance
+      rectangles around text, fade out arbitrary areas or leave disconnected
+      fragments. Never draw a pale rule on top of black letter interiors.
+      Judge lightness optically rather than claiming exact generated
+      stroke widths or opacity. No measurement ticks, nodes or editor UI.
+    Controlled Departure: >
+      Establish a dominant relationship, such as a shifted text axis, a
+      large scale contrast, a cropped graphic field or interlocking text
+      registers. Related contrasts can reinforce it; the page need not be
+      limited to a single visual gesture. Keep the shared grid and a clear
+      reading sequence as the stable framework. This is a design criterion
+      for this profile, not a historical rule.
+    Integration: >
+      Text and graphic field share a margin, interval, counterspace or directional
+      tension. The visual should help construct the same page instead of
+      becoming a separate illustration beneath a heading. Every letter keeps
+      sufficient local contrast; crossings must not obscure its identity.
+
+    Page Rhythm: >
+      Compose the entire surface as a poster: a large reading mass can meet
+      a smaller block at a shared edge, while another region remains open.
+      Vary the direction and extent of whitespace instead of distributing
+      equal margins around one centered block. An optional graphic shape can
+      crop at the edge and share an axis with the type without encroaching
+      on the quotation.
 
   Graphic Elements:
     Repertoire:
-      - "Circles, rectangular panels and flat colour planes"
-      - "Rule lines, alignment marks and registration-like terminals"
-      - "Arrows and diagram indicators tied to meaningful relationships"
-      - "Timelines, tables and data callouts only when supported by supplied content"
-    Principles: >
-      Every graphic mark should have a clear compositional or explanatory
-      function. Let rhythm emerge from repeated intervals, shapes or rules.
-      Coordinates, measurements, classifications and scientific labels require
-      real supplied information; do not simulate them with filler notation.
+      - Flat planes, bars, circles or related modular shapes
+      - A purposeful interruption or displacement in a repeated graphic rhythm
+      - Fine full-canvas modular grid lines that reveal shared alignment axes
+      - Large coloured typographic masses made from distinct parts of the actual quotation
+      - A restrained geometric sign or cropped shape integrated with the modules
+      - An optional high-contrast photographic fragment
+    Selection: >
+      Select a coherent graphic idea from the phrase. Pure typography is also
+      valid. A bar, disc or geometric sign can act as a counterweight, but
+      does not become a compulsory emblem. If cropped, retain enough of the
+      form to make it recognisable. A symbol can be enlarged when meaningful
+      for the phrase; preserve its identifying features. Keep the quotation's
+      glyphs complete. Avoid
+      adding circles, arrows, nodes and registration marks simply to certify
+      a technical aesthetic. A number, table or diagram requires actual
+      supplied content; a short quotation does not need invented data.
+      A field added merely to fill a blank strip is not a meaningful
+      relationship. Remove it when typography and spacing already carry
+      the composition, especially when the user requests no band.
 
   Imagery:
-    Style: >
-      Treat an image as an archival specimen or an information element placed
-      within the grid. Imagery is optional and subordinate to typography and
-      any actual data, rather than a mandatory hero illustration.
-    Treatment:
-      - "High-contrast cutout or flat archival reproduction"
-      - "No shadows"
-      - "Precise editorial integration"
-      - "Technical labeling only when text is supplied or verified"
-    Subjects:
-      - "Scientific specimens and educational references"
-      - "Historical artifacts and everyday objects"
-      - "Charts, diagrams and classification relationships"
-    Selection: >
-      Choose a subject only when it supports the quotation's meaning. These
-      are an open repertoire, not instructions to add a specimen to every card.
-      A purely typographic card is equally valid.
+    Role: Optional; a precise visual counterpart to the quotation, not a mandatory subject.
+    Treatment: >
+      Use a deliberate crop, strong tonal separation and an edge that relates
+      to the typography. Photographic suggestion can be effective without a
+      literal pictogram. Any depicted subject comes from the quotation and
+      context; no recurring dancer, specimen or archival object is required.
+    Provenance: Do not describe a newly generated image as an authentic archival photograph.
 
   Effects:
-    Texture: "Smooth offset print with slight paper grain or archival reproduction character"
-    Shadow: "None"
-    Depth: "Flat editorial layering"
-    Distortion: "Precise and controlled; no loss of text legibility"
+    Surface: Flat print, with subtle paper character when useful
+    Edges: Clear graphic boundaries and intact letter cores
+    Depth: Built through scale, overlap and positive/negative space
+    Texture: >
+      Keep texture subordinate to the reading hierarchy. Grain, halftone or
+      photographic contrast belongs to the chosen image treatment rather than
+      a compulsory distressed overlay.
+    Restraint: No decorative bevels, glass effects, soft shadows or glossy 3D rendering.
+
+  Content Contract:
+    quote: Preserve the complete supplied quotation once, including its original case and punctuation.
+    author: Use only supplied or verified attribution; keep it subordinate and right-aligned.
+    supporting: Render only supplied information; do not invent captions, codes or statistics.
 
   Rules:
-    - "Preserve the quotation verbatim and render it once."
-    - "Use generous whitespace and let typography and real data dominate imagery."
-    - "Restrict each card to one dominant chromatic accent by default."
-    - "Balance grid precision with a deliberate change of typographic scale or alignment."
-    - "Treat diagrams as storytelling devices grounded in the supplied content."
-    - "Use only supplied supporting text and supplied or verified attribution."
-    - "Do not invent statistics, numbering, chart values, categories or filler microtext."
-    - "Avoid corporate presentation templates and photorealistic lifestyle imagery."
-    - "Avoid glassmorphism, heavy gradients, organic doodles and decorative serif typography."
-    - "Avoid skeuomorphic effects, excessive clutter and luxury branding aesthetics."
+    - Build real alignments first; show construction only when explicitly requested and tied to those alignments.
+    - Keep the quotation prominent, complete and easy to follow.
+    - Use scale, weight and overlap as coordinated reading decisions tied to the phrase.
+    - Preserve natural glyph proportions and visible spaces between words.
+    - Treat the graphic mass and open space as participants in the text layout.
+    - Keep palette, subject and composition adaptable to the request.
+    - Avoid arbitrary micrographics, decorative numbering and fake scientific apparatus.
+    - Do not duplicate words as background decoration or replace letters with graphic symbols.
+    - Preserve the supplied punctuation; do not add quotation marks solely to imitate a poster.
+    - Keep reference subjects, branding and event information out of new cards.
+
+  Production:
+    Preferred Mode: hybrid
+    Rationale: >
+      Generate the complete visual and typographic composition with ImageGen.
+      Refine exact lettering if needed while retaining the generated spatial
+      relationships, rather than substituting an unrelated text overlay.
+    Validation Status: >
+      The 27 October revision strengthens poster rhythm, asymmetric placement
+      and an optional cropped geometric counterweight based on the supplied
+      references. A later arrow study tested asymmetric text axes; the
+      lettering and reading sequence were visually checked, while exact grid
+      geometry remains unmeasured. Geometric-shape recognition and layered
+      reading remain unverified. See note-prova-13.md.
+      The revision of 26 October 2026 adds lightly visible construction,
+      stronger typographic scale relationships and two composition families
+      after examining three user-supplied images and institutional sources.
+      A subsequent user-requested test generated the fourth example using
+      the first example's phrase and the exposed-modular-grid family.
+      One targeted edit reduced the initially excessive grid contrast.
+      The complete text was visually checked at native resolution and at
+      320 pixels wide. The grid recedes at thumbnail scale, but the heavy
+      anchor remains very compact, a faint line trace remains inside it,
+      and the requested final text-axis shift was not achieved. See note-4.md
+      for the test conditions and limits. This is one application, not proof
+      of repeatability or of the suggested numerical rule settings.
+      Two further studies remove the coloured band: example 5 uses a
+      consistent typographic register, while example 6 combines a saturated
+      yellow ground, black type and a larger bold action verb. The latter
+      was checked at native resolution and 320 pixels wide; its main grid
+      axes follow the two text groups more closely. Exact type size ratios,
+      font identity and module geometry remain unmeasured; see note-5.md
+      and note-6.md. Example 7 tests a different phrase and a complete
+      full-canvas grid, following an explicit user refinement. One edit
+      reduced its excessive initial contrast; text and continuity were
+      checked at native resolution and 320 pixels wide. Exact grid
+      geometry remains approximate; see note-7.md. The user then rejected
+      visible construction; example 8 removes the network while retaining
+      the lettering. The new default is an implicit grid. A separate
+      one-shot simple-prompt control was generated without profile text
+      or image references; see confronto-semplice-1.md for conditions and
+      limits. Layered reading remains
+      untested. The first three gallery examples
+      predate this revision. The third study
+      uses the first example's exact phrase, with a vermilion plane and shifted
+      reading axes. A targeted ImageGen edit reduced the initial typography's
+      excessive weight and condensation. The final wording and punctuation
+      were visually checked at native resolution and at 320 by 400 pixels.
+      The research images for that earlier study were not passed to generation.
+      This is a comparison of applications, not an isolated test of one
+      parameter. An exact font match, other quotation lengths and the remaining
+      composition families are not yet verified.
 
   User Overrides:
-    Format: "Recompose the grid, typographic anchor and open space for the requested ratio."
-    Palette: >
-      Replace the colours when requested while keeping clear roles for paper,
-      text, structural detail and the dominant accent. An explicit request for
-      several accent colours overrides the single-accent default.
-    Fonts: >
-      Honour the requested type direction, maintaining hierarchy and geometric
-      relationships where compatible. A generated resemblance does not verify
-      an exact font family.
+    Format: Recompose the active grid and graphic relationship for the requested ratio.
+    Palette: Replace colours together while preserving hierarchy and local text contrast.
+    Fonts: Honour the requested family or direction while preserving clear reading and natural proportions.
+    Imagery: Respect a requested subject and integrate it through the same spatial system.
+    Grid: Honour a request for visible or hidden construction while preserving the same alignment logic.
+
+Composition Library: composizioni.yaml

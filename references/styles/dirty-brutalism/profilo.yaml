@@ -1,6 +1,6 @@
 Design Style:
   Name: "Dirty Brutalism"
-  Status: "Profilo sperimentale della libreria locale"
+  Status: "Incluso nel catalogo V1 il 26 ottobre 2026"
   Concept: >
     Una costruzione editoriale severa incontra la materia della stampa povera:
     tipografia condensata massiccia, neri profondi, carta vissuta e fotografie
@@ -92,8 +92,10 @@ Design Style:
       didascalia sotto una foto autonoma. Usare il vuoto per regolare la densità.
     Density: >
       Alternare una massa scura o materica dominante e un campo di lettura
-      stabile. Con testi lunghi ridurre l'invasione fotografica e i segni
-      accessori, mantenendo un contrasto netto.
+      stabile. Lasciare un margine di rispetto visibile fra il blocco della
+      citazione e ogni ritaglio fotografico: non farli toccare né sovrapporre.
+      Con testi lunghi ridurre l'invasione fotografica e i segni accessori,
+      mantenendo un contrasto netto.
 
   Imagery:
     Treatment: >
@@ -141,6 +143,7 @@ Design Style:
     - "La gerarchia è netta anche quando il materiale è ruvido."
     - "La citazione resta il primo messaggio da leggere, completa e leggibile da mobile."
     - "La grana modula fotografia e campiture senza rovinare il testo."
+    - "Conservare grana e segni sulle superfici, lasciando un margine netto fra frase e fotografia."
     - "Scegliere una relazione principale fra testo, immagine e accento cromatico."
     - "Distinguere nero pieno, carta e mezzitoni; non appiattire tutto in una nebbia grigia."
     - "Non copiare soggetti, scritte o impaginati della reference."

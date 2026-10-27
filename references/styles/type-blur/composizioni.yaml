@@ -1,0 +1,24 @@
+Composition Library:
+  Style Name: Type Blur
+  Selection:
+    Basis: Choose the sentence path and sharp anchors, then one optical relationship.
+    Variation: Vary the relation between sharp and soft regions, not only colours or blur strength.
+  Families:
+    - id: refractive-type-bands
+      Name: Fasce ottiche sul testo
+      Use When: Large words can carry different focus states within their glyphs.
+      Structure: A few coherent refractive zones pass across several words, alternating sharp and softened letter regions.
+      Text Adaptation: Keep some entire anchors sharp and preserve recoverable contours in the affected words.
+      Format Adaptation: Recompose band positions and word groups for the target frame.
+    - id: focus-across-sentence
+      Name: Messa a fuoco nella frase
+      Use When: The sentence can travel between clearer and less definite semantic groups.
+      Structure: Focus changes gradually across the reading sequence with a distinct clear anchor.
+      Text Adaptation: Preserve all words without adding a duplicate sharp transcription.
+      Format Adaptation: Redirect the focus path to fit the reading flow of each ratio.
+    - id: mixed-register-focus
+      Name: Registri tipografici a fuoco alterno
+      Use When: A serif and grotesk can express a useful semantic contrast.
+      Structure: Two deliberate type voices share optical transitions and a continuous sentence path.
+      Text Adaptation: Assign type roles to groups rather than random individual letters.
+      Format Adaptation: Rebalance group scales and soft intervals without crowding the frame.

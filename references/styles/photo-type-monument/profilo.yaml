@@ -1,0 +1,125 @@
+Design Style:
+  Name: Photo Type Monument
+  Status: Included in distributed version 0.4.0; two object studies checked
+  Concept: >
+    Monumental letterforms become the principal photographic surface of
+    the entire page. A single coherent image is visible inside the large
+    glyphs across two to four broad typographic bands; the surrounding
+    field and counters stay flat. Photography and quotation are read
+    together, without a compulsory open photographic half.
+  Reference Basis:
+    Notes: reference.md
+    Transfer: >
+      Transfer full-page photographic masking, broad naturally condensed
+      letterforms and a clear stacked reading rhythm from the four supplied
+      references. Faces, English phrases, dates, captions, handles and
+      credits are not reusable content. A recognisable object or material
+      can replace a face when the quotation calls for it.
+  Canvas:
+    Ratio: '4:5'
+    Output: One flat full-bleed editorial quote card
+    Adaptation: Recompose photographic crop and word bands for every ratio.
+  Mood: [Monumental, Photographic, Direct, Graphic, Immersive, Editorial]
+  Color Palette:
+    Fixed Colors: false
+    Roles:
+      Field: A flat quiet colour framing the photographic letter shapes
+      Image: One coherent photographic colour and tonal treatment
+    Selection: >
+      A pale field with a darker image often gives strong glyph definition;
+      a dark field with a luminous image is equally possible. Choose both
+      for the quotation and subject. Preserve local contrast where bright
+      photograph details meet the field. No compulsory black, beige or
+      skin-tone palette.
+  Typography:
+    Primary:
+      Style: Monumental heavy naturally condensed grotesk with broad readable interiors
+      Fill: >
+        The same photographic scene continues across all word bands inside
+        the glyph silhouettes, at one consistent position and scale.
+        Letters are image windows, not solid ink over a complete photo.
+      Proportions: >
+        Use a coherent naturally condensed design. Fit the complete text
+        through line breaks, band scale and photo crop, never horizontal
+        squeezing of individual words or arbitrary glyph deformation.
+      Spacing: Compact optical spacing, intact counters and obvious word boundaries
+    Hierarchy: >
+      Give the quotation nearly the whole page. Different band heights
+      can reflect meaningful groups, while every band remains part of one
+      type family. Avoid tiny connecting words or decorative repetitions.
+    Case: Preserve supplied wording, capitalization, accents and punctuation.
+    Attribution: >
+      Only a supplied or verified name, small and quieter, right-aligned
+      on a clear margin. Solid ink is allowed for this secondary register.
+      Omit the space when absent; add a personal signature only on request.
+  Layout:
+    Invariants:
+      - The typographic mass occupies most of the canvas
+      - One photographic image continues inside the complete quotation
+      - Flat opaque negative space defines the glyphs and row intervals
+      - Subject recognition and sentence reading remain possible together
+      - Subject choice follows the meaning of the words rather than requiring a face
+    Bands: >
+      Compose short or medium text into a small number of broad bands.
+      Keep narrow but visible intervals between rows and safe margins
+      around complete glyphs. Do not crop letters merely to imitate a
+      monumental poster. Longer text needs a new fitting strategy.
+    Image Relationship: >
+      Plan the photographic crop with the band structure so meaningful
+      object features cross several glyphs. Keep one coordinate space
+      throughout: no unrelated image per word, repeated miniature objects
+      or arbitrary texture fills. There is no required vertical split.
+    Optional Emergence: >
+      A restrained part of the same subject can emerge in front of the
+      type as a separate depth treatment, only when it preserves the
+      complete quotation and its reading. A full unmasked subject is not
+      compulsory, and this treatment does not require a human figure.
+  Imagery:
+    Subject: >
+      Select a person, object, material or environment because it embodies
+      the quotation. Prefer enough recognisable photographic structure
+      to make the masking meaningful rather than a decorative texture.
+    Treatment: >
+      Believable light, material and detail, with a deliberate close crop.
+      Choose tonality so photographic details enrich the broad strokes
+      while their exterior boundaries remain legible.
+    Supplied Photo: Distinguish an actual edit target from style references and preserve its requested identity and details.
+    Provenance: Generated photo-like imagery is not an authentic photoshoot or documentary photograph.
+  Graphic Elements:
+    Repertoire: Letterforms, photographic subject, counters and flat row intervals
+    Restraint: No compulsory border, metadata block, episode number, caption, symbol or decorative slogan
+  Effects:
+    Mask: Clean continuous photographic fill inside glyphs
+    Depth: Photographic form and optional controlled emergence
+    Exclusions: No 3D extruded type, drop shadows, glow, random collage or transparent overprint replacing photographic masking
+  Content Contract:
+    quote: Exact complete quotation once, including punctuation and accents
+    author: Only supplied or verified attribution, subordinate and right-aligned
+    supporting: No invented credits, labels, brands, handles or additional wording
+  Rules:
+    - Generate the photographic subject, lettering and masking as one complete composition.
+    - Let broad letterforms carry the same continuous photograph across the page.
+    - Preserve both recognisable subject features and an obvious reading sequence.
+    - Keep the quotation complete and naturally proportioned within its chosen type design.
+    - Select subject and palette from the actual content, without a mandatory face.
+    - Keep reference-specific text and credits out of new cards.
+  Production:
+    Preferred Mode: hybrid
+    Rationale: >
+      ImageGen produces the complete visual and typographic composition.
+      Later precision work may refine mask geometry on that generated base;
+      a separately typeset substitute does not establish this visual result.
+    Validation Status: >
+      One complete ImageGen study uses a film camera and the demonstration
+      phrase METTI A FUOCO LE IDEE. across three full-page photographic bands.
+      No reference images were passed to generation and no correction was
+      needed. Wording, punctuation, object recognition and photographic
+      fill were visually checked at native resolution and 320 pixels wide.
+      A second study uses a luminous glass bulb and the phrase DAI LUCE
+      ALLE IDEE. with a cool pale-blue field, dark petrol and warm amber
+      photographic tones. The new text, period, photographic continuity
+      and bulb recognition were checked at native resolution and 320 pixels
+      wide. No correction was needed. Exact mask registration, font identity
+      and the two remaining families are unverified; see note.md and note-2.md.
+
+Composition Library: composizioni.yaml

@@ -1,9 +1,10 @@
 Design Style:
   Name: Graffiti
-  Concept: 'Playful editorial quote-card design inspired by street art, hip-hop culture, skateparks and
-    urban murals. Friendly marker lettering, bubble word art and small hand-drawn accents express creative
-    freedom and energy. A context-selected surface or clean field, ordered composition and generous whitespace
-    keep the quotation easy to read.
+  Concept: 'Expressive quote-card design grounded in graffiti writing and aerosol mural practice. Build a
+    believable painted surface with layered spray-painted lettering, forceful outlines, visible cap texture,
+    overspray, imperfect fills and selective drips. Let the result feel raw, physical and urban while keeping
+    the supplied quotation legible and compositionally dominant. Avoid turning graffiti into clean sticker
+    art, cute bubble clip art or generic decorative doodles.
 
     '
   Canvas:
@@ -17,12 +18,10 @@ Design Style:
   Mood:
   - Playful
   - Urban
-  - Friendly
-  - Creative
-  - Youthful
-  - Casual
+  - Raw
   - Expressive
-  - Energetic
+  - High-energy
+  - Layered
   Color Palette:
     Fixed Colors: false
     Roles:
@@ -36,18 +35,18 @@ Design Style:
     Contrast: Adattare testo, riempimenti e contorni per mantenere una separazione leggibile a ogni dimensione.
   Typography:
     Primary:
-      Style: Graffiti marker lettering
-      Weight: Medium to bold, adjusted for reading size
+      Style: Hand-painted aerosol graffiti lettering with confident, distinctive letter construction
+      Weight: Bold, with visible pressure and spray variation
       Color: High-contrast role selected from the semantic palette
       Role: Expressive main quotation with clear handwritten shapes
     WordArt:
-      Style: Bubble graffiti
+      Style: Aerosol throw-up or piece lettering, selected to suit the phrase and remain readable
       Fill: Color selected from the quotation's semantic palette
       Stroke: Thick outline in a contrasting palette role
       Effects:
-      - Selective paint drips
-      - Hand-painted highlights in a contrasting palette role
-      - Slightly rough edges
+      - Uneven aerosol fill and visible overspray
+      - Layered contrasting outline and selective highlights
+      - Irregular edges, paint runs and wall interaction
       Role: 'Emphasize a word or short phrase already present in the quotation. Integrate it into the
         reading sequence rather than repeating the text as a separate graffiti tag.
 
@@ -68,10 +67,10 @@ Design Style:
       '
   Layout:
     Structure:
-    - Clean editorial composition with large playful lettering
-    - Balanced whitespace and wide outer margins
-    - Mixed asymmetry supported by a regular underlying grid
-    - Selective corner doodles and framing accents
+    - Large hand-painted lettering as the primary composition
+    - Asymmetric mural-like arrangement with overlapping spray layers
+    - Tight but deliberate framing; preserve a clear reading path
+    - Surface marks support the painted action rather than becoming doodle decoration
     Grid: 'The presentation reference uses 12 columns. Treat this as an optional alignment scaffold, not
       a visible grid or a requirement to create twelve content blocks. Adjust the modular rhythm to the
       card''s format.
@@ -84,52 +83,50 @@ Design Style:
       '
   Elements:
     Background:
-      Style: Context-selected plaster or concrete wall, or a clean field
+      Style: Context-selected weathered concrete, brick, plaster or painted urban wall
       Characteristics:
-      - Matte texture
-      - Subtle hairline cracks
-      - Slight weathering and soft stains
-      Treatment: 'Keep the surface subordinate to the quotation. Choose texture and luminance for the
-        selected palette; avoid heavy distressed texture or dark urban grime unless the quotation calls
-        for it.
+      - Uneven mineral texture and visible age
+      - Scuffs, stains, fine cracks and traces of older paint
+      - Local variation in wall colour and absorbency
+      Treatment: 'Make the wall visibly physical and weathered, with believable accumulated grime and
+        paint interaction. Keep enough tonal separation behind every word; texture may show through but
+        must not break the letterforms.
 
         '
     Illustration:
-      Style: Cute street graffiti; flat shapes, soft imperfections, sticker-like appearance
+      Style: Layered aerosol writing with physical spray texture and selective wall marks
       Repertoire:
-      - Bubble clouds and rounded painted blobs
-      - Hand-drawn arrows, dots and small stars
-      - Light sparkles and paint drops in contrasting palette roles
-      - Small doodles chosen for the quotation's meaning
-      Selection: 'Choose a small compatible set rather than using every motif. Doodles and paint marks
-        act as framing devices. Graffiti tags may use only supplied words without duplicating the quote;
-        never invent signatures or decorative lettering. Friendly does not require a child character or
-        school imagery unless the content calls for it.
+      - Aerosol halos, cap splatter and overspray
+      - Layered outlines, fills and selective paint runs
+      - Fragments of older paint or wall wear where composition benefits
+      Selection: 'Choose a small compatible set rather than using every motif. Marks and paint layers
+        support the writing. Graffiti tags may use only supplied words without duplicating the quote;
+        never invent signatures or decorative lettering. Avoid child characters or school imagery unless
+        the content calls for them.
 
         '
   Effects:
-    Texture: Concrete or plaster, very low noise
-    Finish: Matte mural finish
-    Depth: Flat painted or sticker-like layering
-    EdgeTreatment: Soft handmade imperfections with controlled roughness
+    Texture: Weathered masonry and layered aerosol texture, visibly rough but subordinate to the quote
+    Finish: Matte spray paint with uneven coverage, overspray and selective runs
+    Depth: Physical paint layers integrated with the wall, not sticker-like overlays
+    EdgeTreatment: Variable aerosol edges, cap splatter and imperfect hand-painted contours
   Rules:
   - Preserve the quotation verbatim and render it once.
-  - Prioritize illustration and expressive lettering over photography.
-  - Balance playful elements with mobile readability and generous negative space.
-  - Use graffiti as a focused visual accent rather than continuous visual noise.
-  - Keep the mood warm, casual and friendly rather than dark or aggressive.
+  - Prioritize convincing painted lettering, wall material and aerosol behaviour.
+  - Balance raw surface character with mobile readability and a deliberate reading path.
+  - Use realistic spray texture, layering and weathering without obscuring words.
   - Use only supplied supporting text and supplied or verified attribution.
   - Do not import subtitles, section badges, statistics, thank-you messages, signature tags or contact
     details from presentation templates.
-  - Avoid luxury aesthetics, corporate minimalism, excessive realism, heavy data tables and complex infographics.
+  - Avoid luxury aesthetics, corporate minimalism, cute sticker art, clean vector doodles, heavy data tables and complex infographics.
   User Overrides:
-    Format: Recompose the lettering, whitespace and framing doodles for the requested ratio.
-    Palette: 'Select colors from the quote''s meaning and preserve contrast among the background, lettering,
-      bubble fills, outlines and accents.
+    Format: Recompose the lettering, wall marks and reading path for the requested ratio.
+    Palette: 'Select spray-paint colours from the quote''s meaning and preserve contrast among the wall,
+      lettering, fills, outlines and accents.
 
       '
-    Fonts: 'Honour the requested type direction. Keep the playful hand-painted character through shapes
-      and composition where compatible; a generated resemblance does not verify an exact font.
+    Fonts: 'Honour the requested type direction. Preserve the hand-painted aerosol character through letter
+      shape, spray texture and layering; a generated resemblance does not verify an exact font.
 
       '
   Production:

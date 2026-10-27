@@ -1,6 +1,6 @@
 Design Style:
   Name: "Duotone Halftone"
-  Status: "Revisione bicroma retinata basata sulla direzione esplicita dell'utente"
+  Status: "Incluso nel catalogo V1 il 26 ottobre 2026"
   Concept: >
     Una fotografia ricostruita con un retino sempre visibile usa due colori
     dominanti a forte contrasto. Punti, intervalli e masse dense danno il
@@ -103,10 +103,15 @@ Design Style:
 
   Effects:
     Halftone: >
-      Retino obbligatorio e chiaramente visibile. Punti fotografici ordinati,
-      prevalentemente tondi, cambiano area con il tono: separati nelle luci,
-      più grandi nei mezzitoni, fusi nelle ombre. I punti ricostruiscono la
-      fotografia e non sono una decorazione aggiunta a una foto continua.
+      Retino obbligatorio, evidente e leggibile anche in anteprima ridotta.
+      Punti fotografici ordinati, prevalentemente tondi, cambiano area con il
+      tono: separati nelle luci, ben distinti e più grandi nei mezzitoni,
+      fusi nelle ombre. Rendere visibile il passo della griglia senza coprire
+      i dettagli che identificano il soggetto. La base deve restare una
+      fotografia riconoscibile, con proporzioni, luci, ombre e dettagli
+      fotografici coerenti; non trasformarla in un disegno, incisione,
+      illustrazione a contorno o silhouette. I punti ricostruiscono la foto,
+      non sono una decorazione aggiunta a una foto continua.
     Ink: >
       Irregolarità del bordo, intasamenti, depositi, brevi trascinamenti
       secchi e mancanze locali danno carattere di stampa. Concentrare lo
@@ -128,6 +133,7 @@ Design Style:
   Rules:
     - "Fotografia retinata sempre visibile e due colori dominanti a forte contrasto."
     - "Il colore non sostituisce la struttura del punto fotografico."
+    - "Rendere il retino più evidente, soprattutto nei mezzitoni, mantenendo riconoscibile la fotografia e i suoi dettagli; evitare un esito illustrato o inciso."
     - "Scegliere immagine e colori dalla frase, senza soggetti ricorrenti obbligatori."
     - "La foto è lo sfondo e la citazione è in sovraimpressione."
     - "Il testo usa la coppia cromatica della card, mantenendo contrasto e parole esatte."

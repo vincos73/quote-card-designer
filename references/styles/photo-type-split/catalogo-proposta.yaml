@@ -1,0 +1,20 @@
+- id: photo-type-split
+  release_candidate: false
+  production_mode: hybrid
+  family: fotografia-atmosfere
+  name: Photo Type Split
+  aliases:
+    - photo type split
+    - foto nelle lettere
+    - fotografia a metà
+    - maschera tipografica
+    - foto e testo divisi
+  summary: Una stessa fotografia continua da un lato aperto dentro le lettere sull'altro lato, con un asse netto e un fondo piatto. Il soggetto segue la frase, anche con oggetti.
+  tags: [fotografia, tipografia, maschera, split, oggetti, condensato]
+  profile: references/styles/photo-type-split/profilo.yaml
+  example_count: 1
+  example: references/styles/photo-type-split/esempio.png
+  example_label: Cambiare rotta · bussola
+  example_text: CAMBIARE ROTTA È GIÀ UN NUOVO INIZIO.
+  notes: references/styles/photo-type-split/note.md
+  example_prompt: references/styles/photo-type-split/prompt-esempio.md

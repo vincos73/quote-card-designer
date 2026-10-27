@@ -51,18 +51,19 @@ Design Style:
         '
   Typography:
     Expressive:
-      Style: Delicate high-contrast serif, flowing italic or fine calligraphic lettering
-      Role: One meaningful word or short phrase with an expressive editorial scale
+      Style: High-contrast serif or flowing italic lettering; italic words may carry the main visual emphasis
+      Role: One meaningful word or short phrase, set large enough to register immediately at phone size
       Character: 'Long strokes, elegant curves and occasional ligature-like relationships can carry a floating
         rhythm. Keep the actual letters, accents and punctuation recognizable; do not let flourishes replace
         words.
 
         '
     Supporting:
-      Style: Restrained clean sans-serif or a quieter related serif
-      Role: Connecting words within the supplied quotation
-    Hierarchy: 'Choose a coherent leading register and a quieter supporting register. The reference permits
-      either large expressive type or a small calm text block, but a quote card still needs full mobile readability.
+      Style: Restrained clean sans-serif or a quieter related serif, scaled for comfortable phone reading
+      Role: Connecting words within the supplied quotation, visibly integrated with the expressive lettering
+    Hierarchy: 'Choose a coherent expressive register and a quieter supporting register. Give the quotation
+      decisive scale and contrast at phone size; the complete phrase must read immediately rather than
+      receding into a small calm text block.
       Preserve the supplied case and reading sequence. Do not imitate the reference''s peripheral microtext
       with invented captions.
 
@@ -73,9 +74,10 @@ Design Style:
     - Delicate typography occupying quieter tonal intervals
     - Selective overlap between light, image and lettering
     - A deliberate balance between an expressive area and visual silence
-    Relationships: 'Let the luminous presence and typography share direction, scale or spacing. Place words
-      where the image allows them to breathe, rather than attaching a label panel to the scene. A flare may
-      approach a letter edge but must not erase the supplied text.
+    Relationships: 'Let the luminous presence and typography share direction, scale or spacing. Integrate
+      larger expressive letters with the scene through overlap, alignment or shared light, rather than
+      attaching a label panel. A flare may approach or softly cross around a letter edge but must not erase
+      the supplied text. Italic words can echo motion or light when they remain instantly readable.
 
       '
     Composition Families:
@@ -148,7 +150,8 @@ Design Style:
   - Build the atmosphere around pronounced photographic bokeh and a coherent luminous event or fragile presence.
   - Use colour flexibly while preserving readable luminance relationships.
   - Prefer photographic suggestion, shallow depth and bokeh over a fully sharp, comprehensively described subject.
-  - Let photographic forms remain blurred and incomplete while protecting the quotation's readable cores.
+  - Give the quotation enough scale and visual force to lead the card; use italics for a meaningful word or phrase when apt.
+  - Integrate larger lettering with photographic light or movement while protecting every readable letter core.
   - Avoid polished stock-photo beauty, intricate object rendering and sentimental postcard imagery.
   - Use only supplied supporting text and supplied or verified attribution.
   - Do not invent credits, lyrics, names, small captions or decorative microtext.

@@ -3,7 +3,8 @@ Design Style:
   Concept: 'A playful naive editorial quote-card language combines the directness of children''s drawing
     with confident contemporary poster typography. Uneven painted shapes, wax-crayon fills, coloured-pencil
     hatching or simple ink contours preserve the visible act of drawing. Imagined creatures, familiar
-    objects and small scenes have expressive proportions rather than polished illustration finish. A strong
+    objects and small scenes use a few bold, easily drawn shapes and expressive proportions rather than
+    intricate anatomy, dense scenery or polished illustration finish. A strong
     typographic structure keeps the quotation immediate and readable. The style is defined by its material
     marks and editorial confidence, not a fixed palette, mascot or childhood subject.
 
@@ -44,9 +45,10 @@ Design Style:
     Primary Registers:
       Naive Hand Lettering:
         Style: Simple ink, marker, dry-paint or crayon-drawn letters
-        Character: 'Slight baseline movement, irregular stroke edges and naturally varied letter shapes.
-          The words are deliberately drawn, not a decorative script or an illegible simulation of a child''s
-          first writing.
+        Character: 'Simple, recognisable hand-printed letters with a mostly steady baseline and even word
+          spacing. Allow modest variation in stroke and letter shape, but do not make alignment erratic or
+          spacing uneven for its own sake. The words are deliberately drawn, not a decorative script or an
+          illegible simulation of a child''s first writing.
 
           '
       Bold Editorial Sans:
@@ -60,14 +62,15 @@ Design Style:
       Style: Plain readable sans-serif or quiet hand lettering
       Role: Only supplied attribution or meaningful supporting copy
     Hierarchy: For this test choose the Naive Hand Lettering register for the entire quotation. Draw simple
-      readable dark wax-crayon letters, with slightly uneven baselines, small changes of angle and visibly
-      hand-made forms. Preserve original words, sentence case and final period; no enclosing quotation
-      marks. Keep a coherent scale and stroke language across all lines. Natural hand variation is intentional;
-      never condense a last word or substitute a clean font to avoid an illustration.
+      readable dark wax-crayon letters, with a mostly aligned baseline, regular word spacing and visibly
+      hand-made contours. Preserve original words, sentence case and final period; no enclosing quotation
+      marks. Keep a coherent scale and stroke language across all lines. Allow small natural differences in
+      individual letter shapes without making the alignment erratic; never condense a last word or substitute
+      a clean font to avoid an illustration.
     Selected Register:
       Style: Naive hand-printed wax-crayon lettering
-      Construction: Simple recognisable Latin letterforms with slightly uneven stems, open counters and
-        natural childlike drawing variation
+      Construction: Simple recognisable Latin letterforms with open counters, a coherent baseline and
+        regular word spacing; keep only gentle hand-drawn variation in the stems and contours
       Material: Dark charcoal wax strokes with visible paper gaps and broken pigment, not a smooth font
         with a distressed overlay
       Case: Original sentence case
@@ -77,11 +80,12 @@ Design Style:
     Structure:
     - A clear editorial reading block with room for expressive drawing
     - Intentional asymmetry, open paper and simple alignments
-    - One main illustrated relationship rather than an inventory of doodles
+    - One simple main illustrated relationship rather than an inventory of doodles
     - Loose handmade energy contained by a confident typographic hierarchy
     Relationships: 'Let the illustration respond to the meaning of the quotation through scale, action,
-      gesture, a shared edge or an interaction with the reading space. It can frame, support or partially
-      overlap the type while leaving all essential letter shapes clear. Images may extend beyond an edge.
+      gesture, a shared edge or an interaction with the reading space. Use a small number of broad marks
+      and omit tiny illustrative details that make the drawing look polished or overworked. It can frame,
+      support or partially overlap the type while leaving all essential letter shapes clear. Images may extend beyond an edge.
       A large naive drawing can coexist with clean typography. Avoid reducing illustration to an unrelated
       corner sticker or filling every interval with tiny decorative characters.
 
@@ -99,12 +103,12 @@ Design Style:
       Marks: Irregular flat painted silhouettes with tactile edges and minimal facial features
       Rhythm: Loose playful figures balanced by large clean editorial sans-serif
     Wax-Crayon Scene:
-      Marks: Dense wax strokes, broken fills, repeated directional scribbles and rough outlines
-      Rhythm: A familiar scene or object drawn with expressive proportions and material density
+      Marks: A few broad wax strokes, open fills and simple hand-drawn outlines
+      Rhythm: One familiar object or gesture drawn with expressive proportions and little internal detail
     Coloured-Pencil Outline:
       Marks: Visible contour drawing, coloured hatching and imperfect repeated pencil strokes
       Rhythm: Imaginative figures or scenery in dialogue with a strong poster-like text field
-    Selected Mode: Wax-Crayon Scene for both illustration and the hand-printed quotation
+    Selected Mode: Sparse Wax-Crayon Drawing for both illustration and the hand-printed quotation
   Imagery:
     Subjects:
     - Friendly invented creatures and expressive animals
@@ -119,7 +123,7 @@ Design Style:
 
       '
     Treatment:
-    - Visible uneven outlines and expressive, simplified proportions
+    - Few confident outlines and expressive, deliberately simplified proportions
     - Material-specific imperfections instead of artificially smooth vector edges
     - Flat colour and drawing depth, without realistic shading or glossy volume
     - Direct friendly gestures and small asymmetries rather than polished character modelling
@@ -127,7 +131,7 @@ Design Style:
     - Generic preschool mascot systems and nursery-only pastel styling
     - Perfectly smooth cute vector illustration
     - Photorealistic children, toy-product photography and glossy 3D
-    - Aggressive graffiti styling or dense unrelated doodle wallpaper
+    - Aggressive graffiti styling, intricate rendering or dense unrelated doodle wallpaper
   Graphic Elements:
     Repertoire:
     - A rough painted patch or crayon colour mass
@@ -152,6 +156,7 @@ Design Style:
   Rules:
   - Make the quotation the primary reading subject and preserve its exact words, case and sentence punctuation.
   - Omit enclosing quotation marks by default and use only supplied attribution or supporting text.
+  - Keep the drawing simple enough to look quickly made by hand: prefer a few clear shapes over detailed scenes, and keep hand-lettered baselines and word spacing mostly regular.
   - Keep typography coherent; change the layout or image instead of compressing an individual word or
     line.
   - Retain visible handmade marks rather than polishing the imagery into generic smooth vector art.

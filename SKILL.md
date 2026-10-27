@@ -2,7 +2,7 @@
 name: quote-card-designer
 description: "Crea quote card artistiche da una frase, un testo o un articolo, preservando la citazione e usando uno stile visivo disponibile."
 metadata:
-  version: "0.2.5"
+  version: "0.4.0"
 ---
 
 # Quote Card Designer
@@ -30,8 +30,10 @@ inclusi nella skill: la consultazione del sito non è necessaria per generare.
   un passaggio letterale prima di creare, salvo delega esplicita.
 - Se l'utente indica uno stile, risolvi il nome o l'alias nel
   [catalogo V1](references/catalogo-v1.yaml). Carica l'intero YAML del solo
-  profilo scelto. Il catalogo distribuito V1 comprende gli stili selezionati; il catalogo
-  esteso resta nella libreria locale.
+  profilo scelto. Il catalogo distribuito comprende 50 stili. Il catalogo visivo V1
+  può mostrare una selezione precedente; per la disponibilità fa fede il catalogo incluso nella
+  skill. Il collegamento da offrire all'utente è il catalogo visivo V1;
+  la gallery di sviluppo è riservata al lavoro del proprietario.
 - Se indica un descrittore generico, mappalo a uno stile disponibile e spiega
   brevemente la corrispondenza. Se la richiesta può indicare due stili diversi,
   proponi quelle due alternative. Se non indica uno stile, proponi 2–3 opzioni
@@ -102,7 +104,9 @@ esistono; non aggiungere avvertenze di verifica per ogni nome fornito.
   Porta nel prompt le relazioni e i materiali pertinenti del profilo e scegli
   una direzione visiva legata a quella frase.
   Gli esempi chiariscono il linguaggio, ma non impongono citazioni, soggetti o
-  palette. Non passarli automaticamente al generatore. Mantieni proporzioni
+  palette. Non passarli automaticamente al generatore; usa invece eventuali
+  reference operative approvate e dichiarate nel profilo scelto, rispettandone
+  le indicazioni. Mantieni proporzioni
   naturali dei glifi, kerning e spazi fra parole; risolvi la capienza con corpo,
   a capo e composizione, senza tracking arbitrario per riempire le righe.
 - Usa ImageGen integrato per la generazione. Non attivare servizi esterni a

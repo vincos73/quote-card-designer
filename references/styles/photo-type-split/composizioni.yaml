@@ -1,0 +1,40 @@
+Composition Library:
+  Style Name: Photo Type Split
+  Selection:
+    Basis: Choose a subject and split axis from the quotation's meaning, then fit one readable typographic mass.
+    Variation: Vary the meaningful photographic crop, split proportion and text density rather than only the palette.
+  Families:
+    - id: object-axis
+      Name: Oggetto diviso fra immagine e lettere
+      Use When: A recognisable object can embody the quotation's central action or concept.
+      Structure: >
+        Place a meaningful object across the split. Reveal one side freely
+        and continue the opposite side within large letter silhouettes on
+        a flat field. A shared axis anchors both object and the end of the
+        reading lines, with deliberately ragged outer line lengths.
+      Text Adaptation: >
+        Use semantic groups, natural word spaces and intact punctuation.
+        Preserve enough photographic area to identify the object; do not
+        add labels to explain an unrelated subject.
+      Format Adaptation: Recompose object scale, crop and split ratio for the requested frame.
+    - id: portrait-axis
+      Name: Ritratto e testo sulla stessa metà
+      Use When: A person is supplied or genuinely relevant to the message.
+      Structure: >
+        Put a meaningful vertical facial or body feature on the split, with
+        the image visible openly on one side and only through the letters
+        on the other. The lettering participates in the silhouette without
+        making a particular gender, expression or celebrity compulsory.
+      Text Adaptation: >
+        Fit the full phrase with the split as its common axis. Protect the
+        photographic side's recognisable features and the complete glyphs.
+      Format Adaptation: Move the split and reframe the portrait rather than crop words for a new ratio.
+    - id: material-transition
+      Name: Materia fra superficie e parole
+      Use When: A material or environment is more meaningful than an isolated object or face.
+      Structure: >
+        A single photographic surface or landscape feature spans the join.
+        Its pattern continues inside the quotation on the flat side, so
+        the text and open photograph reveal the same structure.
+      Text Adaptation: Keep the material legible inside broad strokes without using texture to conceal missing letters.
+      Format Adaptation: Rebalance photographic detail and type size at each aspect ratio.

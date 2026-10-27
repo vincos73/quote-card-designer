@@ -1,0 +1,91 @@
+Composition Library:
+  Style Name: Literary Editorial
+  Selection:
+    Basis: >
+      Choose page proportions from the wording and its semantic cadence.
+      Select one main structure, with the complete quotation as the
+      strongest verbal layer. An image is optional.
+    First Study: >
+      Use reading-column for the first short demonstration sentence.
+      Its line breaks, paper hue, upright opening and italic ending are
+      application choices rather than a fixed template.
+    Current Exploration: >
+      Test annotated-page after the user found the first study
+      insufficiently distinctive. The complete phrase remains in the
+      principal field; a linked marginal echo makes the reading operation
+      visible. This mechanism is under review, not an approved requirement
+      to put the same asterisk in every future card.
+    Typography: >
+      Preserve one coherent optical rhythm per register, natural word
+      spaces and whole words. Recompose before reducing or distorting
+      the necessary lettering.
+  Families:
+    - id: annotated-page
+      Name: A complete reading column with a functioning marginal echo
+      Use When: >
+        A short or medium quotation contains a literal fragment that
+        can gain meaning through a visible marginal annotation.
+      Structure: >
+        Establish a substantial main reading column and a separate
+        annotation margin. One typographic callout may give the page a
+        memorable silhouette. A precise rule, bracket or underline links
+        a selected group of words to its smaller marginal echo. Use one
+        dominant connection system rather than accumulating ornaments.
+      Text Adaptation: >
+        Keep the full quotation once in the principal field. Repeat only
+        a short exact excerpt as a visibly subordinate marginal note,
+        without inventing commentary or attribution. Preserve coherent
+        optical spacing within the main and marginal registers. Reduce
+        the callout before compromising necessary reading size.
+      Format Adaptation: >
+        Rebalance the width and placement of the margin for each ratio.
+        It may move beside or below the principal field while retaining
+        its visible connection to the quoted words. Avoid a fixed column
+        count, strip width, callout shape or number of lines.
+    - id: reading-column
+      Name: An anchored reading column with a selective italic cadence
+      Use When: A short or medium sentence benefits from a clear asymmetrical route.
+      Structure: >
+        Anchor a substantial serif field to one left axis, with deliberate
+        outer margins and natural unequal line lengths. Let a selected
+        semantic group move into related italic. An optional fine rule
+        can share an actual page anchor.
+      Text Adaptation: >
+        Break at semantic groups; keep connecting words substantial.
+        Use few meaningful scale relationships without justifying through
+        tracking. A supplied name is smaller and right-aligned.
+      Format Adaptation: >
+        Rebalance field width, line count and margins for the ratio.
+        Retain readable scale and complete wording rather than cropping
+        a fixed book-page rectangle.
+    - id: balanced-page
+      Name: A balanced central setting with natural line lengths
+      Use When: A concise sentence has a strong balanced or reflective cadence.
+      Structure: >
+        Compose around one clear central axis with controlled intervals
+        above and below the verbal field. Use upright and related italic
+        as complementary reading registers. No copied publisher mark,
+        ornamental border or obligatory colour scheme.
+      Text Adaptation: >
+        Keep whole semantic groups and natural word spaces. A centre
+        axis does not require equal line lengths or decorative spacing.
+        A supplied attribution keeps its subordinate right-hand anchor.
+      Format Adaptation: >
+        Change the proportion of the reading field and pauses for the
+        format. Keep the sentence substantial in wide as well as tall cards.
+    - id: reading-with-fragment
+      Name: A connected literary setting and one subordinate visual fragment
+      Use When: A requested or meaningful visual can enrich the reading experience.
+      Structure: >
+        Give the quotation a connected serif field and place one small
+        original photographic or printed fragment in a related interval.
+        Its edge or direction shares an anchor with the words; the text
+        remains the principal subject rather than an image caption.
+      Text Adaptation: >
+        Preserve clauses and reduce the visual before sacrificing reading
+        size. Keep related italic selective and omit the attribution field
+        when no name is supplied.
+      Format Adaptation: >
+        Redistribute the fragment and reading field for the ratio.
+        Maintain a clear route without breaking the sentence into
+        disconnected labels around the visual.

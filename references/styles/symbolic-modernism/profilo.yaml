@@ -1,0 +1,195 @@
+Design Style:
+  Name: Symbolic Modernism
+  Status: Included in V1 on 2026-10-26; user-preferred emblem direction with a flat-colour refinement
+  User Decision: >
+    On 2026-10-26 the user requested gallery inclusion after preferring
+    the first emblem study and reviewing the flat-colour hourglass.
+    Display those two applications, with the hourglass initially featured.
+    Later on the same day the user explicitly requested inclusion in V1.
+  Concept: >
+    Condense the quotation's idea into one dominant visual proposition:
+    a reduced emblem, a meaningful exception within a modular system,
+    or one event in a field of serial curves. A substantial editorial
+    grotesk treats the complete sentence as a title. Geometry, colour,
+    negative space and the words form one precise printed composition.
+    The preferred direction uses a reduced, immediately legible emblem
+    and clean flat colour. Serial curves remain a secondary exploration.
+  Reference Basis:
+    Research Notes: ricerca.md
+    Scope: >
+      The supplied boards combine conceptual TV posters, paperback
+      graphics and diagrammatic astronomy posters. They span distinct
+      projects and authors. Symbolic Modernism is a proposed name for
+      this quote-card synthesis, not an established historical movement.
+    Transfer: >
+      Transfer semantic reduction, one focal event, controlled repetition,
+      meaningful figure-ground relationships, asymmetry, few ink roles
+      and a restrained printed surface. Select the actual construction
+      from the quotation instead of repeating a reference's subject.
+    Independence: >
+      Do not reproduce a TV-series icon, book-cover composition, publisher
+      mark, event identity or an artist's exact arrangement. The supplied
+      images are analytical references, not compulsory generation inputs.
+  Canvas:
+    Ratio: '4:5'
+    Output: One complete flat editorial quote card
+    Adaptation: >
+      Recompose type, focal geometry, cropping and quiet space for each
+      ratio. Do not shrink a tall book cover into the card or crop words.
+  Mood: [Conceptual, Assured, Clear, Graphic, Precise, Flat, Modernist]
+  Color Palette:
+    Fixed Colors: false
+    Strategy: >
+      Use two or three clean flat colour roles: a continuous ground,
+      reading and construction ink, and an optional accent for the visual
+      event. Use the ground itself for cutouts when possible. Choose
+      strong contrast in relation to actual letter backgrounds.
+    Flat Study Direction:
+      Ground: '#44B6B2'
+      Main Ink: '#17282E'
+      Accent: '#F1583C'
+    First Study:
+      Paper: '#EBE1C6'
+      Main Ink: '#171916'
+      Accent: '#D84A2F'
+    Second Study:
+      Ground: '#103C46'
+      Reading and Curves: '#EEE3C8'
+      Encounter: '#E99B32'
+    Overrides: >
+      Replace the complete ink relationship when requested. Cream,
+      vermilion, black, petrol, orange, turquoise and coral are application
+      choices, not permanent identifying colours or a palette to use
+      all at once.
+  Typography:
+    Main Reading: >
+      Use one coherent substantial Western editorial grotesk with open
+      counters and natural proportions. Bold title-like weight is a
+      useful starting point. Preserve supplied case and punctuation.
+      The quotation is a principal verbal layer, not microtype borrowed
+      from the informational footer of a reference poster.
+    Hierarchy: >
+      Build clear semantic groups with deliberate line breaks and a few
+      purposeful whole-group scale relationships. Keep connectors and
+      accents substantial. Normally render the complete quotation once.
+    Spacing: >
+      Maintain coherent optical rhythm within each register, natural
+      word spaces and consistent glyph drawing. Pair-specific optical
+      compensation is appropriate. Avoid forced justification, arbitrary
+      tracking and local word compression to match a geometric edge.
+      Recompose geometry, line breaks or whole-register scale instead.
+    Attribution: >
+      Include only an exact supplied or verified name, smaller and
+      quieter than the quotation but readable, right-aligned on a clear
+      right edge. Omit the name and reserved space when absent.
+    Font Fidelity: >
+      A generated grotesk direction does not certify a named font,
+      editable lettering or numerical kerning values.
+  Layout:
+    User Preference: >
+      On 2026-10-26 the user preferred the first emblem application and
+      called it the right direction, then requested another test applying
+      simple forms, colour and flat design from Albert Exergian's approach.
+      Use single-semantic-emblem as the default. Choose one recognisable
+      pictogram or compound sign, with only the shapes and details needed
+      to carry the idea. Do not impose the first circular opening or the
+      third hourglass as permanent subjects.
+    Start from Meaning: >
+      Identify an action or relation in the quotation: an opening,
+      encounter, transition, exception, balance or boundary. Express it
+      through one clear visual operation before selecting decoration.
+    Dominant Event: >
+      Choose one construction system and a main operation such as
+      subtraction, intersection, nesting, masking, interruption or offset.
+      Several shapes or repeated contours may belong to that one system.
+      Avoid assembling unrelated geometric motifs to fill the page.
+    Type and Geometry: >
+      Give both sentence and visual proposition substantial presence.
+      Relate them through an axis, tangent, edge, interval or deliberate
+      crop. A quiet uninterrupted reading field keeps the full sentence
+      immediate at phone scale. Position is not fixed above or below.
+    Figure and Ground: >
+      Treat empty paper, cutouts and dark fields as active forms. Keep
+      decisive contacts and apertures sufficiently open to survive the
+      reduction. Crop a large construction deliberately without hiding
+      the event that carries the quotation's meaning.
+    Capacity: >
+      For longer wording simplify the construction and enlarge the
+      connected reading field before reducing the necessary type.
+    Variation: >
+      Change operation, geometry, subject relation, crop and verbal
+      anchors for a new quotation. A different accent colour alone
+      does not establish a different composition. Do not fix circles,
+      orbital paths, a slot, a disk or a line count as recurring mascots.
+  Graphic Elements:
+    Repertoire: >
+      Solid or cut-out disks, arcs, rectangles, angular silhouettes,
+      nested shapes, bounded modular sets and regularly spaced curves.
+      A recognisable object may be reduced to a flat silhouette when
+      meaningful. The repertoire is open rather than a required icon kit.
+    Serial Systems: >
+      Use consistent intervals, radii, line weights or another clear
+      drawing rule. One exception or selected contact may carry the
+      meaning. Keep thin strokes sufficiently separated and visible at
+      phone scale; avoid accidental moire or noisy line intersections.
+    Accent: >
+      An accent must mark a specific opening, difference or encounter.
+      It is not a reason to scatter decorative dots across the card.
+    Scientific Affinity: >
+      Diagrammatic geometry is a metaphor unless supplied data supports
+      a calibrated model. Do not invent measurements, axes, equations,
+      orbital facts or source-like event information.
+  Effects:
+    Surface: >
+      Clean solid colour fields, crisp silhouettes and a flat matte finish
+      are the current default. The first two studies retain their original
+      fine print grain as development material. Add paper tooth or ink
+      variation only when requested; do not automatically inherit texture,
+      ageing, stains or tears from the photographed book references.
+    Depth: Flat graphic construction; no photorealistic or glossy dimensional rendering
+  Content Contract:
+    quote: Complete literal sentence, normally once, as the main verbal layer
+    author: Optional exact supplied or verified name, subordinate and right-aligned
+    personal_signature: Only on explicit request and distinct from the author
+    additional_copy: Do not invent dates, labels, credits, folios, event titles or microtext.
+  Rules:
+    - Derive one clear visual proposition from the quotation's meaning.
+    - Give the full sentence substantial readable scale and a quiet field.
+    - Make figure-ground relationships, contacts and repeated intervals intentional.
+    - Preserve natural glyphs, optical spacing, word spaces, accents and punctuation.
+    - Keep palette, geometry, subjects, placements and density adaptable.
+  Exclusions:
+    - Copied TV icons, book covers, brand marks, event identities or artist signatures
+    - Random Bauhaus-like shape collections or unrelated ornamental geometry
+    - Fake scientific information, tiny filler text, labels or invented attribution
+    - Forced tracking, stretched letters, individually squeezed words or cropped required text
+    - Photographic portraits, space wallpaper, glow, glossy 3D, heavy grunge or framed mockups
+  Production:
+    Preferred Mode: generative
+    Method: >
+      Use integrated ImageGen for the complete quotation, visual
+      construction, composition and print surface. Do not substitute
+      a scripted geometric layout for a new generated card.
+    Reference Inputs: >
+      The first three complete compositions use written specifications
+      without image inputs. A targeted cleanup of study 3 uses its own
+      generated image to reduce residual grain while preserving the
+      composition. No external reference image is an operational input;
+      no matched reference/no-reference test establishes a permanent
+      image dependency.
+    Validation: >
+      Three initial complete applications and one targeted edit of the
+      third were produced. The delivered applications were checked at
+      native 1122 by 1402 pixels and at 320 by 400. Full wording,
+      punctuation, relevant accents, reading order and optical spacing
+      were visually checked. The user preferred the first and requested
+      the third flat-colour emblem test, then requested gallery display
+      of the style. The gallery retains the preferred first emblem and
+      the hourglass; the curve study remains development material. The
+      surface cleanup is not a fourth independent
+      application. These raster reviews do not certify a named font,
+      numerical kerning, editable vectors or exact uniform RGB fills.
+      The modular family, attribution, other ratios and long quotations
+      remain untested.
+
+Composition Library: composizioni.yaml

@@ -1,94 +1,202 @@
 Design Style:
-  Name: "Dada Black"
+  Name: Dada
+  Status: "Incluso nel catalogo V1 il 26 ottobre 2026; gallery profile"
   Concept: >
-    Expressive, experimental editorial photomontage inspired by Dada and vintage
-    handmade collage. Torn paper, magazine-cut typography, archival-looking
-    photographic cutouts and hand-drawn illustration express creative personality.
-    Scale, unexpected juxtaposition, irregular edges and purposeful empty space
-    give the composition an authored character.
+    A quotation is assembled with visibly cut, torn, printed and drawn
+    fragments. Unexpected recombinations, displaced scale and mismatched
+    photographic material create a witty or uneasy visual relationship.
+    Paper edges, ink, tape and varied typographic scraps remain perceptible.
+    The montage has a clear message and an authored hierarchy within its
+    deliberate irregularity.
+
+  Reference Basis:
+    Transfer: >
+      Transfer torn-paper construction, surreal photomontage, selected
+      anatomical or everyday fragments, mixed printed voices, strong colour
+      planes, halftone and sparse handmade marks from the supplied images.
+      The language can be chromatic, monochrome, contemporary or more archival.
+    Source Notes: reference.md
+    Independence: >
+      Reference faces, book covers, historical people, titles, brands,
+      slogans and signatures are not content to reuse. Invent subjects and
+      recombinations for the current quotation. Images inform the profile;
+      they are not mandatory runtime inputs.
+
   Canvas:
-    Ratio: "4:5"
-    Output: "Single flat social quote card, full bleed"
-  Mood:
-    - Artistic
-    - Creative
-    - Editorial
-    - Handmade
-    - Experimental
-    - Vintage
-    - Expressive
-    - Cultural
+    Ratio: '4:5'
+    Output: One complete flat editorial quote card, full bleed
+    Adaptation: >
+      Recompose the quotation, collage focus and open intervals for each
+      ratio. Keep all required text visible rather than cropping a poster.
+
+  Mood: [Expressive, Handmade, Surprising, Playful, Surreal, Tactile, Editorial, Rebellious]
+
   Color Palette:
-    Background:
-      Primary: "#2E3122"
-    Text:
-      Primary: "#F4F4F4"
-    Accent:
-      Olive: "#788B5A"
-      Purple: "#8A6283"
-      Blue: "#74879A"
-      Beige: "#D9CDB2"
-      Terracotta: "#B55252"
+    Fixed Colors: false
+    Strategy: >
+      Choose a restricted palette that supports the current collage.
+      Warm light paper, black-and-white fragments and one or two decisive
+      colours are a useful starting relationship. A richer chromatic study,
+      a monochrome card or a dark ground are equally possible. Neither
+      black nor dark olive is an obligatory background.
+    Starting Directions:
+      Chromatic Paper:
+        Paper: '#F1E7D9'
+        Ink: '#151513'
+        Orange: '#F85D1C'
+        Cobalt: '#245AAB'
+        Dusty Pink: '#DB9FA6'
+      Monochrome:
+        Paper: '#E9E3D7'
+        Ink: '#151513'
+        Grey: '#8F908B'
+      Restrained Warm:
+        Paper: '#DCC9AB'
+        Ink: '#1E201C'
+        Vermilion: '#C9462D'
+        Olive: '#7F8762'
     Roles: >
-      Deep dark olive establishes the field. Off-white supports readable type
-      and beige provides paper. Select the coloured accents sparingly; the
-      composition need not use every accent.
+      The field provides breathing room. Printed ink establishes reading.
+      Photographic fragments may remain monochrome while paper or paint
+      carries colour. Use a signal hue for a meaningful plane or word, not
+      as a compulsory strip behind every line.
+    Overrides: Replace hues while preserving material distinction and local reading contrast.
+
   Typography:
     Primary:
-      Style: "Magazine-cutout typography"
-      Role: >
-        Expressive words or phrase clippings with contrasting size, weight and
-        printed character. Seek coherent groups rather than a random font for
-        every letter.
-    Secondary:
-      Style: "Thin clean sans-serif"
-      Weight: 300
-      Role: "Quieter parts of the quotation and supplied supporting text"
-    Hierarchy: >
-      Emphasize words chosen for the current quotation. Preserve natural reading
-      order and enough scale for a phone screen. All words remain unambiguous.
+      Direction: >
+        Found-looking magazine or poster clippings: contrasting serif and
+        grotesk words, unequal weight and scale, slightly misaligned strips
+        and selected individual cut letters. Choose a few coherent voices.
+      Construction: >
+        Some meaningful words can use letter-by-letter scraps; others
+        remain whole word or phrase clippings. Do not randomise every glyph
+        merely to simulate collage.
+    Alternative Register: >
+      A large confident editorial serif or compact poster grotesk can lead
+      a torn-paper composition without ransom-note lettering everywhere.
+      Handwritten copy is possible only when it is part of supplied content.
+    Reading:
+      - Preserve the complete literal quotation, case, accents and punctuation.
+      - Keep clear word spaces and a recoverable sentence order across scraps.
+      - Make every connecting word substantial enough to read in a phone preview.
+      - Use irregularity without stretching glyphs or hiding required letters.
+    Attribution: >
+      Only a supplied or verified exact name, in a smaller and quieter
+      readable register, right-aligned on a useful axis. Omit the reserved
+      space when absent. A personal signature appears only if requested
+      and remains separate from authorship.
+    Font Fidelity: >
+      Generated clippings suggest different printed voices; they do not
+      establish specific font files or authentic historical print sources.
+
   Layout:
-    Structure:
-      - "Asymmetrical composition"
-      - "Collage layering"
-      - "Torn-paper framing"
-      - "Editorial spacing"
-    Relationships: >
-      Balance a concentrated zone of photographic fragments with a quieter open
-      field. Let edges overlap and fragments sit at different angles while the
-      text remains readable. The lettering and photomontage share the composition;
-      avoid an isolated central quote panel.
-  Elements:
-    Background:
-      - "Torn-paper shapes"
-      - "Layered paper textures"
-    Decorative:
-      - "Hand-drawn lines and botanical drawings when pertinent"
-      - "Vintage label-shaped scraps"
-      - "Hand-cut typography"
-    Images:
-      - "Editorial portraits"
-      - "Art photography"
-      - "Photomontage compositions"
+    Core Relationship: >
+      Quotation and montage share torn edges, overlaps, angles or a visual
+      exchange. An image fragment may continue into a paper or drawn form.
+      Keep an authored focal relationship and a stable reading path.
+    Juxtaposition: >
+      Use one deliberate surprise: an object in an unexpected role, a
+      displaced scale, an impossible assembly or a face rebuilt with
+      unrelated material. Select supporting fragments that strengthen it.
+    Density: >
+      Concentrate some layers and leave other intervals quiet. Density,
+      focus position and layout can vary; do not impose a central subject,
+      a four-corner scheme or a full-page inventory on every card.
+    Layers: >
+      Vary torn, scissor-cut, folded and taped edges. Keep overlaps locally
+      plausible as paper construction even when the pictured relationship
+      is impossible. Small contact shadows belong only to actual layer edges.
+    Capacity: >
+      Longer quotations need larger stable reading areas and fewer
+      competing scraps. Prefer coherent strips before shrinking words or
+      turning half the message into decorative microcopy.
+
+  Imagery:
+    Medium: >
+      Original photographic-looking or printed cutouts visibly assembled
+      into photomontage, with selective photocopy, halftone or duotone.
+    Repertoire: >
+      Anonymous portraits, hands, eyes, everyday objects, flowers, leaves,
+      clouds, architecture, stairs and other familiar material are open
+      possibilities. Choose from the quotation; no recurring portrait,
+      historical figure or fixed assortment is required.
+    Recombination: >
+      Make the changed relationship legible through seams, scale or
+      displaced fragments. A collage substitution is not an anatomical
+      wound or a seamless fantasy scene.
+    Identity: >
+      Do not reproduce reference celebrities, publishing marks, book-cover
+      identities, artwork signatures or source slogans.
+
+  Graphic Elements:
+    Core:
+      - Varied torn-paper and scissor-cut planes
+      - Photographic or printed fragments with deliberate scale changes
+      - Expressive word strips and occasional cut-letter emphasis
+    Optional:
+      - Matte tape, folded paper or a small label-shaped scrap
+      - Brush swipes, pencil loops and nonverbal handwritten gestures
+      - Halftone, hatching, partial grids, dot fields or a simple geometric counterweight
     Selection: >
-      Choose a visual relationship for the current quotation. Select only
-      materials that support it; botanical drawings, labels and portraits are
-      possibilities rather than mandatory decorations.
+      Use a compatible subset. Background print texture can be abstract
+      lines or dots; do not invent newspaper prose or pseudo-text.
+      A label shape does not require a made-up caption.
+
   Effects:
-    Shadows: "Restrained soft contact shadows only where paper overlaps"
-    Texture: "Matte paper grain and varied natural torn edges"
-    Depth: "Visible paper layering"
+    Paper: >
+      Different matte stocks, visible fibres, local folds and irregular
+      tears. Contemporary clean paper and warmer aged impressions are
+      alternatives; avoid uniform antique staining as a default.
+    Ink: >
+      Uneven density, coarse halftone in selected fragments, light
+      misregistration and scuffed printed areas can add character.
+    Drawing: >
+      Sparse irregular strokes can connect or counterbalance the collage;
+      they are purposeful gestures, not a random scribble overlay.
+    Depth: Visible paper layering and restrained contact shadows, not glossy sticker extrusion
+    Cohesion: Shared grain and tonal treatment without erasing differences between source-like materials
+
+  Content Contract:
+    quote: Complete supplied quotation once as the principal message
+    author: Optional exact supplied or verified name, subordinate and right-aligned
+    supporting: Only supplied supporting text; no copied reference captions or filler
+    repetition: Preserve literal repetition in the sentence; add no decorative word echoes unless requested
+
   Rules:
-    - "Embrace intentional imperfection and creative juxtaposition."
-    - "Keep cutouts visibly assembled rather than painting a seamless scene."
-    - "Mix typography styles while preserving the reading sequence."
-    - "Use collage storytelling and editorial breathing room."
-    - "Vary torn edges and contact shadows according to the layers."
-    - "Preserve the quotation and its punctuation."
-    - "Do not add pseudo-newspaper text, invented labels or signatures."
-    - "Avoid a uniform scrapbook arrangement, a generic torn-edge filter and glossy effects."
-  User Overrides:
-    Format: "Recompose for the requested ratio."
-    Palette: "Replace the colours while keeping their compositional roles where compatible."
-    Fonts: "Honour the requested direction and preserve expression through clippings, scale and spacing."
+    - Make the montage visibly assembled from different materials.
+    - Give the unusual juxtaposition a purpose in relation to the quotation.
+    - Preserve every word, accent and punctuation mark in a clear reading order.
+    - Vary typographic voices with hierarchy rather than indiscriminate randomisation.
+    - Use colour flexibly; monochrome and chromatic cards are both part of the language.
+    - Balance dense layers with deliberate open intervals.
+    - Vary subjects, scale, edges and layout rather than repeating a collage template.
+    - Add no unsupplied newspaper prose, technical data, labels, names or signatures.
+    - Avoid seamless surreal rendering, uniform scrapbook tiles, generic distress filters and glossy effects.
+
+  Production:
+    Preferred Mode: hybrid
+    ImageGen Role: >
+      Generate each new card as a complete collage of quotation, fragments
+      and materials. A single isolated image placed into an unrelated
+      scripted layout is insufficient.
+    Refinement: >
+      Exact text or masks may be refined when supported, preserving the
+      generated direction and original. Do not claim editable layers,
+      physical print methods or specific fonts without producing those assets.
+    References: >
+      The profile is self-contained. A permanent image dependency requires
+      matched with-image and without-image tests and user review.
+    Validation: >
+      The previous dark-olive study is retained as development history.
+      Two new complete 4:5 cards use different original quotations, one
+      chromatic reconstructed portrait and one monochrome object montage.
+      Both were inspected at native size and 320 by 400 pixels. These
+      applications do not validate all subjects, palettes or long texts.
+      Attribution, other ratios and the torn-editorial-field family remain
+      untested. On 2026-10-25 the user approved the revised studies and
+      explicitly requested inclusion in the gallery as a V1 candidate.
+      This candidacy does not mark the style as selected for the V1 release.
+
+Composition Library: composizioni.yaml
 

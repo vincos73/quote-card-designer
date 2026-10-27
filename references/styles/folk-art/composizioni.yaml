@@ -1,0 +1,70 @@
+Composition Library:
+  Style Name: Folk Art
+  Selection:
+    Basis: >
+      Choose a decorative relationship that leaves a continuous reading
+      field for the exact quotation. Match the motif and the amount of
+      internal detail to the content, rather than filling the page by pattern.
+    Variation: >
+      Select one family as the main structure. Vary the subject, direction,
+      scale and density of the ornament for new quotations; retain an
+      accepted arrangement during a targeted revision.
+  Families:
+    - id: living-frame
+      Name: Living ornamental frame and paired forms
+      Use When: >
+        A concise or medium quotation benefits from a calm central reading
+        field and a balanced symbolic relationship around it.
+      Structure: >
+        Let branching forms shape an open field for substantial text.
+        Two related figures or plant masses can balance one another with
+        differences in interior marks, gesture or scale. A slender painted
+        perimeter may connect the lower and upper ornaments without making
+        every edge equally dense.
+      Text Adaptation: >
+        Group the full quotation by meaning in one clear route. Keep
+        connecting words, punctuation and any smaller supplied name legible.
+        Enlarge the reading field or simplify a branch before reducing type.
+      Format Adaptation: >
+        Portrait formats can stack verbal groups while the ornament rises
+        around them. For square or wide formats, open the paired relationship
+        laterally and shorten the perimeter. Recompose without cropping words.
+
+    - id: branching-field
+      Name: Branching painted form and open text field
+      Use When: >
+        A quotation about growth, care, connection or another unfolding
+        idea can be supported by the direction of a single decorated form.
+      Structure: >
+        Place a branching motif so its boughs, appendages or flower masses
+        define a broad quiet area for the sentence. Build local echoes and
+        internal repetition within an overall asymmetric composition. Use
+        one larger accent to balance the text without creating a second title.
+      Text Adaptation: >
+        Keep the quotation in aligned substantial groups with an immediate
+        top-to-bottom or left-to-right order. Avoid placing individual words
+        in isolated pockets between branches. Move the motif when it conflicts
+        with a necessary letter or punctuation mark.
+      Format Adaptation: >
+        Change the direction of branching and the width of the open field
+        for each ratio. A taller card may extend the stem; a wider card may
+        let it spread. Maintain readable word proportions and local contrast.
+
+    - id: painted-registers
+      Name: Alternating painted and verbal registers
+      Use When: >
+        A longer quotation needs more typographic continuity while retaining
+        a crafted decorative rhythm.
+      Structure: >
+        Arrange broad verbal registers with a few narrower ornamental
+        intervals or marginal painted strips. Repeat related petals, leaves
+        or symbolic contours with small variations. Keep some intervals
+        quiet rather than outlining every line of text.
+      Text Adaptation: >
+        Preserve whole semantic groups and a simple reading order. Use
+        consistent letter proportions and only purposeful emphasis. An
+        optional exact name stays smaller and right-aligned.
+      Format Adaptation: >
+        Adjust the number and depth of ornamental intervals to the ratio
+        and text length. Simplify the decorative strips before shrinking
+        the complete quotation; never treat the structure as fixed cells.

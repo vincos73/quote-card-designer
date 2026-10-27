@@ -80,12 +80,20 @@ Typography:
     - Niente testo giustificato
 Layout:
   Grid: Griglia editoriale semplice, allineamenti geometrici
-  Composition: Citazione dominante in alto; illustrazione isometrica sotto
-  Illustration: Gradini e piattaforme che salgono in progressione
-  NegativeSpace: Ampio, soprattutto intorno alla citazione
+  Composition: Citazione e architettura formano un'unica composizione con assi e proporzioni condivisi;
+    evitare di separare automaticamente il testo sopra e l'immagine sotto
+  Illustration: Gradini, piattaforme e aperture guidano lo sguardo verso e attraverso il blocco testuale;
+    una superficie architettonica può sostenere o incorniciare una parte della citazione
+  TextImageRelationship: Allineare una riga a un bordo, far proseguire una piattaforma sotto il testo o
+    collocare le parole in un'apertura coerente con la prospettiva. Lasciare un fondo semplice ad alto
+    contrasto dietro ogni glifo. L'architettura non deve diventare un'illustrazione indipendente né coprire
+    le parole.
+  NegativeSpace: Calibrato per unire testo e geometrie senza collisioni; riservare aperture chiare attorno
+    alle lettere invece di isolare tutta la citazione dall'immagine
 Graphics:
   Style: Flat vector, forme architettoniche nitide, ombre minime
-  Rule: Le forme non devono invadere o competere con il lettering
+  Rule: Le forme possono raccordarsi al lettering e sostenerne gli assi, ma non coprire glifi, ridurne il
+    contrasto o creare una massa visiva più forte della citazione
 Effects:
   Gradients: None
   Texture: None
@@ -93,4 +101,6 @@ Effects:
 Rules:
 - La palette si adatta al significato di ogni nuova citazione.
 - La frase resta leggibile e dominante anche in miniatura.
+- Comporre testo e architettura come parti della stessa scena, con allineamenti o piani condivisi e aperture
+  pulite dietro alle lettere.
 - Non aggiungere dati, attribuzioni o etichette inventate.

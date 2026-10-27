@@ -1,0 +1,68 @@
+Composition Library:
+  Style Name: Organic
+  Selection:
+    Basis: >
+      Choose one relationship from the exact sentence, its length and
+      desired cadence. Decide where words need quiet space and which
+      organic contour can support that route. Do not combine every family.
+    Variation: >
+      For new cards vary scale, branching, crop, asymmetry and the relation
+      between the sentence and the shapes. Colour alone does not create
+      a different composition. Preserve an accepted layout for a targeted edit.
+  Families:
+    - id: growing-counterform
+      Name: Growth answering a strong text field
+      Use When: >
+        A concise quotation benefits from a recognisable natural gesture
+        and a substantial contiguous reading block.
+      Structure: >
+        Let a bold word field anchor one unequal area. A few large botanical
+        silhouettes grow into or around the adjacent open space, sharing
+        scale and direction with the type. Crop selected shapes at an edge
+        and leave a quiet interval rather than enclosing the words in a wreath.
+      Text Adaptation: >
+        Group the full sentence by meaning and give each line substantial
+        scale. Reposition leaves and petals before changing the natural
+        proportions of the letters. A supplied name is smaller and right-aligned.
+      Format Adaptation: >
+        In portrait formats, a rising or falling gesture can answer the
+        reading block. In a wider card open their relationship laterally.
+        Recompose the crops while preserving the complete text.
+
+    - id: open-biomorphic-channel
+      Name: A reading channel between living colour masses
+      Use When: >
+        A short or medium quotation can support a more abstract response
+        without a literal botanical subject.
+      Structure: >
+        A small number of broad lobed, curved or ribbon-like silhouettes
+        establish an unequal field. Their contours open a connected path
+        for the sentence. A few holes or slits echo the unprinted field,
+        while edge crops imply movement beyond the page.
+      Text Adaptation: >
+        Use clear related anchors and substantial word groups along the
+        channel. Keep a normal reading sequence; do not scatter every word
+        independently or turn a connector into a tiny floating label.
+      Format Adaptation: >
+        Open the channel according to the ratio. Reduce the number or
+        breadth of masses for longer text instead of forcing words into
+        narrow gaps. Required type is never cut by the page edge.
+
+    - id: rhythmic-open-field
+      Name: Alternating type and a restrained organic rhythm
+      Use When: >
+        A longer quotation needs a larger continuous reading area while
+        retaining the motion and tactility of the organic language.
+      Structure: >
+        Let the sentence establish the principal sequence. A few unequal
+        silhouettes punctuate selected intervals or edge areas, leaving
+        broad quiet sections. Repetition may provide cadence without
+        becoming an equal grid, dense border or seamless pattern.
+      Text Adaptation: >
+        Keep related clauses together with fewer size changes and clear
+        optical alignment. Reduce ornament before reducing reading size.
+        Omit attribution space when no name is supplied.
+      Format Adaptation: >
+        Redistribute the quiet field and accents for a new ratio. A tall
+        layout can alternate vertical intervals; a wide layout can use
+        lateral exchanges. Do not crop or abbreviate the sentence.

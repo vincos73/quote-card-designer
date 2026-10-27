@@ -1,0 +1,229 @@
+Design Style:
+  Name: Occult Editorial
+  Status: Experimental worn-grimoire revision; two revised studies awaiting user feedback
+  Concept: >
+    The quotation belongs to a handled, dusty page from an imagined working
+    grimoire. Worn paper, layered arcane drawings, symbolic notation and
+    irregular old ink form the same physical surface as the words.
+    Creases, smudges and accumulated marks give the page a lived history;
+    the complete sentence remains a strong readable part of that history.
+
+  Reference Basis:
+    Transfer: >
+      Extract the density of engraved diagrams, nested circular systems,
+      allegorical figures, symbolic calculations, marked margins and aged
+      paper from the supplied materials. Use this as a contemporary
+      direction for a quote card, with rich material and arcane complexity.
+    Sources: ricerca.md
+    Revision Basis: >
+      The user rejected the clean initial plates as too sweetened and
+      explicitly asked for dusty books, crumpled sheets, obscure formulas
+      and arcane drawings. The revised language makes wear, layered
+      notation and a worked-on page structural rather than optional grain.
+    Independence: >
+      Existing captions, titles, identities and complete historical plates
+      are not copy to reuse. The card is an invented contemporary page,
+      not an authenticated manuscript or a claim that a formula has efficacy.
+
+  Canvas:
+    Ratio: '4:5'
+    Output: One complete flat quote card; a worn page viewed frontally and filling the image
+    Adaptation: >
+      Recompose the wording, drawings, creases and marginal systems for
+      each ratio. Keep the physical page as the image itself rather than
+      presenting a three-dimensional book on a table or a framed mockup.
+
+  Mood: [Arcane, Dusty, Worn, Dense, Engraved, Mysterious, Tactile, Literary]
+
+  Color Palette:
+    Fixed Colors: false
+    Strategy: >
+      Begin with stained ivory, yellowed or browned paper and dark ink.
+      Colour varies locally through fibre, folds, foxing and handling.
+      A selective additional pigment can connect annotations or drawings.
+      A reverse dark page remains an alternative when requested or useful.
+    Starting Directions:
+      Dusty Grimoire:
+        Paper Light: '#D8C69B'
+        Paper Worn: '#9C8154'
+        Ink: '#252019'
+      Marked Working Sheet:
+        Paper Light: '#DDC9A6'
+        Ink: '#241C18'
+        Secondary Pigment: '#873E2F'
+      Reverse Alternative:
+        Paper: '#161512'
+        Ink: '#D9CDAE'
+    Roles: >
+      The quotation has reliable local contrast within the old ink system.
+      Paper tones express material change rather than an even digital
+      wash. Secondary pigment marks chosen diagrams or notational groups.
+    Overrides: >
+      Adapt hues while preserving a handled page, visible use and readable
+      ink. Neither a black ground nor one particular brown is compulsory.
+
+  Typography:
+    Main Reading:
+      Direction: >
+        Substantial Western book serif, old printed capitals or a coherent
+        literary hand. Let the words feel printed or written into the
+        same page as the diagrams. Keep natural glyph proportions and
+        distinct word spaces even when the ink is imperfect.
+      Material: >
+        Uneven impressions, small broken edges, abrasion and slight
+        registration or baseline drift can show old ink and use.
+        Preserve identifying strokes, accents and punctuation. The main
+        sentence must not sit on a smooth new cartouche over aged material.
+      Hierarchy: >
+        Give the complete quotation a clear reading order and substantial
+        scale. Symbolic annotations can be smaller and denser around and
+        between its groups. Connecting words remain part of the readable
+        sentence, not footnote-sized fragments.
+      Integrity: >
+        Preserve the literal wording, supplied case, accents and
+        punctuation. Normally show the sentence once. Symbols and drawing
+        lines do not replace required letters.
+    Attribution: >
+      Use only an exact supplied or verified name, smaller and visually
+      quieter than the quotation but readable, right-aligned to a clear
+      right edge. Omit reserved name space when no name is supplied.
+    Font Claims: >
+      Generated old-letter appearance does not certify a real typeface,
+      editable text or historical typography. An exact named font needs
+      an actual verified asset and an appropriate production method.
+
+  Layout:
+    Shared Page: >
+      Compose words, drawings, notational groups and material traces as
+      layers on one used sheet. Circles may surround or enter intervals
+      between phrase groups; a hand, creature or instrument can point into
+      a diagram. Borders, drawings and notes may be interrupted by a fold
+      or wear. Do not isolate a polished headline from a decorative emblem.
+    Reading Through Density: >
+      Keep the quotation large and recoverable through the layered field.
+      Open local spacing and adjust ink density near letter contours
+      rather than clearing a pristine rectangular panel behind the words.
+      Keep the actual phrase ordered even when nearby diagrams accumulate.
+    Density: >
+      Build varied zones of arcane detail, scratched linework and symbolic
+      notation around and between the words. Allow overlaps, repairs,
+      asymmetrical additions and differently aged marks. Density can be
+      substantial; its organisation must support reading and close looking.
+    Material Structure: >
+      Place creases, wrinkles, frayed edges, foxing and handling marks where
+      a repeatedly used page could acquire them. Let their direction alter
+      the local ink and surface. Wear is spatial and physical, not uniform
+      noise laid over a clean design.
+    Balance: >
+      A large circular system, a spread of working notes or accumulated
+      marginal drawings can organise the page. A single central emblem,
+      symmetry or an empty reading field is not a universal requirement.
+    Capacity: >
+      For longer text redistribute diagrams and notational groups, open
+      useful intervals and reduce collisions before shrinking the sentence.
+      Recompose for format instead of compressing individual words.
+
+  Elements:
+    Arcane Drawings: >
+      Ringed serpents, anthropomorphic celestial forms, an eye, hands,
+      lenses, vessels, alchemical instruments, botanical specimens,
+      creatures or allegorical figures are an open repertoire. Select
+      relationships from the quotation rather than requiring every motif.
+    Diagram Systems: >
+      Layer concentric circles, radial constructions, intersecting
+      triangles, axes, small subsidiary wheels and scratched corrections.
+      A diagram may look accumulated or revised rather than perfectly
+      constructed once. Keep its intersections distinct from required text.
+    Symbolic Notation:
+      Permission: >
+        Symbolic formulas, calculations and marginal sign sequences are
+        part of the requested visual language. Use verified alchemical
+        and planetary forms as the repertoire, combined with geometric
+        operators, brackets or connecting strokes when useful.
+      Repertoire Examples: >
+        Planetary metal signs, the four elemental triangles and the
+        mercury-sulfur-salt group are documented starting possibilities,
+        not mandatory content. Select a coherent subset for each card.
+      Status: >
+        A newly composed sequence is a contemporary graphic formula.
+        Do not describe it as a historically authenticated recipe or an
+        effective operation. Specific historical claims require context.
+      Text Boundary: >
+        Do not fabricate Latin, Hebrew, other alphabets or miniature
+        sentences to fill the page. The main quotation remains the only
+        newly authored prose unless the user supplies additional wording.
+    Marginal Traces: >
+      Smudged symbolic jottings, trial circles, erased constructions,
+      fingerprints, rubbed patches and uneven border remnants may record
+      the imagined use of the sheet. Relate them to the material structure.
+
+  Effects:
+    Paper: >
+      Yellowed and locally browned fibres, physical folds, wrinkles,
+      frayed or nicked edges, foxing, dust deposits and handling dirt
+      create a palpably used page. Combine different traces rather than
+      applying the same grain across every surface.
+    Ink: >
+      Aged irregular impressions, crosshatching, dense etched passages,
+      dry scratch lines, transfer marks and areas of fading provide depth.
+      Main text can share the wear while keeping complete readable forms.
+    Physical View: >
+      The whole flat card is the page viewed frontally. Crease shading and
+      rough fibres belong to that page, but do not stage it as a glossy
+      three-dimensional book, desk scene or product photograph.
+    Finish: >
+      Keep materials dry and tactile. Avoid metallic jewellery, fantasy
+      glow, smooth airbrush gradients and technologically precise HUD panels.
+
+  Content Contract:
+    quote: Complete literal quotation as the principal readable prose, normally once
+    author: Optional exact supplied or verified name, subordinate and right-aligned
+    personal_signature: Only when explicitly requested, distinct from the author
+    symbolic_notation: >
+      Permitted as alchemical-style formulas and sign sequences from a
+      verified repertoire. Newly composed sequences are graphic inventions,
+      not claims of authentic doctrine, science or efficacy.
+    additional_prose: Do not invent headings, captions, pseudo-language or tiny filler sentences.
+
+  Rules:
+    - Make the full quotation strong, readable and part of the same worn page.
+    - Give the surface physical use through varied creases, stains, fibres and old ink.
+    - Build layered diagrams, arcane drawings and symbolic notation with purposeful density.
+    - Preserve reading order, letter identity, accents, punctuation and word spaces.
+    - Keep formula-like sign sequences distinct from invented prose or pseudoalphabets.
+    - Adapt repertoire, arrangement, ink and paper to the quotation and user preferences.
+    - Distinguish contemporary graphic formulas from historically authenticated operations.
+    - Preserve reference boundaries while retaining the roughness and complexity of the materials.
+    - Avoid a polished botanical emblem page or a smooth cartouche pasted over uniform grain.
+    - Avoid HUD graphics, neon, glossy 3D objects and fantasy jewellery.
+
+  Production:
+    Preferred Mode: generative
+    ImageGen Role: >
+      Generate the whole quote card: wording, arcane drawings, diagrams,
+      notation and worked material must be composed together. A clean
+      typeset panel over a generated antique texture is insufficient.
+    Reference Inputs: >
+      Written analysis of the supplied and researched material informs the
+      profile. All four study cards were generated without image inputs.
+      No matched with-reference versus without-reference trial has been
+      performed, so a permanent operational reference-image dependency
+      has not been adopted.
+    Validation: >
+      Studies 1 and 2 have legible text but their clean ivory/black plate
+      direction was explicitly rejected by the user as too sweetened.
+      They remain development history, not successful calibration of the
+      revised style. Studies 3 and 4 are new complete 1122 by 1402 pixel
+      RGB cards, one generation each without image inputs or corrections.
+      Both were inspected at native size and in 320 by 400 pixel previews:
+      full wording, the grave accent in study 4 and final punctuation are
+      intact; the quotation remains readable through the worked page.
+      Creases, fibres, frayed edges, foxing, old ink, layered drawings and
+      symbolic notational groups are visible. These are contemporary
+      graphic sequences from a documented repertoire, not certified
+      paleography or proof of exact rendering of every sign. Long text,
+      attribution, other formats, exact named fonts and the third family
+      remain untested. The revised direction awaits user feedback;
+      technical image checks do not establish V1 candidacy.
+
+Composition Library: composizioni.yaml

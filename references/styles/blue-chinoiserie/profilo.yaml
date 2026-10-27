@@ -48,11 +48,11 @@ Design Style:
     Structure:
     - A luminous central reading field
     - Balanced or subtly symmetrical cover-like composition
-    - Organic illustration framing at the edges and lower field
-    - Generous mist, sky and ivory negative space
-    Relationships: Let branches, landscape contours and pale atmospheric layers create an open natural
-      frame around the quotation. Keep dark foreground details near the margins; distant forms become
-      pale and dissolve into the reading field. Avoid a dense vignette directly behind the words. Central
+    - One or two restrained illustration groupings at the edges or lower field
+    - Generous mist, sky and ivory negative space around the quotation
+    Relationships: Let a small number of branches, landscape contours and pale atmospheric layers create
+      an open natural frame around the quotation. Keep dark foreground details near the outer margins;
+      distant forms become pale and dissolve into the reading field. Avoid a dense vignette directly behind the words. Central
       alignment is a useful first direction but not a mandatory template for every quotation.
   Imagery:
     Style: Monochrome-blue traditional Chinese ink-and-watercolour illustration with fine engraved detail
@@ -61,8 +61,9 @@ Design Style:
     - Trees, flowering branches and botanical studies
     - Birds, small animals and cloud forms
     - Gardens, distant architecture and symbolic objects
-    Selection: Choose a coherent small illustration group relevant to the words. One to three framing
-      concentrations are sufficient; do not catalogue every motif. Architecture is optional, not a compulsory
+    Selection: Choose one coherent illustration group relevant to the words, with at most two framing
+      concentrations. Leave a visibly broad, quiet margin around the reading field; do not catalogue every
+      motif. Architecture is optional, not a compulsory
       cultural identifier.
     Treatment:
     - Softly bleeding outlines and matte pigment
@@ -79,12 +80,13 @@ Design Style:
     - A delicate botanical or landscape boundary
     - An optional quiet ivory reading opening continuous with the paper
     Restraint: For a short quotation prefer mist and pale sky to opaque panels. Do not import presentation
-      cards, translucent UI widgets or a stack of content boxes. Botanical elements should frame rather
-      than crowd the words.
+      cards, translucent UI widgets or a stack of content boxes. Keep branches, blossoms and other dark details sparse and farther from the lettering so the quotation
+      has more breathing room.
   Background:
     Surface: Warm ivory antique paper, subtle fibre and pale blue watercolour
     Depth: Atmospheric tonal distance within the illustration
-    Reading Field: Central paper stays pale and quiet, with no busy detail under letters
+    Reading Field: Central paper and a generous surrounding buffer stay pale and quiet, with no busy detail
+      beneath or immediately beside letters
   Effects:
     Texture: Delicate paper grain and fine printed pigment
     Bleed: Soft watercolour edges, controlled and sparse near text
@@ -99,6 +101,8 @@ Design Style:
     hierarchy is explicitly requested. Reposition imagery or reflow the whole block to solve collisions;
     never squeeze one word or line.
   - Use only supplied attribution and supporting text.
+  - Reduce peripheral motifs before reducing the clear space around the quotation; keep edge details sparse
+    and separated from the reading field.
   - Do not invent Chinese characters, seals with illegible text, captions, signatures, dates or decorative
     microtext.
   - Avoid neon, glossy 3D, flat icons, rounded SaaS panels, heavy shadows and saturated modern stock imagery.

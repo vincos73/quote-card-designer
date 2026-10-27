@@ -1,6 +1,6 @@
 Design Style:
   Name: "Type Overprint"
-  Status: "Profilo sperimentale della libreria locale"
+  Status: "Incluso nel catalogo V1 il 26 ottobre 2026"
   Concept: >
     Lettere o cifre monumentali, ritagliate dai bordi e stampate in inchiostri
     trasparenti, formano un paesaggio tipografico intorno alla citazione.
@@ -73,7 +73,10 @@ Design Style:
         l'intersezione di caratteri, senza dissolverli in forme generiche.
       Selection: >
         Preferire iniziali o lettere della frase, scelte anche per il
-        contrasto tra aste e curve. Le cifre sono ammesse come forme grafiche;
+        contrasto tra aste e curve. Lasciare riconoscibili alcune aste e
+        controforme aperte nei glifi ingranditi, senza comporre parole o
+        ripetere la citazione: il testo integrale compare una sola volta nel
+        registro di lettura. Le cifre sono ammesse come forme grafiche;
         usare valori significativi solo quando forniti. Non inventare
         date, statistiche, numerazioni editoriali o parole di riempimento.
     Attribution:
@@ -124,7 +127,7 @@ Design Style:
     other_text: "Nessun titolo, didascalia, campionario alfabetico, logo o microtesto inventato."
 
   Rules:
-    - "I grandi segni devono essere riconoscibili come lettere o numeri sovrapposti."
+    - "I grandi segni devono mostrare aste e controforme riconoscibili, senza formare parole né duplicare la citazione."
     - "Le campiture restano trasparenti e le intersezioni producono tinte diverse."
     - "La citazione resta nitida, completa e leggibile a scala ridotta."
     - "Conservare proporzioni e controforme dei caratteri, anche quando ritagliati."

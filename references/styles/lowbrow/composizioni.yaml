@@ -3,27 +3,30 @@ Composition Library:
   Selection:
     Guidance: Scegliere una gag visiva e un rapporto fra testo e figura coerenti con la frase.
   Families:
-    - id: animated-hinge
-      Name: Oggetto cerniera
-      Use When: Una frase breve consente un oggetto animato come fulcro.
-      Structure: >
-        I due tempi della frase occupano campi ampi e il personaggio li collega
-        con un gesto. Il contorno del personaggio e il lettering possono toccarsi.
-      Text Adaptation: Spezzare per gruppi di senso, evitando raccordi microscopici.
-      Format Adaptation: Cambiare scala e taglio del personaggio e ricomporre i gruppi.
-    - id: crooked-world
-      Name: Mondo storto
-      Use When: Il testo suggerisce più trasformazioni o relazioni assurde.
-      Structure: >
-        Una scena continua scorre attorno a un campo leggibile di parole.
-        Le piccole azioni periferiche accompagnano il percorso della citazione.
-      Text Adaptation: Espandere la pausa di lettura prima di aggiungere dettagli.
-      Format Adaptation: Ridistribuire le azioni, mantenendo una sola direzione di lettura.
-    - id: living-lettering
-      Name: Lettere abitate
-      Use When: Una frase molto breve può reggere masse tipografiche grandi.
-      Structure: >
-        Le lettere diventano supporto di piccoli gesti e deformazioni comiche;
-        le figure restano subordinate e i glifi non diventano irriconoscibili.
-      Text Adaptation: Applicare l'enfasi a poche parole, conservando tutti i raccordi.
-      Format Adaptation: Ricostruire l'incastro senza stirare i glifi o tagliare accenti.
+  - id: animated-hinge
+    Name: Oggetto cerniera
+    Use When: Una frase breve consente un oggetto animato come fulcro.
+    Structure: 'I due tempi della frase occupano campi ampi e il personaggio li collega con un gesto.
+      Il contorno del personaggio e il lettering possono toccarsi.
+
+      '
+    Text Adaptation: Spezzare per gruppi di senso, evitando raccordi microscopici.
+    Format Adaptation: Cambiare scala e taglio del personaggio e ricomporre i gruppi.
+  - id: crooked-world
+    Name: Mondo storto
+    Use When: Il testo suggerisce più trasformazioni o relazioni assurde.
+    Structure: 'Una scena continua scorre attorno a un campo leggibile di parole. Le piccole azioni periferiche
+      accompagnano il percorso della citazione.
+
+      '
+    Text Adaptation: Espandere la pausa di lettura prima di aggiungere dettagli.
+    Format Adaptation: Ridistribuire le azioni, mantenendo una sola direzione di lettura.
+  - id: living-lettering
+    Name: Lettere abitate
+    Use When: Una frase molto breve può reggere masse tipografiche grandi.
+    Structure: 'Le lettere diventano supporto di piccoli gesti e deformazioni comiche; le figure restano
+      subordinate e i glifi non diventano irriconoscibili.
+
+      '
+    Text Adaptation: Applicare l'enfasi a poche parole, conservando tutti i raccordi.
+    Format Adaptation: Ricostruire l'incastro senza stirare i glifi o tagliare accenti.

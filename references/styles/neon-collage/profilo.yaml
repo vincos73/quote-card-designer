@@ -1,11 +1,10 @@
 Design Style:
   Name: Digital Collage
-  Concept: 'A high-stimulus digital collage language informed by digital marketing, Y2K internet, vaporwave,
-    risograph printing, street posters and social carousels. Recompose digital information overload through
-    layered photographic cutouts, oversized expressive typography and bold contrast. Re-edit monochrome
-    cutouts of sculptures, animals, people and everyday technology with fluorescent colour and playful
-    juxtaposition. Layered photography, oversized type and bold contrast define a constructed collage
-    composition.
+  Concept: 'A high-stimulus digital collage language informed by contemporary screen graphics, digital
+    culture and social carousels. Recompose information through clean, sharply isolated photographic cutouts,
+    oversized expressive typography and bold contrast. Re-edit images with fluorescent colour and playful
+    juxtaposition. Crisp edges, luminous colour and layered screen-native depth define the composition; it
+    should feel digitally assembled rather than printed or physically pasted.
 
     '
   Canvas:
@@ -23,6 +22,9 @@ Design Style:
   Temperature:
     Overall: Hyper-saturated
   Color Palette:
+    Fixed Colors: false
+    Strategy: Contemporary high-fluorescence screen colours; the palette may vary by quote, provided the
+      result remains vivid, modern and strongly separated from its text.
     Background:
       ElectricBlue: '#0048FF'
       NeonPink: '#FF3CCF'
@@ -35,9 +37,9 @@ Design Style:
     Accent:
       White: '#FFFFFF'
       Black: '#111111'
-    Roles: 'Electric blue establishes the main field. Pink and lime interrupt it as decisive planes and
-      message strips. Black and white carry photographic cutouts, contrast and legible type. Restrict
-      this card to these five colours.
+    Roles: 'Electric blue, neon pink and acid lime are calibration examples rather than a fixed set. Choose
+      other contemporary fluorescent hues when they suit the quote. Black and white may anchor cutouts,
+      contrast and legible type; avoid muting the overall screen-bright palette.
 
       '
   Typography:
@@ -91,9 +93,9 @@ Design Style:
     - Overlap assertively and preserve hierarchy through scale.
     - Select compatible devices rather than including the entire repertoire.
     Patterns:
-    - Halftone
-    - Risograph grain and offset print texture
-    - Mild print misregistration and digital noise
+    - Clean vector patterns and crisp screen-native gradients
+    - Sharp pixel motifs used sparingly
+    - Smooth luminous colour fields without simulated print wear
     - Typographic repetition only when the supplied copy permits it
   Imagery:
     Style: 'Monochrome photographic cutouts and classical imagery boldly re-edited with neon colour. Treat
@@ -118,12 +120,12 @@ Design Style:
 
       '
   Effects:
-    Texture: Risograph grain, offset print, slight halftone and digital noise
+    Texture: Clean digital surfaces; no print grain, paper fibres, ink bleed or simulated misregistration
     Shadow: Minimal
     Depth: Flat collage layering
-    Distortion: Mild print misregistration, occasional scan effects and controlled glitches
+    Distortion: Optional controlled digital glitch with clean edges; no analogue scan effects
   Visual Rules:
-  - Use blue, pink, lime, black and white only.
+  - Use vivid contemporary fluorescent colours; blue, pink and lime are examples, not mandatory hues.
   - Use oversized typography as a structural element.
   - Apply fluorescent highlight strips to key messages.
   - Allow text to overlap imagery without obscuring words.

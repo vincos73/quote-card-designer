@@ -1,29 +1,31 @@
-# Psychedelic Art
+# Psychedelic Art · esempio 1 recuperato dalla galleria
 
-Profilo approvato per la libreria e V1 candidate. L'esempio preferito usa
-«La realtà è solo l’inizio.», senza attribuzione, nella famiglia liquid-fields.
-Lettering, campi organici e piccola figura vegetale condividono lo stesso flusso.
-Petrolio, corallo e crema sono la palette della prova, non un vincolo dello stile.
+Riallineamento del **26 ottobre 2026**. Frase indicata nella scheda pubblicata:
+**La realtà è solo l’inizio.**
 
-Card completa generata con ImageGen integrato. Prompt effettivo:
-`reference-prefix.md`, una riga vuota, poi `prompt-esempio.md`, con tre
-riferimenti estetici effettivi: i poster Cosmic Serpent, Somebody to Love
-e Otis Rush forniti come materiale di studio. Le parole, i ritratti e gli
-impaginati degli esempi non sono stati ricopiati. Le immagini di riferimento
-non diventano una dipendenza obbligatoria per nuove card.
+- Immagine locale: [esempio.jpg](esempio.jpg).
+- Esempio: **Campi fluidi · petrolio e corallo**.
+- Sorgente: galleria Sites, versione **23**, asset `assets/psychedelic-art.jpg`.
+- Copia verificata byte per byte con SHA-256 `e9952681ab5833016459169412eb67679480ff22f560c8000a205ac560a43339`.
+- File effettivo recuperato: **800 × 1000 px, RGB, JPEG**.
 
-Confrontata con una prova sulla stessa frase, palette, formato e composizione
-senza immagini. La versione scelta mantiene più chiari i diacritici e il
-rapporto tra frase e flussi. Verificati parole, cassa, accenti, apostrofo e
-punto nel nativo 1122 × 1402 e a 375 px. Nessun testo aggiunto.
+È il JPEG di anteprima già pubblicato, non il file nativo di generazione.
+Gli attributi dimensionali dell'HTML non certificano la risoluzione originaria.
+Non sono stati recuperati dalla sorgente Sites il prompt effettivo o un
+originale PNG: non sono stati ricostruiti né inventati e il catalogo non
+collega un prompt precedente a questa immagine.
 
-Il PNG non certifica un font o una tecnica di stampa storici. Non sono
-provati altri formati, attribuzioni o tutte le composizioni.
-La figura vegetale appartiene alla prova, non è un soggetto fisso.
+Profilo e tre famiglie compositive sono ripresi dall'export YAML pubblicato,
+conservato in [profilo-gallery-v23.yaml](profilo-gallery-v23.yaml). Il profilo
+locale usa il collegamento relativo a `composizioni.yaml`; la risoluzione
+è stata confrontata con l'export e conserva gli stessi contenuti.
 
-Il secondo esempio `esempio-2.png` usa «Le idee migliori prendono strade
-inattese.», campi fluidi viola/giallo/crema e un piccolo percorso sinuoso.
-Generazione completa ImageGen senza reference, prompt effettivo in
-`prompt-secondo-testo.md`. La riga di raccordo è più piccola ma leggibile.
-Parole, cassa e punto controllati nel nativo 1122 × 1402 e a 375 px.
-Due esempi visibili, con testi differenti.
+Lo stato **V1 candidate** riproduce quello della galleria. Questo recupero
+non promuove lo stile nella release né costituisce una nuova approvazione.
+Nessuna nuova generazione o pubblicazione eseguita. I dettagli di provenienza
+sono in [provenienza-gallery.yaml](provenienza-gallery.yaml).
+
+Le due immagini dello stile sono state ispezionate nel JPEG disponibile:
+le frasi corrispondono ai metadati pubblicati. Questo controllo non è una
+nuova prova di generazione, un controllo di font reale o una certificazione
+della risoluzione originale.

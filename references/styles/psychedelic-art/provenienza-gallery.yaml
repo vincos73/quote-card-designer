@@ -1,0 +1,45 @@
+source:
+  project_id: appgprj_6adb7b4f342881918cd48a4c247a3092
+  version: 23
+  commit_sha: bb6358c372ea774bb122ac41095546f1e714233f
+  url: https://quote-card-designer-style-gallery.vincos.chatgpt.site/?v=23#psychedelic-art
+  retrieved_on: '2026-10-26'
+profile:
+  export: profilo-gallery-v23.yaml
+  export_sha256: a2a18b80c2228d7a5cc1184d577213b9370a6d0aba11f1bd840b054a024aacc9
+  runtime: profilo.yaml
+  composition_library: composizioni.yaml
+  content_policy: Contenuto del profilo e libreria identico semanticamente all’export pubblicato; solo
+    separazione in due file locali.
+catalog:
+  source_search_index: Psychedelic Art Lettere elastiche e svasate abitano campi fluidi, condividendo
+    ritmo e contorni con l’illustrazione. Ispirazione ai poster psichedelici, con frase dominante e leggibile.
+    Illustrazione e decorazione Generativa psichedelico lettering organico poster stampa illustrazione
+    psychedelic psichedelia art psichedelia poster psichedelico Visionario Fluido Organico Avvolgente
+    Espressivo Stampato
+  metadata_policy: Nome, categoria, descrizione, metodo, stato, etichette e frase da scheda pubblicata.
+    Alias e tag ricavati dai termini del suo indice di ricerca; non inventata una segmentazione storica
+    esatta.
+images:
+- example: 1
+  source: assets/psychedelic-art.jpg
+  local: esempio.jpg
+  sha256: e9952681ab5833016459169412eb67679480ff22f560c8000a205ac560a43339
+  width: 800
+  height: 1000
+  mode: RGB
+  format: JPEG
+  quote: La realtà è solo l’inizio.
+  label: Campi fluidi · petrolio e corallo
+- example: 2
+  source: assets/psychedelic-art-2.jpg
+  local: esempio-2.jpg
+  sha256: 1b0282536cdff510ba8755a671af36540fac48fd1c23bf12daf780e0df2aa1a9
+  width: 800
+  height: 1000
+  mode: RGB
+  format: JPEG
+  quote: Le idee migliori prendono strade inattese.
+  label: Campi fluidi · viola e giallo
+original_generation_assets_recovered: false
+original_generation_prompts_recovered: false

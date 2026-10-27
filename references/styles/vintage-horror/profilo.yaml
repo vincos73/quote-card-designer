@@ -1,120 +1,137 @@
 Design Style:
   Name: Vintage Horror
-  Status: Profilo della libreria, V1 candidate approvato
-  Concept: >
-    La forza promozionale delle vecchie locandine horror e degli spettacoli
-    del brivido diventa una quote card. La frase è il titolo principale:
-    lettering disegnato, blocchi condensati, immagini nere ritagliate e
-    pochi inchiostri fanno parte della stessa stampa economica su carta.
+  Status: "Incluso nel catalogo V1 il 26 ottobre 2026"
+  Concept: 'La forza promozionale delle vecchie locandine horror e degli spettacoli del brivido diventa
+    una quote card. La frase è il titolo principale: lettering disegnato, blocchi condensati, immagini
+    nere ritagliate e pochi inchiostri fanno parte della stessa stampa economica su carta.
+
+    '
   Canvas:
     Ratio: '4:5'
     Output: Locandina editoriale piatta, senza mockup o supporti in prospettiva
     Adaptation: Ricomporre parole, campiture e illustrazione per il rapporto richiesto.
-  Mood: [Teatrale, Inquietante, Popolare, Stampato, Energico, Imperfetto]
+  Mood:
+  - Teatrale
+  - Inquietante
+  - Popolare
+  - Stampato
+  - Energico
+  - Imperfetto
   Color Palette:
     Paper: Carta calda, crema o giallo paglierino, non bianco digitale brillante.
     Main Ink: Nero denso, con piccole discontinuità da impressione.
-    Spot Ink: >
-      Uno o due inchiostri piatti nettamente distinti, per esempio rosso,
-      giallo, verde acceso o blu scuro. Palette scelta per la frase, non
-      ripresa obbligatoriamente da una locandina specifica.
-    Contrast: >
-      Lettering scuro su carta o lettering in riserva dentro una campitura
-      scura. Il colore d'accento non deve cancellare controforme e punteggiatura.
+    Spot Ink: 'Uno o due inchiostri piatti nettamente distinti, per esempio rosso, giallo, verde acceso
+      o blu scuro. Palette scelta per la frase, non ripresa obbligatoriamente da una locandina specifica.
+
+      '
+    Contrast: 'Lettering scuro su carta o lettering in riserva dentro una campitura scura. Il colore d''accento
+      non deve cancellare controforme e punteggiatura.
+
+      '
   Typography:
     Main Lettering:
-      Construction: >
-        Lettere disegnate per il titolo: massa compatta, proporzioni alte o
-        larghe intenzionali, bordi scavati o spigolosi, allineamenti irregolari,
-        lievi inclinazioni e terminali cercati. Le lettere ripetute possono
-        differire. Non basta un normale font con un filtro rovinato sopra.
-      Horror Detail: >
-        Piccole incisioni, sagome ossute o organiche, ombre piatte e contorni
-        possono caratterizzare alcune parole. Colature e dentellature sono
-        possibilità, non una guarnizione obbligatoria su ogni lettera.
+      Construction: 'Lettere disegnate per il titolo: massa compatta, proporzioni alte o larghe intenzionali,
+        bordi scavati o spigolosi, allineamenti irregolari, lievi inclinazioni e terminali cercati. Le
+        lettere ripetute possono differire. Non basta un normale font con un filtro rovinato sopra.
+
+        '
+      Horror Detail: 'Piccole incisioni, sagome ossute o organiche, ombre piatte e contorni possono caratterizzare
+        alcune parole. Colature e dentellature sono possibilità, non una guarnizione obbligatoria su ogni
+        lettera.
+
+        '
     Supporting Lettering:
-      Construction: >
-        Un registro da affiche molto condensato, robusto e serrato, con
-        controforme aperte. Conservare un disegno stretto coerente senza
-        schiacciare singole righe per farle entrare. Un accento slab o corsivo
-        dipinto è possibile soltanto se la frase ha bisogno di un terzo ruolo.
-    Hierarchy: >
-      La citazione completa costituisce l'unico messaggio. Mettere in rilievo
-      una o due parole significative, mantenendo ben leggibili anche i raccordi.
-      La ricchezza viene dal lettering e dalle masse, non da frasi aggiunte.
-    Case: >
-      Conservare la cassa fornita. Il maiuscolo da locandina è ammesso su
-      richiesta esplicita, non come trasformazione automatica della citazione.
+      Construction: 'Un registro da affiche molto condensato, robusto e serrato, con controforme aperte.
+        Conservare un disegno stretto coerente senza schiacciare singole righe per farle entrare. Un accento
+        slab o corsivo dipinto è possibile soltanto se la frase ha bisogno di un terzo ruolo.
+
+        '
+    Hierarchy: 'La citazione completa costituisce l''unico messaggio. Mettere in rilievo una o due parole
+      significative, mantenendo ben leggibili anche i raccordi. La ricchezza viene dal lettering e dalle
+      masse, non da frasi aggiunte.
+
+      '
+    Case: 'Conservare la cassa fornita. Il maiuscolo da locandina è ammesso su richiesta esplicita, non
+      come trasformazione automatica della citazione.
+
+      '
     Attribution:
       Construction: Registro condensato più piccolo e quieto, senza effetto horror pesante.
       Placement: Solo fornita o verificata, leggibile e allineata a destra.
-    Matching Limit: >
-      Le forme dei riferimenti sono una direzione visiva; non certificano
-      l'identità di una famiglia font o l'uso di un file tipografico preciso.
+    Matching Limit: 'Le forme dei riferimenti sono una direzione visiva; non certificano l''identità di
+      una famiglia font o l''uso di un file tipografico preciso.
+
+      '
   Layout:
-    Reading: >
-      Una sequenza da manifesto: parole dominanti, raccordi compatti e una
-      figura che accompagna il percorso. Sono ammessi pochi scarti di asse,
-      pannelli irregolari e campiture, evitando una scacchiera di messaggi rivali.
-    Integration: >
-      Il visual può entrare fra due gruppi della frase o sostenere un bordo
-      del lettering. Le sagome nere e le riserve della carta tengono insieme
-      testo e immagine, senza coprire lettere essenziali.
-    Density: >
-      Energia e densità da locandina, con pause locali attorno alla frase.
-      Non riprodurre il fitto elenco informativo delle locandine di spettacolo
-      se il testo disponibile è soltanto una citazione.
-    Variation: >
-      Scegliere impaginato, soggetto e distribuzione delle campiture dalla
-      frase. Né teschio, né porta, né zucca o castello diventano elementi fissi.
+    Reading: 'Una sequenza da manifesto: parole dominanti, raccordi compatti e una figura che accompagna
+      il percorso. Sono ammessi pochi scarti di asse, pannelli irregolari e campiture, evitando una scacchiera
+      di messaggi rivali.
+
+      '
+    Integration: 'Il visual può entrare fra due gruppi della frase o sostenere un bordo del lettering.
+      Le sagome nere e le riserve della carta tengono insieme testo e immagine, senza coprire lettere
+      essenziali.
+
+      '
+    Density: 'Energia e densità da locandina, con pause locali attorno alla frase. Non riprodurre il fitto
+      elenco informativo delle locandine di spettacolo se il testo disponibile è soltanto una citazione.
+
+      '
+    Variation: 'Scegliere impaginato, soggetto e distribuzione delle campiture dalla frase. Né teschio,
+      né porta, né zucca o castello diventano elementi fissi.
+
+      '
   Imagery:
-    Style: >
-      Illustrazione a forti masse nere e riserve, contorno espressivo, segni
-      di pennello o incisione; mezzi toni ottenuti con tratteggi o un retino
-      grossolano circoscritto. Evitare volume digitale morbido e rendering 3D.
-    Selection: >
-      Un soggetto riconoscibile pertinente alla frase, inquietante o ironico,
-      può evocare il repertorio horror. Non copiare personaggi, ritratti,
-      figure o scene delle locandine. L'atmosfera non richiede violenza grafica.
+    Style: 'Illustrazione a forti masse nere e riserve, contorno espressivo, segni di pennello o incisione;
+      mezzi toni ottenuti con tratteggi o un retino grossolano circoscritto. Evitare volume digitale morbido
+      e rendering 3D.
+
+      '
+    Selection: 'Un soggetto riconoscibile pertinente alla frase, inquietante o ironico, può evocare il
+      repertorio horror. Non copiare personaggi, ritratti, figure o scene delle locandine. L''atmosfera
+      non richiede violenza grafica.
+
+      '
   Effects:
-    Printing: >
-      Campiture a inchiostri piatti, bordo lievemente sporco, piccoli vuoti
-      d'inchiostro e assorbimento nella carta. Un lieve scarto tra inchiostri
-      è possibile ai bordi di qualche campitura, senza sdoppiare il testo.
-    Halftone: >
-      Retino visibile nelle parti figurative che richiedono mezzi toni,
-      con passo coerente. Non rivestire tutto il foglio con la stessa grana.
-    Paper: >
-      Tono caldo e fibra discreta. Pieghe o consumo possono essere lievi e
-      localizzati, senza simulare un documento illeggibile o un filtro grunge.
-    Historical Limit: >
-      Simulare una resa di stampa popolare d'epoca. Dai soli riferimenti
-      non è verificata una tecnica tipografica specifica per ogni originale.
+    Printing: 'Campiture a inchiostri piatti, bordo lievemente sporco, piccoli vuoti d''inchiostro e assorbimento
+      nella carta. Un lieve scarto tra inchiostri è possibile ai bordi di qualche campitura, senza sdoppiare
+      il testo.
+
+      '
+    Halftone: 'Retino visibile nelle parti figurative che richiedono mezzi toni, con passo coerente. Non
+      rivestire tutto il foglio con la stessa grana.
+
+      '
+    Paper: 'Tono caldo e fibra discreta. Pieghe o consumo possono essere lievi e localizzati, senza simulare
+      un documento illeggibile o un filtro grunge.
+
+      '
+    Historical Limit: 'Simulare una resa di stampa popolare d''epoca. Dai soli riferimenti non è verificata
+      una tecnica tipografica specifica per ogni originale.
+
+      '
   Content Contract:
     quotation: Parole, cassa, accenti e punteggiatura esatti, frase completa una volta sola.
     author: Solo fornito o verificato, subordinato e allineato a destra.
     other_text: Nessun titolo film, luogo, data, prezzo, numero, logo, firma o testo evento inventato.
   Rules:
-    - La frase è il titolo della locandina, non una didascalia sotto un visual horror.
-    - Costruire il carattere nel disegno delle lettere prima di applicare l'usura.
-    - Usare pochi inchiostri e differenziare campiture, riserve e retino selettivo.
-    - Non copiare parole, marchi, watermark, personaggi o impaginati precisi dei riferimenti.
-    - Non confondere questo linguaggio con un poster Halloween generico pieno di icone stock.
-    - Conservare leggibili accenti, punti, spazi e forme distintive alla scala del feed.
+  - La frase è il titolo della locandina, non una didascalia sotto un visual horror.
+  - Costruire il carattere nel disegno delle lettere prima di applicare l'usura.
+  - Usare pochi inchiostri e differenziare campiture, riserve e retino selettivo.
+  - Non copiare parole, marchi, watermark, personaggi o impaginati precisi dei riferimenti.
+  - Non confondere questo linguaggio con un poster Halloween generico pieno di icone stock.
+  - Conservare leggibili accenti, punti, spazi e forme distintive alla scala del feed.
   Production:
     Preferred Mode: generative
-    Validation Status: >
-      Provata una frase nella famiglia two-act-marquee, nero e vermiglione
-      su carta crema, con due generazioni ImageGen complete. La seconda usa
-      effettivamente tre immagini estetiche di riferimento. Frase, cassa,
-      accento e punti verificati nel nativo e a 375 px di larghezza. La prova
-      con reference presenta lettering più compatto e da affiche, mentre la
-      prima ricorre maggiormente a colature convenzionali. Preferenza iniziale
-      per la seconda, approvata per la libreria e candidata V1. Il secondo
-      esempio della galleria usa una nuova frase, nero su carta ocra e un
-      sentiero impossibile; testo controllato anche a 375 px. Non sono provati
-      altri formati, attribuzioni o tutte le famiglie.
-      Font e processo di stampa sono simulati, non certificati come identici
-      agli originali. Le immagini non diventano una dipendenza automatica.
+    Validation Status: 'Provata una frase nella famiglia two-act-marquee, nero e vermiglione su carta
+      crema, con due generazioni ImageGen complete. La seconda usa effettivamente tre immagini estetiche
+      di riferimento. Frase, cassa, accento e punti verificati nel nativo e a 375 px di larghezza. La
+      prova con reference presenta lettering più compatto e da affiche, mentre la prima ricorre maggiormente
+      a colature convenzionali. Preferenza iniziale per la seconda, approvata per la libreria e candidata
+      V1. Il secondo esempio della galleria usa una nuova frase, nero su carta ocra e un sentiero impossibile;
+      testo controllato anche a 375 px. Non sono provati altri formati, attribuzioni o tutte le famiglie.
+      Font e processo di stampa sono simulati, non certificati come identici agli originali. Le immagini
+      non diventano una dipendenza automatica.
 
+      '
 Composition Library: composizioni.yaml

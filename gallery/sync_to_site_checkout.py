@@ -1,9 +1,9 @@
 """Copy a built gallery into an already opened Sites source checkout."""
 from pathlib import Path
 import json
-import re
 import shutil
 import sys
+from validate import validate_gallery
 
 GALLERY = Path(__file__).resolve().parent
 PROJECT_ID = "appgprj_6adb7b4f342881918cd48a4c247a3092"
@@ -27,19 +27,16 @@ def main() -> None:
     if not (built / "index.html").is_file():
         raise SystemExit("Manca la build. Esegui prima python3 gallery/build.py")
     target = checkout / "dist"
-    existing_index = target / "index.html"
-    if existing_index.is_file():
-        article_ids = lambda text: set(re.findall(r'<article\b[^>]*\bid="([^"]+)"', text))
-        missing = article_ids(existing_index.read_text()) - article_ids((built / "index.html").read_text())
+    incoming = validate_gallery((built / "index.html").read_text(), built)
+    if (target / "index.html").is_file():
+        current = validate_gallery((target / "index.html").read_text(), target)
+        missing = current.cards.keys() - incoming.cards.keys()
         if missing:
-            raise SystemExit(
-                "Il sorgente Sites contiene stili assenti dalla build locale. "
-                "Allinea i sorgenti prima della sincronizzazione: " + ", ".join(sorted(missing))
-            )
+            raise SystemExit("La build locale ometterebbe schede già pubblicate: " + ", ".join(sorted(missing)) + ". Prepara un aggiornamento limitato alle schede approvate.")
     if target.is_dir():
         shutil.rmtree(target)
     shutil.copytree(built, target)
-    print(f"Galleria copiata in {checkout}. Usa il flusso Sites per push e pubblicazione mantenendo gli accessi.")
+    print(f"Galleria copiata in {checkout}. Usa il flusso Sites conservando il pubblico corrente.")
 
 
 if __name__ == "__main__":

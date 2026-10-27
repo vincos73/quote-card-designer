@@ -1,6 +1,6 @@
 Design Style:
   Name: "Risograph"
-  Status: "Studio fotografico · scelta utente: overprint con mescolanza sempre presente"
+  Status: "Incluso nel catalogo V1 il 26 ottobre 2026"
   Concept: >
     Una quote card con l'aspetto di fotografie stampate per passaggi di
     colore su carta non patinata: grana fine, inchiostro a densità variabile,
@@ -157,7 +157,9 @@ Design Style:
           Più immagini o forme si attraversano e la mescolanza guida il
           collage; mantenere una gerarchia leggibile e alcune zone non sovrapposte.
       Constraint: >
-        Le modalità cambiano l'estensione dell'effetto, non la sua presenza.
+        Preferire pochi frammenti fotografici grandi e riconoscibili, con
+        contorni e piani sovrapposti leggibili; usare lo spazio fra i livelli
+        per chiarire profondità e gerarchia. Le modalità cambiano l'estensione dell'effetto, non la sua presenza.
         Non offrire none, knockout o strati solo affiancati. Negli incroci
         mantenere dettagli dei passaggi e mescolanza, non un nuovo colore
         opaco dipinto sopra né una semplice mappa bicroma di luci e ombre.
@@ -179,6 +181,7 @@ Design Style:
     - "Risograph include sempre overprint con mescolanza visibile di almeno due inchiostri."
     - "La grana appartiene agli inchiostri e alla carta, non a un filtro grunge generico."
     - "I soggetti e il loro incontro devono avere una relazione con la frase."
+    - "Semplificare i frammenti fotografici in pochi livelli chiaramente distinguibili; conservare registro e mescolanza overprint."
     - "Le miscele nelle intersezioni non sono un terzo colore opaco aggiunto."
     - "Mantenere integra e dominante la lettura della citazione."
     - "Non copiare soggetti, testi promozionali o composizioni degli allegati."

@@ -1,0 +1,3 @@
+Edit this exact quote card by removing every visible grid line from the entire canvas. Remove all vertical and horizontal construction lines, including in open yellow areas, word spaces and letter counters. Restore a clean smooth acid-yellow background in their place. Keep every black glyph solid and clean.
+
+Preserve everything else: the complete exact text «Le idee crescono quando cambiano prospettiva.» including both guillemets and the period, each line break, every word's position, the regular/bold contrast and sizes, optical letter spacing, the asymmetric blocks, yellow ground, black type and portrait format. No new text, coloured band, shapes, outlines, borders, texture or other decorative elements. Return the finished flat artwork only.

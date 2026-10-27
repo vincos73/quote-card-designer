@@ -1,0 +1,177 @@
+Design Style:
+  Name: Folk Art
+  Status: "Incluso nel catalogo V1 il 26 ottobre 2026"
+  Concept: >
+    A quotation becomes the clear verbal centre of a crafted decorative
+    painting. Stylised plants, selected symbolic figures and patient small
+    brush details form a living ornamental structure around and between
+    substantial Western letters. The work feels authored and warm, with
+    balanced repetition and human variation rather than mechanical mirroring.
+
+  Reference Basis:
+    Scope: >
+      A contemporary direction informed by the supplied images and selected
+      museum sources. Folk art covers many distinct traditions; this profile
+      is not a historical reconstruction or an attribution of the references.
+    Transfer: >
+      Transfer layered floral shapes, branching scrolls, paired related forms,
+      small internal marks, decorative edges and matte painted material.
+      Select a coherent vocabulary for each quotation.
+    Research Notes: ricerca.md
+    Independence: >
+      Reference captions, identities, complete compositions and signatures
+      are not content to reuse. The written profile is sufficient for new
+      work; reference images are not mandatory generation inputs.
+
+  Canvas:
+    Ratio: '4:5'
+    Output: One complete flat editorial quote card, full bleed
+    Adaptation: >
+      Recompose the sentence and ornamental rhythm for each ratio. Preserve
+      required words and useful paper intervals instead of cropping a poster.
+
+  Mood: [Crafted, Warm, Decorative, Generous, Lyrical, Patient, Tactile]
+
+  Color Palette:
+    Fixed Colors: false
+    Strategy: >
+      Use a limited group of opaque pigments with a clear light-dark
+      relationship. A pale warm paper field is a useful starting point;
+      another ground is possible when the painted character and text
+      contrast survive. Choose related colours for lettering and ornament.
+    Starting Directions:
+      Indigo and Earth:
+        Paper: '#F2E5C8'
+        Lettering: '#163D50'
+        Leaf: '#3A5941'
+        Brick: '#A83C26'
+        Ochre: '#CB962B'
+      Garden and Burgundy:
+        Paper: '#F5EAD6'
+        Lettering: '#234A3B'
+        Burgundy: '#742D3C'
+        Rose: '#C88376'
+        Mustard: '#C59A38'
+    Roles: >
+      The main text has the strongest stable contrast. Leaves and small
+      figures organise movement; flower layers and seed marks provide
+      accents. Do not make every petal a different colour.
+    Overrides: >
+      Replace hues on request while keeping material unity, local reading
+      contrast and a controlled number of pigment relationships.
+
+  Typography:
+    Primary:
+      Direction: >
+        Substantial Western painted serif lettering or robust sign-painted
+        capitals, with open counters, recognisable word shapes and slightly
+        human contours. A restrained serif is an alternative for longer text.
+      Material: >
+        Letters share the matte pigment and gentle edge variation of the
+        illustration. Small imperfections should suggest a hand without
+        breaking thin strokes or filling counters.
+      Hierarchy: >
+        Keep few registers. A meaningful word group can gain scale or a
+        second related pigment, but connecting words remain substantial.
+    Reading:
+      - Preserve the full literal quotation, case, accents and punctuation.
+      - Establish one immediate reading route through clear semantic groups.
+      - Maintain natural letter proportions and distinct spaces between words.
+      - Reduce or move ornament before compressing letters or shrinking the phrase.
+      - Keep decorative strokes distinct from punctuation and character strokes.
+    Attribution:
+      Optional: true
+      Direction: >
+        Use only a supplied or verified exact name, smaller and visually
+        quieter than the quotation but readable, right-aligned to a clear
+        right edge. Omit both the name and its reserved space when absent.
+    Font Claims: >
+      This is an art direction, not a guarantee of a particular real typeface.
+      Do not make blackletter or faux Western lettering a universal requirement.
+
+  Layout:
+    Essential Relationship: >
+      Plan the quotation and ornament together. Branches, paired forms and
+      flower masses shape a continuous reading field; text should not appear
+      pasted onto an unrelated all-over pattern.
+    Balance: >
+      Near-bilateral rhythm is one useful mode, with deliberate differences
+      in leaves, poses and interior marks. Asymmetric branches or a partial
+      border are equally compatible. Symmetry is not a universal folk-art rule.
+    Density: >
+      Concentrate detail in selected ornamental areas and leave calmer
+      paper near the sentence. Small marks should support a branch, wing,
+      petal or perimeter, not occupy every available gap.
+    Integration: >
+      Foliage may turn around a word group or establish a shared axis.
+      Preserve complete letter silhouettes and clear punctuation. Do not
+      use ornament to divide the sentence into hard-to-order fragments.
+    Variation: >
+      Vary the relation between sentence and decorative structure, the
+      selected motif, direction, scale and distribution of density. A new
+      palette alone is not a new composition.
+
+  Elements:
+    Painted Plants: >
+      Branching stems, curling leaves, layered petals, tulip-like or rosette
+      structures, buds, berries and roots form an open repertoire. Simplify
+      from the current subject rather than copying a named historical design.
+    Figures and Symbols: >
+      Birds, animals, everyday forms, a heart, a sun or a moon are optional
+      possibilities when meaningful. None is a compulsory mascot. Choose
+      one main relationship rather than assembling a symbol catalogue.
+    Internal Detail: >
+      Small dots, teardrops, short hatches, petal echoes and vein-like marks
+      describe the painted form. Make details vary subtly across paired shapes.
+    Perimeter: >
+      A slender scalloped, leafy or geometric painted edge can unite the
+      card. It may be open, interrupted or absent when the composition
+      already establishes its boundary.
+
+  Effects:
+    Surface: >
+      Matte opaque pigment on subtly grained paper, with selective brush
+      direction, gentle coverage variation and occasional small dry edges.
+      Retain a clean usable field; texture is not an ageing filter.
+    Depth: >
+      Layer colour by painted shape and contour. Keep the artwork flat,
+      without photographic lighting, glossy plastic or cast shadows.
+
+  Rules:
+    - The quotation is the first readable message and appears once unless requested otherwise.
+    - Build a consistent ornamental vocabulary and leave room for the full phrase.
+    - Preserve human variation without random disorder or low-quality lettering.
+    - Treat motifs as choices tied to content, not a fixed inventory of all reference subjects.
+    - Keep palettes and lettering direction adaptable to the user request.
+    - Distinguish this contemporary profile from an authenticated regional tradition.
+  Exclusions:
+    - Extra slogans, labels, pseudo text, dates, numbers, signatures, logos or watermarks
+    - Identifiable copied reference compositions or claims of historical authenticity
+    - Mechanical mirrored clipart, a uniform tiled pattern behind tiny text, or generic festival branding
+    - Blackletter as a compulsory style marker or saloon-style lettering by default
+    - Photorealistic botanical detail, glossy 3D animals, airbrush volume or lens effects
+    - Heavy stains, torn-paper collage, technological interfaces or decorative four-point starbursts
+
+  Content Contract:
+    quote: Preserve the supplied text literally, including punctuation and case.
+    author: Optional exact supplied or verified name, smaller and right-aligned.
+    personal_signature: Only when explicitly requested; distinct from the author.
+    additional_copy: Do not invent any.
+
+  Production:
+    Preferred Mode: generative
+    Method: >
+      Use integrated ImageGen to create the complete card, including the
+      quotation and decorative relationships. Inspect the returned image;
+      a prompt or profile does not prove accurate lettering or repeatability.
+    Validation: >
+      Two initial 4:5 applications were generated as complete cards with
+      different original quotations, palette relationships and text-ornament
+      structures. Each was inspected at native size and 320 by 400 pixels;
+      complete wording, punctuation, reading order and painted material were
+      checked. Actual observations are recorded in the example notes. Long text,
+      attribution, other ratios and the third composition remain untested.
+      The user approved the style and requested its inclusion as a V1
+      candidate on 2026-10-25. The studies do not establish historical authenticity.
+
+Composition Library: composizioni.yaml

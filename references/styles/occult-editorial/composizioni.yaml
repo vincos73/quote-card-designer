@@ -1,0 +1,82 @@
+Composition Library:
+  Style Name: Occult Editorial
+  Selection:
+    Basis: >
+      Plan the complete readable sentence and a strange engraved scene
+      within one handled print. Use only neutral black, white and their
+      achromatic material tones. Begin with matte black, rough white cuts,
+      old-book lettering and worn material. Choose the reading arrangement
+      from the phrase, subject and desired tension.
+    Variation: >
+      Vary the subject, contour, reading field, frame reach and distribution
+      of hatching or notation. Do not repeat a cloaked figure as a required
+      mascot. Vary arrangement within the fixed monochrome palette. Preserve an
+      accepted arrangement during a targeted edit.
+  Families:
+    - id: framed-allegorical-plate
+      Name: Allegorical engraving and a contained reading field
+      Use When: >
+        A concise or medium quotation can share an encompassing print
+        with a substantial figurative, animal or material allegory.
+      Structure: >
+        A coarse worn border connects a detailed engraved scene with a
+        broad reading field below or alongside it. Roots, gestures, cut
+        contours and related black pauses make the fields belong to the
+        same print. A few selected arcane signs may occupy side intervals.
+        Keep the frame hand-cut, fractured and materially connected.
+      Text Adaptation: >
+        Group the full sentence by meaning with substantial old-book
+        lettering and clear word spaces. The text shares ink wear but is
+        not buried in hatching. An optional supplied or verified name
+        remains smaller and right-aligned.
+      Format Adaptation: >
+        Portrait formats can allow the allegory to rise above or beside
+        the phrase. Wider formats may spread the relationship laterally.
+        Recompose frame, subject and wording without cropping text or
+        compressing individual words.
+
+    - id: upper-quote-engraved-field
+      Name: Strong upper quotation and a rising engraved counterfield
+      Use When: >
+        A short or medium quotation can establish a decisive reading
+        field while an engraved scene provides a different visual weight.
+      Structure: >
+        Let the quotation anchor an upper or upper-side field inside a
+        worked boundary. A large engraved form rises from the lower or
+        opposite field; its contour, a selected broken circle or root
+        can answer the words. Keep broad black intervals and detailed
+        carved passages in a coherent shared print, with optional side signs.
+      Text Adaptation: >
+        Preserve a clear reading order, whole word groups and a final
+        punctuation mark distinct from surrounding signs. Adjust the
+        engraved contour before shrinking a connecting word or squeezing
+        a line. Do not isolate fresh type on a smooth cartouche.
+      Format Adaptation: >
+        Change the balance of reading and engraved masses for the ratio.
+        A taller card may lengthen the visual rise; a wider card may
+        open the relation sideways. Keep required words and the main
+        subject readable, with frame reach adapted to the new field.
+
+    - id: layered-grimoire-page
+      Name: Accumulated diagrams and marginal working traces
+      Use When: >
+        A quotation benefits from the feeling of an arcane working sheet
+        with layered constructions, symbolic calculations and revised marks.
+      Structure: >
+        Distribute intersecting circles, selected engraved drawings,
+        formula-like sign sequences and marginal additions around and
+        between substantial word groups. Material wear and differently
+        printed marks connect the systems. Rough neutral white ink on
+        matte black carries the worked and handled character. All wear,
+        diagrams and formula-like signs remain achromatic, without sepia
+        or coloured accent pigments.
+      Text Adaptation: >
+        Keep the complete sentence recoverable through the density.
+        Separate prose and notation by scale and rhythm without creating
+        a pristine panel. Redistribute diagrams and ink density before
+        reducing text. A supplied name remains subordinate and right-aligned.
+      Format Adaptation: >
+        Replan the spread of diagrams and material traces for the ratio
+        and wording. A tall page can develop side marginalia; a wider
+        page can open lateral systems. Preserve all required words and
+        natural glyph proportions while the physical print fills the image.
