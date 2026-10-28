@@ -1,0 +1,311 @@
+Design Style:
+  Name: Neon Sign
+  Status: Candidato V1 approvato dall'utente il 28 ottobre 2026
+  Concept: 'Una citazione diventa un''insegna luminosa fisicamente costruita e fotografata in un ambiente
+    scuro. Le lettere sono tubi di vetro sagomati, distanziati da una parete reale, con supporti, terminali
+    e cablaggio credibili. Il massimo realismo nasce dalla coerenza fra oggetto, montaggio, luce emessa,
+    ombre e risposta fotografica. Il testo è il soggetto della fotografia.
+
+    '
+  Reference Basis:
+    Scope: 'Analisi visiva delle tre reference fornite: insegna con righe accese e spente, lettering tubolare
+      azzurro su parete scura, manifesto con una colonna di lettere luminose e lunghi cavi discendenti.
+      Le immagini stabiliscono una direzione visiva, non certificano materiali o tecniche costruttive
+      degli oggetti rappresentati.
+
+      '
+    Transfer:
+    - Lettering monolineare costruito con segmenti tubolari e curve continue.
+    - Profondità ridotta ma percepibile fra vetro, supporti e parete.
+    - Piccoli elementi di montaggio e cavi che rendono visibile la costruzione.
+    - Nucleo luminoso chiaro, colore nel tubo e alone diffuso sulla superficie.
+    - Campo scuro con ampie pause e luce localizzata attorno alla scritta.
+    Independence: 'Non riutilizzare slogan, date, marchi, loghi, crediti, numero di righe o impaginati
+      esatti delle reference. La palette e la distribuzione del testo si scelgono per la nuova frase.
+      Le immagini non sono input permanenti obbligatori per la generazione.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: Una quote card completa, fotografia a pieno formato di un'insegna originale
+    Adaptation: 'Ricomporre insegna, spazio libero e percorsi dei cavi nel rapporto richiesto. Conservare
+      la citazione completa; non ritagliare lettere o accenti per riprodurre il taglio verticale di una
+      reference.
+
+      '
+  Mood:
+  - Notturno
+  - Fotografico
+  - Fisico
+  - Essenziale
+  - Atmosferico
+  - Artigianale
+  Color Palette:
+    Fixed Colors: false
+    Strategy: 'Una tinta luminosa dominante su una parete scura poco satura. Una seconda tinta può distinguere
+      un gruppo di senso; non attribuire un colore diverso a ogni lettera. Blu e ciano, oppure blu e rosa,
+      sono punti di partenza ricavati dalle reference, non vincoli dello stile.
+
+      '
+    Starting Colors:
+      Wall: '#071724'
+      Cool Emission: '#66E7FF'
+      Warm Emission: '#FF65CB'
+      Luminous Core: '#F2FCFF'
+      Hardware: '#171C23'
+    Roles: 'La parete conserva dettagli appena visibili nelle zone scure. Il nucleo molto chiaro è sottile;
+      il colore resta percepibile ai bordi del tubo e nella luce riflessa. La luminosità massima non occupa
+      tutta la lettera.
+
+      '
+    Overrides: 'Accettare altre palette mantenendo una relazione credibile fra sorgente e superficie illuminata.
+      Una parete può modificare il colore riflesso; un cambio di tinta dei tubi aggiorna anche aloni e
+      riflessi pertinenti.
+
+      '
+  Typography:
+    Quote:
+      Style: 'Lettering monolineare disegnato come tubi di vetro piegati. Scheletro sans serif essenziale,
+        curve morbide, raggi di curvatura plausibili e leggere irregolarità costruttive. Le maiuscole
+        aperte e geometriche delle reference sono una direzione formale; rispettare la cassa del testo
+        fornito, comprese eventuali minuscole.
+
+        '
+      Construction: 'I glifi possono richiedere più segmenti, con piccole interruzioni in prossimità dei
+        terminali. Ritorni e collegamenti restano dietro il piano di lettura o diventano cavi scuri. Non
+        costruire ponti luminosi fra lettere separate né aggiungere tratti che cambino il carattere.
+
+        '
+      Hierarchy: 'Frase grande e preminente. Enfatizzare un gruppo di senso attraverso scala, posizione
+        o un secondo colore, mantenendo una famiglia coerente di tubi. Non simulare grassetti con contorni
+        o tubi duplicati.
+
+        '
+      Spacing: 'Proporzioni naturali dei glifi, kerning ottico coerente e spazi fra parole riconoscibili.
+        Lasciare aria sufficiente fra tubi e fra righe perché gli aloni non chiudano i contatori. Non
+        espandere arbitrariamente il tracking per pareggiare le righe. Risolvere l''ingombro con a capo,
+        scala complessiva e spazio della composizione.
+
+        '
+      Small Details: 'Accenti, apostrofi, punti e altri segni richiesti sono piccoli elementi luminosi
+        distinti e leggibili, con una costruzione coerente. Non eliminarli per semplificare l''insegna.
+
+        '
+    Attribution:
+      Style: 'Piccolo registro tubolare della stessa installazione, meno luminoso ma ancora leggibile.
+        Per un nome lungo usare più spazio e un corpo sostenibile; non ridurlo a un groviglio di tubi.
+
+        '
+      Placement: 'Solo quando fornita o verificata; esatta, subordinata e allineata a destra su un asse
+        destro chiaro. Se assente, recuperare lo spazio.
+
+        '
+    Signature: 'Solo su richiesta esplicita. Distinta dall''attribuzione, subordinata e allineata a destra,
+      senza inventare un autore.
+
+      '
+  Layout:
+    Shared Structure: 'Un''unica installazione domina una parete continua. Citazione, supporti, cavi e
+      campi di luce appartengono alla stessa scena e alla stessa prospettiva. La frase si legge prima
+      dei dettagli tecnici.
+
+      '
+    Reading Path: 'A capo per gruppi di senso, ordine di lettura immediato e margini adatti alla diffusione
+      della luce. L''allineamento può essere a sinistra, centrale o asimmetrico secondo la composizione
+      scelta.
+
+      '
+    Space: 'Il vuoto scuro valorizza la sorgente luminosa. Non riempirlo con oggetti, parole o effetti
+      estranei. Per testi lunghi ridurre il vuoto e il cablaggio in vista prima di ridurre la frase.
+
+      '
+    Camera: 'Ripresa frontale o lievemente obliqua con prospettiva coerente. Tenere tutta la citazione
+      sul piano di fuoco. La parete resta una superficie continua, non una cornice o un mockup appoggiato
+      in un''altra scena.
+
+      '
+  Elements:
+    Glass Tubes: 'Tubi cilindrici sottili con sezione coerente, piccole riflessioni speculari, volume
+      del vetro e variazioni locali molto contenute. Il gas appare luminoso dentro il tubo; i tratti non
+      sembrano nastri piatti, plastica morbida o lettere piene estruse.
+
+      '
+    Mounting: 'Piccoli distanziali trasparenti o metallici collocati in punti utili al sostegno dei segmenti,
+      con attacchi alla parete e ombre coerenti. Mostrare una selezione leggibile di terminali e manicotti
+      senza moltiplicare minuteria ornamentale su ogni curva.
+
+      '
+    Wiring: 'Cavi sottili scuri collegano terminali plausibili, passano dietro i tubi e ricadono per gravità
+      con curve irregolari. Alcuni possono scendere oltre il bordo. Devono avere punti di origine comprensibili,
+      senza attraversare le lettere come tratti aggiuntivi o formare parole.
+
+      '
+    Optional Rails: 'Traverse o piccoli supporti scuri possono sostenere più lettere in una composizione
+      a colonna. Restano subordinati, nella stessa prospettiva e fisicamente collegati all''installazione.
+
+      '
+    Wall: 'Intonaco fine o superficie verniciata opaca con variazioni minime e dettagli reali. Il blu
+      scuro è un''opzione. Evitare mattoni, crepe, graffiti o patine obbligatorie che trasformino la scena
+      in un cliché.
+
+      '
+    Unlit Segments: 'Opzione controllata ispirata alla prima reference, mai requisito predefinito. Preferire
+      l''intera citazione accesa. Eventuali segmenti spenti devono conservare contorni e contrasto sufficienti
+      alla lettura di ogni parola grazie alla luce ambiente o a quella dei tubi vicini. Se una parola
+      si perde, riaccenderla. Non aggiungere copie spente del testo o parole non richieste per costruire
+      il contrasto.
+
+      '
+  Effects:
+    Emission: 'Nucleo sottile molto chiaro, fascia cromatica del tubo e bloom ottico contenuto. Conservare
+      il diametro leggibile del vetro, la separazione fra tratti e i piccoli dettagli vicini. Evitare
+      la sovraesposizione uniforme che trasforma le lettere in masse bianche.
+
+      '
+    Wall Spill: 'Luce morbida localizzata, più intensa vicino alle sorgenti e in calo graduale con la
+      distanza. Le emissioni vicine possono sovrapporsi con continuità. La distanza dalla parete e la
+      sua texture modulano l''alone; non applicare una sagoma colorata identica e uniforme a ogni glifo.
+
+      '
+    Shadows: 'Ombre di contatto dei supporti e ombre dei componenti opachi coerenti con le sorgenti effettive.
+      In presenza di una luce ambiente debole anche il vetro spento può proiettare ombre delicate. Evitare
+      una sola drop shadow nera identica attorno a tutte le parti luminose.
+
+      '
+    Photography: 'Esposizione controllata sulle luci, transizioni tonali morbide e dettagli conservati
+      sulla parete. Lieve rumore fotografico nelle ombre solo se utile. Profondità, riflessi e piccole
+      imperfezioni devono suggerire una fotografia ravvicinata di un oggetto reale.
+
+      '
+    Atmosphere: 'L''atmosfera nasce dalla luce sulla superficie. Foschia, fumo, bagliori nell''aria, flare
+      e riflessi di lente non sono necessari e non devono sostituire il materiale o velare il testo.
+
+      '
+  Content Contract:
+    quotation: Citazione completa una volta sola; parole, cassa, accenti e punteggiatura esatti.
+    author: Solo fornito o verificato, esatto, subordinato e allineato a destra.
+    signature: Solo richiesta esplicitamente, separata dall'autore.
+    other_text: Nessun logo, credito, data, slogan, etichetta o parola decorativa inventati.
+  Rules:
+  - Costruire una scena fotografica coerente di vetro, montaggio, parete e luce.
+  - Trattare la frase come un oggetto luminoso fisico all'interno della scena.
+  - Mantenere tutta la citazione leggibile, comprese le parole meno luminose.
+  - Fare reagire parete, cavi e supporti alle sorgenti luminose effettive.
+  - Scegliere una sola famiglia compositiva principale per la card.
+  - Variare struttura e spazio secondo la frase, senza copiare i poster forniti.
+  - Conservare spaziatura ottica naturale e proporzioni dei caratteri.
+  - Lasciare colori, numero di righe e distribuzione dei cavi adattabili.
+  Exclusions:
+  - Font piatto con un alone digitale applicato sopra una fotografia indipendente
+  - LED a punti visibili, neon flex in silicone, lightbox o lettere scatolate
+  - Tratti gonfiabili, plastica lucida, metallo cromato o estrusione piena
+  - Bloom che fonde lettere, chiude contatori o cancella la punteggiatura
+  - Gradienti arcobaleno decorativi, scenari cyberpunk, skyline o insegne aggiuntive
+  - Cavi sospesi senza origine, raccordi impossibili o ombre incoerenti
+  - Finto guasto che rende illeggibili parole della citazione
+  - Loghi, slogan e composizioni copiati dalle reference
+  Production:
+    Preferred Mode: generative
+    Method: 'Usare ImageGen integrato per l''intera composizione finale, includendo testo esatto, tubi,
+      montaggio, cavi, parete e illuminazione nella stessa immagine. Una scritta deterministica sovrapposta
+      a uno sfondo generato non realizza questo stile.
+
+      '
+    Reference Inputs: 'Le tre immagini sono state usate per l''analisi visiva che informa lo YAML. I due
+      esempi sono stati generati dal profilo scritto senza passare le reference al generatore; non è stabilita
+      una dipendenza operativa dalle immagini. Prima di adottarle stabilmente come input, confrontare
+      una coppia con e senza reference a parità di frase, formato, palette, composizione e istruzioni
+      di base.
+
+      '
+    Validation Status: 'Due esempi completi generati con ImageGen integrato: frasi diverse, minuscole,
+      composizione compatta rosa e colonna asimmetrica ciano. Testo, punteggiatura, ordine di lettura
+      e separazione delle lettere controllati visivamente alla risoluzione nativa e a 320 × 400 pixel.
+      Supporti, cablaggio e luce sulla parete sono visibili e coerenti con la direzione proposta; non
+      è certificata la fattibilità costruttiva. Candidatura V1 richiesta dall''utente il 28 ottobre 2026.
+      Parole spente, attribuzione e altri formati restano da provare. Le immagini native misurano 1122
+      × 1402 pixel, rapporto prossimo ma non identico a 4:5.
+
+      '
+    Review Criteria:
+    - Confrontare ogni carattere, accento e segno con il testo richiesto.
+    - Verificare lettura e separazione dei tubi anche a dimensione feed.
+    - Controllare vetro, terminali, sostegni, gravità dei cavi e prospettiva.
+    - Controllare coerenza fra colore emesso, luce sulla parete e ombre.
+    - Provare almeno due frasi diverse e una variazione di palette o formato.
+Composition Library:
+  Style Name: Neon Sign
+  Selection:
+    Basis: 'Scegliere una struttura in base ai gruppi di senso, alle parole lunghe, al formato e all''eventuale
+      attribuzione. Comporre prima il percorso della frase, poi supporti, cablaggio e diffusione della
+      luce.
+
+      '
+    Variation: 'Variare posizione e silhouette dell''insegna, rapporto con il vuoto e direzione dei cavi.
+      Non limitare la variazione al colore dei tubi.
+
+      '
+    Priority: 'Testo esatto e leggibile, realismo della costruzione, gerarchia e atmosfera. Le parole
+      spente sono una variabile facoltativa del materiale, non una famiglia obbligatoria né un pretesto
+      per omettere testo.
+
+      '
+  Families:
+  - id: compact-sign
+    Name: Insegna compatta
+    Use When: 'La frase breve o media forma pochi gruppi di senso e può dominare la parete con una silhouette
+      unitaria.
+
+      '
+    Structure: 'Righe raccolte in un blocco otticamente equilibrato, centrale o decentrato. La luce unisce
+      il blocco, mentre parete scura e pochi cavi visibili ne evidenziano la presenza fisica.
+
+      '
+    Text Adaptation: 'Formare righe naturali di lunghezze anche diverse. Dare rilievo a un gruppo con
+      una scala maggiore senza allargare il tracking delle altre righe per pareggiarle.
+
+      '
+    Format Adaptation: 'Nel verticale sviluppare il blocco in altezza; nel quadrato riequilibrare righe
+      e vuoti; nell''orizzontale aprire i gruppi su una superficie più larga senza stirare le lettere.
+
+      '
+  - id: suspended-column
+    Name: Colonna sospesa
+    Use When: 'Più gruppi brevi permettono una lettura verticale e uno spazio laterale o inferiore ampio.
+
+      '
+    Structure: 'Colonna di righe allineate a sinistra su un asse netto, con larghezze naturali diseguali.
+      Cavi sottili proseguono verso il basso; eventuali traverse scure collegano il montaggio alla parete.
+      Il vuoto laterale rende percepibile la luce localizzata.
+
+      '
+    Text Adaptation: 'Spezzare per sintassi, senza isolare sistematicamente una lettera per riga. Se ci
+      sono parole lunghe, allargare la colonna prima di ridurre tutto il testo. L''attribuzione resta
+      su un asse destro.
+
+      '
+    Format Adaptation: 'Nel verticale prolungare la discesa dei cavi; nell''orizzontale allargare il campo
+      laterale mantenendo il testo sostanziale. Per frasi troppo lunghe scegliere una struttura più compatta.
+
+      '
+  - id: offset-phrase-groups
+    Name: Gruppi sfalsati
+    Use When: 'La frase contiene due o tre gruppi di senso che possono avere un accento o una pausa distinti
+      senza interrompere la lettura.
+
+      '
+    Structure: 'Gruppi tubolari sfalsati lungo un percorso dall''alto verso il basso. Tutti sono montati
+      sulla stessa parete, con prospettiva e profondità coerenti. Gli intervalli scuri scandiscono la
+      frase; cablaggio e luce possono collegare i gruppi senza nuove linee luminose.
+
+      '
+    Text Adaptation: 'Conservare un ordine di lettura univoco. Una parola o un gruppo può crescere di
+      scala o cambiare tinta. Non frammentare le parole né far sembrare i gruppi insegne con citazioni
+      indipendenti.
+
+      '
+    Format Adaptation: 'Nel verticale sfalsare soprattutto in altezza; nell''orizzontale aprire gli intervalli
+      laterali e mantenere una direzione chiara. Ridurre gli sfalsamenti quando testo e attribuzione richiedono
+      spazio.
+
+      '

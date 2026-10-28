@@ -1,0 +1,68 @@
+Composition Library:
+  Style Name: Neon Sign
+  Selection:
+    Basis: >
+      Scegliere una struttura in base ai gruppi di senso, alle parole lunghe,
+      al formato e all'eventuale attribuzione. Comporre prima il percorso
+      della frase, poi supporti, cablaggio e diffusione della luce.
+    Variation: >
+      Variare posizione e silhouette dell'insegna, rapporto con il vuoto e
+      direzione dei cavi. Non limitare la variazione al colore dei tubi.
+    Priority: >
+      Testo esatto e leggibile, realismo della costruzione, gerarchia e
+      atmosfera. Le parole spente sono una variabile facoltativa del
+      materiale, non una famiglia obbligatoria né un pretesto per omettere testo.
+  Families:
+    - id: compact-sign
+      Name: Insegna compatta
+      Use When: >
+        La frase breve o media forma pochi gruppi di senso e può dominare
+        la parete con una silhouette unitaria.
+      Structure: >
+        Righe raccolte in un blocco otticamente equilibrato, centrale o
+        decentrato. La luce unisce il blocco, mentre parete scura e pochi
+        cavi visibili ne evidenziano la presenza fisica.
+      Text Adaptation: >
+        Formare righe naturali di lunghezze anche diverse. Dare rilievo a
+        un gruppo con una scala maggiore senza allargare il tracking delle
+        altre righe per pareggiarle.
+      Format Adaptation: >
+        Nel verticale sviluppare il blocco in altezza; nel quadrato
+        riequilibrare righe e vuoti; nell'orizzontale aprire i gruppi su
+        una superficie più larga senza stirare le lettere.
+    - id: suspended-column
+      Name: Colonna sospesa
+      Use When: >
+        Più gruppi brevi permettono una lettura verticale e uno spazio
+        laterale o inferiore ampio.
+      Structure: >
+        Colonna di righe allineate a sinistra su un asse netto, con
+        larghezze naturali diseguali. Cavi sottili proseguono verso il basso;
+        eventuali traverse scure collegano il montaggio alla parete. Il
+        vuoto laterale rende percepibile la luce localizzata.
+      Text Adaptation: >
+        Spezzare per sintassi, senza isolare sistematicamente una lettera
+        per riga. Se ci sono parole lunghe, allargare la colonna prima di
+        ridurre tutto il testo. L'attribuzione resta su un asse destro.
+      Format Adaptation: >
+        Nel verticale prolungare la discesa dei cavi; nell'orizzontale
+        allargare il campo laterale mantenendo il testo sostanziale. Per
+        frasi troppo lunghe scegliere una struttura più compatta.
+    - id: offset-phrase-groups
+      Name: Gruppi sfalsati
+      Use When: >
+        La frase contiene due o tre gruppi di senso che possono avere
+        un accento o una pausa distinti senza interrompere la lettura.
+      Structure: >
+        Gruppi tubolari sfalsati lungo un percorso dall'alto verso il
+        basso. Tutti sono montati sulla stessa parete, con prospettiva e
+        profondità coerenti. Gli intervalli scuri scandiscono la frase;
+        cablaggio e luce possono collegare i gruppi senza nuove linee luminose.
+      Text Adaptation: >
+        Conservare un ordine di lettura univoco. Una parola o un gruppo può
+        crescere di scala o cambiare tinta. Non frammentare le parole né
+        far sembrare i gruppi insegne con citazioni indipendenti.
+      Format Adaptation: >
+        Nel verticale sfalsare soprattutto in altezza; nell'orizzontale
+        aprire gli intervalli laterali e mantenere una direzione chiara.
+        Ridurre gli sfalsamenti quando testo e attribuzione richiedono spazio.

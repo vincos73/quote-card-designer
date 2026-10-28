@@ -1,5 +1,21 @@
 # Galleria degli stili
 
+## Neon Sign candidato · 28 ottobre 2026
+
+Neon Sign è stato aggiunto come V1 candidate alla library, categoria Luce e
+materiali, con due frasi diverse: insegna compatta rosa e colonna asimmetrica
+ciano. Profilo, composizioni, originali e prompt sono in
+`references/styles/neon-sign/`. La release distribuita resta alla 0.4.0.
+
+Pubblicata la gallery versione **52**: **98 stili, 211 immagini, 50 inclusi
+e 17 candidati**. L'aggiunta è stata applicata alla sorgente online corrente,
+conservando identiche le 97 schede precedenti e i 308 file diversi da
+index.html. Il catalogo locale contiene 79 stili, 173 immagini e 4 candidati;
+non sostituire integralmente la sorgente online con la build locale.
+Scheda, filtro e selettore delle prove verificati in anteprima; pubblicazione
+confermata da Sites e politica di accesso invariata. Ricevuta:
+`pubblicazione-v52.json`.
+
 ## Sites allineati alla 0.4.0 · 27 ottobre 2026
 
 Pubblicate e verificate la **gallery versione 39** (77 stili, 165 immagini,

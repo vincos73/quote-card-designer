@@ -2589,3 +2589,25 @@ styles:
   example_2_text: Le idee non nascono perfette.
   notes_2: references/styles/typewritten-marginalia/note-prova-contatto.md
   example_prompt_2: references/styles/typewritten-marginalia/note-prova-contatto.md
+- id: neon-sign
+  release_candidate: false
+  v1_shortlisted: true
+  production_mode: generative
+  family: luce-materiali
+  name: Neon Sign
+  aliases: [neon sign, insegna neon, insegna al neon, tubi al neon]
+  summary: Insegne fotorealistiche in tubi di vetro luminosi, con supporti, terminali e cavi visibili su una parete scura illuminata dal neon.
+  tags: [neon, vetro, luce, insegna, fotorealismo, cavi, lettering]
+  profile: references/styles/neon-sign/profilo.yaml
+  example_count: 2
+  featured_example: 1
+  example: references/styles/neon-sign/esempio-1.png
+  example_label: Rosa · insegna compatta
+  example_text: Le idee brillano quando trovano spazio.
+  notes: references/styles/neon-sign/note-progetto.md
+  example_prompt: references/styles/neon-sign/prompt-esempio-1.txt
+  example_2: references/styles/neon-sign/esempio-2.png
+  example_2_label: Ciano · colonna asimmetrica
+  example_2_text: Il futuro si accende un passo alla volta.
+  notes_2: references/styles/neon-sign/note-progetto.md
+  example_prompt_2: references/styles/neon-sign/prompt-esempio-2.txt

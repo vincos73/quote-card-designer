@@ -1,0 +1,19 @@
+{
+  "project_id": "appgprj_6adb7b4f342881918cd48a4c247a3092",
+  "version_number": 52,
+  "commit_sha": "acc4b1401cc9646504f42d29497929b2a0c97318",
+  "deployment_id": "appgdep_6ae1c3bd1a4481918b0aaa0e30193f8a",
+  "status": "succeeded",
+  "url": "https://quote-card-designer-style-gallery.vincos.chatgpt.site",
+  "access_mode": "custom",
+  "access_policy_unchanged": true,
+  "access_policy_revision": 1,
+  "styles": 98,
+  "images": 211,
+  "included": 50,
+  "candidates": 17,
+  "added_candidate": "Neon Sign",
+  "preserved_cards": 97,
+  "preserved_non_index_files": 308,
+  "browser_qa": "Scheda, filtro Candidates e selettore delle due prove verificati sulla stessa sorgente in anteprima locale. Il controllo browser online incontra il gate di accesso; pubblicazione confermata dal risultato Sites."
+}
