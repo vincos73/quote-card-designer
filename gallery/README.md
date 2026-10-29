@@ -1,5 +1,27 @@
 # Galleria degli stili
 
+## Gallery versione 61 · candidature e nomi · 29 ottobre 2026
+
+Su richiesta dell'utente diventano candidati: **Cut Paper, Chalkboard, Cartographic, Civic, Food, Sport, Finance, Economy, Science Book, Space Atlas, Tech Mechanism ed Eco Print**.
+
+Nomi aggiornati: Chalkboard Design → Chalkboard; Geografica → Cartographic;
+Carta Comune / Segni abitati → Civic; Impronta di gusto → Food;
+Motion Proof → Sport. Identificatori e percorsi restano stabili; i vecchi
+nomi sono conservati come alias.
+
+Gallery online: **122 stili, 262 immagini, 50 inclusi nella 0.4.0,
+46 candidati e 26 esclusi**. Le altre 110 schede e tutti i 514 file
+preesistenti diversi dall'indice sono conservati identici, incluse le sezioni
+di studio e i confronti. Gli YAML consultabili riportano nomi e candidatura.
+Ricerca dei dodici stili e dei vecchi nomi verificata nel browser.
+Accessi `custom` e revisione della policy 1 invariati.
+
+La libreria locale conta **127 stili, 272 immagini, 46 candidati e
+31 sperimentali**. La release 0.4.0 conserva identici tutti i suoi 150 file;
+la skill globale installata non viene modificata.
+
+[Ricevuta](pubblicazione-v61.json), [verifiche](qa/candidates-v61.json).
+
 ## Libreria condivisa · 29 ottobre 2026
 
 Riconciliati i sorgenti della gallery Sites **60** con la libreria locale:

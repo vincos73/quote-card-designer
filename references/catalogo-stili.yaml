@@ -3188,7 +3188,7 @@ styles:
   example_2_label: Ciano · colonna asimmetrica
 - id: motion-proof
   family: fotografia-atmosfere
-  name: Motion Proof
+  name: Sport
   aliases:
   - motion proof
   - sport
@@ -3204,7 +3204,7 @@ styles:
   - stampa
   - scie
   release_candidate: false
-  v1_shortlisted: false
+  v1_shortlisted: true
   production_mode: generative
   profile: references/styles/motion-proof/profilo.yaml
   example_count: 2
@@ -3225,7 +3225,7 @@ styles:
   example_2_label: Squadra · gesto collettivo e scie curve
 - id: impronta-di-gusto
   family: illustrazione-decorazione
-  name: Impronta di gusto
+  name: Food
   aliases:
   - impronta di gusto
   - food
@@ -3242,7 +3242,7 @@ styles:
   - lettering
   - ingredienti
   release_candidate: false
-  v1_shortlisted: false
+  v1_shortlisted: true
   production_mode: generative
   profile: references/styles/impronta-di-gusto/profilo.yaml
   example_count: 2
@@ -3264,7 +3264,7 @@ styles:
   example_2_label: Curiosità · melanzana corretta
 - id: carta-comune
   family: classici-incisioni
-  name: Carta Comune / Segni abitati
+  name: Civic
   aliases:
   - carta comune
   - segni abitati
@@ -3273,6 +3273,7 @@ styles:
   - politica
   - vita pubblica
   - civic editorial
+  - Carta Comune / Segni abitati
   summary: Grandi segni tipografici aperti in sezione diventano passaggi e luoghi di parola, abitati da
     piccole figure incise.
   tags:
@@ -3283,7 +3284,7 @@ styles:
   - tipografia
   - segni
   release_candidate: false
-  v1_shortlisted: false
+  v1_shortlisted: true
   production_mode: generative
   profile: references/styles/carta-comune/profilo.yaml
   example_count: 2
@@ -4085,7 +4086,7 @@ styles:
     reali rendono la carta protagonista.'
   tags: []
   profile: references/styles/cut-paper/profilo.yaml
-  v1_shortlisted: false
+  v1_shortlisted: true
   gallery_snapshot: sites-v60
   search_terms: Cut Paper paper cut carta taglio ritaglio pieghe lettere sollevate negativo collage fotografia
     fibre materico
@@ -4104,13 +4105,14 @@ styles:
   release_candidate: false
   production_mode: generative
   family: disegno-lettering
-  name: Chalkboard Design
-  aliases: []
+  name: Chalkboard
+  aliases:
+  - Chalkboard Design
   summary: Scrittura a gesso su una lavagna usata, con polvere, cancellature trascinate, ripassi e residui
     di segni.
   tags: []
   profile: references/styles/chalkboard-design/profilo.yaml
-  v1_shortlisted: false
+  v1_shortlisted: true
   gallery_snapshot: sites-v60
   search_terms: Chalkboard Design Scrittura a gesso su una lavagna usata, con polvere, cancellature trascinate,
     ripassi e residui di segni. Disegno e lettering chalkboard lavagna gesso cancellature Sporco Manuale
@@ -4289,13 +4291,14 @@ styles:
   release_candidate: false
   production_mode: generative
   family: disegno-tecnico
-  name: Geografica
-  aliases: []
+  name: Cartographic
+  aliases:
+  - Geografica
   summary: 'Studio tematico: reti stradali e tipografia da manifesto. Scelto il secondo esempio, con colori
     variabili secondo il quote.'
   tags: []
   profile: references/styles/cartographic-editorial/profilo.yaml
-  v1_shortlisted: false
+  v1_shortlisted: true
   gallery_snapshot: sites-v60
   search_terms: 'Geografica Studio tematico: reti stradali e tipografia da manifesto. Scelto il secondo
     esempio, con colori variabili secondo il quote. Disegno tecnico e wireframe studio tematico studi
@@ -4318,7 +4321,7 @@ styles:
     essenziale e caratteri da terminale.'
   tags: []
   profile: references/styles/finance-terminal/profilo.yaml
-  v1_shortlisted: false
+  v1_shortlisted: true
   gallery_snapshot: sites-v60
   search_terms: 'Finance Studio tematico: elementi a matrice di punti, ripetuti o singoli, dialogano con
     un’interfaccia essenziale e caratteri da terminale. Interfacce e cultura digitale studio tematico
@@ -4341,7 +4344,7 @@ styles:
     e palette armonica per testo e immagine.'
   tags: []
   profile: references/styles/economy-editorial/profilo.yaml
-  v1_shortlisted: false
+  v1_shortlisted: true
   gallery_snapshot: sites-v60
   search_terms: 'Economy Studio tematico: serif con pesi e corsivi, simbolo minimale scelto dal significato
     della frase e palette armonica per testo e immagine. Illustrazione e decorazione studio tematico studi
@@ -4364,7 +4367,7 @@ styles:
     dettagli e campiture di colore.'
   tags: []
   profile: references/styles/science-book/profilo.yaml
-  v1_shortlisted: false
+  v1_shortlisted: true
   gallery_snapshot: sites-v60
   search_terms: 'Science Book Studio tematico: immagini da libro scientifico d’epoca e tipografia sans
     contemporanea, con dettagli e campiture di colore. Classici e incisioni studio tematico studi tematici
@@ -4387,7 +4390,7 @@ styles:
     di punti e archi.'
   tags: []
   profile: references/styles/space-atlas/profilo.yaml
-  v1_shortlisted: false
+  v1_shortlisted: true
   gallery_snapshot: sites-v60
   search_terms: 'Space Atlas Studio tematico: carte stellari ridisegnate con lettering orbitale, aperture
     stencil e gerarchie di punti e archi. Disegno tecnico e wireframe studio tematico studi tematici sperimentale
@@ -4410,7 +4413,7 @@ styles:
     e integrata nella frase.'
   tags: []
   profile: references/styles/tech-mechanism/profilo.yaml
-  v1_shortlisted: false
+  v1_shortlisted: true
   gallery_snapshot: sites-v60
   search_terms: 'Tech Mechanism Studio tematico: font tecnico marcato e meccanismo dell’oggetto citato,
     con immagine ampia e integrata nella frase. Disegno tecnico e wireframe studio tematico studi tematici
@@ -4433,7 +4436,7 @@ styles:
     immagine condividono lo stesso campo di stampa.'
   tags: []
   profile: references/styles/eco-print/profilo.yaml
-  v1_shortlisted: false
+  v1_shortlisted: true
   gallery_snapshot: sites-v60
   search_terms: 'Eco Print Studio tematico: segno inciso, pochi inchiostri e paesaggio coerente con il
     quote. Testo e immagine condividono lo stesso campo di stampa. Retini e stampa studio tematico studi

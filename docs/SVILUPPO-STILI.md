@@ -1,5 +1,19 @@
 # Libreria condivisa fra portatile e iMac
 
+## Stato corrente · 29 ottobre 2026
+
+Dopo le dodici candidature richieste dall'utente, la libreria comprende
+**127 stili: 50 nella release 0.4.0, 46 candidati e 31 sperimentali**.
+Nomi correnti: **Chalkboard**, **Cartographic**, **Civic**, **Food** e
+**Sport**; gli identificatori delle cartelle e i nomi precedenti come alias
+sono conservati. La gallery Sites versione **61** mantiene la sua selezione
+di 122 stili e 262 immagini, con 46 candidati. Non aggiunge i cinque studi
+presenti soltanto nella build locale e non cambia la release o l'installazione.
+
+[Ricevuta della pubblicazione](../gallery/pubblicazione-v61.json).
+
+## Riconciliazione iniziale
+
 Il repository conserva la libreria di sviluppo; le release distribuiscono una
 selezione approvata. Il 29 ottobre 2026 la riconciliazione della sorgente Sites
 versione 60 con la libreria locale ha raccolto **127 stili**: **50 nella release

@@ -1,6 +1,6 @@
 "Design Style":
-  "Name": "Geografica"
-  "Status": "Studio tematico da valutare; nessuna promozione automatica a V1 o Candidates"
+  "Name": "Cartographic"
+  "Status": "V1 candidate su richiesta dell’utente il 29 ottobre 2026; fuori dalla release 0.4.0"
   "Concept": "Una rete urbana a linee sottili e una frase monumentale costruiscono lo stesso campo. Il linguaggio scelto è rete e manifesto, non la palette del singolo esempio."
   "Canvas":
     "Ratio": "4:5"
@@ -36,7 +36,7 @@
     "Validation": "Due immagini native 1122×1402, quasi 4:5, con testi diversi, rilette visivamente. Font esatto, contrasto raster, attribuzioni, altre lunghezze e altri formati non certificati."
   "Study Note": "L’utente ha scelto il secondo esempio. Il primo resta uno studio preliminare, non un riferimento obbligatorio. Palette variabile."
 "Composition Library":
-  "Style Name": "Geografica"
+  "Style Name": "Cartographic"
   "Selection":
     "Basis": "Scegliere dal senso della frase e dall’ingombro del testo."
     "Variation": "Repertorio aperto di relazioni, non template a coordinate fisse."

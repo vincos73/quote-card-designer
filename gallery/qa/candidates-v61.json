@@ -1,0 +1,333 @@
+{
+  "styles": 122,
+  "images": 262,
+  "included": 50,
+  "candidates_before": 34,
+  "candidates": 46,
+  "excluded": 26,
+  "promoted": [
+    {
+      "id": "motion-proof",
+      "old_name": "Motion Proof",
+      "name": "Sport",
+      "profile": "references/styles/motion-proof/profilo.yaml"
+    },
+    {
+      "id": "impronta-di-gusto",
+      "old_name": "Impronta di gusto",
+      "name": "Food",
+      "profile": "references/styles/impronta-di-gusto/profilo.yaml"
+    },
+    {
+      "id": "carta-comune",
+      "old_name": "Carta Comune / Segni abitati",
+      "name": "Civic",
+      "profile": "references/styles/carta-comune/profilo.yaml"
+    },
+    {
+      "id": "cut-paper",
+      "old_name": "Cut Paper",
+      "name": "Cut Paper",
+      "profile": "references/styles/cut-paper/profilo.yaml"
+    },
+    {
+      "id": "chalkboard-design",
+      "old_name": "Chalkboard Design",
+      "name": "Chalkboard",
+      "profile": "references/styles/chalkboard-design/profilo.yaml"
+    },
+    {
+      "id": "cartographic-editorial",
+      "old_name": "Geografica",
+      "name": "Cartographic",
+      "profile": "references/styles/cartographic-editorial/profilo.yaml"
+    },
+    {
+      "id": "finance-terminal",
+      "old_name": "Finance",
+      "name": "Finance",
+      "profile": "references/styles/finance-terminal/profilo.yaml"
+    },
+    {
+      "id": "economy-editorial",
+      "old_name": "Economy",
+      "name": "Economy",
+      "profile": "references/styles/economy-editorial/profilo.yaml"
+    },
+    {
+      "id": "science-book",
+      "old_name": "Science Book",
+      "name": "Science Book",
+      "profile": "references/styles/science-book/profilo.yaml"
+    },
+    {
+      "id": "space-atlas",
+      "old_name": "Space Atlas",
+      "name": "Space Atlas",
+      "profile": "references/styles/space-atlas/profilo.yaml"
+    },
+    {
+      "id": "tech-mechanism",
+      "old_name": "Tech Mechanism",
+      "name": "Tech Mechanism",
+      "profile": "references/styles/tech-mechanism/profilo.yaml"
+    },
+    {
+      "id": "eco-print",
+      "old_name": "Eco Print",
+      "name": "Eco Print",
+      "profile": "references/styles/eco-print/profilo.yaml"
+    }
+  ],
+  "unchanged_other_cards": 110,
+  "unchanged_non_index_files": 514,
+  "preexisting_asset_manifest_sha256": "eed407584ef22c7f8b196cd1445367d68544d98d42f362de6507620671a080a7",
+  "index_before_sha256": "423fb695c8ab974d74c89e231c51bbe37134796f7f1ac4a8cac4958819bed510",
+  "index_after_sha256": "50433e4a40475fcc7a1f606c2b87c879281e2b55272f7318f3a7641fff8c8003",
+  "release_unchanged": true,
+  "browser_search_checks": [
+    {
+      "query": "Cut Paper",
+      "shown": [
+        {
+          "candidate": "true",
+          "id": "cut-paper",
+          "name": "Cut Paper"
+        }
+      ]
+    },
+    {
+      "query": "Chalkboard",
+      "shown": [
+        {
+          "candidate": "true",
+          "id": "chalkboard-design",
+          "name": "Chalkboard"
+        }
+      ]
+    },
+    {
+      "query": "Cartographic",
+      "shown": [
+        {
+          "candidate": "true",
+          "id": "cartographic-editorial",
+          "name": "Cartographic"
+        }
+      ]
+    },
+    {
+      "query": "Civic",
+      "shown": [
+        {
+          "candidate": "true",
+          "id": "carta-comune",
+          "name": "Civic"
+        }
+      ]
+    },
+    {
+      "query": "Food",
+      "shown": [
+        {
+          "candidate": "true",
+          "id": "impronta-di-gusto",
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "query": "Sport",
+      "shown": [
+        {
+          "candidate": "true",
+          "id": "palette-knife-painting",
+          "name": "Palette Knife Painting"
+        },
+        {
+          "candidate": "true",
+          "id": "varsity-patch",
+          "name": "Varsity Patch"
+        },
+        {
+          "candidate": "true",
+          "id": "motion-proof",
+          "name": "Sport"
+        }
+      ]
+    },
+    {
+      "query": "Finance",
+      "shown": [
+        {
+          "candidate": "true",
+          "id": "finance-terminal",
+          "name": "Finance"
+        }
+      ]
+    },
+    {
+      "query": "Economy",
+      "shown": [
+        {
+          "candidate": "true",
+          "id": "economy-editorial",
+          "name": "Economy"
+        }
+      ]
+    },
+    {
+      "query": "Science Book",
+      "shown": [
+        {
+          "candidate": "true",
+          "id": "science-book",
+          "name": "Science Book"
+        }
+      ]
+    },
+    {
+      "query": "Space Atlas",
+      "shown": [
+        {
+          "candidate": "true",
+          "id": "space-atlas",
+          "name": "Space Atlas"
+        }
+      ]
+    },
+    {
+      "query": "Tech Mechanism",
+      "shown": [
+        {
+          "candidate": "true",
+          "id": "tech-mechanism",
+          "name": "Tech Mechanism"
+        }
+      ]
+    },
+    {
+      "query": "Eco Print",
+      "shown": [
+        {
+          "candidate": "true",
+          "id": "eco-print",
+          "name": "Eco Print"
+        }
+      ]
+    },
+    {
+      "query": "Carta Comune",
+      "shown": [
+        {
+          "candidate": "true",
+          "id": "carta-comune",
+          "name": "Civic"
+        }
+      ]
+    },
+    {
+      "query": "Geografica",
+      "shown": [
+        {
+          "candidate": "true",
+          "id": "cartographic-editorial",
+          "name": "Cartographic"
+        }
+      ]
+    }
+  ],
+  "publication": {
+    "project_id": "appgprj_6adb7b4f342881918cd48a4c247a3092",
+    "version_number": 61,
+    "version_id": "appgprj_6adb7b4f342881918cd48a4c247a3092~appgver_b2ca4e95301481919889c773b5c0adae",
+    "source_commit": "48fcf24caf49d58b199b84285459c663ecf59242",
+    "deployment_id": "appgdep_6ae370b11a48819194a017cd21d087b2",
+    "status": "succeeded",
+    "url": "https://quote-card-designer-style-gallery.vincos.chatgpt.site",
+    "updated_at": "2026-10-29T16:14:38.807292+00:00",
+    "access_mode": "custom",
+    "access_policy_revision": 1,
+    "styles": 122,
+    "images": 262,
+    "included": 50,
+    "candidates": 46,
+    "excluded": 26,
+    "local_styles": 127,
+    "local_images": 272,
+    "local_experimental": 31,
+    "preserved_other_cards": 110,
+    "preserved_non_index_files": 514,
+    "archive_content_hash": "sha256:bb2c8655bf68a7b4c537a76c4fe0f696aaff377d7fbd76f8f69f26532e6b3722",
+    "proof": "qa/candidates-v61.json",
+    "global_skill_changed": false,
+    "release_changed": false
+  },
+  "live_browser_verification": {
+    "candidates": 46,
+    "promoted": [
+      {
+        "candidate": "true",
+        "id": "cut-paper",
+        "name": "Cut Paper"
+      },
+      {
+        "candidate": "true",
+        "id": "chalkboard-design",
+        "name": "Chalkboard"
+      },
+      {
+        "candidate": "true",
+        "id": "cartographic-editorial",
+        "name": "Cartographic"
+      },
+      {
+        "candidate": "true",
+        "id": "carta-comune",
+        "name": "Civic"
+      },
+      {
+        "candidate": "true",
+        "id": "impronta-di-gusto",
+        "name": "Food"
+      },
+      {
+        "candidate": "true",
+        "id": "motion-proof",
+        "name": "Sport"
+      },
+      {
+        "candidate": "true",
+        "id": "finance-terminal",
+        "name": "Finance"
+      },
+      {
+        "candidate": "true",
+        "id": "economy-editorial",
+        "name": "Economy"
+      },
+      {
+        "candidate": "true",
+        "id": "science-book",
+        "name": "Science Book"
+      },
+      {
+        "candidate": "true",
+        "id": "space-atlas",
+        "name": "Space Atlas"
+      },
+      {
+        "candidate": "true",
+        "id": "tech-mechanism",
+        "name": "Tech Mechanism"
+      },
+      {
+        "candidate": "true",
+        "id": "eco-print",
+        "name": "Eco Print"
+      }
+    ],
+    "styles": 122
+  },
+  "live_screenshot": "civic-v61-live.png"
+}

@@ -1,6 +1,6 @@
 Design Style:
-  Name: Chalkboard Design
-  Status: Stile in prova nella gallery; non candidato V1
+  Name: "Chalkboard"
+  Status: "V1 candidate su richiesta dell’utente il 29 ottobre 2026; fuori dalla release 0.4.0"
   Concept: 'La frase è scritta a mano su una lavagna realmente usata. Il gesso fresco convive con polvere,
     veli di cancellatura, residui di segni e ripassi. La superficie conserva la storia dei gesti: una
     fotografia di pigmento friabile su una tavola opaca, con priorità alla lettura della frase.
@@ -130,7 +130,7 @@ Design Style:
     Validation Status: Due prove controllate a dimensione nativa e 320 × 400 pixel; valutazione estetica
       in attesa. Altri formati e attribuzione non provati.
 Composition Library:
-  Style Name: Chalkboard Design
+  Style Name: "Chalkboard"
   Selection:
     Basis: Scegliere un percorso di lettura e un gesto di cancellatura prevalente.
     Variation: Cambiare silhouette del testo, densità e rapporto fra gesto fresco e memoria.
