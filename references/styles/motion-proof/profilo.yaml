@@ -1,0 +1,50 @@
+Design Style:
+  Name: Motion Proof
+  Status: Approvato per la libreria il 28 ottobre 2026; selezione V1 separata
+  Concept: Il gesto si dissolve in persistenza cromatica mentre la frase resta ferma e nitida.
+  Canvas:
+    Ratio: '4:5'
+    Output: Card raster completa, testo incluso
+    Adaptation: Ricomporre frase, soggetto e spazio nel formato richiesto, senza stirare lettere o ritagliare
+      testo.
+  Color Palette:
+    Policy: palette armonica variabile, contrasto locale alto
+    Preserved Examples:
+    - limone e oltremare con corallo e azzurro
+    - petrolio e avorio con albicocca e menta
+  Typography:
+    Quote: sans serif corposo e nitido, proporzioni e kerning naturali
+    Spacing: nessun tracking o schiacciamento per riempire righe
+    Attribution: Facoltativa; solo fornita o verificata, esatta, più piccola e allineata a destra. Se
+      assente, recuperare lo spazio.
+    Signature: Solo se richiesta, distinta dall’attribuzione; registro subordinato. Nessun nome ricavato
+      dal profilo personale.
+  Imagery:
+    Treatment: nucleo fotografico a poche campiture e blur direzionale ampio
+    Motion: la scia segue il gesto, non raddoppia l'anatomia
+    Repertoire: aperto, scelto dal senso della frase
+  Layout:
+    Relation: gesto in movimento e frase stabile si rafforzano senza collisioni
+    Variable: assi, densità, scala e soggetti dipendono dalla frase
+  Production:
+    Preferred Mode: generative
+    Method: ImageGen integrato per la composizione completa, testo incluso; nessuna scritta impaginata
+      sopra un fondo generato.
+    Reference Inputs: Nessuna reference permanente. Gli input delle edit storiche sono archiviati con
+      ruolo esplicito e non diventano un requisito delle card future.
+    Validation Status: Due frasi diverse e due palette/composizioni provate e approvate. Nativi 1122×1402
+      px, quasi 4:5. Altre lunghezze, attribuzioni e formati non provati; nessun font esatto o contrasto
+      raster certificato.
+  Rules:
+  - il blur riguarda figura e traiettoria, non le lettere
+  - nessuna moltiplicazione anatomica o emblema sportivo fisso
+  - nessuna reference obbligatoria per le generazioni future
+  - nessun dato, numero, logo o testo di riempimento
+  Mood:
+  - Energico
+  - Fotografico
+  - Cinetico
+  Content Contract:
+    quotation: Testo letterale una volta, con cassa, accenti e punteggiatura conservati.
+    other_text: Nessun autore, firma, etichetta, logo o dato inventato.
+Composition Library: composizioni.yaml

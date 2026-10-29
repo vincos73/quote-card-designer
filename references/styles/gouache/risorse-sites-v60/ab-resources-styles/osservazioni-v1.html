@@ -1,0 +1,31 @@
+<!doctype html><html lang="it"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Gouache — osservazioni round 1</title><style>body{max-width:960px;margin:32px auto;padding:0 24px;background:#f5f3ee;color:#20211e;font:15px/1.65 system-ui}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit}a{color:inherit;text-underline-offset:3px}</style><a href="/ab/">← Confronti A/B</a><pre># Gouache — osservazioni round 1
+
+## Metodo effettivo
+
+Profilo e due prompt congelati il 28 ottobre 2026 alle 07:24:36 UTC, prima di generare. Hash in `frozen-v1.json`, ricontrollati dopo le immagini. Nessuna libreria compositiva separata: scelta dal Layout del profilo. A 88 parole; B 302. Ordine B→A, una chiamata ImageGen integrato per condizione, nessuna reference immagine, nessuna modifica e nessuna rigenerazione. Nessun seed dichiarato o controllato. Due nativi 1122×1402, rapporto prossimo a 4:5; preview 320×400 con sips, nessun ritocco.
+
+## Controlli osservati
+
+| Criterio | A semplice | B profilo |
+| --- | --- | --- |
+| Testo letterale | `La curiosità cambia il colore delle cose.` presente una volta, maiuscola iniziale, accento grave e punto corretti, nessuna scritta aggiunta | Stessa frase corretta una volta; caso, accento e punto conservati, nessuna scritta aggiunta |
+| Lettura 320×400 | Frase chiara in tre righe, contrasto avorio/rosa su verde buono; la riga centrale più fitta ma leggibile | Frase chiara e molto grande; rosa su verde mantiene contrasto. Il blocco arriva vicino ai margini laterali ma non è tagliato |
+| Tecnica | Opacità, campiture coperte, segni pittorici leggibili. Il verde di fondo è molto uniformemente materico; alcuni segni e il dettaglio minuto evocano anche pittura a olio, senza rilievo forte | Strati piatti coprenti e bordi manuali più leggibili; leggero spessore simulato nel giallo, senza diventare impasto. Qualche segno del lettering molto levigato, ma non sembra watercolor o pastel |
+| Relazione disegno/frase | Finestra come vista su giardino luminoso, evocazione diretta della curiosità; visual prevalentemente separato sotto il testo | Finestra origina un campo giallo che raggiunge `colore`; la parola rosa nel verde lega testo e trasformazione cromatica |
+| Creatività | Una soluzione autonoma competente, ricca e piacevole; non è un controllo deliberatamente povero | Relazione compositiva specifica riconoscibile e motivata dalla frase, con meno oggetti; vantaggio semantico osservabile senza contare il numero di dettagli |
+| Fedeltà al soggetto e palette | Finestra grande rispetto alla richiesta di un piccolo soggetto; paesaggio e fiori aggiunti, azzurro del paesaggio fuori palette | Finestra secondaria e piccola rispetto al testo; quattro colori richiesti rispettati visivamente |
+| Utilità social | Lettura rapida ma illustrazione ricca occupa circa metà card | Testo e relazione del colore leggibili in piccolo, comunicazione più concentrata |
+
+## Esito dell&#x27;autore, da sottoporre al revisore cieco
+
+B mostra in questa coppia una relazione semantica più leggibile fra oggetto, campitura e parola rispetto ad A. A conserva un&#x27;esecuzione pittorica valida e un&#x27;atmosfera più narrativa; non è inferiore in ogni dimensione. Le deviazioni principali di A sono dimensione del soggetto e aggiunta dell&#x27;azzurro, non errori di testo. B non dimostra unicità assoluta: il raggio dalla finestra e il cambio di colore sono metafore accessibili anche a un buon prompt generico. Il contributo osservabile del profilo è la loro integrazione con una gerarchia deliberata e un repertorio più disciplinato.
+
+Il confronto non isola lunghezza, singole istruzioni o casualità del generatore. Nessuna conclusione su engagement, stampa fisica o ripetibilità. La stessa coppia non è ancora stata provata con un&#x27;altra frase/palette. Nessun round 2 senza l&#x27;esito della revisione separata.
+
+## Provenienza nativi
+
+- B: `[provenienza conservata nel progetto]`
+- A: `[provenienza conservata nel progetto]`
+
+Percorsi di provenienza solo nelle note di sviluppo, non nel profilo portabile.
+</pre></html>

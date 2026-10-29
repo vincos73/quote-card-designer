@@ -1,0 +1,25 @@
+Composition Library:
+  Style Name: Carta Comune / Segni abitati
+  Selection:
+    Basis: Scegliere soggetto e struttura dal significato della frase, dai gruppi di senso e dal formato.
+    Variation: Le famiglie sono repertorio aperto, non layout fissi. Variare masse, assi e tagli oltre
+      alla palette.
+  Families:
+  - id: inhabited-passage
+    Name: Passaggio abitato
+    Use When: Il testo parla di accesso, regole, soglie o diritti.
+    Structure: Un segno aperto offre un percorso interno alle figure; frase e spazio negativo condividono
+      il campo.
+    Text Adaptation: A capo per gruppi di senso e larghezze naturali. Risolvere ingombri muovendo il visual
+      o scalando il blocco uniformemente; nessun tracking o compressione per pareggiare righe.
+    Format Adaptation: Ricomporre le masse per il rapporto richiesto; non ritagliare semplicemente l’esempio.
+      Attribuzione eventuale su un asse destro leggibile.
+  - id: shared-field
+    Name: Campo di parola
+    Use When: Il testo parla di ascolto, partecipazione o relazione pubblica.
+    Structure: Due forme o superfici in dialogo inquadrano il campo della frase; le figure rendono percepibile
+      lo scambio.
+    Text Adaptation: A capo per gruppi di senso e larghezze naturali. Risolvere ingombri muovendo il visual
+      o scalando il blocco uniformemente; nessun tracking o compressione per pareggiare righe.
+    Format Adaptation: Ricomporre le masse per il rapporto richiesto; non ritagliare semplicemente l’esempio.
+      Attribuzione eventuale su un asse destro leggibile.

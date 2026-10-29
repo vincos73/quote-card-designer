@@ -1,0 +1,233 @@
+Design Style:
+  Name: Dirty Brutalism
+  Status: Incluso nel catalogo V1 il 26 ottobre 2026
+  Concept: 'Una costruzione editoriale severa incontra la materia della stampa povera: tipografia condensata
+    massiccia, neri profondi, carta vissuta e fotografie trasformate in masse da fotocopia. Tagli bruschi,
+    polvere d''inchiostro e un accento cromatico concentrato creano tensione senza compromettere la lettura
+    della citazione. La grana appartiene alle superfici e ai passaggi tonali, mentre la gerarchia rimane
+    decisa e intenzionale.
+
+    '
+  Reference Basis:
+    Transfer: 'Trasferire la densità del nero, il contrasto della fotografia riprodotta, la tipografia
+      stretta e pesante, la carta opaca segnata e il dialogo tra griglia editoriale e intrusioni ruvide
+      di materia o colore.
+
+      '
+    Reinvention: 'Scegliere immagini, ritagli, palette e relazione con il testo in base alla frase. Non
+      importare titoli, ideogrammi, date, coordinate, numeri, nomi di studio, marchi, codici a barre o
+      l''impaginato della reference.
+
+      '
+    Operational References: 'La reference serve al confronto iniziale e non è un asset da allegare automaticamente.
+      Il profilo deve funzionare anche come descrizione scritta.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: Una quote card editoriale piatta, verticale e a piena pagina
+    Adaptation: 'Ricomporre testo, ritaglio e zone di densità per il rapporto richiesto. Il formato verticale
+      dei poster di riferimento non impone strisce strette.
+
+      '
+  Mood:
+  - Crudo
+  - Assertivo
+  - Tattile
+  - Urbano
+  - Sperimentale
+  - Editoriale
+  Color Palette:
+    Starting Colors:
+      Paper: '#EAE6DC'
+      Ink: '#111211'
+      Accent: '#F45326'
+    Roles: 'Carta e inchiostro scuro sostengono le masse principali e possono invertirsi. Scegliere un
+      solo accento dominante, confinato a un bordo, una soglia o un passaggio della composizione. Il colore
+      può emergere come inchiostro granuloso o bagliore riprodotto in stampa, mai come illuminazione tridimensionale
+      dell''intero poster.
+
+      '
+    Variation: 'I colori iniziali sono sostituibili. Una versione monocroma resta possibile se contrasto,
+      densità e materia conservano il linguaggio.
+
+      '
+    Contrast: 'Ricavare una zona stabile di carta chiara o nero pieno per la frase. Non sovrapporre piccoli
+      caratteri a macerie, polvere o contorni fotografici.
+
+      '
+  Typography:
+    Quote:
+      Style: Grotesk condensata o stretta nativa, bold o black, con controforme aperte
+      Treatment: 'Usare una sola famiglia coerente e a capo per gruppi di senso. Preservare esattamente
+        maiuscole, minuscole, accenti e punteggiatura del testo fornito. La reference non autorizza a
+        convertire tutta la frase in maiuscolo. Il disegno condensato è nativo, non ottenuto schiacciando
+        una riga per farla entrare.
+
+        '
+      Hierarchy: 'Una massa tipografica principale e poche variazioni motivate. La citazione resta più
+        forte dei dettagli della fotografia e dei segni fini. Le lettere possono avere un lieve morso
+        di stampa, senza perdere accenti, punteggiatura o continuità delle aste.
+
+        '
+    Attribution:
+      Style: Sans sobria o monospace leggibile, più piccola e leggera della citazione
+      Placement: 'Allineare a destra su un asse chiaro e con contrasto stabile. Mostrare solo un nome
+        fornito o verificato; ometterlo e recuperare lo spazio quando assente. Una firma personale richiesta
+        resta distinta.
+
+        '
+    Spacing: 'Conservare proporzioni naturali, kerning ottico e spazi fra parole riconoscibili. Lasciare
+      aria per gli accenti anche in un blocco serrato. Spostare immagine e grana prima di ridurre eccessivamente
+      la frase.
+
+      '
+  Layout:
+    Construction: 'Una griglia invisibile coordina testo e fotografia, mentre un ritaglio netto, una fascia
+      di carta o una discontinuità d''inchiostro la mette in tensione. Scegliere una relazione principale,
+      non sommare cornici, immagini, reticoli e simboli da ogni poster di riferimento.
+
+      '
+    Relationship: 'La fotografia condivide un bordo, una direzione o una soglia con il blocco della frase.
+      Il testo è parte della costruzione, non una piccola didascalia sotto una foto autonoma. Usare il
+      vuoto per regolare la densità.
+
+      '
+    Density: 'Alternare una massa scura o materica dominante e un campo di lettura stabile. Lasciare un
+      margine di rispetto visibile fra il blocco della citazione e ogni ritaglio fotografico: non farli
+      toccare né sovrapporre. Con testi lunghi ridurre l''invasione fotografica e i segni accessori, mantenendo
+      un contrasto netto.
+
+      '
+  Imagery:
+    Treatment: 'Fotografia ad alto contrasto, quasi monocroma, riprodotta come xerografia, stampa consumata
+      o retino grossolano. Contorni scelti e ombre chiuse formano masse chiare; grana e perdita tonale
+      non devono cancellare completamente il soggetto.
+
+      '
+    Repertoire:
+    - Architetture, frammenti costruiti e materiali segnati
+    - Dettagli naturali, superfici e oggetti con forma forte
+    - Figure o parti del corpo solo quando pertinenti al contenuto
+    Selection: 'Scegliere il soggetto in base alla frase e al contesto, senza rendere obbligatori cemento,
+      occhi, mani, pianeti o fiori. Usare un''immagine principale e pochi tagli coerenti; un disturbo
+      serve a una relazione, non nasconde un soggetto casuale.
+
+      '
+  Graphic Elements:
+    Repertoire:
+    - Filetti sottili legati a un asse o a un taglio effettivo
+    - Una croce di registro o un segno geometrico essenziale, facoltativi
+    - Fasce di carta o maschere con bordi netti
+    - Interruzioni, giunte e abrasioni selettive dell'inchiostro
+    Restraint: 'Non riempire i margini con segni tecnici. Le linee non fingono misure o dati. Nessun numero
+      seriale, pseudoalfabeto, etichetta o microtesto di riempimento è necessario per riconoscere lo stile.
+
+      '
+  Effects:
+    Surface: Carta opaca avorio o nera, polvere, fibre e segni di riproduzione selettivi
+    Image: Neri chiusi, mezzitoni ruvidi e ritagli fotografici netti
+    Color: Accento concentrato con dispersione granulosa e margine imperfetto
+    Typography: Inchiostro solido; abrasione minima lontana da accenti e segni fini
+    Depth: Collage e riproduzione sullo stesso piano, senza ombre portate
+    Exclusions: Niente lucido digitale, neon, plastiche 3D o grunge uniforme sopra ogni elemento
+  Content Contract:
+    quotation: Testo integrale e letterale una sola volta; nessuna conversione automatica del maiuscolo.
+    author: Solo attribuzione fornita o verificata, subordinata e allineata a destra.
+    other_text: 'Non riprodurre le scritte della reference. Nessun ideogramma decorativo, coordinata,
+      data, numero, codice a barre, logo o microtesto inventato.
+
+      '
+  Rules:
+  - La gerarchia è netta anche quando il materiale è ruvido.
+  - La citazione resta il primo messaggio da leggere, completa e leggibile da mobile.
+  - La grana modula fotografia e campiture senza rovinare il testo.
+  - Conservare grana e segni sulle superfici, lasciando un margine netto fra frase e fotografia.
+  - Scegliere una relazione principale fra testo, immagine e accento cromatico.
+  - Distinguere nero pieno, carta e mezzitoni; non appiattire tutto in una nebbia grigia.
+  - Non copiare soggetti, scritte o impaginati della reference.
+  User Overrides:
+    Palette: Sostituire accento, carta e inchiostro mantenendo ruoli e contrasto.
+    Format: Ricomporre masse e ritagli per il rapporto richiesto.
+    Fonts: Rispettare la direzione richiesta e conservare peso, leggibilità e proporzioni naturali.
+    Subject: Usare il soggetto richiesto, trattandolo con la materia di riproduzione dello stile.
+  Production:
+    Preferred Mode: Generativo con eventuale rifinitura tipografica
+    Validation Status: 'Profilo YAML e tre famiglie compositive validati. Due prove native sulla stessa
+      frase, con e senza reference, conservano testo e gerarchia e rendono riconoscibili grana, neri e
+      fotografia xerografica. Il confronto non dimostra un vantaggio indispensabile delle reference. Non
+      ancora provato su frasi diverse, testi lunghi o preferenze modificate.
+
+      '
+Composition Library:
+  Style Name: Dirty Brutalism
+  Selection:
+    Basis: 'Scegliere una relazione principale tra frase, immagine riprodotta e densità d''inchiostro
+      in base al contenuto, al formato e ai nomi presenti. Trasmettere al generatore soltanto la famiglia
+      scelta e gli adattamenti.
+
+      '
+    Variation: 'Cambiare relazione spaziale, soggetto e ritaglio nelle nuove composizioni. Per una revisione
+      mirata mantenere invece il campo già accettato.
+
+      '
+  Families:
+  - id: material-threshold
+    Name: Soglia materica
+    Use When: 'Una frase breve o media può prendere forza dalla vicinanza a una massa fotografica tagliata
+      che suggerisce costruzione, passaggio o scelta.
+
+      '
+    Structure: 'La citazione occupa un campo stabile lungo una soglia condivisa con la fotografia. Il
+      ritaglio entra a vivo da un margine e lascia una zona di carta o nero pieno leggibile. Un accento
+      granuloso evidenzia un passaggio, senza diventare uno sfondo uniforme per il testo.
+
+      '
+    Text Adaptation: 'Definire gli a capo prima del ritaglio. Con un testo lungo allargare il campo di
+      lettura e ridurre la massa, mantenendo un solo bordo attivo. Recuperare lo spazio dei nomi quando
+      assenti.
+
+      '
+    Format Adaptation: 'Scegliere direzione e margine della soglia per il nuovo formato. Mantenere un''area
+      continua per la frase e un frammento fotografico riconoscibile invece di ritagliare l''impaginato
+      precedente.
+
+      '
+  - id: sliced-image
+    Name: Immagine interrotta
+    Use When: 'Una frase compatta beneficia di frattura, ripensamento o cambio di prospettiva e può mantenersi
+      leggibile su un campo continuo.
+
+      '
+    Structure: 'Tagliare una singola immagine in pochi frammenti con uno scarto controllato. Il vuoto
+      della frattura o un margine condiviso accoglie il testo. La discontinuità interessa l''immagine,
+      non spezza le parole.
+
+      '
+    Text Adaptation: 'Conservare il blocco della frase e ridurre frammenti e scarti quando il testo si
+      allunga. Nessuna parola funzionale viene isolata per infilarsi tra ritagli troppo stretti.
+
+      '
+    Format Adaptation: 'Ricalibrare direzione del taglio e posizione della pausa per il rapporto richiesto;
+      non ripetere una sequenza di strisce identiche.
+
+      '
+  - id: ink-field
+    Name: Campo d'inchiostro
+    Use When: 'Il contenuto richiede un impatto prevalentemente tipografico oppure un testo ampio beneficia
+      di un campo stabile senza fotografia centrale.
+
+      '
+    Structure: 'La frase forma una massa dominante contro una campitura di carta o nero. Una dispersione
+      d''inchiostro o un frammento materico preme da un bordo, legato a un allineamento del blocco. Pochi
+      segni fini possono rendere leggibile la tensione fra griglia e materia.
+
+      '
+    Text Adaptation: 'Ricomporre il campo in base agli a capo e all''eventuale attribuzione. Ridurre la
+      dispersione prima del corpo tipografico e mantenere interi accenti, controforme e segni di punteggiatura.
+
+      '
+    Format Adaptation: 'Nel nuovo rapporto scegliere bordo attivo e direzione della densità, conservando
+      un campo di lettura continuo e uno stacco di luminanza netto.
+
+      '

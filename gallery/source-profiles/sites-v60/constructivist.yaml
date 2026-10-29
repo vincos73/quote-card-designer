@@ -1,0 +1,206 @@
+Design Style:
+  Name: Constructivist
+  Concept: 'La frase diventa una costruzione dinamica di tipografia, piani e direzioni. Grandi blocchi
+    verbali, geometrie essenziali e, quando pertinente, frammenti fotografici costruiscono un manifesto
+    asimmetrico, incisivo e immediato. Una reinterpretazione contemporanea della grammatica grafica costruttivista,
+    non una riproduzione storica o un manifesto di propaganda.
+
+    '
+  Canvas:
+    Ratio: '4:5'
+    Output: Card raster completa, verticale, a piena pagina
+    Adaptation: Ricomporre assi, masse e a capo per altri rapporti senza stirare i glifi.
+  Mood:
+  - Energico
+  - Costruito
+  - Asimmetrico
+  - Incisivo
+  - Essenziale
+  - Materico
+  Color Palette:
+    Fixed Colors: false
+    Strategy: 'Pochi inchiostri netti su un fondo carta. La base rosso, nero e carta calda è sostituibile
+      con altre tinte mantenendo i ruoli di fondo, massa scura e accento direzionale. Il giallo o un secondo
+      accento è facoltativo; non imporre il rosso a una palette scelta dall''utente.
+
+      '
+    Starting Colors:
+      Paper: '#EFE4CB'
+      Black: '#171714'
+      Red: '#C72A20'
+      Optional Yellow: '#D5A92C'
+    Alternatives: Blu profondo e nero su carta; verde petrolio e nero su carta chiara.
+  Typography:
+    Quote:
+      Style: 'Lettere latine sans serif, grotesk o geometriche a blocco, con peso deciso. Un disegno condensato
+        coerente è possibile; nessuna garanzia di una famiglia commerciale specifica nel risultato generato.
+
+        '
+      Hierarchy: 'Pochi gruppi di senso con differenze motivate di corpo e peso. La frase resta una sequenza
+        univoca anche quando ruotano i supporti. Fasce e piani si adattano al testo, senza trasformare
+        le lettere in cunei.
+
+        '
+      Integrity: 'Conservare esattamente parole, cassa, accenti e punteggiatura, una volta sola. Non convertire
+        automaticamente in maiuscolo. Proporzioni naturali dei glifi, kerning ottico e spazi fra parole
+        chiari. Nessun tracking arbitrario, giustificazione forzata o deformazione locale per occupare
+        una riga. Inclinare un blocco è diverso dal distorcerlo.
+
+        '
+      Long Text: 'Ridurre numero e complessità dei vettori e dei frammenti prima di ridurre il corpo.
+        Usare gruppi più distesi e pause; non comprimere una citazione lunga nel medesimo impaginato di
+        una frase breve.
+
+        '
+    Attribution: 'Facoltativa, solo fornita o verificata. Registro sans serif più piccolo e leggero ma
+      leggibile, con margine finale allineato a destra su un asse chiaro. Non occupare una fascia dedicata
+      se manca l''autore.
+
+      '
+    Signature: Solo richiesta esplicitamente, distinta dall'attribuzione.
+  Layout:
+    Shared Structure: 'Asimmetria costruita attraverso rapporti di scala, contrappesi e pochi assi riconoscibili.
+      Una direzione prevalente guida la lettura; diagonali, fasce e cunei agiscono come vettori, non come
+      decorazione casuale. Alternare masse dense e campi di carta che danno respiro.
+
+      '
+    Text And Image: 'Testo, geometrie e immagini formano una sola architettura. La frase è la prima lettura.
+      Usare contrasto locale netto, intervalli chiari e bordi che non taglino tratti o simulino lettere
+      aggiuntive.
+
+      '
+    Scale: 'Grandi elementi possono uscire dal formato, il testo necessario no. La forza del manifesto
+      dipende dalle relazioni, non dalla somma di molti simboli né dal riempimento di ogni spazio libero.
+
+      '
+  Graphic Elements:
+    Repertoire: 'Cunei, dischi o cerchi parziali, rettangoli, barre, fasce, raggi e segmenti. Scegliere
+      un insieme limitato coerente con la frase; non imporre cerchio e triangolo in ogni card.
+
+      '
+    Function: Orientare, separare registri, costruire contrappesi e rendere visibile un'azione.
+    Not Required: Ingranaggi, fari, martelli, operai, pugni e figure che gridano non definiscono lo stile.
+  Imagery:
+    Optional: true
+    Selection: 'Scegliere soggetto e metafora dalla frase e dal contesto. La variante astratta può fare
+      a meno di fotografie. Il fotomontaggio può usare un oggetto, un gesto, una parte del corpo o uno
+      spazio, senza un soggetto fisso.
+
+      '
+    Photomontage: 'Frammenti fotografici originali o autorizzati, ritagliati con decisione, monocromi
+      e ad alto contrasto. Inquadrature dall''alto, dal basso o oblique possono cambiare la percezione.
+      Scala, taglio e giustapposizione rendono evidente il montaggio, senza fingere una scena fotografica
+      continua.
+
+      '
+    Independence: 'Non richiedere immagini di riferimento permanenti. Gli esempi orientano grammatica
+      e materiali, non identità, soggetti o impaginati.
+
+      '
+  Effects:
+    Surface: Carta non patinata leggermente calda, fibra discreta, inchiostri opachi a campitura piatta.
+    Print: 'Piccole irregolarità di assorbimento e grana localizzate. Retino fotografico facoltativo nel
+      fotomontaggio. Il lieve vissuto del supporto resta subordinato; niente falso reperto con macchie
+      e strappi obbligatori.
+
+      '
+    Depth: Profondità ottenuta da sovrapposizione, scala e direzione, senza ombre 3D o lettere estruse.
+  Content Contract:
+    quotation: Frase integrale esatta una volta sola, nell'ordine originale.
+    author: Solo fornito o verificato, più piccolo e allineato a destra.
+    other_text: Nessun testo aggiuntivo, numero, data, marchio, emblema o credito inventato.
+  Rules:
+  - Progettare la gerarchia della frase prima di moltiplicare le geometrie.
+  - Usare una direzione dominante e contrappesi, non una diagonale identica per tutte le card.
+  - Scegliere soggetti e colori in base alla richiesta, preservando relazioni e contrasto.
+  - Mantenere lettere proporzionate e spaziatura naturale anche su fasce oblique.
+  - Trasferire la grammatica dei manifesti senza copiarne fotografia, testo o impaginato.
+  Exclusions:
+  - Pseudo-cirillico o sostituzioni di lettere latine con caratteri simili
+  - Propaganda, ritratti storici, emblemi e simboli politici introdotti automaticamente
+  - Riproduzione di manifesti celebri o dei soggetti delle reference
+  - Date, titoli di eventi, timbri, crediti e numeri ornamentali inventati
+  - Grunge uniforme, gradienti, cromature, ombre tridimensionali o finto rilievo
+  - Lettere allungate, compresse o spaziate per pareggiare una fascia
+  Production:
+    Preferred Mode: generative
+    Method: ImageGen genera l'intera composizione, inclusa tipografia, geometrie e immagini.
+    Validation: Verificare testo letterale, lettere, contrasto e sequenza a formato nativo e alla scala
+      di fruizione.
+  Status: V1 candidate richiesta dall’utente il 28 ottobre 2026
+Composition Library:
+  Style Name: Constructivist
+  Selection:
+    Basis: 'Scegliere una relazione fra contenuto e costruzione. Una frase d''azione può seguire un vettore;
+      un cambio di punto di vista può emergere da un montaggio; un contenuto articolato può richiedere
+      moduli più ortogonali.
+
+      '
+    Variation: 'Variare asse dominante, rapporto fra pieni e vuoti, presenza della fotografia e gerarchia
+      dei gruppi. Conservare la struttura scelta nelle revisioni locali. Le famiglie non fissano palette
+      né soggetti.
+
+      '
+  Families:
+  - id: diagonal-construction
+    Name: Costruzione diagonale
+    Use When: Una frase breve o media ha un gruppo d'azione da mettere in risalto.
+    Structure: 'Una fascia obliqua principale ospita il gruppo dominante. Blocchi secondari si ancorano
+      a piani più quieti; pochi contrappesi geometrici creano movimento e una sequenza univoca senza invadere
+      le lettere.
+
+      '
+    Text Adaptation: 'Dividere per senso. Il blocco può ruotare come insieme ma le lettere mantengono
+      le proprie proporzioni; lasciare finali di riga naturali.
+
+      '
+    Format Adaptation: 'Cambiare ampiezza e inclinazione della fascia e ricollocare i contrappesi. Non
+      scalare diversamente larghezza e altezza del testo.
+
+      '
+  - id: photographic-counterweight
+    Name: Fotomontaggio e contrappeso
+    Use When: Un oggetto, un gesto o uno spazio può rendere concreta la frase.
+    Structure: 'Un ritaglio fotografico dominante occupa un settore asimmetrico e dialoga con grandi blocchi
+      verbali su carta e campiture. Un asse fotografico e un vettore grafico si sostengono o si contrastano;
+      gli intervalli preservano la lettura e rendono visibile il montaggio.
+
+      '
+    Text Adaptation: 'Ordinare pochi gruppi chiari. Foto e bordi cedono spazio alle parole, senza deformare
+      il registro tipografico per aggirare il soggetto.
+
+      '
+    Format Adaptation: 'Cambiare taglio e scala del frammento e distribuire i blocchi sul nuovo formato.
+      Non schiacciare foto o lettere.
+
+      '
+  - id: radial-field
+    Name: Campo radiale
+    Use When: Il testo suggerisce diffusione, apertura, collegamento o concentrazione.
+    Structure: 'Un punto di origine decentrato organizza pochi raggi e piani di diversa ampiezza. Il testo
+      segue una progressione leggibile fra campi larghi, con un contrappeso calmo fuori dal fascio.
+
+      '
+    Text Adaptation: 'I raggi sostengono parole intere e gruppi, non dilatano le singole lettere verso
+      l''esterno. Evitare la rotazione di ogni riga su un asse diverso.
+
+      '
+    Format Adaptation: 'Spostare l''origine e variare apertura e numero dei settori in base al rapporto.
+      Lasciare carta libera e mantenere il testo dentro i margini.
+
+      '
+  - id: modular-tension
+    Name: Moduli in tensione
+    Use When: Una frase più lunga richiede registri ordinati e un ritmo meno obliquo.
+    Structure: 'Blocchi prevalentemente ortogonali di scala differente costruiscono una struttura asimmetrica.
+      Un solo elemento inclinato interrompe il ritmo e raccorda i gruppi, con o senza un frammento fotografico.
+
+      '
+    Text Adaptation: 'Distribuire la frase in unità sintattiche con a capo naturali e pochi corpi coerenti.
+      Non giustificare a tutta larghezza ogni modulo.
+
+      '
+    Format Adaptation: 'Aumentare o ridurre il numero di fasce e lo spazio fra moduli, preservando percorso,
+      proporzioni dei caratteri e contrasto locale.
+
+      '

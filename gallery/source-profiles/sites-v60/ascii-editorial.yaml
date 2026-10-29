@@ -1,0 +1,149 @@
+Design Style:
+  Name: ASCII Editorial
+  Status: Incluso nel catalogo V1 il 26 ottobre 2026
+  Concept: 'A recognizable figurative image is built from a coherent field of printable monospace characters.
+    At reading distance the signs form a subject, light, shadow and depth; closer inspection reveals individual
+    punctuation and letterforms. A large, clean quotation shares the composition with that figure while
+    retaining its own clear reading register.
+
+    '
+  Canvas:
+    Ratio: '4:5'
+    Output: One flat finished editorial quote card
+    Adaptation: Recompose the subject, glyph field and quotation for each format.
+  Mood:
+  - Computational
+  - Editorial
+  - Quiet
+  - Figurative
+  - Precise
+  - Tactile
+  Color Palette:
+    Fixed Colors: false
+    Structure: 'Choose one calm ground, a high-contrast quotation ink and one figurative character ink.
+      A monochrome or inverted version is valid. Select colour independently of references; do not make
+      green, purple or black mandatory.
+
+      '
+    Test Palette:
+      Paper: '#F3EFE6'
+      Quote: '#171816'
+      Glyphs: '#171816'
+  Typography:
+    Quotation:
+      Style: Bold monospaced typewriter or grotesk mono with natural, readable letterforms
+      Role: The complete quotation, dominant and immediately readable
+    Image Characters:
+      Style: Recognizable monospace printable glyphs with coherent local rows and spacing
+      Alphabet: ' .,:;+-=*/|#%@'
+      Role: Graphic cells that construct the figurative image, not extra verbal content
+    Hierarchy: 'The quotation is substantially larger than the image characters. Keep individual image
+      signs recognizable at native detail, rather than letting them dissolve into generic dots. Do not
+      encode the quotation into the image.
+
+      '
+    Attribution: 'If supplied, preserve it exactly in a smaller and quieter register, readable and aligned
+      on a clear right edge. If absent, recover the space.
+
+      '
+  Layout:
+    Invariants:
+    - One recognizable subject or pictorial relationship made from characters
+    - A coherent monospaced character logic and consistent scale, adaptable to the figure
+    - Variation of glyph density or glyph weight to describe tone and form
+    - A dominant quotation with clear space immediately behind every letter
+    - A shared spatial relationship between the figurative field and the text
+    Integration: 'The character field can approach, frame, cross beside or open around the quotation''s
+      area. It should help define the same page rather than becoming an unrelated picture above a caption.
+      Keep the reading sequence continuous even when the visual is large or cropped. Design the quiet
+      space as an opening in the figurative construction; avoid defaulting to a large title stacked over
+      a complete isolated illustration.
+
+      '
+    Variation: 'Choose a new subject, crop, orientation, scale and image/text relationship for the phrase.
+      Trees, flowers, leaves, mountains and sculptural objects are examples, not recurring mandatory emblems.
+
+      '
+  Imagery:
+    Subject: Selected from the quotation, context or explicit user preference
+    Construction: 'Build the entire image from discrete printable characters. Dense @, # and % signs may
+      describe darker regions; commas, periods, colons and open cells describe lighter passages. Keep
+      the glyph size nearly constant and vary occupancy and character weight instead of drawing smooth
+      shading.
+
+      '
+    Grid: 'Related rows, advances and line spacing remain visible on close inspection. Local alignments
+      may follow the figure without becoming an exact global mathematical grid. Avoid making a rigid checkerboard
+      the visual subject. A background grid is optional, subordinate and never mandatory.
+
+      '
+    Edges: 'Let the subject dissolve through sparse character occupancy and open cells. Avoid a smooth
+      photographic cutout covered by decorative type.
+
+      '
+  Effects:
+    Surface: Flat print, optional restrained fine paper grain
+    Depth: Described through the character field, without solid 3D rendering beneath it
+    Character Quality: Discrete, sharp glyph silhouettes; avoid smearing and generic stippling
+  Content Contract:
+    Quotation: Verbatim, complete, once, with original capitalization and punctuation
+    Image Signs: Nonverbal graphic texture drawn from a small printable alphabet
+    Supporting Content: Only supplied words, data, attribution or signature
+  Rules:
+  - Make the figurative image from recognizable monospace characters.
+  - Keep character scale and local row relationships coherent without imposing a rigid mathematical matrix.
+  - Use bold monospace for the quotation; avoid a high-contrast editorial serif.
+  - Keep the entire quotation prominent and clear of character collisions.
+  - Distinguish image characters from invented subtitles, codes or factual data.
+  - Vary subject and composition with the meaning of the phrase.
+  - Do not substitute square pixels, checkerboards, halftone dots or geometric icons for characters.
+  - Do not reproduce reference QR codes, logos, names, watermarks or compositions.
+  - Do not claim an editable ASCII text file from a generated raster image.
+  Validation:
+    Tested: One phrase, a monochrome character-built tree and an opening within the figure
+    Requirement: Inspect the native image to confirm that characters are individually recognizable.
+    Limit: Image generation may approximate glyphs and cell alignment; report observed limits explicitly.
+  Reference Policy: 'Images were used as visual calibration for the current example. The profile is self-contained
+    and does not require external reference files. Transfer character construction and spatial relationships,
+    not exact subjects, reference wording or composition.
+
+    '
+Composition Library:
+  Style Name: ASCII Editorial
+  Selection:
+    Basis: Choose a figurative subject and a spatial relationship that enrich the meaning of the phrase.
+    Variation: Change subject, crop, scale, orientation and quiet opening; never apply all families at
+      once.
+  Families:
+  - id: figure-and-opening
+    Name: Figura e apertura editoriale
+    Use When: A phrase can share the page with one distinct pictorial subject.
+    Structure: 'A large character-built figure opens a quiet field for the quotation. Part of the figure
+      continues beside the words, connecting image and reading area into one asymmetrical composition.
+
+      '
+    Text Adaptation: Expand the opening for longer text and move or reduce the figure before shrinking
+      the quote.
+    Format Adaptation: Recompose the opening, figure direction and text footprint for the requested ratio.
+  - id: cropped-study
+    Name: Studio figurativo al margine
+    Use When: A close crop can emphasize material, scale or a change of viewpoint.
+    Structure: 'A recognizable character-built subject is deliberately cropped by a page edge. Its sparse
+      boundary and active mass define the quotation''s position without invading letters or becoming a
+      framed image panel.
+
+      '
+    Text Adaptation: Use semantic line breaks and retain a continuous quotation block with strong local
+      contrast.
+    Format Adaptation: Change crop and subject scale to preserve recognition and useful reading space.
+  - id: inversion-field
+    Name: Figura in inversione
+    Use When: A phrase benefits from a large dark or coloured field and a luminous figurative image.
+    Structure: 'Light printable characters construct the subject against a dark ground. Density shifts
+      leave substantial quiet areas for a coherent quotation, with the visual continuing alongside at
+      least part of it.
+
+      '
+    Text Adaptation: Keep all words in an even local field and vary the image density at the block boundary.
+    Format Adaptation: Rebalance dark mass, open cells and quotation area rather than cropping a fixed
+      poster.

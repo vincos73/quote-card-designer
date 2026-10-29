@@ -1,0 +1,23 @@
+Composition Library:
+  Style Name: Stencil Print
+  Selection:
+    Basis: Una relazione tra maschere, intervalli e senso della frase.
+    Variation: Variare gruppi, direzione e soggetti; nessun intervallo o ritmo obbligatorio per ogni frase.
+  Families:
+    - id: ritmo-interrotto
+      Name: Interrupted Rhythm
+      Use When: La frase riguarda tempo, pausa, ripetizione o un cambiamento di cadenza.
+      Structure: >
+        La ripetizione misurata di pochi segni o intervalli prepara una pausa
+        intenzionale. Il piccolo soggetto si lega a quel vuoto; il testo resta
+        dominante e la pausa ha funzione leggibile nella struttura.
+      Text Adaptation: Gruppi di senso integri e ordine naturale, senza simulare lettere mancanti.
+      Format Adaptation: Modulare cadenza e intervallo in base a lunghezza e formato.
+    - id: apertura-attiva
+      Name: Active Opening
+      Use When: La frase riguarda possibilità, spazio, regole o attraversamento.
+      Structure: >
+        Campi da maschere lasciano un intervallo legato al significato; piccolo
+        disegno e frase condividono quel margine, senza diventare collage.
+      Text Adaptation: Lettere e controforme protette, aperture fuori dalle parole necessarie.
+      Format Adaptation: Variare quantità e orientamento dei campi, non copiare il test.

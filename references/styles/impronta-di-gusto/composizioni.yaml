@@ -1,0 +1,25 @@
+Composition Library:
+  Style Name: Impronta di gusto
+  Selection:
+    Basis: Scegliere soggetto e struttura dal significato della frase, dai gruppi di senso e dal formato.
+    Variation: Le famiglie sono repertorio aperto, non layout fissi. Variare masse, assi e tagli oltre
+      alla palette.
+  Families:
+  - id: rising-section
+    Name: Sezione crescente
+    Use When: Una massa alimentare può accompagnare una frase raccolta su un lato.
+    Structure: La sezione cresce da un bordo e il blocco testuale ne segue il respiro senza curvare le
+      lettere.
+    Text Adaptation: A capo per gruppi di senso e larghezze naturali. Risolvere ingombri muovendo il visual
+      o scalando il blocco uniformemente; nessun tracking o compressione per pareggiare righe.
+    Format Adaptation: Ricomporre le masse per il rapporto richiesto; non ritagliare semplicemente l’esempio.
+      Attribuzione eventuale su un asse destro leggibile.
+  - id: open-ingredient
+    Name: Ingrediente aperto
+    Use When: Il senso suggerisce scoperta, curiosità o un interno da rivelare.
+    Structure: La massa incisa occupa un polo della pagina e apre intervalli verso la frase, collocata
+      su un asse differente.
+    Text Adaptation: A capo per gruppi di senso e larghezze naturali. Risolvere ingombri muovendo il visual
+      o scalando il blocco uniformemente; nessun tracking o compressione per pareggiare righe.
+    Format Adaptation: Ricomporre le masse per il rapporto richiesto; non ritagliare semplicemente l’esempio.
+      Attribuzione eventuale su un asse destro leggibile.

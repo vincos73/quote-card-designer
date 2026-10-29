@@ -1,0 +1,191 @@
+Design Style:
+  Name: Glyph Terrain
+  Concept: 'Irregular color territories meet along stepped borders. Tiny numerals and typographic signs
+    form a second, restless layer that crosses those borders and changes density from zone to zone. The
+    quotation occupies a deliberate clearing inside the terrain, large enough to read first. Each card
+    invents a new map of color, texture and clear space rather than repeating a fixed silhouette.
+
+    '
+  Reference Basis:
+    Observation: 'The supplied Atlas images pair broad, flat color regions with jagged cell-sized boundaries
+      and a dense overprint of small numerals or other typographic marks. Texture sometimes continues
+      across a color seam; elsewhere it changes density or contrast at the seam.
+
+      '
+    Transfer: 'Transfer this layered relationship: color masses establish the terrain, microtype makes
+      the surface active, and an intentional clearing lets the quote remain unmistakable. Use the three
+      images as reference studies of those behaviors, not as panels to crop or templates to recolor.
+
+      '
+    Exclude: 'Do not reproduce any specific landmass, color placement, number sequence, palette or 1:1
+      composition. Reference colors are not defaults.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: One finished flat editorial quote card
+  Mood:
+  - Cartographic
+  - Experimental
+  - Typographic
+  - Energetic
+  - Precise
+  Color Palette:
+    Fixed Colors: false
+    Roles: 'Choose one calm ground, two or three distinct flat color territories, a dark ink for the quotation
+      and one microtype ink that stays legible across zones. Choose colors for each card independently
+      of the references. Preserve strong quote contrast in the clearing.
+
+      '
+  Typography:
+    Primary: 'Set the complete quotation once in a large, linear geometric sans serif. Use simple, natural
+      letterforms, confident weight and careful line breaks. Text is a readable editorial statement, never
+      assembled from digits.
+
+      '
+    Microtype: 'Use very small numerals or punctuation-like marks as graphic texture. They may vary in
+      rhythm and orientation by zone, but cannot masquerade as a subtitle, source, data claim, or missing
+      words of the quotation.
+
+      '
+    Attribution: 'If an author is supplied or verified, set the exact name smaller in the same typography.
+      Otherwise omit the attribution register entirely.
+
+      '
+  Layout:
+    Invariant: 'Build an asymmetric map of a few irregular zones, with stepped and occasionally interrupted
+      boundaries. A large quiet opening is shaped around the whole quotation. Some color and microtype
+      activity must run beside the text area, so the composition is one integrated field rather than a
+      pattern panel above a caption.
+
+      '
+    Density: 'Use many genuinely tiny marks, enough to read as a continuous texture at normal size. Let
+      clusters and sparse passages vary, but keep every glyph smaller than a quarter of the quote capital
+      height. Thin the marks near the quotation; preserve clean space behind every letter.
+
+      '
+    Variation: 'Change active edges, region sizes, seam direction, density gradients and microtype alphabet
+      with the quote and format. Do not merely recolor an existing terrain.
+
+      '
+  Graphic Elements:
+    Core:
+    - Stepped color seam
+    - Flat irregular zone
+    - Micro numeral field
+    Occasional:
+    - Sparse punctuation marks
+    - Incomplete cell
+    - Offset cluster
+    Construction: 'Edges are visibly modular without becoming a giant pixel icon. Color fields may appear
+      stable while the tiny type crosses or disrupts them. Allow minor registration tension, never faux
+      software glitches.
+
+      '
+  Effects:
+    Surface: Matte flat print with restrained grain
+    Depth: Two-dimensional ink planes only
+  Content Contract:
+    quote: Preserve the exact supplied quotation once, including accents and punctuation.
+    author: Use only a supplied or verified author, subordinate to the quote.
+    signature: Add a personal signature only when explicitly requested.
+  Rules:
+  - The quotation is the first and largest readable element.
+  - Keep the quote linear and free of overprinted numerals.
+  - Let several irregular zones meet; avoid a single diagonal split.
+  - Microtype remains small, dense and visibly separate from the quotation.
+  - Maintain a perceptible relationship between zone boundaries and microtype density.
+  - Choose the palette independently of reference images.
+  - Do not replicate reference silhouettes, exact number strings or color placement.
+  - No legends, invented metrics, author names, signatures, UI chrome or logos.
+  - Avoid gradients, 3D depth, generic glitch effects and uniform confetti.
+  Production:
+    Preferred Mode: hybrid
+    Rationale: 'Generate a full composition with ImageGen. Refine lettering only if the quotation is inaccurate,
+      preserving the generated terrain.
+
+      '
+  User Overrides:
+    Palette: Change territory inks while preserving the quote clearing's contrast.
+    Format: Recompose the zones and seams for the requested ratio.
+    Typography: Respect requested type direction while keeping quote dominance.
+Composition Library:
+  Style Name: Glyph Terrain
+  Selection:
+    Basis: 'Select a family by quotation length, meaning and format. Preserve the broad zone map, tiny
+      typographic texture and one dominant clear quote.
+
+      '
+    Variation: 'These are adaptable relationships, not fixed maps or coordinates. Rebuild seams, densities
+      and active edges for every new card.
+
+      '
+  Families:
+  - id: seam-clearing
+    Name: Seam clearing
+    Use When: 'A short or medium quotation can anchor a generous opening where several territories meet.
+
+      '
+    Structure: 'Three or four irregular territories approach one broad quiet area. Their stepped borders
+      bend around the full quote block. Tiny numerals and marks are dense along one or two seams, then
+      dissipate into the clearing without touching the letters.
+
+      '
+    Text Adaptation: 'Establish large sans-serif line breaks first. Expand the opening or reduce texture
+      before reducing quote size.
+
+      '
+    Format Adaptation: 'Recalculate the zone map and seam directions for the ratio, with texture present
+      beside part of the quote.
+
+      '
+    Variation Axes:
+    - Opening shape
+    - Number of territories
+    - Seam pressure
+    - Texture falloff
+  - id: crossing-current
+    Name: Crossing current
+    Use When: 'The phrase implies movement, change or interaction between different domains.
+
+      '
+    Structure: 'A stream of tiny typography crosses two or more flat color territories. The stream widens,
+      thins and changes ink contrast at zone boundaries. The large quotation interrupts it within the
+      same visual field.
+
+      '
+    Text Adaptation: 'Keep words whole on calm horizontal baselines; route the current around the full
+      text block rather than between letters.
+
+      '
+    Format Adaptation: 'Choose a current direction that suits the canvas without reusing a particular
+      reference silhouette.
+
+      '
+    Variation Axes:
+    - Current direction
+    - Ink changes
+    - Break interval
+    - Zone order
+  - id: margin-archipelago
+    Name: Margin archipelago
+    Use When: 'A longer quotation needs a wider reading area while the texture can gather along the margins.
+
+      '
+    Structure: 'Several stepped color islands and dense microtype clusters occupy one or two cropped margins.
+      A few smaller islands extend toward the quotation, keeping the visual system connected without invading
+      it.
+
+      '
+    Text Adaptation: 'Size the clear area for the whole quotation and attribution, if any. Maintain the
+      quote as the principal mass.
+
+      '
+    Format Adaptation: 'Move active margins and rescale clusters for the chosen ratio.
+
+      '
+    Variation Axes:
+    - Active margin
+    - Island size
+    - Cluster count
+    - Penetration

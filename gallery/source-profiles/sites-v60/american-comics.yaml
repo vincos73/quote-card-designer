@@ -1,0 +1,103 @@
+Design Style:
+  Name: American Comics
+  Status: Studio originale in sviluppo; prima prova apprezzata, seconda prova da discutere
+  Concept: >
+    La citazione emerge da una tavola di fumetti americani vintage e ne rompe
+    i confini. Vignette narrative, lettering monumentale e un'esplosione
+    centrale appartengono alla stessa superficie stampata.
+  Canvas:
+    Ratio: '4:5'
+    Output: Tavola illustrata piatta a piena pagina.
+    Adaptation: Ricomporre vignette e citazione per il formato richiesto.
+  Mood: [Energico, Avventuroso, Popolare, Vintage, Narrativo]
+  Color Palette:
+    Fixed Colors: false
+    Starting Palette:
+      Paper: '#EEDCB3'
+      Key Ink: '#171914'
+      Yellow: '#F1C52C'
+      Vermilion: '#DC3928'
+      Cyan: '#387B91'
+    Roles: >
+      Carta calda e inchiostro scuro sostengono pochi colori piatti vivaci.
+      Separare cromaticamente lettering, esplosione e scene periferiche.
+      La palette può cambiare preservando contrasto e logica di stampa.
+  Typography:
+    Quote: >
+      Lettering da titolo di albo americano, massiccio, compatto e leggermente
+      inclinato, con contorno nero e ombra corta fuori registro. Retino
+      visibile nelle campiture delle lettere, contatori aperti e parole
+      distinte. Poche variazioni di scala guidano la lettura della frase.
+      Conservare testo e punteggiatura; non aggiungere scritte decorative.
+    Case: >
+      Maiuscole consigliate per i testi dimostrativi originali; per una
+      citazione fornita rispettare il testo o concordarne la trasformazione.
+    Attribution: >
+      Facoltativa, piccola ma leggibile, in una didascalia di carta sotto
+      il blocco principale e allineata a destra. Nessun autore inventato.
+  Layout:
+    Page: >
+      Una tavola con vignette di dimensioni variabili, bordi neri e intervalli
+      di carta. Le scene devono restare riconoscibili lungo più lati della
+      citazione, con dettagli e tagli che suggeriscono una sequenza narrativa.
+    Quote Integration: >
+      Al centro un'esplosione irregolare sostiene la citazione. Punte e
+      lettere attraversano i bordi di più vignette. L'esplosione nasconde
+      parte delle scene e le mette in relazione, senza cancellare la tavola.
+    Reading: >
+      Citazione prima lettura; scene e materiali seconda lettura. Mantenere
+      uno spazio chiaro immediatamente dietro le parole anche in una tavola
+      densa. Nessuna collisione tra punte, lettere e punteggiatura.
+    Text Adaptation: >
+      Preferire frasi brevi. Per testi più lunghi ampliare l'area centrale,
+      ridurre il numero di scene e articolare gli a capo per senso; evitare
+      lettere schiacciate o un corpo troppo piccolo per conservare i disegni.
+    Variation: >
+      Variare numero e proporzioni delle vignette, tagli, direzione delle
+      energie e sagoma dell'esplosione. Il rapporto tavola-citazione resta
+      riconoscibile anche cambiando personaggi, periodo narrativo e palette.
+  Imagery:
+    Subjects: >
+      Personaggi, gesti, luoghi e oggetti scelti in relazione alla frase.
+      Avventura, vita urbana, fantascienza o conflitti quotidiani sono
+      possibilità aperte. Supereroi, combattimenti, razzi e città non sono
+      obbligatori. Preferire scene originali e coerenti fra loro.
+    Drawing: >
+      Disegno a pennello e pennino, contorni neri con variazioni di spessore,
+      ombre nette, scorci dinamici, primi piani e campi lunghi alternati.
+      Colori piatti e retinati; evitare una resa tridimensionale digitale.
+  Effects:
+    Halftone: >
+      Retino meccanico grossolano chiaramente visibile nelle campiture e
+      nelle mezze tinte. Dimensioni e densità dei punti costruiscono il tono;
+      non sostituire il retino con rumore casuale o una patina uniforme.
+    Print: >
+      Leggero disallineamento delle lastre cromatiche, piccole lacune
+      d'inchiostro e assorbimento nella carta. Contorni e lettere restano chiari.
+    Paper: >
+      Carta da albo economico calda, fibrosa, moderatamente invecchiata.
+      Il carattere vintage non deve annullare la vivacità dei colori.
+  Rules:
+    - La citazione emerge dalla tavola e attraversa i suoi confini.
+    - Le vignette contengono scene leggibili e collegate al contenuto.
+    - Il retino è parte della costruzione delle immagini e del lettering.
+    - Nessuna onomatopea, titolo, firma o testo aggiuntivo non richiesto.
+    - Nessun obbligo di riutilizzare i soggetti o la palette della prima prova.
+    - Evitare pannelli rettangolari neutri sovrapposti a uno sfondo decorativo.
+  Development:
+    Reference: >
+      Riferimento visivo fornito dall'utente: lettering centrale esplosivo,
+      vignette periferiche, retini e carta vintage. Osservato e tradotto in
+      indicazioni; non passato al generatore né incorporato nella distribuzione.
+    First Example: prova-1.png
+    Prompt: prompt-prova-1.md
+    Notes: note-prova-1.md
+    Second Example: prova-2.png
+    Second Prompt: prompt-prova-2.md
+    Second Notes: note-prova-2.md
+    Validation: >
+      Due prove con frasi brevi e soggetti diversi, senza attribuzione:
+      invenzione fantascientifica e viaggio in motocicletta. In entrambe
+      citazione leggibile, esplosione centrale e retino evidente. Frasi
+      lunghe, attribuzioni e palette alternative ancora da verificare;
+      due esempi non dimostrano la ripetibilità generale.

@@ -1,0 +1,283 @@
+Design Style:
+  Name: Halftone B/W
+  Status: Incluso nel catalogo V1 il 26 ottobre 2026
+  Concept: 'Una fotografia in bianco e nero puro viene ricostruita con punti tondi ordinati e ben visibili.
+    I punti crescono nei mezzitoni e si fondono nelle ombre, mentre le luci lasciano emergere il bianco.
+    Accumuli, mancanze e trascinamenti d''inchiostro danno carattere underground senza far scomparire
+    il retino fotografico. La foto occupa lo sfondo e il testo vi si sovrappone direttamente.
+
+    '
+  Reference Basis:
+    Research: ../../ricerca-halftone-duotone.md
+    Technical Basis: 'Il retino simula i toni continui con punti di area o distribuzione variabile. Può
+      esistere in monocromia o in più separazioni a colori; l''unico inchiostro è una scelta di questo
+      profilo, non la definizione universale di halftone. Un duotone può essere anche retinato.
+
+      '
+    User Direction: 'Fotografia retinata soltanto bianca e nera, con punti fotografici visibili come nei
+      due nuovi esempi black and white. Il trattamento della foto ha precedenza sulla generica aggiunta
+      di sporco.
+
+      '
+    Observed References:
+    - 'Due esempi black and white con punti tondi regolari, luci aperte e neri compatti: target principale.'
+    - Ritratto giallo e blu con punti, grana e ombre dense.
+    - Poster musicale con fotografia a retino largo e tipografia sovrapposta.
+    - 'Due AVIF con ritratti su azzurro, ciano e giallo: retino spezzato, grana e neri chiusi.'
+    Transfer: 'Riprendere la struttura del retino, l''accumulo d''inchiostro, le imperfezioni di stampa
+      e la relazione fra grande foto e caratteri. Soggetto, palette e impaginato si scelgono per la nuova
+      frase; non riprodurre volti, nomi, scritte dimostrative o marchi degli allegati.
+
+      '
+    Operational References: 'Il profilo è utilizzabile dalle sole istruzioni scritte. Le immagini esterne
+      non sono dipendenze da allegare automaticamente. Per valutarne l''utilità, conservare il confronto
+      controllato con e senza reference.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: Una card piatta a piena pagina, senza mockup fotografico
+    Adaptation: Ricomporre ritaglio fotografico, retino e parole per ogni rapporto richiesto.
+  Mood:
+  - Underground
+  - Ruvido
+  - Tattile
+  - Diretto
+  - Denso
+  - Leggibile
+  Color Palette:
+    Image Ink Count: 1
+    Strategy: 'Usare nero neutro e bianco puro. I grigi percepiti provengono dal rapporto tra punti neri
+      e intervalli bianchi. Nessuna carta avorio, tinta seppia, dominante calda o campitura cromatica
+      nel default.
+
+      '
+    Starting Palette:
+      Paper: '#FFFFFF, bianco neutro'
+      Reproduction Ink: '#000000, nero neutro'
+      Quote: Negativo del colore della carta, oppure lo stesso nero su una zona chiara
+    Roles: 'Punti e aree non inchiostrate costruiscono luci, mezzitoni e ombre. La citazione in negativo
+      lascia emergere la carta; non introduce vernice bianca o un accento cromatico distinto. Il contrasto
+      deriva dai valori reali della fotografia sotto il testo.
+
+      '
+  Typography:
+    Quote:
+      Style: Grotesk o sans compatta molto pesante, proporzioni naturali
+      Case: 'Maiuscolo di visualizzazione come default; conservare il testo originale nei dati editoriali
+        e rispettare una diversa richiesta.
+
+        '
+      Treatment: 'Frase completa una sola volta, con ordine di lettura univoco e grandi gruppi di senso.
+        La stampa può scheggiare leggermente i bordi, senza chiudere controforme o cancellare accenti
+        e segni. Scegliere a capo e scala del blocco insieme alla fotografia.
+
+        '
+      Spacing: 'Usare spazi ottici coerenti e interlinea sufficiente. Non comprimere una parola, deformare
+        una riga o giustificare tutto per riempire gli intervalli rimasti nell''immagine.
+
+        '
+    Attribution:
+      Style: Sans più piccola e visivamente più leggera, con lo stesso carattere di stampa
+      Placement: 'Solo se fornita o verificata, allineata a destra su un asse chiaro, in sovraimpressione
+        ma separata dalla massa principale. Se assente, recuperarne lo spazio. Una firma richiesta resta
+        distinta dall''autore.
+
+        '
+    Font Certainty: La direzione tipografica non certifica una famiglia esatta nell'output generato.
+  Layout:
+    Image Background: 'Una sola fotografia riprodotta a retino abita il campo intero, anche quando il
+      suo soggetto viene tagliato dai bordi. La fotografia resta percepibile dietro la citazione; non
+      trattarla come un ritaglio, un''icona o un riquadro accanto al testo.
+
+      '
+    Overprint: 'La frase passa sopra porzioni riconoscibili dell''immagine e ne condivide il campo. Non
+      creare un''intestazione vuota, una didascalia separata o un pannello opaco per ospitarla. Non relegare
+      sempre il testo al margine inferiore: la foto può proseguire anche sotto la frase.
+
+      '
+    Contrast: 'Progettare ritaglio e valori fotografici per aprire un percorso leggibile. Una correzione
+      tonale locale deve appartenere ancora alla foto. Una fascia piatta, un gradiente grafico o un rettangolo
+      sotto le parole non risolvono il rapporto richiesto.
+
+      '
+    Density: 'Il foglio può essere denso, ma foto, frase e usura hanno pesi diversi. Lasciare pause tonali
+      e pochi ancoraggi chiari senza ripulire il risultato fino a farlo sembrare una pagina editoriale
+      elegante.
+
+      '
+  Imagery:
+    Medium: Fotografia riconoscibile ricostruita tramite retino di stampa
+    Selection: 'Prima del ritaglio, scegliere il soggetto dal significato della frase: una relazione letterale,
+      una metafora visiva o un punto di vista che renda comprensibile il messaggio. Il materiale delle
+      reference non determina il soggetto. Non usare un ritratto generico o un oggetto ricorrente quando
+      non hanno una relazione motivata con il contenuto.
+
+      '
+    Reproduction: 'Il retino forma luci, mezzitoni e ombre. La dimensione delle celle cambia otticamente
+      col tono, da punti isolati a masse fuse con piccoli fori di carta. Il soggetto resta riconoscibile
+      anche con il retino grosso.
+
+      '
+    Subjects: 'Scegliere persone, gesti, oggetti, ambienti o dettagli fotografici dalla frase e dal contesto.
+      I ritratti delle reference e delle prove non definiscono un soggetto fisso.
+
+      '
+    Crop: 'Un ritaglio ravvicinato, un fuori campo o una scala insolita possono dare energia. Rispettare
+      il soggetto richiesto e non riprodurre automaticamente l''identità o la posa delle persone negli
+      allegati.
+
+      '
+  Graphic Elements:
+    Selection: 'Foto retinata e parole bastano. Piccoli segni non verbali sono facoltativi solo se sostengono
+      la stampa; nessun adesivo, nastro, barcode, finestra o apparato tecnico è necessario.
+
+      '
+  Effects:
+    Halftone: 'Punti tondi su una griglia ordinata di passo regolare. La loro area varia con il tono:
+      piccoli cerchi separati nelle luci, cerchi più grandi nei mezzitoni, masse nere con fori bianchi
+      nelle ombre. I singoli punti devono essere immediatamente riconoscibili e costruire tutta la foto,
+      non funzionare da trama sopra un''immagine ancora liscia. Rispetto alla proposta A, aumentare visibilmente
+      contrasto e scala del retino: rendere leggibile il passo dei punti già alla dimensione di una card
+      social, soprattutto nei mezzitoni, mantenendo il soggetto chiaro. Evitare segni incrociati, maglie
+      triangolari e solchi che facciano sembrare il risultato un''incisione. Una lieve irregolarità dei
+      bordi è ammessa.
+
+      '
+    Ink Wear: 'Rendere visibili alcuni difetti fisici della stampa: depositi neri e punti intasati in
+      poche zone chiare; brevi trascinamenti di rullo o sbavature secche ai margini; piccoli fori bianchi
+      e chiazze con poco inchiostro nelle masse dense. Distribuirli in modo asimmetrico e localizzato.
+      Il punto deve restare leggibile, con il soggetto e il dettaglio focale ancora chiari. Evitare schizzi
+      di vernice liquida, bordi consumati uniformi e un filtro grunge steso su tutta la foto.
+
+      '
+    Paper: 'Carta bianca neutra con grana fine monocromatica e usura locale contenuta. Evitare dominanti
+      avorio e filtri che coprano il retino.
+
+      '
+    Type Wear: 'Piccole scheggiature e poche impurità d''inchiostro possono raggiungere le lettere, mantenendo
+      integri i nuclei, le controforme, gli spazi e la punteggiatura. La frase non diventa una superficie
+      illeggibile.
+
+      '
+    Depth: Profondità fotografica riprodotta in stampa; superficie della card piatta
+  Content Contract:
+    quotation: 'Testo integrale una volta sola, parole e punteggiatura esatte. Il maiuscolo è una trasformazione
+      visiva del profilo; non cambiare il testo fonte conservato nei dati.
+
+      '
+    author: Solo attribuzione fornita o verificata, subordinata e allineata a destra.
+    other_text: 'Nessun nome di band, anno, ideogramma, etichetta di demo, logo, firma, numero di stampa
+      o microtesto inventato.
+
+      '
+  Rules:
+  - Nero neutro e bianco puro; nessuna tinta calda o cromatica nel default.
+  - Punti tondi visibili, luci aperte e neri compatti definiscono il trattamento fotografico.
+  - Il soggetto fotografico deve dipendere dal significato della frase; il retino non impone ritratti
+    fissi.
+  - Fotografia in halftone come sfondo e citazione direttamente in sovraimpressione sono obbligatorie.
+  - Il retino deve costruire l'immagine, non soltanto sporcare una foto continua.
+  - 'Rendere il retino più evidente della proposta A: punti tondi leggibili anche in anteprima ridotta,
+    soprattutto nei mezzitoni.'
+  - Rendere visibili usura e irregolarità senza perdere la frase o il soggetto.
+  - Aggiungere sporco da trasferimento d'inchiostro e pressione di stampa, concentrato in poche zone.
+  - Scegliere nuovi soggetti in funzione del contenuto, mantenendo il bianco e nero.
+  - Mantenere un contrasto locale chiaro senza pannelli opachi sotto le parole.
+  - Non sostituire il retino con sola xerografia, posterizzazione o rumore.
+  - Non copiare volti, nomi, scritte dimostrative, marchi o impaginati degli allegati.
+  - Non simulare un poster fotografato su una parete o su una scrivania.
+  User Overrides:
+    Format: Ricomporre foto e frase per il rapporto richiesto.
+    Palette: 'Il default è soltanto bianco e nero. Per la stessa fotografia retinata in due colori a contrasto
+      usare Duotone Halftone, salvo una diversa personalizzazione esplicita dell''utente.
+
+      '
+    Case: Una richiesta di cassa originale o minuscola prevale sul default maiuscolo.
+    Fonts: Rispettare la direzione richiesta, con proporzioni naturali e testo completo.
+    Imagery: Usare soggetto o fotografia forniti dall'utente, mantenendo sfondo retinato e sovraimpressione.
+    Wear: Modulare lo sporco della stampa conservando retino, fotografia e leggibilità.
+  Production:
+    Preferred Mode: generative
+    Print Accuracy: 'Simulazione visiva RGB. Non certifica una separazione a un inchiostro, un angolo
+      esatto o una frequenza LPI della stampa fisica.
+
+      '
+    Validation Status: 'La prova B/W guidata dai riferimenti e il confronto con prompt breve sono conservati.
+      Su richiesta dell''utente è stata poi eseguita una revisione mirata del solo sporco di stampa: depositi,
+      trascinamenti e mancanze d''inchiostro più visibili, con punti e frase preservati. Il confronto
+      con la baseline riguarda la versione precedente a questa revisione. Altri testi, soggetti e formati
+      restano da provare.
+
+      '
+Composition Library:
+  Style Name: Halftone B/W
+  Selection:
+    Basis: 'Interpretare la frase e scegliere prima un soggetto pertinente; poi scegliere una sola struttura
+      per frase, fotografia e formato. In tutte le famiglie la foto retinata è il campo di fondo e la
+      frase passa direttamente sopra l''immagine, senza riquadri opachi o zone di didascalia separate.
+
+      '
+    Variation: 'Per nuove card cambiare ritaglio, direzione, distribuzione tonale e relazione fra parole
+      e soggetto, oltre alla palette. Per una correzione mirata conservare la composizione approvata.
+
+      '
+  Families:
+  - id: crossing-field
+    Name: Sovraimpressione sul campo fotografico
+    Use When: 'Una fotografia ravvicinata può sostenere una frase breve o media senza perdere riconoscibilità.
+
+      '
+    Structure: 'La foto occupa la card da bordo a bordo. Un blocco di parole ampio attraversa una porzione
+      del soggetto e prosegue su una massa tonale coerente. Retino e usura restano visibili intorno e
+      dietro al testo; la frase costituisce il primo livello di lettura.
+
+      '
+    Text Adaptation: 'Scegliere a capo per gruppi di senso e un solo registro dominante. Per una frase
+      più lunga cercare un ritaglio con una massa più ampia, mantenendo il testo leggibile senza deformare
+      singole righe.
+
+      '
+    Format Adaptation: 'Ricalibrare il rapporto fra dettaglio fotografico e blocco testuale per ogni formato,
+      conservando sovrapposizione e continuità del fondo.
+
+      '
+  - id: tonal-corridor
+    Name: Percorso nei toni della foto
+    Use When: 'Una frase media o lunga richiede una zona di lettura più continua, presente naturalmente
+      nella fotografia.
+
+      '
+    Structure: 'Ritaglio e valori della foto aprono un percorso più uniforme fra dettagli più densi. Le
+      parole seguono quel percorso e si sovrappongono comunque all''immagine. I cambi tonali restano fotografici
+      e retinati, senza diventare fasce grafiche sotto il testo.
+
+      '
+    Text Adaptation: 'Regolare ampiezza del campo e a capo insieme al ritaglio; usare un colore tipografico
+      coerente con il contrasto locale. Se presente, l''attribuzione usa un registro minore su un asse
+      destro chiaro.
+
+      '
+    Format Adaptation: 'Scegliere nuovamente la direzione del percorso e la posizione del soggetto per
+      il formato, senza riutilizzare un ritaglio meccanico.
+
+      '
+  - id: edge-pressure
+    Name: Pressione dal margine
+    Use When: 'Un dettaglio grande e un testo compatto possono costruire tensione attraverso un ritaglio
+      deciso.
+
+      '
+    Structure: 'Il soggetto fotografico preme da un margine e viene tagliato a grande scala; il contesto
+      della foto continua nel resto della card. La frase si ancora a pochi assi e invade una parte della
+      massa fotografica, mentre retino e abrasioni rafforzano il bordo attivo.
+
+      '
+    Text Adaptation: 'Conservare le parole complete e un percorso unico; spostare ritaglio o blocco se
+      il dettaglio interferisce con la lettura. Non isolare il testo in una zona di carta aggiunta.
+
+      '
+    Format Adaptation: 'Ridefinire margine attivo, scala e pressione del ritaglio per ogni rapporto, mantenendo
+      una fotografia continua sotto le parole.
+
+      '

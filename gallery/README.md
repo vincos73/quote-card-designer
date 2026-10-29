@@ -1,5 +1,17 @@
 # Galleria degli stili
 
+## Libreria condivisa · 29 ottobre 2026
+
+Riconciliati i sorgenti della gallery Sites **60** con la libreria locale:
+**127 stili, 50 inclusi nella 0.4.0, 34 candidati e 43 sperimentali**.
+I 122 stili della gallery sono conservati insieme a cinque studi solo locali.
+Profili pubblicati, esempi disponibili, risorse recuperate e limiti sono registrati
+in [reconciliation/2026-10-29.json](reconciliation/2026-10-29.json).
+La build locale ora riunisce la libreria; la selezione del sito resta distinta.
+Questa sincronizzazione non pubblica Sites e non cambia la release 0.4.0.
+Vedere [il flusso fra portatile e iMac](../docs/SVILUPPO-STILI.md).
+Le sezioni successive descrivono gli stati storici precedenti.
+
 ## Neon Sign candidato · 28 ottobre 2026
 
 Neon Sign è stato aggiunto come V1 candidate alla library, categoria Luce e

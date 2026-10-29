@@ -1,0 +1,145 @@
+Design Style:
+  Name: Type Blur
+  Status: Included in distributed version 0.4.0; two studies visually checked
+  Concept: 'Sharp and defocused parts coexist within the same typographic field. Local optical transitions,
+    refractive bands or a gradual loss of focus make reading fluctuate while clear anchors preserve the
+    complete phrase. The focus contrast is the composition, not a uniform blur over a poster.
+
+    '
+  Reference Basis:
+    Notes: reference.md
+    Transfer: 'Transfer selective focus, transitions inside glyphs, controlled refractive displacement
+      and relationships between type registers. Do not copy source slogans, credits, dates, identities
+      or layouts. No reference image is a permanent required input.
+
+      '
+  Approved Direction:
+    Preferred Study: esempio-2.png
+    User Preference: 'Prefer the second study''s coherent neo-grotesk typography, asymmetric scale, completely
+      sharp central anchor and gradual focus transitions within adjacent words. Keep the first mixed-register
+      study as a comparison. Do not freeze the second study''s phrase, layout or colours.
+
+      '
+    Realism Priority: 'Aim for maximum optical realism, as if actual printed letterforms were viewed through
+      a credible lens or refractive medium. Choose one optical setup and keep edge spread, displacement
+      and focus transitions coherent with its geometry. Blur must redistribute the same glyph''s contours
+      and ink density rather than add an arbitrary shadow or a second word. Preserve a natural transition
+      from sharp edges to defocused regions, open counters and identifiable letter spacing. Use chromatic
+      fringing only where the chosen refraction explains it, at restrained strength. Avoid synthetic glow,
+      uniform Gaussian fog, repeated ghost text, random glitch cuts and decorative glass panels. Realism
+      is a visual target, not proof of physical optics.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: One flat experimental typographic quote card
+    Adaptation: Recompose sharp anchors, optical zones and word groups for each ratio.
+  Mood:
+  - Experimental
+  - Optical
+  - Uncertain
+  - Rhythmic
+  - Editorial
+  Color Palette:
+    Fixed Colors: false
+    Roles:
+      Field: A quiet ground against which focus changes are visible
+      Type: One dominant high-contrast reading ink
+      Refraction: Restrained local chromatic separation when useful
+    Selection: 'Pale paper and dark type are useful, but inverse and chromatic fields remain possible.
+      Coloured fringes belong only to optical transitions, not a rainbow shadow on every letter.
+
+      '
+  Typography:
+    Direction: 'Choose a coherent grotesk register, or contrast a deliberate serif italic with one grotesk
+      voice. Assign families to semantic groups; do not switch fonts randomly for every glyph.
+
+      '
+    Focus Contrast: 'Keep some letters or parts of a word sharply defined while adjacent portions soften,
+      smear or refract. A few fully sharp word anchors guide reading. The effect can cross a word without
+      restarting at every glyph, as if one optical zone passes over a printed surface.
+
+      '
+    Fidelity: 'Preserve the exact supplied phrase, case, accents and punctuation once. Experimental focus
+      can slow reading, but does not permit missing words, substituted letters or invented decorative
+      copies.
+
+      '
+    Attribution: 'Only supplied or verified, smaller and quieter, right-aligned in a sharp readable area.
+      Omit its space when absent.
+
+      '
+  Layout:
+    Core: 'Plan a sentence path and at least one clear focus anchor before selecting blur zones. Connect
+      changes in focus to the word grouping or a coherent optical direction, leaving calm space.
+
+      '
+    Optical Structure: 'A few vertical refractive zones, an oblique focus plane or a gradient through
+      a semantic group are alternatives. Make their effect visible on the typography; do not require a
+      visible glass object or UI panel.
+
+      '
+    Reading: 'Preserve enough contour and spacing for the sentence to be recovered at the target scale.
+      Recompose optical zones before reducing all text to unreadable haze. Avoid a crisp duplicate sentence
+      as a fallback.
+
+      '
+  Graphic Elements:
+    Core: Type contours, soft trails, optical intervals and optional fine refractive texture
+    Restraint: No mandatory photograph, illustration, metadata, border or decorative symbol
+  Effects:
+    Defocus: Local softening with clear differences in edge definition
+    Refraction: Controlled partial displacement or lateral smearing, never random broken text
+    Surface: Quiet matte field with optional subordinate print grain
+    Exclusions: No global low-resolution export, repeated glitch words, generic drop shadow, glass UI
+      cards or all-over Gaussian haze
+  Content Contract:
+    quote: Exact complete quotation once
+    author: Only supplied or verified attribution, subordinate and right-aligned
+    supporting: No invented labels, font names, technical captions, dates, credits or signatures
+  Rules:
+  - Make sharpness differences visibly intentional and local.
+  - Preserve clear reading anchors within the experimental field.
+  - Let one optical logic act across related letters and word groups.
+  - Keep all words, accents and punctuation intact.
+  - Separate optical defocus from a photographic background or a generic glitch texture.
+  - Prefer the second study's single-family direction and local continuous transitions.
+  - Keep sharp anchors optically kerned with visible separation between glyphs.
+  - Keep final punctuation identifiable and preferably sharp.
+  Production:
+    Preferred Mode: generative
+    Validation Status: 'Two complete ImageGen studies were visually checked at native size and 320 pixels
+      wide. The user''s preferred second study, Il dubbio cambia lo sguardo., uses one neo-grotesk voice,
+      a sharp cambia and opposite focus progressions in dubbio and sguardo. One local edit improves spacing
+      in the sharp anchor; the original is retained. The first uses mixed registers and softens its final
+      period. These are simulated optical effects. The strengthened realism priority needs verification
+      on subsequent generations and does not establish a real lens setup or repeatability. See note.md
+      and note-2.md.
+
+      '
+Composition Library:
+  Style Name: Type Blur
+  Selection:
+    Basis: Choose the sentence path and sharp anchors, then one optical relationship.
+    Variation: Vary the relation between sharp and soft regions, not only colours or blur strength.
+  Families:
+  - id: refractive-type-bands
+    Name: Fasce ottiche sul testo
+    Use When: Large words can carry different focus states within their glyphs.
+    Structure: A few coherent refractive zones pass across several words, alternating sharp and softened
+      letter regions.
+    Text Adaptation: Keep some entire anchors sharp and preserve recoverable contours in the affected
+      words.
+    Format Adaptation: Recompose band positions and word groups for the target frame.
+  - id: focus-across-sentence
+    Name: Messa a fuoco nella frase
+    Use When: The sentence can travel between clearer and less definite semantic groups.
+    Structure: Focus changes gradually across the reading sequence with a distinct clear anchor.
+    Text Adaptation: Preserve all words without adding a duplicate sharp transcription.
+    Format Adaptation: Redirect the focus path to fit the reading flow of each ratio.
+  - id: mixed-register-focus
+    Name: Registri tipografici a fuoco alterno
+    Use When: A serif and grotesk can express a useful semantic contrast.
+    Structure: Two deliberate type voices share optical transitions and a continuous sentence path.
+    Text Adaptation: Assign type roles to groups rather than random individual letters.
+    Format Adaptation: Rebalance group scales and soft intervals without crowding the frame.

@@ -1,0 +1,75 @@
+Design Style:
+  Name: Kinetic Impact
+  Status: Proposta sperimentale, non inclusa nel catalogo V1
+  Concept: >
+    Una citazione diventa il centro di una composizione fotografica ad alta
+    energia. Uno scarto di scala tra primo piano e profondità, una direzione
+    di forza e un lettering monumentale suggeriscono movimento in una card
+    statica. Il soggetto può essere una persona, un oggetto o una materia.
+  Canvas:
+    Ratio: '4:5'
+    Output: Quote card fotografica a piena pagina
+    Adaptation: >
+      Ricomporre testo, profondità e traiettoria per il formato richiesto;
+      nel formato orizzontale non limitarsi a ritagliare la versione verticale.
+  Mood: [Dinamico, Monumentale, Cinematografico, Fisico, Essenziale]
+  Color Palette:
+    Starting Point: >
+      Campo quasi nero, lettere chiare e una fascia luminosa di un colore
+      scelto in relazione al testo. La tonalità è variabile, non obbligatoria.
+    Contrast: Proteggere il contrasto e la leggibilità delle parole.
+  Typography:
+    Quote: >
+      Sans-serif pesante e inclinato, bianco o molto chiaro, disposto in
+      gruppi di senso a scala monumentale. La citazione completa resta la
+      prima lettura; conservare parole, ordine, maiuscole, accenti e
+      punteggiatura. La sensazione cinetica nasce da inclinazione, scala,
+      disposizione e direzione, senza deformare i glifi o duplicare le parole.
+    Attribution: >
+      Solo se fornita o verificata; più piccola e leggera, leggibile e
+      allineata a un asse destro. In sua assenza ricomporre lo spazio.
+  Layout:
+    Depth: >
+      Un elemento fisicamente plausibile domina il primo piano, grande e
+      nitido; il resto dell'azione si ritira in profondità. L'elemento
+      vicino può essere parte dello stesso oggetto, non deve essere un
+      accessorio sportivo o appartenere a una persona.
+    Integration: >
+      Il visual può sovrapporsi marginalmente alle lettere se ogni parola
+      resta immediatamente leggibile. Testo e traiettoria condividono un
+      asse di forza; mantenere un'area relativamente calma dietro la frase.
+    Capacity: >
+      Adattare a capo, scala e quantità di immagine alla lunghezza della
+      citazione; eliminare effetti prima di compromettere la lettura.
+  Imagery:
+    Repertoire: >
+      Oggetti, sostanze, fenomeni, figure o azioni pertinenti alla frase;
+      non imporre atleti, volti, veicoli o attrezzature. Scegliere una sola
+      situazione chiara, con materiali credibili e una direzione visiva.
+    Material: >
+      Rendere superfici e contatto riconoscibili: metallo, vetro, tessuto,
+      acqua o altri materiali secondo il soggetto scelto.
+  Effects:
+    Motion: >
+      Scie cromatiche e sfocatura direzionale selettiva portano l'energia
+      lungo la traiettoria, mentre il punto di contatto e le lettere restano
+      nitidi. Evitare sfocatura uniforme e scie che oscurano la citazione.
+    Light: Bordi scuri che si aprono su una fascia atmosferica luminosa.
+    Finish: Fotocomposizione commerciale pulita; senza grana o retinatura.
+  Content Contract:
+    quote: Citazione completa, esatta e normalmente una sola volta.
+    author: Facoltativo, fornito o verificato e allineato a destra.
+    signature: Solo se richiesta, distinta dall'autore.
+    other_text: >
+      Nessuna etichetta, riga di supporto, marchio, numero o testo inventato.
+      Aggiungere elementi testuali secondari solo se forniti o richiesti.
+  Rules:
+    - Preservare un ordine di lettura chiaro e contrasto sufficiente.
+    - Integrare la frase nella composizione, senza sacrificarne le parole.
+    - Evitare loghi, etichette e marchi non richiesti sugli oggetti.
+    - Non inventare un'attribuzione e non inserire testo decorativo.
+  Production:
+    Preferred Mode: generative
+    Validation Status: >
+      Proposta sperimentale; verifiche e limiti delle prove sono registrati
+      separatamente. Non dimostra ripetibilità o compatibilità con ogni frase.

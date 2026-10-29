@@ -1,0 +1,81 @@
+Design Style:
+  Name: Graphite Negative
+  Status: Incluso nella versione distribuita 0.4.0; limiti delle prove documentati
+  Concept: 'La citazione emerge come carta lasciata libera entro una massa di scarabocchi a matita. La
+    grafite disegna i contorni delle lettere dall''esterno: il contrasto fra carta e segni costruisce
+    la tipografia.
+
+    '
+  Reference Basis:
+    Notes: note-prove.md
+    Transfer: 'Riprendere il rapporto tra segni incrociati e lettera in negativo dal riferimento fornito;
+      non riprodurre il suo carattere isolato, il suo testo, la struttura del manifesto o i suoi crediti.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: Card tipografica piatta su carta
+    Adaptation: Ricomporre parole, intervalli e campo grafico per ogni formato.
+  Mood:
+  - Gestuale
+  - Grafico
+  - Tattile
+  - Editoriale
+  - Energico
+  Color Palette:
+    Paper: Carta chiara opaca con grana discreta
+    Graphite: Grafite scura con variazioni di pressione e densità
+    Contrast: Carta libera chiaramente distinta dai segni circostanti
+  Typography:
+    Primary: 'Lettere ampie e leggibili formate dalla carta non segnata, non lettere bianche sovrapposte
+      a una texture. La grafite circonda ogni glifo e occupa anche gli occhielli quando presenti.
+
+      '
+    Fidelity: 'Riportare la citazione completa una sola volta, preservando ordine, maiuscole, accenti
+      e punteggiatura. Parole e righe devono rimanere distinguibili anche a dimensione telefono.
+
+      '
+    Attribution: 'Solo se fornita o verificata; discreta, leggibile e allineata a destra su uno spazio
+      libero. Se assente, non riservare spazio.
+
+      '
+  Layout:
+    Structure: 'Progettare la frase come una sequenza di gruppi di senso all''interno di una o più masse
+      irregolari di segni. Lasciare margini di carta libera e spazi evidenti tra parole e righe.
+
+      '
+    Drawing: 'Addensare segni a ridosso delle lettere per definirne i contorni; lasciare tratti più radi
+      e liberi oltre il bordo della massa. La grafite resta fatta di singoli tratti visibili e incrociati,
+      non di un rettangolo nero uniforme.
+
+      '
+    Capacity: 'Scegliere corpi, a capo e dimensione del campo in base alla frase. Per testi lunghi ridurre
+      la complessità dei segni o suddividere la composizione; non sacrificare leggibilità o fedeltà del
+      testo.
+
+      '
+  Effects:
+    Marks: 'Tratti asciutti a mano, incrociati e irregolari, con direzioni, lunghezze e pressione variabili.
+      Alcuni oltrepassano il bordo del campo.
+
+      '
+    Surface: Carta e grafite plausibili, senza finta texture uniforme.
+    Exclusions: Niente blocchi di carbone, grana fotografica, inchiostro liquido o mockup 3D.
+  Content Contract:
+    quote: Citazione esatta e completa una volta sola
+    author: Solo se fornito o verificato
+    other_text: Nessun titolo, marchio, data, firma o testo inventato
+  Rules:
+  - Le lettere sono carta in negativo definita dai segni circostanti.
+  - Gli occhielli sono riempiti di segni e restano riconoscibili.
+  - La citazione si legge chiaramente grazie a spazi fra parole e righe.
+  - Accenti e punteggiatura restano distinguibili dal tratteggio.
+  - Non imporre immagini o soggetti figurativi aggiuntivi.
+  Production:
+    Preferred Mode: generative
+    Validation Status: 'Due prove ImageGen con la stessa frase, la seconda modifica della prima. La tecnica
+      in negativo è visibile; gli spazi nella prima riga restano stretti e la punteggiatura è incerta,
+      quindi il testo richiede verifica e possibile correzione. Non dimostrata la ripetibilità con altre
+      frasi. Vedere note-prove.md.
+
+      '

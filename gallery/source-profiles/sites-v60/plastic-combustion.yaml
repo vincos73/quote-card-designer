@@ -1,0 +1,74 @@
+"Design Style":
+  "Name": "Plastic Combustion"
+  "Status": "Candidato approvato dall’utente il 29 ottobre 2026; non incluso nella selezione release."
+  "Concept": "Film plastici deformati dal calore, aperture e pieghe costruiscono la composizione; la frase sembra stampata sulla plastica e deformata insieme a essa."
+  "Canvas":
+    "Ratio": "4:5"
+    "Output": "Composizione raster completa, testo incluso"
+    "Surface": "Assemblaggio originale poco profondo, fotografato quasi frontalmente, con plastica pigmentata e veli trasparenti sopra un supporto opaco"
+    "Adaptation": "Ricomporre masse, vuoti e testo per il formato; nessun impaginato o posizione dei fori fisso"
+  "Mood":
+    - "Materico"
+    - "Teso"
+    - "Fotografico"
+    - "Sperimentale"
+    - "Stratificato"
+  "Color Palette":
+    "Policy": "Colore della plastica variabile secondo il testo e il tema, per richiesta dell’utente. Il rosso non è obbligatorio."
+    "Roles": "Una dominante pigmentata, film trasparenti e un supporto assorbente creano contrasto fra riflessi e vuoti. Pigmento del testo scelto per il rapporto con la plastica."
+    "Examples": "Petrolio e ambra sono adattamenti contemporanei delle prove, non colori attribuiti a specifiche opere di Burri."
+  "Typography":
+    "Source Design": "Sans geometrico corposo e coerente, con proporzioni e spazi naturali prima della deformazione. Non sono fissi font esatto, maiuscole, numero di righe o allineamento."
+    "Material Integration": "Il pigmento appare stampato sullo stesso film plastico prima della deformazione. Le lettere seguono pieghe, ritiri, tensioni, creste e risvolti del supporto."
+    "Deformation": "Sono ammesse lettere localmente stirate, compresse dal materiale, interrotte o perse sui bordi delle aperture. La variazione nasce dalla superficie, non da tracking arbitrario o deformazioni digitali decorative."
+    "Reading": "L’utente accetta che qualche lettera non sia perfettamente leggibile. Conservare abbastanza ancoraggi per ricostruire il senso e l’ordine della frase, senza proteggere tutti i glifi in finestre perfettamente piane."
+    "Attribution": "Facoltativa, esatta, piccola e subordinata, sempre allineata a destra in un’area sufficientemente leggibile. Non attribuire le frasi dimostrative ad Alberto Burri."
+    "Signature": "Solo se richiesta, distinta dall’autore, mai dedotta dal profilo personale"
+  "Layout":
+    "Relation": "Le tensioni del film e i vuoti rispondono ai gruppi della frase. Il testo partecipa alla stessa superficie e non resta un titolo piatto sopra una texture."
+    "Balance": "Alternare campi tesi più quieti, addensamenti di pieghe e aperture di scale diverse; non coprire tutta la card con un increspamento uniforme."
+    "Variation": "Numero e posizione dei fori, traiettorie, gruppi testuali e densità derivano dalla frase, senza copiare opere o poster reference"
+  "Elements":
+    "Pigmented Film": "Fogli sottili in tensione, ritirati localmente, corrugati e sovrapposti"
+    "Clear Film": "Veli trasparenti, piccole membrane e filamenti stirati, con riflessi e sovrapposizioni leggibili"
+    "Openings": "Vere assenze di materiale con supporto opaco esposto, bordi fusi arricciati e pochi annerimenti coerenti"
+    "Ink": "Stampa sottile aderente al polimero, con piccole discontinuità nelle aree sollecitate e risposta luminosa coerente col film"
+  "Effects":
+    - "Contrasto fra film lucido e supporto opaco, rilievo poco profondo e piccole ombre di contatto"
+    - "Pieghe che convergono sui punti di tensione, labbri ispessiti e bordi localmente bruniti"
+    - "Luce fotografica controllata che rivela trasparenze e spessore senza trasformare il film in gel o metallo"
+  "Rules":
+    - "Materia plastica sottile e testo stampato sul film sono le invarianti; palette e impaginato sono variabili"
+    - "La parziale illeggibilità dei glifi è ammessa come conseguenza fisica, non come sostituzione o invenzione di parole"
+    - "Nessun font pulito indipendente dalla materia, falso rilievo tipografico, pellicola gonfia, cera, tessuto o alluminio"
+    - "Nessuna fiamma o scena di combustione obbligatoria; rappresentare l’oggetto finito"
+    - "Nessun nome d’artista, firma, data, museo, credito o logo aggiunto automaticamente"
+  "Content Contract":
+    "quote": "Usare il testo letterale una volta, mantenendo parole, cassa, accenti e punteggiatura di partenza. Consentire la perdita visiva parziale di alcuni tratti secondo la richiesta dell’utente, senza riscrivere o abbreviare la frase."
+    "other_text": "Nessuna attribuzione, firma o informazione di riempimento inventata"
+  "Production":
+    "Method": "ImageGen integrato per ogni composizione completa. Nessun testo impaginato separatamente sopra un fondo generato."
+    "Research": "Linguaggio informato da fonti museali sulle Combustioni plastiche di Alberto Burri. Le prove sono simulazioni originali, non riproduzioni di opere o attestazioni della loro tecnica materiale."
+    "Reference Inputs": "Gli allegati e la ricerca calibrano il linguaggio; le prime prove sono generate senza immagini. Le revisioni usano queste prove come target di edit, non come immagini operative obbligatorie per il futuro."
+    "Reference Comparison": "Prima di introdurre reference permanenti nel flusso, effettuare il confronto A/B controllato previsto dallo schema stile."
+    "Validation": "Due frasi originali e due palette con testo stampato e deformato. Alcuni tratti sono deliberatamente deteriorati come richiesto. Senso e ordine generale riletti visivamente; font esatto, contrasto numerico, fattibilità fisica, altri formati e ripetibilità non certificati."
+"Composition Library":
+  "Style Name": "Plastic Combustion"
+  "Selection":
+    "Basis": "Scegliere tensioni, campi quieti e vuoti in relazione al significato della frase e al formato"
+    "Variation": "Famiglie aperte, senza palette, quote o distribuzione dei fori fissi"
+  "Families":
+    -
+      "id": "diagonal-tension"
+      "Name": "Tensione diagonale e tracce"
+      "Use When": "La frase riguarda memoria, trasformazione o una progressione di passaggi"
+      "Structure": "Aperture di scale diverse ai lati di una traiettoria obliqua; gruppi stampati sul film attraversano campi più quieti e pieghe in tensione"
+      "Text Adaptation": "A capo per gruppi di senso prima della deformazione; le pieghe possono inclinare e deteriorare localmente tratti e baseline. Conservare ancoraggi per ricostruire la frase."
+      "Format Adaptation": "Ribilanciare traiettoria, vuoti e densità per il rapporto richiesto; attribuzione eventuale su asse destro e in zona leggibile"
+    -
+      "id": "lateral-opening"
+      "Name": "Apertura laterale e campi connessi"
+      "Use When": "La frase può essere sostenuta da un passaggio o da un intervallo che modifica il campo"
+      "Structure": "Un vuoto laterale separa ma collega due campi di plastica; i gruppi stampati appartengono alla stessa membrana e si deformano verso bordi e risvolti"
+      "Text Adaptation": "Il testo segue la materia anche con qualche tratto perso; evitare pannelli tipografici puliti isolati dal resto. Nessun tracking arbitrario per riempire il campo."
+      "Format Adaptation": "Variare ampiezza dell’apertura, orientamento dei campi e numero dei gruppi senza ritagliare l’esempio"

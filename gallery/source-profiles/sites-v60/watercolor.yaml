@@ -1,0 +1,127 @@
+Design Style:
+  Name: Watercolor
+  Version: 0.1.1
+  Status: Experimental quote-card adaptation
+  Concept: 'A quiet editorial quote-card language using restrained hand-painted watercolor, generous paper-like
+    whitespace and an image chosen from the meaning of the quotation. The illustration supports the words
+    instead of imposing a fixed subject repertoire.
+
+    '
+  Canvas:
+    Ratio: '4:5'
+    Output: Single finished flat editorial quote card
+  Mood:
+  - Calm
+  - Elegant
+  - Gentle
+  - Editorial
+  - Thoughtful
+  Color Palette:
+    Background:
+      Primary: '#E9EEEA'
+    Text:
+      Primary: '#355C55'
+      Secondary: '#4F5F5A'
+    Accent:
+      Lavender: '#8B86C8'
+      Sage: '#8DAA8A'
+      Mint: '#CDE6D2'
+      SkyBlue: '#BFD8EA'
+      Coral: '#E59A74'
+    Rules: 'Keep the background light, the quote dark and high contrast, and the watercolor accents muted.
+      Use only a few accents in one card.
+
+      '
+  Typography:
+    Heading:
+      Style: Legible Latin watercolor brush lettering, with natural pressure variation, translucent pigment
+        and softly irregular stroke edges
+      Weight: Variable brush pressure with robust, distinguishable letterforms
+      Color: '#355C55'
+      Material: Letters should look painted on the same watercolor paper as the visual, without ornate
+        swashes or loss of accents and punctuation.
+    Supporting:
+      Style: Modern humanist sans-serif
+      Weight: Regular
+      Usage: Only for supplied attribution, if any
+    Rules: 'Let the exact quotation dominate. Preserve its wording, capitalization, accents and punctuation.
+      Use natural font metrics and optical kerning. Never apply arbitrary tracking, justification, horizontal
+      distortion or squeezed glyphs. Use line breaks and size changes to solve fit.
+
+      '
+    Alternative:
+      Style: Editorial serif
+      Usage: Explicit user preference or legacy examples; not the default for the brush-lettered direction.
+    Attribution:
+      Required: false
+      Content: Nome fornito dall’utente o verificato nella fonte, conservato esattamente; nessun titolo
+        o prefisso aggiunto.
+      Visual Priority: 'Secondaria: corpo inferiore e peso visivo minore rispetto alla citazione e all’eventuale
+        estratto; mantenere contrasto e leggibilità.'
+      Style: Sans-serif sobria o registro secondario coerente con il profilo, con peso regolare; non adottare
+        l’enfasi del testo principale.
+      Placement: Sotto la citazione o in un margine del campo libero, senza attraversare il visual o competere
+        con la pennellata principale.
+      Absent: Omettere e ricomporre il layout, senza segnaposto o spazio vuoto riservato.
+  Layout:
+    Structure: Vertical editorial poster on an invisible print grid
+    Margins: Wide and consistent
+    Whitespace: Generous
+    Alignment: Mostly left-aligned typography with deliberate image placement
+    Integration: 'Plan typography and illustration together. Align the image''s gesture, direction or
+      edge with the quote block while keeping a clear reading field. The image stays secondary and must
+      not intrude on letterforms.
+
+      '
+  Illustration:
+    Style: Soft hand-painted watercolor
+    Rendering:
+    - Translucent washes
+    - Soft edges and restrained paper texture
+    - Minimal detail
+    - No hard outlines or realistic 3D
+    SubjectSelection: 'Choose one simple metaphor directly from the quote or user context. Do not default
+      to a fixed list of motifs.
+
+      '
+    Restrictions:
+    - No botanical references or subjects
+    - No flowers, leaves, plants, birds, butterflies or gardens
+    - No unrelated decorative illustration
+  Effects:
+    Texture: Subtle watercolor paper only
+    Shadows: None
+    Gradients: None
+  Rules:
+  - Keep the quote legible and visually primary.
+  - Use abundant whitespace and a calm editorial rhythm.
+  - Keep watercolor accents soft, sparse and subordinate to the words.
+  - Select imagery from the quotation's meaning.
+  - Do not invent attribution, captions, labels or extra text.
+  - Preserve natural letter spacing, kerning and glyph proportions.
+  Production:
+    Preferred Mode: generative
+    Reason: La pennellata delle lettere fa parte della materia visiva. La generazione integrale può integrare
+      lettering, pigmenti e acquerello; la variante W5 è stata preferita dall’utente alla direzione serif
+      per il font.
+    Content Adaptation: Per richieste di font esatto o citazioni difficili, comporre con un file brush
+      reale verificato e un visual senza testo. Se manca il font adatto, dichiarare il limite; non sostituire
+      automaticamente la pennellata con un serif.
+    Required Capabilities: Lettering latino a pennello leggibile e controllo visivo di frase, accenti
+      e punteggiatura; in alternativa ibrida, font brush reale e metriche, contrasto e composizione rispetto
+      al visual.
+    Current Prototype: Il renderer locale compone font reali, ma la prova ibrida disponibile usa un serif
+      e non implementa la materialità dei pigmenti nelle lettere. La variante W5 è un editing generativo
+      della sola direzione tipografica di W4.
+    Validation Status: Preferenza utente per la pennellata osservata su W5. Non è ancora una verifica
+      di generazione da input minimo col profilo revisionato, né di ripetibilità o compatibilità ChatGPT/Claude.
+    Alternative Mode: hybrid when a suitable real brush font and compositing controls are available or
+      exact font use is requested
+  Content Contract:
+    required:
+    - quote
+    author:
+      required: false
+      source: fornito dall’utente oppure verificato nella fonte; mantenere internamente distinta la provenienza
+      render: nome esatto in un registro subordinato; nessuna qualifica o attribuzione dedotta dall’esempio
+      absent: omettere senza Anonimo, segnaposto o nomi ricavati dai riferimenti

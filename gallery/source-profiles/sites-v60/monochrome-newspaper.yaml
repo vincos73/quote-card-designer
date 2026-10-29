@@ -1,0 +1,147 @@
+Design Style:
+  Name: Newspaper
+  Concept: A typography-led editorial quote-card language draws on classic daily newspapers, twentieth-century
+    photojournalism, illustrated newspaper features and headline posters. A monumental newspaper serif,
+    one deliberate black banner, precise rules and an editorial image build a coherent front-page hierarchy.
+    The image may be documentary-style photography or a purposeful editorial illustration, reproduced
+    with a restrained but visible halftone screen and subtle ink absorption. The quotation is the actual
+    story; the card does not fabricate articles, dates or a newspaper identity to fill space. The result
+    reads as a printed front page rather than a digital poster.
+  Canvas:
+    Ratio: '4:5'
+    Output: Single finished vertical editorial quote card, full bleed
+  Mood:
+  - Bold
+  - Classic
+  - Editorial
+  - Documentary
+  - Authoritative
+  - Intellectual
+  - Timeless
+  - Structured
+  Color Palette:
+    Background:
+      Newsprint: '#F5F4F0'
+    Primary:
+      Ink: '#111111'
+    Secondary:
+      MidGray: '#777777'
+      PaleGray: '#D8D8D5'
+    Roles: Black ink and a clean slightly warm newsprint field establish the entire hierarchy. Photographs
+      use neutral greys. No coloured accents or sepia-tinted images; a slight paper warmth is material,
+      not a second decorative colour. Size, weight, space, rules and ink reversal carry emphasis.
+  Typography:
+    Primary:
+      Style: High-contrast newspaper headline serif with strong bracketed serifs
+      Weight: ExtraBold to Black, approximately 800-900
+      Scale: Monumental headline, close to the usable card width
+      Tracking: Natural letter spacing with precise optical kerning; never squeeze glyphs
+      Case: Uppercase for the headline-led test
+      Role: The quotation is the front-page headline
+    Banner:
+      Style: The same strong editorial serif as the main quotation
+      Treatment: Newsprint-coloured letters reversed from a flat black horizontal band
+      Role: An intentional emphasis within the actual quote, never an invented subtitle
+    Supporting:
+      Style: Readable newspaper serif, regular to medium
+      Role: Only supplied attribution, caption or actual supporting copy
+    Hierarchy: Keep a disciplined headline rhythm and a single coherent letter construction across the
+      quote. Reversal from black to light is an intentional colour treatment, not a reason to substitute
+      a font, squeeze a word or shrink a final line. If a quote portion appears in a banner, preserve
+      natural reading order and set the phrase only once.
+  Layout:
+    Structure:
+    - A rigorous editorial page grid with generous outer margins
+    - Centred or carefully balanced headline field
+    - Fine horizontal rules and one strong black banner
+    - One substantial rectangular editorial image field
+    Relationships: Use the headline, banner and image as a clear top-to-bottom reading sequence. A short
+      quotation does not need two-to-four body columns or simulated articles. Align type, photograph borders
+      and rules to the same page measure. Adapt the photographic crop and block positions to the words;
+      do not distort typography to fill residual space. Alternative quotes can use an asymmetrical newspaper
+      feature layout without losing the common hierarchy. The paper may show a few restrained creases and
+      small printing marks, placed away from the most important letterforms.
+  Imagery:
+    Style: Black-and-white editorial or documentary photography, or a purposeful newspaper illustration
+    Subjects:
+    - Urban architecture and public spaces
+    - Portraits and candid human activity
+    - Landscapes and relevant physical environments
+    - Photojournalistic compositions chosen from the quotation context
+    Treatment:
+    - Neutral black and white with firm tonal contrast
+    - 'Fine single-black-ink halftone screen: small regular dots carry photographic or illustrated image
+      tones'
+    - Controlled dot gain and lightly absorbed ink on newsprint
+    - Rectangular or square crop with a thin black keyline when helpful
+    - Matte newspaper reproduction rather than continuous-tone glossy photography
+    Selection: Choose one coherent photograph or purposeful pair for the actual quotation. A generated
+      image is an original illustrative scene, not a verified report of a real event. Do not invent names,
+      locations or documentary captions.
+    Avoid:
+    - Colour photography or selective colour
+    - Circular image windows
+    - Glossy lifestyle stock scenes
+    - Dramatic composite art and 3D rendering
+  Graphic Elements:
+    Repertoire:
+    - Very fine black horizontal rules
+    - One flat black horizontal banner
+    - Sparse column dividers when content actually requires columns
+    - A thin rectangular photograph keyline
+    Restraint: Dates, issue numbers, section names, mastheads and page folios require supplied content.
+      Do not invent them or add unreadable columns to imitate a newspaper. The quotation and image must
+      carry the style.
+  Background:
+    Surface: Clean slightly warm newsprint with delicate fibres
+    Ageing: Restrained print variation; not yellowed, torn or theatrical antique paper
+    Avoid:
+    - Pure-white digital wallpaper
+    - Colourful fields
+    - Gradients
+  Effects:
+    Texture: Visible newsprint fibres and ink absorption, with a lightly rumpled sheet and a few small,
+      irregular ink or registration blemishes. Keep these marks sparse and secondary to the quote; no heavy
+      antiquing, torn edges or theatrical damage.
+    Image Print: Visible but light fine halftone dots, roughly diagonally screened, with dot density and
+      size following photographic tonal values; keep architecture and figures readable
+    Depth: Flat matte editorial reproduction
+    Shadow: None
+    Wear: Slight natural ink spread at some letter and rule edges, plus occasional small typographic ink spots
+      on open paper. Never obscure, duplicate or degrade a letter or punctuation mark.
+  Rules:
+  - Render the quotation once, preserving every word and sentence punctuation in the requested headline
+    case, without enclosing quotation marks.
+  - Keep the quotation dominant, with a deliberate newspaper-serif hierarchy, black banner and editorial
+    image.
+  - Maintain the same font design, size and glyph proportions throughout the quotation; intentional banner
+    ink reversal does not change letter construction.
+  - Resolve collisions by recomposing the visual, line breaks or the entire typographic block, never by
+    locally compressing a word.
+  - Do not invent mastheads, dates, issue numbers, folios, section labels, fake articles, captions or
+    decorative microtext.
+  - Use only supplied attribution and supporting content.
+  - Avoid rounded UI cards, icons, colour accents, gradients, glossy effects and 3D.
+  - 'Make the photographic print screen visible but fine: avoid oversized pop-art dots, coarse raster
+    patterns or a uniform noise overlay across the entire card.'
+  - Give the sheet a lightly crumpled newsprint character and a few believable print blemishes; keep the
+    headline, banner and image readable and avoid theatrical grime.
+  User Overrides:
+    Format: Recompose the page hierarchy and photo crop for the requested card ratio.
+    Palette: Honour explicit changes while preserving a clear editorial ink-and-paper hierarchy.
+    Fonts: Honour requested typography without local deformation to accommodate the photograph.
+    Subject: Select the photograph from the quotation and context rather than copying an example subject.
+  Production:
+    Preferred Mode: hybrid
+    Reason: La gerarchia di broadsheet richiede testo tipografico fedele e una fotografia documentaria
+      originale con retino fine. Separare fotografia e lettering protegge la citazione e consente di controllare
+      banner, regole e ordine di lettura.
+    Content Adaptation: Se non è disponibile un filtro halftone, usare una foto già trattata come immagine
+      raster o un trattamento più semplice dichiarato. Per una frase breve eliminare colonne e banner
+      non necessari; non inventare testata, data, caption o numeri d'edizione.
+    Required Capabilities: Testo serif reale, griglia e regole, banner con inversione, ritaglio fotografico
+      e retinatura monocroma dipendente dai toni, con controllo della densità per preservare i dettagli.
+    Current Prototype: Testo, immagini, rettangoli e linee sono disponibili; mancano retino, grana e gestione
+      di effetti fotografici. L'immagine dovrebbe arrivare già monocroma/retinata o il renderer va esteso.
+    Validation Status: Profilo non renderizzato nei tre test odierni; nessuna verifica della retinatura,
+      della gerarchia newspaper o della leggibilità mobile.

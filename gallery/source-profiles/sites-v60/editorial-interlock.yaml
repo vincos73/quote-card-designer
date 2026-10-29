@@ -1,0 +1,262 @@
+Design Style:
+  Name: Editorial Interlock
+  Status: Incluso nel catalogo V1 il 26 ottobre 2026; central material subject and palette-related typography
+    required
+  Concept: 'A complete quotation and one strong central material subject form the same editorial structure.
+    Large Latin word groups anchor unequal areas near the corners while the subject crosses their space
+    and changes the perceived foreground. The result has the authority of an experimental magazine cover
+    or cultural poster, with a clear sentence and a tactile visual worth inspecting closely.
+
+    '
+  Reference Basis:
+    Source: 'The user supplied a written exhibition-poster brief and explicitly requested a Western editorial
+      quote card with a strong subject intertwined with the typography. Chinese characters, pinyin and
+      exhibition metadata are not transferred.
+
+      '
+    Transfer: 'Asymmetric corner anchors, a large material subject, one dominant interaction mechanism,
+      contrasting scales and alternating dense and quiet intervals. Always organise the card around one
+      recognisable central object or subject, as clarified by the user after the iris study.
+
+      '
+    Independence: 'The moth, demonstration sentence, serif treatment and rust palette belong to the first
+      study. They are not mandatory subjects, words or colours for future cards.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: One complete flat editorial quote card, full bleed
+    Adaptation: 'Recompose the reading anchors, subject crop and interactions for a new ratio. Preserve
+      every word and punctuation mark instead of cropping a portrait master or squeezing individual glyphs.
+
+      '
+  Mood:
+  - Editorial
+  - Tactile
+  - Assured
+  - Experimental
+  - Poised
+  - Striking
+  Color Palette:
+    Fixed Colors: false
+    Strategy: 'Choose the reading ink in relation to the current subject and field. Deepen or lighten
+      a tone already present in the palette, or choose a harmonious related hue, while preserving clear
+      local contrast. Black is valid when it suits the composition, not a mandatory default. Do not replace
+      that default with a fixed blue for every future card.
+
+      '
+    Illustrative Study:
+      Field: '#F2EBDD'
+      Type: '#121411'
+      Subject Accent: '#A84B2B'
+    Roles: 'The broad field and the material subject establish a coherent palette. Typography belongs
+      to that palette rather than being automatically black: a deepened petal, material or background
+      tone can establish structure. A lighter related ink may work on a dark field. Select the combination
+      for the quotation, subject and explicit preference.
+
+      '
+    Contrast: 'Check the ink against both the field and the actual subject areas it crosses. If a matching
+      hue merges with petals, folds or another material, adjust its lightness or saturation while keeping
+      it related. Keep letter skeletons and punctuation recoverable at viewing size.
+
+      '
+    Study Boundary: 'The ivory, near-black and rust values above describe the original moth example only.
+      The iris colour revision uses a deep indigo direction related to its blue petals. Neither ink is
+      a universal rule.
+
+      '
+    Restraint: 'Use few hues and clear luminance separation. Do not add a coloured frame, title strip
+      and ornament merely to repeat the accent.
+
+      '
+  Typography:
+    Main Reading:
+      Direction: 'A confident editorial serif with strong contrast or a similarly assured magazine grotesk.
+        Choose one coherent leading register. Scale, weight and optical spacing make the actual words
+        structural.
+
+        '
+      Color: 'Select a harmonious reading ink from the subject-and-field palette, using a darker, lighter
+        or related tone as needed for contrast. Check the actual overlaps as well as the quiet background.
+        Preserve one coherent ink treatment unless a meaningful distinction is explicitly designed; never
+        assume the lettering must be black.
+
+        '
+      Content: 'The complete supplied sentence is the main typographic composition, normally once. Four
+        semantic groups can provide corner anchors; they are actual words, not initials or a monogram.
+
+        '
+      Integrity: 'Preserve wording, case, accents and punctuation. Keep natural glyph proportions, clear
+        word spaces and a recoverable reading sequence. Protect identifying strokes at every overlap.
+
+        '
+    Hierarchy: 'Unequal word-group sizes can express cadence without making one group a tiny caption.
+      Avoid a second typeset version of the quote. Supporting verbal material appears only if supplied.
+
+      '
+    Attribution: 'Use only a supplied or verified name, exact, smaller and visually quieter than the quotation,
+      ending on a clear right axis. Omit its space when absent. Add a distinct personal signature only
+      when asked.
+
+      '
+    Font Fidelity: 'A generated serif appearance does not certify an exact typeface asset.
+
+      '
+  Layout:
+    Central Subject: 'Always place one strong recognisable object or subject in the central visual field.
+      Its main mass supplies a clear optical centre, even with an oblique pose or selective edge crop.
+      It must remain a coherent subject rather than dissolving into an all-over material background. Compose
+      the words through and around this central form.
+
+      '
+    Anchors: 'Place large semantic anchors around and through the central subject, often near unequal
+      corner-related zones. Adapt the number of groups, scale, offset and distance to the actual sentence;
+      four is a useful starting arrangement, not a fixed word count or a mechanical 2x2 grid.
+
+      '
+    Reading: 'The viewer must be able to follow the sentence in its normal order. Asymmetry and changes
+      of scale cannot reverse clauses or hide connecting words.
+
+      '
+    Interdependence: 'The subject enters the word areas and shares contours, counters or intervals with
+      the letters. It does not sit isolated inside a loose frame of unrelated words. The sentence and
+      subject jointly define the first visual impression.
+
+      '
+    Dominant Mechanism: 'Choose one spatial mechanism per card. Alternating opaque occlusion is the starting
+      method: a material contour passes behind type in one area and in front in another. Establish two
+      or three traceable encounters while retaining readable letter skeletons.
+
+      '
+    Density: 'Concentrate material and overlap in selected intervals. Leave quiet field elsewhere. Avoid
+      filling every gap with supplementary graphics.
+
+      '
+    Capacity: 'Group a longer quotation by meaning and simplify the subject''s extensions before reducing
+      the text. Do not drop words to force exactly four isolated corner tokens.
+
+      '
+  Imagery:
+    Role: One strong recognisable central subject actively participating in the type
+    Repertoire: 'Botanical forms, animals or insects, folded material, glass, fabric and other familiar
+      forms can work. Choose from the content and user preference; no recurring creature or still-life
+      object is required.
+
+      '
+    Material: 'Show meaningful local structure such as veins, scales, fibres, folds or layered edges.
+      Material detail should reward close viewing, not be replaced by generic gloss.
+
+      '
+    Integration: 'Maintain a coherent central mass and contour through encounters with type. Use plausible
+      masking and scale. A decisive crop is valid when the form remains recognisable and required text
+      stays complete.
+
+      '
+    Mechanism Restraint: 'Do not stack liquid, refraction, transparency, particles and distortion over
+      an occlusion-based composition. If a different mechanism is explicitly chosen, make it the single
+      dominant relationship.
+
+      '
+  Graphic Elements:
+    Default: The subject and words supply the structure; ornament is not required.
+    Optional: 'A fine rule or quiet print mark can support an existing axis when useful. Omit decorative
+      metadata, mock exhibition details and symbols unrelated to the sentence.
+
+      '
+  Effects:
+    Print: Light modern paper grain, subtle halftone or restrained local overprint
+    Depth: 'Perceived spatial order through subject/type interaction rather than extruded or bevelled
+      lettering.
+
+      '
+    Restraint: No heavy grunge, artificial ageing, HUD or indiscriminate effects
+  Content Contract:
+    quote: Complete literal sentence once as the main composition
+    author: Optional exact supplied or verified name, subordinate and right-aligned
+    supporting: Only supplied copy; absent titles, dates and locations are omitted
+    repetition: Preserve literal repetition within the supplied sentence; add no decorative word echoes,
+      initials or second quotation unless requested
+  Rules:
+  - Make the actual complete phrase structural and immediately readable.
+  - Always organise the card around one strong recognisable central object or subject.
+  - Use unequal editorial anchors rather than a mechanical four-cell grid.
+  - Make the subject large enough to change the typographic space.
+  - Use one dominant interaction mechanism with traceable encounters.
+  - Protect letter skeletons, word spacing and punctuation at every overlap.
+  - Preserve a recognisable and coherent material subject.
+  - Balance dense encounters with quiet field.
+  - Keep palette and subject variable while retaining the editorial relationship.
+  - Relate the text ink to the current palette and preserve contrast through every overlap; black is optional,
+    not a fixed default.
+  - Do not invent exhibition information, labels, microcopy or authorship.
+  - Avoid monograms, CJK substitutes, logos, QR codes, numbering and corner starbursts.
+  Production:
+    Preferred Mode: hybrid
+    ImageGen Role: 'Generate the complete card, including subject, sentence, interactions and hierarchy.
+      An isolated generated subject placed in an unrelated deterministic poster does not establish this
+      style.
+
+      '
+    Refinement: 'When available, refine exact lettering or masks while preserving the generated direction
+      and retaining the original. Do not claim exact fonts or editable layers without producing and checking
+      those assets.
+
+      '
+    Reference Inputs: 'The written profile is self-contained. Four new compositions used no image input.
+      A later typography-colour edit used the saved generated iris card as its only image input, not an
+      external reference set. A permanent reference-image dependency requires a matched with/without trial
+      and user review; it is not established by this targeted edit.
+
+      '
+    Validation: 'Four complete 4:5 studies were generated without image inputs and inspected at native
+      size and 320 by 400 pixels. They use four original sentences, a moth, an iris, folded paper and
+      a shell, with different palettes. The two new studies preserve literal grave accents. The longer
+      sentence remains readable but shifts toward a vertical sequence and reduces the four-corner tension.
+      The user preferred the iris over that long-text study and required a central recognisable subject
+      in future cards. One additional targeted edit of that generated iris card changes black typography
+      to a deep indigo related to the petals while retaining the sentence, grave accent, period, central
+      flower, leaf and existing layout and overlaps. It was checked at native size and 320 by 400 pixels;
+      the original is preserved. Exact output ink values are not certified by the prompt. The user requested
+      gallery inclusion and V1 candidacy after adding this general palette-related ink rule. The shell
+      study and wider applications of the ink rule still need feedback. Names, other ratios and broader
+      repeatability remain untested.
+
+      '
+Composition Library:
+  Style Name: Editorial Interlock
+  Selection:
+    Basis: 'Group the exact sentence into a small number of semantic units, usually four when corner anchors
+      are appropriate. Select a subject whose contours can enter those units without hiding the reading.
+      Its main mass must always occupy the central visual field and remain recognisable.
+
+      '
+    Variation: 'Vary subject, crop, anchor size, offset and the location of foreground reversals. A new
+      palette alone is not a new composition.
+
+      '
+  Families:
+  - id: four-anchor-weave
+    Name: Unequal editorial anchors with material crossings
+    Use When: 'A short or medium quotation can form substantial semantic groups around a material subject
+      without becoming isolated initials.
+
+      '
+    Structure: 'Place unequal word groups near different corner-related areas, keeping a clear normal
+      reading route. Place one large recognisable subject centrally, with an oblique pose if useful, and
+      let it enter several word areas. Use alternating opaque occlusion in two or three deliberate locations,
+      with enough intact contours to follow both letters and subject. Leave quiet intervals between dense
+      encounters.
+
+      '
+    Text Adaptation: 'Render the full phrase once, including connecting words, accents and punctuation.
+      Four groups are a compositional opportunity, not permission to shorten or rewrite a sentence. Reduce
+      an overlap before sacrificing an identifying letter stroke. An optional name remains smaller and
+      right-aligned.
+
+      '
+    Format Adaptation: 'In 4:5 use staggered anchors and a subject crop that supports the reading path.
+      A taller format can lengthen the encounter; a square or wide format needs a broader route and fewer
+      extensions. Recompose rather than crop required words or distort their glyphs. Preserve the central
+      subject in every ratio rather than expanding it into an unbounded background pattern.
+
+      '

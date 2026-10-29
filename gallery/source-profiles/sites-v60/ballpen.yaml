@@ -1,0 +1,60 @@
+Design Style:
+  Name: Ballpen
+  Status: Incluso nella versione distribuita 0.4.0; testo protagonista e caos equilibrato
+  Concept: 'Una quote card che sembra lavorata a penna a sfera su carta: la frase domina la composizione,
+    mentre un piccolo disegno pertinente, ripassi e scarabocchi danno energia e carattere alla pagina.
+
+    '
+  Canvas:
+    Ratio: '4:5'
+    Output: Card editoriale piatta su carta; ricomporre per ogni formato.
+  Mood:
+  - Spontaneo
+  - Gestuale
+  - Umano
+  - Energico
+  - Editoriale
+  Color Palette:
+    Fixed Colors: false
+    Direction: 'Scegliere un inchiostro principale e, se utili, accenti secondari. Biro blu con segni
+      rossi e verdi è una possibilità, non un obbligo.
+
+      '
+  Typography:
+    Quote: 'Lettering spontaneo a mano con tratto a biro, ripassi e interruzioni credibili. La citazione
+      occupa il campo principale e si legge subito. Preservare integralmente parole, ordine, maiuscole,
+      accenti e punto.
+
+      '
+    Legibility: 'Contrasto netto, spazi distinti fra parole e carta libera attorno ai glifi; i segni non
+      devono oscurare lettere o punteggiatura.
+
+      '
+    Attribution: Solo se fornita o verificata, discreta e allineata a destra.
+  Layout:
+    Hierarchy: 'La frase è preminente rispetto a un piccolo disegno riconoscibile pertinente al testo.
+      Nessuna bussola, chiave o soggetto è obbligatorio.
+
+      '
+    Marks: 'Distribuire scarabocchi, prove di tratto e piccoli segni colorati in gruppi irregolari, soprattutto
+      ai margini e attorno al disegno. Lasciare pause di carta per far emergere le parole. Evitare sia
+      una pagina sterile sia un reticolo uniforme che soffochi il testo.
+
+      '
+  Effects:
+    Ballpoint: 'Tratti sottili, pressione variabile, ripassi, interruzioni, piccoli depositi e sbavature
+      locali; tratteggio direzionale seguendo la forma del disegno. Evitare la grafite asciutta e grandi
+      schizzi liquidi.
+
+      '
+  Content Contract:
+    quote: Citazione esatta e completa una sola volta.
+    author: Solo se fornito o verificato.
+    other_text: Nessuna parola, numero, etichetta o firma inventata, anche nel disegno.
+  Production:
+    Preferred Mode: generative
+    Validation Status: 'Studi comparativi con due frasi e soggetti mostrano la direzione a biro e la gerarchia
+      della citazione. La prova preferita ha un punto grande; la resa su testi lunghi, su telefono e la
+      ripetibilità non sono verificate.
+
+      '

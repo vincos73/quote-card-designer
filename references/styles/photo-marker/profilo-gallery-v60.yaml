@@ -1,0 +1,197 @@
+Design Style:
+  Name: Photo Marker
+  Status: Experimental development profile; outside V1
+  Concept: 'A photographic subject and expressive handwritten lettering inhabit the same page. The quotation
+    travels through the spaces above, beside and below the subject, shaped by its silhouette rather than
+    confined to a title strip. Fine marker drawings echo selected physical contours and join photograph
+    and writing into one energetic editorial image.
+
+    '
+  Reference Basis:
+    Notes: reference.md
+    Transfer: 'Transfer the relationship between photography, surrounding marker lettering and contour
+      drawing from the user''s three supplied examples. Their people, poses, brands, lyrics, incidental
+      numbers and handles are not content for new cards. These images are research references, not permanently
+      required generation inputs.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: One flat full-bleed photographic quote card
+    Adaptation: Recompose subject scale and surrounding writing for each format.
+  Mood:
+  - Expressive
+  - Personal
+  - Candid
+  - Energetic
+  - Tactile
+  - Editorial
+  Color Palette:
+    Fixed Colors: false
+    Roles:
+      Photograph: Context-selected natural colours, with a quiet background
+      Lettering: One opaque high-contrast marker ink
+      Drawing: Normally the same ink as the lettering
+    Selection: 'White marker over a moderately darkened, muted photograph is a useful starting point.
+      Dark marker on a pale photographic field is also valid. Preserve the photograph''s colour relationships
+      and skin tones; do not impose grey, denim, a fashion brand or a fixed clothing colour.
+
+      '
+  Typography:
+    Primary:
+      Style: 'Confident hand-drawn marker letters with rounded stroke ends, variable widths, lively baselines
+        and recognisable handmade rhythm.
+
+        '
+      Weight: Broad opaque strokes; thinner connecting marks stay subordinate
+      Spacing: 'Keep counters open and word boundaries clear. Adapt each group to its available space
+        with real lettering judgement, not by stretching individual glyphs or packing words until they
+        collide.
+
+        '
+    Hierarchy: 'The complete phrase is the main written content. A few meaningful fragments can become
+      larger; remaining words still read comfortably. All fragments share one plausible marker hand.
+
+      '
+    Case: Preserve the supplied wording, capitalization, accents and punctuation.
+    Attribution: 'Optional supplied or verified name, smaller and quieter, aligned to a clear right edge
+      without competing with the quotation. Omit its reserved space when absent. Personal signatures require
+      a request.
+
+      '
+  Layout:
+    Invariants:
+    - A clearly photographic main subject remains recognisable
+    - Writing occupies several regions around the actual silhouette
+    - A clear reading sequence joins every part of the quotation once
+    - The focal feature, especially a face, stays unobscured
+    - Fine drawings respond to actual contours, materials or movement
+    Text and Subject: 'Choose the pose, crop and background together with the text layout. Reserve useful
+      negative pockets around the subject before generating. Let words rise above a shoulder, lean along
+      an arm or occupy the space beside a coat; they need not describe a literal circle or frame. Reading
+      should progress through clear spatial bands, normally from upper to lower, with unambiguous left-to-right
+      transitions.
+
+      '
+    Overlap: 'Selected lettering may overlap an unimportant clothing or background area, but the principal
+      words should wrap around the silhouette. Never cover eyes, mouth or the identifying part of an object.
+
+      '
+    Density: 'A short phrase uses larger writing and breathing space; a longer one needs a smaller photographic
+      subject and more surrounding field. Do not add duplicate words or filler to surround the subject
+      fully.
+
+      '
+  Imagery:
+    Subject: 'Choose a person, object or other photographic subject from the quotation and context. A
+      fashion portrait is one application, not a compulsory character or a specific person''s likeness.
+
+      '
+    Treatment: 'Natural light, believable anatomy and materials, photographic detail and an uncluttered
+      setting. A restrained exposure reduction may help marker contrast, but retain natural skin and tonal
+      detail.
+
+      '
+    Supplied Photo: 'When a user supplies a photo as the actual edit target, preserve its identity and
+      requested details. Distinguish it from style references.
+
+      '
+    Provenance: A newly generated photograph-like image must not be presented as a real photoshoot or
+      archival image.
+  Graphic Elements:
+    Contour Drawing: 'Use a finer version of the same marker ink to redraw selected seams, folds, garment
+      edges or object contours with a slight handmade offset. Keep the photographic interior visible.
+      Contours are expressive observations of the subject, not technical wireframes or a full white sticker
+      outline around an opaque cutout.
+
+      '
+    Accents: 'A few motion strokes, underlines or gestural curves can extend an actual action or written
+      emphasis. They are optional; avoid generic icons, arbitrary arrows, fake tags, numbers and invented
+      lettering.
+
+      '
+  Effects:
+    Lettering: Matte opaque marker ink with slight natural stroke variation
+    Surface: The photograph remains photographic, with drawing visibly applied over it
+    Depth: Created by real photographic form and selective ink overlap
+    Exclusions: No cartoon replacement of the photograph, typed script font, neon glow, drop shadow, grid
+      or caption box
+  Content Contract:
+    quote: Preserve the supplied quotation exactly once, with all punctuation.
+    author: Only supplied or verified attribution, subordinate and right-aligned.
+    supporting: No invented logos, handles, labels, lyrics, slogans, dates or signatures.
+  Rules:
+  - Compose the photograph, surrounding words and contour drawing together.
+  - Make writing react to the actual silhouette and preserve a readable sequence.
+  - Retain the subject's focal feature and the photographic character of its interior.
+  - Use related marker strokes for both text and finer contour accents.
+  - Preserve words and punctuation without decorative repetitions.
+  - Keep palette, photo subject and pose adaptable to the request.
+  Production:
+    Preferred Mode: generative
+    Rationale: 'Generate the entire photographic and handwritten composition with ImageGen; a typed overlay
+      on a separately chosen stock layout is insufficient for the intended spatial interaction.
+
+      '
+    Validation Status: 'Two full ImageGen applications were checked at native resolution and 320 pixels
+      wide: a portrait and an unfinished clay vase, with different demonstration phrases and no reference
+      images passed to generation. Both preserve wording and punctuation and place writing around the
+      subject. The broad lettering is rougher and more brush-like than the smoother marker in the supplied
+      references. Alternative palettes and the diagonal-gesture family remain untested; see note.md and
+      note-2.md.
+
+      '
+Composition Library:
+  Style Name: Photo Marker
+  Selection:
+    Basis: 'Choose the relationship between subject silhouette and writing from the quotation, photo subject
+      and format. Transfer only the selected structure into the prompt, preserving natural reading order.
+
+      '
+    Variation: Change pose, negative pockets and word movement rather than only the ink colour.
+  Families:
+  - id: surrounding-portrait
+    Name: Ritratto avvolto dal testo
+    Use When: A person and a short or medium statement can share the frame clearly.
+    Structure: 'Place the figure in a central but asymmetric photographic area. Surround it with writing
+      above the head, along both sides and near the lower edge. Use successive spatial bands to connect
+      the phrase; finer contour marks follow selected clothes or gesture details.
+
+      '
+    Text Adaptation: 'Set semantic groups in their natural sequence. Keep the face clear and every fragment
+      legible; not every empty pocket needs lettering.
+
+      '
+    Format Adaptation: 'In portrait formats distribute bands vertically. In wide formats broaden the lateral
+      pockets and reconnect them through an upper or lower band rather than shrinking the entire portrait.
+
+      '
+  - id: diagonal-gesture
+    Name: Scrittura lungo il gesto
+    Use When: The quotation and a dynamic pose suggest a shared direction.
+    Structure: 'Use a seated, reaching or moving silhouette to create diagonal pockets. The writing changes
+      angle around the gesture while staying in a clear sequence; contour strokes extend actual folds
+      or motion.
+
+      '
+    Text Adaptation: 'Rotate groups moderately without reversing the reading direction. Keep functional
+      words with their neighbours and avoid lettering on the face or hands that carry the gesture.
+
+      '
+    Format Adaptation: 'Recompose pose and open areas for each ratio; keep the subject and word groups
+      large enough to remain identifiable at feed scale.
+
+      '
+  - id: object-and-negative-space
+    Name: Oggetto e spazi di scrittura
+    Use When: An object or still life is more relevant than a person.
+    Structure: 'Place one photographic object or a coherent small arrangement so its silhouette produces
+      useful spaces for surrounding writing. Fine marker accents echo real edges or details without replacing
+      the object''s photographic material.
+
+      '
+    Text Adaptation: 'Distribute the complete phrase through successive open areas. Avoid fictitious labels
+      or brand lettering on the object itself.
+
+      '
+    Format Adaptation: Rebalance object scale and surrounding text regions for the requested canvas.

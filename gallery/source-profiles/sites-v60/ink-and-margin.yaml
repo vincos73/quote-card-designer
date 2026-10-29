@@ -1,0 +1,108 @@
+Design Style:
+  Name: Ink
+  Status: Included in distributed version 0.4.0; text-first ink lettering and illustration studies
+  Concept: 'A minimal literary quote card with the quotation as the primary visual and reading anchor.
+    A realistic ink drawing, chosen for the phrase, interacts with the words through direction, spacing
+    or a shared contour. Both feel composed together, while the image remains subordinate to reading.
+    Open paper and visible, selective ink behavior give the page its tactile character.
+
+    '
+  Canvas:
+    Ratio: '4:5'
+    Output: Single flat editorial quote card on paper, full bleed
+  Mood:
+  - Literary
+  - Intimate
+  - Contemplative
+  - Tactile
+  - Human
+  - Airy
+  Color Palette:
+    Fixed Colors: false
+    Starting Palette:
+      Paper: '#F4EEDF'
+      Ink: '#252722'
+    Roles: 'Contrasting paper and ink create the image and legible quotation. Ink may be black or another
+      suitable colour. An accent is optional, not a fixed red requirement; preserve strong local contrast
+      wherever text is placed.
+
+      '
+  Typography:
+    Primary: 'Expressive, readable ink lettering with natural proportions and open counters, suggestive
+      of a nib and ink rather than broad brush calligraphy. Let ink bleed from letter strokes with varied
+      intensity: fine feathering in some places and a few stronger localized smudges or pools in others.
+      Preserve dark letter cores, punctuation, word spaces and open counters; avoid uniform blur or marks
+      unrelated to the writing. Fine strokes must survive reduction.
+
+      '
+    Hierarchy: 'The complete quotation is the first thing noticed and follows a clear reading order. Make
+      it comfortably readable at intended display size. Dark ink on open paper is a valid default; light
+      lettering in a dark part of the artwork is an option only when it serves the composition. Select
+      scale and local contrast for reading. Do not let drawing, bleeding or smudges cut across letters,
+      accents, word spaces or punctuation.
+
+      '
+    Attribution: 'Use only supplied or verified attribution, smaller and right-aligned; if absent, do
+      not reserve a place for it.
+
+      '
+  Layout:
+    Structure:
+    - The quotation has visual and reading priority over the drawing
+    - One drawing and the quotation share a purposeful spatial relationship
+    - A clear reading field, generous open paper and restrained composition
+    Relationships: 'Choose a relationship suited to the phrase: a drawn path or contour can approach and
+      continue around the reading field, a subject can frame an open area, or a meaningful ink mass can
+      contain a contrasting phrase. The image need not sit behind the text or occupy a separate lower
+      panel. Integrate it through shared rhythm, direction or negative space without touching or obscuring
+      letters. Rebalance the drawing before shrinking words.
+
+      '
+  Elements:
+    Background: Natural matte uncoated paper with subtle visible fibres
+    Illustration:
+      Requirement: A recognisable ink drawing derived from the current quotation
+      Selection: 'Choose a subject, object, natural form or scene appropriate to the specific phrase;
+        allow a nonliteral interpretation when useful. The tree in the initial test is not a default.
+        A portrait is not mandatory. Do not substitute an abstract ink stain for a subject without a reason.
+
+        '
+      Treatment: 'Convincing pen-and-ink or brush drawing, with distinct strokes and believable variation
+        in pressure, density, pooling and absorption. Avoid generic vector silhouettes and decorative
+        stock clip art.
+
+        '
+  Effects:
+    Ink: 'Realistic pigment on paper: dry brush or nib marks, local pooling, capillary feathering and
+      a few natural smudges or splashes. Keep marks selective and related to the drawing; do not cover
+      the page in noise.
+
+      '
+    Texture: Matte paper and ink, not an overall grunge filter
+    Legibility: Complete, clear letter cores, punctuation, word spaces and counters
+    Depth: Flat artwork, without photographed desk, page frame or mockup
+  Rules:
+  - Preserve the supplied quotation verbatim once, including punctuation.
+  - Derive each drawing from the phrase; do not reuse the same subject by default.
+  - Make the phrase the first and clearest reading, ahead of the drawing.
+  - Connect drawing and words through the phrase and a deliberate spatial relationship.
+  - Preserve strong local contrast; never require a dark background for the quote.
+  - Maintain generous open paper and use smudges sparingly.
+  - Do not invent captions, handwriting, brand names, signatures or other text.
+  - Keep every letter and any supplied attribution legible.
+  Production:
+    Preferred Mode: hybrid
+    Rationale: Generate the complete drawing and text together; refine lettering only if necessary while
+      retaining the generated visual.
+    Validation Status: 'Studies on 27 October explored tree, path and fern subjects. The text-first path
+      study keeps the phrase prominent, but its drawn path appears as two disconnected fragments. The
+      fern study keeps the phrase prominent, with modest variation in ink marks, and was selected as the
+      candidate preview. Longer quotations and repeatability remain untested. The source reference was
+      examined visually but not passed to the generator.
+
+      '
+  User Overrides:
+    Format: Recompose the drawing and reading area for the requested ratio.
+    Palette: Adapt paper and ink colours while preserving local text contrast.
+    Fonts: Honour the requested type direction without sacrificing readability.
+    InkIntensity: Adjust smudges and bleed while keeping the text clear.

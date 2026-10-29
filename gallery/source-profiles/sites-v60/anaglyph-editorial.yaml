@@ -1,0 +1,185 @@
+Design Style:
+  Name: Anaglyph Editorial
+  Version: 0.1.1-experimental
+  Status: V1 candidate; ritratto e oggetto con effetto anaglifo anche sul testo
+  Concept: 'Un soggetto fotografico si sdoppia in esposizioni cromatiche traslucide e sfalsate. Il loro
+    incontro produce un''immagine ottica vibrante; una citazione forte ne attraversa il campo mantenendo
+    una lettura chiara. Ispirazione anaglifa e stereoscopica, con registro grafico sperimentale.
+
+    '
+  Canvas:
+    Ratio: '4:5'
+    Output: Composizione editoriale piatta a piena pagina.
+    Adaptation: Ricomporre scala del soggetto, scarti e parole per ogni formato.
+  Mood:
+  - Ottico
+  - Vibrante
+  - Fotografico
+  - Sperimentale
+  - Dinamico
+  - Spaziale
+  Color Palette:
+    Fixed Colors: false
+    Starting Palette:
+      Ground: '#FAFAF8'
+      Text and Core: '#111111'
+      Cyan: '#00CFE8'
+      Red: '#F72535'
+      Magenta: '#F025B5'
+      Yellow: '#F2F02C'
+    Roles: 'Un fondo chiaro permette alle esposizioni trasparenti di separarsi. Una matrice scura mantiene
+      volume e dettaglio; due o più tinte sature generano contorni ripetuti e densità cromatiche nelle
+      sovrapposizioni. Numero di tinte e intervalli variabili. La citazione richiede un nucleo ad alto
+      contrasto.
+
+      '
+  Typography:
+    Quote: 'Grande senza grazie forte, con proporzioni naturali, contatori aperti e spazi ottici. La frase
+      resta la prima lettura completa. Spezzare per gruppi di senso, senza comprimere lettere o inseguire
+      ogni profilo colorato con il testo. Scegliere scala e corpo in relazione al soggetto.
+
+      '
+    Registration: 'Applicare anche alle lettere uno sdoppiamento cromatico moderato e chiaramente visibile,
+      con due esposizioni vicine e prevalentemente orizzontali. Rosso e ciano sono la base, sostituibili
+      con colori coerenti alla palette. Lo scarto del testo resta minore di quello della foto. Mantenere
+      un nucleo scuro nitido, contatori, punti e spazi leggibili. I livelli restano quasi coincidenti:
+      non creare altre frasi separate. Evitare un semplice filetto impercettibile, sfocatura uniforme
+      o ombra 3D.
+
+      '
+    Integrity: 'Conservare parole, caso, accenti e punteggiatura forniti una sola volta. Non aggiungere
+      il punto finale se non richiesto.
+
+      '
+    Attribution: 'Solo se fornita o verificata, più piccola e leggera della citazione, allineata a destra
+      su un asse chiaro. Nessuna firma personale aggiunta.
+
+      '
+  Layout:
+    Relationship: 'Progettare insieme soggetto, scarti e massa delle parole. Gli echi possono insinuarsi
+      fra i gruppi di testo o dietro un margine della citazione, senza cancellarne la lettura. Evitare
+      una foto isolata con una fascia di didascalia indipendente.
+
+      '
+    Balance: 'Contrapporre densità fotografica e vuoti chiari. La citazione può essere laterale, superiore
+      o inferiore; non fissare tre righe o un soggetto a destra. Gli echi possono uscire dal formato,
+      le parole no.
+
+      '
+    Long Text: 'Ridurre scala del soggetto, numero e distanza degli echi prima di ridurre il testo. Mantenere
+      campi di contrasto locale sufficienti.
+
+      '
+  Imagery:
+    Subject: 'Persona, oggetto o altro soggetto fotografico scelto per la frase. Identità, accessori e
+      pose delle reference non sono ingredienti da copiare. Lenti, profili, mani e dettagli circolari
+      sono possibilità, non obblighi.
+
+      '
+    Photographic Core: 'Dettagli e volumi credibili, con una matrice tonale comune alle esposizioni. Evitare
+      una sostituzione con disegni, adesivi colorati opachi o un render plastico. Il soggetto principale
+      rimane riconoscibile.
+
+      '
+    Displacement: 'Echi prevalentemente laterali, con distanze diseguali e un eventuale lieve scarto verticale.
+      Ripetere caratteristiche reali del soggetto, non soltanto un alone esterno. Percepire un''unica
+      immagine sdoppiata, senza trasformarla in una fila di soggetti indipendenti.
+
+      '
+    Overlap: 'Trasparenze e dettagli attraversano i livelli: le intersezioni creano colori più scuri,
+      le parti separate restano luminose sul fondo. Un gradiente arcobaleno su una singola foto non sostituisce
+      lo sdoppiamento.
+
+      '
+    Supplied Target: 'Se viene fornita una fotografia da modificare, preservarne identità e caratteristiche
+      richieste. Le reference di stile non sono target.
+
+      '
+  Effects:
+    Texture: Grana fotografica fine facoltativa, senza nascondere soggetto o lettere.
+    Edge: Contorni multipli leggibili, con transizioni fotografiche e dettagli interni.
+    Exclusions: 'Nessun obbligo di strappi, scanline, rumore digitale, interfacce, bagliori neon, ombre
+      estruse o segni manuali. Lo scarto ottico appartiene al soggetto e ai suoi livelli cromatici.
+
+      '
+    Technical Boundary: 'Queste prove sono simulazioni visive generate, non coppie stereo calibrate o
+      canali separati verificati con occhiali. Non dichiarare profondità stereoscopica effettiva senza
+      un processo e un test dedicati.
+
+      '
+  Rules:
+  - Un soggetto fotografico riconoscibile e una frase completa leggibile.
+  - Lo sdoppiamento modifica anche dettagli interni, non solo la sagoma esterna.
+  - Le sovrapposizioni cromatiche condividono la struttura del soggetto.
+  - Colori, numero di esposizioni, distanza e posizione del testo sono adattabili.
+  - Nessun marchio, etichetta, numero o testo aggiuntivo non richiesto.
+  Development:
+    Notes: note.md
+    Examples:
+    - Image: prova-1.png
+      Prompt: prompt-prova-1.md
+      Family: figura-sdoppiata
+    - Image: prova-2.png
+      Prompt: prompt-prova-2.md
+      Family: oggetto-sdoppiato
+    - Image: prova-3.png
+      Prompt: prompt-prova-3.md
+      Family: figura-sdoppiata
+    - Image: prova-4.png
+      Prompt: prompt-prova-4.md
+      Family: oggetto-sdoppiato
+    Validation: 'Due composizioni con la stessa frase breve, un ritratto immaginario e una macchina fotografica
+      senza marchio. Frase corretta e leggibile, scarti visibili nei volti e negli anelli dell''obiettivo.
+      Gli echi presentano piccole variazioni prospettiche generate: non sono copie pixel-identiche di
+      una matrice. Il peso delle foto è forte in entrambe. Altre frasi, palette, attribuzioni e foto reali
+      come target non provate. Due editing delle basi aggiungono scarti rossi e ciano visibili anche alle
+      lettere. Testi corretti, margini e lettura preservati; immagini visivamente coerenti con le basi,
+      senza identità pixel per pixel.
+
+      '
+Composition Library:
+  Style Name: Anaglyph Editorial
+  Selection:
+    Basis: 'Scegliere soggetto e struttura in funzione della frase, conservando una lettura completa e
+      una relazione visibile fra fotografia e suoi echi.
+
+      '
+    Variation: 'Variare orientamento, scala, distanze, numero di livelli cromatici e collocazione delle
+      parole. Le famiglie non impongono tre righe, fondo bianco o posizione del soggetto a destra. Lo
+      sdoppiamento del testo rimane visibile ma più contenuto di quello del soggetto; un nucleo nitido
+      conserva il percorso di lettura.
+
+      '
+  Families:
+  - id: figura-sdoppiata
+    Name: Figura e prospettive cromatiche
+    Use When: Un volto, una figura o un gesto aggiunge significato alla frase.
+    Structure: 'Una figura fotografica si apre in echi cromatici laterali; la massa del testo bilancia
+      il volto o il gesto, con sovrapposizioni periferiche e intervalli che mantengono riconoscibili i
+      dettagli focali.
+
+      '
+    Text Adaptation: 'Frase prima lettura, contrasto locale chiaro, spazi fra gruppi di parole. Ridurre
+      la scala della figura per una citazione lunga.
+
+      '
+    Format Adaptation: 'Ricomporre posa, taglio e direzione degli echi per il formato. Conservare il volto
+      riconoscibile senza imporre un ritratto frontale.
+
+      '
+  - id: oggetto-sdoppiato
+    Name: Oggetto e scarti ottici
+    Use When: Un oggetto o un suo dettaglio interpreta il contenuto della frase.
+    Structure: 'Un oggetto fotografico mantiene una matrice principale e ripete bordi e dettagli nei livelli
+      colorati. La citazione si integra nei vuoti e nei margini dell''oggetto senza diventare una didascalia
+      separata.
+
+      '
+    Text Adaptation: 'Evitare che un anello, manico o profilo sostituisca una lettera. Per frasi lunghe
+      ridurre scala e numero di echi, conservando gli spazi.
+
+      '
+    Format Adaptation: 'Ricomporre angolo dell''oggetto, distanza fra esposizioni e righe per ogni formato.
+      Nessun obbligo di macchina fotografica o lente.
+
+      '

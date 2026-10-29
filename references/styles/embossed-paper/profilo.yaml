@@ -1,0 +1,95 @@
+Design Style:
+  Name: Embossed Paper
+  Version: 0.2.0-experimental
+  Status: V1 candidate; approvato per la gallery il 28 ottobre 2026
+  Concept: >
+    Citazione e piccolo disegno prendono forma nella carta senza inchiostro.
+    Fibre compresse, rilievi e incavi poco profondi costruiscono parole
+    leggibili grazie a una luce radente coerente. La pagina è essenziale
+    e tattile, con variazioni di pressione plausibili.
+  Canvas:
+    Ratio: '4:5'
+    Output: Card editoriale piatta a piena pagina, superficie di carta.
+    Adaptation: Ricomporre parole, disegno e intervalli per il formato richiesto.
+  Mood: [Tattile, Silenzioso, Essenziale, Intimo, Scultoreo]
+  Color Palette:
+    Starting Paper: '#F1EEE5'
+    Starting Shadow: '#9B9384'
+    Starting Highlight: '#FAF8F1'
+    Roles: >
+      Il colore appartiene alla carta. Ombre e luci derivano dalla forma
+      della superficie, non da inchiostro nei glifi o contorni stampati.
+      Preferire carta chiara e opaca; un colore richiesto può sostituirla
+      mantenendo leggibilità e rilievo. Nessun obbligo di avorio.
+  Typography:
+    Quote: >
+      Lettere grandi, robuste e riconoscibili, con proporzioni naturali,
+      spazi fra parole chiari e occhielli aperti. Una serif letteraria è
+      il punto di partenza; altri registri sono possibili su richiesta.
+      Evitare filetti così sottili da scomparire nel tono su tono.
+    Material: >
+      La frase è impressa in incavo oppure sollevata in basso rilievo.
+      Scegliere un registro fisico coerente per le parole; la fibra prosegue
+      nei segni. Niente lettere tridimensionali appoggiate o incollate.
+    Integrity: >
+      Conservare la frase completa una sola volta, con caso, accenti,
+      punteggiatura e ordine esatti. A capo per gruppi di senso; non
+      stirare o comprimere glifi per occupare una larghezza fissa.
+    Attribution: >
+      Solo se fornita o verificata, più piccola ma leggibile e allineata
+      su un asse destro. Omettere registro e spazio se assente. Nessuna
+      firma personale non richiesta.
+  Layout:
+    Relationship: >
+      La frase domina e condivide la carta con un piccolo disegno
+      riconoscibile pertinente al suo significato. Il disegno resta
+      secondario, separato dalle lettere e nella stessa logica di impressione.
+      Posizione e soggetto cambiano per il contenuto; nessuna conchiglia fissa.
+    Space: >
+      Conservare intervalli ampi e margini utili. Usare pochi allineamenti
+      chiari senza imporre un blocco sempre centrale o quattro righe fisse.
+    Capacity: >
+      Per frasi lunghe semplificare il disegno e riorganizzare il testo prima
+      di ridurre il corpo; la leggibilità prevale su un rilievo sottilissimo.
+  Elements:
+    Paper: >
+      Carta spessa da stampa a fibra naturale, opaca, con grana fine irregolare
+      e zone compresse leggermente più lisce. Piccole variazioni reali,
+      non una superficie corrosa o un filtro grunge uniforme.
+    Drawing: >
+      Sempre una piccola figura, un oggetto o una forma naturale suggeriti
+      dalla frase. Tradurre il soggetto in pochi contorni e piani impressi,
+      senza aggiungere un oggetto fisico sulla pagina o ornamenti superflui.
+  Effects:
+    Impression: >
+      Dislivelli contenuti, labbri compressi e variazioni locali di pressione;
+      evitare cavità da pietra scolpita, estrusioni alte o lettere gonfie.
+      Per l'incavo preferire spalle sottili e morbide; la grana rimane fatta
+      di fibre continue, non di piccoli crateri o aggregati rocciosi.
+    Light: >
+      Un'unica sorgente radente ampia rende leggibili i bordi con ombre corte
+      e luci coerenti. Controllare testo e disegno sotto la stessa direzione.
+      Il contrasto nasce dalla forma, senza neri aggiunti o bagliori digitali.
+    Surface: >
+      Presentazione quasi ortogonale della sola superficie di carta; niente
+      tavoli, cornici, mani, buste o pile di cartoncini. La luce può mostrare
+      il rilievo senza trasformare la card in un mockup di prodotto.
+  Rules:
+    - La frase completa resta la prima lettura anche nell'anteprima piccola.
+    - Carta, parole e disegno condividono materiale e luce.
+    - Inchiostro, foil e contorni dipinti sono assenti nella variante a secco.
+    - Il piccolo disegno è riconoscibile e pertinente alla frase.
+    - Ombre fisiche contenute; nessun effetto plastica, gesso o pietra.
+    - Nessun testo, marchio, data o firma inventati.
+  Production:
+    Preferred Mode: generative
+    Validation Status: >
+      Due composizioni indipendenti, ciascuna con una correzione mirata,
+      ispezionate native e a 320 × 400 px. Prima frase con serif e conchiglia
+      su avorio; seconda frase con sans, finestra aperta, equilibrio asimmetrico,
+      carta grigio-perla e luce da altra direzione. Testi corretti e leggibili.
+      La riduzione del rilievo migliora la materia ma abbassa il contrasto;
+      grana ancora accentuata e cavità simulate evidenti in alcuni punti.
+      Nessuna prova di fattibilità fisica, attribuzione, frase lunga o
+      ripetibilità generale. Vedere note-prova-1.md, note-prova-2.md e
+      note-prova-3.md.

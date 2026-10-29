@@ -1,0 +1,77 @@
+Design Style:
+  Name: Typewritten Marginalia
+  Status: Studio sperimentale; quattro prove visive; non ancora nel catalogo
+  Concept: >
+    Una citazione dattiloscritta su carta incontra annotazioni a biro come
+    su una bozza rivista a mano. La pressione irregolare, l'inchiostro
+    sbavato e i segni aggiunti raccontano un testo in lavorazione.
+  Reference Basis:
+    Image: Riferimento grafico fornito dall'utente
+    Transfer: >
+      Riprendere impronte imperfette, segni di revisione e contrasto tra
+      caratteri battuti e tratto a penna, senza copiare testo, segni o
+      impaginazione specifici del riferimento.
+  Canvas:
+    Ratio: '4:5'
+    Output: Quote card editoriale piatta su carta
+    Adaptation: Ricomporre testo, segni e margini per il formato richiesto.
+  Mood: [Editoriale, Materico, Analogico, Imperfetto, Riflessivo]
+  Color Palette:
+    Fixed Colors: false
+    Roles: >
+      Carta chiara, inchiostro della macchina sufficientemente contrastato
+      e biro anche colorata per distinguere il livello delle annotazioni.
+      Blu scuro e rosso sono un esempio, non colori obbligatori.
+  Typography:
+    Quote: >
+      Caratteri da macchina per scrivere, a spaziatura fissa o con ritmo
+      coerente da dattiloscritto. Impronta variabile, bordi irregolari,
+      piccoli vuoti e sbavature locali riconducibili all'inchiostro.
+      La citazione è protagonista ed è riportata esattamente una volta,
+      conservando le maiuscole e minuscole fornite.
+    Fidelity: >
+      Preservare parole, maiuscole, accenti, ordine e punteggiatura.
+      Scegliere a capo e scala per mantenere leggibile ogni parola;
+      segni a biro non cancellano né nascondono la frase.
+    Attribution: Solo se fornita o verificata, più piccola e leggibile.
+  Layout:
+    Structure: >
+      Comporre la frase in un campo principale su carta, con spazio per
+      annotazioni che interagiscono con singole parole. Distribuire
+      irregolarità e margini senza trasformare la pagina in rumore uniforme.
+    Variability: >
+      Cambiare orientamento, numero di righe, posizione e intensità dei
+      segni secondo la citazione; non replicare una formula fissa.
+  Annotations:
+    Repertoire: >
+      Segni di biro, frecce, cerchi, sottolineature e note manoscritte
+      pertinenti, come annotazioni aggiunte in fase di revisione.
+    Text: >
+      Eventuali parole aggiuntive solo se fornite o richieste esplicitamente;
+      altrimenti usare segni non verbali e non inventare commenti o firme.
+    Integration: >
+      Il segno a penna può avvicinarsi o toccare il testo, mantenendo
+      ogni lettera chiaramente riconoscibile e la frase la prima lettura.
+  Effects:
+    Typewriter: >
+      Nastro irregolare, pressione variabile, sbavature e residui di stampa
+      localizzati, distinguibili dal tratto più fine e continuo della biro.
+      Privilegiare macchie irregolari di trasferimento, come il contatto
+      accidentale della mano con inchiostro fresco: depositi parziali,
+      pressione e densità variabili, senza impronte complete obbligatorie.
+      Eventuali cancellature e ripensamenti restano locali e plausibili,
+      senza lunghe sfregature decorative; non deteriorare il testo definitivo.
+    Surface: Carta opaca e tattile, senza mockup di scrivania o grana uniforme.
+  Content Contract:
+    quote: Citazione completa ed esatta una volta.
+    author: Solo se fornito o verificato.
+    notes: Solo testo di annotazione fornito o richiesto; altrimenti segni grafici.
+    other_text: Nessuna firma, etichetta, data o testo inventato.
+  Production:
+    Preferred Mode: generative
+    Validation Status: >
+      Quattro prove correlate con una frase breve: la seconda usa maiuscole
+      e minuscole, la terza esplora sfregature, la quarta prova macchie
+      da contatto, più localizzate ma non chiaramente riconoscibili come
+      impronte di mano. L'aspetto analogico è simulato. Non sono dimostrate ripetibilità,
+      leggibilità su telefono o resa con frasi lunghe e accentate.

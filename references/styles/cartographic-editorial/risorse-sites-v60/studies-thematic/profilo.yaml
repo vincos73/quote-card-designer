@@ -1,0 +1,57 @@
+"Design Style":
+  "Name": "Geografica"
+  "Status": "Studio tematico da valutare; nessuna promozione automatica a V1 o Candidates"
+  "Concept": "Una rete urbana a linee sottili e una frase monumentale costruiscono lo stesso campo. Il linguaggio scelto è rete e manifesto, non la palette del singolo esempio."
+  "Canvas":
+    "Ratio": "4:5"
+    "Output": "Composizione raster completa, testo incluso"
+    "Adaptation": "Ricomporre per il formato richiesto, conservando testo e proporzioni dei glifi."
+  "Mood":
+    - "Editoriale"
+    - "Tematico"
+    - "Sperimentale"
+  "Color Palette":
+    "Fixed Colors": false
+    "Policy": "Scegliere una palette armonica per fondo, testo e immagine in funzione del quote e delle preferenze. Nero e verde non sono obbligatori. Mantenere contrasto locale e ruoli chiari."
+  "Typography":
+    "Quote": "Display sans condensata e autorevole, con disegno naturalmente stretto e forte contrasto di scala rispetto al tratto cartografico."
+    "Spacing": "Kerning, wordspace e proporzioni naturali; risolvere capienza con a capo, composizione e scala, non tracking arbitrario."
+    "Attribution": "Facoltativa, esatta, più piccola e leggera, allineata a destra su un asse chiaro. Se assente, recuperare lo spazio."
+    "Signature": "Solo se richiesta; distinta dall’autore, mai ricavata dal profilo personale."
+  "Imagery":
+    "Language": "Piani stradali, assi, incroci e densità urbane scelti dal senso della frase. Mappe immaginarie salvo dati geografici forniti e verificati."
+    "Selection": "Il soggetto deriva dal significato della frase; gli esempi non sono soggetti fissi."
+  "Layout":
+    "Relation": "La rete attraversa gli intervalli della frase, si dirada per lasciarla leggere e ne accompagna gli assi. I tratti non cancellano parti essenziali dei glifi."
+    "Variation": "Scegliere struttura, scala e densità dalla frase; variare la composizione oltre alla palette."
+  "Effects": "Segno cartografico preciso, campi di colore puliti, superficie opaca e grana discreta."
+  "Exclusions": "Nessun toponimo, coordinata o dato fittizio. Nessun obbligo di rosso e blu, cornici o assonometria."
+  "Content Contract":
+    "quote": "Testo completo una volta, con parole, cassa, accenti e punteggiatura conservati."
+    "other_text": "Nessun autore, firma, dato, logo o testo di riempimento inventato."
+  "Production":
+    "Method": "ImageGen integrato per ogni composizione completa, testo incluso. Nessuna scritta impaginata sopra un solo fondo generato."
+    "Reference Inputs": "Le reference e i target delle edit storiche non sono requisiti permanenti. Le proprietà da trasferire vanno dichiarate quando si usano immagini."
+    "Profile Provenance": "Codifica di studio ricavata dai brief, dalle revisioni e dalle decisioni dell’utente; i prompt effettivi degli esempi sono archiviati separatamente."
+    "Validation": "Due immagini native 1122×1402, quasi 4:5, con testi diversi, rilette visivamente. Font esatto, contrasto raster, attribuzioni, altre lunghezze e altri formati non certificati."
+  "Study Note": "L’utente ha scelto il secondo esempio. Il primo resta uno studio preliminare, non un riferimento obbligatorio. Palette variabile."
+"Composition Library":
+  "Style Name": "Geografica"
+  "Selection":
+    "Basis": "Scegliere dal senso della frase e dall’ingombro del testo."
+    "Variation": "Repertorio aperto di relazioni, non template a coordinate fisse."
+  "Families":
+    -
+      "id": "network-through-type"
+      "Name": "Rete nel campo tipografico"
+      "Use When": "Quando la relazione sostiene il senso e la leggibilità della frase."
+      "Structure": "Direzione principale scelta: una rete continua entra negli intervalli fra i gruppi della frase."
+      "Text Adaptation": "A capo per gruppi di senso, proporzioni e spazi naturali, attribuzione eventuale su asse destro."
+      "Format Adaptation": "Ricomporre nel rapporto richiesto; non ritagliare o deformare il testo."
+    -
+      "id": "urban-clearing"
+      "Name": "Apertura nel tessuto"
+      "Use When": "Quando la relazione sostiene il senso e la leggibilità della frase."
+      "Structure": "Studio preliminare: densità edilizie e zone cromatiche lasciano un’apertura per le parole; non è la direzione selezionata."
+      "Text Adaptation": "A capo per gruppi di senso, proporzioni e spazi naturali, attribuzione eventuale su asse destro."
+      "Format Adaptation": "Ricomporre nel rapporto richiesto; non ritagliare o deformare il testo."

@@ -1,0 +1,266 @@
+Design Style:
+  Name: Pixel Field
+  Concept: 'An editorial image built from conflicting resolutions. Square cells, checker fragments and
+    fine printed screens interrupt one another across a shared field. A form may emerge, disappear or
+    remain ambiguous. The quotation remains a large, dominant continuous block of geometric sans-serif
+    type, while the raster changes scale around it. Each card invents a new relation between the stable
+    text and unstable image, not a smooth pixel fade attached to a conventional text box.
+
+    '
+  Reference Basis:
+    Material: Two images supplied by the user in this conversation
+    Observation: 'One reference moves from sparse white square pixels into a dense monochrome screen and
+      a planetary image. The other brings checkerboard clusters, blue bitmap lettering and open paper
+      into the same fragmented field. Infer the shared resolution shift and editorial tension; do not
+      repeat either image''s arrangement, words, logo-like marks or subject.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: One flat, finished editorial quote card
+  Mood:
+  - Experimental
+  - Graphic
+  - Tactile
+  - Computational
+  - Unsettled
+  - Playful but controlled
+  Color Palette:
+    Fixed Colors: false
+    Starting Pairs:
+      DeepGreenAndPaper:
+      - '#006D53'
+      - '#F1EEE2'
+      CobaltAndPaper:
+      - '#1428A0'
+      - '#F2F2ED'
+      AubergineAndApricot:
+      - '#432A52'
+      - '#F2D8BB'
+    Roles: 'Prefer one dominant ink and one contrasting ground, with a third colour only when it marks
+      a fracture, alternate screen or typographic emphasis. Keep the entire quotation one readable ink
+      colour on one locally even ground. A small accent belongs to the raster rather than an individual
+      word. The pairs are starting directions, not mandatory branding. User colours replace them.
+
+      '
+  Typography:
+    Primary: 'Set the full quotation in one clear geometric sans-serif family, regular or medium weight,
+      at a scale that is the first thing read even in a small preview. Keep one consistent typographic
+      register across its words, with natural character widths, optical kerning and ordinary word spaces.
+      The text breaks at sense units. Its line count and footprint follow the selected composition and
+      actual phrase length. Resolve fit with line breaks and image placement before reducing the quote''s
+      prominence.
+
+      '
+    Graphic Contact: 'Let the raster approach, frame, erode or step around the block''s outer contour.
+      A density seam may align with a text edge or baseline, but individual cells must not obscure, replace
+      or distort letter strokes. Do not set one word as a giant knockout, bitmap glyph or separate font.
+
+      '
+    Attribution: 'If an author is supplied or verified, set the exact name smaller and lighter on a clear
+      right-aligned axis. If absent, omit the register and reclaim its space.
+
+      '
+    Hierarchy: 'The quotation is the largest coherent visual mass and the first thing read. Give it substantial
+      width and height in the card, with one shared left edge or another equally clear alignment. Integrate
+      it into the poster field through a shaped zone of local contrast and a shared grid; do not place
+      it as a caption below a detached illustration. No word receives a different font, distorted form
+      or opportunistic size change. Do not invent labels, dates, institutions or microcopy from the references.
+
+      '
+  Layout:
+    Shared Structure: 'Lay out the large quote block first. Build a modular field around its measured
+      footprint with at least one deliberate discontinuity: an abrupt jump in cell size, a missing strip,
+      an offset grid, a hard mask or a collision between raster regions. The quote and raster share axes
+      and proportions. Avoid the default split of artwork above and text below. Negative space for the
+      text can be irregular and internal to the image, but the letters sit on an even, legible local ground.
+
+      '
+    Meaning: 'Interpret the quotation as a relation such as emergence, repair, loss, transmission, change
+      of scale or a newly visible boundary. Choose the subject and composition for that relation; the
+      planet in a reference is not a recurring icon.
+
+      '
+    Module: 'Establish a base square cell or dot interval. Create at least two clearly related scales,
+      from coarse blocks to fine screen. A few cells may break registration or switch density while the
+      governing grid remains perceptible. A photographic fragment or pure abstraction can carry the field.
+
+      '
+    Integration: 'The raster must visibly respond to the complete quote block through shared axes, boundaries
+      or proportions. Keep letter strokes intact and their immediate ground calm. Distribution, transition
+      direction and density path are chosen in the separate composition library.
+
+      '
+  Imagery:
+    Repertoire:
+    - A photographed object or landscape reduced to a two-tone screen
+    - An abstract silhouette assembled from cells
+    - An aperture, negative-space cut or interrupted image
+    - A field that suggests a signal without a literal depicted subject
+    Selection: 'Let the quotation determine whether recognisable imagery helps. A fragment can be partly
+      hidden by pixels or letterforms. Keep one focal subject at most. The reference planet is not a recurring
+      icon.
+
+      '
+  Graphic Elements:
+  - Square bitmap cells at two or more sizes
+  - Checkerboard islands or broken modular bands
+  - Fine halftone dots or short hatch marks that build tonal mass
+  - Deliberate gaps and erased cells
+  - Hard crops, shifted grid strips or density seams
+  - Stepped or eroded negative space shaped around an intact quote block
+  Effects:
+    Print: 'Matte ink and subtle paper grain may soften the digital geometry. Keep the cells and tonal
+      screen legible as an image-making structure, not a generic distress overlay.
+
+      '
+    Depth: Flat poster planes; any depth is carried by the screened subject
+    Motion Translation: 'For a static card, suggest motion through a directional change in cell density
+      and scale. Timing for animation is a separate design decision.
+
+      '
+  Content Contract:
+    quote: Show the exact user-supplied quotation once, including accents and punctuation.
+    author: Show only a supplied or verified author, right-aligned and subordinate.
+    signature: Use a personal signature only when explicitly requested.
+  Rules:
+  - The collision of resolution scales must be a visible compositional event, not a decorative filter.
+  - The quote is visually preeminent at thumbnail scale; reduce or crop raster before reducing type.
+  - The raster responds to the complete quote block; avoid a detached image-above, quote-below layout.
+  - Use one coherent geometric sans-serif register for all words of the quote.
+  - Keep the quotation readable against its immediate ground at card scale.
+  - Use a new density path and image relation for each text.
+  - Do not reproduce text, subjects or exact arrangements from the references.
+  - Avoid generic glitch effects, interface chrome, glossy 3D and mockups.
+  - Do not add invented words, logos, attribution or source names.
+  Production:
+    Preferred Mode: hybrid
+    Rationale: 'Generate the entire card composition with ImageGen. Refine lettering only if needed while
+      preserving the generated raster composition.
+
+      '
+  User Overrides:
+    Format: Recompose the density path and text zone for the requested ratio.
+    Palette: Replace starting colours while preserving strong local contrast.
+    Typography: Use the requested type direction without distorting glyphs or words.
+    Subject: Use a requested subject, interpreted through the resolution transition.
+Composition Library:
+  Style Name: Pixel Field
+  Selection:
+    Basis: 'Choose a primary spatial relation for the actual quotation, its likely line breaks, the requested
+      ratio and any supplied attribution or signature. Preserve the style profile''s dominant intact geometric
+      sans-serif quote and the collision of resolutions in every family.
+
+      '
+    Choice: 'These families are starting structures, not a random rotation or a closed list. A requested
+      arrangement wins when compatible. Compare relevant families internally and send only the chosen
+      structure and its adaptations to ImageGen. Keep composition stable for targeted edits.
+
+      '
+    Variation: 'Across new cards or requested variants, vary the relation of raster and text as well as
+      transition direction, crop and density. Do not repeat a clearing merely with a new colour or replace
+      the chosen structure during a correction of lettering.
+
+      '
+  Families:
+  - id: stepped-clearing
+    Name: Stepped clearing
+    Use When: 'A compact or medium quote forms a strong block and the idea suggests emergence, repair
+      or a space opening within a signal.
+
+      '
+    Structure: 'Place the quote inside a stepped, asymmetric clearing within the raster field. Coarse
+      cells stop at its outer edge; a finer screen resumes beyond the clearing. Share an edge or module
+      with the text.
+
+      '
+    Text Adaptation: 'Let the clearing grow from the phrase''s readable line breaks. For a longer quote
+      enlarge the opening and reduce surrounding density. Reserve a smaller right-aligned register only
+      if a name is supplied.
+
+      '
+    Format Adaptation: 'In a tall ratio the opening may extend vertically; in a wide ratio spread it laterally
+      and crop the field. Preserve local contrast and complete glyphs rather than clipping the existing
+      card to fit.
+
+      '
+    Variation Axes:
+    - Clearing position
+    - Stepped contour
+    - Scale jump
+    - Density direction
+  - id: broken-diagonal
+    Name: Broken diagonal
+    Use When: 'The quote suggests movement, a boundary, transmission or changing direction, and its words
+      can form a stable block beside that movement.
+
+      '
+    Structure: 'Use an interrupted diagonal seam to join coarse pixels and a fine screen. The quote occupies
+      a calm area aligned with one seam endpoint or a grid edge; raster continues beyond it as part of
+      the same field.
+
+      '
+    Text Adaptation: 'Keep the type on clear horizontal baselines. Bend or interrupt the raster path around
+      the full block, not around individual letters. For a long quote flatten or crop the diagonal to
+      free more area.
+
+      '
+    Format Adaptation: 'Rechoose the seam angle and endpoints for the ratio. A wide card can use a shallower
+      traverse; a tall card can hold a steeper one, provided it leaves a broad enough writing zone.
+
+      '
+    Variation Axes:
+    - Seam angle
+    - Interrupted segments
+    - Registration offset
+    - Screened subject
+  - id: raster-islands
+    Name: Raster islands
+    Use When: 'A short or medium phrase benefits from discontinuity, discovery, connection or a deliberately
+      less directional experimental field.
+
+      '
+    Structure: 'Distribute a few uneven raster islands around the dominant quote. Islands share a base
+      module but collide in scale and screen density. Their cut edges and intervals echo the quote''s
+      block proportions.
+
+      '
+    Text Adaptation: 'Preserve a single continuous reading block. A longer phrase takes priority over
+      the number or size of islands. An optional name follows a clear right axis and never becomes an
+      extra bitmap island.
+
+      '
+    Format Adaptation: 'Rebalance island positions and crops for the ratio while keeping unequal density
+      and a coherent text anchor. Avoid four equal corner ornaments or scattering elements uniformly.
+
+      '
+    Variation Axes:
+    - Island count and crop
+    - Empty intervals
+    - Checker fragments
+    - Density contrast
+  - id: edge-pressure
+    Name: Edge pressure
+    Use When: 'The phrase needs a broad writing field, including longer quotes, or the idea suggests pressure,
+      accumulation, resistance or a threshold.
+
+      '
+    Structure: 'Give the large quote a generous field. A dense cropped raster mass presses from one edge
+      and breaks into coarse cells or a fine screen along a boundary aligned with the quote. A sparse
+      echo may resume beyond another edge, joining text and raster in one poster plane.
+
+      '
+    Text Adaptation: 'Choose natural line breaks first, then set the intrusion depth. Keep the full quote
+      prominent; crop the raster before shrinking type. Reclaim the name register whenever attribution
+      and signature are absent.
+
+      '
+    Format Adaptation: 'Select the active edge anew for the ratio. The raster remains an integrated boundary,
+      not a detached top illustration with a caption.
+
+      '
+    Variation Axes:
+    - Active edge
+    - Intrusion depth
+    - Boundary shape
+    - Sparse echo

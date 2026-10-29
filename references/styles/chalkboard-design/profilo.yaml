@@ -1,0 +1,165 @@
+Design Style:
+  Name: Chalkboard Design
+  Status: Stile in prova nella gallery; non candidato V1
+  Concept: 'La frase è scritta a mano su una lavagna realmente usata. Il gesso fresco convive con polvere,
+    veli di cancellatura, residui di segni e ripassi. La superficie conserva la storia dei gesti: una
+    fotografia di pigmento friabile su una tavola opaca, con priorità alla lettura della frase.
+
+    '
+  Reference Basis:
+    Scope: Tre immagini allegate, analizzate per segno, cancellature e stratificazione.
+    Transfer: 'Dalla prima reference trasferire le scie trascinate e la scrittura larga; dalla seconda
+      cerchi, ripassi e cancellature parziali; dalla terza l''energia di una pagina progettata a mano
+      con piccoli schemi irregolari. Non copiare parole, nomi, crediti, diagrammi o impaginati esatti.
+
+      '
+    Reference Inputs: Reference analitiche, nessuna dipendenza permanente da immagini in input.
+  Canvas:
+    Ratio: '4:5'
+    Output: Fotografia frontale a pieno formato della superficie, senza cornice
+    Adaptation: Ricomporre scrittura, vuoti e zone cancellate per ogni rapporto.
+  Mood:
+  - Sporco
+  - Manuale
+  - Realistico
+  - Spontaneo
+  - Polveroso
+  - Stratificato
+  Color Palette:
+    Fixed Colors: false
+    Strategy: 'Gesso prevalentemente bianco avorio su lavagna nero antracite oppure verde molto scuro.
+      Un accento di gesso colorato è possibile, subordinato e matericamente identico; evitare una tavolozza
+      multicolore obbligatoria.
+
+      '
+    Starting Colors:
+      Board: '#242827'
+      Green Board: '#143A32'
+      Fresh Chalk: '#EEEDE3'
+      Erased Chalk: '#7D8580'
+      Optional Accent: '#D9BD67'
+  Typography:
+    Quote:
+      Style: 'Scrittura manuale occidentale leggibile, a stampatello o corsivo spontaneo, con una sola
+        mano riconoscibile. Tratti sottili di punta, campiture di costa, pressione variabile, piccoli
+        vuoti e ripassi irregolari; non un font digitale reso ruvido con un filtro uniforme.
+
+        '
+      Hierarchy: 'La frase fresca è la prima lettura. Variazioni di corpo o peso possono sottolineare
+        un gruppo di senso. Anche le parole di raccordo restano sostanziali, senza apparati ornamentali
+        da menu o insegna da caffetteria.
+
+        '
+      Integrity: 'Parole, cassa, accenti e punteggiatura esatti, una volta sola. A capo per senso. Proporzioni
+        naturali, spazi fra parole chiari, nessun tracking arbitrario per pareggiare righe o occupare
+        una sagoma.
+
+        '
+    Attribution: 'Solo fornita o verificata, più piccola e leggera ma leggibile, della stessa mano e allineata
+      a destra. Se assente, recuperare lo spazio.
+
+      '
+    Signature: Solo richiesta esplicitamente, distinta dall'autore.
+  Layout:
+    Shared Structure: 'Scrittura, polvere, residui e piccoli segni occupano la stessa lavagna. Organizzare
+      zone di gesso fresco contro zone di memoria attenuata. Il disordine è locale e gestuale, l''ordine
+      della frase resta univoco.
+
+      '
+    Layering: 'Le cancellature possono attraversare e velare alcuni bordi senza cancellare parole necessarie.
+      Altri segni stanno sotto o intorno alla frase, senza competere come testi secondari.
+
+      '
+    Density: 'Alternare aree dense e pause, senza una texture di sporco uniforme. Per testi lunghi ridurre
+      scarabocchi e schemi prima di ridurre il corpo.
+
+      '
+  Elements:
+    Board: 'Superficie rigida opaca a micrograna fine, con variazioni d''uso locali, abrasioni discrete
+      e nessun effetto carta o tela. Piccole zone più pulite possono mostrare il fondo scuro fra i depositi.
+
+      '
+    Chalk: 'Polvere secca e friabile che aderisce ai rilievi della lavagna, bordi granulosi, tratti spezzati,
+      depositi più spessi nei ripassi e granelli dispersi attorno ai gesti. Nessuna pennellata liquida
+      o rilievo plastico.
+
+      '
+    Erasures: 'Passate reali di cancellino, panno o mano: strisce larghe discontinue, scie direzionali,
+      velature opache, aloni sporchi e accumuli ai bordi del gesto. Variare ampiezza, pressione e direzione
+      secondo la scena; non sfocare uniformemente l''immagine o replicare il testo con motion blur.
+
+      '
+    Residues: 'Frammenti di curve, vecchi tratti interrotti e tracce quasi rimosse. Devono restare segni
+      astratti non leggibili come parole aggiuntive, citazioni duplicate, nomi o numeri inventati.
+
+      '
+    Optional Marks: 'Pochi cerchi ripassati, frecce, riquadri storti, tratteggi e un piccolo schema o
+      disegno legato alla frase. Possono sovrapporsi localmente; non sono un inventario obbligatorio da
+      applicare a tutte le card.
+
+      '
+  Effects:
+    Light: 'Luce laterale morbida che rende visibili polvere e micrograna senza creare bagliore. Il gesso
+      riflette luce ambiente, non emette luce.
+
+      '
+    Realism: 'Fuoco nitido su scritta e superficie, contrasto controllato fra gesso fresco e residui,
+      irregolarità localizzate coerenti con i gesti. Una fotografia credibile senza grunge digitale o
+      vignettatura pesante.
+
+      '
+  Content Contract:
+    quotation: Testo completo esatto una volta sola, incluse cassa e punteggiatura.
+    author: Solo fornito o verificato, allineato a destra e subordinato.
+    other_text: Nessun altro testo leggibile, credito, firma o marchio inventato.
+  Rules:
+  - Mostrare cancellature riconoscibili e differenziate insieme al gesso fresco.
+  - Mantenere il testo preminente anche nelle composizioni più sporche.
+  - Fare dipendere i residui dal gesto fisico di cancellare.
+  - Conservare pressione, grana e irregolarità della scrittura manuale.
+  - Variare struttura e densità senza copiare gli allegati.
+  Exclusions:
+  - Neon, scritta luminosa, vernice bagnata, pennarello o lettering in rilievo
+  - Font chalk regolare, texture grunge uniforme o motion blur su tutta la frase
+  - Lavagna da ristorante ornata, menu, formule o appunti fittizi
+  - Nomi e testi riconoscibili copiati dalle reference
+  - Sporco che rende il testo incompleto o illeggibile
+  Production:
+    Preferred Mode: generative
+    Method: Generare con ImageGen l'intera card, compresi testo, gesso e cancellature.
+    Validation Status: Due prove controllate a dimensione nativa e 320 × 400 pixel; valutazione estetica
+      in attesa. Altri formati e attribuzione non provati.
+Composition Library:
+  Style Name: Chalkboard Design
+  Selection:
+    Basis: Scegliere un percorso di lettura e un gesto di cancellatura prevalente.
+    Variation: Cambiare silhouette del testo, densità e rapporto fra gesto fresco e memoria.
+  Families:
+  - id: dragged-erasure
+    Name: Scritta e cancellatura trascinata
+    Use When: Una frase breve può dominare il campo con pochi gruppi grandi.
+    Structure: 'Gruppi di parole con leggere inclinazioni locali attraversano veli di gesso trascinato.
+      I depositi più chiari appartengono alla scrittura fresca; le scie attraversano soprattutto gli intervalli.
+
+      '
+    Text Adaptation: Nessuna parola cancellata; mantenere integri tratti e contatori utili.
+    Format Adaptation: Riorientare il percorso e le scie secondo il rapporto, senza stirare i glifi.
+  - id: working-board
+    Name: Lavagna in lavorazione
+    Use When: La frase può convivere con segni di processo e piccoli schemi.
+    Structure: 'Un blocco di parole dominante e asimmetrico emerge da cerchi ripassati, segmenti, cancellature
+      e un piccolo schema pertinente. Zone più pulite e zone dense creano un ritmo leggibile.
+
+      '
+    Text Adaptation: Residui astratti e subordinati, ordine della frase immediato.
+    Format Adaptation: Variare posizione e numero dei gruppi lasciando sufficiente respiro al testo.
+  - id: fresh-over-memory
+    Name: Scrittura fresca sulla memoria
+    Use When: Il contenuto suggerisce ripensamento, cambiamento o una nuova formulazione.
+    Structure: 'Un''area cancellata solo parzialmente ospita la frase riscritta con decisione; qualche
+      traccia di curva riaffiora ai bordi. Evitare un rettangolo uniformemente grigio dietro un titolo
+      digitale.
+
+      '
+    Text Adaptation: Una sola frase leggibile; non inventare una versione precedente.
+    Format Adaptation: Adattare l'area cancellata alla silhouette del testo e al formato.

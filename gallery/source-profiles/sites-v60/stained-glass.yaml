@@ -1,0 +1,66 @@
+"Design Style":
+  "Name": "Stained Glass"
+  "Status": "Candidato approvato dall’utente il 29 ottobre 2026; non incluso nella selezione release."
+  "Concept": "La frase e una piccola immagine sono costruite nella stessa vetrata: vetri colorati, giunzioni in piombo e luce trasmessa."
+  "Canvas":
+    "Ratio": "4:5"
+    "Output": "Composizione raster completa, testo incluso"
+    "Surface": "Vetrata artigianale planare fotografata quasi frontalmente; fondo a vetri chiari e figure a vetri colorati."
+    "Adaptation": "Ricomporre nel formato richiesto, senza stirare lettere o tagliare parole."
+  "Mood":
+    - "Materico"
+    - "Artigianale"
+    - "Fotografico"
+    - "Colorato"
+  "Color Palette":
+    "Policy": "Palette armonica variabile con gerarchia fra lettere colorate, piccola immagine e fondo quieto. Le combinazioni degli esempi non sono obbligatorie. Mantenere contrasto locale."
+    "Material": "Colori luminosi per trasmissione, con densità diversa secondo spessore del vetro e controluce."
+  "Typography":
+    "Quote": "Lettering geometrico robusto: aste dritte, spessori coerenti, curve semplici e righe prevalentemente orizzontali. Non usare glifi sinuosi, calligrafici o Art Nouveau."
+    "Construction": "Le aste e i contatori sono parti reali del disegno a vetri: tagli e archi plausibili, delimitati da giunzioni in piombo."
+    "Spacing": "Glifi e spazi naturali, kerning ottico. Nessuna deformazione o tracking arbitrario per riempire righe. Preferire a capo e ricomposizione."
+    "Attribution": "Facoltativa, esatta, più piccola e quieta, sempre allineata a destra su un asse riconoscibile. Se assente, recuperare lo spazio."
+    "Signature": "Solo se richiesta, distinta dall’autore, mai dedotta dal profilo personale."
+  "Layout":
+    "Hierarchy": "La frase domina; una piccola immagine pertinente al significato resta subordinata e realizzata nello stesso materiale."
+    "Relation": "Gli intervalli del testo, il fondo e l’eventuale percorso visivo sono disegnati insieme. I motivi possono curvare nei vuoti senza deformare le lettere."
+    "Variation": "Assi, a capo, scala, percorso e soggetto dipendono dalla frase; uccello e germoglio sono esempi, non soggetti fissi."
+  "Elements":
+    "Primary": "Vetri colorati traslucidi tagliati a mano, piombi sottili, saldature discrete e contatori aperti."
+    "Secondary": "Una piccola immagine o simbolo scelto dal senso della frase; eventuale percorso di tessere o vetri come relazione compositiva, non ornamento obbligatorio."
+  "Effects":
+    - "Luce del sole da dietro, alternanza fra zone luminose e in ombra; un raggio visibile quando la scena lo sostiene."
+    - "Vetro lievemente ondulato, striature e poche bolle, giunzioni scure con piccoli segni di lavorazione."
+    - "Esposizione controllata per non perdere parole; niente bloom che cancelli i piombi."
+  "Rules":
+    - "Lettering geometrico e materiale fisico sono invarianti."
+    - "La frase resta completa e leggibile; nessuna parola tagliata o deformata per far spazio all’immagine."
+    - "Niente soggetto, palette, numero di righe o percorso decorativo obbligatorio."
+    - "Niente ceramica opaca spacciata per vetro, finto rilievo plastico, ambientazione ecclesiastica o simboli religiosi obbligatori."
+  "Content Contract":
+    "quote": "Testo completo una volta, parole, cassa richiesta, accenti e punteggiatura conservati. Le frasi originali degli esempi sono senza punto finale."
+    "other_text": "Nessun autore, firma, titolo, logo o dato di riempimento inventato."
+  "Production":
+    "Method": "ImageGen integrato per la composizione completa, testo incluso. Nessun testo impaginato deterministicamente sopra un fondo generato."
+    "Reference Inputs": "Le revisioni storiche usano prove precedenti come target di edit; non sono immagini operative obbligatorie per il futuro."
+    "Validation": "Due frasi originali in due composizioni rilette visivamente, con lettering geometrico e immagine secondaria. Nativi 1122×1402 px, prossimi al 4:5. Font esatto, contrasto numerico, fattibilità costruttiva, attribuzioni e ripetibilità non certificati."
+"Composition Library":
+  "Style Name": "Stained Glass"
+  "Selection":
+    "Basis": "Scegliere la relazione fra parole, piccola immagine e direzione del materiale dal senso e dalla lunghezza della frase."
+    "Variation": "Repertorio aperto; colore e soggetto non sostituiscono la variazione compositiva."
+  "Families":
+    -
+      "id": "geometric-rows-small-sign"
+      "Name": "Righe geometriche e segno piccolo"
+      "Use When": "La frase si articola in gruppi compatti e una figura secondaria può occupare un’apertura."
+      "Structure": "Righe dritte a larghezza naturale; piccola immagine in un vuoto contiguo, realizzata nello stesso materiale."
+      "Text Adaptation": "A capo per gruppi di senso, spazi naturali e margini completi."
+      "Format Adaptation": "Ricomporre masse e intervalli nel formato richiesto; attribuzione eventuale allineata a destra."
+    -
+      "id": "path-between-words"
+      "Name": "Percorso fra le parole"
+      "Use When": "Il significato può essere sostenuto da una traiettoria che collega più gruppi."
+      "Structure": "Un percorso di tessere o vetri attraversa i vuoti e conduce al piccolo soggetto; le lettere restano geometriche e i gruppi su assi chiari."
+      "Text Adaptation": "Separare parole troppo vicine cambiando a capo; non piegare o schiacciare i glifi."
+      "Format Adaptation": "Modificare numero di gruppi, tragitto e posizione del segno per il rapporto richiesto."

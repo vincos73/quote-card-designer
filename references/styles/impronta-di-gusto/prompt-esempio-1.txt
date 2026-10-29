@@ -1,0 +1,13 @@
+Use case: stylized-concept.
+Create ONE finished artistic Italian quote card, exact vertical aspect ratio 4:5, ideally 1200 x 1500, full bleed. Generate the entire composition together including all typography. No mockup, no explanatory captions. No input images.
+Original visual language called IMPRONTA DI GUSTO: a contemporary culinary print-shop broadside. Bold sensuous food shapes rendered as two-colour carved block prints, with deliberate white gouge marks, generous solid ink shapes and softly rough ink edges. Pair them with enormous, beautifully cut soft slab-serif lettering, low stroke contrast, rounded bracketed serifs, open counters, human warmth. NOT thin cookbook typography, NOT handwritten notebook, NOT generic minimalist café branding. Paper texture subtle; graphic intelligence and typography dominate, not fake vintage distress.
+Palette: warm oat paper #F0DFBC background, deep plum #422147 typography and carved contours, toasted ochre #C97B2B bread interior, small tomato-red #B7402A accents. Harmonious and readable. No black required.
+Exact text, displayed once, no quotation marks: "Il tempo è un ingrediente che non si compra."
+Set the text large in the upper and left two thirds, in these semantic groups:
+Il tempo è
+un ingrediente
+che non
+si compra.
+Typography deep plum; consistent natural glyph proportions and optical kerning, clear word spaces. Do not force all lines to the same width, do not widen tracking, do not stretch/compress letters. Four or five optically spacious lines are acceptable. The whole quote must be prominent and legible at mobile feed size. The accent in è must be correct.
+Image chosen from meaning: a magnificent cross-section of a naturally risen rustic loaf, cut off by the lower and right edges. The scored crust makes broad arching contours, the open crumb rendered with hand-carved irregular negative holes, never photographic. The arched scored crust emerges from below and carries the rhythmic lower edge of the text like accumulated time. The loaf rises into the vacant lower right but no letter is covered, pinched or squeezed. A tiny scatter of flour dots is sufficient; no clocks, no utensils, no obligatory ingredient icon, no badge. Avoid the usual separated text-top illustration-bottom template: the last two lines sit in the left recess beside the shoulder of the loaf, with ample paper breathing room.
+Keep every letter fully readable, text first in reading order; image integral to the asymmetrical type silhouette. No author, no signature, no logo, no extra text, no fake recipe labels. Exact 4:5 composition.

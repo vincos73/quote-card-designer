@@ -1,0 +1,141 @@
+Design Style:
+  Name: "Interlocking Pop Geometry"
+  Status: "Profilo sperimentale della galleria locale; non incluso nel catalogo V1"
+  Concept: >
+    Poster editoriale costruito con un alfabeto di forme che si incastrano:
+    quarti di cerchio, dischi, archi, triangoli e moduli rettangolari.
+    Una griglia precisa convive con poche forme morbide che attraversano i
+    moduli. Colori pop, piccole sovrastampe puntinate e segni neri liberi
+    danno energia alla composizione senza ostacolare la lettura della frase.
+
+  Reference Basis:
+    First Image: >
+      Riprendere il principio dei moduli adiacenti, delle curve costruite
+      per quarti di cerchio, delle diagonali e delle campiture nette.
+    Second Image: >
+      Riprendere l'attraversamento dei moduli con forme arrotondate, la grana
+      di stampa confinata alle sovrapposizioni e pochi segni lineari liberi.
+    Transfer Rule: >
+      Tradurre queste relazioni in una composizione nuova per ogni frase.
+      Non copiare la disposizione, i simboli, le scritte o le proporzioni
+      delle immagini di riferimento.
+
+  Canvas:
+    Ratio: "4:5"
+    Output: "Una quote card editoriale piatta, verticale e a piena pagina"
+    Adaptation: >
+      Per altri formati ricomporre forme e area di lettura; non ritagliare
+      semplicemente la composizione 4:5.
+
+  Mood:
+    - Giocoso
+    - Geometrico
+    - Energico
+    - Editoriale
+    - Tattile
+
+  Color Palette:
+    Starting Colors:
+      Paper: "#F7F5EF"
+      Black: "#101010"
+      Yellow: "#FFD91A"
+      Orange: "#F45112"
+      Blue: "#1265B0"
+      Mint: "#67C49B"
+      Pink: "#EFA8C9"
+    Roles: >
+      Usare carta chiara come respiro e nero come inchiostro principale della
+      citazione. Scegliere da tre a cinque colori vivaci per le forme; il
+      repertorio completo non è obbligatorio. I valori HEX sono una lettura
+      approssimativa dei riferimenti, non colori campionati o vincolanti.
+    Contrast: >
+      Sotto la citazione mantenere un campo chiaro uniforme o un blocco scuro
+      uniforme con testo chiaro. Evitare lettere su confini cromatici, retini
+      e sovrapposizioni.
+
+  Typography:
+    Quote:
+      Style: "Grotesk geometrica o neo-grotesk, nitida e aperta"
+      Weight: "Semibold o bold; peso variabile solo per una gerarchia motivata"
+      Treatment: >
+        Riportare la frase una sola volta, esattamente come fornita. Usare
+        pochi a capo per gruppi di senso e una dimensione leggibile da mobile.
+        La citazione è il primo elemento testuale da leggere.
+    Attribution:
+      Style: "La stessa famiglia sans serif, più piccola e leggera"
+      Placement: >
+        Allineare a destra su un asse chiaro, separata dalla frase. Se non è
+        fornita o verificata, ometterla e recuperare lo spazio.
+    Spacing: >
+      Conservare larghezza naturale dei glifi, spazi tra parole e kerning
+      ottico. Risolvere la capienza con corpo, a capo e disposizione delle
+      forme, senza comprimere, stirare o alterare il tracking.
+
+  Layout:
+    Grid: >
+      Partire da una griglia modulare invisibile. Alcuni moduli si uniscono
+      in figure più grandi; altri restano vuoti per creare pause. Lasciare
+      margini generosi e un'area di lettura continua per l'intera frase.
+    Relationship: >
+      Le forme si avvicinano, incorniciano o attraversano il perimetro
+      dell'area tipografica, ma non passano sotto i glifi. Il testo deve
+      appartenere alla stessa costruzione del mosaico, non sembrare una
+      didascalia aggiunta in fondo.
+    Variation:
+      - "Mosaico di moduli con un'apertura ampia ricavata per la citazione"
+      - "Forma fluida centrale che collega due gruppi geometrici e lascia libero un lato per il testo"
+      - "Archi e dischi scalati attorno a un blocco tipografico inserito nella griglia"
+    Selection: >
+      Scegliere una sola relazione dominante in base alla frase. Variare
+      dimensione dei moduli, densità, direzione e posizione dell'apertura;
+      non ripetere sempre la stessa scacchiera.
+
+  Graphic Elements:
+    Core:
+      - "Quarti e mezzi cerchi che condividono un raggio modulare"
+      - "Dischi pieni e fori circolari ricavati nel colore"
+      - "Triangoli diagonali, rettangoli e angoli arrotondati"
+      - "Forme morbide continue che oltrepassano uno o due confini della griglia"
+    Accents:
+      - "Una piccola area di righe diagonali nere, solo se bilancia la composizione"
+      - "Uno o due contorni sottili neri a rettangolo arrotondato"
+      - "Uno o due tratti neri liberi, brevi e non simili a parole"
+    Restraint: >
+      Scegliere pochi elementi pertinenti. Croci, stelle, righe, cornici e
+      scarabocchi non devono comparire tutti nella stessa card.
+
+  Effects:
+    Surface: "Carta opaca avorio con grana finissima"
+    Color: "Campiture piene con lievi sovrastampe puntinate ai bordi di alcune intersezioni"
+    Edges: "Geometria netta; ammorbidire solo piccole transizioni stampate"
+    Depth: "Strati grafici piatti, senza ombre portate"
+    Texture Rule: >
+      La grana resta locale e discreta, mai sopra la citazione. Nessuna
+      sfumatura digitale estesa a tutta la pagina.
+
+  Content Contract:
+    quotation: "Usare una sola volta le parole fornite, senza correggerle o aggiungerne."
+    author: "Mostrare soltanto un'attribuzione fornita o verificata; altrimenti ometterla."
+    other_text: >
+      Non importare titoli, numeri di serie, date, URL, firme, loghi o
+      microtesti presenti nelle immagini di riferimento.
+
+  Rules:
+    - "La frase resta leggibile e prevale sui dettagli decorativi."
+    - "La griglia dà coerenza; le forme morbide introducono movimento controllato."
+    - "Usare contrasti cromatici forti senza spezzare la lettura di una parola."
+    - "Confinare retino e segni gestuali alle aree prive di testo."
+    - "Non copiare la composizione né i testi delle immagini di riferimento."
+    - "Evitare fotografia, 3D, ombre, lucidi digitali e grunge pesante."
+
+  User Overrides:
+    Palette: "Sostituire i colori iniziali mantenendo ruoli e contrasto."
+    Format: "Ricomporre griglia, figure e area di lettura per il rapporto richiesto."
+    Fonts: "Rispettare il font richiesto mantenendo proporzioni e spaziatura naturali."
+
+  Production:
+    Preferred Mode: "Generativo con eventuale rifinitura tipografica"
+    Validation Status: >
+      Profilo YAML validato e due prove generative realizzate con frasi di
+      lunghezza e composizione diverse. Non ancora provato su un testo lungo
+      o su preferenze cromatiche e tipografiche diverse.

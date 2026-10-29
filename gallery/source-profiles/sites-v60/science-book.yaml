@@ -1,0 +1,57 @@
+"Design Style":
+  "Name": "Science Book"
+  "Status": "Studio tematico da valutare; nessuna promozione automatica a V1 o Candidates"
+  "Concept": "La precisione del disegno scientifico inciso incontra una voce tipografica contemporanea. La frase guida la pagina e il disegno ne struttura gli intervalli."
+  "Canvas":
+    "Ratio": "4:5"
+    "Output": "Composizione raster completa, testo incluso"
+    "Adaptation": "Ricomporre per il formato richiesto, conservando testo e proporzioni dei glifi."
+  "Mood":
+    - "Editoriale"
+    - "Tematico"
+    - "Sperimentale"
+  "Color Palette":
+    "Fixed Colors": false
+    "Policy": "Scegliere una palette armonica per fondo, testo e immagine in funzione del quote e delle preferenze. Nero e verde non sono obbligatori. Mantenere contrasto locale e ruoli chiari."
+  "Typography":
+    "Quote": "Sans contemporanea robusta e leggibile, con gerarchie da poster e proporzioni naturali; il font esatto non è certificato."
+    "Spacing": "Kerning, wordspace e proporzioni naturali; risolvere capienza con a capo, composizione e scala, non tracking arbitrario."
+    "Attribution": "Facoltativa, esatta, più piccola e leggera, allineata a destra su un asse chiaro. Se assente, recuperare lo spazio."
+    "Signature": "Solo se richiesta; distinta dall’autore, mai ricavata dal profilo personale."
+  "Imagery":
+    "Language": "Incisioni originali di natura, strumenti, materiali o altri soggetti scientifici pertinenti. Sezioni e ingrandimenti sono possibilità, non modelli obbligatori; nessun insetto fisso."
+    "Selection": "Il soggetto deriva dal significato della frase; gli esempi non sono soggetti fissi."
+  "Layout":
+    "Relation": "Un’ala, un profilo, una radice o un dettaglio dialogano con gli spazi della frase. Disegno e parole conservano il proprio ordine di lettura."
+    "Variation": "Scegliere struttura, scala e densità dalla frase; variare la composizione oltre alla palette."
+  "Effects": "Carta calda discreta, contorni e tratteggi incisi, uno o due inchiostri e un accento grafico scelto per il caso."
+  "Exclusions": "Nessuna etichetta, formula, misura, nomenclatura o attribuzione d’archivio inventata. Non simulare una tavola scientificamente validata."
+  "Content Contract":
+    "quote": "Testo completo una volta, con parole, cassa, accenti e punteggiatura conservati."
+    "other_text": "Nessun autore, firma, dato, logo o testo di riempimento inventato."
+  "Production":
+    "Method": "ImageGen integrato per ogni composizione completa, testo incluso. Nessuna scritta impaginata sopra un solo fondo generato."
+    "Reference Inputs": "Le reference e i target delle edit storiche non sono requisiti permanenti. Le proprietà da trasferire vanno dichiarate quando si usano immagini."
+    "Profile Provenance": "Codifica di studio ricavata dai brief, dalle revisioni e dalle decisioni dell’utente; i prompt effettivi degli esempi sono archiviati separatamente."
+    "Validation": "Due immagini native 1122×1402, quasi 4:5, con testi diversi, rilette visivamente. Font esatto, contrasto raster, attribuzioni, altre lunghezze e altri formati non certificati."
+  "Study Note": "I soggetti illustrati sono concettuali e non certificano accuratezza anatomica o scientifica."
+"Composition Library":
+  "Style Name": "Science Book"
+  "Selection":
+    "Basis": "Scegliere dal senso della frase e dall’ingombro del testo."
+    "Variation": "Repertorio aperto di relazioni, non template a coordinate fisse."
+  "Families":
+    -
+      "id": "detail-between-phrases"
+      "Name": "Dettaglio fra le parole"
+      "Use When": "Quando la relazione sostiene il senso e la leggibilità della frase."
+      "Structure": "Un disegno e un eventuale ingrandimento aprono o collegano gruppi di frase."
+      "Text Adaptation": "A capo per gruppi di senso, proporzioni e spazi naturali, attribuzione eventuale su asse destro."
+      "Format Adaptation": "Ricomporre nel rapporto richiesto; non ritagliare o deformare il testo."
+    -
+      "id": "section-opens-field"
+      "Name": "Sezione e campo aperto"
+      "Use When": "Quando la relazione sostiene il senso e la leggibilità della frase."
+      "Structure": "Una sezione o un profilo lascia un’area di lettura, con accento cromatico subordinato."
+      "Text Adaptation": "A capo per gruppi di senso, proporzioni e spazi naturali, attribuzione eventuale su asse destro."
+      "Format Adaptation": "Ricomporre nel rapporto richiesto; non ritagliare o deformare il testo."

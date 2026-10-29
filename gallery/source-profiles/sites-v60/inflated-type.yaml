@@ -1,0 +1,243 @@
+Design Style:
+  Name: Inflated Type
+  Status: V1 candidate richiesta dall’utente il 28 ottobre 2026
+  Concept: 'La frase assume il volume di una scultura di lettere gonfiabili reali. Membrane lucide in
+    vinile o TPU trattengono aria, si tendono sulle curve, si raggrinziscono nelle concavità e cedono
+    leggermente dove due lettere si toccano. La forza pop deriva da forme generose e contrasti cromatici
+    netti; il realismo deriva dalla coerenza fra pressione, cuciture o saldature, riflessi, deformazioni,
+    gravità e ombre.
+
+    '
+  Reference Basis:
+    Scope: 'Analisi visiva delle due immagini fornite: lettering giallo gonfio su rosa con pieghe e contatti
+      ravvicinati; lettering blu lucido su fondo chiaro con incastri, cambi di scala e ombre direzionali.
+      La loro resa non dimostra che gli oggetti siano stati costruiti fisicamente.
+
+      '
+    Transfer:
+    - Volumi pneumatici morbidi con tensione superficiale e concavità credibili.
+    - Riflessi ampi da studio e piccoli dettagli che interrompono la perfezione.
+    - Pieghe sottili e saldature discrete, soprattutto vicino ai raccordi.
+    - Relazioni fra lettere che condividono lo spazio e reagiscono al contatto.
+    - Colori pieni, saturi e pop contro un campo semplice e distinto.
+    Independence: 'Non copiare testi, marchi, firme, esatta silhouette o impaginato delle reference. Le
+      immagini informano la grammatica del profilo, senza costituire input permanenti obbligatori. Palette
+      e composizione rispondono alla nuova frase.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: Una quote card completa, fotografia di una composizione tipografica gonfiabile
+    Adaptation: 'Ricomporre volumi e percorso di lettura per il rapporto richiesto, preservando la frase
+      intera. Non tagliare lettere per imitare il formato di una reference.
+
+      '
+  Mood:
+  - Pop
+  - Giocoso
+  - Scultoreo
+  - Tattile
+  - Espansivo
+  - Fotografico
+  Color Palette:
+    Fixed Colors: false
+    Strategy: 'Una tinta piena dominante per il materiale gonfiabile contro un fondo opaco e distinto.
+      Un secondo colore può enfatizzare un gruppo di senso, senza distribuire obbligatoriamente un colore
+      a ogni lettera.
+
+      '
+    Starting Directions:
+      Acid Pop:
+        Inflated Material: '#D8F32A'
+        Background: '#F346B2'
+      Blue Apricot:
+        Inflated Material: '#1763CB'
+        Background: '#F5CAB7'
+    Roles: 'Il pigmento appartiene alla membrana e cambia luminosità con la luce; i riflessi chiari non
+      sono chiazze bianche stampate. Il fondo sostiene separazione e ombre, senza imporre un gradiente
+      decorativo.
+
+      '
+  Typography:
+    Quote:
+      Drawing: 'Lettering sans serif gonfio con terminali arrotondati e contatori abbastanza aperti. La
+        forma conserva uno scheletro riconoscibile anche quando il volume si espande. Usare un disegno
+        coerente per la frase, mantenendo la cassa fornita.
+
+        '
+      Material Behaviour: 'Il volume è una membrana piena d''aria, non una semplice estrusione di un font.
+        I tratti si gonfiano in tre dimensioni e si restringono con pieghe minute vicino a giunzioni,
+        terminali e contatori. Eventuali irregolarità sono locali e costruttive.
+
+        '
+      Hierarchy: 'Variare la scala di parole o gruppi per una ragione espressiva, mantenendo i connettivi
+        sostanziali. Il testo è il protagonista e compare una sola volta.
+
+        '
+      Spacing: 'Mantenere proporzioni naturali dei glifi, kerning ottico coerente e spazi fra parole riconoscibili.
+        Le lettere possono toccarsi o comprimersi lievemente, ma i contorni restano distinguibili. Non
+        stirare i caratteri né modificare arbitrariamente il tracking per pareggiare una riga. Risolvere
+        l''ingombro con a capo e distribuzione dei gruppi.
+
+        '
+      Small Details: 'Accenti, punti e altri segni richiesti diventano piccoli elementi dello stesso materiale
+        con volume e ombra; devono restare visibili e non essere scambiati per decorazioni.
+
+        '
+    Attribution:
+      Style: 'Registro più piccolo e leggero, sufficientemente leggibile. Può essere una piccola scritta
+        gonfiabile della stessa scena quando il nome lo consente; per nomi lunghi privilegiare la lettura
+        in un registro semplice coerente con la card.
+
+        '
+      Placement: Solo se fornita o verificata, esatta e allineata a destra su un asse chiaro.
+    Signature: Solo su richiesta esplicita, separata dall'autore e subordinata, allineata a destra.
+  Layout:
+    Shared Structure: 'Una sola scena fisica contiene tutte le lettere. Relazioni di appoggio, contatto,
+      profondità e ombra sostengono la frase, senza rendere ambigua la sequenza. Il fondo è un piano o
+      un set continuo scelto con la composizione.
+
+      '
+    Integration: 'Le lettere si incastrano o si distribuiscono in un campo comune. Progettare insieme
+      vuoti, contatori e silhouette esterna, evitando che l''effetto di ammasso cancelli i confini fra
+      parole.
+
+      '
+    Camera: 'Ripresa fotografica coerente con l''appoggio dei volumi: frontale per una pila scultorea,
+      dall''alto per lettere su un piano, obliqua solo quando conserva tutte le parole leggibili.
+
+      '
+    Variation: 'Alternare sculture compatte, campi aperti e gruppi sfalsati secondo la frase. Cambiare
+      anche relazione con il piano, proporzioni dei gruppi e direzione della luce, non soltanto il colore.
+
+      '
+  Elements:
+    Membrane: 'Vinile o TPU lucido opaco alla trasmissione, con spessore apparente sottile e volume sostenuto
+      dall''aria. Superficie ampia e tesa sulle parti convesse; pieghe brevi, anisotrope e contenute vicino
+      alle zone strette. Evitare un rumore di grinze uniforme.
+
+      '
+    Seams: 'Saldature termiche sottili o bordi di giunzione discreti che seguono una costruzione plausibile.
+      Una piccola valvola è facoltativa e subordinata. Non applicare cuciture tessili a un materiale plastico
+      saldato né bordi identici in ogni punto.
+
+      '
+    Contacts: 'Leggero schiacciamento locale, pieghe e ombre di contatto dove due volumi si sostengono.
+      Nessuna fusione fra lettere o compenetrazione impossibile; i glifi restano unità leggibili.
+
+      '
+    Support: 'Piano opaco semplice o set continuo. La gravità produce appoggi comprensibili. Non aggiungere
+      automaticamente fili, mani, piedistalli, oggetti o palloncini decorativi per spiegare le lettere.
+
+      '
+  Effects:
+    Light: 'Una luce principale riconoscibile modella il volume. Riflessi da softbox o sorgente ampia
+      seguono la curvatura, con transizioni speculari coerenti e piccoli dettagli di superficie. Un riempimento
+      controllato preserva contatori e lati in ombra.
+
+      '
+    Shadows: 'Ombre proiettate coerenti con la sorgente e la distanza dal piano; contatto più scuro e
+      netto, penombra crescente nelle parti sollevate. Non applicare la stessa drop shadow a tutti i glifi.
+
+      '
+    Photography: 'Resa fotografica ravvicinata di materiali reali, nitidezza sulle parole principali e
+      microimperfezioni selettive. Evitare bagliori artificiali, eccesso di contrasto e nitidezza che
+      cancelli il materiale.
+
+      '
+  Content Contract:
+    quotation: Frase completa una sola volta; parole, cassa, accenti e punteggiatura esatti.
+    author: Solo fornito o verificato, subordinato e allineato a destra.
+    other_text: Nessun logo, marchio, credito, etichetta, firma o parola aggiuntiva inventati.
+  Rules:
+  - Rendere percepibili aria, tensione della membrana e costruzione del materiale.
+  - Mantenere le parole leggibili prima dell'effetto di incastro o compressione.
+  - Usare pieghe e saldature selettive in punti strutturalmente plausibili.
+  - Collegare riflessi, ombre e deformazioni alla stessa scena e alla stessa luce.
+  - Conservare kerning ottico coerente e separazione fra parole.
+  - Scegliere una sola struttura compositiva principale per ogni card.
+  Exclusions:
+  - Font piatto con smusso o semplice estrusione uniforme
+  - Lettere in ceramica, gelatina, caramella, metallo o plastica rigida
+  - Superfici perfettamente lisce senza indizi di membrana quando compromettono il realismo pneumatico
+  - Grinze casuali uniformi, cuciture incoerenti o compenetrazioni fra glifi
+  - Contatori chiusi, parole tagliate o tracking arbitrario
+  - Loghi, testi e silhouette esatte delle reference
+  - Cornici di mockup, props gratuiti o decorazioni che competono con la frase
+  Production:
+    Preferred Mode: generative
+    Method: 'Usare ImageGen integrato per la composizione intera, compresi frase, volumi, materiale, luce,
+      piano e ombre. Non sovrapporre testo deterministico a uno sfondo generato separatamente.
+
+      '
+    Reference Inputs: 'Le due reference sono materiale di analisi. Gli esempi iniziali derivano dal profilo
+      scritto senza le reference in input. La prima prova è stata poi corretta usando come input la sola
+      immagine generata per aprire lo spazio fra due parole. Prima di adottare reference operative permanenti
+      eseguire un confronto controllato con e senza immagini sulla stessa frase e composizione.
+
+      '
+    Validation Status: 'Due composizioni complete generate con ImageGen integrato, con testi e palette
+      diversi: scultura impilata lime su fucsia e flat lay blu su albicocca. Una correzione mirata della
+      prima ha separato Le e idee, inizialmente troppo accostati. Testo e punteggiatura controllati a
+      dimensione nativa e a 320 × 400 pixel; la valutazione estetica dell''utente resta in attesa. La
+      resa visiva non certifica fattibilità costruttiva o simulazione fisica. Attribuzione, testo lungo,
+      altri formati e riferimenti come input permanenti non sono stati provati.
+
+      '
+Composition Library:
+  Style Name: Inflated Type
+  Selection:
+    Basis: 'Scegliere una sola struttura dalla lunghezza e dai gruppi di senso della frase. Definire appoggio
+      e camera prima dei contatti fra lettere.
+
+      '
+    Variation: Variare silhouette, rapporto con il piano, vuoti e direzione della luce.
+    Priority: Testo esatto, lettura, coerenza fisica del materiale, espressività pop.
+  Families:
+  - id: stacked-sculpture
+    Name: Scultura impilata
+    Use When: Una frase breve può diventare una massa compatta con pochi gruppi di senso.
+    Structure: 'Gruppi sovrapposti formano una scultura appoggiata al piano, con piccoli incastri, una
+      silhouette irregolare e punti di sostegno riconoscibili. La camera frontale rivela anche lo spessore
+      laterale.
+
+      '
+    Text Adaptation: 'Separare le righe per senso e lasciare spazi fra parole distinguibili. I gruppi
+      possono avere scale diverse, senza stirare singoli glifi.
+
+      '
+    Format Adaptation: 'Nel verticale alzare la pila; nell''orizzontale distendere i gruppi su appoggi
+      più larghi, conservando gravità e continuità della frase.
+
+      '
+  - id: open-flatlay
+    Name: Lettere sul piano
+    Use When: La frase beneficia di pause e di una lettura più aperta.
+    Structure: 'Lettere gonfiate giacciono su un campo opaco, viste dall''alto o con lieve obliquità.
+      Gruppi di parole si sfalsano con piccoli cambi d''asse; ombre direzionali ne rivelano altezza e
+      rotondità.
+
+      '
+    Text Adaptation: 'Conservare una sequenza dall''alto al basso immediata. Piccole rotazioni possono
+      esprimere gioco, ma le parole restano integre e il ritmo degli spazi coerente.
+
+      '
+    Format Adaptation: 'Ricomporre la traiettoria dei gruppi e i vuoti in ogni rapporto; non ritagliare
+      semplicemente la stessa fotografia.
+
+      '
+  - id: expanding-anchor
+    Name: Parola in espansione
+    Use When: Un gruppo della frase può sostenere un'enfasi semantica netta.
+    Structure: 'Una parola dominante dilata il campo e le altre occupano intervalli ampi e leggibili.
+      Tutti i gruppi condividono materiale e spazio; l''espansione non diventa un collage di oggetti separati.
+
+      '
+    Text Adaptation: 'La differenza di scala riguarda un''intera parola o un gruppo. Preservare i connettivi
+      e non alterare il tracking per riempire i vuoti.
+
+      '
+    Format Adaptation: 'Ridefinire l''asse di espansione per il formato richiesto e mantenere spazio sufficiente
+      a contatori, segni e attribuzione eventuale.
+
+      '

@@ -1,0 +1,20 @@
+"Composition Library":
+  "Style Name": "Stained Glass"
+  "Selection":
+    "Basis": "Scegliere la relazione fra parole, piccola immagine e direzione del materiale dal senso e dalla lunghezza della frase."
+    "Variation": "Repertorio aperto; colore e soggetto non sostituiscono la variazione compositiva."
+  "Families":
+    -
+      "id": "geometric-rows-small-sign"
+      "Name": "Righe geometriche e segno piccolo"
+      "Use When": "La frase si articola in gruppi compatti e una figura secondaria può occupare un’apertura."
+      "Structure": "Righe dritte a larghezza naturale; piccola immagine in un vuoto contiguo, realizzata nello stesso materiale."
+      "Text Adaptation": "A capo per gruppi di senso, spazi naturali e margini completi."
+      "Format Adaptation": "Ricomporre masse e intervalli nel formato richiesto; attribuzione eventuale allineata a destra."
+    -
+      "id": "path-between-words"
+      "Name": "Percorso fra le parole"
+      "Use When": "Il significato può essere sostenuto da una traiettoria che collega più gruppi."
+      "Structure": "Un percorso di tessere o vetri attraversa i vuoti e conduce al piccolo soggetto; le lettere restano geometriche e i gruppi su assi chiari."
+      "Text Adaptation": "Separare parole troppo vicine cambiando a capo; non piegare o schiacciare i glifi."
+      "Format Adaptation": "Modificare numero di gruppi, tragitto e posizione del segno per il rapporto richiesto."

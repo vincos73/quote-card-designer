@@ -1,0 +1,274 @@
+Design Style:
+  Name: Cyberpunk Editorial
+  Status: Incluso nel catalogo V1 il 26 ottobre 2026; worn monochrome panel study approved by the user
+  Concept: 'The quotation becomes a bold typographic structure surrounded by an original technical graphic
+    language. Chamfered plates, routed paths, terminal nodes, chevrons, slots and abstract print textures
+    share a coherent construction. Black, graphite and light grey carry the default atmosphere. Worn reproduction
+    and a few fine discoveries enrich the framing while the complete sentence remains the primary visual.
+
+    '
+  Reference Basis:
+    Transfer: 'Extract graphic syntax from the supplied posters and element sheets: cut corners, filled
+      versus outlined plates, nested contours, consistent path angles, contrasting line weights, halftone,
+      dot matrices and sparse directional marks. The subjects and product identities in those references
+      are not the style.
+
+      '
+    User Direction: 'Keep the design nonfigurative: no humans, humanoids, cyborgs, faces or character
+      art. Prefer black and grey, a visibly worn print surface and a few refined geometric details around
+      the quotation.
+
+      '
+    Research Notes: ricerca.md
+    Image Inputs: 'The written profile is self-contained. Source images informed its authoring; they are
+      not mandatory production inputs or reusable vector assets. Do not copy their titles, labels, layouts,
+      brands or watermarks.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: One finished flat full-bleed quote card
+    Adaptation: 'Recompose the actual words and surrounding modules for each ratio. Text remains complete;
+      decorative rails or patterns may crop at edges.
+
+      '
+  Mood:
+  - Technical
+  - Assertive
+  - Tactile
+  - Worn
+  - Precise
+  - Defiant
+  - Graphic
+  Color Palette:
+    Fixed Colors: false
+    Preferred Treatment: Black and grey
+    Default:
+      Ground: '#111214'
+      Graphite: '#343638'
+      Secondary Lines: '#707477'
+      Reading Ink: '#CDD0D2'
+      Light Panel: '#B5B9BC'
+    Roles: 'Near-black anchors the main field. Light grey carries the quotation; a light plate can invert
+      one semantic group into dark lettering. Mid-greys separate secondary contours and fine detail. Preserve
+      clear local contrast instead of using one indistinct grey for every layer.
+
+      '
+    Overrides: 'The monochrome treatment is the approved starting direction. Use other hues only when
+      requested, translating the same field, reading, panel and detail roles. Earlier lime and red studies
+      are development history, not a requirement to add fluorescent accents.
+
+      '
+    Exclude by Default: Rainbow foil, holographic discs, neon light and coloured highlights
+  Typography:
+    Main Reading:
+      Direction: 'Strong geometric technical sans with squared or chamfered construction, open counters
+        and a recognisable Latin skeleton. Natural medium-wide proportions can make the words structural
+        without a separate emblem.
+
+        '
+      Hierarchy: 'Compose the complete sentence in clear groups of meaning. A meaningful final word can
+        be larger; connecting words stay readable and belong to the same primary reading. Do not turn
+        the sentence into tiny copy beneath a giant initial or decorative title.
+
+        '
+      Spacing: 'Preserve natural glyph proportions and visible word spaces. Adjust line breaks, overall
+        scale and panel extent rather than stretching an individual word to fill its field.
+
+        '
+      Case: Preserve supplied capitalization, spelling, accents and punctuation.
+    Secondary Register: 'A simpler technical sans or monospace may carry only supplied supporting content
+      or a name. Fine graphic texture must not become invented microcopy.
+
+      '
+    Surface: 'Slightly chipped edges and dry-ink pinholes can enter large strokes. Maintain enough continuous
+      core to recognise every letter and punctuation mark immediately. Smaller names need more intact
+      contours.
+
+      '
+    Attribution: 'Use only an exact supplied or verified name, smaller and quieter than the quotation,
+      right-aligned on a clear useful axis. Omit it and recover the space when absent. A personal signature
+      appears only when requested and remains distinct from authorship.
+
+      '
+    Font Certainty: 'These are appearance directions, not a claim that a generated image uses a specific
+      font file.
+
+      '
+  Layout:
+    Invariants:
+    - The complete literal quotation as the dominant visual and reading
+    - A coherent family of original abstract technical surrounds
+    - Shared corner geometry, line weights and terminal vocabulary
+    - Contrasting scales for bold plate boundaries, fine paths and print grain
+    - Worn material with protected letter cores and intentional quiet intervals
+    Relationships: 'A plate frames or inverts a semantic group. A path bridges an interval between reading
+      groups. Brackets locate a useful axis; chevrons extend its direction. Build these relationships
+      with the actual sentence, rather than placing unrelated icons around a generic text rectangle.
+
+      '
+    Density: 'Concentrate detail in a few intervals and retain calmer text fields. Thin tracks, meshes
+      or slots are secondary discoveries after reading. Do not fill every gap or make all page edges equally
+      busy.
+
+      '
+    Variation: 'Change the reading axis, relative plate sizes, crop, open intervals and selected symbol
+      families for new quotations. The first four-line arrangement and oversized ending are not permanent
+      templates.
+
+      '
+    Capacity: 'Longer text needs a larger stable reading area and fewer surrounding modules. Simplify
+      detail before reducing all lettering uniformly.
+
+      '
+  Graphic Elements:
+    Core Vocabulary:
+    - Chamfered panels, partial plates and double or triple outline contours
+    - Routed angular paths with a few open or solid terminal nodes
+    - Corner brackets, short couplers, slots and small pin-like marks
+    - Repeated chevrons and short strips of parallel diagonal cuts
+    - Dot matrices, sparse unequal bar groups and selected halftone fields
+    Fine Repertoire:
+    - A small abstract wireframe mesh or segmented ring
+    - Sparse secondary tracks nested inside a larger plate
+    - A few registration-like offsets or small geometric interruptions
+    Selection: 'Choose a related subset. Keep the same cut angles, radii, line hierarchy and spacing logic
+      across modules. A fine mesh stays secondary and must not resolve into a face, body or recognisable
+      illustrated subject.
+
+      '
+    Content Limits: 'All unsupplied detail is nonverbal geometry. Do not invent code, serials, measurements,
+      percentages, interface labels, warnings, brands or decorative alphabets. Unequal bars are abstract
+      rhythm, not encoded identification. Avoid QR codes and barcode-like strips.
+
+      '
+    Identity: 'Invent the forms within this vocabulary. Do not trace a stock element sheet, reproduce
+      its inventory layout or transfer watermark text.
+
+      '
+  Imagery:
+    Default: No figurative illustration or photographic subject
+    Allowed Surface: 'Abstract grain, ink breakup, halftone, rough scan-like fields and nonrepresentational
+      mesh can supply material variety inside modules. They do not depict people, animals, products, cities
+      or anatomy.
+
+      '
+    Exclusions: 'Humans, humanoids, cyborgs, robots, faces, eyes, heads, hands, body fragments, character
+      art, product renders and narrative scene images.
+
+      '
+  Effects:
+    Print Material: 'Evoke worn monochrome screen printing or photocopied graphics through uneven dry
+      pigment, fine paper-like specks, selected larger chips and a few dragged scratches. This is a generated
+      material impression, not evidence of a physical printing or scanning process.
+
+      '
+    Scale and Distribution: 'Combine fine grain, occasional coarse halftone breakup and sparse larger
+      scuffs. Vary density across the card instead of applying one uniform noise overlay. Keep dark ground
+      and light reading cores distinct.
+
+      '
+    Registration: 'A subtle grey offset can ghost selected panel contours. Keep the main sentence stable;
+      do not use pervasive blur or heavy displaced letters.
+
+      '
+    Fine Detail: 'A small wireframe inset, pin cluster or secondary route can enrich a plate. Maintain
+      hierarchy between these details, bold geometry and text.
+
+      '
+    Depth: Flat printed layers; no bevelled type, chrome extrusion or glossy 3D
+    Colour: Neutral wear, without sepia, brown rust or coloured stains by default
+  Rules:
+  - Preserve the complete supplied quotation once, with clear sentence order.
+  - Use abstract technical typography and surrounds as the artwork.
+  - Honour the approved black-and-grey starting direction and explicit overrides.
+  - Keep all figures, humanoids, cyborgs and narrative illustrations out.
+  - Make each surrounding module support an axis, interval or semantic group.
+  - Share geometric construction across bold plates and fine paths.
+  - Make wear visible but uneven, protecting every word and punctuation mark.
+  - Use a few fine nonverbal details rather than invented microcopy.
+  - Avoid copying reference identities, inventories, labels or stock marks.
+  - Recompose for the sentence instead of repeating the demonstration layout.
+  Production:
+    Preferred Mode: hybrid
+    ImageGen Role: 'Generate each new card as a complete composition of lettering, panels, symbols and
+      surface. A separately generated ornament pasted into an otherwise scripted card does not establish
+      the visual direction.
+
+      '
+    Refinement: 'When supported, refine exact text or geometry while preserving the generated composition.
+      Keep original images. Exact font and vector editability claims require actual verified assets, not
+      a raster preview.
+
+      '
+    References: 'Do not make external images permanent runtime dependencies without a matched with-image
+      and without-image test and user review. Editing an existing generated card is a separate targeted-revision
+      workflow.
+
+      '
+    Validation Status: 'Two nonfigurative colour studies tested two sentences and different compositions.
+      A monochrome revision and a worn-material refinement followed on one of them. The user approved
+      the worn monochrome result and requested V1 candidacy and gallery inclusion. Native and 320 by 400
+      pixel views were inspected. Other monochrome quotations, names, accents and ratios remain untested.
+      The earlier figurative studies were rejected and are not valid examples of this profile.
+
+      '
+  Content Contract:
+    quote: Required complete literal sentence, normally once
+    author: Optional exact supplied or verified name, subordinate and right-aligned
+    signature: Optional explicitly requested name, distinct from authorship
+    supporting: Only supplied supporting text; omit absent labels and metadata
+Composition Library:
+  Style Name: Cyberpunk Editorial
+  Selection:
+    Basis: 'Choose the relationship between the exact sentence and its graphic surrounds. Use one main
+      structure, adapting it to phrase length, meaningful emphasis, format and any supplied name.
+
+      '
+    Variation: 'Change plate extent, reading axis, density and open intervals for new quotations. Preserve
+      the accepted arrangement during a targeted edit.
+
+      '
+  Families:
+  - id: layered-panel-rails
+    Name: Phrase within layered technical rails
+    Use When: 'An assertive short or medium sentence benefits from substantial semantic groups and one
+      deliberate inversion or ending.
+
+      '
+    Structure: 'Let the quotation establish a clear main axis. A few chamfered plates and nested contours
+      locate its groups; one plate may invert a meaningful clause. Routed edges, a directional cluster
+      and one or two finer discoveries connect the reading intervals. Keep some paths partial and leave
+      calmer fields around the words.
+
+      '
+    Text Adaptation: 'Keep the full sentence once, including connecting words and punctuation. Vary group
+      scale by meaning without isolating an ornamental initial. Extend or reduce plates to fit the actual
+      words. A supplied name forms a smaller, quieter right-aligned register.
+
+      '
+    Format Adaptation: 'Portrait formats can progress through unequal stacked groups. Wider formats can
+      open a lateral route. Recompose rails and line breaks instead of cropping words or stretching letters.
+
+      '
+  - id: open-node-grid
+    Name: Open reading with sparse linked modules
+    Use When: 'A quotation needs more breathing room, a longer reading path or less enclosing geometry
+      while retaining the technical vocabulary.
+
+      '
+    Structure: 'Place the main sentence in a few clear unequal groups within a largely open field. Cropped
+      brackets, short routes, a restrained panel fragment and a small abstract texture module connect
+      useful axes. Fine and bold marks share construction without forming a uniform border or a full sheet
+      of symbols.
+
+      '
+    Text Adaptation: 'Preserve natural sentence order and every linking word. Longer phrases use more
+      stable lines and fewer decorative modules. Protect accents and names from print wear and intersections.
+
+      '
+    Format Adaptation: 'A tall card can stagger open groups along one clear reading axis; a square or
+      wide card can spread them laterally. Reduce modules before making the text too small or rotating
+      entire clauses.
+
+      '

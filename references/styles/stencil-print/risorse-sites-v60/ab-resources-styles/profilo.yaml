@@ -1,0 +1,75 @@
+Design Style:
+  Name: Stencil Print
+  Version: 0.2.0-experimental
+  Status: Studio locale; profilo v2 congelato prima del secondo confronto A/B
+  Concept: >
+    Frase e piccolo soggetto sono costruiti con maschere ritagliate e pigmento
+    applicato a mano: contorni definiti, campiture opache e variazioni sottili
+    dentro le aperture. Il linguaggio del pochoir diventa una composizione
+    contemporanea in cui maschera, intervallo e segno sostengono il pensiero.
+  Canvas:
+    Ratio: '4:5'
+    Output: Card editoriale piatta su carta opaca, non collage o mockup.
+  Mood: [Essenziale, Cromatico, Grafico, Tattile, Intenzionale]
+  Color Palette:
+    Fixed Colors: false
+    Starting Roles:
+      Paper: '#F5EEDF'
+      Reading Ink: '#2449AE'
+      Accent: '#E77532'
+    Relationships: >
+      Pochi pigmenti distinti, coprenti ma con leggere variazioni di tampone.
+      Scegliere contrasti e sovrapposizioni in base alla frase, senza imporre
+      primari, colori infantili o un numero fisso di maschere.
+    Palette Scope: >
+      La palette richiesta governa tutti i pigmenti, compresi disegno,
+      dettagli e sovrapposizioni. Oggetti naturali o costruiti non autorizzano
+      colori realistici aggiuntivi; tradurli nei pigmenti disponibili e carta.
+  Typography:
+    Quote: >
+      Glifi robusti e aperti, progettati per maschere leggibili. Piccoli ponti
+      di stencil sono possibili ma non obbligatori: una maschera multistrato
+      non impone interruzioni militari in ogni lettera. Naturale spaziatura,
+      nessun testo deformato per incastrare il disegno.
+    Integrity: Frase esatta una volta, con caso, accenti, punteggiatura e ordine preservati.
+    Attribution: >
+      Solo se fornita o verificata, più piccola e leggera ma leggibile, su
+      un asse destro. Omettere se assente; nessuna firma personale inventata.
+  Layout:
+    Relationship: >
+      Maschere e aperture condividono bordi o intervalli con la frase.
+      Il piccolo soggetto può attraversare una soglia o emergere da un
+      intervallo, proteggendo sempre le lettere. La relazione segue il testo.
+    Restraint: >
+      Pochi campi ben scelti e carta visibile, senza riempire ogni vuoto di
+      sagome decorative. Niente personaggi, stelle, griglie o foglie fissi.
+    Capacity: Ricomporre blocchi e soggetto per frasi lunghe; non abbreviare il testo.
+  Elements:
+    Small Drawing: >
+      Un piccolo soggetto riconoscibile scelto per la frase. Tradurlo in
+      poche forme stampate attraverso aperture, senza simulare pezzi di carta
+      incollati con ombre. Il germoglio del test non è un simbolo permanente.
+  Effects:
+    Stencil Edge: >
+      Contorno abbastanza netto, con minimi passaggi di pigmento o lieve
+      disallineamento locale quando plausibile; nessun alone spray obbligatorio.
+      Il deposito del tampone deve risultare leggibile a scala utile, senza
+      perdere il contorno della maschera; non basta una generica texture di carta.
+    Pigment: >
+      Deposito piatto opaco da pennello corto o tampone, leggere variazioni
+      interne e sovrapposizioni limitate. Non imitare incisioni di sgorbia,
+      venatura lignea, retini meccanici, impasto o carta a rilievo.
+    Surface: Carta opaca con grana fine discreta, non usura uniforme.
+  Content Contract:
+    quote: Frase letterale una sola volta.
+    author: Solo se fornito o verificato.
+    other_text: Nessun titolo, etichetta, numero, marchio o firma inventati.
+  Rules:
+    - Maschera e pigmento devono essere visibili nel linguaggio, non solo nel nome.
+    - Gerarchia della frase e piccolo disegno pertinente.
+    - Colore e spazio sono compositivi; non basta una texture sovrapposta.
+    - Non copiare figure o impaginati delle opere studiate.
+  Production:
+    Preferred Mode: generative
+    Validation Status: Revisione dopo il primo confronto; v2 non valutata al congelamento, risultati in osservazioni-v2.md.
+Composition Library: composizioni.yaml

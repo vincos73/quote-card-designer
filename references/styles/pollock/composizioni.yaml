@@ -1,0 +1,20 @@
+"Composition Library":
+  "Style Name": "Pollock"
+  "Selection":
+    "Basis": "Scegliere struttura, direzione e densità dai gruppi di senso della frase e dal formato."
+    "Variation": "Repertorio aperto; cambiare palette non basta a creare una nuova composizione."
+  "Families":
+    -
+      "id": "staggered-brush-field"
+      "Name": "Campo di pennellate sfalsate"
+      "Use When": "Frasi con gruppi brevi che possono sviluppare un ritmo mosso."
+      "Structure": "Gruppi di parole sfalsati e leggermente inclinati; le uscite delle pennellate diventano colature fra le righe."
+      "Text Adaptation": "A capo per gruppi di senso, proporzioni naturali e spazi ottici; nessun tracking per pareggiare le righe."
+      "Format Adaptation": "Ricomporre gesti e vuoti senza ritagliare parole; attribuzione eventuale su un asse destro."
+    -
+      "id": "diagonal-opening"
+      "Name": "Apertura diagonale"
+      "Use When": "Una parola lunga o una progressione può sostenere una traiettoria diagonale."
+      "Structure": "Gruppi di parole con assi obliqui alternati e un intervallo bianco che conduce a una parola estesa; schizzi e code del pennello connettono i gesti."
+      "Text Adaptation": "Preservare accenti, punteggiatura e spazi; dare spazio alla parola lunga prima di ridurne il corpo."
+      "Format Adaptation": "Variare numero di gruppi e inclinazioni nel formato richiesto; nessun impaginato obbligatorio."

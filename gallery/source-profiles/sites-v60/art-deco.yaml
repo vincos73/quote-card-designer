@@ -1,0 +1,211 @@
+Design Style:
+  Name: Art Deco
+  Concept: 'Una grammatica decorativa moderna: forme geometriche nitide, natura stilizzata, ritmi architettonici
+    e slancio della macchina diventano struttura intorno a una frase dominante. L''ornamento esprime ordine,
+    energia o raffinatezza, senza trasformare ogni card in una cornice da festa degli anni Venti.
+
+    '
+  Canvas:
+    Ratio: 4:5 verticale di partenza, adattabile alla richiesta
+    Output: Composizione raster completa con testo integrato
+  Mood:
+  - Eleganza costruita e fiduciosa
+  - Ritmo, misura e modernità
+  - Preziosità controllata oppure dinamismo sobrio, secondo il contenuto
+  Color Palette:
+    Principles: 'La palette è sostituibile. Mantieni fondo, testo e accenti distinguibili. Oro e nero
+      sono una possibilità, non una condizione dello stile.
+
+      '
+    Starting Palette:
+    - Value: '#073B32'
+      Role: Fondo verde petrolio profondo
+    - Value: '#E7C37A'
+      Role: Ornamento champagne oppure testo ad alto contrasto
+    - Value: '#F2E7CD'
+      Role: Lettere o superficie avorio
+    - Value: '#071A2C'
+      Role: Testo e massa strutturale blu notte
+    Alternatives: 'Avorio, blu e ruggine; borgogna e crema; colori vivaci a campiture con un tono scuro
+      di ancoraggio; argento e blu. Scegli pochi toni per una card.
+
+      '
+    Material Independence: 'Un tono caldo può essere semplice inchiostro; un colore oro non obbliga a
+      una superficie metallica. Non trasferire automaticamente i colori di esempi.
+
+      '
+  Typography:
+    Main Register: 'Lettering display geometrico coerente, con cerchi, verticali, diagonali e controforme
+      chiare. Può essere slanciato o compatto secondo la frase, con spessori uniformi o un contrasto controllato.
+      Conserva la cassa fornita; le maiuscole sono una possibilità, non una conversione automatica.
+
+      '
+    Hierarchy: 'La frase è la prima massa leggibile. Usa pochi registri e varia corpo o peso soltanto
+      con una funzione espressiva. Non assegnare un disegno diverso a ogni parola per farla entrare. Nessun
+      font storico esatto è garantito.
+
+      '
+    Spacing: 'Mantieni proporzioni naturali, kerning ottico e spazi fra parole leggibili. Non alterare
+      arbitrariamente il tracking per giustificare le righe o riempire una cella. Adatta prima a capo,
+      scala uniforme, margini e ornamento.
+
+      '
+    Attribution: 'Facoltativa, letterale, più piccola e leggera della frase, con contrasto leggibile e
+      margine finale allineato a destra su un asse chiaro. Se manca, ometti il registro e ricomponi lo
+      spazio. La firma personale resta distinta.
+
+      '
+  Layout:
+    Principles: 'Usa un asse o una direzione dominante e un ritmo di intervalli intenzionali. La simmetria
+      è disponibile ma non obbligatoria. Una struttura asimmetrica può conservare ordine attraverso margini
+      condivisi, gradoni e linee continue.
+
+      '
+    Integration: 'Ornamenti, rilievi e campiture stabiliscono gli ancoraggi del testo. Seleziona pochi
+      motivi compatibili e lasciali respirare. Mantieni un campo quieto dietro alle lettere e distanze
+      chiare fra tratti grafici e glifi.
+
+      '
+    Adaptation: 'Al crescere della frase riduci la densità e la superficie dell''ornamento, oppure cambia
+      famiglia compositiva. Non ridurre il testo a una didascalia.
+
+      '
+  Graphic Elements:
+    Repertoire:
+    - Ventagli, palmette e raggi solari costruiti per segmenti
+    - Chevron, zigzag, rombi e sequenze di linee parallele
+    - Gradoni, arretramenti e rilievi verticali astratti
+    - Curve continue, angoli raccordati e fasce streamline
+    - Foglie, fiori e animali ridotti a piani e ritmi geometrici
+    - Campiture, cerchi, ottagoni e dettagli di intarsio o griglia
+    Selection: 'Repertorio aperto, non lista da applicare tutta insieme. Scegli uno o due motivi principali
+      in relazione al contenuto. Non imporre un grattacielo, automobile, radio, cocktail o altro oggetto
+      d''epoca in ogni card.
+
+      '
+  Effects:
+    Surface: 'Inchiostri piatti, grana di stampa lieve, pochoir evocato o lacca controllata. Gradienti
+      leggeri possono suggerire volume. Metallo, intarsio e vetro sono opzioni subordinate alla lettura,
+      non requisiti.
+
+      '
+    Restraint: 'Mantieni bordi precisi e variazioni materiche discrete. Evita bagliori, rilievi tridimensionali
+      pesanti o usura che chiuda le controforme.
+
+      '
+  Content Contract:
+    quote: Conserva parole, cassa, accenti e punteggiatura; mostra il testo una sola volta.
+    author: Facoltativo; usa soltanto un nome fornito o verificato, sempre allineato a destra.
+    signature: Solo su richiesta, distinta dall'autore e subordinata alla frase.
+    other_text: Non inventare titoli, etichette, slogan, numeri, marchi o siti.
+  Production:
+    Method: ImageGen integrato per l'intera composizione, incluso il testo.
+    References: 'Gli esempi illustrano il linguaggio e non sono input permanenti. Usa soltanto il profilo
+      e la famiglia scelta, salvo richiesta esplicita di immagini operative.
+
+      '
+  Rules:
+  - Seleziona una sola famiglia compositiva principale e adattala alla frase.
+  - Il testo deve reggere la lettura nel feed oltre che al formato nativo.
+  - Geometria e materiale devono essere coerenti; non basta una cornice dorata generica.
+  - Palette e soggetti degli esempi non sono obbligatori.
+  - Conserva una composizione già accettata nelle revisioni mirate.
+  Exclusions:
+  - Riproduzione di opere, layout, scritte, loghi o watermark delle reference.
+  - Presentazione di un adattamento contemporaneo come documento storico autentico.
+  - Accumulo di tutti i simboli del repertorio e ornamenti che oscurano le parole.
+  - Tracking arbitrario, parole compresse o lettere deformate per riempire righe.
+  Status: V1 candidate richiesta dall’utente il 28 ottobre 2026
+Composition Library:
+  Style Name: Art Deco
+  Selection:
+    Basis: 'Scegli in base a lunghezza, tono e direzione della frase, formato e nomi eventualmente presenti.
+      Mantieni geometria, integrazione e gerarchia del profilo.
+
+      '
+    Choice: 'Una sola famiglia principale. Non sommare tutte le strutture nel prompt. La palette è indipendente
+      dalla famiglia. Rispetta una struttura richiesta o già accettata nelle revisioni successive.
+
+      '
+    Density: 'Al crescere del testo assottiglia, sposta o riduci l''ornamento prima di rimpicciolire tutto
+      il blocco. La densità non deve rendere ambigua la lettura.
+
+      '
+  Families:
+  - id: ventaglio-assiale
+    Name: Ventaglio assiale
+    Use When: 'Una frase breve o media beneficia di equilibrio cerimoniale, misura o slancio.
+
+      '
+    Structure: 'Un asse centrale lega una massa di testo a un motivo radiale o naturalistico geometrizzato.
+      Il motivo può coronare o sostenere le parole; sottili richiami laterali ne proseguono il ritmo.
+      Simmetria e gerarchia evitano la moltiplicazione di emblemi equivalenti. Una cornice completa non
+      è necessaria.
+
+      '
+    Text Adaptation: 'Centra la frase con a capo per gruppi di senso e larghezze diverse. Lascia distanze
+      chiare dal motivo. Per testi più lunghi apri e riduci l''ornamento. Un nome facoltativo conserva
+      un asse destro chiaro anche nel sistema simmetrico.
+
+      '
+    Format Adaptation: 'In verticale distribuisci corona, testo e richiami lungo l''asse. In orizzontale
+      allarga il campo di lettura e comprimi la profondità del motivo; non stirare i glifi.
+
+      '
+    Variation Axes:
+    - Posizione del motivo radiale
+    - Densità
+    - Tipo di natura stilizzata
+    - Ritmo laterale
+  - id: slancio-laterale
+    Name: Slancio laterale e flusso
+    Use When: 'Una frase su movimento, costruzione o direzione beneficia di un equilibrio asimmetrico
+      e di una tensione architettonica o streamline.
+
+      '
+    Structure: 'Un campo di scrittura ancorato a un margine dialoga con una massa laterale di piani a
+      gradoni, rilievi o fasce continue. Una curva raccorda il ritmo verticale a quello orizzontale. La
+      grafica può uscire al bordo; le parole restano intere. Gli elementi sono astratti oppure scelti
+      in base al contenuto.
+
+      '
+    Text Adaptation: 'Mantieni un chiaro margine di lettura e righe non giustificate. Se la frase cresce,
+      ritira la massa laterale e riduci le linee parallele. Non comprimere singole parole vicino alla
+      grafica. Un nome eventuale termina su un asse destro.
+
+      '
+    Format Adaptation: 'Per un formato alto la massa può accompagnare un lato e curvare alla base; in
+      uno largo può sostenere il testo da sotto o occupare un''estremità. Ripensa il percorso senza ruotare
+      o deformare automaticamente la composizione.
+
+      '
+    Variation Axes:
+    - Lato attivo
+    - Direzione del flusso
+    - Arretramenti
+    - Tensione fra verticali e curve
+  - id: ritmo-modulare-aperto
+    Name: Ritmo modulare aperto
+    Use When: 'Una frase più lunga o meditativa richiede un campo ampio e un ritmo decorativo presente
+      senza un unico emblema monumentale.
+
+      '
+    Structure: 'Un campo di testo quieto incontra brevi sequenze geometriche o botaniche stilizzate lungo
+      zone periferiche selezionate. Ripeti un modulo con variazioni controllate e lascia aperture. I margini
+      possono essere diseguali e non devono chiudersi in una cornice completa.
+
+      '
+    Text Adaptation: 'Il blocco della frase stabilisce la scala; il modulo si ritira nelle zone residue.
+      Mantieni interlinea, spazi e controforme chiari. Se compare un nome, usa un registro più piccolo
+      allineato a destra, senza aggiungere un cartiglio.
+
+      '
+    Format Adaptation: 'Ricomponi numero, direzione e distanza dei moduli per ogni rapporto. Non moltiplicare
+      i dettagli soltanto per riempire una superficie più ampia.
+
+      '
+    Variation Axes:
+    - Modulo
+    - Bordi attivi
+    - Aperture
+    - Densità e ripetizione

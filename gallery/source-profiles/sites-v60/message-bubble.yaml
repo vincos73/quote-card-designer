@@ -1,0 +1,72 @@
+Design Style:
+  Name: Message Bubble
+  Concept: 'La frase si comporta come un gesto di conversazione: bolle, code e spazio fra i turni costruiscono
+    apertura, ascolto o risposta. Un piccolo disegno partecipa al dialogo senza simulare un’app.'
+  Canvas:
+    Ratio: '4:5'
+    Output: Una card completa frontale per social, senza cornice o mockup ambientato.
+  Mood: Diretto, empatico, agile; ironico quando il contenuto lo consente.
+  Color Palette:
+    Default: Melanzana scuro, corallo e crema
+    Adaptation: Palette sostituibile su richiesta; preservare contrasto locale e ruoli di supporto, frase
+      e accento. Applicarla anche al piccolo disegno.
+  Typography:
+    Quote: Carattere grande a forme aperte, peso uniforme e proporzioni naturali. La frase può occupare
+      una o poche bolle in ordine chiaro, senza duplicazioni, ellissi o riscrittura. Colore e forma non
+      devono far sembrare che parlino autori diversi non indicati.
+    Hierarchy: Frase primo elemento di lettura e disegno secondario. A capo per gruppi di senso, nessuna
+      deformazione locale per evitare un’immagine.
+    Attribution: Solo se fornita o verificata, registro più piccolo e quieto, allineato a destra su un
+      asse leggibile. In assenza ricomporre senza segnaposto.
+  Layout:
+    Principle: 'Scegliere un solo gesto dialogico: turno, risposta, ascolto, apertura. Code e vuoti devono
+      avere funzione nel contenuto, non essere appendici decorative. La frase rimane dominante e il piccolo
+      disegno può stare nel punto di scambio o in una coda.'
+    Adaptation: Scegliere una sola relazione compositiva in base al significato. Frasi lunghe richiedono
+      meno elementi e nuovi a capo; non imitare un esempio rimpicciolito. Variare relazione e struttura
+      per nuove card.
+  Elements:
+    Imagery: Piccolo disegno semplice nello stesso linguaggio geometrico, pertinente al testo. Nessun
+      avatar, balena o mascotte ricorrente; niente iconcine di app o chat generiche.
+    Surface: Campiture grafiche piatte con contorni puliti e raccordi coerenti; nessuna interfaccia fotografata,
+      plastica lucida o ombra da adesivo se non richiesta.
+  Effects:
+    Material: Campiture grafiche piatte con contorni puliti e raccordi coerenti; nessuna interfaccia fotografata,
+      plastica lucida o ombra da adesivo se non richiesta.
+    Restraint: Effetti subordinati alla lettura; niente rumore uniforme o dettagli di riempimento.
+  Rules:
+  - Conservare la frase una sola volta con caso, parole, accenti, punteggiatura e ordine esatti.
+  - Nessun autore, firma, testo o marchio inventato.
+  - Disegno piccolo, riconoscibile e pertinente alla frase.
+  - Niente nomi utente, avatar, timestamp, spunte di lettura, notifiche, emoji aggiunte o marchi di messaggistica.
+  - Non copiare identità, logo, palette o slogan Mobee Dick.
+  - Non aggiungere interlocutori, testo di risposta o tre puntini come riempitivo.
+  Content Contract:
+    quote: Testo esatto fornito o approvato.
+    author: Facoltativo, fornito o verificato; distinto dalla firma personale.
+Composition Library:
+  Style Name: Message Bubble
+  Selection:
+    Principle: Scegliere una famiglia in base a frase, formato e rapporto col piccolo soggetto. Non combinarle
+      automaticamente.
+    Variation: Per una nuova prova cambiare relazione o struttura quando il testo lo giustifica; colore
+      e soggetto da soli non provano varietà.
+  Families:
+  - id: open-exchange
+    Name: Scambio aperto
+    Use When: Quando il testo riguarda ascolto, relazione o possibilità.
+    Structure: Due bolle complementari lasciano uno spazio di scambio visibile; code e piccolo disegno
+      orientano la lettura attraverso quel vuoto.
+    Text Adaptation: Frase dominante, a capo per senso, ordine di lettura unico, eventuale autore subordinato
+      a destra. Su testo lungo ridurre repertorio e ricomporre.
+    Format Adaptation: Adattare masse e vuoti al rapporto richiesto, senza tagliare parole o rimpicciolire
+      un esempio. Il 4:5 è un punto di partenza.
+  - id: single-utterance
+    Name: Una voce e un gesto
+    Use When: Quando la frase è diretta, breve o interrogativa.
+    Structure: Una grande bolla cambia profilo in rapporto a un piccolo soggetto; la coda indica il gesto
+      o un punto di attenzione senza apparato da chat.
+    Text Adaptation: Frase dominante, a capo per senso, ordine di lettura unico, eventuale autore subordinato
+      a destra. Su testo lungo ridurre repertorio e ricomporre.
+    Format Adaptation: Adattare masse e vuoti al rapporto richiesto, senza tagliare parole o rimpicciolire
+      un esempio. Il 4:5 è un punto di partenza.

@@ -1,0 +1,83 @@
+"Design Style":
+  "Name": "Redacted"
+  "Status": "Candidato approvato dall’utente il 29 ottobre 2026; non incluso nella selezione release."
+  "Concept": "La frase emerge per sottrazione da un documento quasi interamente cancellato. Le parole sopravvissute appartengono alle righe della pagina e formano un percorso di lettura."
+  "Canvas":
+    "Ratio": "4:5"
+    "Output": "Composizione raster completa, testo e cancellature inclusi"
+    "Surface": "Foglio da documento comune con fibre discrete, leggere pieghe, tracce d’uso e piccole sbavature plausibili. Niente carta da acquerello, pergamena o grunge uniforme."
+    "Adaptation": "Ricomporre righe, masse e intervalli nel formato richiesto, senza deformare lettere o ritagliare parole"
+  "Mood":
+    - "Editoriale"
+    - "Sottrattivo"
+    - "Tattile"
+    - "Silenzioso"
+    - "Teso"
+  "Color Palette":
+    "Policy": "Palette variabile con forte contrasto locale fra carta, testo e campiture di cancellatura. Il nero su bianco è il punto di partenza delle prove, non un obbligo permanente."
+    "Ink": "Inchiostro scuro e coprente; la densità rende credibile la rimozione del contenuto"
+    "Paper": "Fondo scelto per conservare riserve chiare e leggibili, senza ingiallimento o grunge obbligatori"
+  "Typography":
+    "Quote": "Sempre dattiloscritto monospace da macchina da scrivere. Le parole visibili appartengono al corpo del documento, non a un titolo sovrapposto. Non usare il serif proporzionale della prima prova."
+    "Impression": "Passo fisso naturale, densità del nastro leggermente irregolare, piccoli disallineamenti fra battute e accumuli d’inchiostro. Queste imperfezioni non devono confondere lettere, accenti o spazi."
+    "Scale": "Corpo abbastanza grande per leggere i frammenti nel feed; mantenere coerenza fra parole emerse e righe coperte"
+    "Spacing": "Kerning ottico, spazi fra parole e proporzioni naturali. Non allargare il tracking per adattare parole alle aperture delle barre."
+    "Attribution": "Facoltativa, esatta, più piccola e quieta, sempre allineata a destra. Non usarla per simulare un archivio o un ente. Se assente, recuperare lo spazio."
+    "Signature": "Solo se richiesta, distinta dall’autore e mai desunta dal profilo personale"
+  "Layout":
+    "Relation": "Barre e parole condividono lo stesso sistema di righe. Ogni frammento leggibile deve sembrare una porzione risparmiata dalla cancellatura."
+    "Reading": "Ordine letterale inequivocabile da sinistra a destra e dall’alto verso il basso. Preferire gruppi di senso; evitare cacce al tesoro che alterano la frase."
+    "Density": "Alternare masse scure e aperture. La censura deve avere peso grafico, ma non ridurre la citazione a microtesto."
+    "Variation": "Numero di colonne, densità, lunghezze delle barre e posizione delle aperture dipendono dalla frase. Nessun obbligo di una specifica griglia o di quattro frammenti."
+  "Elements":
+    "Marker": "Pennarello fisico coprente e sporco, estremità arrotondate o oblique, ripassi sovrapposti, variazioni di pressione, assorbimento e piccole code asciutte. È il trattamento principale scelto."
+    "Rhythm": "I tratti seguono il ritmo del dattiloscritto, ma variano leggermente per lunghezza e pressione. Le barre vettoriali nette della seconda prova restano uno studio storico, non la direzione principale."
+    "Handling": "Una piega lieve, un bordo ammorbidito o poche tracce di trasferimento d’inchiostro nei margini possono far percepire l’uso del foglio. Scegliere pochi segni coerenti, senza accumulare difetti decorativi."
+    "Undertext": "Se serve, usare un testo sottostante originale oppure fornito e autorizzato. Tutto ciò che non appartiene alla frase finale resta integralmente illeggibile."
+  "Effects":
+    - "Grana d’inchiostro, bordi assorbiti e ripassi del pennarello; tracce reali di nastro e battitura sulle parole emerse"
+    - "Aspetto fotografico o da scansione di un documento realmente dattiloscritto e successivamente cancellato a mano, senza effetti digitali decorativi"
+  "Rules":
+    - "La frase deve emergere dalle aperture fra le cancellature, non essere sovrapposta a un fondo redacted"
+    - "Dattiloscritto monospace sempre; marker fisico irregolare come trattamento delle cancellature"
+    - "Tutte le parole della frase restano integre, nell’ordine corretto e senza ripetizioni"
+    - "Cancellature e riserve non toccano accidentalmente glifi o accenti delle parole visibili"
+    - "Niente nomi, classificazioni, timbri, date, pagine, marchi istituzionali o testo di riempimento inventati"
+    - "Le reference descrivono una grammatica e non impongono testi, soggetti o impaginati da copiare"
+  "Content Contract":
+    "quote": "Conservare esattamente parole, maiuscole richieste, accenti e punteggiatura. Le due frasi dimostrative originali sono senza punto finale."
+    "other_text": "Le sole parole leggibili appartengono alla citazione e all’eventuale attribuzione o firma esplicitamente richiesta"
+  "Production":
+    "Method": "ImageGen integrato per ogni composizione completa. Nessun testo impaginato deterministicamente sopra un fondo generato."
+    "Reference Inputs": "Le tre reference sono state ispezionate per inferire il linguaggio; le prime prove non avevano immagini di input. La revisione marker e dattiloscritto usa la prima prova come target di edit, non come requisito permanente delle generazioni future."
+    "Reference Comparison": "Prima di introdurre stabilmente reference nel flusso, preparare la coppia A/B controllata prevista dallo schema stile e lasciare all’utente la valutazione."
+    "Validation": "Due frasi originali nella direzione marker e dattiloscritto rilette visivamente. Nativi 1122×1402 px, prossimi al 4:5. Le prime prove serif e a barre nette restano storiche; font esatto, lettura nel feed, altre palette e ripetibilità non certificati."
+"Composition Library":
+  "Style Name": "Redacted"
+  "Selection":
+    "Basis": "Scegliere la relazione fra righe, masse nere e aperture dal senso e dalla lunghezza della frase"
+    "Default": "Pagina a una colonna con pennarello fisico irregolare e dattiloscritto monospace sempre"
+    "Variation": "Le famiglie sono repertori aperti, non template a coordinate fisse; cambiare palette non basta a variare composizione"
+  "Families":
+    -
+      "id": "marker-erasure"
+      "Name": "Pagina cancellata a pennarello"
+      "Use When": "Una frase breve può emergere come scoperta in una pagina continua"
+      "Structure": "Un sistema ampio di righe quasi interamente coperte da tratti fisici. Poche riserve sfalsate seguono gruppi di senso, con un ordine di lettura immediato."
+      "Text Adaptation": "Dattiloscritto monospace a passo naturale. Scegliere corpo, numero di righe e lunghezza dei tratti dalla frase; ingrandire le parole insieme al ritmo della pagina, senza deformare glifi o aumentare tracking"
+      "Format Adaptation": "Ricomporre la densità della pagina e gli intervalli per il rapporto richiesto. L’attribuzione eventuale resta leggibile e su asse destro."
+      "Variation Axes":
+        - "Densità e pressione del pennarello"
+        - "Ampiezza delle riserve e lunghezze delle righe"
+        - "Posizione dei gruppi di senso entro la colonna"
+    -
+      "id": "marker-paragraphs"
+      "Name": "Paragrafi cancellati e pause di carta"
+      "Use When": "La frase può essere divisa in pochi gruppi consecutivi con una pausa riconoscibile"
+      "Structure": "Gruppi di righe dattiloscritte cancellate con lo stesso marker fisico della direzione principale. Pause bianche fra i paragrafi scandiscono la frase, senza introdurre colonne rigide o barre perfettamente rettangolari."
+      "Text Adaptation": "Le parole emerse mantengono sempre il dattiloscritto monospace e un’unica scala coerente. I segni di uso del documento non introducono parole concorrenti."
+      "Format Adaptation": "Variare il rapporto fra masse e spazio libero mantenendo la sequenza leggibile. Allargare le riserve per il testo a passo fisso, senza restringere o deformare i glifi."
+      "Variation Axes":
+        - "Numero e densità dei paragrafi"
+        - "Ripassi a parola oppure a riga intera"
+        - "Pause bianche fra paragrafi e gruppi della frase"

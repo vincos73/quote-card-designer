@@ -1,0 +1,276 @@
+Design Style:
+  Name: Y2K
+  Status: Registro cromo/olografico approvato dall'utente il 26 ottobre 2026
+  Concept: 'La citazione diventa una grande forma tipografica metallica, lucida e leggibile. Cromo specchiante,
+    riflessi prismatici e superfici sintetiche riprendono il repertorio grafico Y2K in una composizione
+    contemporanea. Pochi elementi ottici o frammenti di interfaccia partecipano alla frase, senza trasformare
+    la card in un inventario di oggetti nostalgici.
+
+    '
+  Reference Basis:
+    User Direction: 'Privilegiare il registro cromo/olografico indicato dall''utente. Il trattamento rosa
+      gel e bubblegum delle prove intermedie non è la direzione scelta. La lucentezza deriva da metallo,
+      film ottico e materiale traslucido, non da un mondo fantascientifico obbligatorio.
+
+      '
+    Transfer: 'Trasferire qualità delle superfici, grandi titoli metallici, rifrazione ottica, piccoli
+      richiami al desktop e contrasti di scala. Soggetti, loghi, parole, apparati promozionali e impaginati
+      degli allegati non sono elementi da copiare.
+
+      '
+    Research Notes: ricerca.md
+    Image Inputs: 'Il profilo è autosufficiente. Gli allegati hanno informato la ricerca, ma non sono
+      immagini operative obbligatorie. Le prove documentate sono state generate da prompt testuali, senza
+      immagini di input.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Type: Quote card verticale completa
+    Adaptation: 'Ricomporre parole e superfici per il formato richiesto. I bordi degli elementi possono
+      uscire dal campo; nessuna parola può essere tagliata.
+
+      '
+  Mood:
+  - Glossy
+  - Reflective
+  - Prismatic
+  - Digital
+  - Assertive
+  - Playful
+  Color Palette:
+    Fixed Colors: false
+    Starting Roles:
+      Field: '#D6D9E0'
+      Pearl: '#F4F5F7'
+      Dark Contours: '#191C2C'
+      Optical Cyan: '#9AE7F3'
+      Reflected Cobalt: '#3D59CE'
+      Optical Violet: '#A39AE2'
+    Selection: 'Scegliere un campo dominante, un contrasto scuro e pochi riflessi. L''argento conserva
+      fasce chiare e scure riconoscibili; l''iridescenza attraversa porzioni della superficie senza riempire
+      ogni lettera con un arcobaleno. Il campionario è un punto di partenza, non una palette da usare
+      integralmente.
+
+      '
+    User Overrides: 'Conservare il linguaggio cromo/olografico anche con una preferenza cromatica diversa.
+      Una rifrazione può contenere un piccolo riflesso magenta, ma il fondo rosa e il gel confetto non
+      definiscono il profilo.
+
+      '
+    Contrast: 'Distinguere facce metalliche, contorni e fondo. Se i riflessi chiari cancellano la lettura,
+      stabilizzare prima le lettere e semplificare la superficie circostante.
+
+      '
+  Typography:
+    Main Reading:
+      Direction: 'Grottesco latino display forte, arrotondato o naturalmente esteso, con possibile inclinazione
+        controllata e terminali netti. Le facce cromate e i contorni scuri rendono le parole oggetti grafici.
+        Il volume resta contenuto: evitare lettere gonfie da palloncino.
+
+        '
+      Hierarchy: 'La frase completa è il primo livello. A capo per gruppi di senso, con connettivi sostanziali
+        e spazi tra parole evidenti. Nessun titolo Y2K inventato può sostituire la citazione.
+
+        '
+      Spacing: 'Conservare proporzioni naturali, controforme aperte e distinzione fra lettere adiacenti.
+        Risolvere la capienza con a capo, scala e composizione, senza comprimere o stirare singoli glifi.
+
+        '
+      Fidelity: 'Riportare esattamente parole, maiuscole, accenti e punteggiatura richiesti, inclusa la
+        distinzione originale fra maiuscole e minuscole. Non convertire l''intera frase in maiuscolo né
+        cambiare il testo per adattarlo a un effetto.
+
+        '
+    Secondary Register: 'Una sans semplice o un monospace può accogliere solo contenuti secondari forniti.
+      Il pixel non è il carattere predefinito della citazione e non richiede il download di un font specifico.
+
+      '
+    Attribution: 'Solo un nome fornito o verificato, più piccolo e leggero della citazione, allineato
+      a destra su un asse utile. In assenza di nome, recuperare lo spazio. La firma personale compare
+      solo se richiesta e resta distinta dall''autore.
+
+      '
+    Font Certainty: 'Le indicazioni descrivono l''aspetto. Un raster generato non certifica l''uso di
+      un particolare file font.
+
+      '
+  Layout:
+    Invariants:
+    - Citazione completa, dominante e leggibile anche in miniatura
+    - Cromo e rifrazione ottica come linguaggio materiale principale
+    - Integrazione fra massa delle parole e uno o pochi elementi scelti
+    - Contrasto locale fra metallo, ombre riflesse e campo di fondo
+    - Densità variabile e intervalli di riposo per ricostruire la frase
+    Relationships: 'Un nastro riflettente può passare dietro un gruppo di parole; un oggetto ottico può
+      controbilanciare il blocco tipografico; una finestra traslucida può fornire un asse o una discontinuità.
+      Ogni relazione sostiene l''ordine di lettura. Il pannello avorio centrale non è un requisito e la
+      tipografia non deve restare separata dalla grafica.
+
+      '
+    Variation: 'Cambiare assi, rapporti di scala, ritagli e distribuzione dei riflessi per ogni frase.
+      Non ripetere sempre titolo in alto e CD in basso.
+
+      '
+    Capacity: 'Per frasi più lunghe ridurre elementi secondari, profondità e complessità delle riflessioni
+      prima di ridurre troppo il testo.
+
+      '
+  Graphic Elements:
+    Material Repertoire:
+    - Cromo specchiante con transizioni nette fra luce e riflessi scuri
+    - Film olografico, lamina ottica e iridescenze localizzate
+    - Plastica traslucida fredda e superfici perlate
+    - Nastri, pieghe, anelli o volumi astratti riflettenti
+    Optional Repertoire:
+    - Un oggetto ottico o un accessorio digitale privo di marchio
+    - Frammenti di finestre desktop e controlli grafici non verbali
+    - Piccoli campi wireframe, griglie deformate o interruzioni a pixel
+    - Pochi punti speculari o forme adesive con finitura metallica
+    Selection: 'Scegliere un insieme coerente, non tutte le opzioni. CD, telefoni, delfini, cuori e finestre
+      non sono mascotte obbligatorie. Il soggetto resta sostituibile secondo la frase e una richiesta
+      esplicita.
+
+      '
+    Text Limits: 'Non inventare titoli di finestre, nomi di file, slogan, codici, percentuali, date, marche,
+      URL o scritte in altre lingue. Il dettaglio secondario può essere geometria non verbale, non microtesto
+      fittizio.
+
+      '
+    Reference Identity: 'Non riprodurre marchi, personaggi, collage, watermark o inventari degli allegati.
+      Evitare cartigli promozionali e codici a barre.
+
+      '
+  Effects:
+    Chrome: 'Alternare riflessi chiari e scuri con bordi definiti e profondità contenuta. Riflessi e lucidità
+      seguono la superficie invece di diventare bagliori uniformi che impastano le parole.
+
+      '
+    Holography: 'Usare cambi di colore coerenti su una superficie ottica, con orientamento e intensità
+      differenti rispetto al metallo.
+
+      '
+    Depth: 'Ombre di contatto e sovrapposizioni rendono plausibili i materiali. Proteggere facce, controforme
+      e spazi della citazione.
+
+      '
+    Restraint: 'Pochi riflessi puntuali, soprattutto sui bordi delle lettere; evitare bagliori forti sopra
+      i tratti centrali e dentro le controforme. Nessuna sequenza obbligatoria di stelle negli angoli.
+      Paesaggi spaziali, pianeti, robot e HUD non sono necessari. Evitare il trattamento confetto e l''effetto
+      di normale testo piatto circondato da sticker scollegati.
+
+      '
+  Rules:
+  - Riportare la frase completa una volta, con un ordine di lettura chiaro.
+  - Privilegiare il registro cromo/olografico selezionato dall'utente.
+  - Mantenere distinti materiali metallici, ottici e plastici.
+  - Integrare parole e grafica senza sacrificare nessuna lettera.
+  - Conservare esattamente la capitalizzazione fornita; se il raster non la rispetta, correggere le lettere
+    prima della consegna e ricontrollare il testo completo.
+  - Proteggere gli spazi fra parole e la punteggiatura dai riflessi.
+  - Semplificare il repertorio per testi lunghi o formati piccoli.
+  - Omettere testo e attribuzioni non forniti.
+  - Non imporre un font pixel, una mascotte o un pannello centrale fisso.
+  Production:
+    Preferred Mode: generative
+    Method: 'Generare ogni nuova card completa con ImageGen integrato, includendo lettering, materiali
+      e composizione. Verificare poi fedeltà testuale, leggibilità e relazioni fisiche. Conservare prompt
+      e originale.
+
+      '
+    Refinement: 'Una correzione mirata può rifinire testo o geometria conservando la direzione. Non dichiarare
+      editabilità vettoriale o font reali senza asset effettivi verificati.
+
+      '
+    References: 'Non adottare immagini esterne come dipendenze permanenti senza una prova comparabile
+      con e senza immagini e valutazione dell''utente.
+
+      '
+    Validation Status: 'La ricerca e gli allegati hanno portato a una prima prova cromo e a due studi
+      rosa/gel. L''utente ha escluso il registro rosa e indicato cromo/olografico. La prova cromo è stata
+      ispezionata nel nativo e a 320 pixel. Una seconda frase coerente con il registro scelto è stata
+      verificata nel nativo e a 320 pixel, con una correzione degli spazi fra parole. Il 26 ottobre 2026
+      l''utente ha approvato questa revisione e richiesto l''aggiornamento della galleria e della skill.
+      Nomi, accenti e altri formati richiedono ancora prove specifiche.
+
+      '
+  Content Contract:
+    quote: Frase completa e letterale richiesta
+    author: Nome facoltativo fornito o verificato, subordinato e allineato a destra
+    signature: Nome personale solo se richiesto, distinto dall'autore
+    supporting: Solo contenuti secondari forniti; nessun riempitivo
+Composition Library:
+  Style Name: Y2K
+  Selection:
+    Basis: 'Scegliere la relazione più utile alla frase mantenendo il registro cromo/olografico. Il repertorio
+      comprende metallo, superfici ottiche e pochi frammenti digitali; nessun oggetto è obbligatorio.
+
+      '
+    Variation: 'Cambiare rapporto fra testo e materiale, assi e densità. Le prove rosa gel appartengono
+      alla ricerca e non sono esempi del registro scelto.
+
+      '
+  Families:
+  - id: chrome-hero-field
+    Name: Parole cromate e presenza ottica
+    Use When: 'Una frase breve o media può sostenere una massa tipografica forte in relazione a un singolo
+      elemento riflettente riconoscibile.
+
+      '
+    Structure: 'La frase completa occupa un campo dominante. Un elemento ottico o plastico bilancia la
+      massa e ne intercetta un bordo o un intervallo. Metallo e iridescenza restano materiali distinti.
+      Piccoli frammenti grafici possono sostenere un asse, senza cornice decorativa uniforme.
+
+      '
+    Text Adaptation: 'A capo per gruppi di senso, mantenendo connettivi e spazi evidenti. Con più testo
+      ridurre ingombro e riflessi dell''elemento secondario. Un nome richiesto trova un asse destro subordinato.
+
+      '
+    Format Adaptation: 'Ridistribuire massa tipografica, elemento e campi di riflesso per il rapporto
+      scelto. Ritagliare la grafica, mai le parole.
+
+      '
+    Validation: Prima prova cromo; oggetto e palette della dimostrazione non sono vincoli.
+  - id: folded-foil-stagger
+    Name: Lettura sfalsata e lamina riflettente
+    Use When: 'La frase può articolarsi in gruppi di lunghezza diversa e un materiale astratto può collegarli
+      senza richiedere un soggetto.
+
+      '
+    Structure: 'Gruppi tipografici sfalsati formano una lettura continua. Una lamina o un nastro olografico
+      percorre i vuoti e passa dietro alcune parole. Le superfici cromate della frase restano più ferme
+      e contrastate rispetto al materiale ottico. I dettagli digitali sono subordinati.
+
+      '
+    Text Adaptation: 'Risolvere gli scarti con la lunghezza reale delle parole, senza una griglia di righe
+      tutte uguali e senza frammentare ogni parola. Stabilizzare o semplificare le riflessioni con testi
+      più lunghi.
+
+      '
+    Format Adaptation: 'Ricostruire il percorso nei vuoti del nuovo formato. Ridurre anse e intersezioni
+      prima di ridurre la leggibilità.
+
+      '
+    Validation: Seconda frase verificata nel nativo e a 320 pixel; una correzione degli spazi fra parole.
+      Registro approvato dall'utente il 26 ottobre 2026.
+  - id: translucent-desktop
+    Name: Superfici sovrapposte e frase metallica
+    Use When: 'Il tono della frase può dialogare con la memoria delle interfacce digitali senza diventare
+      una schermata piena di etichette.
+
+      '
+    Structure: 'Pochi piani traslucidi si sovrappongono e ospitano una frase cromata che li attraversa
+      o li collega. Una zona più quieta apre la lettura. Controlli e griglie restano dettagli grafici,
+      non testi inventati.
+
+      '
+    Text Adaptation: 'La citazione resta intera e dominante. Aumentare il piano utile di lettura e ridurre
+      le finestre quando il contenuto cresce. Non trasformare connettivi o nomi in elementi illeggibili
+      dell''UI.
+
+      '
+    Format Adaptation: 'Cambiare dimensione e sovrapposizione dei piani per il rapporto richiesto, evitando
+      di ritagliare una schermata già composta.
+
+      '
+    Validation: Famiglia prevista dal profilo ma non ancora provata nel registro cromo.

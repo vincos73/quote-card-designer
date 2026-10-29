@@ -1,0 +1,114 @@
+Design Style:
+  Name: Linocut
+  Version: 0.2.0-experimental
+  Status: V1 candidate richiesta dall’utente il 28 ottobre 2026
+  Concept: 'La frase e un piccolo soggetto sono progettati come una stampa in rilievo da linoleum: materia
+    inchiostrata trattenuta, carta liberata dai tagli, pieni compatti e ritmi di sgorbia. Una soglia o
+    un vuoto possono diventare un elemento di lettura legato al significato, senza ridurre la tecnica
+    a un carattere usurato su un disegno separato.
+
+    '
+  Canvas:
+    Ratio: '4:5'
+    Output: Card editoriale piatta, con carta e stampa sullo stesso piano.
+  Mood:
+  - Grafico
+  - Incisivo
+  - Tattile
+  - Diretto
+  - Artigianale
+  Color Palette:
+    Fixed Colors: false
+    Starting Roles:
+      Paper: '#F1E6D1'
+      Main Ink: '#151713'
+      Accent Ink: '#D44829'
+    Relationships: 'Pochi inchiostri a campitura distinta; la carta è un colore attivo. Un passaggio può
+      sovrapporsi a un altro con una mescolanza limitata, non obbligatoria. Adattare pigmenti e fondo
+      preservando contrasto.
+
+      '
+  Typography:
+    Quote: 'Lettere robuste progettate per essere incise e stampate, non un font semplicemente graffiato.
+      Controforme aperte, terminali lievemente tagliati, proporzioni naturali e ritmo leggibile. Intagliare
+      piccoli scarti nei contorni, non tagli che falsificano glifi o accenti.
+
+      '
+    Integrity: 'Frase esatta e completa una volta; caso e punteggiatura conservati. A capo per senso,
+      spazi chiari; nessuna parola compressa localmente.
+
+      '
+    Attribution: 'Solo se fornita o verificata, più piccola e leggera, leggibile e su un asse destro.
+      Se assente, ricomporre senza segnaposto o firma inventata.
+
+      '
+  Layout:
+    Relationship: 'Testo, piccolo soggetto e carta scavata condividono un''architettura. Una direzione
+      di taglio può accompagnare un passaggio di senso; l''illustrazione resta secondaria e non copre
+      parole necessarie.
+
+      '
+    Space: 'Alternare masse stampate e aperture di carta. Scegliere pochi assi; non imporre un riquadro,
+      una cornice decorativa o lo stesso paesaggio.
+
+      '
+    Hierarchy: 'La frase guida la superficie e il primo sguardo. Il disegno deve restare piccolo; non
+      espanderlo in un ambiente o paesaggio a tutta card. Ricavare la relazione dal ritmo dei tagli, da
+      un vuoto o da una massa, senza richiedere uno scenario narrativo intorno al soggetto.
+
+      '
+    Capacity: Per frasi lunghe semplificare il soggetto e aprire il campo prima di ridurre il corpo.
+  Elements:
+    Small Drawing: 'Un''immagine sintetica pertinente alla frase, costruita con sagome, pochi piani e
+      tagli direzionali. Soggetti aperti: non sempre cancello, mani, alberi o animali. Il soggetto del
+      test controlla il confronto.
+
+      '
+  Effects:
+    Cut: 'Segni a V o U, scavi rastremati e qualche bordo reciso, riservati alle zone dove descrivono
+      forma o direzione. Evitare filigrane fini da bulino, venatura del legno obbligatoria o tratteggio
+      uniforme a tutta pagina.
+
+      '
+    Print: 'Inchiostro opaco sostanzialmente piatto, con piccole discontinuità di pressione e contorni
+      lievemente inchiostrati. Nessun rilievo fisico dei solchi nel foglio, impasto dipinto, polvere o
+      patina grunge uniforme.
+
+      '
+  Content Contract:
+    quote: Testo letterale una sola volta.
+    author: Solo se fornito o verificato.
+    other_text: Nessuna etichetta, numero, firma o parola inventati.
+  Rules:
+  - Frase e soggetto condividono tagli, inchiostro e carta.
+  - Leggibilità prima della densità dei tagli.
+  - La carta negativa ha funzione compositiva, non è solo sfondo.
+  - Non copiare soggetti o composizioni delle opere studiate.
+  Production:
+    Preferred Mode: generative
+    Validation Status: Revisione dopo il primo confronto; v2 non valutata al congelamento, risultati in
+      osservazioni-v2.md.
+Composition Library:
+  Style Name: Linocut
+  Selection:
+    Basis: Relazione tipografica fra pieni di stampa e carta liberata, derivata dal testo.
+    Variation: Scegliere taglio, apertura, ritmo o contrappeso; nessun soggetto permanente.
+  Families:
+  - id: apertura-tipografica
+    Name: Carved Opening
+    Use When: La frase descrive trasformazione, possibilità o cambiamento.
+    Structure: 'Una massa prevalentemente tipografica lascia una fessura o apertura di carta tra gruppi
+      di senso. Il piccolo soggetto aderisce a quel cambiamento di spazio; non richiede un ambiente illustrato.
+
+      '
+    Text Adaptation: Proteggere glifi e accenti; vuoti fra parole o gruppi, mai tagli illeggibili.
+    Format Adaptation: Variare direzione e rapporto dei gruppi per il formato e la frase.
+  - id: ritmo-di-taglio
+    Name: Cut Rhythm
+    Use When: La frase contiene un passaggio di intensità, direzione o ripetizione.
+    Structure: 'Parole dominanti e pochi tagli direzionali modulano il campo; un piccolo disegno chiude
+      o devia il ritmo senza diventare scenario.
+
+      '
+    Text Adaptation: Conservare ordine e spazi naturali, modulare solo la struttura complessiva.
+    Format Adaptation: Ridurre segni e ridistribuire gruppi prima di ridurre il testo.

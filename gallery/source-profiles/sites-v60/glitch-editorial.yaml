@@ -1,0 +1,258 @@
+Design Style:
+  Name: Glitch Editorial
+  Status: Incluso nel catalogo V1 il 26 ottobre 2026; light typographic study preferred by the user
+  Concept: 'A readable editorial message travels through an unstable image signal. Horizontal discontinuities,
+    displaced colour channels and noise interrupt a coherent picture or typographic field. Recognisable
+    form and apparent damage coexist: the quotation remains recoverable while local fragments appear torn,
+    delayed, duplicated or lost. The language can be a dark figurative collage or a pale, grainy typographic
+    interference field.
+
+    '
+  Reference Basis:
+    Observed: 'Three supplied references combine portraits or classical art with dark fields, RGB misregistration,
+      horizontal tears and damaged bitmap texture. Some add small retro-interface fragments. A fourth
+      uses a pale noisy field, pixel-like type and an adjacent wave-distorted word echo.
+
+      '
+    Research Notes: ricerca.md
+    Transfer: 'Transfer interruption, channel displacement, scale changes and the relationship between
+      readable content and degraded fragments. The figures, titles, dates, codes and layouts in the references
+      are not reusable content or mandatory subjects.
+
+      '
+    Image Inputs: 'The written profile is self-contained. References inform its authoring; they are not
+      mandatory generation inputs.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: One finished flat full-bleed editorial quote card
+    Adaptation: Recompose the subject, quotation and damage regions for the requested ratio.
+  Mood:
+  - Disrupted
+  - Electronic
+  - Unstable
+  - Raw
+  - Uncanny
+  - Expressive
+  Color Palette:
+    Fixed Colors: false
+    Dark Study:
+      Ground: '#0B0A12'
+      Type: '#F1F0E8'
+      Cyan: '#05D7E1'
+      Magenta: '#F4169B'
+      Acid: '#CFED35'
+    Light Study:
+      Lilac: '#BDA9D9'
+      PaleCyan: '#93D6D7'
+      Type: '#101012'
+      Ghost: '#D67C9B'
+    Roles: 'Choose a coherent ground, a high-contrast primary reading ink and selected channel accents.
+      Local colour disagreement belongs to the apparent signal damage. Not every edge needs all RGB colours.
+      A monochrome version remains valid through displacement, dropout and changing texture, rather than
+      relying on colour fringes alone.
+
+      '
+  Typography:
+    Primary:
+      Style: 'A heavy condensed or compact grotesk for figurative signal collage, or a bold pixel-like
+        monospace for typographic interference. Choose one coherent primary register for the quotation.
+        When adapting a composition from a paired proposal, carry the preferred proposal A lettering into
+        B: preserve its letterform character, weight, case and spacing while retaining B''s glitch field
+        and composition. Damage may interrupt selected edges, but must not replace the chosen letter design.
+
+        '
+      Scale: Large enough to remain the first complete reading at feed size
+      Case: Preserve supplied capitalization, wording, accents and punctuation.
+      Spacing: 'Retain recognisable glyph skeletons, meaningful line breaks and visible word spaces. Do
+        not let channel ghosts fill the gaps between words or turn one character into another.
+
+        '
+    Damage Budget: 'Concentrate displacement, thin dropouts and RGB fringes at selected bands or edges.
+      Preserve enough of every letter, accent and punctuation mark for unambiguous reading. A heavily
+      damaged image can accompany a less damaged quotation. Increase distortion locally rather than making
+      the entire phrase uniformly blurry or shredded.
+
+      '
+    Literal Echo:
+      Use: Optional in the typographic-wave composition
+      Content: One exact word or short contiguous fragment from the supplied quotation
+      Treatment: 'A single subordinate displaced or wave-warped echo may sit beside the primary reading.
+        It repeats only that literal fragment, never rewrites it or introduces a second complete quotation.
+
+        '
+    Attribution: 'If supplied or verified, use the exact name in a smaller and quieter high-contrast register,
+      right-aligned on a clear axis. Keep this register substantially intact. If absent, omit it and recover
+      the space.
+
+      '
+    Font Certainty: Font names or pixel structures suggested in a prompt are not evidence of an exact
+      font file.
+  Layout:
+    Invariants:
+    - A coherent underlying image or typographic field with meaningful interruptions
+    - Large readable quotation integrated into the same disturbed visual space
+    - At least one clear displacement or dropout beyond simple overall colour tinting
+    - Unequal damage regions with calm intervals that preserve a reading path
+    - Distinct scales for broad tears, edge misregistration and fine noise
+    Integration: 'A tear can cross both image and lettering when their different levels of readability
+      remain controlled. Let damage reveal, shift or interrupt the shared composition. Avoid an intact
+      conventional quote box pasted over a separately glitched picture.
+
+      '
+    Variation: 'Change the subject, crop, fracture path, damage density and text anchor for each quotation.
+      A portrait, statue or old software window is not obligatory. The light typographic field is equally
+      part of the language.
+
+      '
+  Imagery:
+    Role: Optional coherent subject that remains partly recognisable through disruption
+    Repertoire: 'A portrait, sculpture, object, landscape or abstract image can carry the damage. Select
+      it for the quotation and user preference. The reference woman, painted portrait and classical bust
+      are examples, not a fixed cast.
+
+      '
+    Treatment: 'Use selective horizontal strip displacement, repeated fragments, channel misregistration
+      and regions of coarse digital damage against finer scan texture. Retain some stable identifying
+      form rather than covering a clean image with unrelated rainbow confetti.
+
+      '
+  Graphic Elements:
+    Core:
+    - Uneven horizontal tears and displaced image strips
+    - Local colour-channel ghosts
+    - Pixel dropouts, block fragments and interrupted scan texture
+    - Fine electronic noise with occasional wider damaged intervals
+    Optional:
+    - A small cropped retro-window frame with blank chrome or supplied text only
+    - Short colour-test fragments, open brackets or nonverbal cross marks
+    - A small painted checker fragment suggesting missing image data
+    Selection: 'Use a few related artifacts, not an inventory of every computer-error motif. Empty window
+      chrome is a graphic fragment, not a functional dialogue. Checkers depict a texture and do not imply
+      actual file transparency. Do not invent barcodes, binary messages, dates, memory sizes, hexadecimal
+      addresses, alerts or software labels.
+
+      '
+  Effects:
+    Signal Tears: 'Displace some horizontal regions laterally, with unequal widths, heights and offsets.
+      Mix larger interruptions with finer disturbances; avoid a perfectly regular stripe pattern.
+
+      '
+    Channel Separation: 'Shift selected colour components or their apparent edges. Keep small fringes
+      and occasional larger displaced fragments, with some intact zones. This is graphic channel misregistration,
+      not necessarily an optical lens effect.
+
+      '
+    Noise: 'Fine scanlines, compression-like grit and dense electronic grain can share the field. Keep
+      them smaller than the main tears and the letter cores. Noise density varies rather than flattening
+      everything into static.
+
+      '
+    Wave: 'In the typographic variant, use local lateral bending or a subordinate word echo. Keep the
+      primary quotation recoverable and its reading order continuous.
+
+      '
+    Depth: Carried by the disturbed source image or flat overlapping fragments
+    Motion: 'Suggest a stopped unstable signal in a static card. Do not claim a temporal video process
+      or actual datamoshing from the visual appearance.
+
+      '
+    Material Claim: 'This profile describes a visual simulation. A generated image does not establish
+      actual databending, codec failure, damaged hardware or a corrupted output file.
+
+      '
+  Content Contract:
+    quote: Show the complete supplied quotation once as the primary reading, unchanged.
+    echo: An optional literal fragment can recur only in the explicit subordinate echo register.
+    author: Use only a supplied or verified author, subordinate and right-aligned.
+    supporting: Use only supplied text; reference interface labels are not content to transfer.
+  Rules:
+  - Make interruption and displacement visible compositional events.
+  - Preserve a recoverable reading of every word, accent and punctuation mark.
+  - Let broad tears, channel ghosts and fine noise operate at different scales.
+  - Keep the type integrated with the damaged field while controlling local contrast.
+  - Select dark figurative or light typographic treatment for the current phrase.
+  - Preserve coherence between the subject and its displaced fragments.
+  - Use retro-interface fragments sparingly and omit unsupplied labels.
+  - Avoid substituting random neon lines or an overall anaglyph tint for structural damage.
+  - Do not replace letter strokes with unrelated symbols or invented code.
+  - Keep subjects, palette and layout variable instead of copying the reference posters.
+  Production:
+    Preferred Mode: generative
+    Rationale: 'Generate the complete picture, typography and damage relationship with ImageGen. Distortion
+      is part of the lettering and visual construction; exact-text refinement must retain that relationship.
+      Keep final files valid and readable rather than deliberately damaging user originals.
+
+      '
+    Validation Status: 'Two complete ImageGen studies, generated without image inputs: a dark figurative
+      composition and a light typographic field, using different quotations. Both were visually checked
+      at native resolution and at 320 by 400 pixels. The wording, punctuation and the grave accent in
+      the first study are present. The second contains one intentional literal word echo. No invented
+      auxiliary labels were observed. These are two applications, not an isolated comparison of one parameter
+      or a test of reference-image inputs. Exact fonts, wider repeatability and specific technical corruption
+      processes are not established. The user preferred the light typographic study, now the featured
+      catalogue example.
+
+      '
+  User Overrides:
+    Palette: Replace hues while retaining clear reading contrast and apparent signal disagreement.
+    Format: Recompose fractures, subject and quotation for the requested ratio.
+    Fonts: Honour the requested family or type direction while protecting recognisable letterforms.
+    Distortion: Adjust damage intensity while retaining full textual recovery unless the user requests
+      an illegible artwork.
+Composition Library:
+  Style Name: Glitch Editorial
+  Selection:
+    Basis: 'Scegliere una struttura in base al ruolo dell''immagine e al ritmo della frase. Portare nel
+      prompt soltanto quella struttura, risolvendo palette, quantità di danno ed eventuale eco letterale
+      per la singola card.
+
+      '
+    Variation: 'Cambiare il percorso delle fratture e il rapporto fra testo e visual. La variante chiara
+      non richiede un ritratto; quella figurativa non richiede obbligatoriamente una statua o un''interfaccia
+      rétro.
+
+      '
+  Families:
+  - id: fractured-image-field
+    Name: Figura e segnale interrotto
+    Use When: 'Un''immagine riconoscibile può dare alla citazione una presenza, una tensione o un contrasto
+      semantico.
+
+      '
+    Structure: 'Una figura o un soggetto principale e una citazione grande condividono il campo. Alcune
+      bande spostano insieme parti del visual e frammenti del lettering, con intensità diversa. Intervalli
+      più stabili permettono di ricostruire immagine e parole. Pochi frammenti secondari possono avvicinarsi
+      ai margini senza diventare una cornice di finte informazioni.
+
+      '
+    Text Adaptation: 'Disporre prima la frase completa. Con un testo più lungo ridurre l''invasione del
+      soggetto e la frequenza delle fratture sul lettering; lasciare più danno nel visual. Attribuzione
+      e firma, se richieste, mantengono un asse destro quieto.
+
+      '
+    Format Adaptation: 'Ricomporre ritaglio, zone di danno e massa tipografica per ogni formato, senza
+      tagliare parole o limitarsi a ritagliare il poster precedente.
+
+      '
+  - id: typographic-wave-field
+    Name: Campo tipografico disturbato
+    Use When: 'La frase e il suo ritmo possono sostenere da soli la composizione, senza una figura dominante.
+
+      '
+    Structure: 'Un campo elettronico granuloso ospita un blocco tipografico forte, con piccoli disallineamenti
+      cromatici e fratture locali. Può comparire una sola eco ondulata e subordinata di un estratto letterale.
+      La lettura integrale resta distinta dall''eco e conserva un ordine chiaro.
+
+      '
+    Text Adaptation: 'Scegliere l''eventuale estratto soltanto dalla frase fornita. Se l''eco sottrae
+      leggibilità o spazio, ometterla prima di rimpicciolire il testo. Una frase lunga richiede un campo
+      di lettura più stabile.
+
+      '
+    Format Adaptation: 'Ridistribuire il campo di rumore e la distanza fra citazione ed eco per il rapporto
+      scelto. I colori chiari e il monospace sono opzioni espressive; non impongono il medesimo impaginato
+      a ogni card.
+
+      '

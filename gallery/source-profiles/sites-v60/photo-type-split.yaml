@@ -1,0 +1,186 @@
+Design Style:
+  Name: Photo Type Split
+  Status: Included in distributed version 0.4.0; two object studies checked
+  Concept: 'A single photograph crosses a crisp division between an open photographic field and a flat
+    typographic field. On the typographic side, large letters are windows into the continuation of that
+    same image. The subject is therefore simultaneously a photograph and the material of the quotation.
+    The writing and the image share one visual axis rather than sitting in independent panels.
+
+    '
+  Reference Basis:
+    Notes: reference.md
+    Transfer: 'Transfer the shared split axis, dense readable typographic mass and photograph revealed
+      inside letter shapes from the three user examples. Their faces, English wording, brands, author
+      credits and tool captions do not become content for new cards. No source image is a permanent required
+      input.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: One flat full-bleed editorial quote card
+    Adaptation: Recompose split position, photographic crop and text fitting for every ratio.
+  Mood:
+  - Direct
+  - Graphic
+  - Photographic
+  - Focused
+  - Bold
+  - Editorial
+  Color Palette:
+    Fixed Colors: false
+    Roles:
+      Outside Letters: A quiet flat field providing strong separation from photographic letter interiors
+      Photograph: One coherent photographic colour and light treatment
+      Split: A crisp shared edge; an optional fine rule can clarify it
+    Selection: 'Monochrome photography on white, warm photography on pale paper or a more chromatic field
+      are all valid. Choose local contrast from the actual image. Subject, palette and split direction
+      remain adaptable.
+
+      '
+  Typography:
+    Primary:
+      Style: Heavy condensed or compact grotesk with broad recognisable letter interiors
+      Proportions: Use a coherent naturally condensed design, never squeeze individual words to fit
+      Fill: 'Reveal the underlying photograph inside the exact letter silhouettes. Keep photographic position
+        and scale continuous across words and the split; do not assign every word a separate image crop
+        or random texture.
+
+        '
+      Spacing: Compact but optically clear, with open counters and real word spaces
+    Hierarchy: 'Fit semantic groups into a strong typographic mass with a common edge against the split.
+      Natural ragged outside edges are valid. Size changes should support reading rather than force every
+      line to equal width.
+
+      '
+    Case: Preserve supplied capitalization, wording, accents and punctuation.
+    Attribution: 'Optional supplied or verified name in a smaller quieter register, right-aligned to a
+      clear edge. It may use solid ink for legibility. Omit the reserved area when absent; signatures
+      require an explicit request.
+
+      '
+  Layout:
+    Invariants:
+    - One photographic composition continues across the split
+    - On one side the photograph is visible openly; on the other it is revealed only inside quotation
+      glyphs
+    - The typographic mass and photographic subject meet at a deliberate common axis
+    - The complete quotation remains readable in a continuous sequence
+    - Subject choice comes from the quotation, not from a requirement for a face
+    Split: 'A vertical split is the starting point, not a mandatory fifty-fifty template. Choose its position
+      through the subject''s meaningful feature. Keep enough unrestricted photography for recognition
+      and enough letter surface to reveal its continuation. Mirror the direction if useful.
+
+      '
+    Seam Contact: 'Align the end of every typographic row directly with the photographic seam, with no
+      empty gutter. The last complete glyph, including final punctuation where present, meets the image
+      edge. Keep the photograph continuous inside the letters so they appear to emerge from it. Use ragged
+      outer line beginnings rather than moving the seam-side endings away from the photograph. No interposed
+      divider strip or typographic extrusion; preserve complete glyph identities at the join.
+
+      '
+    Mask Relationship: 'Outside letter shapes, the typographic side is genuinely flat and opaque. The
+      image inside letters must belong to the same photographic space as the open side. Ordinary solid
+      text placed over a photo does not satisfy this relationship. Avoid haloed cutouts and decorative
+      image fragments.
+
+      '
+    Fitting: 'Change crop, split ratio, line breaks or the entire typographic register before clipping
+      supplied words. Long phrases need a new composition; do not fragment every word into isolated letters
+      to imitate an example.
+
+      '
+  Imagery:
+    Subject: 'A person, object, material or other photographic subject selected for the quotation''s meaning.
+      A face is optional. Objects should communicate the same idea as the words, not merely provide a
+      random texture.
+
+      '
+    Treatment: 'Believable photographic light and material, a deliberate close crop, and enough tonal
+      variety inside the letters to reveal photography without dissolving glyph recognition.
+
+      '
+    Supplied Photo: Preserve the identity and requested details of a supplied edit target; distinguish
+      it from style references.
+    Provenance: Newly generated photographic imagery is not an authentic photoshoot or documentary photograph.
+  Graphic Elements:
+    Axis: A crisp shared join with complete word endings touching the photograph and no interposed gutter
+    Repertoire: Photographic surfaces, letter counters and the flat field supply the design
+    Restraint: No obligatory badges, icons, coloured banners or decorative data
+  Effects:
+    Mask: Clean letter edges with photographic detail inside
+    Depth: Comes from the photograph and the cut between flat field and image
+    Exclusions: No fake 3D extrusion, glow, shadowed text, arbitrary collage, heavy frame or texture replacing
+      the photograph
+  Content Contract:
+    quote: Exact supplied text once, with all accents and punctuation
+    author: Only supplied or verified attribution, subordinate and right-aligned
+    supporting: No invented captions, software credits, handles, brand lettering or signatures
+  Rules:
+  - Generate the entire photograph and typographic masking composition together.
+  - Make one continuous photographic space perceptible across the split and inside the glyphs.
+  - Preserve a recognisable subject and an unambiguous reading path.
+  - Keep letters readable against the flat field across their local tonal changes.
+  - Let the quotation determine the photographic subject, including non-human objects.
+  - Keep text exact and reference-specific captions out of new images.
+  Production:
+    Preferred Mode: hybrid
+    Rationale: 'ImageGen generates the complete visual and typographic direction. Exact mask geometry
+      may need later deterministic refinement of that generated base, but a separately typeset substitute
+      is not equivalent.
+
+      '
+    Validation Status: 'One ImageGen study uses a brass compass and the original demonstration phrase
+      CAMBIARE ROTTA È GIÀ UN NUOVO INIZIO. The full quotation, both grave accents and final period were
+      visually checked at native resolution and at 320 pixels wide. The compass rim and dial visibly continue
+      inside the glyphs across the split. No targeted correction or deterministic recomposition was needed.
+      Exact pixel registration, font identity, portrait and material families and alternative palettes
+      remain unverified. A second study uses an hourglass and the phrase OGNI ISTANTE CONTA. with all
+      row endings meeting the image seam. Wording, final period, object recognition and seam contact were
+      checked at native resolution and 320 pixels wide. Both studies were generated without image references
+      or correction passes. Exact mask registration is unmeasured. See note.md and note-2.md.
+
+      '
+Composition Library:
+  Style Name: Photo Type Split
+  Selection:
+    Basis: Choose a subject and split axis from the quotation's meaning, then fit one readable typographic
+      mass.
+    Variation: Vary the meaningful photographic crop, split proportion and text density rather than only
+      the palette.
+  Families:
+  - id: object-axis
+    Name: Oggetto diviso fra immagine e lettere
+    Use When: A recognisable object can embody the quotation's central action or concept.
+    Structure: 'Place a meaningful object across the split. Reveal one side freely and continue the opposite
+      side within large letter silhouettes on a flat field. A shared axis anchors both object and the
+      end of the reading lines, with deliberately ragged outer line lengths.
+
+      '
+    Text Adaptation: 'Use semantic groups, natural word spaces and intact punctuation. Preserve enough
+      photographic area to identify the object; do not add labels to explain an unrelated subject.
+
+      '
+    Format Adaptation: Recompose object scale, crop and split ratio for the requested frame.
+  - id: portrait-axis
+    Name: Ritratto e testo sulla stessa metà
+    Use When: A person is supplied or genuinely relevant to the message.
+    Structure: 'Put a meaningful vertical facial or body feature on the split, with the image visible
+      openly on one side and only through the letters on the other. The lettering participates in the
+      silhouette without making a particular gender, expression or celebrity compulsory.
+
+      '
+    Text Adaptation: 'Fit the full phrase with the split as its common axis. Protect the photographic
+      side''s recognisable features and the complete glyphs.
+
+      '
+    Format Adaptation: Move the split and reframe the portrait rather than crop words for a new ratio.
+  - id: material-transition
+    Name: Materia fra superficie e parole
+    Use When: A material or environment is more meaningful than an isolated object or face.
+    Structure: 'A single photographic surface or landscape feature spans the join. Its pattern continues
+      inside the quotation on the flat side, so the text and open photograph reveal the same structure.
+
+      '
+    Text Adaptation: Keep the material legible inside broad strokes without using texture to conceal missing
+      letters.
+    Format Adaptation: Rebalance photographic detail and type size at each aspect ratio.

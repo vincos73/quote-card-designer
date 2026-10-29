@@ -44,6 +44,10 @@ L'installazione locale in Codex non installa automaticamente la skill in ogni es
 
 ## Repository e gallery di sviluppo
 
+- La **libreria di sviluppo condivisa** contiene **127 stili**: 50 nella release
+  0.4.0, 34 candidati e 43 sperimentali. Profili e materiali disponibili sono
+  versionati nel repository, anche quando lo stile non è distribuito. Per lavorare
+  da portatile e iMac: [flusso di sviluppo e sincronizzazione](docs/SVILUPPO-STILI.md).
 - [`SKILL.md`](SKILL.md) e [`references/catalogo-v1.yaml`](references/catalogo-v1.yaml) definiscono il flusso e i 50 stili distribuiti.
 - La [gallery di sviluppo](https://quote-card-designer-style-gallery.vincos.chatgpt.site/) è riservata al proprietario e agli ospiti autorizzati. Contiene anche stili candidati e sperimentali: la presenza in gallery non implica l'inclusione nella release.
 - [`gallery/catalogo-v1/`](gallery/catalogo-v1/README.md) contiene i sorgenti riproducibili del catalogo pubblico. [Stato della gallery di sviluppo](gallery/GALLERY-STATUS.md): versione pubblicata, candidati e differenze con la build locale.

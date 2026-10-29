@@ -1,0 +1,57 @@
+"Design Style":
+  "Name": "Eco Print"
+  "Status": "Studio tematico da valutare; nessuna promozione automatica a V1 o Candidates"
+  "Concept": "Stampa a rilievo e linoleografia reinterpretate come manifesto ecologico. Un soggetto pertinente e la frase condividono pieni, vuoti e ritmo di taglio."
+  "Canvas":
+    "Ratio": "4:5"
+    "Output": "Composizione raster completa, testo incluso"
+    "Adaptation": "Ricomporre per il formato richiesto, conservando testo e proporzioni dei glifi."
+  "Mood":
+    - "Editoriale"
+    - "Tematico"
+    - "Sperimentale"
+  "Color Palette":
+    "Fixed Colors": false
+    "Policy": "Scegliere una palette armonica per fondo, testo e immagine in funzione del quote e delle preferenze. Nero e verde non sono obbligatori. Mantenere contrasto locale e ruoli chiari."
+  "Typography":
+    "Quote": "Display serif robusta con terminali e contorni dal segno inciso. Glifi chiari, spaziatura naturale e gerarchie di lettura forti."
+    "Spacing": "Kerning, wordspace e proporzioni naturali; risolvere capienza con a capo, composizione e scala, non tracking arbitrario."
+    "Attribution": "Facoltativa, esatta, più piccola e leggera, allineata a destra su un asse chiaro. Se assente, recuperare lo spazio."
+    "Signature": "Solo se richiesta; distinta dall’autore, mai ricavata dal profilo personale."
+  "Imagery":
+    "Language": "Scene, organismi, oggetti o relazioni ambientali scelti dal senso del quote; niente pianeta, foglia o simbolo ecologico obbligatorio."
+    "Selection": "Il soggetto deriva dal significato della frase; gli esempi non sono soggetti fissi."
+  "Layout":
+    "Relation": "Radici, rive o intervalli del paesaggio danno forma agli spazi delle parole. Figura e testo hanno entrambi presenza, senza pannelli separati imposti."
+    "Variation": "Scegliere struttura, scala e densità dalla frase; variare la composizione oltre alla palette."
+  "Effects": "Pochi inchiostri piatti, pieni marcati, vuoti scavati e assorbimento selettivo sulla carta. La superficie simula una stampa fisica."
+  "Exclusions": "Nessun dato, etichetta o mappa reale inventata. Le scene non sono schemi biologici validati; niente texture che cancelli le lettere."
+  "Content Contract":
+    "quote": "Testo completo una volta, con parole, cassa, accenti e punteggiatura conservati."
+    "other_text": "Nessun autore, firma, dato, logo o testo di riempimento inventato."
+  "Production":
+    "Method": "ImageGen integrato per ogni composizione completa, testo incluso. Nessuna scritta impaginata sopra un solo fondo generato."
+    "Reference Inputs": "Le reference e i target delle edit storiche non sono requisiti permanenti. Le proprietà da trasferire vanno dichiarate quando si usano immagini."
+    "Profile Provenance": "Codifica di studio ricavata dai brief, dalle revisioni e dalle decisioni dell’utente; i prompt effettivi degli esempi sono archiviati separatamente."
+    "Validation": "Due immagini native 1122×1402, quasi 4:5, con testi diversi, rilette visivamente. Font esatto, contrasto raster, attribuzioni, altre lunghezze e altri formati non certificati."
+  "Study Note": "Prima coppia di prove Eco Print, non ancora approvata come stile definitivo. Le precedenti Earth Systems restano archiviate."
+"Composition Library":
+  "Style Name": "Eco Print"
+  "Selection":
+    "Basis": "Scegliere dal senso della frase e dall’ingombro del testo."
+    "Variation": "Repertorio aperto di relazioni, non template a coordinate fisse."
+  "Families":
+    -
+      "id": "visible-and-hidden"
+      "Name": "Visibile e nascosto"
+      "Use When": "Quando la relazione sostiene il senso e la leggibilità della frase."
+      "Structure": "Una scena mette in relazione superficie e struttura nascosta, aprendo il campo della frase."
+      "Text Adaptation": "A capo per gruppi di senso, proporzioni e spazi naturali, attribuzione eventuale su asse destro."
+      "Format Adaptation": "Ricomporre nel rapporto richiesto; non ritagliare o deformare il testo."
+    -
+      "id": "landscape-as-reading-path"
+      "Name": "Paesaggio e percorso"
+      "Use When": "Quando la relazione sostiene il senso e la leggibilità della frase."
+      "Structure": "Un andamento del paesaggio collega due gruppi di frase senza ambiguarne l’ordine."
+      "Text Adaptation": "A capo per gruppi di senso, proporzioni e spazi naturali, attribuzione eventuale su asse destro."
+      "Format Adaptation": "Ricomporre nel rapporto richiesto; non ritagliare o deformare il testo."

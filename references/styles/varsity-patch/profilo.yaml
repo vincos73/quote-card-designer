@@ -1,0 +1,178 @@
+Design Style:
+  Name: Varsity Patch
+  Status: V1 candidate richiesta dall’utente il 28 ottobre 2026
+  Concept: 'La frase diventa un manufatto tessile fotografato da vicino: ricamo satin a punti direzionali
+    su tessuto oppure patch da college in feltro e chenille. Lettere, bordi e gerarchie sono costruiti
+    da filo, non da un font con una texture sovrapposta. La creatività nasce dalla sagoma tipografica
+    e dal rapporto fra registri, conservando un oggetto materialmente convincente.
+
+    '
+  Reference Basis:
+    Transfer: 'La prima immagine informa il ricamo satin piatto con punti direzionali, una sagoma compatta,
+      gruppi cromatici e ombra tessile scura. La seconda informa il feltro, il pelo chenille, i bordi
+      ricamati concentrici e il contrasto fra slab da college e script sportivo.
+
+      '
+    Independence: 'Non copiare frasi, testi religiosi, citazioni, loghi, nomi o impaginati esatti. Le
+      due reference sono analisi visiva, non input permanenti.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: Fotografia completa di una composizione tessile, senza cornice
+    Adaptation: Ricomporre sagoma, parole e campo di tessuto per il formato richiesto.
+  Mood:
+  - Tattile
+  - Energico
+  - Artigianale
+  - Sportivo
+  - Creativo
+  - Fotografico
+  Color Palette:
+    Fixed Colors: false
+    Strategy: 'Una base tessile e pochi fili distinti per i gruppi di senso. Navy, avorio e ocra sono
+      una direzione varsity; verde salvia, ruggine e blu possono costruire un ricamo più libero. Scegliere
+      contrasto locale e colori coerenti con la frase, senza fissare le reference come palette.
+
+      '
+    Starting Colors:
+      Felt: '#142233'
+      Ivory: '#F1E8D1'
+      Gold: '#D8A32D'
+      Sage: '#6D9486'
+      Rust: '#C75532'
+    Roles: 'Il fondo sostiene la sagoma; i fili fanno leggere le parole; una base o un bordo scuro distingue
+      lettere contigue. Il lucido resta quello sottile delle fibre, non plastica o metallo.
+
+      '
+  Typography:
+    Quote: 'Frase dominante, con uno o due registri coerenti: slab serif college, sans robusta o script
+      sportivo leggibile. Gerarchie di scala e peso seguono il significato. Un corsivo non deve imporre
+      un andamento identico a ogni frase. Si possono integrare pennellate terminali e sottolineati ricamati
+      quando appartengono al disegno delle lettere.
+
+      '
+    Integrity: 'Parole, cassa, accenti e punteggiatura esatti, una volta sola. Kerning ottico e spazi
+      fra parole naturali; non allargare il tracking per pareggiare righe né comprimere un gruppo per
+      riempire la sagoma.
+
+      '
+    Stitchability: 'Contatori, punti e accenti restano leggibili nello spessore del filo. Differenziare
+      le parole anche quando il bordo le unisce. Le lettere non si fondono in nastri illeggibili e non
+      diventano blocchi estrusi.
+
+      '
+    Attribution: 'Solo fornita o verificata, più piccola e quieta ma leggibile, allineata a destra. Se
+      assente recuperare lo spazio. Firma personale solo su richiesta esplicita, distinta dall''autore.
+
+      '
+  Layout:
+    Principle: 'Un unico manufatto domina la card. La frase disegna la propria sagoma tramite gruppi,
+      variazioni di scala e margini tessili. Fondo e ricamo condividono prospettiva e illuminazione. Non
+      trasformare ogni risultato in un logo sportivo con simboli o nomi inventati.
+
+      '
+    Modes: 'Scegliere ricamo satin sul supporto oppure patch chenille separata come lavorazione principale.
+      Evitare un collage casuale di tecniche che impedisce di capire come è costruito l''oggetto.
+
+      '
+    Breathing Space: 'Il tessuto visibile intorno chiarisce scala e materiale. Il testo resta grande anche
+      se il contorno è espressivo. Per frasi lunghe semplificare bordi, code e ornamenti prima di ridurre
+      il corpo.
+
+      '
+  Elements:
+    Satin Embroidery: 'Fili sottili distinti, punti paralleli o a ventaglio che seguono curve, angoli
+      e aste del glifo. La direzione cambia in punti strutturali, con unioni e sovrapposizioni credibili.
+      Tensione, piccole irregolarità e minimi rilievi costruiscono realismo; niente filtro diagonale uniforme.
+
+      '
+    Chenille: 'Anse corte fitte e piccole estremità di filato danno un pelo morbido irregolare sopra la
+      base. Distinguere l''altezza della chenille dalla superficie più bassa del feltro e dai cordoncini
+      di bordo.
+
+      '
+    Felt: 'Fondo opaco fibroso a pelo corto, con bordo tagliato sottile e spessore plausibile. Non cuoio,
+      gomma o velluto lucido.
+
+      '
+    Border: 'Merrow o punto satin che avvolge il margine della patch, con cordoncino e passaggi visibili,
+      angoli e raggi compatibili col filo. Possono esserci uno o due bordi di colore diverso, subordinati
+      alla lettura.
+
+      '
+    Support: 'Twill, cotone, lana o superficie neutra scelta secondo la lavorazione. La trama può avere
+      una direzione visibile e leggere ondulazioni, senza pieghe che deformino parole o creino una scena
+      di abbigliamento superflua.
+
+      '
+    Optional Marks: 'Un breve sottolineato, una cucitura o un piccolo simbolo originale pertinente può
+      completare la sagoma. Non aggiungere automaticamente stelle, scudi, numeri di squadra, sport o stemmi.
+
+      '
+  Effects:
+    Light: 'Luce laterale morbida, microombre fra punti, piccole alte luci sulle fibre e ombra di contatto
+      sotto i bordi rialzati. Un solo sistema coerente di luce per supporto e manufatto.
+
+      '
+    Photography: 'Fotografia macro o ravvicinata con sufficiente profondità di campo per leggere tutta
+      la frase, tessuto e filo realistici a scala coerente. Nessun bokeh che nasconda parole, rumore uniforme
+      o finta usura.
+
+      '
+  Content Contract:
+    quote: Testo completo esatto una volta sola, incluse cassa e punteggiatura.
+    author: Facoltativo, fornito o verificato, subordinato e allineato a destra.
+    other_text: Nessun marchio, credito, squadra, firma o citazione inventati.
+  Rules:
+  - Costruire tutto il lettering con filo e supporti tessili riconoscibili.
+  - Mantenere leggibili differenze fra satin, chenille, feltro e bordo.
+  - Collegare direzione dei punti, altezza del pelo e ombre alla costruzione.
+  - Conservare la frase come prima lettura e la spaziatura naturale.
+  - Variare sagoma e gerarchie secondo il testo senza copiare le reference.
+  Exclusions:
+  - Font piatto con texture tessuto o ombra applicata uniformemente
+  - Plastica, gomma, metallo, legno, lettering gonfiabile o blocchi estrusi
+  - Fili enormi fuori scala, bordi impossibili o trama identica su tutte le parti
+  - Loghi sportivi, citazioni religiose o testi copiati dagli allegati
+  - Microtesti inventati, numeri e stemmi obbligatori
+  Production:
+    Preferred Mode: generative
+    Method: ImageGen integrato per tutta la card, incluso lettering e fotografia tessile.
+    Reference Inputs: Analisi visiva senza immagini passate al generatore; nessuna dipendenza permanente.
+    Validation Status: Due prove controllate a dimensione nativa e 320 × 400 pixel. Le parole sono presenti;
+      la s iniziale di squadra resta graficamente ambigua dopo una correzione mirata, con confidenza sulla
+      cassa inferiore all’80%. Nessuna certificazione di fattibilità artigianale.
+Composition Library:
+  Style Name: Varsity Patch
+  Selection:
+    Basis: Scegliere la lavorazione e la sagoma in funzione dei gruppi di senso.
+    Variation: Cambiare il rapporto fra frase, contorno, supporto e gerarchie; non solo i colori.
+  Families:
+  - id: satin-sculpted-phrase
+    Name: Frase scolpita dal ricamo
+    Use When: Gruppi di parole possono formare una silhouette compatta e dinamica.
+    Structure: 'Lettere satin su tessuto, gruppi sfalsati e una base scura ricamata unificano la sagoma.
+      Il supporto resta visibile come un campo continuo.
+
+      '
+    Text Adaptation: Un gruppo di senso domina; raccordi e parole brevi restano leggibili.
+    Format Adaptation: Ricomporre sagoma e intervalli senza deformare i caratteri.
+  - id: chenille-emblem
+    Name: Emblema chenille
+    Use When: Una frase breve si presta al dialogo fra slab college e script sportivo.
+    Structure: 'Una patch in feltro sostiene lettere in chenille e una sagoma rifinita da bordi ricamati.
+      La frase determina il contorno, senza scudo obbligatorio.
+
+      '
+    Text Adaptation: Uno script può dare enfasi a un gruppo, con raccordi e contatori aperti.
+    Format Adaptation: Ridistribuire registri e contorno nel rapporto conservando margine tessile.
+  - id: stitched-ribbon
+    Name: Parole e nastro ricamato
+    Use When: Due gruppi della frase richiedono una pausa o una direzione comune.
+    Structure: 'Due masse di lettering sono collegate da un sottolineato o da una fascia tessile ricamata
+      che nasce dal loro disegno, senza copie del testo.
+
+      '
+    Text Adaptation: Il nastro non nasconde parole e non introduce testo aggiuntivo.
+    Format Adaptation: Variare direzione e ampiezza della fascia per il formato richiesto.

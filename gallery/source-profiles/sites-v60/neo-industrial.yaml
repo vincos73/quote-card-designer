@@ -1,0 +1,173 @@
+Design Style:
+  Name: Neo Industrial Editorial
+  Status: Incluso nel catalogo V1 il 26 ottobre 2026
+  Concept: 'Industrial editorial typography supported by a distributed network of small engineered graphics.
+    Micro schematics, routing nodes, calibration marks, brackets and compact signal modules appear at
+    several points of the page. Shared angles, line weights and spacing make them one system around the
+    quotation, with strong contrast between large type and fine detail.
+
+    '
+  Canvas:
+    Ratio: '4:5'
+    Output: A single flat editorial quote card, full bleed
+    Adaptation: Recompose the text and the distributed graphic system for each ratio.
+  Mood:
+  - Industrial
+  - Precise
+  - Editorial
+  - Assertive
+  - Systematic
+  - Tactile
+  Color Palette:
+    Preference: Neutral greys with signal orange and near-black ink
+    Background:
+      Primary: '#B6B8B7'
+      Light: '#E5E6E2'
+    Ink:
+      Primary: '#151817'
+      Inverse: '#F1F0E9'
+    Accent:
+      Signal Orange: '#FF5C1A'
+    Roles: 'Grey carries the main field. Near black carries the quotation and construction layer. Orange
+      identifies a meaningful clause, transition, axis or selected module. It may form a band or a small
+      field, but does not become obligatory decoration behind every line. Light and dark versions are
+      valid; explicit palette requests replace these defaults.
+
+      '
+  Typography:
+    Primary:
+      Style: Bold proportional industrial grotesk, natural glyph proportions
+      Role: Complete quotation and its strongest semantic group
+    Secondary:
+      Style: Technical monospace or restrained squared sans serif
+      Role: Supplied supporting content, attribution or a deliberate quotation register
+    Case: Preserve the supplied capitalization and punctuation.
+    Hierarchy: 'Large type is the immediate first read. Vary scale by semantic function, not to fill every
+      line to the same width. Secondary verbal content must remain readable; use nonverbal graphic marks
+      for the smallest details.
+
+      '
+    Attribution: 'If supplied, preserve it exactly in a smaller, quieter register aligned to a clear right
+      edge. If absent, omit its module and recover the space.
+
+      '
+  Layout:
+    Invariants:
+    - A dominant and complete quotation with a clear reading sequence
+    - Several spatially separated clusters of industrial micrographics
+    - At least one graphic cluster connected to an internal interval or axis
+    - A shared grid, terminal vocabulary and controlled line-weight hierarchy
+    - Breathing space around letters despite the distributed detail
+    Integration: 'Small graphic groups locate typographic edges, bridge intervals, point toward a semantic
+      transition or relate two modules. Place them at different depths in the page rather than exclusively
+      in a footer or in a symmetrical border. Leave some areas intentionally quiet.
+
+      '
+    Scale: 'Micrographics remain small relative to the quotation. A medium diagram can occasionally join
+      the system, but a giant central object must not replace the distributed visual signature.
+
+      '
+    Preferred Density: 'Essential and restrained. Prefer a few small, widely separated groups, often around
+      three, with ample empty field between them. Simplify each local schematic before adding another
+      cluster. Richer detail is an explicit variation rather than the default.
+
+      '
+    Grid: 'Use selective fine rules, open frames, cropped axes and modular intervals. The grid may remain
+      mostly implicit; avoid a uniform visible grid over every surface and avoid arbitrary symbol scatter.
+
+      '
+  Elements:
+    Micrographics:
+    - Small node-and-line routing diagrams with precise terminals
+    - Compact orthographic outlines, profile cuts and construction studies
+    - Open corner brackets, cropped frames and alignment crosses
+    - Unnumbered calibration ticks and measurement-like extension lines
+    - Short abstract bar groups and dot matrices carrying visual rhythm
+    - Small solid tabs, circles and geometric signal modules
+    Relationships: 'Select a small vocabulary and repeat its angles, radii, terminal shapes, gaps and
+      stroke weights across the page. Each cluster should have a local purpose and a visible relationship
+      to the typography or grid.
+
+      '
+    Subject Policy: 'Choose schematic subjects from the phrase. A robot, turbine, component or factory
+      is never obligatory. The drawings are graphic studies, not claims of engineering accuracy or functioning
+      hardware.
+
+      '
+  Surface:
+    Medium: Matte printed graphics on neutral grey or light technical paper
+    Texture: Restrained fine grain or dry ink, with crisp type and linework
+    Depth: Flat layering, outline-versus-solid contrast and selective overlap
+    Typography: Flat printed letters, without bevels, extrusion or cast shadows
+  Content Contract:
+    Quotation: Verbatim and complete, once, including punctuation
+    Microtext: Only supplied or verified words and data; no filler microtext
+    Graphic Data: 'Abstract nonverbal marks are allowed. Do not invent serials, measurements, coordinates,
+      scores, dates, system status or certification claims.
+
+      '
+    Identity: Do not transfer names, logos, watermark text or organizational marks from references.
+  Rules:
+  - Keep industrial micrographics distributed across several points of each card.
+  - Make the quotation the dominant first reading level.
+  - Preserve consistency of terminals, angles and line weights across small clusters.
+  - Use orange deliberately within a preferably grey visual system.
+  - Choose line breaks and scale for meaning before filling modules.
+  - Avoid fake data, pseudo-code, barcodes, safety marks and invented labels.
+  - Avoid decorative gears, hazard tape, distressed concrete and a mandatory machine emblem.
+  - Avoid a uniform sticker sheet or a headline with all detail confined to the border.
+  - Recompose the graphic network for new text, format and palette.
+  Reference Policy: 'Supplied images are experimental visual calibration. Transfer micrographic vocabulary,
+    hierarchy and spatial relationships, not their composition, identities or wording. Permanent image
+    dependencies are not established.
+
+    '
+  Validation:
+    Tested: One phrase, grey-orange palette, distributed scaffold at two detail densities
+    Preferred Example: Essential micrographics with three small separated groups
+    Limits: Other phrases, palettes and composition families are not yet tested.
+Composition Library:
+  Style Name: Neo Industrial Editorial
+  Selection:
+    Basis: Choose a semantic relationship for the quote, then distribute a coherent micrographic system
+      around it.
+    Variation: Change the main text structure, cluster positions, density and orange role; do not copy
+      a fixed template.
+  Families:
+  - id: distributed-scaffold
+    Name: Struttura distribuita
+    Use When: A strong short or medium phrase can carry the page through typography.
+    Structure: 'Large asymmetrical text occupies the main field. Several small related graphic clusters
+      activate distant margins and internal intervals, connected through shared axes and partial rules.
+      One orange transition links a clause to the micrographic system.
+
+      '
+    Text Adaptation: 'Preserve semantic groups and allow unequal line widths. Expand quiet reading space
+      for long text before reducing the type.
+
+      '
+    Format Adaptation: Recompose the scaffold and cluster distribution to the useful axes of the requested
+      ratio.
+  - id: signal-band
+    Name: Fascia di segnale
+    Use When: The phrase contains an action, reversal or decisive clause.
+    Structure: 'A selective orange field anchors the decisive clause inside a broader grey composition.
+      Fine rules and small micrographics occupy both the surrounding grey modules and an internal interval,
+      avoiding a simple banner framed by decoration.
+
+      '
+    Text Adaptation: Keep the sentence continuous in reading order and size the coloured field around
+      the semantic group.
+    Format Adaptation: Change the band orientation, proportions and module relationships for each format.
+  - id: technical-margins
+    Name: Margini attivi e giunto interno
+    Use When: A longer quotation needs a relatively quiet, continuous text area.
+    Structure: 'A calm quotation block is supported by unequal technical margins with small schematics
+      and calibration marks. One internal alignment, cut or typographic interval brings the same graphic
+      logic into the page.
+
+      '
+    Text Adaptation: Increase the text area and simplify the marks while retaining several distributed
+      clusters.
+    Format Adaptation: Reallocate the active margins and internal joint instead of shrinking an existing
+      layout.

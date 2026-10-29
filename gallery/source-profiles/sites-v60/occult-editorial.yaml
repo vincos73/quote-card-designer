@@ -1,0 +1,334 @@
+Design Style:
+  Name: Occult Editorial
+  Status: Incluso nel catalogo V1 il 26 ottobre 2026; exclusively neutral black and white
+  Concept: 'A quotation belongs to a raw occult woodcut on a handled black leaf. Neutral white incised
+    drawings, coarse ornamental cuts and old-book lettering emerge from broad matte darkness. Broken ink,
+    scuffed fibres, dust and material wear connect the words to the strange allegorical print. The complete
+    sentence remains large and readable within that physical page.
+
+    '
+  Reference Basis:
+    Transfer: 'Extract the density of engraved diagrams, nested circular systems, allegorical figures,
+      symbolic calculations, marked margins and aged paper from the supplied materials. Use this as a
+      contemporary direction for a quote card, with rich material and arcane complexity.
+
+      '
+    Sources: ricerca.md
+    Revision Basis: 'The user rejected the clean initial plates as too sweetened and explicitly asked
+      for dusty books, crumpled sheets, obscure formulas and arcane drawings. The user then approved the
+      black-ground route with clear rough engraved marks and requested V1 candidacy. Retain the material
+      wear and arcane character in this reversed print; do not return to polished occult branding or elegant
+      clean plates.
+
+      '
+    Monochrome Decision: 'The user subsequently specified black and white only. This applies to the complete
+      card, including lettering, drawings, paper, wear, diagrams and symbols. Remove warm or cool tints
+      and coloured alternatives.
+
+      '
+    Independence: 'Existing captions, titles, identities and complete historical plates are not copy to
+      reuse. The card is an invented contemporary page, not an authenticated manuscript or a claim that
+      a formula has efficacy.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: One complete flat quote card; a worn page viewed frontally and filling the image
+    Adaptation: 'Recompose the wording, drawings, creases and marginal systems for each ratio. Keep the
+      physical page as the image itself rather than presenting a three-dimensional book on a table or
+      a framed mockup.
+
+      '
+  Mood:
+  - Arcane
+  - Dusty
+  - Worn
+  - Dense
+  - Engraved
+  - Mysterious
+  - Tactile
+  - Literary
+  Color Palette:
+    Fixed Colors: true
+    Strategy: 'Use exclusively neutral black and white. White engraved ink and lettering emerge from matte
+      black paper. Intermediate neutral grey values may express dry ink, abrasion, dust, fibres and antialiasing;
+      they must not introduce warm or cool colour casts. Exclude bone, ivory, cream, sepia, brown, gold
+      and any coloured pigment or paper.
+
+      '
+    Default Direction:
+      Black Leaf:
+        Paper: '#000000'
+        Ink: '#FFFFFF'
+    Roles: 'Strong light lettering and engraved forms share the black field. Dark negative shapes describe
+      the print as actively as the light cuts. Wear expresses local material change rather than an even
+      digital wash. Every mark and material trace belongs to the same neutral monochrome ink system; do
+      not introduce an accent colour.
+
+      '
+    Overrides: 'This profile has no coloured palette alternatives. Vary density, scale, subjects, composition
+      and material wear within neutral black, white and their achromatic tonal values.
+
+      '
+  Typography:
+    Main Reading:
+      Direction: 'Stout Western old-book serif capitals or a substantial literary hand, with human carved
+        rhythm, open counters and worn edges. The words belong to the same reverse print as the drawings.
+        Avoid thin luxury-fashion serif, a sleek branding headline or artificially squeezed lines. Keep
+        natural glyphs and word spaces.
+
+        '
+      Material: 'Uneven impressions, small broken edges, abrasion and slight registration or baseline
+        drift can show old ink and use. Preserve identifying strokes, accents and punctuation. The main
+        sentence must not sit on a smooth new cartouche over aged material.
+
+        '
+      Hierarchy: 'Give the complete quotation a clear reading order and substantial scale. Symbolic annotations
+        can be smaller and denser around and between its groups. Connecting words remain part of the readable
+        sentence, not footnote-sized fragments.
+
+        '
+      Integrity: 'Preserve the literal wording, supplied case, accents and punctuation. Normally show
+        the sentence once. Symbols and drawing lines do not replace required letters.
+
+        '
+    Attribution: 'Use only an exact supplied or verified name, smaller and visually quieter than the quotation
+      but readable, right-aligned to a clear right edge. Omit reserved name space when no name is supplied.
+
+      '
+    Font Claims: 'Generated old-letter appearance does not certify a real typeface, editable text or historical
+      typography. An exact named font needs an actual verified asset and an appropriate production method.
+
+      '
+  Layout:
+    Shared Page: 'Compose words, drawings, notational groups and material traces as parts of one used
+      black printed leaf. A coarse border can contain both quotation and allegorical form, with roots
+      or cut lines joining their spaces. Circles and subsidiary signs may enter intervals. Keep the phrase
+      and print related by scale, contour and ink without turning the page into a polished headline and
+      an elegant emblem.
+
+      '
+    Reading Through Density: 'Keep the quotation large and recoverable through the layered field. Open
+      local spacing and adjust ink density near letter contours rather than clearing a pristine rectangular
+      panel behind the words. Keep the actual phrase ordered even when nearby diagrams accumulate.
+
+      '
+    Density: 'Concentrate coarse cuts and scratch hatching in selected drawings and border passages, with
+      arcane signs or notation in the side intervals. Keep genuine black pauses around the words and between
+      forms. A densely worked diagram route is possible, but an all-over field of tiny formulas is not
+      compulsory in every card.
+
+      '
+    Material Structure: 'Place rubbing, frayed fibres, dust, scuffed patches and local folds where a repeatedly
+      handled printed leaf could acquire them. Let these traces break or fade the ink. Express age through
+      neutral abrasion, dust and fibre density, without yellowing or sepia. Wear is spatial and physical,
+      not uniform noise laid over a clean design.
+
+      '
+    Balance: 'A large circular system, a spread of working notes or accumulated marginal drawings can
+      organise the page. A single central emblem, symmetry or an empty reading field is not a universal
+      requirement.
+
+      '
+    Capacity: 'For longer text redistribute diagrams and notational groups, open useful intervals and
+      reduce collisions before shrinking the sentence. Recompose for format instead of compressing individual
+      words.
+
+      '
+  Elements:
+    Arcane Drawings: 'Ringed serpents, anthropomorphic celestial forms, an eye, hands, lenses, vessels,
+      alchemical instruments, botanical specimens, creatures or allegorical figures are an open repertoire.
+      Select relationships from the quotation rather than requiring every motif.
+
+      '
+    Ornamental Cuts: 'Tangled roots, thorn-like vines, interlacing bands, rough medallions and fractured
+      corner blocks can form a worked border. Their white cuts show unequal pressure and handmade variation;
+      avoid a pristine botanical frame or mechanically mirrored clipart.
+
+      '
+    Diagram Systems: 'Layer concentric circles, radial constructions, intersecting triangles, axes, small
+      subsidiary wheels and scratched corrections. A diagram may look accumulated or revised rather than
+      perfectly constructed once. Keep its intersections distinct from required text.
+
+      '
+    Symbolic Notation:
+      Permission: 'Symbolic formulas, calculations and marginal sign sequences are part of the requested
+        visual language. Use verified alchemical and planetary forms as the repertoire, combined with
+        geometric operators, brackets or connecting strokes when useful.
+
+        '
+      Repertoire Examples: 'Planetary metal signs, the four elemental triangles and the mercury-sulfur-salt
+        group are documented starting possibilities, not mandatory content. Select a coherent subset for
+        each card.
+
+        '
+      Status: 'A newly composed sequence is a contemporary graphic formula. Do not describe it as a historically
+        authenticated recipe or an effective operation. Specific historical claims require context.
+
+        '
+      Text Boundary: 'Do not fabricate Latin, Hebrew, other alphabets or miniature sentences to fill the
+        page. The main quotation remains the only newly authored prose unless the user supplies additional
+        wording.
+
+        '
+    Marginal Traces: 'Smudged symbolic jottings, trial circles, erased constructions, fingerprints, rubbed
+      patches and uneven border remnants may record the imagined use of the sheet. Relate them to the
+      material structure.
+
+      '
+  Effects:
+    Paper: 'Matte neutral black stock with scuffed fibres, rubbed patches, frayed edges, dust deposits
+      and handling traces. Physical folds may break the ink. Keep every trace achromatic; do not use yellowed,
+      brown or coloured paper. Combine traces rather than applying the same grain across every surface.
+
+      '
+    Ink: 'Worn light impressions, coarse carved contour, uneven crosshatching, dry scratch cuts, chips
+      and areas of fading describe form against black negative space. Main text shares the pressure and
+      abrasion while retaining complete readable letters, accents and punctuation.
+
+      '
+    Physical View: 'The whole flat card is the page viewed frontally. Crease shading and rough fibres
+      belong to that page, but do not stage it as a glossy three-dimensional book, desk scene or product
+      photograph.
+
+      '
+    Finish: 'Keep materials dry and tactile. Avoid metallic jewellery, fantasy glow, smooth airbrush gradients
+      and technologically precise HUD panels.
+
+      '
+  Content Contract:
+    quote: Complete literal quotation as the principal readable prose, normally once
+    author: Optional exact supplied or verified name, subordinate and right-aligned
+    personal_signature: Only when explicitly requested, distinct from the author
+    symbolic_notation: 'Permitted as alchemical-style formulas and sign sequences from a verified repertoire.
+      Newly composed sequences are graphic inventions, not claims of authentic doctrine, science or efficacy.
+
+      '
+    additional_prose: Do not invent headings, captions, pseudo-language or tiny filler sentences.
+  Rules:
+  - Make the full quotation strong, readable and part of the same worn page.
+  - Use only neutral black and white, with achromatic intermediate values for material and worn ink.
+  - Give the surface physical use through scuffed fibres, rubbing, dust and broken old ink.
+  - Build layered diagrams, arcane drawings and symbolic notation with purposeful density.
+  - Preserve reading order, letter identity, accents, punctuation and word spaces.
+  - Keep formula-like sign sequences distinct from invented prose or pseudoalphabets.
+  - Adapt repertoire, arrangement, ink and paper to the quotation and user preferences.
+  - Distinguish contemporary graphic formulas from historically authenticated operations.
+  - Preserve reference boundaries while retaining the roughness and complexity of the materials.
+  - Avoid a polished botanical emblem page or a smooth cartouche pasted over uniform grain.
+  - Avoid HUD graphics, neon, glossy 3D objects and fantasy jewellery.
+  Production:
+    Preferred Mode: generative
+    ImageGen Role: 'Generate the whole quote card: wording, arcane drawings, diagrams, notation and worked
+      material must be composed together. A clean typeset panel over a generated antique texture is insufficient.
+
+      '
+    Reference Inputs: 'Written analysis of the supplied and researched material informs the profile. Studies
+      5 and 6 form a matched exploratory pair: the same wording, palette, composition family and base
+      specification, without and with the supplied reverse-engraving reference respectively. The reference
+      aided the cut-and-border character in study 6. Study 7 tests another sentence and subject without
+      image inputs. The user approved the visual treatment; no compulsory future reference-image dependency
+      is adopted from this comparison.
+
+      '
+    Validation: 'Studies 1 and 2 were rejected as too clean and sweetened. Studies 3 and 4 explored worn
+      pale grimoire material. The user approved the subsequent black-ground rough-engraving direction
+      and explicitly requested V1 candidacy. Study 6 is the principal calibration; study 7 supplies a
+      different sentence, subject and reading arrangement. Both are 1122 by 1402 pixel RGB cards and were
+      checked at native size and in 320 by 400 pixel previews for wording, punctuation, reading order
+      and rough printed material. The comparison of studies 5 and 6 is exploratory, with one generation
+      per condition, not evidence of universal improvement from image inputs. Symbol groups are contemporary
+      graphic compositions from a documented repertoire; exact paleography or every generated sign is
+      not certified. Long text, supplied attribution, other formats, exact named fonts and the third current
+      composition family remain untested. V1 candidacy does not mark this style as selected for the V1
+      release.
+
+      '
+    Monochrome Revision: 'The active gallery examples are monochrome edits of studies 6 and 7, preserving
+      their sentences, subjects and reading structures. Original warm-ink versions remain development
+      history, outside the active palette specification. See the corresponding bw example notes for the
+      actual editing and validation evidence.
+
+      '
+Composition Library:
+  Style Name: Occult Editorial
+  Selection:
+    Basis: 'Plan the complete readable sentence and a strange engraved scene within one handled print.
+      Use only neutral black, white and their achromatic material tones. Begin with matte black, rough
+      white cuts, old-book lettering and worn material. Choose the reading arrangement from the phrase,
+      subject and desired tension.
+
+      '
+    Variation: 'Vary the subject, contour, reading field, frame reach and distribution of hatching or
+      notation. Do not repeat a cloaked figure as a required mascot. Vary arrangement within the fixed
+      monochrome palette. Preserve an accepted arrangement during a targeted edit.
+
+      '
+  Families:
+  - id: framed-allegorical-plate
+    Name: Allegorical engraving and a contained reading field
+    Use When: 'A concise or medium quotation can share an encompassing print with a substantial figurative,
+      animal or material allegory.
+
+      '
+    Structure: 'A coarse worn border connects a detailed engraved scene with a broad reading field below
+      or alongside it. Roots, gestures, cut contours and related black pauses make the fields belong to
+      the same print. A few selected arcane signs may occupy side intervals. Keep the frame hand-cut,
+      fractured and materially connected.
+
+      '
+    Text Adaptation: 'Group the full sentence by meaning with substantial old-book lettering and clear
+      word spaces. The text shares ink wear but is not buried in hatching. An optional supplied or verified
+      name remains smaller and right-aligned.
+
+      '
+    Format Adaptation: 'Portrait formats can allow the allegory to rise above or beside the phrase. Wider
+      formats may spread the relationship laterally. Recompose frame, subject and wording without cropping
+      text or compressing individual words.
+
+      '
+  - id: upper-quote-engraved-field
+    Name: Strong upper quotation and a rising engraved counterfield
+    Use When: 'A short or medium quotation can establish a decisive reading field while an engraved scene
+      provides a different visual weight.
+
+      '
+    Structure: 'Let the quotation anchor an upper or upper-side field inside a worked boundary. A large
+      engraved form rises from the lower or opposite field; its contour, a selected broken circle or root
+      can answer the words. Keep broad black intervals and detailed carved passages in a coherent shared
+      print, with optional side signs.
+
+      '
+    Text Adaptation: 'Preserve a clear reading order, whole word groups and a final punctuation mark distinct
+      from surrounding signs. Adjust the engraved contour before shrinking a connecting word or squeezing
+      a line. Do not isolate fresh type on a smooth cartouche.
+
+      '
+    Format Adaptation: 'Change the balance of reading and engraved masses for the ratio. A taller card
+      may lengthen the visual rise; a wider card may open the relation sideways. Keep required words and
+      the main subject readable, with frame reach adapted to the new field.
+
+      '
+  - id: layered-grimoire-page
+    Name: Accumulated diagrams and marginal working traces
+    Use When: 'A quotation benefits from the feeling of an arcane working sheet with layered constructions,
+      symbolic calculations and revised marks.
+
+      '
+    Structure: 'Distribute intersecting circles, selected engraved drawings, formula-like sign sequences
+      and marginal additions around and between substantial word groups. Material wear and differently
+      printed marks connect the systems. Rough neutral white ink on matte black carries the worked and
+      handled character. All wear, diagrams and formula-like signs remain achromatic, without sepia or
+      coloured accent pigments.
+
+      '
+    Text Adaptation: 'Keep the complete sentence recoverable through the density. Separate prose and notation
+      by scale and rhythm without creating a pristine panel. Redistribute diagrams and ink density before
+      reducing text. A supplied name remains subordinate and right-aligned.
+
+      '
+    Format Adaptation: 'Replan the spread of diagrams and material traces for the ratio and wording. A
+      tall page can develop side marginalia; a wider page can open lateral systems. Preserve all required
+      words and natural glyph proportions while the physical print fills the image.
+
+      '

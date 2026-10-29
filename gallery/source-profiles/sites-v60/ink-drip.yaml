@@ -1,0 +1,135 @@
+Design Style:
+  Name: Ink Drip
+  Status: Included in distributed version 0.4.0; two studies visually checked
+  Concept: 'The quotation is written in wet ink whose selected strokes release downward rivulets. Lettering,
+    accumulated pigment and gravity form one continuous gesture. The words remain recognisable while unequal
+    runs activate the space beneath them.
+
+    '
+  Reference Basis:
+    Notes: reference.md
+    Transfer: 'Transfer brush pressure, wet-to-dry variation, local absorption and ink flowing from letter
+      strokes. Do not import source titles, names, credits, logos or dates. No reference image is a permanent
+      input.
+
+      '
+  Approved Direction:
+    Preferred Study: esempio.png
+    User Preference: 'Prefer the first study''s fluid, diluted ink, translucent deposits and absorption
+      into paper over the second study''s opaque ivory brushwork on black. Keep the second as a comparison,
+      not the default direction. Recompose each phrase; do not freeze the first study''s words or palette.
+
+      '
+    Realism Priority: 'Aim for maximum material realism, as if actual wet ink had been brushed onto absorbent
+      paper and photographed or scanned closely. Make pigment density, capillary feathering, pooling,
+      dry edges and the grain of the receiving surface consistent with each other. Each run must emerge
+      from a plausible wet reservoir, follow gravity and taper or terminate naturally. Vary opacity and
+      edge diffusion with local wetness; never paste identical drops or procedural texture onto otherwise
+      clean digital type. Keep paper detail subordinate and physically scaled. Realism concerns the visible
+      result, not a claim that the artwork was produced with physical ink.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: One flat typographic quote card
+    Adaptation: Recompose the word mass and destination of the ink for each ratio.
+  Mood:
+  - Fluid
+  - Gestural
+  - Tactile
+  - Expressive
+  - Spacious
+  Color Palette:
+    Fixed Colors: false
+    Roles:
+      Field: A quiet paper or flat colour ground
+      Ink: One dominant contrasting pigment shared by letters and runs
+      Absorption: Restrained diluted colour from that same pigment
+    Selection: 'Dark-on-light, dark ink on muted colour and pale opaque ink on a dark field are all valid.
+      Dilution and pooling explain local colour changes.
+
+      '
+  Typography:
+    Primary: Confident brush handwriting, loose script or hand-painted upright letters
+    Material: Broad pressure strokes, selected darker pools and occasional drier ends
+    Hierarchy: 'One coherent hand carries the phrase. Meaningful words may be larger, but retain natural
+      glyph proportions, open counters and word spaces.
+
+      '
+    Fidelity: Preserve supplied wording, case, accents and punctuation.
+    Attribution: 'Only a supplied or verified name, smaller and quieter, aligned right on a clear axis
+      outside drip paths. Omit its space when absent.
+
+      '
+  Layout:
+    Core: 'Compose words and the open field into which their ink flows together. Selected runs must visibly
+      continue from actual low points of strokes. Gravity gives them a coherent downward direction.
+
+      '
+    Rhythm: 'Vary origins, thickness and lengths; a few end in small rounded drops. Leave empty intervals.
+      Do not make every letter drip identically or add unrelated vertical lines under a typed phrase.
+
+      '
+    Reading Protection: 'Upper-line runs stop before lower words. Reserve long trails for the last line
+      or a dedicated empty interval. Do not erase letter cores, fill counters or turn punctuation into
+      an ambiguous blot.
+
+      '
+    Absorption: 'Local feathering or diluted trails are optional. Keep readable dark cores and avoid uniform
+      blur across the entire sentence.
+
+      '
+  Graphic Elements:
+    Core: Letter strokes, ink pools, gravity runs and occasional terminal drops
+    Restraint: No required illustration, photograph, border, symbol or metadata
+  Effects:
+    Surface: Matte paper or quiet flat colour
+    Ink: Translucent liquid pigment by default, selective pooling and dry-to-wet variation
+    Depth: Flat ink on a surface
+    Exclusions: No glossy slime, 3D melting type, neon, uniform drip font or random scratches
+  Content Contract:
+    quote: Exact complete quotation once
+    author: Only supplied or verified attribution, subordinate and right-aligned
+    supporting: No invented titles, labels, credits, dates or signatures
+  Rules:
+  - Connect prominent runs to actual letter strokes.
+  - Preserve reading order and distinguish words, accents and punctuation.
+  - Use gravity, unequal lengths and empty space to create movement.
+  - Keep letter bodies, trails and absorption within one plausible ink behaviour.
+  - Prefer the first study's aqueous material character and verify it at full size.
+  - Protect punctuation from trails that could change its identity.
+  Production:
+    Preferred Mode: generative
+    Validation Status: 'Two complete ImageGen studies use different phrases and structures. The first,
+      Lascia scorrere i pensieri., is the user''s preferred material direction and gallery preview. The
+      second, Non trattenere quello che senti., explores opaque ivory ink on black and a gap between groups.
+      Both were visually checked at native size and 320 pixels wide. The first period has a run; the second
+      keeps it clear. The realism priority was strengthened after these studies and needs verification
+      on subsequent generations. Neither study proves physical production or repeatability. See note.md
+      and note-2.md.
+
+      '
+Composition Library:
+  Style Name: Ink Drip
+  Selection:
+    Basis: Choose a readable word mass and an open destination for its liquid ink.
+    Variation: Change flow origin and spatial rhythm, not only the number of drops.
+  Families:
+  - id: descending-letter-field
+    Name: Lettere e campo di discesa
+    Use When: A short phrase can sit above a substantial open area.
+    Structure: Selected low letter strokes release unequal trails into the space below.
+    Text Adaptation: Keep upper-line runs short and reserve the longest for the final line.
+    Format Adaptation: Rebalance word mass and trail destination for the ratio.
+  - id: ink-between-groups
+    Name: Colature fra due gruppi
+    Use When: Two semantic groups can share an open interval.
+    Structure: Upper lettering releases ink into a gap; the lower group remains outside its paths.
+    Text Adaptation: Preserve sentence order and keep every lower glyph clear of the runs.
+    Format Adaptation: Adjust gap and lower-group position together.
+  - id: absorbed-descent
+    Name: Discesa e assorbimento
+    Use When: A quieter phrase benefits from diluted traces as well as dark cores.
+    Structure: Local pools release narrow downward trails and restrained feathered halos.
+    Text Adaptation: Preserve solid readable letter cores; soften only selected wet areas.
+    Format Adaptation: Recompose open paper and trail extent without shrinking the phrase.

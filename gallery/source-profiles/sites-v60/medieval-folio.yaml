@@ -1,0 +1,255 @@
+Design Style:
+  Name: Medieval Folio
+  Concept: 'A contemporary quote card composed as a medieval illuminated folio. The quotation is the central
+    message, large enough to read before the ornament. Painted initials, scrolling plants, small narrative
+    creatures, miniature scenes and parchment form one page architecture around it. Transfer the relationship
+    among writing, image and margin, not a specific manuscript page. Each quotation receives a new visual
+    interpretation.
+
+    '
+  Reference Basis:
+    Material: Seven images supplied by the user in this conversation
+    Shared Language: 'The references show decorated or historiated initials, border foliage, small figures
+      and animals, delicate pigment, occasional flat gilding, aged parchment and strong differences in
+      density. Some are richly filled; one leaves a broad empty writing field. One image is a modern montage
+      of manuscript fragments, useful for seeing possible layers but not a composition to reproduce.
+
+      '
+    Translation Rule: 'Choose a new initial, border rhythm and miniature in response to the supplied quotation.
+      Do not copy source figures, heraldry, sacred scenes, text fragments or page layouts.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: One finished flat quote card resembling an illuminated page
+  Mood:
+  - Wonder
+  - Intimate
+  - Learned
+  - Playful in the margins
+  - Patiently crafted
+  Color Palette:
+    Fixed Colors: false
+    Ground:
+      WarmParchment: '#E9DDC4'
+      PaleParchment: '#F1E7D3'
+    MainInk:
+      OakBrown: '#342B24'
+      NearBlack: '#27231F'
+    Pigments:
+      LapisBlue: '#315B8F'
+      Vermilion: '#B84F38'
+      LeafGreen: '#667546'
+      DustyRose: '#B77F87'
+      OchreGold: '#BB9251'
+    Roles: 'Put the quote in dark ink on light parchment. Select two or three pigments for initial, vine
+      and miniatures; reserve gold or ochre for a few luminous details. Muted variation and age are welcome,
+      but colours must remain distinct at card scale. User-requested colours replace these starting values
+      while retaining ink-to-ground contrast.
+
+      '
+  Typography:
+    Quote: 'Use a legible Gothic textura or blackletter register when it suits the phrase, with the strong
+      vertical rhythm and angular forms of manuscript writing. Keep counters open, word spaces distinct,
+      and letterforms large enough to read at phone size. If the selected Gothic construction makes any
+      word uncertain, reduce ornament or use a clearer Gothic variant before shrinking the quotation.
+      A bookhand serif remains a fallback only when the requested Gothic treatment cannot preserve the
+      text.
+
+      '
+    Initial: 'Optionally make the first letter of the actual quote a painted or historiated initial. It
+      replaces that letter; do not repeat it in plain type. If an exact first word cannot be rendered
+      reliably, use a painted non-letter vignette near the text and set the full quote normally.
+
+      '
+    Hierarchy: 'The complete quotation in Gothic lettering is the largest readable mass and first reading
+      priority, normally across two to five lines. Ornament can be vivid but stays beyond the letter interiors
+      and leaves the text''s local ground calm. Change line breaks, initial size or marginal density before
+      shrinking the quote into manuscript-size body copy.
+
+      '
+    Attribution: 'If a supplied or verified author exists, set the exact name in a smaller subordinate
+      register, right-aligned to the quote''s right edge. If absent, omit both name and reserved space.
+
+      '
+  Layout:
+    Page Architecture: 'Build a page, not a parchment texture behind modern text. Decide the quote block
+      first and integrate a primary illuminated intervention. The separate composition library chooses
+      its placement and relation to the writing field. Secondary decoration echoes its pigments and line
+      weight; every distribution preserves a coherent painted page.
+
+      '
+    Relationships: 'Marginal tendrils, leaves or figures may point toward the quote, trace its edge or
+      grow from the initial. They must not cross actual words. The text and illumination can share a baseline,
+      frame edge or colour accent so they feel composed together rather than pasted into a border.
+
+      '
+    Writing Field: 'Keep a calm local ground behind the complete quote. Marginal density, initial size
+      and the placement of a miniature adapt to its footprint. An illuminated initial, when used, remains
+      the actual first letter; the full quotation is always readable in ordinary sequence.
+
+      '
+  Imagery:
+    Repertoire:
+    - Acanthus-like leaves, slender tendrils, buds and small flowers
+    - Birds, rabbits, insects or fantastical marginal creatures
+    - Small human figures or hands when they illuminate the idea
+    - A single emblematic miniature contained in an initial or margin
+    Selection: 'Choose subjects from the supplied quote and context. An animal or sacred figure is not
+      mandatory. Avoid suggesting a verified historical story, patron, scripture or heraldic meaning unless
+      the user supplied one.
+
+      '
+  Graphic Elements:
+  - One decorated or historiated first initial, when text fidelity allows
+  - Fine painted border lines, corner filigree or climbing foliage
+  - Small flat-gold dots or leaf accents
+  - Occasional ruled guides or frame edges without invented writing
+  Effects:
+    Material: 'Slight parchment fibre, tempera-like matte pigments, fine quill contours and restrained
+      flat gilding. Age can appear as gentle unevenness, not burnt edges or theatrical dirt.
+
+      '
+    Depth: Flat page with painted tonal variation, not 3D objects or a photographed book mockup
+  Content Contract:
+    quote: Show the exact supplied quotation once, preserving words, case, accents and punctuation.
+    author: Show only a supplied or verified author, smaller and right-aligned.
+    signature: Add a personal signature only when explicitly requested.
+  Rules:
+  - Read the quote first at phone size; reduce ornament before reducing text.
+  - Make illumination and writing share page structure, not a generic border template.
+  - Do not add pseudo-Latin, filler handwriting, invented captions, folio numbers or seals.
+  - Do not reproduce an exact supplied initial, figure, coat of arms or manuscript arrangement.
+  - Keep every required glyph complete; if a decorated initial fails, set the quote normally.
+  - Avoid fantasy-game ornament, glossy gold foil, realistic parchment rolls and book mockups.
+  Production:
+    Preferred Mode: hybrid
+    Rationale: 'Generate the complete card with ImageGen, including its relationship between quote and
+      illumination. Refine lettering if needed while preserving the generated page architecture and painting.
+
+      '
+  User Overrides:
+    Format: Recompose the writing field and marginalia for the requested ratio.
+    Palette: Use the requested pigments while preserving legible dark text on a clear ground.
+    Typography: Respect the requested type direction without losing text fidelity.
+    Subject: Use a requested subject in the miniature or marginalia where appropriate.
+Composition Library:
+  Style Name: Medieval Folio
+  Selection:
+    Basis: 'Fit the actual quote, its first word, likely line breaks, requested ratio and any supplied
+      name. Every family preserves large readable bookhand-inspired type, matte pigment, parchment and
+      the integration of writing and painting defined by the style profile.
+
+      '
+    Preference: 'The illuminated-initial example is the preferred calibration. When no composition is
+      requested and text fit allows, favour an inhabited initial. Treat its exact left vine, O, bird and
+      tree as example choices. Other families remain valid for longer phrases or meaningful variants.
+
+      '
+    Choice: 'Use one primary family and only compatible secondary details. The repertoire stays open.
+      Respect an explicit composition request and preserve accepted placement during targeted edits. Send
+      the chosen structure to ImageGen, not the complete list of alternatives.
+
+      '
+  Families:
+  - id: inhabited-initial
+    Name: Inhabited initial
+    Use When: 'The first word can flow clearly from one large illuminated letter and a small symbolic
+      scene can enrich the quotation''s meaning.
+
+      '
+    Structure: 'Make the first actual letter a painted initial with a miniature or emblem inside. The
+      remaining letters continue in normal reading order. A restrained tendril grows from the initial
+      or an adjacent margin and shares its pigments and line weight.
+
+      '
+    Text Adaptation: 'Preserve the full first word without repeating its initial. Size and place the letter
+      to suit the reading block; a longer quote gets a smaller initial and less marginal density. If the
+      word becomes unreliable, use a non-letter miniature and set the full text normally.
+
+      '
+    Format Adaptation: 'Recompose the initial, continuation and surrounding margin for each ratio. In
+      wide formats the initial can lead a broad writing field; in tall formats its scale must leave room
+      for the full quote.
+
+      '
+    Variation Axes:
+    - Initial letter and shape
+    - Inner miniature
+    - Tendril direction
+    - Pigment pair
+  - id: open-corners
+    Name: Open folio with painted corners
+    Use When: 'A longer or reflective phrase needs quiet parchment, or a sparse manuscript page better
+      supports the mood than a dense border.
+
+      '
+    Structure: 'Place two unequal painted interventions in separated corners, with a broad writing field
+      between them. One may be a small initial or vignette. Their stems, directions or frame edges anchor
+      the text.
+
+      '
+    Text Adaptation: 'Let the complete phrase establish the main mass. Paintings recede toward the margins
+      as it grows. If a name is present, integrate it below or beside the writing field on a clear right-aligned
+      axis.
+
+      '
+    Format Adaptation: 'Select the corner pair and distances anew for the ratio. Keep the interventions
+      unequal and avoid a pair of identical decorative badges.
+
+      '
+    Variation Axes:
+    - Corner pair
+    - Painted area
+    - Miniature subject
+    - Amount of open parchment
+  - id: asymmetric-border
+    Name: Asymmetric botanical border
+    Use When: 'The phrase benefits from a lively painted margin and still has enough space to remain the
+      largest readable mass.
+
+      '
+    Structure: 'Animate selected page edges with winding stems, leaves and small creatures. Vary border
+      depth and leave at least one meaningful opening. Branches trace or point toward the writing field
+      without touching words.
+
+      '
+    Text Adaptation: 'Set the whole quote in the organic bookhand register. Thin or crop the border to
+      accommodate more lines. A decorated initial is optional; it must not compete with the phrase or
+      duplicate its first letter.
+
+      '
+    Format Adaptation: 'Rechoose the active edges and border depth rather than stretching a rectangular
+      frame. Preserve a calm ground immediately behind all words.
+
+      '
+    Variation Axes:
+    - Active edges
+    - Border opening
+    - Foliage rhythm
+    - Pigments and small creatures
+  - id: marginal-miniature
+    Name: Marginal miniature
+    Use When: 'A small narrative scene clarifies the idea, or the user wants a composition without a decorated
+      letter while retaining the folio language.
+
+      '
+    Structure: 'Pair a large writing field with one subordinate painted scene in a margin or a small frame.
+      Share an edge, a baseline or a pigment accent so the scene and words belong to the same page. Add
+      sparse foliage only where it joins those parts.
+
+      '
+    Text Adaptation: 'Keep the first word complete in the same organic bookhand as the rest. Adapt the
+      miniature''s size to the phrase; for longer text move it toward an outer corner and reduce its visual
+      density.
+
+      '
+    Format Adaptation: 'A wide ratio can place the miniature beside the writing field; a tall ratio can
+      nest it in a lower margin. Avoid a separate picture panel that turns the quote into a small caption.
+
+      '
+    Variation Axes:
+    - Miniature position
+    - Frame shape
+    - Narrative subject
+    - Foliage connection

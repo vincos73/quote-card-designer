@@ -1,0 +1,10 @@
+Use case: precise-object-edit. EDIT the attached complete quote card. The attached image is the EDIT TARGET, not a loose style reference. Change ONLY the typeface/custom lettering language. Preserve its complete celestial map, star positions, star sizes, thin projection arcs, constellation connections, densities, surface texture, composition, line positions, text hierarchy, deep navy field and pale yellow text color. Preserve the quote's current capitalization and punctuation. Do not recolor, redraw or rearrange the sky.
+
+Replace the ordinary bold sans lettering with a distinctive custom ORBITAL GEOMETRIC display alphabet: precisely drawn rounded-rectangular and elliptical bowls, strongly characteristic open circular C/G curves, orbital curved junctions in a/e/o/d, compact geometric proportions, substantial confident strokes and a small coherent set of deliberate stencil apertures. These must look like purposeful custom glyphs, not missing print or accidental damage. An experimental refined space-poster lettering language, with natural kerning and natural clear word spaces. NOT a common neo-grotesk, not monospace, not generic widely tracked sci-fi capitals. Keep mixed case exactly as shown. Do not change the letters into icons or let map lines stand in for letter strokes. No ligatures that could change reading. Every word must remain immediately and unambiguously readable. The distinctive geometry must be visible at thumbnail size, not merely a barely changed normal sans.
+
+Keep the exact current text ONCE and its same three-line placement:
+"Le domande
+aprono nuove
+costellazioni."
+
+The upper two lines retain their monumental scale and the last line its current subordinate large scale. Match the original line starts, line spacing and approximate text footprint; adapt the custom glyph design without stretching tracking or deforming individual words. Change the typeface only, while generating the complete edited image. No added labels, title, signature, attribution, numbers, symbols or watermark. Protect every original part outside the glyph shapes.

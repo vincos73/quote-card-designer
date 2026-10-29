@@ -1,0 +1,25 @@
+Composition Library:
+  Style Name: Motion Proof
+  Selection:
+    Basis: Scegliere soggetto e struttura dal significato della frase, dai gruppi di senso e dal formato.
+    Variation: Le famiglie sono repertorio aperto, non layout fissi. Variare masse, assi e tagli oltre
+      alla palette.
+  Families:
+  - id: lateral-motion
+    Name: Scorrimento laterale
+    Use When: Un gesto esprime continuità, sforzo o avanzamento.
+    Structure: Il nucleo del gesto entra o esce dal campo e si dissolve lateralmente; la frase occupa
+      uno spazio quieto contiguo.
+    Text Adaptation: A capo per gruppi di senso e larghezze naturali. Risolvere ingombri muovendo il visual
+      o scalando il blocco uniformemente; nessun tracking o compressione per pareggiare righe.
+    Format Adaptation: Ricomporre le masse per il rapporto richiesto; non ritagliare semplicemente l’esempio.
+      Attribuzione eventuale su un asse destro leggibile.
+  - id: shared-motion
+    Name: Gesti e spazio comune
+    Use When: Il senso riguarda relazione, collaborazione o un gesto convergente.
+    Structure: Gesti o traiettorie lasciano un campo aperto che conduce alla frase; scie curve o oblique
+      seguono le azioni.
+    Text Adaptation: A capo per gruppi di senso e larghezze naturali. Risolvere ingombri muovendo il visual
+      o scalando il blocco uniformemente; nessun tracking o compressione per pareggiare righe.
+    Format Adaptation: Ricomporre le masse per il rapporto richiesto; non ritagliare semplicemente l’esempio.
+      Attribuzione eventuale su un asse destro leggibile.

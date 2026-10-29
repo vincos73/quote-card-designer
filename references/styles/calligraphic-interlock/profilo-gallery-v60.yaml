@@ -1,0 +1,297 @@
+Design Style:
+  Name: Calligraphic Brush
+  Status: V1 candidate; illustrated brush-phrase direction preferred by the user on 27 October 2026
+  Concept: 'The entire quotation is painted in expressive Western brush calligraphy. Its actual words
+    form the visual composition through pressure changes, connected movement, natural pen lifts and the
+    rhythm of painted lines. Broad ink-loaded strokes meet finer turns and dry bristle passages on quiet
+    warm paper. The complete readable phrase is the main artwork. A very stylized drawing interprets its
+    meaning in a few strokes of the same brush, remaining secondary to the words.
+
+    '
+  Reference Basis:
+    Source: 'The user requested Western calligraphy and then clarified that a quote card must show a complete
+      phrase painted in calligraphic style. This clarified direction governs the profile.
+
+      '
+    Adaptation: 'Carry forward expressive brush material, warm paper and restrained composition from the
+      original written brief. Apply the brush to every word and punctuation mark, including connecting
+      words. A monogram, separate geometric alphabet or small typeset caption is outside the revised direction.
+      Do not imitate a particular calligrapher.
+
+      '
+    Image Inputs: 'This written profile is self-contained. No reference image is required as a generation
+      input.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: One finished flat quote card with the complete phrase painted on paper
+    Format Adaptation: 'Compose the actual words for the requested ratio. Use meaningful line breaks and
+      breathing room. A tall format can develop the phrase over more lines; a wider card can open its
+      lateral movement. Recompose the writing without stretching letters or cropping words and accents.
+
+      '
+  Mood:
+  - Expressive
+  - Tactile
+  - Fluid
+  - Confident
+  - Human
+  - Deliberate
+  Color Palette:
+    Fixed Colors: false
+    Starting Palette:
+      Paper: '#F3EFE4'
+      Ink: '#151411'
+      Optional Painted Accent: '#B83C2E'
+    Roles: 'Begin with dark ink on quiet light paper. The entire phrase can use one ink. Optionally paint
+      one meaningful word in a second colour, retaining the same brush language and readable contrast.
+      Colour is emphasis within the painted composition, not a separate geometric object. A small figurative
+      brush motif may also carry the accent colour. Palette choices remain replaceable according to user
+      preference.
+
+      '
+  Typography:
+    Complete Phrase:
+      Alphabet: Recognisable Western Latin lettering, including supplied accents
+      Character: 'Paint every word of the supplied phrase in one coherent Western brush-calligraphic language.
+        Broad pressure strokes, finer turns, tapered exits, purposeful joins and natural brush lifts reveal
+        the movement of the hand. Maintain recognisable Latin skeletons, open counters, clear word spaces
+        and an unambiguous reading order.
+
+        '
+      Material: 'Combine dense wet-looking ink deposits with selected dry drags, separated bristles and
+        exposed paper within broad strokes. Texture follows the stroke direction and pressure. Edges may
+        feather subtly; avoid uniform distress or unrelated noise applied to a script font.
+
+        '
+      Case: Preserve supplied capitalization, accents, wording and punctuation.
+      Small Words: 'Paint articles, conjunctions, prepositions and other connecting words as part of the
+        same phrase. Their scale can be quieter but must remain comfortably readable, with the same material
+        character.
+
+        '
+      Punctuation: 'Render supplied accents, apostrophes and punctuation as deliberate painted marks in
+        their correct positions. Do not substitute swashes or ornamental dots for literal text marks.
+        Do not add final punctuation when it is not requested; preserve punctuation already present in
+        user-supplied text.
+
+        '
+    Emphasis: 'Adjust relative scale, pressure or an optional ink colour for a meaningful word while preserving
+      a coherent hand and the full reading. The remaining words are also painted. Do not isolate enlarged
+      initials, repeat extracts or move the full phrase into a secondary typeset caption.
+
+      '
+    Flourishes: 'A few restrained entrance or exit strokes may extend the writing''s movement. Keep them
+      connected to an actual letter gesture and away from counters, punctuation and the next word. Decorative
+      swashes are optional; legibility does not depend on an intricate knot.
+
+      '
+    Attribution: 'If supplied or verified, paint the exact name in a smaller and quieter but readable
+      hand, right-aligned on a clear axis and separated from the quotation. Omit it and recover the space
+      when absent. A personal signature is separate and appears only when explicitly requested.
+
+      '
+    Font Certainty: 'The profile directs a painted appearance, not an exact font family or proof that
+      a physical original was written with a real brush.
+
+      '
+  Layout:
+    Core Relationship: 'The complete painted quotation creates the principal visual mass and its movement.
+      Compose the words together through line rhythm, optical spacing, pressure and negative space. There
+      is no separate principal monogram or illustration carrying a smaller typographic explanation. A
+      small subordinate figurative brush drawing shares an open paper interval, balancing the writing
+      without replacing a letter or word.
+
+      '
+    Scale: 'Give all words enough space and size for comfortable feed reading. Group line breaks by meaning
+      and use unequal line widths when natural. For a longer phrase, simplify flourishes and open the
+      writing area before reducing the entire phrase uniformly.
+
+      '
+    Optional Word Interaction: 'A terminal or loop can approach or lightly cross a neighbouring word when
+      every letter and the reading sequence remain clear. Interweaving is optional and secondary to the
+      complete phrase; do not occlude identifying strokes or make connecting words disappear.
+
+      '
+    Paper and Margins: 'Let quiet paper around and between the painted lines support their movement. Keep
+      ascenders, descenders, accents and punctuation clear of the canvas edge and one another. An absent
+      author leaves usable paper rather than an empty label or reserved caption panel.
+
+      '
+    Variation: 'Derive line count, baseline movement, density, emphasis and scale from the actual sentence.
+      Avoid fixing every card to a diagonal staircase, a two-word lockup or a single emblematic letter.
+
+      '
+  Graphic Elements:
+    Core:
+    - The complete phrase in pressure-modulated Western brush calligraphy
+    - Natural ink edges, wet and dry passages, and open paper counterspaces
+    Optional:
+    - One word painted in an accent ink
+    - A few entrance or exit strokes belonging to the actual lettering
+    - One very stylized figurative drawing related to the phrase
+    Figurative Drawing: 'Suggest a subject in very few brush gestures, using the same pressure changes,
+      tapered edges and wet/dry material as the lettering. Select the motif from the meaning of the actual
+      phrase: a bird, sprout or boat are tested examples, not fixed motifs or an exhaustive repertoire.
+      Keep it recognizable, incomplete and visually secondary, without turning it into a detailed painting,
+      vector icon or decorative frame. Drawing and writing share axes, rhythm and useful negative space.
+
+      '
+    Restraint: 'The painted words supply the principal composition. Keep any drawing sparse and subordinate;
+      omit unrelated geometry, specimen labels, stamps, barcodes and decorative symbol collections. Do
+      not invent supporting copy or visual metadata.
+
+      '
+  Effects:
+    Ink: 'Dense matte pigment deposits, softly feathered ink edges in selected loaded passages, visible
+      bristle separation and dry paper channels. Texture follows the direction and pressure of the stroke.
+
+      '
+    Paper: 'Warm uncoated paper with subtle visible fibre and quiet tonal variation; no heavy antique
+      staining or theatrical folds.
+
+      '
+    Depth: 'Keep the work tactile and flat. Expressive pressure and ink deposition create presence without
+      bevels, cast shadows, embossing or plastic volume.
+
+      '
+  Content Contract:
+    quote: 'Show the complete supplied phrase once, unchanged and entirely painted, including connecting
+      words, capitalization, accents and punctuation.
+
+      '
+    author: Use only a supplied or verified name, subordinate and right-aligned.
+    supporting: Use only supplied supporting copy; omit absent headings, translations and labels.
+  Rules:
+  - Make the complete painted phrase the main visual and the main reading.
+  - Paint every word and punctuation mark in a coherent Western calligraphic hand.
+  - Keep recognisable Latin letter skeletons, open counters and clear word spaces.
+  - Show meaningful pressure variation and directional wet and dry brush passages.
+  - Preserve the complete literal message, including case, accents and punctuation.
+  - Compose meaningful lines from the supplied sentence and retain readable connecting words.
+  - Use colour emphasis within the same painted language for lettering and drawing.
+  - A figurative drawing is spare, phrase-related and secondary to the complete words.
+  - Keep optional word crossings and flourishes subordinate to legibility.
+  - Let warm paper and breathing room support the lettering.
+  - Do not replace the phrase with a monogram, enlarged initials or an isolated emblem.
+  - Do not relegate the full phrase to a typeset caption or repeat it in a second register.
+  - Avoid imitation East Asian characters, fake seals and pseudotext.
+  - Avoid uniform script-font simulations, random brush sprays and excessive splatter.
+  - Avoid compulsory geometric letters, decorative stars and cheap three-dimensional effects.
+  Production:
+    Preferred Mode: generative
+    Rationale: 'Generate the complete quote card with ImageGen, including the whole painted phrase and
+      its compositional movement. The actual words are the visual artwork. Check every word, accent and
+      punctuation mark; do not replace most of the quotation with conventional typesetting.
+
+      '
+    Validation Status: 'Two complete 4:5 studies were generated without image inputs and inspected at
+      native size and at 320 by 400 pixels. Both preserve the whole quotation in painted lettering; the
+      first uses black and vermilion moving lines, the second airy ultramarine writing. The user requested
+      gallery inclusion while stating that the style remains unconvincing. At that stage it was not a
+      V1 candidate. Longer quotations, accents, attribution and other ratios remain untested. The earlier
+      G/F study belongs to the discarded monogram direction and is not a calibration example of this profile.
+      Three later full-card studies add highly stylized brush drawings: bird, sprout and sailboat, with
+      different phrases and two ink palettes. Wording and absence of final periods were checked on native
+      outputs. All words remain painted; no illustration replaces any letter. The user preferred the illustrated
+      direction over the previous studies and requested V1 candidacy. This is not release inclusion or
+      proof of general repeatability.
+
+      '
+    Drawing Studies: prove-disegno/note.md
+  User Overrides:
+    Palette: Replace ink and optional painted accent while preserving readable contrast.
+    Format: Recompose the complete painted phrase and paper space for the requested ratio.
+    Writing: Honour requested Western calligraphic directions while preserving the entire phrase.
+    Emphasis: Adjust pressure, colour or scale without moving any words into a typeset caption.
+Composition Library:
+  Style Name: Calligraphic Brush
+  Selection:
+    Principle: 'Compose the complete supplied phrase as Western brush calligraphy. Choose line rhythm
+      and density from its meaning and length. All words stay painted and readable; none of the families
+      uses isolated initials, a monogram or a secondary typeset version of the quotation.
+
+      '
+    Short Text: 'Use moving lines for a forceful or dynamic cadence. Use airy writing for a quieter or
+      reflective phrase with generous paper intervals.
+
+      '
+    Longer Text: 'Plan more meaning-based lines with restrained baseline movement and fewer flourishes.
+      Keep the same painted language for the whole text. Open the writing area before reducing the entire
+      phrase uniformly.
+
+      '
+    Overrides: User-specified text, Western writing direction, format and palette take precedence.
+  Families:
+  - id: painted-motif
+    Name: Complete phrase and spare brush drawing
+    Use When: 'Preferred illustrated direction: a small figurative gesture enriches the phrase, or the
+      user asks for a stylized drawing.
+
+      '
+    Structure: 'The complete brush-calligraphic phrase carries the principal mass. A very simple recognizable
+      drawing occupies one open interval, sharing brush pressure, ink and movement with the words. Relate
+      its axes and gesture to the writing, without replacing a letter, touching punctuation or adding
+      a decorative frame. A motif can use the same ink or a restrained accent; avoid detailed scenes.
+
+      '
+    Text Adaptation: 'Preserve the literal phrase and keep every word painted. Choose meaning-based lines
+      and clear margins. For a long phrase reduce the motif before shrinking the writing into a caption.
+      Preserve supplied punctuation; do not add a final period unasked.
+
+      '
+    Format Adaptation: 'Recompose writing, drawing scale and empty paper for each format. The motif may
+      occupy a lateral, upper or lower interval. Neither a bird nor a sprout or boat is compulsory; choose
+      from the phrase.
+
+      '
+  - id: moving-lines
+    Name: Painted lines in motion
+    Use When: 'The phrase has a clear cadence or a forceful idea that benefits from an active hand, fuller
+      pressure strokes and movement between lines.
+
+      '
+    Structure: 'Paint the entire quotation across a small number of lines whose beginnings, lengths and
+      baselines create a coherent movement. Vary brush pressure within a confident continuous hand, combining
+      loaded strokes, thinner turns and selected dry drags. Emphasise a meaningful word by pressure, scale
+      or an optional ink colour. Let movement emerge from the writing rather than detached brush marks
+      or a compulsory diagonal staircase. Keep clear paper intervals between words, lines, ascenders,
+      descenders and punctuation.
+
+      '
+    Text Adaptation: 'Preserve the complete literal phrase once, including connecting words, capitalization,
+      accents and punctuation. Break lines at meaningful groups without hiding smaller words. Paint all
+      words; do not introduce a sans-serif caption. An optional attribution is exact, quieter and right-aligned,
+      distinct from the sentence.
+
+      '
+    Format Adaptation: 'For 4:5, balance lateral strokes and compact meaning-based lines within quiet
+      margins. A tall card can use more lines and stronger vertical progression; a wider card can lengthen
+      the writing path. Recompose rather than cropping strokes or distorting individual words.
+
+      '
+  - id: airy-writing
+    Name: Airy painted phrase
+    Use When: 'The quotation benefits from an open, intimate or reflective cadence, with lighter rhythm
+      and generous paper around the painted words.
+
+      '
+    Structure: 'Paint the full quotation in a coherent flowing Western hand with open counters, breathable
+      word spacing and quieter changes of pressure. Place meaningful groups on naturally unequal lines,
+      connected visually by their gesture and rhythm rather than by literal overprinting. Let a few entrance
+      or exit strokes extend into free paper. Dense ink and a few dry bristle passages preserve material
+      presence even when the overall composition is spacious.
+
+      '
+    Text Adaptation: 'Show every supplied word once in the same painted language, with literal case, accents
+      and punctuation. Keep linking words readable instead of treating them as ornamental microtext. A
+      longer phrase uses more calm lines and fewer flourishes; do not drop or rewrite words to preserve
+      empty space. An optional author is subordinate and right-aligned.
+
+      '
+    Format Adaptation: 'For 4:5, distribute calm lines within a balanced area of paper without shrinking
+      the phrase into a caption. A tall format can increase vertical breathing room and line count. A
+      wider format can open lateral spacing, preserving natural letter proportions and legibility.
+
+      '

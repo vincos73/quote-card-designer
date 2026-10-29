@@ -1,0 +1,402 @@
+Design Style:
+  Name: Neo Swiss
+  Status: Reference-led revision of 27 October 2026; prior studies have documented limits; new layered
+    compositions untested; included in distributed version 0.4.0
+  Concept: 'A contemporary interpretation of Swiss typography in which the quotation, open space and graphic
+    planes form a single precise composition. A flexible modular grid coordinates the page through actual
+    text axes and spacing, remaining invisible by default. Clear grotesk letterforms, deliberate asymmetry
+    and measured intervals give the message authority; pronounced scale contrasts, unexpected shifts and
+    controlled interlocking give it the energy of a contemporary typographic poster. Compose the quotation
+    across the page instead of placing it in a centered template. Precision should produce tension and
+    rhythm, not a generic minimal page with a coloured block.
+
+    '
+  Reference Basis:
+    Scope: 'Neo Swiss is the name of this project''s interpretation, not a claim that all historical or
+      contemporary Swiss design follows one formula. Keep the structural clarity of Swiss modernism while
+      allowing the scale, layering and exposed construction observed in the user''s contemporary references.
+      These are related sources of inspiration, not evidence that every reference is a historical Swiss
+      poster.
+
+      '
+    Research Notes: ricerca.md
+    Transfer: 'Transfer spatial relationships, optical judgement and the integration of message and form.
+      Reference works do not impose their text, subjects, palette or layout, and are not required image
+      inputs. In particular, do not copy event data, Japanese lettering, handles or decorative background
+      words from the supplied references.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: One finished flat full-bleed editorial quote card
+    Adaptation: Recompose the grid, typographic mass and open intervals for each ratio.
+  Mood:
+  - Precise
+  - Lucid
+  - Confident
+  - Rhythmic
+  - Editorial
+  - Contemporary
+  Color Palette:
+    Fixed Colors: false
+    Starting Palette:
+      Paper: '#F6F4EE'
+      Ink: '#141414'
+      Signal: '#E6462D'
+    Roles:
+      Ground: An open paper field or a deliberate solid-colour field
+      Typography: One clear high-contrast reading ink, with a purposeful second register if useful
+      Graphic Field: A flat colour plane or image mass that creates a compositional relationship
+      Construction: A quiet tint of the ink or accent, perceptible after the quotation
+    Selection: 'A monochrome card, one strong spot colour on paper, or an inverted saturated ground are
+      all valid. Pink, yellow and cyan remain possible but do not define the style. Choose the colour
+      relationship for the phrase; a plane can organize space rather than merely highlight a word. Begin
+      with a ground and a reading ink; add an accent only if it has a clear reading or structural role.
+      A purely typographic composition does not need a coloured plane to qualify as Swiss. The supplied
+      references suggest warm paper with red, or cool grey with sharp yellow; these are options, not fixed
+      palettes. Multiple colours are available when they serve a clear hierarchy. On a pale ground, yellow
+      is better used as a plane or a large secondary mass than as small reading text.
+
+      '
+  Typography:
+    Primary:
+      Style: 'A clear grotesk or neo-grotesque sans serif, in the broad direction of Akzidenz-Grotesk,
+        Univers or Helvetica, with natural letter proportions.
+
+        '
+      Weight: 'Choose regular, medium or bold for the actual scale and reading field. A heavy anchor is
+        possible; black weight is not a default for every line.
+
+        '
+      Spacing: 'Use optical kerning and clearly visible word spaces. Compact setting should retain open
+        counters and separation between neighbouring glyphs. Do not squeeze a word or tighten tracking
+        to make it fit a module.
+
+        '
+      Role: The complete quotation, large enough to be the first clear reading.
+    Hierarchy: 'Give each change of size or weight a reading function. Explore a pronounced contrast between
+      a large anchor and a smaller connecting phrase, or between regular and bold within the same grotesk
+      family. A single register remains valid when the phrase calls for it, but do not flatten every composition
+      into one uniformly heavy text block. Avoid a new style for every word or arbitrary light/black alternation.
+
+      '
+    Alignment: 'Prefer a clear left edge and natural ragged right. A second alignment axis can create
+      a deliberate shift between semantic groups. Maintain one obvious reading sequence. Optical overhang
+      of punctuation is valid when the marks remain complete and the line is clearer.
+
+      '
+    Case: Preserve the supplied capitalization, wording, accents and punctuation.
+    Scale: 'Use confident editorial scale with complete, recognisable letters. Reflow the phrase and change
+      the graphic mass before shrinking the quotation or deforming individual words. Longer quotations
+      need a new fit.
+
+      '
+    Poster Rhythm: 'Set distinct phrases as contrasting typographic masses, with one dramatically larger
+      and another more compact when the wording supports it. Place them across the page, sharing axes
+      or edges instead of stacking every line into one rectangular block. Pair dense areas with open counterspace
+      and keep the reading order immediately apparent. Scale can carry the visual energy without a shape.
+
+      '
+    Layering: 'Two typographic registers may interlock across the same modules. Distribute different,
+      sequential parts of the supplied quotation between them; do not repeat a word to manufacture a background
+      layer. Large coloured type must remain readable if it carries quotation text. Let open space or
+      a flat colour field pass behind the main text; letter-on-letter crossings are selective and never
+      erase a letter''s identity, a word space or punctuation. If reading becomes ambiguous, separate
+      the registers while retaining the contrast of scale.
+
+      '
+    Attribution: 'If supplied or verified, set the exact name in a smaller, quieter register, readable
+      and aligned to a clear right edge. If absent, recover that space. A personal signature remains separate
+      and is only added when requested.
+
+      '
+    Font Certainty: A generated resemblance does not establish the use of an exact font family.
+  Layout:
+    Invariants:
+    - A small set of shared alignment axes and repeatable spatial intervals
+    - Asymmetrical balance between the quotation, open space and the graphic mass
+    - A dominant contrast that establishes where reading begins
+    - A continuous, unambiguous reading order through the complete quotation
+    - A meaningful relationship between the message and its visual construction
+    Grid: 'Derive a small modular system from the actual phrase and format: shared column edges, a consistent
+      gutter and repeated vertical intervals. Snap text edges and colour planes to that system, with optical
+      corrections for letterforms. Leave some modules open. Keep the grid implicit by default: the user
+      rejected a visible network that did not actually guide the typography. Derive text placement from
+      the modules first. Do not force every text line into a separate box.
+
+      '
+    Visible Construction: 'Expose construction only when explicitly requested, and only when its axes
+      demonstrably guide the actual text. A decorative overlay is insufficient. When requested, show the
+      complete light modular network across the entire canvas. Every vertical rule reaches the top and
+      bottom edges; every horizontal rule reaches the left and right edges. Keep a coherent set of broad
+      modules rather than dense graph paper. Derive the text axes from this same matrix. All segments
+      have a consistently delicate contrast against the ground, perceptible at full size and secondary
+      in a thumbnail. The grid is behind opaque lettering: only actual glyph strokes cover it; counters,
+      word spaces and surrounding ground retain the network. Do not erase clearance rectangles around
+      text, fade out arbitrary areas or leave disconnected fragments. Never draw a pale rule on top of
+      black letter interiors. Judge lightness optically rather than claiming exact generated stroke widths
+      or opacity. No measurement ticks, nodes or editor UI.
+
+      '
+    Controlled Departure: 'Establish a dominant relationship, such as a shifted text axis, a large scale
+      contrast, a cropped graphic field or interlocking text registers. Related contrasts can reinforce
+      it; the page need not be limited to a single visual gesture. Keep the shared grid and a clear reading
+      sequence as the stable framework. This is a design criterion for this profile, not a historical
+      rule.
+
+      '
+    Integration: 'Text and graphic field share a margin, interval, counterspace or directional tension.
+      The visual should help construct the same page instead of becoming a separate illustration beneath
+      a heading. Every letter keeps sufficient local contrast; crossings must not obscure its identity.
+
+      '
+    Page Rhythm: 'Compose the entire surface as a poster: a large reading mass can meet a smaller block
+      at a shared edge, while another region remains open. Vary the direction and extent of whitespace
+      instead of distributing equal margins around one centered block. An optional graphic shape can crop
+      at the edge and share an axis with the type without encroaching on the quotation.
+
+      '
+  Graphic Elements:
+    Repertoire:
+    - Flat planes, bars, circles or related modular shapes
+    - A purposeful interruption or displacement in a repeated graphic rhythm
+    - Fine full-canvas modular grid lines that reveal shared alignment axes
+    - Large coloured typographic masses made from distinct parts of the actual quotation
+    - A restrained geometric sign or cropped shape integrated with the modules
+    - An optional high-contrast photographic fragment
+    Selection: 'Select a coherent graphic idea from the phrase. Pure typography is also valid. A bar,
+      disc or geometric sign can act as a counterweight, but does not become a compulsory emblem. If cropped,
+      retain enough of the form to make it recognisable. A symbol can be enlarged when meaningful for
+      the phrase; preserve its identifying features. Keep the quotation''s glyphs complete. Avoid adding
+      circles, arrows, nodes and registration marks simply to certify a technical aesthetic. A number,
+      table or diagram requires actual supplied content; a short quotation does not need invented data.
+      A field added merely to fill a blank strip is not a meaningful relationship. Remove it when typography
+      and spacing already carry the composition, especially when the user requests no band.
+
+      '
+  Imagery:
+    Role: Optional; a precise visual counterpart to the quotation, not a mandatory subject.
+    Treatment: 'Use a deliberate crop, strong tonal separation and an edge that relates to the typography.
+      Photographic suggestion can be effective without a literal pictogram. Any depicted subject comes
+      from the quotation and context; no recurring dancer, specimen or archival object is required.
+
+      '
+    Provenance: Do not describe a newly generated image as an authentic archival photograph.
+  Effects:
+    Surface: Flat print, with subtle paper character when useful
+    Edges: Clear graphic boundaries and intact letter cores
+    Depth: Built through scale, overlap and positive/negative space
+    Texture: 'Keep texture subordinate to the reading hierarchy. Grain, halftone or photographic contrast
+      belongs to the chosen image treatment rather than a compulsory distressed overlay.
+
+      '
+    Restraint: No decorative bevels, glass effects, soft shadows or glossy 3D rendering.
+  Content Contract:
+    quote: Preserve the complete supplied quotation once, including its original case and punctuation.
+    author: Use only supplied or verified attribution; keep it subordinate and right-aligned.
+    supporting: Render only supplied information; do not invent captions, codes or statistics.
+  Rules:
+  - Build real alignments first; show construction only when explicitly requested and tied to those alignments.
+  - Keep the quotation prominent, complete and easy to follow.
+  - Use scale, weight and overlap as coordinated reading decisions tied to the phrase.
+  - Preserve natural glyph proportions and visible spaces between words.
+  - Treat the graphic mass and open space as participants in the text layout.
+  - Keep palette, subject and composition adaptable to the request.
+  - Avoid arbitrary micrographics, decorative numbering and fake scientific apparatus.
+  - Do not duplicate words as background decoration or replace letters with graphic symbols.
+  - Preserve the supplied punctuation; do not add quotation marks solely to imitate a poster.
+  - Keep reference subjects, branding and event information out of new cards.
+  Production:
+    Preferred Mode: hybrid
+    Rationale: 'Generate the complete visual and typographic composition with ImageGen. Refine exact lettering
+      if needed while retaining the generated spatial relationships, rather than substituting an unrelated
+      text overlay.
+
+      '
+    Validation Status: 'The 27 October revision strengthens poster rhythm, asymmetric placement and an
+      optional cropped geometric counterweight based on the supplied references. A later arrow study tested
+      asymmetric text axes; the lettering and reading sequence were visually checked, while exact grid
+      geometry remains unmeasured. Geometric-shape recognition and layered reading remain unverified.
+      See note-prova-13.md. The revision of 26 October 2026 adds lightly visible construction, stronger
+      typographic scale relationships and two composition families after examining three user-supplied
+      images and institutional sources. A subsequent user-requested test generated the fourth example
+      using the first example''s phrase and the exposed-modular-grid family. One targeted edit reduced
+      the initially excessive grid contrast. The complete text was visually checked at native resolution
+      and at 320 pixels wide. The grid recedes at thumbnail scale, but the heavy anchor remains very compact,
+      a faint line trace remains inside it, and the requested final text-axis shift was not achieved.
+      See note-4.md for the test conditions and limits. This is one application, not proof of repeatability
+      or of the suggested numerical rule settings. Two further studies remove the coloured band: example
+      5 uses a consistent typographic register, while example 6 combines a saturated yellow ground, black
+      type and a larger bold action verb. The latter was checked at native resolution and 320 pixels wide;
+      its main grid axes follow the two text groups more closely. Exact type size ratios, font identity
+      and module geometry remain unmeasured; see note-5.md and note-6.md. Example 7 tests a different
+      phrase and a complete full-canvas grid, following an explicit user refinement. One edit reduced
+      its excessive initial contrast; text and continuity were checked at native resolution and 320 pixels
+      wide. Exact grid geometry remains approximate; see note-7.md. The user then rejected visible construction;
+      example 8 removes the network while retaining the lettering. The new default is an implicit grid.
+      A separate one-shot simple-prompt control was generated without profile text or image references;
+      see confronto-semplice-1.md for conditions and limits. Layered reading remains untested. The first
+      three gallery examples predate this revision. The third study uses the first example''s exact phrase,
+      with a vermilion plane and shifted reading axes. A targeted ImageGen edit reduced the initial typography''s
+      excessive weight and condensation. The final wording and punctuation were visually checked at native
+      resolution and at 320 by 400 pixels. The research images for that earlier study were not passed
+      to generation. This is a comparison of applications, not an isolated test of one parameter. An exact
+      font match, other quotation lengths and the remaining composition families are not yet verified.
+
+      '
+  User Overrides:
+    Format: Recompose the active grid and graphic relationship for the requested ratio.
+    Palette: Replace colours together while preserving hierarchy and local text contrast.
+    Fonts: Honour the requested family or direction while preserving clear reading and natural proportions.
+    Imagery: Respect a requested subject and integrate it through the same spatial system.
+    Grid: Honour a request for visible or hidden construction while preserving the same alignment logic.
+Composition Library:
+  Style Name: Neo Swiss
+  Selection:
+    Basis: 'Scegliere una relazione principale in base alla frase, al formato e alla presenza di nomi.
+      Portare nel prompt soltanto la struttura scelta. La griglia organizza gli intervalli e resta implicita
+      di default. Mostrarla solo su richiesta esplicita, quando guida realmente gli assi del testo. In
+      quel caso mantenerla completa e leggera sull''intera superficie. Il reticolo resta dietro ai glifi
+      opachi; evitare interruzioni estese o frammenti isolati attorno ai blocchi. Se si sceglie la sovrapposizione,
+      usare due registri con una sequenza univoca: la complessità visiva non giustifica ripetizioni del
+      testo.
+
+      '
+    Variation: 'Nelle nuove card cambiare la relazione fra masse e frase, non soltanto il colore. Per
+      una revisione mirata conservare invece gli ancoraggi accettati.
+
+      '
+  Families:
+  - id: exposed-modular-grid
+    Name: Griglia affiorante
+    Use When: 'L''utente richiede esplicitamente la costruzione visibile e questa può essere collegata
+      agli allineamenti effettivi. La frase breve o media può occupare fasce di diversa altezza e lasciare
+      aperti alcuni moduli, rendendo percepibile la costruzione.
+
+      '
+    Structure: 'Pochi assi verticali e intervalli orizzontali coordinano tipografia, campo vuoto e una
+      campitura o un segno geometrico facoltativo. Mostrare il reticolo completo con filetti leggeri,
+      continui fino ai bordi e coerenti con gli allineamenti. Una fascia può avere un corpo molto maggiore
+      delle altre senza cambiare famiglia tipografica. Le linee affiorano sul fondo e sono coperti solo
+      dai tratti opachi delle lettere; i moduli aperti contano quanto quelli occupati.
+
+      '
+    Text Adaptation: 'Dividere per gruppi di senso, senza imporre una parola per casella né giustificare
+      le righe deformando spazi e glifi. La citazione resta integra e compare una volta sola. Attribuzione
+      solo se presente, subordinata e allineata a destra su un asse reale.
+
+      '
+    Format Adaptation: 'Nel verticale sviluppare le fasce lungo la lettura; nel quadrato ridistribuire
+      pieni e vuoti, nel largo usare colonne più ampie. Ricalibrare la densità dei filetti per il formato
+      e la scala finale.
+
+      '
+  - id: interlocked-type-registers
+    Name: Registri tipografici intrecciati
+    Use When: 'La frase contiene un passaggio chiave che può assumere una scala maggiore mentre le altre
+      parole lo collegano in una lettura continua.
+
+      '
+    Structure: 'Un registro grande in colore e uno più compatto ad alto contrasto condividono una griglia
+      asimmetrica. Collocare i gruppi in zone diverse, accostarli lungo un bordo comune o incastrarli
+      negli spazi aperti; pochi attraversamenti controllati sono facoltativi. La massa maggiore può guidare
+      la pagina, lasciando un controspazio riconoscibile. Cambi di scala, bordi comuni e un eventuale
+      filetto costruiscono profondità grafica senza ombre. La gerarchia deve indicare dove iniziare e
+      come continuare; evitare due messaggi indipendenti che competono.
+
+      '
+    Text Adaptation: 'Assegnare ai due registri parti distinte e consecutive della frase, preservandone
+      maiuscole e punteggiatura. Nessuna duplicazione di parole sul fondo, titolo aggiunto o lettera decorativa
+      fuori testo. Il colore del registro grande deve consentirne la lettura. Se gli incroci nascondono
+      lettere o confondono l''ordine, separarli e mantenere il rapporto di scala. Non ritagliare i glifi
+      della frase.
+
+      '
+    Format Adaptation: 'Nel verticale collegare i registri lungo una discesa leggibile; nel largo ricomporli
+      su moduli affiancati con un punto d''incontro. Per frasi lunghe ridurre gli incroci e aumentare
+      lo spazio fra blocchi prima di ridurre indiscriminatamente il corpo.
+
+      '
+  - id: offset-reading-axis
+    Name: Asse di lettura spostato
+    Use When: 'Una citazione contiene due gruppi di senso legati da un cambiamento, un contrasto o una
+      conseguenza e può sostenere uno scarto di allineamento.
+
+      '
+    Structure: 'Il primo gruppo stabilisce un asse netto. Il secondo si sposta di un intervallo riconoscibile,
+      mantenendo baselines e ritmo coerenti. Una campitura o un limite grafico riprende quello stesso
+      scarto e collega le due parti della pagina. Il vuoto rende percepibile il passaggio.
+
+      '
+    Text Adaptation: 'Conservare il testo integrale in un ordine naturale. Non isolare articoli o congiunzioni
+      soltanto per costruire una sagoma. Il cambio d''asse non richiede automaticamente un cambio di font
+      o di peso.
+
+      '
+    Format Adaptation: 'Nel verticale distribuire lo scarto lungo la sequenza di lettura; nei formati
+      larghi svilupparlo fra due aree collegate. Ricalibrare margini e campitura senza ritagliare parole.
+
+      '
+  - id: typographic-counterspace
+    Name: Massa e controspazio
+    Use When: 'La frase ha un ritmo forte o un ingombro esteso e deve portare quasi da sola la composizione,
+      senza un soggetto illustrato.
+
+      '
+    Structure: 'Una massa tipografica dominante si bilancia con un intervallo aperto e asimmetrico. Articolare
+      il testo in gruppi di scala diversa quando la sintassi lo consente, evitando un unico rettangolo
+      centrato. Una campitura facoltativa definisce un bordo o una controforma della stessa area di lettura.
+      Il contrasto tra pieno e vuoto sostiene il messaggio senza apparati decorativi.
+
+      '
+    Text Adaptation: 'Usare a capo per gruppi di senso e pochi registri coerenti. La frase completa resta
+      presente una sola volta. Se serve enfasi, darle una funzione di lettura; non aggiungere un''enorme
+      iniziale ripetuta sul fondo.
+
+      '
+    Format Adaptation: 'Ridefinire la massa e il vuoto per il rapporto richiesto, mantenendo almeno un
+      ancoraggio forte. Una frase lunga può usare un blocco più esteso senza riempire tutti i moduli.
+
+      '
+  - id: cropped-geometric-counterweight
+    Name: Contrappeso geometrico al vivo
+    Use When: 'Un segno astratto può rafforzare il ritmo o il significato della frase senza competere
+      con la lettura; non è necessario per ogni card.
+
+      '
+    Structure: 'La citazione occupa fasce allineate, con differenze di scala motivate dalla sintassi.
+      Una forma piatta, anche parzialmente fuori campo, fa da contrappeso e condivide un asse o un intervallo
+      con il testo. Conservare aree libere irregolari e una gerarchia netta; nessun simbolo o colore è
+      obbligatorio.
+
+      '
+    Text Adaptation: 'Il segno può essere ritagliato dal bordo, le parole della citazione no. Non coprire
+      lettere, spazi o punteggiatura né introdurre testo fittizio. La citazione rimane completa, una sola
+      volta e in ordine naturale.
+
+      '
+    Format Adaptation: 'Riadattare forma, testo e spazio aperto al formato e alla lunghezza della frase;
+      ridurre o togliere la forma se compromette la leggibilità. L''attribuzione eventuale mantiene un
+      asse destro leggibile.
+
+      '
+  - id: image-type-dialogue
+    Name: Dialogo fra immagine e carattere
+    Use When: 'Un''immagine pertinente può introdurre un contrasto o una tensione che la sola tipografia
+      non esprime altrettanto bene.
+
+      '
+    Structure: 'Un solo frammento visivo con forte separazione tonale incontra la frase attraverso un
+      margine, una controforma o un intervallo comune. Il ritaglio partecipa al progetto della pagina;
+      il testo conserva un campo locale leggibile e un percorso continuo.
+
+      '
+    Text Adaptation: 'Scegliere l''immagine per il significato della frase. Correggerne scala o ritaglio
+      prima di comprimere parole o nascondere la citazione. L''attribuzione, se presente, resta sul proprio
+      asse destro subordinato.
+
+      '
+    Format Adaptation: 'Ricomporre ritaglio, scala e zona di lettura per ogni formato; non trasformare
+      l''immagine in una fotografia autonoma sopra una didascalia.
+
+      '

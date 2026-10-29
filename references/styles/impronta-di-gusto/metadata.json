@@ -1,0 +1,33 @@
+{
+  "name": "Impronta di gusto",
+  "status": "Approvato per library, fuori selezione V1",
+  "cards": [
+    {
+      "quote": "Il tempo è un ingrediente che non si compra.",
+      "file": "esempio-1.png",
+      "prompt": "prompt-esempio-1.txt",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "047c8bd55579c050498c8b986f4e2365c655a86f10cd984abb2713b72f3cd3e7",
+      "composition": "Testo alto e sinistro, pane inciso crescente dal bordo basso e destro; le ultime righe occupano il suo incavo.",
+      "verification": "Testo, accento e punteggiatura riletti; immagine e lettere senza collisioni.",
+      "input_images": []
+    },
+    {
+      "quote": "Il gusto cresce quando la curiosità entra in cucina.",
+      "file": "esempio-2.png",
+      "prompt": "prompt-esempio-2.txt",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "dd10530232bfbf26f25d0a0a869c85b75bb2cb75c0950e06d4dc44054075ad8c",
+      "composition": "Due tagli di melanzana nella metà alta e lungo il bordo sinistro, frase prugna su asse destro in basso; distribuzione conservata dal target.",
+      "verification": "Testo e accento corretti; interno sostituito con polpa crema e piccoli semi ocra. Riconoscibilità culinaria migliorata, illustrazione stilizzata e non tavola botanica.",
+      "input_images": [
+        {
+          "file": "production-inputs/esempio-2-target.png",
+          "role": "edit target storico, non reference obbligatoria"
+        }
+      ]
+    }
+  ]
+}

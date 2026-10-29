@@ -1,0 +1,179 @@
+Design Style:
+  Name: Charcoal
+  Version: 0.2.0-experimental
+  Status: V1 candidate; approvato per la gallery il 28 ottobre 2026
+  Concept: 'Frase e piccolo disegno condividono la materia asciutta e polverosa del carboncino. Tratti
+    larghi, bordi friabili, sfumature locali e segni più incisi costruiscono una pagina essenziale, su
+    carta bianca oppure nera. Il disegno accompagna sempre il testo e ne interpreta il significato.
+
+    '
+  Canvas:
+    Ratio: '4:5'
+    Output: Card editoriale piatta a piena pagina, senza mockup.
+    Adaptation: Ricomporre frase, disegno e vuoti per il formato richiesto.
+  Mood:
+  - Tattile
+  - Intimo
+  - Essenziale
+  - Gestuale
+  - Contemplativo
+  Color Palette:
+    Fixed Colors: false
+    White Paper:
+      Paper: '#F5F3EE'
+      Deep Charcoal: '#232220'
+      Rubbed Charcoal: '#85827C'
+    Black Paper:
+      Paper: '#191A19'
+      White Drawing: '#EEECE4'
+      Rubbed Drawing: '#979990'
+    Roles: 'Scegliere una delle due carte per l''intera card. Su bianco usare carbone nero e grigi sfumati;
+      su nero usare pastello bianco secco o matita bianca morbida, con grigi chiari. Il bianco è un diverso
+      materiale da disegno, non carbone nero che produce segni bianchi. Le due varianti condividono grana,
+      pressione, bordi friabili e gerarchia. Una palette richiesta può sostituire i valori iniziali mantenendo
+      contrasto e identità asciutta.
+
+      '
+  Typography:
+    Quote: 'Lettering manuale ampio e leggibile, tracciato con il bordo o il fianco di uno stick morbido.
+      Alternare nuclei densi a leggere interruzioni della grana e variazioni di pressione. Una stessa
+      mano per la frase; irregolarità controllate, forme naturali e spazi fra parole evidenti. Il testo
+      deve sembrare disegnato sulla stessa carta dell''illustrazione, con un nucleo sufficientemente netto
+      da restare la prima lettura. Preferire una mano lavorata e non perfettina: ripassi, esitazioni e
+      terminazioni spezzate possono rimanere visibili senza oscurare i glifi.
+
+      '
+    Hierarchy: 'A capo per gruppi di senso, variazioni moderate di corpo o pressione quando significative.
+      Nessun obbligo di maiuscolo, corsivo o parola ingrandita. Preservare caso, parole, accenti e punteggiatura
+      esatti. Evitare lettere stirate, tracking usato per riempire e sfumature che cancellano parti necessarie
+      dei glifi.
+
+      '
+    Attribution: 'Solo se fornita o verificata, più piccola e leggera ma leggibile, allineata a un asse
+      destro chiaro. Se assente, omettere e ricomporre. Nessuna firma personale senza richiesta esplicita.
+
+      '
+  Layout:
+    Relationship: 'La frase domina il percorso di lettura. Un piccolo disegno riconoscibile la accompagna,
+      legato alla frase attraverso soggetto, gesto, direzione o un asse comune. Il disegno resta più piccolo
+      del campo del testo; può stare sopra, sotto o a lato senza coprire le parole.
+
+      '
+    Space: 'Conservare ampi intervalli di carta libera. Le sfumature sono locali, concentrate nel disegno
+      e nei passaggi del lettering; nessuna nube uniforme dietro tutta la citazione. Asimmetria e vuoti
+      calibrati sono possibili senza imporre una pagina sempre centrata.
+
+      '
+    Capacity: 'Per frasi lunghe semplificare il disegno e ridurre la densità dei segni prima di ridurre
+      il corpo. Il disegno rimane presente e riconoscibile. Non accorciare o duplicare il testo per conservare
+      un impaginato.
+
+      '
+  Elements:
+    Illustration:
+      Required: true
+      Selection: 'Includere sempre un piccolo disegno pertinente al contenuto attuale. Scegliere un oggetto,
+        una forma naturale, una figura o una relazione semplice. Repertorio aperto: nessun obbligo di
+        conchiglia, volto, pianta, lampadina o altro soggetto ricorrente. Una macchia, un alone o una
+        sottolineatura da soli non soddisfano il requisito.
+
+        '
+      Treatment: 'Disegno sintetico a carboncino: masse tonali, contorni interrotti, segni di punta e
+        fianco, qualche accento scuro o chiaro e sfumature fatte per sfregamento. Il soggetto rimane leggibile
+        anche ridotto. Su carta nera il bianco costruisce luci e volumi lasciando visibile la carta nelle
+        ombre, senza invertire meccanicamente un''immagine.
+
+        '
+  Effects:
+    Dry Medium: 'Pigmento asciutto che incontra la grana della carta: deposito denso, piccoli vuoti, polvere
+      aderente e bordi leggermente spezzati. Alternare poche linee incise a passaggi larghi e morbidi.
+      Evitare il tratteggio fine uniforme e la lucentezza da grafite come effetto principale.
+
+      '
+    Blending: 'Sfumature locali, irregolari e orientate al volume; possono convivere con bordi netti.
+      Non applicare sfocatura digitale all''intera immagine.
+
+      '
+    Worked Surface: 'La variante più materica su carta chiara usa depositi friabili, qualche briciola,
+      contorni cercati, polvere trascinata e tracce di sfregamento locali, mantenendo intervalli puliti.
+      Disegno sintetico e non rifinito; evitare patine uniformi e macchie aggiunte senza rapporto con
+      il gesto.
+
+      '
+    Lifting: 'Su bianco, leggere asportazioni rivelano la carta; su nero, il pigmento bianco depositato
+      produce le luci. Nessun bagliore luminoso o rilievo.
+
+      '
+    Surface: 'Carta opaca da disegno a grana percepibile, chiara o nera. Superficie piatta, senza lavagna,
+      gesso scolastico, cornici, mani o strumenti in foto.
+
+      '
+  Content Contract:
+    quote: Frase esatta e completa, una sola volta.
+    author: Solo attribuzione fornita o verificata, facoltativa.
+    other_text: Nessun titolo, numero, data, marchio o firma inventati.
+  Rules:
+  - Ogni card contiene la frase completa e un piccolo disegno riconoscibile.
+  - Il disegno interpreta il testo e resta subordinato alla lettura.
+  - Carta bianca e carta nera sono due varianti dello stesso stile.
+  - Anche le lettere hanno materia asciutta; accenti e punteggiatura restano chiari.
+  - Polvere, sfumatura e masse tonali distinguono il carboncino dalla matita fine.
+  - Non trasformare la variante nera in una lavagna decorativa o un'insegna.
+  - Soggetto, composizione e carta non sono fissati dagli esempi.
+  User Overrides:
+    Paper: Rispettare la carta bianca o nera richiesta; altrimenti scegliere per il contenuto.
+    Format: Ricomporre senza tagliare frase o disegno.
+    Palette: Applicare i colori richiesti mantenendo materia asciutta e contrasto.
+    Typography: Rispettare la direzione richiesta preservando la leggibilità.
+  Production:
+    Preferred Mode: generative
+    Validation Status: 'Due frasi e due soggetti; carta bianca e nera. Prima frase rifinita con materia
+      più sporca, seconda composizione indipendente con ramo al margine. Testi e anteprime ispezionati.
+      Attribuzioni, altri formati e ripetibilità generale non provati. Note nei file della cartella.
+
+      '
+Composition Library:
+  Style Name: Charcoal
+  Selection:
+    Basis: 'Scegliere la relazione fra frase e piccolo disegno in base a lunghezza, significato e formato.
+      Ogni famiglia funziona su carta bianca o nera; la scelta del fondo non determina automaticamente
+      l''impaginato.
+
+      '
+    Variation: 'Variare soggetto, posizione, direzione, densità e a capo. Conservare il piccolo disegno
+      obbligatorio e il primato del testo. Per revisioni mirate mantenere le scelte già accettate.
+
+      '
+  Families:
+  - id: contrappunto
+    Name: Frase e piccolo contrappunto
+    Use When: Una frase breve o media può formare un campo di lettura compatto.
+    Structure: 'Un campo di parole dominante bilanciato da un piccolo disegno sopra o sotto, leggermente
+      decentrato. Un vuoto intenzionale separa e mette in relazione le due parti, con un asse o una direzione
+      condivisi.
+
+      '
+    Text Adaptation: 'A capo per senso; pressione più marcata dove serve alla gerarchia. Lasciare chiari
+      spazi fra righe e parole, senza giustificazione forzata.
+
+      '
+    Format Adaptation: 'Riorganizzare campo e contrappunto nel formato. In orizzontale il disegno può
+      passare accanto al testo mantenendo la differenza di scala.
+
+      '
+  - id: margine-vivo
+    Name: Disegno al margine della frase
+    Use When: Una frase lunga o una direzione del soggetto suggerisce una relazione laterale.
+    Structure: 'Frase su un asse chiaro e piccolo disegno nel margine laterale libero, vicino a un passaggio
+      significativo. Il gesto del disegno orienta la lettura senza diventare una cornice o toccare lettere
+      accidentalmente.
+
+      '
+    Text Adaptation: 'Conservare una larghezza utile alla lettura; ridurre e semplificare il disegno prima
+      di comprimere il testo. Nessuna riga deformata per incastrarsi intorno al soggetto.
+
+      '
+    Format Adaptation: 'Su formati stretti spostare il disegno sopra o sotto un margine del campo, mantenendo
+      la relazione con la frase e un intervallo leggibile.
+
+      '

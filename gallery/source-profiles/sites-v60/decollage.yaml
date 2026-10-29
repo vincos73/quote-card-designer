@@ -1,0 +1,191 @@
+Design Style:
+  Name: Decollage
+  Status: Research-led experimental profile; outside V1; two studies with documented material limits
+  Concept: 'A palimpsest of pasted street posters is selectively torn away so older printed images, colour
+    and words re-emerge. The visual action is subtraction through accumulated paper, not an arrangement
+    of isolated cutout stickers. Uneven apertures, exposed fibres, interrupted print and preserved islands
+    of image and quotation reveal different moments on the same continuous surface.
+
+    '
+  Reference Basis:
+    Research: ricerca.md
+    Scope: 'Draw on Mimmo Rotella''s documented décollage practice and the user''s three visual examples.
+      This is a new editorial interpretation, not an authentic work, a copy or a reproduction signed by
+      the artist. The supplied images have not all been authenticated as Rotella works.
+
+      '
+    Transfer: 'Transfer the logic of layered posters, removal, revealed print and balanced material contrasts.
+      Do not import celebrities, film titles, publisher marks, signatures, slogans or the precise source
+      layout. No reference image is a permanent required generation input.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: One flat full-bleed editorial quote card
+    Adaptation: Recompose tear paths, revealed image and reading islands for each format.
+  Mood:
+  - Urban
+  - Material
+  - Layered
+  - Fragmentary
+  - Expressive
+  - Revealing
+  Color Palette:
+    Fixed Colors: false
+    Roles:
+      Poster Layers: Broad contrasting printed fields with distinct paper identities
+      Exposed Paper: Variable cream, pale fibres, darker backing or adhesive traces
+      Quotation: A stable high-contrast printed reading register
+      Image: Source-like printed colour, monochrome or selective halftone
+    Selection: 'Red, yellow, blue, black and aged paper can suggest poster history, but are not compulsory.
+      Choose a coherent set for the phrase. Muted reverse-paper colours or a monochrome treatment are
+      alternatives. Let each tear reveal a meaningfully different layer, not random confetti.
+
+      '
+  Typography:
+    Primary:
+      Direction: Bold poster printing, with a coherent grotesk, condensed or slab voice
+      Integration: 'The quotation appears printed on surviving or newly exposed poster areas. Ink follows
+        the paper grain and local wear. It is not a clean digital caption floating above an unrelated
+        torn-paper background.
+
+        '
+      Legibility: 'Preserve complete letters, visible word spaces, supplied accents and punctuation. Tears
+        may approach text, cross its surrounding field or expose it, but never remove required parts of
+        the quotation.
+
+        '
+    Hierarchy: 'Organise the complete sentence into a few substantial semantic groups that can belong
+      to related revealed print areas. A meaningful word may be larger. Avoid one independent ransom-note
+      scrap per glyph.
+
+      '
+    Attribution: 'Only a supplied or verified exact name, smaller and quieter, right-aligned to a clear
+      margin within a stable paper area. Omit its reserved space when absent; personal signatures require
+      an explicit request.
+
+      '
+  Layout:
+    Invariants:
+    - Several materially distinct poster layers belong to one pasted surface
+    - Tears remove upper paper and reveal specific lower printed material
+    - A dominant revealed image, quotation or aperture gives the surface a focus
+    - The complete quotation retains one clear reading sequence
+    - Printed image and lettering share the same physical paper history
+    Tear Logic: 'Plan broad losses, narrower rip paths and intact islands at varied scales. A tear should
+      expose another paper plane with its own colour, image or backing; it is not simply a white jagged
+      stroke. Fibre lips vary with the direction and depth of the tear. Keep some image and print intact
+      so their interruption is meaningful.
+
+      '
+    Balance: 'Compose chromatic masses, dark anchors and open exposed paper with intent. Concentrate the
+      strongest activity around a relationship to the phrase, rather than covering every square centimetre
+      equally.
+
+      '
+    Reading: 'Place the quoted words inside stable surviving print regions and connect their order through
+      scale, alignment and intervals. The irregular surface must still permit a natural complete reading.
+
+      '
+  Imagery:
+    Subject: 'A printed portrait, everyday object, place or other image selected for the quotation. Film-poster
+      imagery is an available vocabulary, not a mandatory celebrity, face or historical movie reference.
+
+      '
+    Treatment: 'Reproduced ink on matte paper, with believable halftone, limited colour or worn photographic
+      printing when useful. Images are interrupted by actual layer boundaries, not fragmented by a global
+      scratch texture or a seamless surreal transformation.
+
+      '
+    Partial Figures: Any interruption of a depicted person is a tear in printed paper, not a bodily injury.
+    Provenance: Generated poster-like imagery is newly made, not an authenticated historical poster or
+      physical décollage.
+  Graphic Elements:
+    Core:
+    - Large irregular openings and surviving poster islands
+    - Torn lips, exposed paper fibres and thin local adhesive traces
+    - Interrupted printed imagery and substantial poster lettering
+    - Occasional verso paper or muted wall-contact residue
+    Background Print: 'Use cropped nonverbal traces of ink, halftone and incomplete letter strokes when
+      needed. Do not invent readable event listings, film credits or pseudo-newspaper copy to imitate
+      found material. The quotation is the sole complete written message unless more is supplied.
+
+      '
+    Restraint: Tape, staples, spray paint, neon, framing devices and splatter are not default requirements.
+  Effects:
+    Paper: Matte pasted stocks, stratified thickness, directional tears and revealed backing
+    Ink: Uneven or interrupted printed density belonging to individual layers
+    Depth: Shallow physical paper relief with restrained contact shadows
+    Exclusions: No glossy sticker edges, bevels, uniform grunge mask, confetti scrapbook or random floating
+      cutouts
+  Content Contract:
+    quote: The full supplied sentence once, with exact case and punctuation
+    author: Only supplied or verified attribution, subordinate and right-aligned
+    supporting: No copied titles, invented credits, brands, dates, signatures or readable filler
+  Rules:
+  - Make removal reveal a different printed layer, rather than merely roughening the surface.
+  - Preserve intact areas that allow the reader to perceive what has been interrupted.
+  - Compose the quotation and tear paths together without losing required glyphs.
+  - Keep subjects, palettes and the density of damage adaptable to the request.
+  - Let every optional texture belong to a specific paper or print layer.
+  - Do not describe a generated image as an authentic work or sign it with an artist's name.
+  Production:
+    Preferred Mode: hybrid
+    Rationale: 'Generate the complete décollage composition, paper relationships, image and quotation
+      together with ImageGen. Exact wording may later be refined on that generated base; an unrelated
+      typeset overlay on a generic distressed texture does not establish this language.
+
+      '
+    Validation Status: 'One complete ImageGen application uses an anonymous printed portrait and SOTTO
+      OGNI STRAPPO RESTA UNA STORIA. No image references were supplied to generation. A targeted correction
+      reduced overly thick plaster-like edges and introduced clearer paper flaps, but the surface retains
+      pronounced crease/crack texture. Text and legibility were checked at native resolution and 320 pixels
+      wide. A second study uses an old printed key and IL PASSATO APRE ANCORA PORTE., with bottle green,
+      brick red, cream and broader removals. Its words, punctuation and object were checked at native
+      resolution and 320 pixels wide. The second image retains pronounced wear and an orderly poster-like
+      arrangement; the layered interruption is only partially achieved. The two remaining families are
+      untested. See note.md and note-2.md.
+
+      '
+Composition Library:
+  Style Name: Decollage
+  Selection:
+    Basis: Choose one revealing relationship between tear, printed image and quotation from the actual
+      phrase.
+    Variation: Vary the dominant revealed area and tear logic, not only colours or a stock distressed
+      texture.
+  Families:
+  - id: revealed-image
+    Name: Immagine riaffiorante
+    Use When: A recognisable printed subject can embody the sentence's idea of memory, identity or discovery.
+    Structure: 'A dominant older printed image is partly uncovered beneath broad upper poster remnants.
+      A few stable neighbouring print areas carry the sentence. Tear paths connect these regions while
+      leaving enough of the image intact to make its reappearance perceptible.
+
+      '
+    Text Adaptation: Use semantic groups and a continuous reading order; do not use damage to justify
+      missing letters.
+    Format Adaptation: Rebalance image scale and surviving reading islands for the requested ratio.
+  - id: typographic-excavation
+    Name: Parole sotto la superficie
+    Use When: The wording itself can lead the composition without a figurative protagonist.
+    Structure: 'Selective removal exposes related large printed words from one or two lower paper layers.
+      Upper fields and interrupted older graphics surround them with real material depth. The quotation
+      is the focus; no complete poster caption is added on top.
+
+      '
+    Text Adaptation: Preserve the whole sentence once and make its semantic sequence unambiguous across
+      the openings.
+    Format Adaptation: Adapt openings and text group sizes together rather than shrink a fixed torn frame.
+  - id: verso-and-print
+    Name: Retro e tracce di stampa
+    Use When: A quieter material interpretation is more useful than a saturated iconic poster.
+    Structure: 'Expose broad regions of paper backing, glue-toned areas and restrained printed remnants.
+      A surviving printed region carries the readable sentence; absence and residue shape the page. This
+      is an editorial adaptation informed by verso paper, not a claim that historical retro d''affiches
+      always contained a readable quotation.
+
+      '
+    Text Adaptation: Use a coherent high-contrast register on the surviving print area; omit invented
+      labels or archive metadata.
+    Format Adaptation: Preserve broad material intervals and substantial text at the target ratio.

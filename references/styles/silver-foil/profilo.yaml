@@ -1,0 +1,143 @@
+Design Style:
+  Name: Silver Foil
+  Version: 0.1.0-experimental
+  Status: V1 candidate; approvato per la gallery il 28 ottobre 2026
+  Concept: 'Argento, luce e pressione costruiscono una citazione tattile. Due linguaggi compatibili ma
+    distinti: superficie argentata continua con parole impresse, oppure lettering in lamina argento su
+    carta opaca. La tipografia resta protagonista e i riflessi chiariscono le forme.
+
+    '
+  Canvas:
+    Ratio: '4:5'
+    Output: Card editoriale piatta a piena pagina, senza mockup.
+    Adaptation: Ricomporre frase, rilievo e vuoti per il formato richiesto.
+  Mood:
+  - Tattile
+  - Luminoso
+  - Tipografico
+  - Freddo
+  - Contemporaneo
+  Color Palette:
+    Fixed Colors: false
+    Starting Roles:
+      Silver Highlight: '#F2F3F2'
+      Silver Midtone: '#B8BEC0'
+      Silver Reflection: '#535A5C'
+      Matte Paper: '#082C31'
+    Selection: 'Nella superficie continua il fondo è argento e il contrasto deriva dal rilievo. Nella
+      lamina selettiva il fondo opaco scuro distingue le lettere riflettenti. La carta può cambiare su
+      richiesta mantenendo la differenza fra materie; evitare un obbligo di petrolio o nero.
+
+      '
+  Typography:
+    Quote: 'Frase esatta, una volta, con caso, accenti e punteggiatura conservati. Scegliere un registro
+      leggibile: sans robusta nel campo continuo, calligrafia occidentale aperta nella variante selettiva.
+      Non imporre la maiuscola o cambiare il caso per imitare una reference.
+
+      '
+    Spacing: 'Proporzioni naturali, occhielli aperti, spazi tra parole riconoscibili, a capo per senso.
+      Gli svolazzi non attraversano lettere necessarie; le ombre del rilievo non chiudono gli occhielli.
+
+      '
+    Attribution: 'Solo se fornita o verificata, più piccola e leggera ma leggibile, allineata a un asse
+      destro chiaro. Se manca, omettere e ricomporre. Nessuna firma personale senza richiesta esplicita.
+
+      '
+  Layout:
+    Relationship: 'Scegliere una delle due famiglie, senza sommarle automaticamente. La frase resta immediata;
+      rilievo e riflessi ne sostengono la lettura. Conservare zone quiete e margini sufficienti per punti
+      e accenti.
+
+      '
+    Motif: 'Un piccolo motivo pertinente può condividere la superficie impressa. Nella card puramente
+      tipografica è facoltativo. Soggetti aperti: nessun obbligo di origami, stelle, animali, cartigli
+      o monogrammi.
+
+      '
+    Capacity: 'Per testi lunghi ridurre ornamenti e ampiezza degli svolazzi prima del corpo. Non comprimere
+      singole parole o abbreviare la citazione.
+
+      '
+  Elements:
+    Continuous Field: 'Lamina argentata estesa, impronte poco profonde e poche pieghe locali. Il centro
+      della lettura può essere più liscio della periferia.
+
+      '
+    Selective Foil: 'Lettere riflettenti su carta opaca, con variazioni fini di contatto e bordo di pressione
+      contenuto, senza oggetti o adesivi sovrapposti.
+
+      '
+  Effects:
+    Reflection: 'Una luce coerente produce alti chiari, mezzi toni argento e riflessi grigio scuro sulla
+      stessa materia. Evitare un gradiente ripetuto, inchiostro bianco piatto, bagliori artificiali e
+      stelle luminose.
+
+      '
+    Pressure: 'Rilievo contenuto e continuo col supporto, con labbri e cavità plausibili. Nessun grande
+      smusso, metallo gonfiato o estrusione.
+
+      '
+    Surface: 'Nel campo continuo poche pieghe indicano la sottigliezza della lamina; nella variante selettiva
+      la carta resta opaca e calma. Non applicare graffi o grunge uniformi per fingere materialità.
+
+      '
+  Content Contract:
+    quote: Frase completa ed esatta una sola volta.
+    author: Solo attribuzione fornita o verificata, facoltativa.
+    other_text: Nessun marchio, QR, numero, data, titolo o firma inventati.
+  Rules:
+  - La differenza fra lamina continua e selettiva è una scelta strutturale.
+  - Preservare contrasto locale e glifi integri nei riflessi.
+  - Le lettere appartengono al supporto, senza cromo tridimensionale gonfiato.
+  - Non copiare testi, motivi o impaginati esatti delle reference.
+  - Non presentare la simulazione come stampa fisica o esecutivo produttivo.
+  Production:
+    Preferred Mode: generative
+    Validation Status: 'Due frasi, composizioni e fondi distinti con ImageGen integrato. Prima prova con
+      campo argentato e rilievo più pronunciato del previsto. Seconda calligrafica corretta per la s iniziale
+      di sorprende; testi finali e anteprime verificati. Frasi lunghe e ripetibilità non provate. Nessuna
+      reference permanente adottata; ricerca in ricerca.md.
+
+      '
+Composition Library:
+  Style Name: Silver Foil
+  Selection:
+    Basis: 'Scegliere campo argentato continuo o lamina selettiva in relazione alla frase e alla richiesta.
+      Le due famiglie non sono livelli da sommare obbligatoriamente nella stessa card.
+
+      '
+    Variation: 'Variare gerarchia, posizione, densità, soggetto eventuale e supporto; conservare leggibilità
+      e una sola luce coerente per la materia.
+
+      '
+  Families:
+  - id: campo-continuo
+    Name: Parole impresse nella superficie argentata
+    Use When: Il contenuto può sostenere un campo metallico e forme semplici.
+    Structure: 'Citazione dominante impressa nella stessa lamina che copre il campo. Un piccolo motivo
+      può condividere il rilievo; lasciare superficie quieta e collocare le pieghe lontano dai glifi.
+
+      '
+    Text Adaptation: 'Sans robusta o altro registro aperto, a capo leggibili, contrasto da ombre contenute.
+      Conservare caso e punteggiatura senza grandi smussi.
+
+      '
+    Format Adaptation: 'Ricomporre blocco e motivo per il formato, senza tagliare testo o trasformare
+      il foglio in un oggetto fotografato.
+
+      '
+  - id: lamina-selettiva
+    Name: Calligrafia argento su carta opaca
+    Use When: La frase beneficia di ritmo calligrafico e spazio scuro quieto.
+    Structure: 'Lettere in lamina selettiva dominano la carta opaca. Gli svolazzi abitano lo spazio libero
+      senza creare cornici o pseudo-scritte.
+
+      '
+    Text Adaptation: 'Un''unica mano coerente, tratti sottili abbastanza visibili, minuscole e maiuscole
+      fedeli; ornamenti ridotti per testi lunghi.
+
+      '
+    Format Adaptation: 'Ridistribuire righe, svolazzi e vuoti; mantenere glifi integri, margini e riflessi
+      leggibili nel nuovo formato.
+
+      '

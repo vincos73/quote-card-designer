@@ -1,0 +1,73 @@
+Design Style:
+  Name: Sticky Note
+  Concept: 'Un promemoria fisico riposizionabile: carta sottile e scrittura personale, con una relazione
+    fra adesione, bordo libero, luce e contenuto. Il foglietto è il supporto del pensiero, non un oggetto
+    decorativo fra accessori da scrivania.'
+  Canvas:
+    Ratio: '4:5'
+    Output: Una card completa frontale per social, senza cornice o mockup ambientato.
+  Mood: Intimo, diretto, provvisorio ma curato.
+  Color Palette:
+    Default: Giallo limone chiaro, blu inchiostro e avorio
+    Adaptation: Palette sostituibile su richiesta; preservare contrasto locale e ruoli di supporto, frase
+      e accento. Applicarla anche al piccolo disegno.
+  Typography:
+    Quote: Scrittura a penna o pennarello sottile, grande e leggibile, con ritmo umano, proporzioni naturali
+      e piccole variazioni di pressione. Non imporre maiuscolo o font calligrafico; conservare il caso
+      del testo.
+    Hierarchy: Frase primo elemento di lettura e disegno secondario. A capo per gruppi di senso, nessuna
+      deformazione locale per evitare un’immagine.
+    Attribution: Solo se fornita o verificata, registro più piccolo e quieto, allineato a destra su un
+      asse leggibile. In assenza ricomporre senza segnaposto.
+  Layout:
+    Principle: Una nota dominante o pochi foglietti funzionalmente legati. Frase sempre leggibile sul
+      supporto; lasciare spazio al gesto di riposizionare, aderire o sollevare. Il piccolo disegno può
+      reagire a un margine o alla luce senza trasformare la card in una natura morta.
+    Adaptation: Scegliere una sola relazione compositiva in base al significato. Frasi lunghe richiedono
+      meno elementi e nuovi a capo; non imitare un esempio rimpicciolito. Variare relazione e struttura
+      per nuove card.
+  Elements:
+    Imagery: Un piccolo disegno pertinente, spontaneo ma riconoscibile, nella stessa penna della frase.
+      Il suo rapporto col bordo, con il vuoto o con la direzione della luce può interpretare il contenuto.
+    Surface: Carta opaca sottile, bordo superiore aderente e una parte libera che può incurvarsi appena.
+      Ombra morbida discontinua coerente con il punto di adesione, senza rilievo uniforme o foglio pesante.
+  Effects:
+    Material: Carta opaca sottile, bordo superiore aderente e una parte libera che può incurvarsi appena.
+      Ombra morbida discontinua coerente con il punto di adesione, senza rilievo uniforme o foglio pesante.
+    Restraint: Effetti subordinati alla lettura; niente rumore uniforme o dettagli di riempimento.
+  Rules:
+  - Conservare la frase una sola volta con caso, parole, accenti, punteggiatura e ordine esatti.
+  - Nessun autore, firma, testo o marchio inventato.
+  - Disegno piccolo, riconoscibile e pertinente alla frase.
+  - Niente marchi Post-it o altri loghi, foglietti con parole fittizie, checklist o date aggiunte.
+  - Evitare panni, tazze, laptop e accessori da scrivania non richiesti.
+  - La piega deve seguire la carta e non piegare o nascondere lettere essenziali.
+  Content Contract:
+    quote: Testo esatto fornito o approvato.
+    author: Facoltativo, fornito o verificato; distinto dalla firma personale.
+Composition Library:
+  Style Name: Sticky Note
+  Selection:
+    Principle: Scegliere una famiglia in base a frase, formato e rapporto col piccolo soggetto. Non combinarle
+      automaticamente.
+    Variation: Per una nuova prova cambiare relazione o struttura quando il testo lo giustifica; colore
+      e soggetto da soli non provano varietà.
+  Families:
+  - id: anchored-edge
+    Name: Bordo aderente e spazio libero
+    Use When: Quando il contenuto parla di attenzione, respiro o apertura.
+    Structure: Una nota ancorata su un lato; area calma e piccolo disegno vicino al bordo libero. Luce
+      e vuoto hanno funzione semantica.
+    Text Adaptation: Frase dominante, a capo per senso, ordine di lettura unico, eventuale autore subordinato
+      a destra. Su testo lungo ridurre repertorio e ricomporre.
+    Format Adaptation: Adattare masse e vuoti al rapporto richiesto, senza tagliare parole o rimpicciolire
+      un esempio. Il 4:5 è un punto di partenza.
+  - id: repositioned-note
+    Name: Nota riposizionata
+    Use When: Quando il testo riguarda cambiamento, memoria o priorità.
+    Structure: La nota lascia una zona di supporto visibile; una traccia discreta o un secondo foglio
+      senza testo rendono leggibile il cambiamento di posizione, senza duplicare la frase.
+    Text Adaptation: Frase dominante, a capo per senso, ordine di lettura unico, eventuale autore subordinato
+      a destra. Su testo lungo ridurre repertorio e ricomporre.
+    Format Adaptation: Adattare masse e vuoti al rapporto richiesto, senza tagliare parole o rimpicciolire
+      un esempio. Il 4:5 è un punto di partenza.

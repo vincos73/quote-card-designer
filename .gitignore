@@ -3,3 +3,8 @@ gallery/__pycache__/
 gallery/*.pyc
 build/
 .DS_Store
+
+# Local consultation copies; source links remain in each style's research notes.
+references/styles/carta-comune/research-assets/
+references/styles/impronta-di-gusto/research/Chowdown-source.pdf
+references/styles/impronta-di-gusto/research/Chowdown-page-*.png

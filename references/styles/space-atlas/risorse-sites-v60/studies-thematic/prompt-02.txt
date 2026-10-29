@@ -1,0 +1,11 @@
+Use case: precise-object-edit. EDIT the attached complete quote card. It is the EDIT TARGET, not a loose style reference. Change ONLY the typeface/custom lettering language. Preserve the complete celestial map, all star positions and symbol sizes, vermilion projection arcs, constellation connections, diagonal dense stippled stellar band, ivory paper texture, composition, line positions, text hierarchy, warm ivory field and ink-navy text color. Do not recolor, redraw or rearrange the sky.
+
+Replace the ordinary bold sans lettering with a distinctive custom ORBITAL GEOMETRIC display alphabet: precisely drawn rounded-rectangular and elliptical bowls, strongly characteristic open circular C/G curves, orbital curved junctions in a/e/o/d, compact geometric proportions, substantial confident strokes and a small coherent set of deliberate stencil apertures. These must look like purposeful custom glyphs, not missing print or accidental damage. An experimental refined space-poster lettering language, with natural kerning and natural clear word spaces. NOT a common neo-grotesk, not monospace, not generic widely tracked sci-fi capitals. Keep mixed case exactly as shown. Do not turn letters into icons or let celestial map lines substitute for letter strokes. No ambiguous ligatures. All words must remain immediately and unambiguously readable. The new geometry must be clearly distinctive at thumbnail size, not simply a normal sans with a few tiny notches.
+
+Preserve the exact text ONCE and its current four-line placement in two groups:
+"Ogni scoperta
+comincia
+da un punto
+nel buio."
+
+Maintain the current gap between upper and lower text groups, all line starts and approximate text footprint. Keep every word's proportions and spaces natural; do not force equal line widths with arbitrary tracking. Only change the lettering family while generating the complete edited card. No new labels, title, attribution, signature, numbers, symbols or watermark. Protect every original part outside the glyph shapes.

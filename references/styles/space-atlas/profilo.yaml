@@ -1,0 +1,57 @@
+"Design Style":
+  "Name": "Space Atlas"
+  "Status": "Studio tematico da valutare; nessuna promozione automatica a V1 o Candidates"
+  "Concept": "La grammatica dell’atlante celeste diventa graphic design contemporaneo. La frase ha un lettering caratteristico e condivide il campo con proiezioni e densità stellari."
+  "Canvas":
+    "Ratio": "4:5"
+    "Output": "Composizione raster completa, testo incluso"
+    "Adaptation": "Ricomporre per il formato richiesto, conservando testo e proporzioni dei glifi."
+  "Mood":
+    - "Editoriale"
+    - "Tematico"
+    - "Sperimentale"
+  "Color Palette":
+    "Fixed Colors": false
+    "Policy": "Scegliere una palette armonica per fondo, testo e immagine in funzione del quote e delle preferenze. Nero e verde non sono obbligatori. Mantenere contrasto locale e ruoli chiari."
+  "Typography":
+    "Quote": "Lettering geometrico orbitale con curve circolari o ellittiche, raccordi caratteristici e tagli stencil coerenti. Originale ma sempre leggibile, senza spaziatura arbitraria."
+    "Spacing": "Kerning, wordspace e proporzioni naturali; risolvere capienza con a capo, composizione e scala, non tracking arbitrario."
+    "Attribution": "Facoltativa, esatta, più piccola e leggera, allineata a destra su un asse chiaro. Se assente, recuperare lo spazio."
+    "Signature": "Solo se richiesta; distinta dall’autore, mai ricavata dal profilo personale."
+  "Imagery":
+    "Language": "Archi di proiezione, punti e circoli di scala diversa, addensamenti e piccoli tratti di costellazione. Cieli concettuali, salvo dati astronomici forniti e verificati."
+    "Selection": "Il soggetto deriva dal significato della frase; gli esempi non sono soggetti fissi."
+  "Layout":
+    "Relation": "Il centro della proiezione, le curve e la fascia stellare aprono gli intervalli della frase e ne rafforzano il percorso."
+    "Variation": "Scegliere struttura, scala e densità dalla frase; variare la composizione oltre alla palette."
+  "Effects": "Superficie da atlante stampato, linee sottili e densità puntinate, senza eccesso di glow."
+  "Exclusions": "Niente coordinate, nomi di costellazioni o dati fittizi; nessun obbligo di blu, pianeta 3D, astronave o interfaccia HUD."
+  "Content Contract":
+    "quote": "Testo completo una volta, con parole, cassa, accenti e punteggiatura conservati."
+    "other_text": "Nessun autore, firma, dato, logo o testo di riempimento inventato."
+  "Production":
+    "Method": "ImageGen integrato per ogni composizione completa, testo incluso. Nessuna scritta impaginata sopra un solo fondo generato."
+    "Reference Inputs": "Le reference e i target delle edit storiche non sono requisiti permanenti. Le proprietà da trasferire vanno dichiarate quando si usano immagini."
+    "Profile Provenance": "Codifica di studio ricavata dai brief, dalle revisioni e dalle decisioni dell’utente; i prompt effettivi degli esempi sono archiviati separatamente."
+    "Validation": "Due immagini native 1122×1402, quasi 4:5, con testi diversi, rilette visivamente. Font esatto, contrasto raster, attribuzioni, altre lunghezze e altri formati non certificati."
+  "Study Note": "Sono mostrate le revisioni con lettering orbitale. Gli originali con sans ordinaria non sono gli esempi correnti."
+"Composition Library":
+  "Style Name": "Space Atlas"
+  "Selection":
+    "Basis": "Scegliere dal senso della frase e dall’ingombro del testo."
+    "Variation": "Repertorio aperto di relazioni, non template a coordinate fisse."
+  "Families":
+    -
+      "id": "off-centre-polar"
+      "Name": "Proiezione polare decentrata"
+      "Use When": "Quando la relazione sostiene il senso e la leggibilità della frase."
+      "Structure": "Archi radiali e concentrici rispondono a un blocco di parole asimmetrico."
+      "Text Adaptation": "A capo per gruppi di senso, proporzioni e spazi naturali, attribuzione eventuale su asse destro."
+      "Format Adaptation": "Ricomporre nel rapporto richiesto; non ritagliare o deformare il testo."
+    -
+      "id": "oblique-stellar-band"
+      "Name": "Fascia stellare obliqua"
+      "Use When": "Quando la relazione sostiene il senso e la leggibilità della frase."
+      "Structure": "Una fascia a densità diversa attraversa gli intervalli fra gruppi di frase."
+      "Text Adaptation": "A capo per gruppi di senso, proporzioni e spazi naturali, attribuzione eventuale su asse destro."
+      "Format Adaptation": "Ricomporre nel rapporto richiesto; non ritagliare o deformare il testo."

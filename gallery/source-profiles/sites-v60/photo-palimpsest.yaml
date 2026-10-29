@@ -1,0 +1,92 @@
+Design Style:
+  Name: Photo Palimpsest
+  Status: Nome provvisorio; studio sperimentale, fuori dal catalogo
+  Concept: >
+    Frammenti fotografici riconoscibili diventano una superficie di
+    lavoro condivisa con pittura, segni manuali e ritagli di carta.
+    La citazione attraversa il campo compositivo come parte della pagina,
+    in un intreccio di immagini e interventi materici.
+  Reference Basis:
+    Notes: note-prova-1.md
+    Transfer: >
+      Dai quattro riferimenti forniti riprendere la fotografia alterata
+      da interventi pittorici, la sovrapposizione irregolare di immagini
+      e carta, l'integrazione di scrittura e segni. Non riprodurre volti,
+      opere, loghi, testi, firme, pose o composizioni delle fonti.
+  Distinction:
+    Photo Marker: >
+      Non limitarsi a un'unica fotografia continua con contorni a marker:
+      tagli, superfici incollate e pittura intervengono nella fotografia.
+    Dada: >
+      Il centro è l'immagine fotografica rielaborata come superficie
+      pittorica, con scrittura manuale; il montaggio di parole ritagliate
+      e il paradosso surrealista non sono necessari.
+    Art Journal: >
+      La materia fotografica riconoscibile è un elemento costitutivo,
+      non un'aggiunta facoltativa a un disegno d'autore.
+    Décollage: >
+      La fotografia è una superficie continua o parzialmente frammentata
+      su cui agiscono pittura, trasferimenti e segni manuali. Non costruire
+      la pagina con fasce di manifesti strappati o una striscia per parola.
+  Canvas:
+    Ratio: '4:5'
+    Output: Una quote card editoriale piatta a piena pagina
+    Adaptation: Ricomporre foto, parole e segni secondo il formato.
+  Mood: [Materico, Fotografico, Gestuale, Stratificato, Editoriale, Intimo]
+  Color Palette:
+    Fixed Colors: false
+    Roles: >
+      Fotografie, carta e pittura scelgono tonalità pertinenti alla frase;
+      il lettering mantiene contrasto. Il blu della prova non è obbligatorio.
+  Typography:
+    Quote: >
+      La frase è la prima lettura: lettering espressivo a mano o dipinto
+      in una forma leggibile, con gerarchia, interlinea e spazi fra parole.
+      Preservare parole, maiuscole, accenti e punteggiatura esatti una volta.
+      Il soggetto non deve coprire lettere; la composizione può unire
+      le parole alle immagini senza costringerle in una fascia separata.
+    Attribution: Solo se fornita o verificata; secondaria e leggibile.
+  Layout:
+    Structure: >
+      Organizzare un percorso di lettura semplice fra fotografie e campi
+      di carta, lasciando intervalli calmi. Alternare zone ricche e zone
+      aperte; evitare griglie di riquadri o sovrapposizioni casuali.
+    Integration: >
+      Le immagini possono incastrarsi, essere coperte in parte da pittura,
+      proseguire in una linea tracciata a mano o comparire fra carte diverse.
+      La citazione interagisce con tali passaggi senza perdere leggibilità.
+  Imagery:
+    Photography: >
+      Usare almeno un'immagine fotografica riconoscibile, scelta per la
+      frase: persone anonime, oggetti, paesaggi e materiali sono possibili.
+      Una figura umana e un volto non sono obbligatori.
+    Transformation: >
+      La pittura, i trasferimenti e i segni trasformano la fotografia
+      mantenendone porzioni riconoscibili; tagli e strappi sono possibili
+      ma non devono dominare. La frase interagisce con l'immagine dipinta
+      e gli spazi aperti, senza essere composta su singole strisce di carta.
+    Provenance: >
+      L'immagine generata simula fotografie e materiali: non è un
+      servizio fotografico o un collage fisico documentato.
+  Materials:
+    Repertoire: >
+      Foto ritagliate, carte opache, nastro non testuale, pennellate,
+      tratti di grafite o inchiostro, cancellature e abrasioni locali.
+      Selezionare gli elementi in base alla frase, senza imporli tutti.
+    Depth: >
+      Interventi materici plausibili e differenziati; evitare una texture
+      uniforme sovrapposta all'intera immagine o ombre da adesivi lucidi.
+  Content Contract:
+    quote: Testo esatto e completo una sola volta.
+    author: Solo se fornito o verificato.
+    other_text: Nessun marchio, data, pseudo-testo, didascalia o firma inventati.
+  Production:
+    Preferred Mode: generative
+    Validation Status: >
+      Una generazione con ritratto e mare, frase breve e palette blu. Testo,
+      accento e punto sono leggibili nell'immagine. Collage e testo restano
+      perlopiù in zone separate; il rapporto più integrato è da verificare.
+      Nessuna prova di ripetibilità, resa su telefono, altri soggetti o
+      citazioni lunghe; vedi note-prova-1.md. Una nuova prova conserva
+      fotografia continua e pittura, ma alcune iniziali appaiono maiuscole
+      e la leggibilità deve essere controllata nelle zone più complesse.

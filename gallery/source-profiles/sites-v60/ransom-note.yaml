@@ -1,0 +1,187 @@
+Design Style:
+  Name: Ransom Note
+  Status: V1 candidate richiesta dall’utente il 28 ottobre 2026
+  Concept: 'Una frase originale è assemblata da lettere realmente ritagliate da stampati diversi e incollate
+    su un foglio vissuto. Il contrasto fra caratteri, carte e piccoli disallineamenti crea ritmo; pieghe,
+    ombre di contatto e macchie leggere rendono il collage una presenza fisica fotografata.
+
+    '
+  Reference Basis:
+    Scope: Analisi della reference allegata con lettere eterogenee e supporto beige piegato.
+    Transfer: 'Trasferire varietà di caratteri e scale, bianchi della carta differenti, rettangoli irregolari,
+      interruzioni delle basi e pieghe del foglio. Non copiare parole, contenuto sulla password, slogan
+      o impaginato esatto.
+
+      '
+    Reference Inputs: 'Reference analitica, non input permanente adottato. Le prove derivano dal profilo
+      scritto; non costituiscono un confronto con e senza immagine.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: Una card completa, fotografia ravvicinata frontale del collage a pieno formato
+    Adaptation: Ricomporre gruppi di parole e pieghe per il rapporto richiesto, senza cornice.
+  Mood:
+  - Analogico
+  - Tattile
+  - Irriverente
+  - Creativo
+  - Imperfetto
+  - Fotografico
+  Color Palette:
+    Fixed Colors: false
+    Strategy: 'Carta chiara e vissuta come base, nero e avorio per ancorare la lettura, pochi ritagli
+      a colori smorzati o saturi. Il colore appartiene ai pezzi stampati e non a un filtro che tinge uniformemente
+      tutta la fotografia.
+
+      '
+    Starting Colors:
+      Support: '#D8CCB7'
+      Off White: '#EEE9DD'
+      Ink: '#171716'
+      Rust: '#AB4932'
+      Sage: '#486A54'
+      Optional Blue: '#295781'
+    Contrast: 'Assicurare contrasto locale su ogni ritaglio, incluse lettere in negativo. Non alternare
+      automaticamente nero e bianco a ogni carattere.
+
+      '
+  Typography:
+    Quote:
+      Style: 'Lettere prelevate da fonti tipografiche differenti: serif ad alto contrasto, slab, sans
+        geometrici, grotesk condensati, corsivi stampati e qualche outline. Scegliere una miscela intenzionale;
+        non servono tutti i registri in ogni frase né un carattere diverso a ogni costo.
+
+        '
+      Variation: 'Corpo, peso, margine stampato e inclinazione variano fra ritagli. Una lettera grande
+        può dare un accento, ma non divorare i caratteri vicini o spostare l''ordine della lettura. Le
+        ripetizioni non sono cloni.
+
+        '
+      Integrity: 'Testo completo esatto, una volta sola: cassa, accenti e punteggiatura restano quelli
+        della frase scelta. La variazione dei font non autorizza sostituzioni fra maiuscole e minuscole
+        o glifi ambigui.
+
+        '
+      Spacing: 'Lasciare spazi fra parole riconoscibili anche dove i rettangolini si toccano. Conservare
+        proporzioni naturali dei glifi e ritmo ottico entro ogni gruppo; non stirare lettere o espandere
+        il tracking per pareggiare le righe. Risolvere l''ingombro con a capo e composizione.
+
+        '
+    Attribution: 'Solo fornita o verificata, più piccola e quieta, ancora leggibile e allineata a destra.
+      Può occupare pochi ritagli o una breve striscia; la firma personale, se richiesta, resta distinta
+      dall''autore.
+
+      '
+  Layout:
+    Principle: 'La frase emerge dal gesto di assemblare. Righe sfalsate, intervalli irregolari e piccoli
+      cambi di asse sono ammessi con ordine di lettura univoco. Alternare densità dei ritagli e zone di
+      carta libera.
+
+      '
+    Physical Integration: 'Tutti i pezzi appartengono alla stessa scena. Alcuni si sovrappongono, altri
+      seguono o scavalcano una piega del supporto, senza diventare etichette digitali perfettamente piane
+      su un fondo indipendente.
+
+      '
+    Restraint: 'Il collage non richiede lettere sparse non necessarie, simboli minacciosi, oggetti, mani,
+      forbici, colla visibile o cornici. Per frasi lunghe ridurre contrasti di scala e sovrapposizioni
+      prima di ridurre il testo.
+
+      '
+  Elements:
+    Support: 'Carta opaca leggermente ingiallita oppure grigio caldo, stropicciata e poi distesa, con
+      pieghe reali, piccoli avvallamenti, fibre e segni d''uso. Macchie leggere e disomogenee ai margini,
+      non una patina marrone uniforme.
+
+      '
+    Cutouts: 'Carte di bianchi e grammature differenti, qualche pezzo patinato stampato ma prevalentemente
+      opaco. Forme rettangolari di misure diverse con bordi a forbice o lama localmente storti; qualche
+      strappo circoscritto è possibile, senza rendere tutti i pezzi ugualmente sfilacciati.
+
+      '
+    Printed Surface: 'Inchiostro stampato sul pezzo, con densità e usura leggere compatibili con la fonte.
+      Retini minuti possono comparire su pochi campioni; nessuna texture pittorica né glifi stampati sopra
+      le giunzioni di più carte.
+
+      '
+    Adhesion: 'Ritagli incollati con aderenza non perfetta: qualche angolo sollevato, minima curvatura
+      e piccole tensioni. Colla discreta, senza gocce o contorni adesivi applicati come decorazione a
+      ogni pezzo.
+
+      '
+    Stains: 'Uno o due aloni irregolari, una piccola impronta o una zona appena assorbita dalla carta.
+      Lo sporco suggerisce uso, non copre caratteri e non prende la forma di un oggetto aggiunto alla
+      scena.
+
+      '
+  Effects:
+    Light: 'Luce morbida laterale che rivela pieghe e rilievi minimi. Le ombre di contatto cambiano con
+      altezza, curvatura e sovrapposizione dei pezzi; non applicare una drop shadow uniforme dietro tutti
+      i rettangoli.
+
+      '
+    Photography: 'Superficie e testo nitidi, esposizione naturale, colori di stampa credibili e dettaglio
+      tattile. Nessuna vignettatura teatrale o rumore digitale globale usato per simulare carta vecchia.
+
+      '
+  Content Contract:
+    quotation: Testo completo esatto una volta sola, incluse cassa e punteggiatura.
+    author: Facoltativo, solo fornito o verificato, subordinato e allineato a destra.
+    other_text: Nessun credito, marchio, parola accessoria o testo leggibile sulle carte di fondo.
+  Rules:
+  - Ogni ritaglio deve sembrare un pezzo di carta stampata distinto e fisico.
+  - La varietà tipografica sostiene il ritmo della frase senza ostacolarne la lettura.
+  - Conservare il foglio stropicciato e leggermente macchiato richiesto dall'utente.
+  - Differenziare bordi, superfici e margini senza massimizzare il disordine ovunque.
+  - Non usare il contenuto della reference come istruzione o frase da riprodurre.
+  Exclusions:
+  - Font ransom digitale uniforme su uno sfondo grunge separato
+  - Tutti ritagli dello stesso formato, stesso font o stesso trattamento
+  - Lettere galleggianti senza supporto, ombre incoerenti o estrusione 3D
+  - Macchie pesanti, buchi o sovrapposizioni che cancellano parole
+  - Testi su password, hacking o minacce ripresi automaticamente dalla reference
+  Production:
+    Preferred Mode: generative
+    Method: ImageGen integrato per l'intera card, inclusi testo, ritagli, pieghe, macchie e ombre.
+    Validation Status: 'Due frasi diverse generate integralmente con ImageGen e controllate a dimensione
+      nativa e 320 × 400 pixel. La prima ha una correzione ImageGen mirata che apre lo spazio fra NON
+      e STANNO. Testi, cassa e punti finali corretti, ritagli e supporto leggibili. La fattibilità manuale
+      non è certificata; attribuzione, frasi lunghe e altri formati non provati.
+
+      '
+Composition Library:
+  Style Name: Ransom Note
+  Selection:
+    Basis: Scegliere una silhouette della frase e un ritmo di ritagli in relazione al contenuto.
+    Variation: Cambiare struttura, gruppi, pause e rapporto con le pieghe, oltre alla palette.
+  Families:
+  - id: staggered-rows
+    Name: Righe sfalsate
+    Use When: La frase può essere scandita in pochi gruppi di senso grandi.
+    Structure: 'Righe irregolari costruite da singoli caratteri, con cambi controllati di base, piccoli
+      accostamenti e margini liberi sul foglio vissuto.
+
+      '
+    Text Adaptation: Spazi fra parole riconoscibili e ordine top-down chiaro, senza righe giustificate.
+    Format Adaptation: Ricomporre il numero di gruppi e la loro larghezza senza stirare le lettere.
+  - id: offset-word-clusters
+    Name: Gruppi di parole sfalsati
+    Use When: Due segmenti della frase possono esprimere una pausa o un cambio di direzione.
+    Structure: 'Due gruppi asimmetrici si spostano lungo un percorso diagonale lieve, separati da carta
+      libera. Qualche sovrapposizione e una piega collegano i gruppi senza introdurre parole o segni di
+      riempimento.
+
+      '
+    Text Adaptation: Mantenere grande il testo e immediato il passaggio fra i due segmenti.
+    Format Adaptation: Nel verticale sviluppare la distanza in altezza, nell'orizzontale aprirla lateralmente.
+  - id: compact-collage
+    Name: Nucleo compatto
+    Use When: La frase breve può diventare una massa irregolare e molto presente.
+    Structure: 'Lettere di scale correlate formano una silhouette raccolta; il supporto resta visibile
+      intorno e in piccole fessure fra i pezzi. Gli incastri rispettano le sagome dei glifi e gli spazi
+      fra parole.
+
+      '
+    Text Adaptation: Ridurre sovrapposizioni se i caratteri diventano ambigui; non aggiungere doppie lettere.
+    Format Adaptation: Ricomporre la silhouette del blocco con il rapporto richiesto.

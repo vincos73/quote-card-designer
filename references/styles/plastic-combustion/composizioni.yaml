@@ -1,0 +1,20 @@
+"Composition Library":
+  "Style Name": "Plastic Combustion"
+  "Selection":
+    "Basis": "Scegliere tensioni, campi quieti e vuoti in relazione al significato della frase e al formato"
+    "Variation": "Famiglie aperte, senza palette, quote o distribuzione dei fori fissi"
+  "Families":
+    -
+      "id": "diagonal-tension"
+      "Name": "Tensione diagonale e tracce"
+      "Use When": "La frase riguarda memoria, trasformazione o una progressione di passaggi"
+      "Structure": "Aperture di scale diverse ai lati di una traiettoria obliqua; gruppi stampati sul film attraversano campi più quieti e pieghe in tensione"
+      "Text Adaptation": "A capo per gruppi di senso prima della deformazione; le pieghe possono inclinare e deteriorare localmente tratti e baseline. Conservare ancoraggi per ricostruire la frase."
+      "Format Adaptation": "Ribilanciare traiettoria, vuoti e densità per il rapporto richiesto; attribuzione eventuale su asse destro e in zona leggibile"
+    -
+      "id": "lateral-opening"
+      "Name": "Apertura laterale e campi connessi"
+      "Use When": "La frase può essere sostenuta da un passaggio o da un intervallo che modifica il campo"
+      "Structure": "Un vuoto laterale separa ma collega due campi di plastica; i gruppi stampati appartengono alla stessa membrana e si deformano verso bordi e risvolti"
+      "Text Adaptation": "Il testo segue la materia anche con qualche tratto perso; evitare pannelli tipografici puliti isolati dal resto. Nessun tracking arbitrario per riempire il campo."
+      "Format Adaptation": "Variare ampiezza dell’apertura, orientamento dei campi e numero dei gruppi senza ritagliare l’esempio"

@@ -1,0 +1,9 @@
+Use case: precise-object-edit.
+Input image 1 is the EDIT TARGET: the complete Italian quote card "Impronta di gusto". Keep the entire card composition, typography, exact words, lettering proportions, kerning, line breaks, positions, pistachio paper, plum text, carved block-print texture, large leaf silhouette, and the two aubergine shapes in their existing locations and scale.
+
+Change ONLY the depicted aubergine anatomy so both cut surfaces clearly read as aubergine, not fig or papaya. Replace the salmon/orange flesh and large dark teardrop seeds with pale warm ivory-cream spongy flesh. Within this pale flesh put sparse TINY beige seeds in a few subtle curved clusters, with delicate carved lines and sparse cream/plum hatching. No huge seed pods, no branching fig interior, no orange flesh. Keep the deep purple thin skin outlining each cut and add a modest muted olive-green calyx at the stem of the large lengthwise half. The large aubergine remains a long split half diagonally at top left; the smaller oval cross-section remains at top right. The medium is still expressive carved two-colour ink print, not a photograph or botanical diagram. Use cream and muted ochre for the flesh, existing plum/purple for skin, just a small olive-green calyx; the total palette remains harmonious.
+
+All existing text must remain EXACTLY, displayed once:
+"Il gusto cresce quando la curiosità entra in cucina."
+Keep the accent in curiosità and final period. Keep all original lettering sharp and readable, no new text, no author, no signature, no logo.
+This is one finished complete portrait quote-card edit. Preserve native framing and portrait 4:5 intent, no crop, no mockup. Do not redesign the approved visual language or text.

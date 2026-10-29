@@ -1,0 +1,145 @@
+Design Style:
+  Name: Neo Mondrian
+  Version: 0.2.1-experimental
+  Status: Direzione asimmetrica selezionata; vietati divisori sospesi
+  Concept: 'La citazione partecipa all''equilibrio fra linee ortogonali, piani di colore e intervalli
+    vuoti. La sua massa tipografica governa una composizione asimmetrica con campi ampi e griglia connessa.
+    Nessun obbligo di riquadro centrale.
+
+    '
+  Canvas:
+    Ratio: '4:5'
+    Output: Composizione editoriale piatta a piena pagina.
+    Adaptation: Ricomporre campi, intervalli e testo per ogni formato.
+  Mood:
+  - Modernista
+  - Asimmetrico
+  - Misurato
+  - Dinamico
+  - Essenziale
+  Color Palette:
+    Background: Bianchi caldi e freddi, con grigi chiari facoltativi.
+    Text: Nero o quasi nero; negativo solo su campi scuri leggibili.
+    Accents:
+      Red: '#DE2D24'
+      Blue: '#1454A4'
+      Yellow: '#F5C51B'
+    Roles: 'Colori con pesi e superfici diseguali; non occorrono sempre tutti i primari. Il bianco è attivo.
+      Il nero costruisce gli assi e bilancia i campi di colore attraverso il peso della citazione.
+
+      '
+    Customization: 'Una palette sostitutiva richiesta è una reinterpretazione: mantenere relazioni e contrasti
+      senza reintrodurre colori non richiesti.
+
+      '
+  Typography:
+    Quote:
+      Hierarchy: Prima lettura, indipendentemente dalla posizione nel foglio.
+      Style: 'Sans serif forte, normale o moderatamente condensata. Nessun obbligo di caratteri stretti
+        e alti; scegliere secondo testo e composizione.
+
+        '
+      Integrity: 'Conservare frase, maiuscole, accenti e punteggiatura una sola volta. A capo per gruppi
+        di senso, spazi naturali, proporzioni intatte. Niente compressioni locali o giustificazione forzata.
+
+        '
+      Final Punctuation: 'Non aggiungere il punto finale se non richiesto. Per testi forniti preservare
+        la punteggiatura presente; per testi dimostrativi scelti dall''assistente omettere il punto salvo
+        richiesta esplicita.
+
+        '
+      Relationship: 'La massa nera delle parole bilancia i campi cromatici. Può occupare un campo laterale,
+        superiore, inferiore o centrale. Aumentare vuoto e contrasto prima di aumentare tutti i corpi.
+
+        '
+    Attribution: 'Solo se fornita, più piccola, leggibile e allineata a destra su un asse chiaro. Nessuna
+      attribuzione dedotta o firma di Mondrian.
+
+      '
+  Layout:
+    Geometry: 'Rettangoli, quadrati, segmenti e bande orizzontali e verticali. Dimensioni, intervalli,
+      lunghezze e pesi deliberatamente diseguali. La griglia è una relazione fra elementi, non una tabella
+      a celle uguali.
+
+      '
+    Balance: 'Contrapporre densità e quiete; compensare un colore ampio con un accento piccolo distante
+      o con la massa delle parole. Pochi assi significativi; evitare accenti uniformemente distribuiti
+      lungo tutto il perimetro.
+
+      '
+    Lines: 'Spessori selettivi ed eventuali coppie ravvicinate. Ogni estremità termina su un altro divisore
+      o sul bordo del foglio, con giunzioni precise e senza vuoti. Nessuna linea sospesa dentro una campitura.
+      Niente linee attraverso lettere o righe che sembrino barrate.
+
+      '
+    Void: 'Il bianco crea pause diseguali. Il campo del testo può aprirsi verso un bordo o collegarsi
+      ad altri vuoti, senza diventare un riquadro chiuso.
+
+      '
+    Reading: 'Un percorso di lettura unico. Separare la frase in più campi solo quando rimane immediata;
+      niente parola per cella come decorazione.
+
+      '
+  Effects:
+    Surface: 'Campiture opache quasi piatte. Trama pittorica discreta, differenze fra bianchi e bordi
+      appena vivi sono facoltativi. L''equilibrio deve funzionare anche a tinte piatte.
+
+      '
+    Exclusions: 'Nessun gradiente di illuminazione, ombra, rilievo o usura pesante. Niente cerchi o diagonali
+      nel repertorio neoplastico di base. Niente icone, figure, numeri, etichette o scritte non richieste.
+
+      '
+  Development:
+    Research: ricerca-revisione-20261027.md
+    Previous Profile: profilo-pre-revisione-20261027.yaml
+    Selected Direction: equilibrio-asimmetrico
+    Corrected Example: studio-5-griglia-chiusa.png
+    Additional Example: studio-7-senza-punto.png
+    Selection Notes: note-selezione-20261027.md
+    Archived Studies:
+    - studio-3-asimmetria.png
+    - studio-4-ritmo.png
+    Notes: note-revisione-20261027.md
+    Validation: 'L''utente seleziona soltanto la prima direzione e rifiuta il divisore sospeso. Studio
+      5 corregge la giunzione, conservando frase e impaginato. Studio 6 prova una nuova frase in alto
+      a sinistra con divisori tutti connessi. Testi e giunzioni controllati visivamente. La direzione
+      a bande cromatiche è archiviata e non va scelta per nuove card. Frasi lunghe, altre palette e attribuzioni
+      non provate.
+
+      '
+Composition Library:
+  Style Name: Neo Mondrian
+  Selection:
+    Current Preference: 'Usare solo equilibrio-asimmetrico. L''utente ha selezionato la prima direzione
+      il 27 ottobre 2026 e rifiutato le linee che si interrompono dentro i campi. Ritmo cromatico e assi
+      aperti sono studi archiviati.
+
+      '
+    Basis: 'La citazione governa la composizione e può stare fuori centro. Costruire insieme testo, campi
+      diseguali e giunzioni della griglia.
+
+      '
+    Variation: 'Variare posizione del testo, proporzioni dei campi, spessori e contrappesi. Non fissare
+      il testo in basso a sinistra o la palette esatta di una prova. Ogni divisore termina su un asse
+      o sul bordo.
+
+      '
+    Historical Boundary: Il lettering dominante è un adattamento editoriale.
+  Families:
+  - id: equilibrio-asimmetrico
+    Name: Campi ampi e contrappesi
+    Use When: Direzione unica selezionata per questo stile.
+    Structure: 'Pochi campi rettangolari diseguali, assi neri connessi e contrappesi cromatici lontani.
+      Il testo domina un campo chiaro, con posizione variabile. Il vuoto bilancia le masse senza imporre
+      simmetria. Ogni estremità di linea deve incontrare un divisore o il bordo del foglio. Nessuna interruzione
+      isolata in una campitura.
+
+      '
+    Text Adaptation: 'Gruppi di senso, spazi naturali e ancoraggio chiaro. Semplificare i campi per una
+      frase lunga prima di ridurre il corpo. Non attraversare lettere con le linee della griglia.
+
+      '
+    Format Adaptation: 'Ricomporre superfici e contrappesi. Nessuna cornice cromatica uniforme, tabella
+      a celle uguali o posizione del testo obbligatoria.
+
+      '

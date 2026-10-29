@@ -1,0 +1,38 @@
+{
+  "name": "Motion Proof",
+  "status": "Approvato per library, fuori selezione V1",
+  "cards": [
+    {
+      "quote": "La costanza allena quello che il talento promette.",
+      "file": "esempio-1.png",
+      "prompt": "prompt-esempio-1.txt",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "ec4bdefb829f7cbaca0e7685f15dfe6e530cea9c1884601afa9ed42aa092e49c",
+      "composition": "Frase nitida in alto, corsa nella metà inferiore con sfocatura cromatica orizzontale verso sinistra e pista trascinata.",
+      "verification": "Testo e punto finale riletti nel PNG locale, nessuna attribuzione. Lettering nitido, proporzioni e spazi coerenti all’ispezione visiva. Movimento più ampio, senza nuovi arti riconoscibili. Nativo quasi 4:5.",
+      "input_images": [
+        {
+          "file": "production-inputs/esempio-1-target.png",
+          "role": "edit target storico, non reference obbligatoria"
+        }
+      ]
+    },
+    {
+      "quote": "Una squadra cresce nello spazio che lascia agli altri.",
+      "file": "esempio-2.png",
+      "prompt": "prompt-esempio-2.txt",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "1a8a8e668e4043a0454e85b67df9aadd836c85bd0b97acb6e1d6134fda368504",
+      "composition": "Gesto collettivo in alto con scie cromatiche ascendenti e curva della palla; frase nitida in basso su cinque righe.",
+      "verification": "Testo e punto finale riletti nel PNG locale, nessuna attribuzione. Lettering nitido, proporzioni e spazi coerenti all’ispezione visiva. Movimento più ampio, senza nuovi arti riconoscibili. Nativo quasi 4:5.",
+      "input_images": [
+        {
+          "file": "production-inputs/esempio-2-target.png",
+          "role": "edit target storico, non reference obbligatoria"
+        }
+      ]
+    }
+  ]
+}

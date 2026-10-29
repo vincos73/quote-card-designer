@@ -1,0 +1,28 @@
+"Composition Library":
+  "Style Name": "Stencil Spray"
+  "Selection":
+    "Basis": "Scegliere numero di gruppi, assi e densità dalla frase e dal formato"
+    "Variation": "Le famiglie descrivono relazioni adattabili, non sagome, palette o citazioni da ripetere"
+  "Families":
+    -
+      "id": "offset-groups"
+      "Name": "Gruppi sfalsati e passate"
+      "Use When": "Una frase breve contiene pochi gruppi forti che possono assumere pesi visivi distinti"
+      "Structure": "Righe orizzontali di larghezza naturale si spostano moderatamente fra assi vicini; lo spazio libero risponde al gruppo successivo. Eventuali cambi di pigmento seguono la gerarchia del testo."
+      "Text Adaptation": "Preferire gruppi di senso; mantenere lo stesso disegno dei caratteri e spazi naturali, senza giustificare o comprimere le righe"
+      "Format Adaptation": "Ricomporre gruppi e vuoti nel formato richiesto, conservando i ponti e l’attribuzione eventuale su asse destro"
+      "Variation Axes":
+        - "Scala relativa dei gruppi, quando ha una ragione espressiva"
+        - "Ampiezza dello spostamento degli assi"
+        - "Densità delle passate e zone di overspray"
+    -
+      "id": "open-cadence"
+      "Name": "Cadenza verticale e campo aperto"
+      "Use When": "Il testo può sviluppare una progressione lungo più righe senza occupare uniformemente tutta la superficie"
+      "Structure": "Un asse principale coordina le parole; piccole rientranze e un intervallo più ampio producono una pausa. Lo spray e il supporto restano leggibili nei vuoti."
+      "Text Adaptation": "A capo per gruppi sintattici, senza spezzare parole o usare tracking per riempire il campo. Aprire spazio prima di ridurre uniformemente il blocco."
+      "Format Adaptation": "Variare numero di gruppi e pause per il rapporto richiesto, senza ritagliare l’esempio"
+      "Variation Axes":
+        - "Posizione della pausa principale"
+        - "Numero di righe e margini"
+        - "Densità della copertura e rapporto fra zone nette e nebulizzate"

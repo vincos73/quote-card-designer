@@ -1,0 +1,207 @@
+Design Style:
+  Name: Art Nouveau
+  Concept: 'La frase diventa parte di un organismo grafico: linee sinuose, forme naturali stilizzate,
+    lettering e campiture si sostengono a vicenda. Il linguaggio del manifesto e del pannello decorativo
+    è reinterpretato per una card a prevalenza testuale. La continuità fra struttura e ornamento conta
+    più dell''accumulo di simboli d''epoca.
+
+    '
+  Canvas:
+    Ratio: '4:5'
+    Output: Illustrazione grafica piatta a pieno formato, con testo integrato.
+    Adaptation: Ricomporre masse, curve e respiro per il formato richiesto.
+  Mood:
+  - Organico
+  - Elegante
+  - Fluido
+  - Poetico
+  - Grafico
+  - Vitale
+  Color Palette:
+    Fixed Colors: false
+    Strategy: 'Poche tinte da stampa, ampie campiture e un contrasto netto fra frase e fondo locale. Salvia,
+      crema e pesca sono una partenza dalle reference, sostituibile con altre palette senza perdere il
+      linguaggio.
+
+      '
+    Starting Colors:
+      Paper: '#F4E9CF'
+      Dark Ink: '#243E35'
+      Botanical Field: '#8F9B7A'
+      Accent: '#D9A283'
+    Alternatives: 'Indaco, prugna e terracotta; verde petrolio e avorio; nero e crema. Nessun obbligo
+      di oro, metallo o palette pastello.
+
+      '
+  Typography:
+    Quote:
+      Style: 'Lettering organico o serif con terminali fluidi e disegno coerente. Le curve dei caratteri
+        dialogano con quelle dell''illustrazione. Accenti ornamentali selettivi, contatori aperti e lettere
+        riconoscibili. Il nome di un font eventuale è una direzione, non una certificazione.
+
+        '
+      Hierarchy: 'La frase è la prima lettura. Differenze di corpo e peso ammesse per enfasi di senso;
+        evitare microtesti decorativi da manifesto fittizio.
+
+        '
+      Integrity: 'Preservare parole, cassa, accenti e punteggiatura, una volta sola. A capo per senso,
+        proporzioni naturali dei glifi, kerning ottico e spazi chiari fra parole. Non pareggiare le righe
+        con tracking arbitrario o deformazioni locali. Risolvere le collisioni muovendo il visual, variando
+        gli a capo o scalando uniformemente il registro.
+
+        '
+    Attribution: 'Facoltativa, soltanto fornita o verificata. Più piccola e leggera della frase, ma leggibile,
+      sempre allineata a destra su un asse chiaro. Se manca, ricomporre lo spazio senza segnaposto.
+
+      '
+    Signature: Solo se richiesta esplicitamente, separata dall'attribuzione.
+  Layout:
+    Shared Structure: 'Testo, linee e campiture appartengono alla stessa struttura. Le curve guidano il
+      percorso di lettura e definiscono gli spazi, senza invadere i tratti che rendono riconoscibili le
+      lettere.
+
+      '
+    Integration: 'Una linea può diventare stelo, contorno, drappeggio o limite del pannello. Il passaggio
+      fra questi ruoli deve essere leggibile e intenzionale. Alternare zone ornamentali e zone quiete
+      intorno alla frase.
+
+      '
+    Variation: 'Sono possibili asimmetrie, pannelli, medaglioni, strutture più geometriche o linee aperte.
+      Non imporre un''unica figura centrale o una cornice completa. Scegliere una famiglia compositiva
+      adatta al testo.
+
+      '
+    Density: 'Ridurre il dettaglio ornamentale prima di ridurre il testo per frasi lunghe. Non copiare
+      la densità di un manifesto visto a grande formato.
+
+      '
+  Elements:
+    Line: 'Curve a colpo di frusta, variazioni di spessore, steli e arabeschi controllati. La linea costruisce
+      direzione e tensione, non solo decoro.
+
+      '
+    Nature: 'Repertorio aperto di foglie, germogli, fiori, frutti, ramificazioni, organismi e astrazioni
+      naturali scelti in relazione alla frase. Nessuna specie, fiore o animale è un requisito.
+
+      '
+    Figure: 'Facoltativa, originale e pertinente al contenuto, semplificata nello stesso linguaggio a
+      stampa. Gesto, silhouette e drappeggio possono legare i campi. Non imporre donna, musa, danzatrice
+      o volto ricorrente.
+
+      '
+    Other Forms: 'Pannelli curvi, cartigli, medaglioni o geometrie eccentriche compatibili. Architetture,
+      oggetti e vetri sono possibilità, non un inventario da completare. Evitare oggetti di marca o citazioni
+      di opere specifiche.
+
+      '
+  Effects:
+    Medium: 'Illustrazione piatta di impronta litografica: campiture opache, contorni nitidi, tratteggio
+      selettivo e modulazione del segno. Non simula una fotografia di personaggi o oggetti tridimensionali.
+
+      '
+    Material: 'Carta e granulosità d''inchiostro leggere e controllate. Conservare bordi e contatori puliti;
+      l''invecchiamento pesante non definisce lo stile.
+
+      '
+  Content Contract:
+    quotation: Testo completo esatto una volta sola, con cassa, accenti e punteggiatura.
+    author: Solo fornito o verificato, subordinato e allineato a destra.
+    other_text: Nessun marchio, didascalia, titolo, data o firma inventata.
+  Rules:
+  - Integrare lettering, linea e ornamento in una struttura comune.
+  - Dare priorità comunicativa alla frase anche con illustrazioni presenti.
+  - Scegliere soggetti e palette dal contenuto e dalle preferenze esplicite.
+  - Usare gli esempi per il linguaggio, senza riprodurne testo o impaginato.
+  - Riconoscere la varietà del movimento senza ridurlo a una sola scuola o autore.
+  Exclusions:
+  - Copia di volti, identità, marchi, testi o impaginati delle reference
+  - Donna, pavone, iris, lampada, architettura o cornice come obblighi
+  - Fotorealismo, 3D, bevel, plastiche lucide o gold foil come resa globale
+  - Cornice floreale generica incollata attorno a un titolo estraneo al segno
+  - Lettere schiacciate, tracking variato per giustificare o ornamenti illeggibili
+  Production:
+    Preferred Mode: generative
+    Method: 'ImageGen integrato genera l''intera composizione, testo compreso. Non limitarsi a un fondo
+      generato con testo impaginato da script.
+
+      '
+    Reference Inputs: 'Nessuna immagine operativa permanente. Gli esempi illustrano il linguaggio ma non
+      vanno passati automaticamente al generatore.
+
+      '
+  Status: V1 candidate richiesta dall’utente il 28 ottobre 2026
+Composition Library:
+  Style Name: Art Nouveau
+  Selection:
+    Basis: 'Scegliere la struttura secondo ingombro della frase e relazione fra parole, gesto e crescita
+      della linea. Una struttura principale per card.
+
+      '
+    Variation: 'Variare asimmetria, presenza della figura, confini dei campi e densità; non limitare le
+      varianti al cambio di colore o di specie botanica.
+
+      '
+  Families:
+  - id: botanical-type
+    Name: Tipografia e crescita botanica
+    Use When: Una frase breve può dominare senza bisogno di una figura.
+    Structure: 'Un ampio campo leggibile accoglie la frase. Ramificazioni asimmetriche organizzano uno
+      o più bordi aperti e riprendono il ritmo dei terminali. L''ornamento cresce attorno alle parole
+      senza chiuderle in una gabbia.
+
+      '
+    Text Adaptation: 'Formare gruppi di senso grandi e distinti. Variare gli a capo e il percorso della
+      pianta; non giustificare con tracking o deformazioni.
+
+      '
+    Format Adaptation: 'Distribuire rami e zone quiete secondo il rapporto, riducendo i dettagli dove
+      serve spazio al testo. Non stirare il disegno.
+
+      '
+  - id: figure-flow-panel
+    Name: Gesto e pannello fluido
+    Use When: Il contenuto può essere arricchito da un gesto o da una presenza umana originale.
+    Structure: 'Una figura subordinata e un campo della frase si bilanciano in modo asimmetrico. Il suo
+      contorno o drappeggio si lega a una curva che delimita il testo; il gesto rende pertinente l''incontro
+      dei due campi.
+
+      '
+    Text Adaptation: 'Mantenere la frase al primo livello. Spostare o ridurre la figura prima di comprimere
+      le righe; il pannello si adatta al blocco leggibile.
+
+      '
+    Format Adaptation: 'Variare ritaglio, scala della figura e direzione della curva secondo il rapporto;
+      conservare continuità del gesto e respiro intorno al testo.
+
+      '
+  - id: linked-panels
+    Name: Pannelli collegati
+    Use When: Il testo richiede più gruppi di senso e una struttura articolata.
+    Structure: 'Campi testuali e ornamentali collegati da una linea continua o da pochi ancoraggi coerenti.
+      Un pannello domina; gli altri ampliano il ritmo con forme naturali o geometriche, senza testi di
+      riempimento.
+
+      '
+    Text Adaptation: 'Rendere univoco l''ordine dei gruppi senza duplicare la frase. Un''eventuale attribuzione
+      resta subordinata su un asse destro.
+
+      '
+    Format Adaptation: 'Ricombinare il numero e le proporzioni dei campi in base alla lunghezza e al formato,
+      evitando moduli troppo piccoli per la lettura.
+
+      '
+  - id: organic-axis
+    Name: Asse organico e geometria
+    Use When: È utile una direzione più sobria o astratta senza figurazione narrativa.
+    Structure: 'Una struttura ordinata accoglie il testo e poche curve eccentriche o forme botaniche astratte.
+      La tensione fra asse stabile e crescita sinuosa dà identità, senza un giro completo di decorazioni.
+
+      '
+    Text Adaptation: 'Preservare la continuità dei gruppi di senso e la coerenza del registro; non usare
+      un carattere diverso per ogni spazio residuo.
+
+      '
+    Format Adaptation: 'Riorientare l''asse e la sequenza delle forme per il rapporto richiesto, mantenendo
+      spazio sufficiente ai glifi e alla loro ornamentazione.
+
+      '

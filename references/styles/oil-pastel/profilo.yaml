@@ -1,0 +1,80 @@
+Design Style:
+  Name: Oil Pastel
+  Version: 0.2.0-experimental
+  Status: V1 candidate; approvato per la gallery il 28 ottobre 2026
+  Concept: >
+    Una frase e un piccolo disegno assumono la materia cremosa e cerosa del
+    pastello a olio. Segni pieni, trascinamenti e sovrapposizioni di colore
+    producono una pagina adulta, tattile e imperfetta, distinta dal tratto
+    infantile e dal collage di una pagina di diario.
+  Canvas:
+    Ratio: '4:5'
+    Output: Card editoriale piatta su un singolo foglio.
+  Mood: [Pittorico, Tattile, Intimo, Gestuale, Imperfetto]
+  Color Palette:
+    Fixed Colors: false
+    Starting Palette:
+      Paper: '#F5EBD8'
+      Ultramarine: '#153B93'
+      Coral Oxide: '#C45E42'
+      Cream: '#F4D8A2'
+    Roles: >
+      Un pigmento scuro sostiene la frase. Pochi colori più caldi o chiari
+      costruiscono il piccolo disegno e accenti misurati. La carta rimane
+      visibile; adattare palette e contrasti al contenuto e alla richiesta.
+  Typography:
+    Quote: >
+      Lettering manuale ampio con stick morbido: nuclei densi, terminazioni
+      smussate, pressione variabile, piccoli vuoti e bordi ripassati. Forme
+      naturali e leggibili, senza calligrafia elegante o lettere infantili.
+      Conservare caso, parole, accenti e punteggiatura esatti una sola volta.
+    Spacing: >
+      A capo per senso, spazi fra parole e occhielli aperti. Non stirare le
+      lettere o comprimere l'ultima parola per incastrare il disegno.
+    Attribution: >
+      Solo se fornita o verificata, più piccola e leggera ma leggibile,
+      allineata a un asse destro. Omettere se assente; nessuna firma inventata.
+  Layout:
+    Relationship: >
+      La frase domina. Un piccolo disegno riconoscibile interpreta il testo
+      e condivide materiale e carta. Posizione, soggetto e rapporto dei vuoti
+      variano; non imporre conchiglia, quattro righe o testo sempre centrato.
+    Capacity: >
+      Mantenere margini e intervalli liberi. Per una frase lunga semplificare
+      il disegno prima di ridurre il testo. Nessuna parola nascosta dai segni.
+  Elements:
+    Illustration: >
+      Sempre un piccolo soggetto pertinente alla frase: oggetto, forma
+      naturale, figura o relazione semplice. Volumi sintetici con pochi
+      colori, contorni incompleti e piani sovrapposti, senza mascotte o naïf
+      obbligatorio. Una macchia astratta da sola non sostituisce il disegno.
+  Effects:
+    Pigment: >
+      Deposito cremoso ad alta coprenza, piccoli accumuli di stick, salti
+      della carta, strati chiari trascinati sullo scuro e mescolanza locale.
+      Alternare segni densi a passaggi più scarichi, con moderata lucentezza
+      cerosa; niente polvere da carboncino o rilievo spesso da pittura a olio.
+    Reworking: >
+      Ripassi, sfregamenti e poche asportazioni possono rivelare strati
+      precedenti. L'imperfezione nasce dai gesti, non da una texture uniforme.
+    Surface: Carta opaca da disegno, senza tavolo, mani o strumenti fotografati.
+  Content Contract:
+    quote: Testo esatto e completo, una sola volta.
+    author: Solo attribuzione fornita o verificata, facoltativa.
+    other_text: Nessun titolo, marchio, numero, data o firma aggiunti.
+  Rules:
+    - Frase e piccolo disegno condividono il pastello a olio.
+    - La materia è cerosa e corposa, con pressione e sovrapposizioni visibili.
+    - Conservare la lettura immediata e i contrasti anche a dimensione telefono.
+    - Palette e soggetto non sono fissati dalla prima prova.
+    - Evitare collage, carta strappata, mascotte, arcobaleni decorativi e mockup.
+  Production:
+    Preferred Mode: generative
+    Validation Status: >
+      Due frasi, due palette e due composizioni indipendenti provate:
+      conchiglia sotto la frase e sedia con ramo sopra un campo di testo
+      allineato a sinistra. Testo e gerarchia verificati nei nativi e nelle
+      anteprime. Alcuni passaggi restano più asciutti della materia cremosa
+      cercata o simili a pennellate. Nessuna prova generale di ripetibilità;
+      attribuzioni e altri formati non provati. Limiti in note-prova-1.md
+      e note-prova-2.md.

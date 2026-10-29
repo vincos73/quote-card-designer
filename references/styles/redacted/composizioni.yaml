@@ -1,0 +1,29 @@
+"Composition Library":
+  "Style Name": "Redacted"
+  "Selection":
+    "Basis": "Scegliere la relazione fra righe, masse nere e aperture dal senso e dalla lunghezza della frase"
+    "Default": "Pagina a una colonna con pennarello fisico irregolare e dattiloscritto monospace sempre"
+    "Variation": "Le famiglie sono repertori aperti, non template a coordinate fisse; cambiare palette non basta a variare composizione"
+  "Families":
+    -
+      "id": "marker-erasure"
+      "Name": "Pagina cancellata a pennarello"
+      "Use When": "Una frase breve può emergere come scoperta in una pagina continua"
+      "Structure": "Un sistema ampio di righe quasi interamente coperte da tratti fisici. Poche riserve sfalsate seguono gruppi di senso, con un ordine di lettura immediato."
+      "Text Adaptation": "Dattiloscritto monospace a passo naturale. Scegliere corpo, numero di righe e lunghezza dei tratti dalla frase; ingrandire le parole insieme al ritmo della pagina, senza deformare glifi o aumentare tracking"
+      "Format Adaptation": "Ricomporre la densità della pagina e gli intervalli per il rapporto richiesto. L’attribuzione eventuale resta leggibile e su asse destro."
+      "Variation Axes":
+        - "Densità e pressione del pennarello"
+        - "Ampiezza delle riserve e lunghezze delle righe"
+        - "Posizione dei gruppi di senso entro la colonna"
+    -
+      "id": "marker-paragraphs"
+      "Name": "Paragrafi cancellati e pause di carta"
+      "Use When": "La frase può essere divisa in pochi gruppi consecutivi con una pausa riconoscibile"
+      "Structure": "Gruppi di righe dattiloscritte cancellate con lo stesso marker fisico della direzione principale. Pause bianche fra i paragrafi scandiscono la frase, senza introdurre colonne rigide o barre perfettamente rettangolari."
+      "Text Adaptation": "Le parole emerse mantengono sempre il dattiloscritto monospace e un’unica scala coerente. I segni di uso del documento non introducono parole concorrenti."
+      "Format Adaptation": "Variare il rapporto fra masse e spazio libero mantenendo la sequenza leggibile. Allargare le riserve per il testo a passo fisso, senza restringere o deformare i glifi."
+      "Variation Axes":
+        - "Numero e densità dei paragrafi"
+        - "Ripassi a parola oppure a riga intera"
+        - "Pause bianche fra paragrafi e gruppi della frase"

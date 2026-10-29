@@ -1,0 +1,220 @@
+Design Style:
+  Name: Retro UI
+  Status: Revisione bitmap approvata dall'utente il 26 ottobre 2026
+  Concept: 'La frase diventa il contenuto di un desktop bitmap: finestre attive e inattive, barre a righe,
+    retini, cursori e piccole immagini cooperano alla sua lettura. Il carattere nasce dai dettagli delle
+    prime interfacce grafiche, reinterpretati come quote card contemporanea; non è una ricostruzione certificata
+    di un sistema operativo specifico.
+
+    '
+  Canvas:
+    Ratio: '4:5'
+    Type: Quote card raster completa
+    Adaptation: Ricomporre finestre e contenuti per il formato richiesto.
+  Mood:
+  - Nostalgic
+  - Personal
+  - Quietly playful
+  - Graphic
+  - Tactile digital
+  Color Palette:
+    Fixed Colors: false
+    Roles:
+      Desktop: Campo continuo che collega le finestre e lascia pause visive.
+      Content: Superficie calma e distinta per la frase.
+      Ink: Contrasto forte per lettering, bordi e pittogrammi.
+      Selection: Un eventuale accento per uno stato o un dettaglio scelto.
+    Directions:
+      Monochrome: 'Nero e bianco; mezzi toni simulati da retini regolari di pixel, senza un velo grigio
+        sopra tutta la card.
+
+        '
+      Pastel desktop: 'Crema e una tinta morbida per il desktop, inchiostro scuro, un accento limitato.
+        Una campitura ondulata può differenziare sfondo e pannelli senza introdurre gradienti o vetro.
+
+        '
+    Rules:
+    - Scegliere i ruoli dal tono della frase e dalle preferenze dell'utente.
+    - La variante pastello è una rilettura contemporanea, non una pretesa storica.
+    - Non imporre sempre menta, rosa o il desktop nero degli esempi.
+    - Tenere il campo immediatamente dietro al testo uniforme e leggibile.
+  Typography:
+    Quote:
+      Style: 'Lettering derivato dai caratteri bitmap di sistema, con gradini intenzionali e controforme
+        aperte. Può essere proporzionale o monospaziato: il monospace non è un requisito dello stile.
+
+        '
+      Weight: Sostanziale, coerente con la scala di lettura della card.
+      Hierarchy: 'La frase è il primo livello visivo. I connettivi restano leggibili e appartengono al
+        percorso principale, non a microetichette UI.
+
+        '
+      Spacing: 'Spazi fra parole e ritmo ottico regolari; nessuna parola schiacciata o allargata per entrare
+        in una finestra.
+
+        '
+    Attribution:
+      Condition: Solo se fornita o verificata nella fonte.
+      Treatment: Più piccola e quieta della frase, allineata a un asse destro utile.
+      Absence: Ricomporre lo spazio senza segnaposto.
+  Layout:
+    Principle: 'Progettare una scrivania con gerarchia, non incollare cornici intorno a una citazione
+      generica. Frase, finestra attiva e finestre secondarie devono condividere bordi, sovrapposizioni
+      e ordine di lettura.
+
+      '
+    Relations:
+    - Una superficie attiva o una sequenza chiaramente collegata ospita il testo.
+    - Finestre di scala diversa creano un fronte e un retro riconoscibili.
+    - Le sovrapposizioni attraversano margini liberi, mai parole necessarie.
+    - Il desktop resta visibile in pause e intervalli, senza riempire ogni spazio.
+    - Barra titolo, corpo e controlli sono distinguibili per funzione e peso.
+    Adaptation: 'Per frasi lunghe ampliare il contenuto e togliere utility secondarie prima di ridurre
+      il testo. Non obbligare ogni card allo stesso grande rettangolo centrale né alla stessa coppia di
+      finestre.
+
+      '
+  Elements:
+    Interface grammar:
+    - Barre titolo a righe sottili, piccoli controlli coerenti e bordi doppi.
+    - Scroll bar con frecce e cursore, angoli di ridimensionamento, selezioni tratteggiate.
+    - Cartelle, documenti e utensili riconoscibili disegnati con economia di pixel.
+    - Cursore freccia o puntatore di selezione in posizione plausibile.
+    - Poche utility senza testo, scelte in rapporto al significato e alla composizione.
+    Imagery:
+      Treatment: 'Disegni bitmap, ritagli trattati a retino o piccole metafore visive dentro una finestra.
+        Una sola immagine significativa può bastare.
+
+        '
+      Selection: 'Scegliere il soggetto in base alla frase. Luna, germoglio e cartella degli esempi sono
+        scelte delle prove, non mascotte obbligatorie.
+
+        '
+    Consistency: 'Usare una logica di controlli coerente nella singola card. È possibile reinterpretare
+      convenzioni di epoche diverse, senza dichiarare una schermata storicamente esatta né accumulare
+      controlli casuali.
+
+      '
+  Effects:
+    Pixel: Contorni scalettati nitidi, passo visivo coerente, senza sfocatura artificiale.
+    Dither: Trame ordinate o stipple controllato per tono e profondità di immagini e stati.
+    Shadow: Piccolo scarto netto per separare livelli; evitare grandi lastre nere decorative.
+    Texture: Eventuale traccia di stampa leggera, senza usura imposta o sporco uniforme.
+    Gradients: Nessuno nel registro ordinario.
+  Content Contract:
+    quote: Conservare parole, maiuscole, accenti e punteggiatura; mostrare la frase una volta.
+    author: Facoltativo, letterale, subordinato e allineato a destra; non inventarlo.
+    personal_signature: 'Solo su richiesta esplicita dell''utente. Conservare il nome esatto e distinguere
+      la firma personale dall''autore della citazione; non ricavarla dal profilo dell''utente. Registro
+      subordinato sull''asse destro.
+
+      '
+    Interface copy: 'Nessun testo di riempimento. Barre e utility possono usare solo segni e pittogrammi;
+      etichette o menu testuali richiedono contenuto fornito o esplicitamente richiesto. La citazione
+      resta l''unica prosa ordinaria.
+
+      '
+  Rules:
+  - La card deve leggere prima come frase e poi come piccolo mondo desktop.
+  - I dettagli bitmap devono caratterizzare il disegno, non ridursi al solo font.
+  - Non certificare una famiglia di font o una griglia pixel esatta dalla sola immagine.
+  - Evitare loghi, marchi di software, date, clock, metadati e nomi inventati.
+  - Evitare vetro, cromo, glow, lens flare e interfacce fantascientifiche.
+  - Non trasformare la card in un inventario di icone o in un mockup di dispositivo.
+  - La variante monocromatica conserva il contrasto anche senza accenti cromatici.
+  Production:
+    Preferred Mode: generative
+    Method: 'ImageGen integrato per l''intera composizione, inclusi testo, finestre, retini e illustrazione.
+      Correzioni generative mirate in caso di errori; eventuale rifinitura con font reali solo conservando
+      la base generata.
+
+      '
+    Reference Policy: 'Gli allegati sono riferimenti analizzati e tradotti nel prompt; non sono dipendenze
+      operative. Non è stato eseguito un confronto A/B controllato per adottare stabilmente immagini di
+      input.
+
+      '
+    Validation Status: 'Revisione approvata dall''utente il 26 ottobre 2026. Due card complete con frasi
+      diverse, una monocromatica e una pastello, controllate native e a 320 x 400 px. Frasi lunghe, attribuzione
+      e altri formati non ancora provati. Una prova riuscita non dimostra ripetibilità. L''utente ha richiesto
+      l''aggiornamento della galleria e della skill.
+
+      '
+Composition Library:
+  Style Name: Retro UI
+  Selection:
+    Basis: 'Scegliere la relazione fra frase, finestra attiva e contenuti secondari a partire da ingombro
+      e significato. Il sistema di finestre deve rendere la lettura più riconoscibile, non più lenta.
+
+      '
+    Variation: 'Usare una famiglia principale. Per nuove frasi variare proporzioni, sovrapposizioni, contenuto
+      bitmap e intervalli; non limitarsi a ricolorare due pannelli identici. Conservare l''impianto accettato
+      nelle revisioni mirate.
+
+      '
+    Development Status: 'desktop-cascade e workspace-preview provate il 26 ottobre 2026; dialogue-sequence
+      è una possibilità progettuale ancora non verificata.
+
+      '
+  Families:
+  - id: desktop-cascade
+    Name: Desktop di finestre con un documento attivo
+    Use When: 'Una frase breve o media può dominare un documento e trarre un secondo significato da una
+      piccola immagine o utility adiacente.
+
+      '
+    Structure: 'Finestre diseguali si incastrano sul desktop. Il documento attivo avanza davanti alle
+      altre e ha un campo calmo per la citazione. Un''immagine in un pannello secondario e pochi oggetti
+      desktop occupano gli intervalli senza fare da bordo decorativo completo.
+
+      '
+    Text Adaptation: 'Tenere i gruppi di senso collegati dentro il documento; dimensionare il corpo con
+      la parola più lunga. Ridurre il repertorio secondario prima di comprimere il testo. Nome eventuale
+      più piccolo sull''asse destro.
+
+      '
+    Format Adaptation: 'Cambiare larghezza e profondità delle finestre per il rapporto. In verticale è
+      possibile una cascata alta; in largo le finestre possono scambiarsi spazio lateralmente. Non ritagliare
+      la citazione.
+
+      '
+  - id: workspace-preview
+    Name: Area di lavoro e anteprima sovrapposta
+    Use When: 'Una frase beneficia dell''idea di creazione, scelta o cura e può dialogare con un''immagine
+      bitmap chiaramente subordinata.
+
+      '
+    Structure: 'Un documento ampio si allinea con una barra desktop o un utensile laterale. Una finestra
+      di anteprima attraversa un margine vuoto e sporge verso il desktop, lasciando la frase integra.
+      Wallpaper e piccole selezioni collegano zone dense e pause visive.
+
+      '
+    Text Adaptation: 'Mantenere la frase come blocco continuo e sostanziale, senza trasformare connettivi
+      in label. Spostare l''anteprima e ampliare il documento per parole o nomi più lunghi.
+
+      '
+    Format Adaptation: 'Ripensare posizione dell''anteprima e respiro del wallpaper per ciascun formato;
+      l''anteprima non deve diventare più importante solo perché la card è quadrata o più stretta.
+
+      '
+  - id: dialogue-sequence
+    Name: Sequenza di finestre come percorso della frase
+    Use When: 'Una frase con due o tre unità semantiche nette può attraversare superfici collegate senza
+      spezzare negazioni o relazioni sintattiche.
+
+      '
+    Structure: 'Una successione di dialoghi o documenti guida la lettura tramite posizione e sovrapposizione.
+      I gruppi testuali compongono una sola frase; controlli e dettagli restano subordinati. Evitare riquadri
+      equivalenti che creino una lettura incerta o un effetto dashboard.
+
+      '
+    Text Adaptation: 'Ripartire soltanto per gruppi di senso e rispettare l''ordine letterale. Se i collegamenti
+      richiedono spiegazioni, ricondurre la frase a una superficie principale. Non aggiungere risposte,
+      etichette o parole che non appartengono al testo fornito.
+
+      '
+    Format Adaptation: 'Rendere esplicito un percorso alto-basso, o sinistra-destra quando il rapporto
+      lo consente. Ridurre il numero di finestre per card piccole invece di ridurre tutte le parole a
+      microtesto.
+
+      '

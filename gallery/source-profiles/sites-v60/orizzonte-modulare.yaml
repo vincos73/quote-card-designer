@@ -1,0 +1,216 @@
+Design Style:
+  Name: "Analog Geometry"
+  Concept: >
+    A quiet vintage-futurist print language inferred from the relationship
+    between exact geometry, colour sequences, a large quiet field and
+    restrained type. Simple forms can meet, mask, nest or repeat at measured
+    intervals to suggest movement, a change of viewpoint or an impossible
+    landscape. Treat the result as a portable visual symbol, not a collage
+    of motifs. Each quotation receives a new construction; an isolated icon,
+    a repeated contour field and a split plane are equally valid routes.
+    Bauhaus economy and print character give the card a modernist music-poster
+    atmosphere without requiring one fixed Tycho composition.
+
+  Reference Basis:
+    Creator: "Scott Hansen / ISO50, visual artist behind the referenced Tycho work"
+    Primary Sources:
+      - Title: "Tycho – Awake Album Artwork"
+        URL: "https://blog.iso50.com/33052/tycho-awake-album-artwork/"
+        Design Lesson: >
+          A portable symbol can condense a larger visual history. Simplification
+          and efficient communication matter more than copying a particular
+          cover. The original artwork's eight bands referred to eight tracks;
+          that count is specific to the album and is not a rule for quote cards.
+      - Title: "Epoch Artwork Lineage"
+        URL: "https://blog.iso50.com/34853/epoch-artwork-lineage/"
+        Design Lesson: >
+          Hansen describes recurring circle and trapezoid symbols, shifts
+          between light and dark palettes, progressive simplification and
+          alternate permutations of one colour-and-form system. Transfer the
+          principle of meaningful variation and small-scale clarity, not the
+          artist's exact iconography or album narrative.
+    Collection:
+      Title: "Tycho artwork ideas on Pinterest"
+      URL: "https://www.pinterest.com/ideas/tycho-artwork/961561986966/"
+      Role: >
+        A mixed visual index for spotting geometric possibilities. It is not
+        an authoritative explanation of Hansen's process and no pin is a
+        layout to reproduce.
+    Translation Rule: >
+      Infer reusable relations among form, colour, empty space, material and
+      typography. Select a new relationship for the supplied quotation.
+      Do not put the names Tycho, ISO50 or Scott Hansen on the card unless
+      they occur in the user-supplied text.
+
+  Canvas:
+    Ratio: "4:5"
+    Output: "One finished flat editorial quote card, full bleed"
+
+  Mood:
+    - Contemplative
+    - Optimistic
+    - Geometric
+    - Retro-futurist
+    - Precise
+    - Spacious
+
+  Color Palette:
+    Ground:
+      WarmIvory: "#DDD9C5"
+      LightCream: "#EAE6D6"
+      DarkCharcoal: "#27262E"
+      SaturatedTurquoise: "#0FA7A9"
+    Type Ink:
+      MidnightBlue: "#27394A"
+      SoftCharcoal: "#3A4347"
+      WarmCream: "#EAE6D6"
+    Chromatic Repertoire:
+      HazyBlue: "#3C88AD"
+      Terracotta: "#D98563"
+      Salmon: "#D98E82"
+      DustyPink: "#C77992"
+      MutedViolet: "#9A7397"
+      FadedYellow: "#E7CB70"
+      PetrolBlue: "#356274"
+      OptionalBrightGreen: "#54AE54"
+    Roles: >
+      Choose one coherent ground: pale paper, dark charcoal or a saturated
+      turquoise field. Reserve an uninterrupted quiet area for the quotation
+      in any case. Set text in dark ink on light ground or warm cream on dark
+      and saturated ground, with strong local contrast. Choose a small number
+      of coloured inks for the geometry. Colour may form repeated contours,
+      transparent layers, flat planes or a limited spectrum within a shape.
+      It may be muted or more vivid, but never use the entire repertoire in
+      one card. User-requested colours replace these starting options.
+
+  Typography:
+    Primary:
+      Style: "Light, regular or medium geometric sans-serif with clean open forms"
+      Weight: "Usually regular; medium for one quiet emphasis if needed"
+      Role: "The complete quotation, calm and clearly readable"
+    Attribution:
+      Style: "The same sans-serif family at a smaller, lighter scale"
+      Placement: >
+        Right-aligned on a clear right-hand axis, separated from the quote.
+        Omit the register and reclaim its space when no author is supplied or
+        verified.
+    Hierarchy: >
+      Keep the quotation in one or two measured blocks in a quiet region, with
+      ample leading and an unforced line length. Its position can move with
+      the geometry: beneath, beside or across a large open interval. Avoid
+      giant bold words and oversized stacked headlines. A short phrase can
+      be more spacious; a longer passage may need several lines, but must
+      remain readable at phone size. Preserve original case, spelling,
+      accents and punctuation. Set all words horizontally in one natural
+      reading sequence.
+    Spacing: >
+      Preserve natural character widths, word spacing and optical kerning.
+      Never stretch, condense or change tracking to fill a line or match a
+      geometric edge. Resolve fit through line breaks, font size and the
+      placement or scale of the forms.
+
+  Layout:
+    Grid: >
+      Use an invisible poster grid with deliberate outer margins and a large
+      quiet field. Let one geometric relationship occupy a focused region and
+      let the quotation inhabit a clear region related to it by an axis,
+      interval, tangent or edge. Neither region has a fixed position. A dark
+      or saturated ground still needs calm intervals rather than decoration
+      everywhere.
+    Construction Grammar:
+      Read the Text: >
+        Find an abstract action or relation in the supplied quotation, such as
+        opening, crossing, approaching, balancing or changing perspective.
+        Do not illustrate an object merely because a noun appears in the text.
+      Choose Forms: >
+        Select a base geometry from circles, arcs, triangles, trapezoids,
+        rectangles, broad planes and gentle waves. Use two or three distinct
+        shapes when they interact, or repeat one shape many times as a single
+        coherent contour system. One form may be an empty cutout. Reuse a
+        radius, edge angle, centre or band interval so the construction feels
+        systematic rather than scattered.
+      Choose an Operation: >
+        Build the focal event through one main operation: overlap, masking,
+        nesting, concentric repetition, offset, intersection, reflection,
+        suspension or a change of scale. A secondary horizon, crop or colour
+        transition may support it.
+      Place and Typeset: >
+        Position and size the construction to create a generous quiet field
+        for the exact quotation. Compose the type with natural spacing and a
+        clear reading order; move or resize the forms to resolve collisions.
+    Valid Variations:
+      - "An offset circle seen through a larger dark aperture, with a single soft horizon"
+      - "Two angular colour planes that meet at an open paper wedge"
+      - "Repeated triangular or trapezoidal contours with a shifted centre or interrupted side"
+      - "Concentric arcs opening into one large quiet centre, with text outside the dense lines"
+      - "A small sun-like mark against a split field or slanted rectangular band"
+      - "A cropped geometric field with enough calm space for the quotation"
+    Variation Rule: >
+      The examples are alternatives, not templates. Vary the dominant shape,
+      operation, number of repetitions, scale, placement, colour order and
+      relation to type across cards. Infer the construction principle instead
+      of reproducing the shape count, proportions or arrangement of a single
+      reference. If text runs long, simplify or move the geometry before
+      shrinking type.
+
+  Graphic Elements:
+    Repertoire:
+      - "Full, partial or nested disks and arcs"
+      - "Open or nested triangles and trapezoids"
+      - "Concentric line systems with measured intervals"
+      - "Rectangles, diagonal planes and negative-space cutouts"
+      - "Broad colour bands, vertical, horizontal or slanted according to the construction"
+      - "One simple horizon or gentle wave when it has a compositional role"
+      - "Translucent overlaps and stepped colour fields"
+    Construction: >
+      Keep edges precise and make each contact between shapes intentional.
+      Repetition must form one optical system with consistent spacing, not
+      many unrelated ornaments. Colour may shift in steps, with transparency
+      or restrained print misregistration. A composition can be centred or
+      asymmetric, contained or partly cropped, as long as it forms one
+      coherent visual event and leaves a calm reading zone. Keep dense lines
+      away from letters. The repertoire is open, not a set to place in every
+      card.
+    Subject Relationship: >
+      Select the geometry from the supplied quotation's idea, such as
+      approach, distance, transition, balance or possibility. These are
+      possible relationships, not subjects to impose on every quotation.
+
+  Effects:
+    Surface: "Fine matte paper or aged offset-ink grain when useful; clean flat colour is also valid"
+    Colour: >
+      Use flat or stepped colour with subtle transparency. A limited faded
+      gradient may create atmosphere inside a form, but cannot become a
+      generic full-page glow.
+    Depth: "Atmosphere from layered colour within an otherwise flat construction"
+    Edges: "Crisp geometry with slightly soft printed transitions where useful"
+    Shadows: "None"
+
+  Content Contract:
+    quotation: "Render the supplied words once, verbatim."
+    author: >
+      Include only a supplied or verified attribution, in the smaller
+      right-aligned register. Omit it entirely when absent.
+    other_text: >
+      Do not invent dates, venues, captions, coordinates, event information,
+      logos, labels or microtext from the poster references.
+
+  Rules:
+    - "Keep the quotation readable at phone size without making it a huge bold headline."
+    - "Keep a large quiet field, whether the ground is pale, dark or saturated."
+    - "Create one coherent geometric relationship from a few forms or one repeated contour system."
+    - "Change the dominant shape, operation and placement to suit each quotation."
+    - "Choose a limited palette and make colour order part of the geometric logic."
+    - "Keep all letters clear of busy edges and low-contrast overlaps."
+    - "Preserve natural kerning and character spacing; recompose geometry when text collides."
+    - "Use only supplied text and supplied or verified attribution."
+    - "Avoid reproducing any reference poster's arrangement or using the disk-stripes-triangle assembly as a recurring template."
+    - "Avoid random decorative Bauhaus shapes or a generic gradient behind centred text."
+    - "Avoid photorealism, 3D objects, neon glow, chrome, heavy shadows and decorative icon sets."
+    - "Do not create a framed poster mockup or photograph of a printed card."
+
+  User Overrides:
+    Format: "Recompose the geometry and reading field for the requested ratio."
+    Palette: "Replace the default inks while preserving distinct ground, text and geometric roles."
+    Fonts: "Use the requested type direction while keeping a clear hierarchy and natural spacing."
+    Texture: "Use clean flat colour or a stronger print character when requested."

@@ -1,0 +1,57 @@
+"Design Style":
+  "Name": "Finance"
+  "Status": "Studio tematico da valutare; nessuna promozione automatica a V1 o Candidates"
+  "Concept": "La frase diventa il contenuto principale di una superficie da terminale. Un segno o un campo di segni, scelti dal quote, ne rende visibile il senso."
+  "Canvas":
+    "Ratio": "4:5"
+    "Output": "Composizione raster completa, testo incluso"
+    "Adaptation": "Ricomporre per il formato richiesto, conservando testo e proporzioni dei glifi."
+  "Mood":
+    - "Editoriale"
+    - "Tematico"
+    - "Sperimentale"
+  "Color Palette":
+    "Fixed Colors": false
+    "Policy": "Scegliere una palette armonica per fondo, testo e immagine in funzione del quote e delle preferenze. Nero e verde non sono obbligatori. Mantenere contrasto locale e ruoli chiari."
+  "Typography":
+    "Quote": "Caratteri monospace, squadrati o pixel leggibili; gerarchia di lettura chiara, non microtesto da dashboard."
+    "Spacing": "Kerning, wordspace e proporzioni naturali; risolvere capienza con a capo, composizione e scala, non tracking arbitrario."
+    "Attribution": "Facoltativa, esatta, più piccola e leggera, allineata a destra su un asse chiaro. Se assente, recuperare lo spazio."
+    "Signature": "Solo se richiesta; distinta dall’autore, mai ricavata dal profilo personale."
+  "Imagery":
+    "Language": "Pittogrammi a punti regolari, singoli o ripetuti. Valute, tempo e altre risorse sono un repertorio aperto, non soggetti obbligatori."
+    "Selection": "Il soggetto deriva dal significato della frase; gli esempi non sono soggetti fissi."
+  "Layout":
+    "Relation": "Icona, ritmo della matrice e frase condividono allineamenti e campi. Pochi separatori, parentesi o un cursore suggeriscono l’interfaccia."
+    "Variation": "Scegliere struttura, scala e densità dalla frase; variare la composizione oltre alla palette."
+  "Effects": "Precisione a matrice e campi opachi, con luce molto contenuta e quasi nessun bloom."
+  "Exclusions": "Niente dati di mercato inventati, dashboard fitte, ticker, loghi o obbligo di verde."
+  "Content Contract":
+    "quote": "Testo completo una volta, con parole, cassa, accenti e punteggiatura conservati."
+    "other_text": "Nessun autore, firma, dato, logo o testo di riempimento inventato."
+  "Production":
+    "Method": "ImageGen integrato per ogni composizione completa, testo incluso. Nessuna scritta impaginata sopra un solo fondo generato."
+    "Reference Inputs": "Le reference e i target delle edit storiche non sono requisiti permanenti. Le proprietà da trasferire vanno dichiarate quando si usano immagini."
+    "Profile Provenance": "Codifica di studio ricavata dai brief, dalle revisioni e dalle decisioni dell’utente; i prompt effettivi degli esempi sono archiviati separatamente."
+    "Validation": "Due immagini native 1122×1402, quasi 4:5, con testi diversi, rilette visivamente. Font esatto, contrasto raster, attribuzioni, altre lunghezze e altri formati non certificati."
+  "Study Note": "I soggetti euro e clessidra appartengono agli esempi; non vincolano lo stile. Il verde è facoltativo."
+"Composition Library":
+  "Style Name": "Finance"
+  "Selection":
+    "Basis": "Scegliere dal senso della frase e dall’ingombro del testo."
+    "Variation": "Repertorio aperto di relazioni, non template a coordinate fisse."
+  "Families":
+    -
+      "id": "repeated-field"
+      "Name": "Campo ripetuto"
+      "Use When": "Quando la relazione sostiene il senso e la leggibilità della frase."
+      "Structure": "Elementi coerenti col testo si ripetono e cambiano densità, lasciando uno spazio di lettura forte."
+      "Text Adaptation": "A capo per gruppi di senso, proporzioni e spazi naturali, attribuzione eventuale su asse destro."
+      "Format Adaptation": "Ricomporre nel rapporto richiesto; non ritagliare o deformare il testo."
+    -
+      "id": "single-sign"
+      "Name": "Un segno dominante"
+      "Use When": "Quando la relazione sostiene il senso e la leggibilità della frase."
+      "Structure": "Un solo pittogramma rilevante dialoga con il blocco della frase e pochi segni di interfaccia."
+      "Text Adaptation": "A capo per gruppi di senso, proporzioni e spazi naturali, attribuzione eventuale su asse destro."
+      "Format Adaptation": "Ricomporre nel rapporto richiesto; non ritagliare o deformare il testo."

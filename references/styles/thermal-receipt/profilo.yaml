@@ -1,0 +1,76 @@
+Design Style:
+  Name: Thermal Receipt
+  Concept: 'La frase diventa un documento di valore su carta da scontrino: passo fisso, righe e vuoti
+    richiamano il ritmo di stampa senza inventare transazioni o dati. Il disegno è un segno stampato,
+    non un accessorio fotografico.'
+  Canvas:
+    Ratio: '4:5'
+    Output: Una card completa frontale per social, senza cornice o mockup ambientato.
+  Mood: Quotidiano, asciutto, ironico o riflessivo secondo il testo.
+  Color Palette:
+    Default: Nero, bianco della carta e fondo grigio carbone
+    Adaptation: Palette sostituibile su richiesta; preservare contrasto locale e ruoli di supporto, frase
+      e accento. Applicarla anche al piccolo disegno.
+  Typography:
+    Quote: Monospaziato robusto e grande, passo e densità coerenti. Leggere irregolarità o righe di densità
+      possono suggerire la testina termica, senza cancellare lettere o accenti. La gerarchia è adattata
+      ai social, più grande di uno scontrino reale.
+    Hierarchy: Frase primo elemento di lettura e disegno secondario. A capo per gruppi di senso, nessuna
+      deformazione locale per evitare un’immagine.
+    Attribution: Solo se fornita o verificata, registro più piccolo e quieto, allineato a destra su un
+      asse leggibile. In assenza ricomporre senza segnaposto.
+  Layout:
+    Principle: La sequenza di righe, una colonna lasciata libera o una chiusura da totale possono interpretare
+      valore, memoria o priorità. Nessun dato commerciale aggiunto. La forma del foglio rimane leggibile
+      e la frase domina; il piccolo disegno può occupare una posizione strutturale del documento.
+    Adaptation: Scegliere una sola relazione compositiva in base al significato. Frasi lunghe richiedono
+      meno elementi e nuovi a capo; non imitare un esempio rimpicciolito. Variare relazione e struttura
+      per nuove card.
+  Elements:
+    Imagery: Piccolo soggetto monocromo costruito in segni di stampa semplici, a densità compatibile col
+      testo; nessuna illustrazione a colori aggiunta sullo scontrino.
+    Surface: Striscia di carta sottile bianca leggermente liscia, bordo tagliato o strappato netto, una
+      o due pieghe contenute. Immagine quasi monocroma e punti di stampa appena visibili; nessun inchiostro
+      liquido che sbava, rilievo o carta antica.
+  Effects:
+    Material: Striscia di carta sottile bianca leggermente liscia, bordo tagliato o strappato netto, una
+      o due pieghe contenute. Immagine quasi monocroma e punti di stampa appena visibili; nessun inchiostro
+      liquido che sbava, rilievo o carta antica.
+    Restraint: Effetti subordinati alla lettura; niente rumore uniforme o dettagli di riempimento.
+  Rules:
+  - Conservare la frase una sola volta con caso, parole, accenti, punteggiatura e ordine esatti.
+  - Nessun autore, firma, testo o marchio inventato.
+  - Disegno piccolo, riconoscibile e pertinente alla frase.
+  - Niente negozio, valuta, prezzi, tasse, date, numeri, codici a barre, QR, intestazioni o ringraziamenti
+    non forniti.
+  - Non associare la carta termica a gocce, timbri bagnati o sbavature da macchina da scrivere.
+  - Non ridurre la citazione a caratteri piccoli per simulare una lista realistica.
+  Content Contract:
+    quote: Testo esatto fornito o approvato.
+    author: Facoltativo, fornito o verificato; distinto dalla firma personale.
+Composition Library:
+  Style Name: Thermal Receipt
+  Selection:
+    Principle: Scegliere una famiglia in base a frase, formato e rapporto col piccolo soggetto. Non combinarle
+      automaticamente.
+    Variation: Per una nuova prova cambiare relazione o struttura quando il testo lo giustifica; colore
+      e soggetto da soli non provano varietà.
+  Families:
+  - id: value-column
+    Name: Colonna del valore
+    Use When: Quando il testo parla di valore, misura o priorità.
+    Structure: Righe monospaziate con una colonna di spazio libero; un piccolo segno figurativo sostituisce
+      visivamente un valore senza aggiungere numeri o etichette.
+    Text Adaptation: Frase dominante, a capo per senso, ordine di lettura unico, eventuale autore subordinato
+      a destra. Su testo lungo ridurre repertorio e ricomporre.
+    Format Adaptation: Adattare masse e vuoti al rapporto richiesto, senza tagliare parole o rimpicciolire
+      un esempio. Il 4:5 è un punto di partenza.
+  - id: unrolled-continuity
+    Name: Continuità del rotolo
+    Use When: Quando la frase riguarda durata, ritorno o ciò che resta.
+    Structure: Una striscia con lieve curva collega gruppi di senso e piccolo disegno; la continuità della
+      carta sostiene il contenuto, senza scene da banco cassa.
+    Text Adaptation: Frase dominante, a capo per senso, ordine di lettura unico, eventuale autore subordinato
+      a destra. Su testo lungo ridurre repertorio e ricomporre.
+    Format Adaptation: Adattare masse e vuoti al rapporto richiesto, senza tagliare parole o rimpicciolire
+      un esempio. Il 4:5 è un punto di partenza.

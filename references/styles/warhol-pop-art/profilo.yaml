@@ -1,0 +1,114 @@
+Design Style:
+  Name: Warhol / Pop Art
+  Status: Nuovo studio originale; due prove da discutere
+  Concept: >
+    Un'immagine di origine fotografica diventa un'icona attraverso campiture
+    piatte non naturalistiche e inchiostro serigrafico. La citazione domina
+    la composizione e condivide campiture, vuoti e sovrastampe con il soggetto.
+    Il linguaggio prende spunto dalle stampe di Andy Warhol; la centralità
+    tipografica è un adattamento progettuale per queste quote card.
+  Canvas:
+    Ratio: '4:5'
+    Output: Stampa grafica piatta, senza cornice o mockup.
+    Adaptation: Ricomporre testo, soggetto e campiture per ogni formato.
+  Mood: [Iconico, Fotografico, Artificiale, Diretto, Serigrafico]
+  Color Palette:
+    Fixed Colors: false
+    Roles: >
+      Un inchiostro scuro conserva la struttura fotografica, due o tre colori
+      non naturalistici trasformano il soggetto, un campo chiaro o saturo
+      sostiene il testo. I colori del soggetto possono oltrepassarne i contorni.
+    Examples:
+      Portrait: Carta avorio, nero, rosa, verde menta, ocra e piccolo accento rosso.
+      Object: Rosa acceso, arancione, ciano, blu profondo, nero e giallo chiaro.
+    Constraint: >
+      Mantenere contrasto locale sufficiente alle lettere. La saturazione non
+      è obbligatoria in ogni zona; la carta può restare ampiamente scoperta.
+  Typography:
+    Quote: >
+      Prima lettura della card, grande e pesante, con pochi a capo ragionati.
+      Preferire caratteri senza grazie dal disegno netto, anche condensati
+      quando il disegno resta coerente. Mantenere proporzioni naturali,
+      contatori aperti, spazi fra parole e punteggiatura riconoscibili.
+      Una lieve texture da stampa può legare le lettere all'immagine.
+    Case: >
+      Maiuscole possibili per testi dimostrativi originali. Preservare il
+      testo fornito dall'utente, salvo trasformazioni richieste o concordate.
+    Contrast: >
+      Nero su campitura chiara oppure riserva chiara su massa scura; un
+      cambio di colore può distinguere una parola o un gruppo di senso.
+    Attribution: >
+      Facoltativa e solo se fornita o verificata; piccola, leggibile e
+      subordinata alla frase, ancorata a un asse destro chiaro.
+  Layout:
+    Main Relationship: >
+      Testo e visual condividono la stessa superficie. Il soggetto può essere
+      parzialmente coperto dalle lettere o attraversarne gli spazi, purché la
+      frase resti immediatamente leggibile e il soggetto riconoscibile.
+    Strategies:
+      - Ritratto decentrato intrecciato a un grande blocco tipografico e a campiture irregolari.
+      - Oggetto ingrandito e tagliato ai bordi, con dettagli o ripetizioni secondarie tra le righe.
+      - Paesaggio semplificato in fasce e masse fotografiche, attraversato da poche righe dominanti.
+      - Ripetizioni dello stesso soggetto con colori variabili come ritmo intorno alla frase.
+    Flexibility: >
+      Le strategie sono alternative aperte, non ingredienti da sommare.
+      Nessun obbligo di ritratto, griglia, ripetizione, tre righe o testo a sinistra.
+      Scegliere scala, margini, vuoti e sovrapposizioni secondo la frase.
+    Longer Text: >
+      Semplificare soggetto e numero di campiture prima di ridurre il testo.
+      Eliminare ripetizioni secondarie se sottraggono leggibilità.
+  Imagery:
+    Subject: >
+      Persona, oggetto comune o paesaggio scelto in relazione al testo.
+      L'icona nasce dal trattamento visivo e dalla scala, non dall'obbligo
+      di rappresentare una celebrità, un prodotto famoso o una confezione.
+    Photographic Structure: >
+      Conservare tracce della fotografia: ombre, dettagli selettivi, bordi
+      irregolari e passaggi tonali ridotti. Una matrice scura ad alto contrasto
+      si sovrappone a campiture cromatiche autonome. Evitare che il soggetto
+      diventi un semplice disegno a contorno o un render tridimensionale.
+    Color Separation: >
+      Colori piatti sovrapposti, sfalsamenti controllati e scelte arbitrarie
+      per pelle, materiali, cielo o terreno. Gli sfalsamenti devono mostrare
+      il rapporto tra livelli di stampa, non un generico effetto neon.
+    Optional Lines: >
+      Contorni sottili, interrotti e lievemente spostati rispetto al soggetto,
+      oppure campiture con bordi da carta ritagliata. Usarli quando rafforzano
+      la composizione, non come decorazione obbligatoria.
+  Effects:
+    Ink: >
+      Densità variabile, piccole lacune e sbavature, grana fotografica e
+      trama fine del telaio. Gli effetti restano locali e coerenti con
+      l'inchiostro; non coprire tutto con rumore uniforme.
+    Paper: >
+      Carta opaca da stampa artistica, chiara o calda, con fibra discreta.
+      Il forte ingiallimento e l'usura vintage non sono requisiti dello stile.
+    Halftone: >
+      Retino fotografico possibile, ma non imporre i grossi punti regolari
+      dei fumetti o un fondo a pois. L'identità nasce dalle separazioni
+      cromatiche e dalla matrice fotografica.
+  Rules:
+    - La citazione deve prevalere sul soggetto nella lettura complessiva.
+    - Soggetto e frase si progettano insieme, non come immagine e didascalia separate.
+    - Ripetizione e griglia sono possibilità, non obblighi.
+    - Non aggiungere firme, numeri di edizione, marchi o altri testi non richiesti.
+    - Non attribuire a Warhol i testi dimostrativi originali.
+    - Non trattare qualunque poster pop come opera autentica di Warhol.
+  Development:
+    Research: ricerca.md
+    Examples:
+      - Image: prova-1.png
+        Prompt: prompt-prova-1.md
+        Text: CAMBIA IL TUO SGUARDO.
+        Subject: Ritratto di persona immaginaria.
+      - Image: prova-2.png
+        Prompt: prompt-prova-2.md
+        Text: LE IDEE FANNO RUMORE.
+        Subject: Telefono a disco senza marchio.
+    Notes: note-prove.md
+    Validation: >
+      Due prove generate e ispezionate, entrambe con testo breve leggibile,
+      senza attribuzione, con soggetti e palette diversi. La prima conserva
+      più chiaramente la struttura del ritratto fotografico; la seconda
+      tende al manifesto commerciale. Paesaggi, testi lunghi, attribuzioni
+      e ripetibilità generale ancora da verificare.

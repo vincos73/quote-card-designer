@@ -1,0 +1,81 @@
+"Design Style":
+  "Name": "Stencil Spray"
+  "Status": "Candidato approvato dall’utente il 29 ottobre 2026; non incluso nella selezione release."
+  "Concept": "La frase è una verniciatura reale eseguita con mascherine ritagliate. Lo sporco nasce dalla deposizione dell’aerosol, dal contatto della matrice e dall’uso della superficie."
+  "Canvas":
+    "Ratio": "4:5"
+    "Output": "Composizione raster completa, testo incluso"
+    "Surface": "Superficie realmente verniciata, opaca e con grana credibile, fotografata quasi frontalmente. Carta, pannello, metallo o intonaco sono possibilità da scegliere per la singola card."
+    "Adaptation": "Ricomporre gruppi di parole, verniciatura e intervalli nel formato richiesto, senza deformare glifi o ritagliare parole"
+  "Mood":
+    - "Fisico"
+    - "Diretto"
+    - "Sporco"
+    - "Urbano"
+    - "Fotografico"
+  "Color Palette":
+    "Policy": "Colori variabili, come richiesto dall’utente. Scegliere pigmenti e superficie con contrasto locale forte. Non fissare giallo, nero o bianco come colori obbligatori."
+    "Roles": "Il fondo è una superficie verniciata, le parole sono passate di pigmento; differenziare gruppi di senso con un secondo colore solo quando la gerarchia lo giustifica."
+    "Material Consistency": "L’overspray, i granuli e le colature hanno il colore della vernice corrispondente. Evitare uno strato di grunge nero identico su tutte le palette."
+  "Typography":
+    "Quote": "Display stencil maiuscolo robusto, geometrico e naturalmente condensato. Disegno coerente fra lettere, senza stiramenti o schiacciamenti locali."
+    "Construction": "I contrografismi chiusi hanno ponti plausibili che collegano le isole alla matrice; le interruzioni sono funzionali alla mascherina e non tagli decorativi casuali."
+    "Spacing": "Proporzioni, kerning ottico e spazi fra parole naturali. Risolvere ingombri con a capo, composizione e scala del blocco, mai tracking arbitrario per pareggiare righe."
+    "Material": "I centri dei tratti sono coprenti; i bordi variano fra taglio netto e nebulizzazione dove la mascherina si solleva. Il testo è vernice, non un font pulito coperto da texture."
+    "Attribution": "Facoltativa, esatta, più piccola e quieta, sempre allineata a destra su un asse riconoscibile. Trattamento stencil coerente e leggibile; se assente, recuperare lo spazio."
+    "Signature": "Solo se richiesta, distinta dall’autore, mai dedotta dal profilo personale"
+  "Layout":
+    "Relation": "Le parole costituiscono il gesto principale; vuoti, cambi di passata e lievi scarti di registro ne scandiscono il ritmo."
+    "Reading": "Ordine chiaro, gruppi di senso integri e margini che conservano le parole intere"
+    "Variation": "Assi, larghezze e numero di righe dipendono dalla frase. Non replicare automaticamente la sagoma o la disposizione di un poster reference."
+  "Elements":
+    "Primary": "Matrici ritagliate leggibili nel disegno dei caratteri e vernice spray depositata sulla superficie"
+    "Aerosol": "Granuli fini, aloni di overspray localizzati, piccole zone più scariche, accumuli dove la mano insiste, rari schizzi e brevi colature da gravità"
+    "Surface": "Grana e usura contenute, compatibili con il supporto. Nessun muro crepato, ruggine o sfondo urbano obbligatorio."
+    "Imagery": "Nessuna immagine obbligatoria; se richiesta, anche l’immagine deve appartenere allo stesso processo fisico di verniciatura e restare coerente con la frase"
+  "Effects":
+    - "Variazione del bordo legata al contatto o al sollevamento della mascherina"
+    - "Deposizione e copertura del pigmento non uniformi, senza cancellare i tratti essenziali"
+    - "Luce fotografica naturale, superficie opaca e microtexture plausibile, senza ombre estruse intorno alle lettere"
+  "Rules":
+    - "Sporco fisico e realismo sono le invarianti dello stile; i colori possono variare"
+    - "Lo sporco deve avere una causa materiale leggibile, non essere una texture grunge uniforme"
+    - "Conservare ponti, contatori, accenti e parole riconoscibili"
+    - "Nessun marchio, data, codice, etichetta, slogan aggiunto o timbro inventato"
+    - "Niente neon, rilievo 3D, bordi vettoriali perfetti, blur digitale uniforme o dripping decorativo obbligatorio"
+  "Content Contract":
+    "quote": "Testo completo una volta, con parole, cassa richiesta, accenti e punteggiatura conservati. Le frasi dimostrative originali sono senza punto finale."
+    "other_text": "Nessuna attribuzione o firma inventata; non riprodurre testi o nomi commerciali delle reference"
+  "Production":
+    "Method": "ImageGen integrato per ogni composizione completa, testo incluso; nessuna impaginazione deterministica sopra un fondo generato"
+    "Reference Inputs": "Linguaggio inferito dai cinque riferimenti forniti. Le prime due prove non usano immagini di input; la correzione 03 usa la prima come target di edit. Nessuna reference operativa permanente."
+    "Reference Comparison": "Prima di introdurre stabilmente reference nel flusso, effettuare il confronto A/B controllato previsto dallo schema e lasciare all’utente la valutazione."
+    "Validation": "Due frasi e due palette rilette visivamente, più una correzione mirata dei margini della prova gialla. Testo completo nelle prove correnti 02 e 03, senza punto finale. Nativi 1122×1402 px, prossimi al 4:5. Overspray, pigmento e interruzioni stencil visibili; funzionalità costruttiva delle matrici, font esatto, contrasto numerico, attribuzioni e ripetibilità non certificati."
+"Composition Library":
+  "Style Name": "Stencil Spray"
+  "Selection":
+    "Basis": "Scegliere numero di gruppi, assi e densità dalla frase e dal formato"
+    "Variation": "Le famiglie descrivono relazioni adattabili, non sagome, palette o citazioni da ripetere"
+  "Families":
+    -
+      "id": "offset-groups"
+      "Name": "Gruppi sfalsati e passate"
+      "Use When": "Una frase breve contiene pochi gruppi forti che possono assumere pesi visivi distinti"
+      "Structure": "Righe orizzontali di larghezza naturale si spostano moderatamente fra assi vicini; lo spazio libero risponde al gruppo successivo. Eventuali cambi di pigmento seguono la gerarchia del testo."
+      "Text Adaptation": "Preferire gruppi di senso; mantenere lo stesso disegno dei caratteri e spazi naturali, senza giustificare o comprimere le righe"
+      "Format Adaptation": "Ricomporre gruppi e vuoti nel formato richiesto, conservando i ponti e l’attribuzione eventuale su asse destro"
+      "Variation Axes":
+        - "Scala relativa dei gruppi, quando ha una ragione espressiva"
+        - "Ampiezza dello spostamento degli assi"
+        - "Densità delle passate e zone di overspray"
+    -
+      "id": "open-cadence"
+      "Name": "Cadenza verticale e campo aperto"
+      "Use When": "Il testo può sviluppare una progressione lungo più righe senza occupare uniformemente tutta la superficie"
+      "Structure": "Un asse principale coordina le parole; piccole rientranze e un intervallo più ampio producono una pausa. Lo spray e il supporto restano leggibili nei vuoti."
+      "Text Adaptation": "A capo per gruppi sintattici, senza spezzare parole o usare tracking per riempire il campo. Aprire spazio prima di ridurre uniformemente il blocco."
+      "Format Adaptation": "Variare numero di gruppi e pause per il rapporto richiesto, senza ritagliare l’esempio"
+      "Variation Axes":
+        - "Posizione della pausa principale"
+        - "Numero di righe e margini"
+        - "Densità della copertura e rapporto fra zone nette e nebulizzate"

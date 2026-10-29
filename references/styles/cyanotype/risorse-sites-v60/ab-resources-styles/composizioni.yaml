@@ -1,0 +1,32 @@
+Composition Library:
+  Style Name: Cyanotype
+  Selection:
+    Basis: Scegliere la relazione tra parole e impronta dal significato e dalla lunghezza della frase.
+    Variation: Variare assi, apertura, soggetto e densità senza trasformare la carta in un campo decorativo.
+  Families:
+    - id: contact-opening
+      Name: Apertura nella frase e impronta
+      Use When: Il testo parla di presenza, assenza, segno, spazio o trasformazione.
+      Structure: >
+        La frase costruisce un campo aperto e asimmetrico, con un intervallo
+        laterale che accoglie il piccolo soggetto. La direzione dell'impronta
+        si collega a un passaggio significativo senza coprire le lettere.
+      Text Adaptation: >
+        Gruppi in sequenza naturale, corpi grandi e poche variazioni motivate.
+        L'apertura si ottiene ricomponendo le righe, non comprimendo i glifi.
+      Format Adaptation: >
+        In formati stretti portare l'impronta sul margine superiore o inferiore
+        dell'apertura; conservare un percorso di lettura unico.
+    - id: exposure-threshold
+      Name: Soglia di esposizione
+      Use When: Una variazione di densità può esprimere passaggio, distanza o rivelazione.
+      Structure: >
+        Un passaggio locale tra blu più denso e più tenue organizza il foglio;
+        parole e impronta sono ancorate alla stessa soglia, senza pannelli
+        rettangolari aggiunti o ripetizione della frase.
+      Text Adaptation: >
+        Tutti i tratti restano contrastati contro il fondo locale. Evitare
+        parole volutamente sbiadite o effetti che cambiano lettere e accenti.
+      Format Adaptation: >
+        Ricomporre orientamento e ampiezza della soglia per il formato,
+        senza imporre una fascia orizzontale o la stessa posizione del soggetto.

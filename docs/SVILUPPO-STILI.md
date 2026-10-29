@@ -1,0 +1,97 @@
+# Libreria condivisa fra portatile e iMac
+
+Il repository conserva la libreria di sviluppo; le release distribuiscono una
+selezione approvata. Il 29 ottobre 2026 la riconciliazione della sorgente Sites
+versione 60 con la libreria locale ha raccolto **127 stili**: **50 nella release
+0.4.0, 34 candidati e 43 sperimentali**. La gallery pubblicata ne contiene 122;
+cinque studi sono soltanto locali. Salvare uno stile su GitHub non lo promuove
+alla release e non pubblica una nuova versione del sito.
+
+## Dove lavorare
+
+- `references/catalogo-stili.yaml`: indice di tutti i 127 stili. Per ogni voce,
+  seguire il campo `profile`, che può indicare una variante specifica.
+- `references/styles/<id>/`: profili, composizioni, esempi, prompt, ricerche e
+  note disponibili. I materiali storici sono conservati accanto alle revisioni.
+- `references/catalogo-v1.yaml`: snapshot dei 50 stili distribuiti nella 0.4.0.
+  La versione installata della skill legge questo catalogo, non tutta la libreria.
+- `gallery/source-profiles/sites-v60/`: YAML esatti estratti dalle 122 schede
+  della gallery, comprese le composizioni incorporate.
+- `gallery/reconciliation/2026-10-29.json`: provenienza, hash degli esempi,
+  differenze fra profili, risorse recuperate e riferimenti ancora mancanti.
+
+I campi storici hanno questi significati:
+
+| Stato | `release_candidate` | `v1_shortlisted` |
+| --- | --- | --- |
+| Incluso nella release | `true` | `false` o assente |
+| Candidato alla prossima selezione | `false` | `true` |
+| Sperimentale | `false` | `false` o assente |
+
+Non attivare entrambi i campi. Il nome storico `release_candidate` indica
+l'inclusione nella release, non il badge Candidates della gallery.
+
+## Passare da un computer all'altro
+
+Usare su entrambe le macchine un clone di `vincos73/quote-card-designer`, con il
+branch `main` come base condivisa. All'inizio di una sessione:
+
+```sh
+git status --short
+git pull --ff-only
+```
+
+Se ci sono modifiche locali, conservarle e riconciliarle prima di aggiornare;
+non usare reset, checkout forzati o copie dell'intera cartella per sovrascriverle.
+Se `--ff-only` segnala una divergenza, confrontare i commit dei due computer.
+
+Durante il lavoro, aggiungere lo stile in `references/styles/<id>/` e aggiornare
+la sua voce nel catalogo esteso. Conservare i PNG nativi e i prompt quando
+disponibili; indicare i limiti delle prove. Prima di cambiare macchina:
+
+```sh
+git diff --check
+python3 gallery/build.py
+git add references/styles/<id> references/catalogo-stili.yaml
+git commit -m "Update <id> development style"
+git push origin main
+```
+
+Includere nel commit anche gli eventuali script o documenti effettivamente
+modificati. Se due sessioni lavorano contemporaneamente sugli stessi file,
+usare branch distinti e confrontare le modifiche prima di unirle a `main`.
+
+## Verifiche e release
+
+```sh
+python3 -m pip install -r gallery/requirements.txt
+python3 gallery/build.py
+python3 gallery/validate.py
+python3 gallery/package_skill.py --output /tmp/quote-card-designer-verifica.zip
+```
+
+Usare una destinazione ZIP nuova a ogni esecuzione. Il generatore della release
+verifica la selezione separata e include soltanto i suoi profili e dipendenze.
+La riconciliazione del 29 ottobre conserva identici i 150 file della release
+0.4.0. Non crea una release di sviluppo né cambia la skill globale installata.
+
+## Limiti del recupero dalla gallery
+
+Gli esempi nelle directory `gallery-v60/` sono i file serviti dal sito: alcuni
+sono JPEG compressi, altri PNG. Non sono tutti originali nativi. Le risorse
+supplementari disponibili nella sorgente Sites sono conservate in
+`risorse-sites-v60/`; i file citati nei profili ma non recuperabili sono elencati
+nel registro e nei documenti `PROVENIENZA.md` dei rispettivi stili. Recuperarli
+dall'altro computer quando disponibili, senza inventare prompt o note mancanti.
+
+Cinque stili avevano profili diversi fra libreria locale e gallery. Per i quattro
+fuori release il catalogo punta alla variante `profilo-gallery-v60.yaml`,
+conservando il profilo locale precedente. Futurismo Italiano conserva il profilo
+distribuito: nella gallery differisce il nome. Tutti gli YAML pubblicati sono
+comunque archiviati integralmente.
+
+La build riunisce anche i cinque studi assenti dalla gallery: Cosmic Wireframe
+Grid, Ethereal Editorial, Faceted Ink, Halftone Editorial sperimentale e Literary
+Editorial. Non pubblicare la build completa su Sites senza una richiesta che
+comprenda anche questi studi. GitHub può contenere tutti gli esperimenti anche
+quando il sito mantiene una selezione diversa.

@@ -1,0 +1,64 @@
+Design Style:
+  Name: Filament Collage
+  Status: Nome provvisorio; studio sperimentale nell'archivio di lavoro
+  Concept: >
+    Una citazione dialoga con una figura o un oggetto costruito attraverso
+    frammenti fotografici, carta e campiture materiche. Filamenti sottili
+    attraversano la forma e il vuoto, creando una composizione ariosa e inquieta.
+  Reference Basis:
+    Notes: note-prova-1.md
+    Transfer: >
+      Rielaborare filamenti liberi, contrasti fra fotografia o disegno e
+      campiture, texture puntuali e ampi vuoti delle due immagini. Non
+      riprodurre volti, soggetti, identità, gesti o composizioni specifici.
+  Canvas:
+    Ratio: '4:5'
+    Output: Quote card editoriale piatta a piena pagina.
+    Adaptation: Ricomporre frase, figura e traiettorie per ogni formato.
+  Mood: [Editoriale, Sospeso, Gestuale, Essenziale, Sperimentale]
+  Color Palette:
+    Fixed Colors: false
+    Roles: >
+      Un fondo quieto, una figura a forte contrasto e una o due linee di
+      accento. Avorio, nero, grigi e rosso sono un esempio, non vincoli.
+  Typography:
+    Quote: >
+      La citazione è la prima lettura, sufficientemente grande e contrastata.
+      Scegliere il carattere in relazione alla frase, mantenendo una sequenza
+      chiara e spazi corretti. Preservare esattamente parole, maiuscole,
+      accenti e punteggiatura una sola volta; non aggiungere virgolette.
+    Attribution: Solo se fornita o verificata, subordinata e leggibile.
+  Layout:
+    Composition: >
+      Un soggetto riconoscibile interagisce con linee sottili, frammenti e
+      una quantità limitata di pattern. Variare posizione e scala secondo
+      la frase, lasciando consistenti intervalli di fondo.
+    Integration: >
+      I filamenti possono attraversare o uscire dalla figura; non devono
+      compromettere la lettura delle parole. La figura è subordinata alla
+      citazione senza ridursi a un'icona generica.
+  Imagery:
+    Subject: >
+      Persona, animale, oggetto o forma pertinenti alla citazione; il
+      ritratto non è obbligatorio. Non usare volti riconoscibili o fotografie
+      tratte dai riferimenti come contenuti riutilizzabili.
+    Treatment: >
+      Combina frammenti fotografici, carta strappata, tessuti o superfici
+      stampate con pittura e silhouette. Rendere visibili i bordi e le
+      sovrapposizioni materiche; tratteggi, retini e punti restano locali.
+  Effects:
+    Lines: Sottili traiettorie gestuali a lunghezza e curvatura variabili.
+    Space: Campi di carta o colore quieti che lasciano respirare figura e testo.
+    Exclusions: Niente pattern uniforme, cornici obbligatorie o filamenti che oscurano parole.
+  Content Contract:
+    quote: Citazione completa ed esatta, una sola volta.
+    author: Solo se fornito o verificato.
+    other_text: Nessuna firma, numero, testo, etichetta o virgolette non richiesti.
+  Production:
+    Preferred Mode: generative
+    Validation Status: >
+      Due prove con rondine e una frase breve. La prima aggiunge virgolette;
+      la seconda mostra carta, frammenti fotografici e retini, con frase
+      corretta e senza virgolette, ma il testo rimane su un blocco distinto.
+      Le superfici sono simulate; non sono verificate ripetibilità,
+      leggibilità mobile o resa con altre frasi e soggetti.

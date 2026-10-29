@@ -1,0 +1,63 @@
+Design Style:
+  Name: Art Journal
+  Status: Nome provvisorio; studio sperimentale; fuori dal catalogo
+  Concept: >
+    Una citazione prende forma su una pagina d'artista in tecnica mista:
+    lettering gestuale, disegno a mano, pittura e frammenti di carta
+    convivono come parti di un pensiero visivo in costruzione. La direzione
+    è adulta, introspettiva e tormentata, con tensione e ambiguità.
+  Reference Basis:
+    Notes: note-prova-1.md
+    Transfer: >
+      Dalle immagini fornite riprendere sovrapposizione di segni, disegno
+      irregolare, scrittura espressiva e materia analogica. Non riprodurre
+      personaggi, immagini fotografiche, parole, firme o composizioni.
+  Canvas:
+    Ratio: '4:5'
+    Output: Quote card editoriale piatta, pagina intera
+    Adaptation: Ricomporre testo e materiali per ogni formato.
+  Mood: [Gestuale, Sperimentale, Materico, Intimo, Tormentato]
+  Color Palette:
+    Fixed Colors: false
+    Roles: >
+      Carta e inchiostro con accenti dipinti scelti per la frase. Rosso,
+      ocra e nero sono possibili, non una combinazione obbligatoria.
+  Typography:
+    Quote: >
+      Lettering a mano espressivo, irregolare nel ritmo e nella pressione,
+      integrato con i segni della pagina ma preminente nella lettura.
+      Riportare le parole esatte una sola volta, con maiuscole, accenti,
+      spazi e punteggiatura integri.
+    Attribution: Solo se fornita o verificata, discreta e leggibile.
+  Layout:
+    Structure: >
+      Disegno, segni, campiture e carta possono toccare o attraversare
+      lo spazio della frase senza oscurarla. Alternare densità materiche e
+      pause; non imporre griglie, bordi di quaderno o collage fotografici.
+    Imagery: >
+      Scegliere figure, oggetti, piante o forme in rapporto alla citazione.
+      Il disegno può essere deformato, incompleto e gestuale, purché
+      coerente con il senso e subordinato alla lettura del testo.
+  Materials:
+    Repertoire: >
+      Inchiostro, grafite, pastello, pittura, carta strappata e segni di
+      assemblaggio, combinati liberamente in relazione alla frase.
+    Restraint: >
+      Conservare una logica compositiva tra i segni, senza riempire
+      uniformemente la pagina né usare tutte le tecniche obbligatoriamente.
+      Evitare tratto infantile, motivi giocosi e colori primari come
+      scorciatoia espressiva. La cupezza non impone un soggetto o una palette.
+  Content Contract:
+    quote: Citazione completa ed esatta una volta.
+    author: Solo se fornito o verificato.
+    other_text: Nessuna parola, data, firma o etichetta non richiesta.
+  Production:
+    Preferred Mode: generative
+    Validation Status: >
+      Tre prove con soggetti, colori e frasi diverse. Nella prima alcune
+      lettere sembrano maiuscole anziché minuscole; le successive conservano
+      la frase e l'accento richiesti. Il trattamento è una simulazione, non
+      un collage fisico documentato; ripetibilità, resa su telefono e frasi
+      lunghe restano da verificare.
+      Una nuova prova più tormentata usa segni scuri e strati materici;
+      aggiunge virgolette e altera la capitalizzazione iniziale.

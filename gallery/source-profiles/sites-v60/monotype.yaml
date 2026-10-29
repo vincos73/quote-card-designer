@@ -1,0 +1,98 @@
+Design Style:
+  Name: Monotype
+  Version: 0.2.0-experimental
+  Status: V1 candidate; approvato per la gallery il 28 ottobre 2026
+  Concept: >
+    Una citazione e un piccolo disegno prendono forma nell'impronta di una
+    lastra inchiostrata. Campi densi, velature residue, tracce di pulitura e
+    trasferimenti diseguali rendono visibile una materia manipolata. Il testo
+    partecipa alla stampa e rimane dominante. La direzione iniziale è a fondo
+    scuro, con parole ricavate sottraendo inchiostro; la variante a fondo
+    chiaro stampa parole e disegno con depositi positivi di inchiostro.
+  Canvas:
+    Ratio: '4:5'
+    Output: Opera editoriale piatta, con campo di stampa e carta visibile.
+    Adaptation: Ricomporre frase, disegno e impronta per il formato richiesto.
+  Mood: [Tattile, Pittorico, Intimo, Imperfetto, Essenziale]
+  Color Palette:
+    Fixed Colors: false
+    Starting Palette:
+      Paper: '#EFE5D0'
+      Ink: '#101E29'
+      Residual Ink: '#7F817C'
+    Roles: >
+      Carta chiara e un inchiostro scuro come punto di partenza. I mezzi toni
+      derivano dall'assottigliamento e dal deposito dell'inchiostro. Adattare
+      carta e pigmento alla richiesta senza perdere contrasto fra parole,
+      campo e disegno; il blu-nero non è un colore obbligatorio.
+  Typography:
+    Quote: >
+      Lettere manuali ampie, semplici e aperte, costruite con la stessa
+      materia dell'impronta. Nella variante a fondo scuro le lettere sono
+      carta liberata dall'inchiostro: bordi da pulitura, residui sottili e
+      piccole discontinuità di trasferimento. Non sovrapporre un carattere
+      bianco perfettamente pulito o una pennellata di vernice chiara.
+      Nel fondo chiaro le lettere sono inchiostro trasferito: nuclei densi,
+      bordi discontinui e passaggi sottili, senza simulare lettere ritagliate.
+    Legibility: >
+      Conservare esattamente frase, caso, accenti e punteggiatura. Interventi
+      nel tratto non compromettono gli occhielli, i punti delle i, gli spazi
+      o la distinzione delle parole. A capo per senso, proporzioni naturali,
+      niente condensazioni locali per riempire una riga.
+    Attribution: >
+      Solo se fornita o verificata, più piccola e leggera ma leggibile,
+      allineata a un asse destro chiaro. Se assente, omettere e ricomporre.
+      Nessuna firma personale aggiunta senza richiesta esplicita.
+  Layout:
+    Relationship: >
+      Frase e piccolo disegno abitano lo stesso campo di stampa, con spazi
+      quieti che proteggono la lettura. Il disegno interpreta il contenuto
+      con masse tonali e segni sintetici; resta subordinato al testo.
+    Field: >
+      L'impronta può lasciare visibile un bordo di lastra e margini diseguali
+      di carta. Non imporre un rettangolo pieno uniforme, una cornice usurata
+      o la stessa diagonale di pulitura in ogni card. Conservare un margine
+      interno sufficiente intorno a tutte le parole, incluso il punto finale.
+    Capacity: >
+      Per frasi lunghe ridurre ingombro e complessità del disegno e ampliare
+      il campo di lettura prima di ridurre il corpo. Non tagliare o abbreviare.
+  Elements:
+    Small Image: >
+      Un piccolo soggetto riconoscibile scelto per la frase, costruito con
+      inchiostro trattenuto e rimosso. Oggetti, forme naturali e figure sono
+      repertori aperti; la conchiglia dell'esempio non è un soggetto fisso.
+    Ink Manipulation: >
+      Tracce di straccio o tampone, passaggi di rullo, masse pigmentate,
+      leggere asportazioni, depositi incompleti e mezzi toni. Scegliere pochi
+      gesti pertinenti; non inserirli tutti come decorazione obbligatoria.
+  Effects:
+    Transfer: >
+      Pellicola di inchiostro stampata e sostanzialmente piatta: zone dense,
+      sottili velature, separazioni irregolari e occasionali bordi compressi.
+      Le variazioni seguono pressione e gesto, non una texture uniforme.
+    Subtraction: >
+      La luce del fondo scuro emerge togliendo inchiostro, con carta e
+      residui visibili. Evitare tratti chiari che sembrino tutti dipinti
+      sopra il nero con pennello asciutto. Le lettere restano leggibili.
+    Surface: >
+      Carta opaca da stampa; nessun obbligo di invecchiamento seppia,
+      spruzzi, briciole di carboncino, retino risografico o collage.
+  Content Contract:
+    quote: Frase esatta e completa una sola volta.
+    author: Solo attribuzione fornita o verificata.
+    other_text: Nessun marchio, numero, data, titolo o firma inventati.
+  Rules:
+    - La frase ha precedenza; piccolo disegno e materia la accompagnano.
+    - Le imperfezioni derivano da inchiostro manipolato e trasferito.
+    - Preservare zone scure quiete e zone di deposito sottile.
+    - Il colore e il soggetto cambiano in relazione alla frase.
+    - Non presentare una simulazione generativa come stampa fisica autentica.
+  Production:
+    Preferred Mode: generative
+    Validation Status: >
+      Due frasi e due composizioni indipendenti, una delle quali rifinita.
+      Fondo scuro blu-nero con segno negativo e fondo chiaro con inchiostro
+      ruggine positivo; conchiglia e scala. Testi corretti e anteprime
+      ispezionate; persistono alcuni contorni da pennello. Attribuzioni,
+      frasi molto lunghe, formati diversi e ripetibilità generale non provati.
+      Ricerca documentata in ricerca.md; nessuna reference operativa permanente.

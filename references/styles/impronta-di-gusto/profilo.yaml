@@ -1,0 +1,66 @@
+Design Style:
+  Name: Impronta di gusto
+  Status: Approvato per la libreria il 28 ottobre 2026; selezione V1 separata
+  Concept: Un alimento scelto dal significato diventa una matrice incisa a colori che modella il respiro
+    di grandi lettere morbide.
+  Canvas:
+    Ratio: '4:5'
+    Output: Card raster completa, testo incluso
+    Adaptation: Ricomporre frase, soggetto e spazio nel formato richiesto, senza stirare lettere o ritagliare
+      testo.
+  Mood:
+  - Conviviale
+  - Tattile
+  - Curioso
+  - Energico
+  Color Palette:
+    Principle: fondo alimentare chiaro, testo scuro colorato, alimento in due tinte armoniche
+    Examples:
+    - avena, prugna, ocra tostata
+    - pistacchio, prugna, crema e ocra chiara
+    Variable: true
+  Typography:
+    Quote: grandi grazie morbide, basso contrasto dei tratti, controforme aperte; direzione generata senza
+      font reale certificato
+    Spacing: proporzioni naturali, kerning ottico, spazi fra parole leggibili; nessun tracking per pareggiare
+      righe
+    Emphasis: corpo diverso solo con ragione semantica; mantenere disegno del carattere
+    Attribution: Facoltativa; solo fornita o verificata, esatta, più piccola e allineata a destra. Se
+      assente, recuperare lo spazio.
+    Signature: Solo se richiesta, distinta dall’attribuzione; registro subordinato. Nessun nome ricavato
+      dal profilo personale.
+  Layout:
+    Essential: il profilo dell'alimento e il bordo del blocco tipografico condividono un intervallo di
+      carta libero
+    Variable: asse, ritaglio, massa principale, a capo, allineamento, densità e soggetto dipendono dalla
+      frase
+    Examples:
+    - testo alto sinistro, grande sezione crescente dal basso destro
+    - alimento aperto diagonale in alto, frase ancorata a destra più in basso
+  Imagery:
+    Repertoire: aperto; alimento, gesto o utensile scelto dal senso della frase, nessun oggetto obbligatorio
+    Treatment: campiture come matrici incise, tagli chiari, bordi morbidi di inchiostro, assenza di fotorealismo
+  Effects:
+  - grana lieve della carta
+  - lievi irregolarità dell'inchiostro
+  Rules:
+  - frase integrale una volta; nessun testo di riempimento
+  - niente collage di icone culinarie per segnalare il tema
+  - mantenere gerarchia del testo e contrasto locale
+  - non imporre pane o melanzana come soggetto ricorrente
+  - non dichiarare correttezza botanica dell'illustrazione stilizzata
+  - 'Conservare la riconoscibilità culinaria degli ingredienti: la stilizzazione non giustifica interni
+    o semi di un alimento diverso.'
+  Production:
+    Preferred Mode: generative
+    Method: ImageGen integrato per la composizione completa, testo incluso; nessuna scritta impaginata
+      sopra un fondo generato.
+    Reference Inputs: Nessuna reference permanente. Gli input delle edit storiche sono archiviati con
+      ruolo esplicito e non diventano un requisito delle card future.
+    Validation Status: Due frasi diverse e due palette/composizioni provate e approvate. Nativi 1122×1402
+      px, quasi 4:5. Altre lunghezze, attribuzioni e formati non provati; nessun font esatto o contrasto
+      raster certificato.
+  Content Contract:
+    quotation: Testo letterale una volta, con cassa, accenti e punteggiatura conservati.
+    other_text: Nessun autore, firma, etichetta, logo o dato inventato.
+Composition Library: composizioni.yaml

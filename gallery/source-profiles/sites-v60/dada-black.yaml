@@ -1,0 +1,275 @@
+Design Style:
+  Name: Dada
+  Status: Incluso nel catalogo V1 il 26 ottobre 2026; gallery profile
+  Concept: 'A quotation is assembled with visibly cut, torn, printed and drawn fragments. Unexpected recombinations,
+    displaced scale and mismatched photographic material create a witty or uneasy visual relationship.
+    Paper edges, ink, tape and varied typographic scraps remain perceptible. The montage has a clear message
+    and an authored hierarchy within its deliberate irregularity.
+
+    '
+  Reference Basis:
+    Transfer: 'Transfer torn-paper construction, surreal photomontage, selected anatomical or everyday
+      fragments, mixed printed voices, strong colour planes, halftone and sparse handmade marks from the
+      supplied images. The language can be chromatic, monochrome, contemporary or more archival.
+
+      '
+    Source Notes: reference.md
+    Independence: 'Reference faces, book covers, historical people, titles, brands, slogans and signatures
+      are not content to reuse. Invent subjects and recombinations for the current quotation. Images inform
+      the profile; they are not mandatory runtime inputs.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: One complete flat editorial quote card, full bleed
+    Adaptation: 'Recompose the quotation, collage focus and open intervals for each ratio. Keep all required
+      text visible rather than cropping a poster.
+
+      '
+  Mood:
+  - Expressive
+  - Handmade
+  - Surprising
+  - Playful
+  - Surreal
+  - Tactile
+  - Editorial
+  - Rebellious
+  Color Palette:
+    Fixed Colors: false
+    Strategy: 'Choose a restricted palette that supports the current collage. Warm light paper, black-and-white
+      fragments and one or two decisive colours are a useful starting relationship. A richer chromatic
+      study, a monochrome card or a dark ground are equally possible. Neither black nor dark olive is
+      an obligatory background.
+
+      '
+    Starting Directions:
+      Chromatic Paper:
+        Paper: '#F1E7D9'
+        Ink: '#151513'
+        Orange: '#F85D1C'
+        Cobalt: '#245AAB'
+        Dusty Pink: '#DB9FA6'
+      Monochrome:
+        Paper: '#E9E3D7'
+        Ink: '#151513'
+        Grey: '#8F908B'
+      Restrained Warm:
+        Paper: '#DCC9AB'
+        Ink: '#1E201C'
+        Vermilion: '#C9462D'
+        Olive: '#7F8762'
+    Roles: 'The field provides breathing room. Printed ink establishes reading. Photographic fragments
+      may remain monochrome while paper or paint carries colour. Use a signal hue for a meaningful plane
+      or word, not as a compulsory strip behind every line.
+
+      '
+    Overrides: Replace hues while preserving material distinction and local reading contrast.
+  Typography:
+    Primary:
+      Direction: 'Found-looking magazine or poster clippings: contrasting serif and grotesk words, unequal
+        weight and scale, slightly misaligned strips and selected individual cut letters. Choose a few
+        coherent voices.
+
+        '
+      Construction: 'Some meaningful words can use letter-by-letter scraps; others remain whole word or
+        phrase clippings. Do not randomise every glyph merely to simulate collage.
+
+        '
+    Alternative Register: 'A large confident editorial serif or compact poster grotesk can lead a torn-paper
+      composition without ransom-note lettering everywhere. Handwritten copy is possible only when it
+      is part of supplied content.
+
+      '
+    Reading:
+    - Preserve the complete literal quotation, case, accents and punctuation.
+    - Keep clear word spaces and a recoverable sentence order across scraps.
+    - Make every connecting word substantial enough to read in a phone preview.
+    - Use irregularity without stretching glyphs or hiding required letters.
+    Attribution: 'Only a supplied or verified exact name, in a smaller and quieter readable register,
+      right-aligned on a useful axis. Omit the reserved space when absent. A personal signature appears
+      only if requested and remains separate from authorship.
+
+      '
+    Font Fidelity: 'Generated clippings suggest different printed voices; they do not establish specific
+      font files or authentic historical print sources.
+
+      '
+  Layout:
+    Core Relationship: 'Quotation and montage share torn edges, overlaps, angles or a visual exchange.
+      An image fragment may continue into a paper or drawn form. Keep an authored focal relationship and
+      a stable reading path.
+
+      '
+    Juxtaposition: 'Use one deliberate surprise: an object in an unexpected role, a displaced scale, an
+      impossible assembly or a face rebuilt with unrelated material. Select supporting fragments that
+      strengthen it.
+
+      '
+    Density: 'Concentrate some layers and leave other intervals quiet. Density, focus position and layout
+      can vary; do not impose a central subject, a four-corner scheme or a full-page inventory on every
+      card.
+
+      '
+    Layers: 'Vary torn, scissor-cut, folded and taped edges. Keep overlaps locally plausible as paper
+      construction even when the pictured relationship is impossible. Small contact shadows belong only
+      to actual layer edges.
+
+      '
+    Capacity: 'Longer quotations need larger stable reading areas and fewer competing scraps. Prefer coherent
+      strips before shrinking words or turning half the message into decorative microcopy.
+
+      '
+  Imagery:
+    Medium: 'Original photographic-looking or printed cutouts visibly assembled into photomontage, with
+      selective photocopy, halftone or duotone.
+
+      '
+    Repertoire: 'Anonymous portraits, hands, eyes, everyday objects, flowers, leaves, clouds, architecture,
+      stairs and other familiar material are open possibilities. Choose from the quotation; no recurring
+      portrait, historical figure or fixed assortment is required.
+
+      '
+    Recombination: 'Make the changed relationship legible through seams, scale or displaced fragments.
+      A collage substitution is not an anatomical wound or a seamless fantasy scene.
+
+      '
+    Identity: 'Do not reproduce reference celebrities, publishing marks, book-cover identities, artwork
+      signatures or source slogans.
+
+      '
+  Graphic Elements:
+    Core:
+    - Varied torn-paper and scissor-cut planes
+    - Photographic or printed fragments with deliberate scale changes
+    - Expressive word strips and occasional cut-letter emphasis
+    Optional:
+    - Matte tape, folded paper or a small label-shaped scrap
+    - Brush swipes, pencil loops and nonverbal handwritten gestures
+    - Halftone, hatching, partial grids, dot fields or a simple geometric counterweight
+    Selection: 'Use a compatible subset. Background print texture can be abstract lines or dots; do not
+      invent newspaper prose or pseudo-text. A label shape does not require a made-up caption.
+
+      '
+  Effects:
+    Paper: 'Different matte stocks, visible fibres, local folds and irregular tears. Contemporary clean
+      paper and warmer aged impressions are alternatives; avoid uniform antique staining as a default.
+
+      '
+    Ink: 'Uneven density, coarse halftone in selected fragments, light misregistration and scuffed printed
+      areas can add character.
+
+      '
+    Drawing: 'Sparse irregular strokes can connect or counterbalance the collage; they are purposeful
+      gestures, not a random scribble overlay.
+
+      '
+    Depth: Visible paper layering and restrained contact shadows, not glossy sticker extrusion
+    Cohesion: Shared grain and tonal treatment without erasing differences between source-like materials
+  Content Contract:
+    quote: Complete supplied quotation once as the principal message
+    author: Optional exact supplied or verified name, subordinate and right-aligned
+    supporting: Only supplied supporting text; no copied reference captions or filler
+    repetition: Preserve literal repetition in the sentence; add no decorative word echoes unless requested
+  Rules:
+  - Make the montage visibly assembled from different materials.
+  - Give the unusual juxtaposition a purpose in relation to the quotation.
+  - Preserve every word, accent and punctuation mark in a clear reading order.
+  - Vary typographic voices with hierarchy rather than indiscriminate randomisation.
+  - Use colour flexibly; monochrome and chromatic cards are both part of the language.
+  - Balance dense layers with deliberate open intervals.
+  - Vary subjects, scale, edges and layout rather than repeating a collage template.
+  - Add no unsupplied newspaper prose, technical data, labels, names or signatures.
+  - Avoid seamless surreal rendering, uniform scrapbook tiles, generic distress filters and glossy effects.
+  Production:
+    Preferred Mode: hybrid
+    ImageGen Role: 'Generate each new card as a complete collage of quotation, fragments and materials.
+      A single isolated image placed into an unrelated scripted layout is insufficient.
+
+      '
+    Refinement: 'Exact text or masks may be refined when supported, preserving the generated direction
+      and original. Do not claim editable layers, physical print methods or specific fonts without producing
+      those assets.
+
+      '
+    References: 'The profile is self-contained. A permanent image dependency requires matched with-image
+      and without-image tests and user review.
+
+      '
+    Validation: 'The previous dark-olive study is retained as development history. Two new complete 4:5
+      cards use different original quotations, one chromatic reconstructed portrait and one monochrome
+      object montage. Both were inspected at native size and 320 by 400 pixels. These applications do
+      not validate all subjects, palettes or long texts. Attribution, other ratios and the torn-editorial-field
+      family remain untested. On 2026-10-25 the user approved the revised studies and explicitly requested
+      inclusion in the gallery as a V1 candidate. This candidacy does not mark the style as selected for
+      the V1 release.
+
+      '
+Composition Library:
+  Style Name: Dada
+  Selection:
+    Basis: 'Choose a focal relationship and reading route from the exact sentence. Use one principal structure
+      and a few supporting materials rather than accumulating every reference device.
+
+      '
+    Variation: 'Change subject, recombination, scale, fragment angles and density for new quotations.
+      Keep an accepted arrangement during a targeted edit.
+
+      '
+  Families:
+  - id: chromatic-recombination
+    Name: Chromatic paper and reconstructed form
+    Use When: 'A quotation about change, creativity or identity benefits from a familiar form rebuilt
+      through a few contrasting materials.
+
+      '
+    Structure: 'Assemble related monochrome fragments with a limited group of torn colour planes. Replace
+      or displace one part with an unexpected material. Integrate substantial word scraps into the same
+      layered field, with a concentrated area and quieter intervals.
+
+      '
+    Text Adaptation: 'Keep the complete sentence once. A meaningful word may use cut letters, while connecting
+      groups remain coherent strips. Preserve punctuation and the reading route through changes of scale.
+
+      '
+    Format Adaptation: 'Portrait formats can develop a diagonal or staggered assembly; wider formats can
+      open the relationship laterally. Reposition fragments and text rather than cropping required content.
+
+      '
+  - id: surreal-assemblage
+    Name: Surprising assemblage of printed fragments
+    Use When: 'A concise quotation is served by an impossible role or scale relationship between a few
+      recognisable objects or subjects.
+
+      '
+    Structure: 'Construct one surprising encounter with visibly separate cutouts. A torn field and a few
+      text scraps organise the hierarchy. Physical paper edges stay credible while the pictured assembly
+      is impossible.
+
+      '
+    Text Adaptation: 'Use large readable word units and occasional individual-letter emphasis. Keep every
+      word in the main sentence; add no explanatory caption to make the visual joke work.
+
+      '
+    Format Adaptation: 'Rebalance the main cutout, supporting fragment and open reading area for each
+      ratio. Reduce extra fragments before shrinking text.
+
+      '
+  - id: torn-editorial-field
+    Name: Editorial hierarchy across torn planes
+    Use When: 'A longer quotation needs stronger typographic continuity while retaining paper collage
+      and an unexpected image relationship.
+
+      '
+    Structure: 'Let one substantial typographic register establish the reading field. Torn paper boundaries
+      and a few related image fragments interrupt it at deliberate intervals. Avoid a uniform frame.
+
+      '
+    Text Adaptation: 'Group the full sentence by meaning, using fewer type changes for longer content.
+      A smaller supplied name is exact and right-aligned.
+
+      '
+    Format Adaptation: 'In tall formats use unequal vertical intervals; in wider cards open the text field
+      laterally and reduce the number of scraps. Keep word shapes natural and the quotation complete.
+
+      '

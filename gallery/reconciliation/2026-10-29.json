@@ -1,0 +1,2699 @@
+{
+  "date": "2026-10-29",
+  "sites_version": 60,
+  "sites_commit": "ed4fe7842c161b64dbddb590ab50fb758b16ecce",
+  "source_url": "https://quote-card-designer-style-gallery.vincos.chatgpt.site/",
+  "local_styles_before": 88,
+  "imported_styles": [
+    "filament-collage",
+    "art-journal",
+    "photo-palimpsest",
+    "saturated-photo",
+    "american-comics",
+    "warhol-pop-art",
+    "marker-editorial",
+    "anaglyph-editorial",
+    "charcoal",
+    "monotype",
+    "oil-pastel",
+    "embossed-paper",
+    "gold-foil",
+    "silver-foil",
+    "linocut",
+    "gouache",
+    "stencil-print",
+    "cyanotype",
+    "palette-knife-painting",
+    "sticky-note",
+    "sticker-type",
+    "thermal-receipt",
+    "message-bubble",
+    "cut-paper",
+    "chalkboard-design",
+    "inflated-type",
+    "varsity-patch",
+    "ransom-note",
+    "constructivist",
+    "art-deco",
+    "art-nouveau",
+    "pixel-art",
+    "cartographic-editorial",
+    "finance-terminal",
+    "economy-editorial",
+    "science-book",
+    "space-atlas",
+    "tech-mechanism",
+    "eco-print"
+  ],
+  "profile_differences": [
+    {
+      "id": "calligraphic-interlock",
+      "existing_profile": "references/styles/calligraphic-interlock/profilo.yaml",
+      "gallery_profile": "gallery/source-profiles/sites-v60/calligraphic-interlock.yaml",
+      "released_profile_preserved": false
+    },
+    {
+      "id": "neo-mondrian",
+      "existing_profile": "references/styles/neo-mondrian/profilo.yaml",
+      "gallery_profile": "gallery/source-profiles/sites-v60/neo-mondrian.yaml",
+      "released_profile_preserved": false
+    },
+    {
+      "id": "futurismo-italiano",
+      "existing_profile": "references/styles/futurismo-italiano/profilo.yaml",
+      "gallery_profile": "gallery/source-profiles/sites-v60/futurismo-italiano.yaml",
+      "released_profile_preserved": true
+    },
+    {
+      "id": "photo-marker",
+      "existing_profile": "references/styles/photo-marker/profilo.yaml",
+      "gallery_profile": "gallery/source-profiles/sites-v60/photo-marker.yaml",
+      "released_profile_preserved": false
+    },
+    {
+      "id": "decollage",
+      "existing_profile": "references/styles/decollage/profilo.yaml",
+      "gallery_profile": "gallery/source-profiles/sites-v60/decollage.yaml",
+      "released_profile_preserved": false
+    }
+  ],
+  "styles": [
+    {
+      "id": "dada-black",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/dada-black.yaml",
+      "profile_sha256": "e055bdff406defaf11bbd936d36c2bc98a677691d61e2fb1fb88792944049c61",
+      "images": [
+        {
+          "source": "assets/dada-black-3.jpg",
+          "path": "references/styles/dada-black/gallery-v60/dada-black-3.jpg",
+          "sha256": "71a842d0ad3c90e508a51405416aa612b14bf314639d3577cfec7a30f852c5fa"
+        },
+        {
+          "source": "assets/dada-black-4.jpg",
+          "path": "references/styles/dada-black/gallery-v60/dada-black-4.jpg",
+          "sha256": "908756fe13423bce500705525f1d3f785e9d8c8298baded8aa9199662acff1d0"
+        },
+        {
+          "source": "assets/dada-black-5.jpg",
+          "path": "references/styles/dada-black/gallery-v60/dada-black-5.jpg",
+          "sha256": "f2d13be2b52df50ead74af99f3ca6538af864fcffd3d36ae49f334d3b4e768f2"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "neo-industrial",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/neo-industrial.yaml",
+      "profile_sha256": "0dd5f559d460004f0e10256a8b77d973da35a55ab9d0840082b501356b91e877",
+      "images": [
+        {
+          "source": "assets/neo-industrial.jpg",
+          "path": "references/styles/neo-industrial/gallery-v60/neo-industrial.jpg",
+          "sha256": "f155e0acb1ba1fe403df7f179f44b0bf5c1b609a64a78e94f1e4d7675af1e294"
+        },
+        {
+          "source": "assets/neo-industrial-2.jpg",
+          "path": "references/styles/neo-industrial/gallery-v60/neo-industrial-2.jpg",
+          "sha256": "bb7326116675c4a6a8fd911bad55981a8e00246cc6949fc4aca1709b118790b0"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "neon-collage",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/neon-collage.yaml",
+      "profile_sha256": "d1348897b6fd3d1001b948be158178e98c29e6c7a2603b5001c5d3600c8d339a",
+      "images": [
+        {
+          "source": "assets/neon-collage.jpg",
+          "path": "references/styles/neon-collage/gallery-v60/neon-collage.jpg",
+          "sha256": "78f47bd5a07e6d24218c8861c787cdc95f1ccf07b78a8f967bd0c71e5bed9ab5"
+        },
+        {
+          "source": "assets/neon-collage-2.jpg",
+          "path": "references/styles/neon-collage/gallery-v60/neon-collage-2.jpg",
+          "sha256": "08fe7a485728a7aa6c96cb2c05fef12d10f1e369ce3a37f376dd96a11953390f"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "digital-blueprint",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/digital-blueprint.yaml",
+      "profile_sha256": "88a4ee4000f4751407fe3e6015fa19b0bc72aff69d61ee987965b7099f6e4574",
+      "images": [
+        {
+          "source": "assets/digital-blueprint.jpg",
+          "path": "references/styles/digital-blueprint/gallery-v60/digital-blueprint.jpg",
+          "sha256": "75fda1e99f4a6e2789f84a3a0ae7e8ababde50becff047215bd266cdec214392"
+        },
+        {
+          "source": "assets/digital-blueprint-2.jpg",
+          "path": "references/styles/digital-blueprint/gallery-v60/digital-blueprint-2.jpg",
+          "sha256": "3c547c53c7c1080b42deed5247cc5795d9ff5134e25e5579f5a18cf1c1590658"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "playground-graffiti",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/playground-graffiti.yaml",
+      "profile_sha256": "0cce60d1bc391e44b3370f79a49688bd176d86d053042d1a981f5df14734538f",
+      "images": [
+        {
+          "source": "assets/playground-graffiti.jpg",
+          "path": "references/styles/playground-graffiti/gallery-v60/playground-graffiti.jpg",
+          "sha256": "1ee2116ce8a627f067497ed8d2ae0b6f77dbd18810f1ee21f16d5d8232d5241e"
+        },
+        {
+          "source": "assets/playground-graffiti-2.jpg",
+          "path": "references/styles/playground-graffiti/gallery-v60/playground-graffiti-2.jpg",
+          "sha256": "66af2ed6e3e33d4142fac6a5905dfe6988260ab3439d0283fd4b279bea411227"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "neo-swiss",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/neo-swiss.yaml",
+      "profile_sha256": "52afe4f297603957bfdeca393b5e6dd0d2c9dfad39455b9831071e8fe5a253a7",
+      "images": [
+        {
+          "source": "assets/neo-swiss.jpg",
+          "path": "references/styles/neo-swiss/gallery-v60/neo-swiss.jpg",
+          "sha256": "4ff27d3ea2d0a42fc7b2c46093660a29ab972b6a94593b237080bc0240e7e4e6"
+        },
+        {
+          "source": "assets/neo-swiss-2.jpg",
+          "path": "references/styles/neo-swiss/gallery-v60/neo-swiss-2.jpg",
+          "sha256": "41730c358f5490d56b0287868a056460dba7d9a1a5ec562ebb6c6d65f92c7f0d"
+        },
+        {
+          "source": "assets/neo-swiss-3.jpg",
+          "path": "references/styles/neo-swiss/gallery-v60/neo-swiss-3.jpg",
+          "sha256": "d30edc67d3a298c232d06b65ef545cc4c0870900c1da774c2fd0925f0e525da6"
+        },
+        {
+          "source": "assets/neo-swiss-8.jpg",
+          "path": "references/styles/neo-swiss/gallery-v60/neo-swiss-8.jpg",
+          "sha256": "d0f4491bca6f59356c155ccfd7c57764c6610fa2e66fc9bbb1f687d6ee72e76d"
+        },
+        {
+          "source": "assets/neo-swiss-9.jpg",
+          "path": "references/styles/neo-swiss/gallery-v60/neo-swiss-9.jpg",
+          "sha256": "0f42ca6319c9be45fcb9c69f04c09ddd65d9d13e4d60c34b0a1c2a152b3a6d04"
+        },
+        {
+          "source": "assets/neo-swiss-10.jpg",
+          "path": "references/styles/neo-swiss/gallery-v60/neo-swiss-10.jpg",
+          "sha256": "0d715bdd2dcbe0eee9b26db1607216b0bf3b1621a0db1ad0fb35740a47d8881f"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "ink-and-margin",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/ink-and-margin.yaml",
+      "profile_sha256": "ca98da12bbd865a97e40aadb6d39f2f0e5e68a841c92e4649b271b999f6291fe",
+      "images": [
+        {
+          "source": "assets/ink-and-margin.jpg",
+          "path": "references/styles/ink-and-margin/gallery-v60/ink-and-margin.jpg",
+          "sha256": "d0d1c5d262da270348fad5a784d2776078ca798a0fdf97c363ebd03f4a3b4695"
+        },
+        {
+          "source": "assets/ink-and-margin-2.jpg",
+          "path": "references/styles/ink-and-margin/gallery-v60/ink-and-margin-2.jpg",
+          "sha256": "6672bedb86584d037fa0e651f42ba829c0c1338ab444224bc10dc4a2768b068d"
+        },
+        {
+          "source": "assets/ink-and-margin-3.jpg",
+          "path": "references/styles/ink-and-margin/gallery-v60/ink-and-margin-3.jpg",
+          "sha256": "139f760b1f77e34dcdcc9c8375b3e72426ba8a35e98eb8b5479400c486580828"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "pencil",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/pencil.yaml",
+      "profile_sha256": "8ced8fa78460ee66c916c62950d2bb6f6e30dc5d51e460dea4882409a1c039ff",
+      "images": [
+        {
+          "source": "assets/pencil.jpg",
+          "path": "references/styles/pencil/gallery-v60/pencil.jpg",
+          "sha256": "ec1b6b5e4046c5d5d9ec32befc63e364823a168b55ff5b60d2358ff590ecffa5"
+        },
+        {
+          "source": "assets/pencil-2.jpg",
+          "path": "references/styles/pencil/gallery-v60/pencil-2.jpg",
+          "sha256": "bcda3603264283cd9216e45b8bea68b760be241399d10cf4241e3827491d5d66"
+        },
+        {
+          "source": "assets/pencil-3.jpg",
+          "path": "references/styles/pencil/gallery-v60/pencil-3.jpg",
+          "sha256": "e20338326d23d7ddd145cdd3acf48774ace377db232416c5d745da86bd20dc23"
+        },
+        {
+          "source": "assets/pencil-4.jpg",
+          "path": "references/styles/pencil/gallery-v60/pencil-4.jpg",
+          "sha256": "e999a8e973d5c6fa1e44c8c3bbcfbc527a3efbc72249ad220e697dbb28e79d65"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "surreal-editorial",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/surreal-editorial.yaml",
+      "profile_sha256": "8baed90359cae9b9875fde24774934c2522a750476fee83074f0069d8d426442",
+      "images": [
+        {
+          "source": "assets/surreal-editorial.jpg",
+          "path": "references/styles/surreal-editorial/gallery-v60/surreal-editorial.jpg",
+          "sha256": "3e22d4bcc936f8a1fb244a6244d460a481f0aaf0c79b19ec51c92b0d64022729"
+        },
+        {
+          "source": "assets/surreal-editorial-2.jpg",
+          "path": "references/styles/surreal-editorial/gallery-v60/surreal-editorial-2.jpg",
+          "sha256": "118d7944107a8dcae6100020ec51d60b4931015059c2e996b8deae116826916f"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "wireframe-library",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/wireframe-library.yaml",
+      "profile_sha256": "22986c771f3dfbbd2faf2f178233bb773a72e1fb4bbb33ac691e44045712788d",
+      "images": [
+        {
+          "source": "assets/wireframe-library.jpg",
+          "path": "references/styles/wireframe-library/gallery-v60/wireframe-library.jpg",
+          "sha256": "ebd4414df0d57c884dfdf7287612dec62b2a79ae01e60744ee0d539282bce10d"
+        },
+        {
+          "source": "assets/wireframe-library-2.jpg",
+          "path": "references/styles/wireframe-library/gallery-v60/wireframe-library-2.jpg",
+          "sha256": "9a458c18d107b259c3778d88c6a50c6d15697cf7daef98a719a851f8354d835e"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "chromatic-type",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/chromatic-type.yaml",
+      "profile_sha256": "5347c69cc1fd59e509007a8488503dd42c7852bc3713c9148199d6c01a17f202",
+      "images": [
+        {
+          "source": "assets/chromatic-type.jpg",
+          "path": "references/styles/chromatic-type/gallery-v60/chromatic-type.jpg",
+          "sha256": "81219bc29ec300aa7656ee342cdea50a6aeb34310a0a8f5dfd77f67554091e25"
+        },
+        {
+          "source": "assets/chromatic-type-2.jpg",
+          "path": "references/styles/chromatic-type/gallery-v60/chromatic-type-2.jpg",
+          "sha256": "26d6186265bfc28fd586b019ef83f56c850c7a084632c23060c22b907269770a"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "optical-motion",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/optical-motion.yaml",
+      "profile_sha256": "e57f9f6703e7f575ec52e32829c37840039c42798af4687eb6e2a0353107ec6c",
+      "images": [
+        {
+          "source": "assets/optical-motion-3.jpg",
+          "path": "references/styles/optical-motion/gallery-v60/optical-motion-3.jpg",
+          "sha256": "805b831f3397639d4f45293e69080d0fb9f6a04310d9cd57c4af91e307f65ad0"
+        },
+        {
+          "source": "assets/optical-motion-4.jpg",
+          "path": "references/styles/optical-motion/gallery-v60/optical-motion-4.jpg",
+          "sha256": "611e5925969d30aef2679c0ba679a5960f2f07c06caf6495db44facb1b09e0b0"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "orizzonte-modulare",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/orizzonte-modulare.yaml",
+      "profile_sha256": "53532244b91c0061cad0d5afcbb463f1da2d491c5915771650eeea7bb57f65a6",
+      "images": [
+        {
+          "source": "assets/orizzonte-modulare.jpg",
+          "path": "references/styles/orizzonte-modulare/gallery-v60/orizzonte-modulare.jpg",
+          "sha256": "b6ac3aec40d0d7a17830f96032fc661a74c7e4bf153b45665261ad7f2bcecf1f"
+        },
+        {
+          "source": "assets/orizzonte-modulare-2.jpg",
+          "path": "references/styles/orizzonte-modulare/gallery-v60/orizzonte-modulare-2.jpg",
+          "sha256": "11fc19a4fa95e631d4aa5b7191eaa1228244ceaad86387605f73e42784183e92"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "interlocking-pop-geometry",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/interlocking-pop-geometry.yaml",
+      "profile_sha256": "2857b7836217d57e842b3c3cb2ff56e26f1e9e3a12c6ca27985be3155e0438bb",
+      "images": [
+        {
+          "source": "assets/interlocking-pop-geometry.jpg",
+          "path": "references/styles/interlocking-pop-geometry/gallery-v60/interlocking-pop-geometry.jpg",
+          "sha256": "a70594f105724258ae55514221b2a242e5f0eb3775d67b631d1b9b6faeaa5b5e"
+        },
+        {
+          "source": "assets/interlocking-pop-geometry-2.jpg",
+          "path": "references/styles/interlocking-pop-geometry/gallery-v60/interlocking-pop-geometry-2.jpg",
+          "sha256": "6d51057f59d30a40bb01474e84f8c262355f223e1d6d307dbca10975db985541"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "digital-textile",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/digital-textile.yaml",
+      "profile_sha256": "dcc55826a9c317b2340021309ac20de8f418e5deb7f6df6d39535d32d9d110e2",
+      "images": [
+        {
+          "source": "assets/digital-textile.jpg",
+          "path": "references/styles/digital-textile/gallery-v60/digital-textile.jpg",
+          "sha256": "c98c1239f6fb2dc2dbeab6f11057af7283bd51a7202db26792f1fad0e646c543"
+        },
+        {
+          "source": "assets/digital-textile-2.jpg",
+          "path": "references/styles/digital-textile/gallery-v60/digital-textile-2.jpg",
+          "sha256": "e00e490ffd97d4172e0fd09aac42e63f93995bf49cfe3e620cdecd4553f37a9f"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "mixed-media-editorial",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/mixed-media-editorial.yaml",
+      "profile_sha256": "429a69af64181c2320585d4012fc82c63e70b119a820da7949b58fefc5c76517",
+      "images": [
+        {
+          "source": "assets/mixed-media-editorial.jpg",
+          "path": "references/styles/mixed-media-editorial/gallery-v60/mixed-media-editorial.jpg",
+          "sha256": "50b8eb140f40570ac4e30df33bf4f248bb5777bfe0083565cbcc939322db19e5"
+        },
+        {
+          "source": "assets/mixed-media-editorial-2.jpg",
+          "path": "references/styles/mixed-media-editorial/gallery-v60/mixed-media-editorial-2.jpg",
+          "sha256": "7fa5506c2e62e13e49f80b12fcf3dfe920d5efc23fcc7bba006fcc028741de83"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "raster-drift",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/raster-drift.yaml",
+      "profile_sha256": "e927b47461dd0f0e60139d9fcd1ac6857522cf734543874654b2e714fa0e8317",
+      "images": [
+        {
+          "source": "assets/raster-drift-8.jpg",
+          "path": "references/styles/raster-drift/gallery-v60/raster-drift-8.jpg",
+          "sha256": "6abd40754cb5bec1cc7c5cba4b24e3f2af10cb65eb743ebbe3d4bff062ca49cd"
+        },
+        {
+          "source": "assets/raster-drift-7.jpg",
+          "path": "references/styles/raster-drift/gallery-v60/raster-drift-7.jpg",
+          "sha256": "65207eae63b5f854c6b8f03e8ec1887eb80584dc8666c24fa2134c8be08005a5"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "symbol-loom",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/symbol-loom.yaml",
+      "profile_sha256": "772638334cff5c6dba08e087eb689285b6ea3cd4ace9a6342fafc622ea97a187",
+      "images": [
+        {
+          "source": "assets/symbol-loom.jpg",
+          "path": "references/styles/symbol-loom/gallery-v60/symbol-loom.jpg",
+          "sha256": "037bbec8c5a00d1c301e9ab9595e79c79e0c82cc04bcb40134584df558bc2348"
+        },
+        {
+          "source": "assets/symbol-loom-2.jpg",
+          "path": "references/styles/symbol-loom/gallery-v60/symbol-loom-2.jpg",
+          "sha256": "4209936060d9bbbb68c9830ba75e9a153a3132654c1c000ef9b697dae1accbab"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "threshold-mosaic",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/threshold-mosaic.yaml",
+      "profile_sha256": "38aafe4dad792d473f07a2cd29296bcb9a692e6d09a8fc3e28d36a5bef183d8d",
+      "images": [
+        {
+          "source": "assets/threshold-mosaic.jpg",
+          "path": "references/styles/threshold-mosaic/gallery-v60/threshold-mosaic.jpg",
+          "sha256": "5555be05acd9eea033d7fdda93e75fd90952b082bac2f74fce5fa0047755690b"
+        },
+        {
+          "source": "assets/threshold-mosaic-2.jpg",
+          "path": "references/styles/threshold-mosaic/gallery-v60/threshold-mosaic-2.jpg",
+          "sha256": "c076eb475dba702b13872e126e1b35a96f58bb258fc3c380d2c42b6be84f62da"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "glyph-terrain",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/glyph-terrain.yaml",
+      "profile_sha256": "b7738680f707e462691e4770614e31ee261835b2ed4845a9a9a35b7061c893ee",
+      "images": [
+        {
+          "source": "assets/glyph-terrain.jpg",
+          "path": "references/styles/glyph-terrain/gallery-v60/glyph-terrain.jpg",
+          "sha256": "e6081be246291aced4a309b7d237cc6105cc90f336902cd37d35d4aae31f149d"
+        },
+        {
+          "source": "assets/glyph-terrain-2.jpg",
+          "path": "references/styles/glyph-terrain/gallery-v60/glyph-terrain-2.jpg",
+          "sha256": "b169143226c550290ecf1fba64adae00396481aaaee69651b37869437216996c"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "dynamic-gradient",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/dynamic-gradient.yaml",
+      "profile_sha256": "07a3d428561a15b734da0262b4b9a8a73d9400a8ddb17bf70d54508c853dbd16",
+      "images": [
+        {
+          "source": "assets/dynamic-gradient.jpg",
+          "path": "references/styles/dynamic-gradient/gallery-v60/dynamic-gradient.jpg",
+          "sha256": "bee9e7663dfda2f1f7ca44fd9e4ceaf9da121733d64c9ef81874f69ae6e5b65b"
+        },
+        {
+          "source": "assets/dynamic-gradient-2.jpg",
+          "path": "references/styles/dynamic-gradient/gallery-v60/dynamic-gradient-2.jpg",
+          "sha256": "6a77a651a4ba44e2572e43c2f7655b1241a1936ceeede1082073b093c5e3f61a"
+        },
+        {
+          "source": "assets/dynamic-gradient-3.jpg",
+          "path": "references/styles/dynamic-gradient/gallery-v60/dynamic-gradient-3.jpg",
+          "sha256": "fdd79a5c7ecde2f125e7bff39ca6a85a27134bf503c4a4a9d730dcb635ca422e"
+        },
+        {
+          "source": "assets/dynamic-gradient-4.jpg",
+          "path": "references/styles/dynamic-gradient/gallery-v60/dynamic-gradient-4.jpg",
+          "sha256": "7e03be15535c75008e4a9a1eec7879c0acb48b1b1edbd73205a3ef0cdd2774b1"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "editorial-interlock",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/editorial-interlock.yaml",
+      "profile_sha256": "9864aa634cf99296fca1cdd6bc87367c4bcfe6f039a8d8182a7a18a0b03d987c",
+      "images": [
+        {
+          "source": "assets/editorial-interlock.jpg",
+          "path": "references/styles/editorial-interlock/gallery-v60/editorial-interlock.jpg",
+          "sha256": "07db083093cd27ce9f8a1643fceffb2f225ed39a442a2524fd5d3b8a4db725a4"
+        },
+        {
+          "source": "assets/editorial-interlock-2.jpg",
+          "path": "references/styles/editorial-interlock/gallery-v60/editorial-interlock-2.jpg",
+          "sha256": "4a48a5bc63bb530cb8ee833361f5a0c217b7df369cd80b37c08b0bb54b35a52c"
+        },
+        {
+          "source": "assets/editorial-interlock-3.jpg",
+          "path": "references/styles/editorial-interlock/gallery-v60/editorial-interlock-3.jpg",
+          "sha256": "477e7802c696d1088d772362951fe1e52e52dcf36bd66ceab738b9c369b03791"
+        },
+        {
+          "source": "assets/editorial-interlock-4.jpg",
+          "path": "references/styles/editorial-interlock/gallery-v60/editorial-interlock-4.jpg",
+          "sha256": "1f0ab534add0a99511e934b74e6573b1aa67928beea0be596b62c74b76bb0089"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "cyberpunk-editorial",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/cyberpunk-editorial.yaml",
+      "profile_sha256": "c348c10c51205ab97e5926f8376eced713fb6a63bef061150e7f784e4a0b8233",
+      "images": [
+        {
+          "source": "assets/cyberpunk-editorial.jpg",
+          "path": "references/styles/cyberpunk-editorial/gallery-v60/cyberpunk-editorial.jpg",
+          "sha256": "e51189dffbcca293bc3ed9cba2ac5a36d5fce723c542d135d2128cc801909f58"
+        },
+        {
+          "source": "assets/cyberpunk-editorial-2.jpg",
+          "path": "references/styles/cyberpunk-editorial/gallery-v60/cyberpunk-editorial-2.jpg",
+          "sha256": "d07dcca89c33258a6d47d39ebbe9dc02a4174e1534a4c7fc041398505f60459a"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "calligraphic-interlock",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/calligraphic-interlock.yaml",
+      "profile_sha256": "1f247b799cda461641d7a9e795d387d363661e7b66a7bed0f21e86e343895298",
+      "images": [
+        {
+          "source": "assets/calligraphic-interlock.jpg",
+          "path": "references/styles/calligraphic-interlock/gallery-v60/calligraphic-interlock.jpg",
+          "sha256": "f742c3505ef538ff26623586fbe9463022ae4fcca038f43af8b0fd241b267cf7"
+        },
+        {
+          "source": "assets/calligraphic-interlock-2.jpg",
+          "path": "references/styles/calligraphic-interlock/gallery-v60/calligraphic-interlock-2.jpg",
+          "sha256": "1e4a8623df113d3d32b7425ccc17812481a1a1db9062eec88db7ad20c510bc75"
+        },
+        {
+          "source": "assets/calligraphic-interlock-3.jpg",
+          "path": "references/styles/calligraphic-interlock/gallery-v60/calligraphic-interlock-3.jpg",
+          "sha256": "cb987df1294ff5c53fcdaf6453fa5d908ac9d7e6d3660b2d649ed3bc70e2aec3"
+        },
+        {
+          "source": "assets/calligraphic-interlock-4.jpg",
+          "path": "references/styles/calligraphic-interlock/gallery-v60/calligraphic-interlock-4.jpg",
+          "sha256": "51ab243126f0ba54b1b411386ae8d6dfb676627f5bf5a0a50e9a83fd0358286b"
+        },
+        {
+          "source": "assets/calligraphic-interlock-5.jpg",
+          "path": "references/styles/calligraphic-interlock/gallery-v60/calligraphic-interlock-5.jpg",
+          "sha256": "7a6d564c0d62dc849d7a827ad07590d865ca54d3c389b152d4de137f682df212"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": [
+        "prove-disegno/note.md"
+      ]
+    },
+    {
+      "id": "oneiric-glow",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/oneiric-glow.yaml",
+      "profile_sha256": "944548c05886e76bfb22c49d0feee284a6d894701f0f7e1128801e875bacc145",
+      "images": [
+        {
+          "source": "assets/oneiric-glow.jpg",
+          "path": "references/styles/oneiric-glow/gallery-v60/oneiric-glow.jpg",
+          "sha256": "1d22cf9fc36ca5eccd4489ce458c7ae31250e3da182f7b3fa158d283ca269b35"
+        },
+        {
+          "source": "assets/oneiric-glow-2.jpg",
+          "path": "references/styles/oneiric-glow/gallery-v60/oneiric-glow-2.jpg",
+          "sha256": "c8c9ac9bde46d92e2fd00fde2e88287202a975f46f197cfa9f171fe3ce171751"
+        },
+        {
+          "source": "assets/oneiric-glow-3.jpg",
+          "path": "references/styles/oneiric-glow/gallery-v60/oneiric-glow-3.jpg",
+          "sha256": "fa2d561c989e02ca2a31c61bfd892b220ad0476ea0caae7903340b723c518f89"
+        },
+        {
+          "source": "assets/oneiric-glow-4.jpg",
+          "path": "references/styles/oneiric-glow/gallery-v60/oneiric-glow-4.jpg",
+          "sha256": "e7651d2a791050ea9f0a1ea0b1c5670a9e68bb000f7b407f53563c37514c92a9"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "glitch-editorial",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/glitch-editorial.yaml",
+      "profile_sha256": "caa540ffb012cd0c8cfa815e596b608c55fad1130e994ff3f646a0a3505b6d0e",
+      "images": [
+        {
+          "source": "assets/glitch-editorial.jpg",
+          "path": "references/styles/glitch-editorial/gallery-v60/glitch-editorial.jpg",
+          "sha256": "63520b6adf9c733d1572cf8610085c910b6f21c0d5699955503251cea77464fa"
+        },
+        {
+          "source": "assets/glitch-editorial-2.jpg",
+          "path": "references/styles/glitch-editorial/gallery-v60/glitch-editorial-2.jpg",
+          "sha256": "cff033d06a95cf241d4e2fc538a4f103eb3622b1cbe03f4d44f642da9862707d"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "prismatic-flutes",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/prismatic-flutes.yaml",
+      "profile_sha256": "e7cb6aa372619e89d07c71d6cd95f4846b3a9686f3f8a825bb4a35930fe9884e",
+      "images": [
+        {
+          "source": "assets/prismatic-flutes.jpg",
+          "path": "references/styles/prismatic-flutes/gallery-v60/prismatic-flutes.jpg",
+          "sha256": "e9ec9517333555c1677e5fd7bc3d9aa1103287af62a8749941fa126b66823d92"
+        },
+        {
+          "source": "assets/prismatic-flutes-2.jpg",
+          "path": "references/styles/prismatic-flutes/gallery-v60/prismatic-flutes-2.jpg",
+          "sha256": "9eeb6635068bb9b14a9e941e89d0754af824b8f73b0877af23f86d68d128311c"
+        },
+        {
+          "source": "assets/prismatic-flutes-3.jpg",
+          "path": "references/styles/prismatic-flutes/gallery-v60/prismatic-flutes-3.jpg",
+          "sha256": "6a48406a1eaa89d9f2f15bea20f7819b6f4cf31e47e29ff0b50a943f03c82a19"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "chromatic-liquid-metal",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/chromatic-liquid-metal.yaml",
+      "profile_sha256": "0659bdd81435b68ceca0ed38e577fceafc32e72935e063485d3c78744a327d1a",
+      "images": [
+        {
+          "source": "assets/chromatic-liquid-metal.jpg",
+          "path": "references/styles/chromatic-liquid-metal/gallery-v60/chromatic-liquid-metal.jpg",
+          "sha256": "5937bb869d2f7c1b46fbf5bcf7815f9f2b8626b256917bce004bac7cc1642db9"
+        },
+        {
+          "source": "assets/chromatic-liquid-metal-2.jpg",
+          "path": "references/styles/chromatic-liquid-metal/gallery-v60/chromatic-liquid-metal-2.jpg",
+          "sha256": "cc0eed6cafa80d23288df5536520c1470916a88f9cdb9781ea86f43ebbae930c"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "vintage-scientific-illustration",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/vintage-scientific-illustration.yaml",
+      "profile_sha256": "6d2f48e928d3d38a01de97b0deac699957a800ffc3c159c16d0dd7a2ad7f410a",
+      "images": [
+        {
+          "source": "assets/vintage-scientific-illustration.jpg",
+          "path": "references/styles/vintage-scientific-illustration/gallery-v60/vintage-scientific-illustration.jpg",
+          "sha256": "431c96cdd9432978e5489fa7a848548972245a33286697d3c495e2c564860e39"
+        },
+        {
+          "source": "assets/vintage-scientific-illustration-2.jpg",
+          "path": "references/styles/vintage-scientific-illustration/gallery-v60/vintage-scientific-illustration-2.jpg",
+          "sha256": "af61e1df7313d48b95a6efffdcbb6c15c328daba3f8f159dd78bb86f1039ba56"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "renaissance-classical",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/renaissance-classical.yaml",
+      "profile_sha256": "dfad3d09ff7eb0320dff80596c9b284d6c76359a6e63d6c94eb37948abaa1a9e",
+      "images": [
+        {
+          "source": "assets/renaissance-classical.jpg",
+          "path": "references/styles/renaissance-classical/gallery-v60/renaissance-classical.jpg",
+          "sha256": "dd1a88537a3a0cd791008dac37d374e41043dcd3f760f54068a41137ba31fd5f"
+        },
+        {
+          "source": "assets/renaissance-classical-2.jpg",
+          "path": "references/styles/renaissance-classical/gallery-v60/renaissance-classical-2.jpg",
+          "sha256": "ba6203c4eccf8ff56e4430247bfec5eac909e11828721809dfc8c13479003e1b"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "medieval-folio",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/medieval-folio.yaml",
+      "profile_sha256": "e817848e0de20ad15f14fe153f1a004dea618320e93d993dfbe6f838acf71ac5",
+      "images": [
+        {
+          "source": "assets/medieval-folio.jpg",
+          "path": "references/styles/medieval-folio/gallery-v60/medieval-folio.jpg",
+          "sha256": "b8130ba787c8a27853ce7bd5cc1246950f9737b1419ec84f0c1a46533e2b50e4"
+        },
+        {
+          "source": "assets/medieval-folio-2.jpg",
+          "path": "references/styles/medieval-folio/gallery-v60/medieval-folio-2.jpg",
+          "sha256": "669e0291d7ec7043e4fb622c5b2b9a8fa9213918bb1b8155b36be295e7585a50"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "blue-chinoiserie",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/blue-chinoiserie.yaml",
+      "profile_sha256": "e6a33dc2903238577917ea5b6fdb4de7c8ceb4fdda4cc4cb560dc01a2f0e0630",
+      "images": [
+        {
+          "source": "assets/blue-chinoiserie.jpg",
+          "path": "references/styles/blue-chinoiserie/gallery-v60/blue-chinoiserie.jpg",
+          "sha256": "9d3a85324d99c8cb9344683ada6f35fe0abb3a7a067aa4f285d66d18084b66f4"
+        },
+        {
+          "source": "assets/blue-chinoiserie-2.jpg",
+          "path": "references/styles/blue-chinoiserie/gallery-v60/blue-chinoiserie-2.jpg",
+          "sha256": "cfac8d525df10758e1910b7e81f68030709bcd9e04e7ffe23e8ab6d1339a2362"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "ukiyo-e-editorial",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/ukiyo-e-editorial.yaml",
+      "profile_sha256": "4c3003c1286d777e4e2c5fd31a3ed7c77705d70707d318a6f7e3b1dfb881451c",
+      "images": [
+        {
+          "source": "assets/ukiyo-e-editorial.jpg",
+          "path": "references/styles/ukiyo-e-editorial/gallery-v60/ukiyo-e-editorial.jpg",
+          "sha256": "858a3fba871922fa1e03020a449f8c3a50e10ee6836e9a8caac9f954e069d70c"
+        },
+        {
+          "source": "assets/ukiyo-e-editorial-2.jpg",
+          "path": "references/styles/ukiyo-e-editorial/gallery-v60/ukiyo-e-editorial-2.jpg",
+          "sha256": "2bf156ceef25f70b3d220dcbcf1c3492eb4a5eb2551ae79d1b85ecd24a9d1163"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "cinema-editorial",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/cinema-editorial.yaml",
+      "profile_sha256": "5a7470af3e922a2797f536a78466d59f28c92a38eea83534de9ee7481016dfc3",
+      "images": [
+        {
+          "source": "assets/cinema-editorial.jpg",
+          "path": "references/styles/cinema-editorial/gallery-v60/cinema-editorial.jpg",
+          "sha256": "6a34e07ca8db83e6f1465ac9893e3e58d286fe37a5a79614c041c1486ba3f3e2"
+        },
+        {
+          "source": "assets/cinema-editorial-2.jpg",
+          "path": "references/styles/cinema-editorial/gallery-v60/cinema-editorial-2.jpg",
+          "sha256": "46bd154989c8c43bc66a78a30636f138bf8b510364be6a9254a1f21ea409c205"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "monochrome-newspaper",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/monochrome-newspaper.yaml",
+      "profile_sha256": "25f2c8b5f1b1499c182639c51ac295e190c85a4f4c3b60e1844953d6dd6fd90a",
+      "images": [
+        {
+          "source": "assets/monochrome-newspaper.jpg",
+          "path": "references/styles/monochrome-newspaper/gallery-v60/monochrome-newspaper.jpg",
+          "sha256": "1ccc037d745ff138fc6178165e8ff2d4c00c502d0b980ae7ea049713b58e615b"
+        },
+        {
+          "source": "assets/monochrome-newspaper-2.jpg",
+          "path": "references/styles/monochrome-newspaper/gallery-v60/monochrome-newspaper-2.jpg",
+          "sha256": "5cce75ff138a77d8efe0ead70389b9e17eaf4360a36ba20ea9ba2250d77dd148"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "child-design",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/child-design.yaml",
+      "profile_sha256": "ab647c553ea93db92017dff856e5dd0d5c0e8c4bb3f39652bc6d86da278606d6",
+      "images": [
+        {
+          "source": "assets/child-design.jpg",
+          "path": "references/styles/child-design/gallery-v60/child-design.jpg",
+          "sha256": "8e047c784c0ed9bc6d99356a00ca7f8f6f09507a6097362145561835229dc9f4"
+        },
+        {
+          "source": "assets/child-design-2.jpg",
+          "path": "references/styles/child-design/gallery-v60/child-design-2.jpg",
+          "sha256": "ebd6f5842b46afe504c7f6d72f32d0e714afaeede7d9b94fe4d963bb308786aa"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "neo-mondrian",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/neo-mondrian.yaml",
+      "profile_sha256": "c43750ce65561b539895d683d1a2703b432d4e51938d8c503c4cbaa88ae5364b",
+      "images": [
+        {
+          "source": "assets/neo-mondrian.jpg",
+          "path": "references/styles/neo-mondrian/gallery-v60/neo-mondrian.jpg",
+          "sha256": "d3c565309be82e4ca0a9096970fb2171b9b61af597cd9024220f5d8590d3d271"
+        },
+        {
+          "source": "assets/neo-mondrian-2.jpg",
+          "path": "references/styles/neo-mondrian/gallery-v60/neo-mondrian-2.jpg",
+          "sha256": "beef9650f12f43d31efb52d4927804e8b70e8cb088a02fbbda5b784d7b3523d8"
+        },
+        {
+          "source": "assets/neo-mondrian-3.jpg",
+          "path": "references/styles/neo-mondrian/gallery-v60/neo-mondrian-3.jpg",
+          "sha256": "f5dab421c67b3a8ffbc7e52d3d612dafc4468ab583bf0c543f5f294515c64545"
+        },
+        {
+          "source": "assets/neo-mondrian-4.jpg",
+          "path": "references/styles/neo-mondrian/gallery-v60/neo-mondrian-4.jpg",
+          "sha256": "056e0c86d88eaec42c04e72ff780c53a27f331a5ac1e2e24796f6c95478ed4b1"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": [
+        "note-revisione-20261027.md",
+        "note-selezione-20261027.md",
+        "ricerca-revisione-20261027.md",
+        "studio-3-asimmetria.png",
+        "studio-4-ritmo.png",
+        "studio-5-griglia-chiusa.png",
+        "studio-7-senza-punto.png"
+      ]
+    },
+    {
+      "id": "watercolor",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/watercolor.yaml",
+      "profile_sha256": "915ff5b60455b9aeba52580ee7a9a6420406424cbb28b5c4c3b51d1885565919",
+      "images": [
+        {
+          "source": "assets/watercolor.jpg",
+          "path": "references/styles/watercolor/gallery-v60/watercolor.jpg",
+          "sha256": "c779466c2a36fd20c65fd0b246c2bfaf6b729ed00defb879f2c3be42cf491893"
+        },
+        {
+          "source": "assets/watercolor-2.jpg",
+          "path": "references/styles/watercolor/gallery-v60/watercolor-2.jpg",
+          "sha256": "2138ea09b06f204b138595b8cf02a66be14d6849edcf9da303b6282804b65670"
+        },
+        {
+          "source": "assets/watercolor-3.jpg",
+          "path": "references/styles/watercolor/gallery-v60/watercolor-3.jpg",
+          "sha256": "6209dbfe317e096ef986d9a7f84db1babe912b3f6fd788c42c881d68bcf04bd7"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "neo-risograph",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/neo-risograph.yaml",
+      "profile_sha256": "454331e32d783618a69adecae4405660be9e46424c30c8bdd86baefee3156aed",
+      "images": [
+        {
+          "source": "assets/neo-risograph.jpg",
+          "path": "references/styles/neo-risograph/gallery-v60/neo-risograph.jpg",
+          "sha256": "9a0d1c0dd74511a5173b46cd3247f9df94b41afe38b5ee737b52697e7583f7fb"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "underground-comic",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/underground-comic.yaml",
+      "profile_sha256": "39c858dc5699851797177c83c93e47b7ce21e80284758c8006cc5b3ff703005f",
+      "images": [
+        {
+          "source": "assets/underground-comic.jpg",
+          "path": "references/styles/underground-comic/gallery-v60/underground-comic.jpg",
+          "sha256": "0a7a278d63450f20fac510dc62a8a511ed543f00656446e24e65708f2c7b1cb5"
+        },
+        {
+          "source": "assets/underground-comic-2.jpg",
+          "path": "references/styles/underground-comic/gallery-v60/underground-comic-2.jpg",
+          "sha256": "5091fa0114d5517a5fd761485857a7ed14ed45ad0802694b8ba2d8565879f8fb"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "architectural-isometric",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/architectural-isometric.yaml",
+      "profile_sha256": "587da159d798c9d52cd9023939df38eb91c0f9e19de7f6f0f000bf81697154d3",
+      "images": [
+        {
+          "source": "assets/architectural-isometric.jpg",
+          "path": "references/styles/architectural-isometric/gallery-v60/architectural-isometric.jpg",
+          "sha256": "f01f51e187ea2adbc3aec19d863b2b54491c63cdd0bf9c05baf9a2970f79fff7"
+        },
+        {
+          "source": "assets/architectural-isometric-2.jpg",
+          "path": "references/styles/architectural-isometric/gallery-v60/architectural-isometric-2.jpg",
+          "sha256": "66b9fe0fb0ca778c0abfbe631f483ac3f69ab27702832625f60a82fe92ee922d"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "retro-ui",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/retro-ui.yaml",
+      "profile_sha256": "5ccf5c9833b1f973e5dd056c6ae33ee0b1ba74c3957d069889ba8b041e2d20d6",
+      "images": [
+        {
+          "source": "assets/retro-ui-3.jpg",
+          "path": "references/styles/retro-ui/gallery-v60/retro-ui-3.jpg",
+          "sha256": "9b6a79adbecff659e17464afec97c892caac30aa129bdbd08e63ffeb340a6740"
+        },
+        {
+          "source": "assets/retro-ui-4.jpg",
+          "path": "references/styles/retro-ui/gallery-v60/retro-ui-4.jpg",
+          "sha256": "e6afe52a16271b517a315b0f71e457e2d0ea788d9ca2bfa4e29d4e6e0b64eadd"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "internet-nostalgia",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/internet-nostalgia.yaml",
+      "profile_sha256": "dc6fb6f399580321bc231d9087dea0ae262b35e151d11823c769b5d0e47945ad",
+      "images": [
+        {
+          "source": "assets/internet-nostalgia-3.jpg",
+          "path": "references/styles/internet-nostalgia/gallery-v60/internet-nostalgia-3.jpg",
+          "sha256": "03766521ffbe7c4a01a74e81da08cdd18f01d0950d75ccbff4945010a4f97eb9"
+        },
+        {
+          "source": "assets/internet-nostalgia-6.jpg",
+          "path": "references/styles/internet-nostalgia/gallery-v60/internet-nostalgia-6.jpg",
+          "sha256": "b85e8a100c0fbc67b7fc9726a00245b50d354309babad967b1f22452a2406591"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "grottesco-editoriale-doppia-lettura",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/grottesco-editoriale-doppia-lettura.yaml",
+      "profile_sha256": "38539580beaff2caba5e055ead6eff0069953d119d6db6b9f8a4a66cc21b89e6",
+      "images": [
+        {
+          "source": "assets/grottesco-editoriale-doppia-lettura.jpg",
+          "path": "references/styles/grottesco-editoriale-doppia-lettura/gallery-v60/grottesco-editoriale-doppia-lettura.jpg",
+          "sha256": "ef647adbabea12599551656e185dc231b2185970ee7a111569595eb3711f5d63"
+        },
+        {
+          "source": "assets/grottesco-editoriale-doppia-lettura-2.jpg",
+          "path": "references/styles/grottesco-editoriale-doppia-lettura/gallery-v60/grottesco-editoriale-doppia-lettura-2.jpg",
+          "sha256": "bd34498b374869503e3a71c4010941e8fd60cc49adab7de7cdf84c3ee06a10a4"
+        },
+        {
+          "source": "assets/grottesco-editoriale-doppia-lettura-3.jpg",
+          "path": "references/styles/grottesco-editoriale-doppia-lettura/gallery-v60/grottesco-editoriale-doppia-lettura-3.jpg",
+          "sha256": "15872b1fd31cda37204fb2cd9957d85666a8f071503ab4d7633913e7bb73de7f"
+        },
+        {
+          "source": "assets/grottesco-editoriale-doppia-lettura-4.jpg",
+          "path": "references/styles/grottesco-editoriale-doppia-lettura/gallery-v60/grottesco-editoriale-doppia-lettura-4.jpg",
+          "sha256": "c184b237ad7c891de5003cf60e25aaf2e48e050be8346515e5be336959c7c184"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "condensed-editorial",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/condensed-editorial.yaml",
+      "profile_sha256": "0c76ba5f306b870d10a9558077c9c61b8f20abef13d61d430a14f54a280ff654",
+      "images": [
+        {
+          "source": "assets/condensed-editorial.jpg",
+          "path": "references/styles/condensed-editorial/gallery-v60/condensed-editorial.jpg",
+          "sha256": "8757326c1ab5a1a7ef2fb94d2f7eece859811891fb8f74d5444901cd14cebee8"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "editor-canvas",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/editor-canvas.yaml",
+      "profile_sha256": "3c615883ac2664b9118b7e9d6bbf72310b2d5f39f8341e18b793d04b510508c0",
+      "images": [
+        {
+          "source": "assets/editor-canvas.jpg",
+          "path": "references/styles/editor-canvas/gallery-v60/editor-canvas.jpg",
+          "sha256": "657e9d8bf1512289fb01a0b7b2dfc862fc4f94be486b861729877a6daec4f619"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "type-overprint",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/type-overprint.yaml",
+      "profile_sha256": "00bea0e00c03fccfda9e2e4cff22ffc4d3682da96b759364376937b18bf5cc70",
+      "images": [
+        {
+          "source": "assets/type-overprint.jpg",
+          "path": "references/styles/type-overprint/gallery-v60/type-overprint.jpg",
+          "sha256": "4ea9c89c17f6eb9a390cf1eeb269cf6a0f463be68407f99ce2865138c5ec624e"
+        },
+        {
+          "source": "assets/type-overprint-2.jpg",
+          "path": "references/styles/type-overprint/gallery-v60/type-overprint-2.jpg",
+          "sha256": "2771576d2846a94ba31ad9805ba91931067832e4e1e0f07382a1ad1712226c9a"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "dirty-brutalism",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/dirty-brutalism.yaml",
+      "profile_sha256": "1f9706e0f4d93512f9d9ff68f6ef907d5480ffd27d3d05bec02dbd6d78ae15cc",
+      "images": [
+        {
+          "source": "assets/dirty-brutalism.jpg",
+          "path": "references/styles/dirty-brutalism/gallery-v60/dirty-brutalism.jpg",
+          "sha256": "a5f22cca17bbff286b26d102d19e2038908951fa687a2c47a305f1a21ef4f436"
+        },
+        {
+          "source": "assets/dirty-brutalism-2.jpg",
+          "path": "references/styles/dirty-brutalism/gallery-v60/dirty-brutalism-2.jpg",
+          "sha256": "bcf6aefa021ca8e91442d77439802b928340efb713584c4f791725b88f86e650"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "ballpen",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/ballpen.yaml",
+      "profile_sha256": "b3a8efcd215c71c6d3ffc3797b7b8cbfbc20d16add4dd40bb1cc00fa8fbd9085",
+      "images": [
+        {
+          "source": "assets/ballpen.jpg",
+          "path": "references/styles/ballpen/gallery-v60/ballpen.jpg",
+          "sha256": "525a84d7fdc4a8b28dbdd7630d6210876b95a8111663909fa388994718e38d4a"
+        },
+        {
+          "source": "assets/ballpen-2.jpg",
+          "path": "references/styles/ballpen/gallery-v60/ballpen-2.jpg",
+          "sha256": "2b2aaa907fa8539cb35e3be12745a17b2c35678b1f0ad67a6e33453b4414d97a"
+        },
+        {
+          "source": "assets/ballpen-3.jpg",
+          "path": "references/styles/ballpen/gallery-v60/ballpen-3.jpg",
+          "sha256": "66291f20360c98c8930090edb19a3ecdfb0e690e8cfb9d38d93c8f7f3d6f62ae"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "neo-brutalism",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/neo-brutalism.yaml",
+      "profile_sha256": "d1aa8dc3699334bde6a834238f8704f4e1242a3b208bd869afdb4b4863dd26d5",
+      "images": [
+        {
+          "source": "assets/neo-brutalism.jpg",
+          "path": "references/styles/neo-brutalism/gallery-v60/neo-brutalism.jpg",
+          "sha256": "f17e2cd7e4221153602d31331945d409c3052584552bdb372f664a7f4c5bead1"
+        },
+        {
+          "source": "assets/neo-brutalism-2.jpg",
+          "path": "references/styles/neo-brutalism/gallery-v60/neo-brutalism-2.jpg",
+          "sha256": "5ed60627d830d30154ca86ebee44f05bbb7792b46c4b8c9cf6f55744d0d332d9"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "duotone-editorial",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/duotone-editorial.yaml",
+      "profile_sha256": "f10f37a6c81f6777313c05b737ff371ebbd7fb039eb62052bcf1ea8c89c3d962",
+      "images": [
+        {
+          "source": "assets/duotone-editorial.jpg",
+          "path": "references/styles/duotone-editorial/gallery-v60/duotone-editorial.jpg",
+          "sha256": "95cafaf7caf1cb3f515d88467f9ef2dede7fb6e693f01b5304dfcf2472158afe"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "halftone-editorial-bw",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/halftone-editorial-bw.yaml",
+      "profile_sha256": "e8bb529ff159d5a2040e4a5b73584b3a28a8569964d0607c20290534e7f65506",
+      "images": [
+        {
+          "source": "assets/halftone-editorial-bw.jpg",
+          "path": "references/styles/halftone-editorial-bw/gallery-v60/halftone-editorial-bw.jpg",
+          "sha256": "0382f2cc0ada1a8ab16aed9e983132823926c90079ecaa178fca2d823a2cd28f"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "ascii-editorial",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/ascii-editorial.yaml",
+      "profile_sha256": "420070c10780b639540adba80cb18fc9fbbad29d906ca97dea049b06017a7bcb",
+      "images": [
+        {
+          "source": "assets/ascii-editorial.jpg",
+          "path": "references/styles/ascii-editorial/gallery-v60/ascii-editorial.jpg",
+          "sha256": "b691d4ba273e3bd4be504fedd445146a04d136eabeecff7f4156316e579cc3b2"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "organic",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/organic.yaml",
+      "profile_sha256": "3aed86acdfc130c97ae1ad5c97b5805e260d26830f2679ed5e54c5dbd47a0e53",
+      "images": [
+        {
+          "source": "assets/organic.jpg",
+          "path": "references/styles/organic/gallery-v60/organic.jpg",
+          "sha256": "0f681d233ad12f3d02500546eccce8c3f5a42314ac2e971115981110c53f46f7"
+        },
+        {
+          "source": "assets/organic-2.jpg",
+          "path": "references/styles/organic/gallery-v60/organic-2.jpg",
+          "sha256": "e084e9fd4a43f4ad99e49ffe995b596e563b8f706005506474fdec93562919c4"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "folk-art",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/folk-art.yaml",
+      "profile_sha256": "bb0f3e6d750ef701f29de0a39a11d87e5de52eba386ad2f36de979740a7fdf46",
+      "images": [
+        {
+          "source": "assets/folk-art.jpg",
+          "path": "references/styles/folk-art/gallery-v60/folk-art.jpg",
+          "sha256": "7bc8fdbbcb3365e8798e95b09f09acd9bcfdb9be17637d81a2f376f6e4532d83"
+        },
+        {
+          "source": "assets/folk-art-2.jpg",
+          "path": "references/styles/folk-art/gallery-v60/folk-art-2.jpg",
+          "sha256": "c36999488586342d3bcc622a72b8e85f01b3f0fa94e166679479d09d2edbbe6b"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "retro-futurism-art",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/retro-futurism-art.yaml",
+      "profile_sha256": "800e413bba2613e099dd5f27c47c6ed333b5837b2cc72b6ee7e3878ebfc6b682",
+      "images": [
+        {
+          "source": "assets/retro-futurism-art-3.jpg",
+          "path": "references/styles/retro-futurism-art/gallery-v60/retro-futurism-art-3.jpg",
+          "sha256": "260e9be387f797eee775f42934cadba54fda239d3393ddb6db37d79a08d2c286"
+        },
+        {
+          "source": "assets/retro-futurism-art-4.jpg",
+          "path": "references/styles/retro-futurism-art/gallery-v60/retro-futurism-art-4.jpg",
+          "sha256": "69de4df0a54af9003ed3d5a60f53fcd75dfd0f00104ca4bb48f34039576b1cd7"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "occult-editorial",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/occult-editorial.yaml",
+      "profile_sha256": "e7a3e5a04d135c6f5db0dce63c08281861ceef0ae17cb773361aaf20c254cc4f",
+      "images": [
+        {
+          "source": "assets/occult-editorial-8.jpg",
+          "path": "references/styles/occult-editorial/gallery-v60/occult-editorial-8.jpg",
+          "sha256": "44c4078396daf7345f63e9a29dd64ed8355c74fd51511fe35a2d13c4ef325d6a"
+        },
+        {
+          "source": "assets/occult-editorial-9.jpg",
+          "path": "references/styles/occult-editorial/gallery-v60/occult-editorial-9.jpg",
+          "sha256": "ec00e1e84ecaebdf56098f0c557442b74542b8684886adaed04ee5acef2aff51"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "futurismo-italiano",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/futurismo-italiano.yaml",
+      "profile_sha256": "e707a3c63ca483e5aa7abf97d771cb689bc13440f05727f8d4fa6c99a2fd18d1",
+      "images": [
+        {
+          "source": "assets/futurismo-italiano.jpg",
+          "path": "references/styles/futurismo-italiano/gallery-v60/futurismo-italiano.jpg",
+          "sha256": "20a12bff7c99bdacfeae6de9c2ff45cee348b871ed2206618a490f46b85376f6"
+        },
+        {
+          "source": "assets/futurismo-italiano-2.jpg",
+          "path": "references/styles/futurismo-italiano/gallery-v60/futurismo-italiano-2.jpg",
+          "sha256": "21d5405ed89ed11ea3aa33921798d83f3a66a9517ecde0ba494e331bf78efce2"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "blue-note",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/blue-note.yaml",
+      "profile_sha256": "19904d4ff01bb2570d986ba8a456611c1dd64d31ad981fea1ca102c604dd6560",
+      "images": [
+        {
+          "source": "assets/blue-note-5.jpg",
+          "path": "references/styles/blue-note/gallery-v60/blue-note-5.jpg",
+          "sha256": "8e8c7debe3317c1ea281a5666334bd691384723ee5b973c5440902f8dabb7e96"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "handwritten",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/handwritten.yaml",
+      "profile_sha256": "c46684b855d1de3dc36aa37c19b3d07d32c8b78100aa5a43d0dd796194001c8a",
+      "images": [
+        {
+          "source": "assets/handwritten.jpg",
+          "path": "references/styles/handwritten/gallery-v60/handwritten.jpg",
+          "sha256": "0d733e068f8efe2d1d85a0258f91585897a394093c99d26249f4277db13ec6fb"
+        },
+        {
+          "source": "assets/handwritten-2.jpg",
+          "path": "references/styles/handwritten/gallery-v60/handwritten-2.jpg",
+          "sha256": "6f7031a4b581a4b7671599675cae8027486ad9421aa49f22312ef64a557f6702"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "psychedelic-art",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/psychedelic-art.yaml",
+      "profile_sha256": "e39afac463a8f9104aaedb70ab116fa8966598a3219b3705f3993981be1d75b7",
+      "images": [
+        {
+          "source": "assets/psychedelic-art.jpg",
+          "path": "references/styles/psychedelic-art/gallery-v60/psychedelic-art.jpg",
+          "sha256": "111d936d3aff64be85e348c3dbaab281f4651394fcdddd667088b15503a809a1"
+        },
+        {
+          "source": "assets/psychedelic-art-2.jpg",
+          "path": "references/styles/psychedelic-art/gallery-v60/psychedelic-art-2.jpg",
+          "sha256": "1b11e509f76728bf814bb01e08ca9c71cbbbec8a8dc84657d610fdf9d72aed8a"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "lowbrow",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/lowbrow.yaml",
+      "profile_sha256": "43ff633e8f34b8f075f29547d49c320b20907b617e20364e30deb67a086d4250",
+      "images": [
+        {
+          "source": "assets/lowbrow.jpg",
+          "path": "references/styles/lowbrow/gallery-v60/lowbrow.jpg",
+          "sha256": "5e47e7e5455fe9cdd27abe681a73b95b3864d134a6bb82d3c55d8692240af1b5"
+        },
+        {
+          "source": "assets/lowbrow-2.jpg",
+          "path": "references/styles/lowbrow/gallery-v60/lowbrow-2.jpg",
+          "sha256": "4be838e918177a153e36b52887e6093ca7073217b567a26b5d62787579734971"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "vintage-horror",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/vintage-horror.yaml",
+      "profile_sha256": "c325139d1f5a3edeeaf0b0bee4ff8edbac14ddf4d2522b44f44d5014e4120490",
+      "images": [
+        {
+          "source": "assets/vintage-horror.jpg",
+          "path": "references/styles/vintage-horror/gallery-v60/vintage-horror.jpg",
+          "sha256": "f738803224a8e010449fc7414d9778c5c822e711a1e1da56c42fd8e7f8f3afdb"
+        },
+        {
+          "source": "assets/vintage-horror-2.jpg",
+          "path": "references/styles/vintage-horror/gallery-v60/vintage-horror-2.jpg",
+          "sha256": "ddf706a31223765d4f871fd64d13b372c4eda6341a4418751f1ecbdd5e904560"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "symbolic-modernism",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/symbolic-modernism.yaml",
+      "profile_sha256": "e2aa4cb8cf808ed496004c9417c62b6523d1fdf6c8429ca110b25eba9ff76e92",
+      "images": [
+        {
+          "source": "assets/symbolic-modernism.jpg",
+          "path": "references/styles/symbolic-modernism/gallery-v60/symbolic-modernism.jpg",
+          "sha256": "953d2f0de7fc545e2426ce891087ff634b47126519a7934bd784a87bda02c484"
+        },
+        {
+          "source": "assets/symbolic-modernism-3.jpg",
+          "path": "references/styles/symbolic-modernism/gallery-v60/symbolic-modernism-3.jpg",
+          "sha256": "7b8250844c69d2052a6558892ac06a02de14f99eb3a2d237579aa2949f62a26c"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "photo-marker",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/photo-marker.yaml",
+      "profile_sha256": "58e51e5c1b79e6bb819ed2d9676fc1b47aee68bf2bdc9b1ba25dbf57bce14107",
+      "images": [
+        {
+          "source": "assets/photo-marker.jpg",
+          "path": "references/styles/photo-marker/gallery-v60/photo-marker.jpg",
+          "sha256": "49cab2a1d67cd9a1ac79fb6edca913af80afcd954dea4417312ba0e2eee30207"
+        },
+        {
+          "source": "assets/photo-marker-2.jpg",
+          "path": "references/styles/photo-marker/gallery-v60/photo-marker-2.jpg",
+          "sha256": "1b5f020f25038fc3e2e6db75a7130ee343d359243da32c8e4331671b26750344"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "photo-type-split",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/photo-type-split.yaml",
+      "profile_sha256": "0d685034624bf4053e0bbec20af88b02809fb4b2730adb2b409507f575858f7e",
+      "images": [
+        {
+          "source": "assets/photo-type-split.jpg",
+          "path": "references/styles/photo-type-split/gallery-v60/photo-type-split.jpg",
+          "sha256": "9e6d64f1befe9e89bb18f991ae27f659f0e4ecb110bc98bd4a6e98d215931d50"
+        },
+        {
+          "source": "assets/photo-type-split-2.jpg",
+          "path": "references/styles/photo-type-split/gallery-v60/photo-type-split-2.jpg",
+          "sha256": "f6f0e4bebe3d5de29ff4d01fadb69b1090fea5d9cd488a0d5d7eb6d7b20efce0"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "photo-type-monument",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/photo-type-monument.yaml",
+      "profile_sha256": "84a240cf92f7826315a02977d873be43bf9b5b5199c875b2ef9f8e2b0a43f856",
+      "images": [
+        {
+          "source": "assets/photo-type-monument.jpg",
+          "path": "references/styles/photo-type-monument/gallery-v60/photo-type-monument.jpg",
+          "sha256": "a99ee96ced927bfad97660dfde2f7a8d60652467368842ced9a9416f13d3a2b8"
+        },
+        {
+          "source": "assets/photo-type-monument-2.jpg",
+          "path": "references/styles/photo-type-monument/gallery-v60/photo-type-monument-2.jpg",
+          "sha256": "26a1599b08cde4367c47044d28d25a9e4c6d6625029d4d2ec89c3421fb488589"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "decollage",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/decollage.yaml",
+      "profile_sha256": "0253465493c2adddf0d06d3ec2a24f09f95ccf5261b0c1b3b71070a5256bd4eb",
+      "images": [
+        {
+          "source": "assets/decollage.jpg",
+          "path": "references/styles/decollage/gallery-v60/decollage.jpg",
+          "sha256": "008f627513d28993e36f6f14701ddd3a451130423842565a897b1853d81ddac4"
+        },
+        {
+          "source": "assets/decollage-2.jpg",
+          "path": "references/styles/decollage/gallery-v60/decollage-2.jpg",
+          "sha256": "f8937039925936cf23141f543372f6e32e03b07b1a9a422a564489ba7d6912af"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "ink-drip",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/ink-drip.yaml",
+      "profile_sha256": "dcc9708d25b2cbbb8bda2fb8949198fd5aab53357b9ed0d2ecfe172730baf37c",
+      "images": [
+        {
+          "source": "assets/ink-drip.jpg",
+          "path": "references/styles/ink-drip/gallery-v60/ink-drip.jpg",
+          "sha256": "c4c4492a778fc443f30271fe8863d5d829dcbe83bf2c1bfa6af22dd8a4562f26"
+        },
+        {
+          "source": "assets/ink-drip-2.jpg",
+          "path": "references/styles/ink-drip/gallery-v60/ink-drip-2.jpg",
+          "sha256": "9763abc90008dc7f62ef7857f8f02206c52e33cd3cfd6ea733a360f341ded349"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "type-blur",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/type-blur.yaml",
+      "profile_sha256": "1da70e3105b813ec281a3ca306bfc7717dc0fdc45f0019860a1a3884a5fa351a",
+      "images": [
+        {
+          "source": "assets/type-blur.jpg",
+          "path": "references/styles/type-blur/gallery-v60/type-blur.jpg",
+          "sha256": "93d4a558c1573a08a6d263a3096c3781c124f0126cf189736abda5700330e3eb"
+        },
+        {
+          "source": "assets/type-blur-2.jpg",
+          "path": "references/styles/type-blur/gallery-v60/type-blur-2.jpg",
+          "sha256": "b415608fa32b1966f30aab8d46f5770d6bd826948c26f0fc8de108d458f3ddb3"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "graphite-negative",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/graphite-negative.yaml",
+      "profile_sha256": "ad6aeeb4f061b51ae876dc5b0ad1d943d95181cfff3b7ca3eafe6346f3d8e71a",
+      "images": [
+        {
+          "source": "assets/graphite-negative.jpg",
+          "path": "references/styles/graphite-negative/gallery-v60/graphite-negative.jpg",
+          "sha256": "84afda7190baa74c858845f015f5a396a99513066530c8dc702de1c8e10dcb9b"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "kinetic-impact",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/kinetic-impact.yaml",
+      "profile_sha256": "78d3ffb97774cfd29bee5b63095d7f709d9fb7c44e19575a18522a368b6f0a65",
+      "images": [
+        {
+          "source": "assets/kinetic-impact.jpg",
+          "path": "references/styles/kinetic-impact/gallery-v60/kinetic-impact.jpg",
+          "sha256": "a6915cc39a2810e81927c42adc649acd9d10ca71a45efad5ad038126c980bf06"
+        },
+        {
+          "source": "assets/kinetic-impact-2.jpg",
+          "path": "references/styles/kinetic-impact/gallery-v60/kinetic-impact-2.jpg",
+          "sha256": "06a3d065ab1f9486a154f97c564cf1dc8311ae373b9035ccfc9086eb1ccfc10c"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "typewritten-marginalia",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/typewritten-marginalia.yaml",
+      "profile_sha256": "c990b740f3c1fb6dbda995a0acb14bcb4dcc3963f646b29ad13a213d8313cab4",
+      "images": [
+        {
+          "source": "assets/typewritten-marginalia.jpg",
+          "path": "references/styles/typewritten-marginalia/gallery-v60/typewritten-marginalia.jpg",
+          "sha256": "04f41024bb8e4dcf11b43a550182217c5926ab21be02f99254524cbe787e0b41"
+        },
+        {
+          "source": "assets/typewritten-marginalia-2.jpg",
+          "path": "references/styles/typewritten-marginalia/gallery-v60/typewritten-marginalia-2.jpg",
+          "sha256": "14aceeb6d2076da2423c8591f1db520a6a89aaeb4c035433480f70657c7ab160"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "filament-collage",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/filament-collage.yaml",
+      "profile_sha256": "6dd1a366124386ebf15cc6e42dc4b560519073f8ef33bcbddc567f4ef0a1aa08",
+      "images": [
+        {
+          "source": "assets/filament-collage.jpg",
+          "path": "references/styles/filament-collage/gallery-v60/filament-collage.jpg",
+          "sha256": "b8131aa7d54af5087efaf478dc5660a6263d6ec0278c5ed1ad8a2eacdd98ecb3"
+        },
+        {
+          "source": "assets/filament-collage-2.jpg",
+          "path": "references/styles/filament-collage/gallery-v60/filament-collage-2.jpg",
+          "sha256": "c86fb3aad28331e3a2109a4918415322559270b7e35d2ec0993d72ac9cf5fb56"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": [
+        "note-prova-1.md"
+      ]
+    },
+    {
+      "id": "art-journal",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/art-journal.yaml",
+      "profile_sha256": "0b781f2735cf691b8c3481a43a015465abe831c27b8e4ea4e12bffe0a70106b5",
+      "images": [
+        {
+          "source": "assets/art-journal.jpg",
+          "path": "references/styles/art-journal/gallery-v60/art-journal.jpg",
+          "sha256": "9b0d46ce84852570df64d205569107397b2066f40ad3afc9c5fac1f65731a4ea"
+        },
+        {
+          "source": "assets/art-journal-2.jpg",
+          "path": "references/styles/art-journal/gallery-v60/art-journal-2.jpg",
+          "sha256": "ba5208fa44353084e7645dad60ee05aed95cea112d8c24901d38825e7f402782"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": [
+        "note-prova-1.md"
+      ]
+    },
+    {
+      "id": "photo-palimpsest",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/photo-palimpsest.yaml",
+      "profile_sha256": "7e9560e9c2086e225d46fd64a76103daf34f9b7ff499aa338d20b0ebd9304922",
+      "images": [
+        {
+          "source": "assets/photo-palimpsest.jpg",
+          "path": "references/styles/photo-palimpsest/gallery-v60/photo-palimpsest.jpg",
+          "sha256": "9be4bd997112d177c52a650c6a110a64c9887769bb8e4247d5701eb8537a55e9"
+        },
+        {
+          "source": "assets/photo-palimpsest-2.jpg",
+          "path": "references/styles/photo-palimpsest/gallery-v60/photo-palimpsest-2.jpg",
+          "sha256": "784a4ce0f508dc9344b5374a1a921874d2ac09afe3ccbf1a6c20fd1b3cd1f118"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": [
+        "note-prova-1.md"
+      ]
+    },
+    {
+      "id": "saturated-photo",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/saturated-photo.yaml",
+      "profile_sha256": "e27be27e2f7cdad3a448e16796432b6f4ff37432f0d04d4b25331771627420ab",
+      "images": [
+        {
+          "source": "assets/saturated-photo.jpg",
+          "path": "references/styles/saturated-photo/gallery-v60/saturated-photo.jpg",
+          "sha256": "2b0bb6520328da502d5433a626f00a6d25ea8c042c649f6610549c1c715816e6"
+        },
+        {
+          "source": "assets/saturated-photo-2.jpg",
+          "path": "references/styles/saturated-photo/gallery-v60/saturated-photo-2.jpg",
+          "sha256": "e2a62e529c2ec9189b9e01cafa2c781f06c083f50b3218269c571f261cfba790"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": [
+        "note-prove.md"
+      ]
+    },
+    {
+      "id": "american-comics",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/american-comics.yaml",
+      "profile_sha256": "2c6a6974aa2b0373bde40cca48b9d66ee243734c081cb253d609776933c49b7e",
+      "images": [
+        {
+          "source": "assets/american-comics.jpg",
+          "path": "references/styles/american-comics/gallery-v60/american-comics.jpg",
+          "sha256": "e430317792274a5eb5dff0eb5fe78c1b9eea52f419f27aa12b80f026e2d4d4d1"
+        },
+        {
+          "source": "assets/american-comics-2.jpg",
+          "path": "references/styles/american-comics/gallery-v60/american-comics-2.jpg",
+          "sha256": "367cb527099c21c68715de2d4df828654c0238713b602cc4118ab88f0b88f9cf"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": [
+        "note-prova-1.md",
+        "note-prova-2.md",
+        "prompt-prova-1.md",
+        "prompt-prova-2.md",
+        "prova-1.png",
+        "prova-2.png"
+      ]
+    },
+    {
+      "id": "warhol-pop-art",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/warhol-pop-art.yaml",
+      "profile_sha256": "f71df77f3c9d3b2a3e562bb92488ceffc5867b27181594f715d026872ad589f3",
+      "images": [
+        {
+          "source": "assets/warhol-pop-art.jpg",
+          "path": "references/styles/warhol-pop-art/gallery-v60/warhol-pop-art.jpg",
+          "sha256": "6e2ecd8766b0c0235e3b8925f62cd82639c3a6d84eb87abdec9e4648920067e7"
+        },
+        {
+          "source": "assets/warhol-pop-art-2.jpg",
+          "path": "references/styles/warhol-pop-art/gallery-v60/warhol-pop-art-2.jpg",
+          "sha256": "a1f5a080365052b3a161e2a63cbaed1cba3776d35337a804b0efbec68e7fa6ac"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": [
+        "note-prove.md",
+        "prompt-prova-1.md",
+        "prompt-prova-2.md",
+        "prova-1.png",
+        "prova-2.png",
+        "ricerca.md"
+      ]
+    },
+    {
+      "id": "marker-editorial",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/marker-editorial.yaml",
+      "profile_sha256": "300d32bfe150368f160c1e09ddf51af4727de6149b05c3dcd069f64046e8e8d0",
+      "images": [
+        {
+          "source": "assets/marker-editorial.jpg",
+          "path": "references/styles/marker-editorial/gallery-v60/marker-editorial.jpg",
+          "sha256": "e20179cdc497342392f60d76785e9beb622077fd6861be776651bb07da7dfa1e"
+        },
+        {
+          "source": "assets/marker-editorial-2.jpg",
+          "path": "references/styles/marker-editorial/gallery-v60/marker-editorial-2.jpg",
+          "sha256": "e0feadab16664702107cd812dad1ae3d593afd5c528af0cac92037d862494f7a"
+        },
+        {
+          "source": "assets/marker-editorial-3.jpg",
+          "path": "references/styles/marker-editorial/gallery-v60/marker-editorial-3.jpg",
+          "sha256": "e53d82cfe758cc81f6167b9eafe614c0228a73857ecdd3130a797ed0e9e3a9cf"
+        },
+        {
+          "source": "assets/marker-editorial-4.jpg",
+          "path": "references/styles/marker-editorial/gallery-v60/marker-editorial-4.jpg",
+          "sha256": "5b0dd146d138fcd4178759c7195eb348cf7aae40b88bdf6a96031ed7296c15eb"
+        },
+        {
+          "source": "assets/marker-editorial-5.jpg",
+          "path": "references/styles/marker-editorial/gallery-v60/marker-editorial-5.jpg",
+          "sha256": "2b198e91280361cdcfc7e7e8767dce8f82b5db1de3c6bda7097be4122f355c61"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": [
+        "note.md",
+        "prompt-prova-1.md",
+        "prompt-prova-2.md",
+        "prompt-prova-3.md",
+        "prompt-prova-4.md",
+        "prompt-prova-5.md",
+        "prova-1.png",
+        "prova-2.png",
+        "prova-3.png",
+        "prova-4.png",
+        "prova-5.png"
+      ]
+    },
+    {
+      "id": "anaglyph-editorial",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/anaglyph-editorial.yaml",
+      "profile_sha256": "03317aefe2022cdb536d1c2a23345c17f69e8d984031306f458ef468dbf2f9a0",
+      "images": [
+        {
+          "source": "assets/anaglyph-editorial.jpg",
+          "path": "references/styles/anaglyph-editorial/gallery-v60/anaglyph-editorial.jpg",
+          "sha256": "6fac0dd1bcaa7afe6ffad87fdf18eb8b89849c3992e07b6325ae2b45a110776e"
+        },
+        {
+          "source": "assets/anaglyph-editorial-2.jpg",
+          "path": "references/styles/anaglyph-editorial/gallery-v60/anaglyph-editorial-2.jpg",
+          "sha256": "94c1996b98fa5acb46131796c4e46d60053780dab7dde52036c87492eb9f4001"
+        },
+        {
+          "source": "assets/anaglyph-editorial-3.jpg",
+          "path": "references/styles/anaglyph-editorial/gallery-v60/anaglyph-editorial-3.jpg",
+          "sha256": "a28040e8936cbccca520818e89ac712197b0e8d01d08f2a77fb60a358e001f9f"
+        },
+        {
+          "source": "assets/anaglyph-editorial-4.jpg",
+          "path": "references/styles/anaglyph-editorial/gallery-v60/anaglyph-editorial-4.jpg",
+          "sha256": "8193a9d396cf35058e9bfb67532aa37bf6ff9badaf288784c7eb89092ba26e36"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": [
+        "note.md",
+        "prompt-prova-1.md",
+        "prompt-prova-2.md",
+        "prompt-prova-3.md",
+        "prompt-prova-4.md",
+        "prova-1.png",
+        "prova-2.png",
+        "prova-3.png",
+        "prova-4.png"
+      ]
+    },
+    {
+      "id": "charcoal",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/charcoal.yaml",
+      "profile_sha256": "65c2ac06621ba06de62c1f7a1e72f2c1586c5020017291d6747f82421fec27fe",
+      "images": [
+        {
+          "source": "assets/charcoal.jpg",
+          "path": "references/styles/charcoal/gallery-v60/charcoal.jpg",
+          "sha256": "bf2ed0d5f762b6bed1bf8bdc23944b66db63fe9c0add53012584dfaef0abe0e4"
+        },
+        {
+          "source": "assets/charcoal-2.jpg",
+          "path": "references/styles/charcoal/gallery-v60/charcoal-2.jpg",
+          "sha256": "7d35a8e7edabda3e9c7d457815cfc33d2b9be6a77273b60f535ed64ab46d205c"
+        },
+        {
+          "source": "assets/charcoal-3.jpg",
+          "path": "references/styles/charcoal/gallery-v60/charcoal-3.jpg",
+          "sha256": "57f0c9ab889048a0f14d538248cb5af1b5f61d526a185eb0d77f09fa21ecb484"
+        },
+        {
+          "source": "assets/charcoal-4.jpg",
+          "path": "references/styles/charcoal/gallery-v60/charcoal-4.jpg",
+          "sha256": "a6c9d4f158c34ef424438873aab7c9249b3c7f25c00cc95319d0ce7769a5dcdf"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "monotype",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/monotype.yaml",
+      "profile_sha256": "6ccaf109f3ec1dd7955dbf1265a712670277a7fd8beb041e4891adb6d0b7df44",
+      "images": [
+        {
+          "source": "assets/monotype.jpg",
+          "path": "references/styles/monotype/gallery-v60/monotype.jpg",
+          "sha256": "776e302f397813b6f999dbbe3f79e3900b052e6ca38aa4bd1460fb0692e894ef"
+        },
+        {
+          "source": "assets/monotype-2.jpg",
+          "path": "references/styles/monotype/gallery-v60/monotype-2.jpg",
+          "sha256": "33f8324c46b96ac6850c444aec2ef7ac4a55a3ef0efe00fffe613a8e0d8fdd8f"
+        },
+        {
+          "source": "assets/monotype-3.jpg",
+          "path": "references/styles/monotype/gallery-v60/monotype-3.jpg",
+          "sha256": "39852c008df82c24cf780e2df8bfb3744cab65b3a3924cb5d72a280e340866b6"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": [
+        "ricerca.md"
+      ]
+    },
+    {
+      "id": "oil-pastel",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/oil-pastel.yaml",
+      "profile_sha256": "9c29f846a7235c07a4e97f368a6cf54634e25286505397bc7f3d467043f22f32",
+      "images": [
+        {
+          "source": "assets/oil-pastel.jpg",
+          "path": "references/styles/oil-pastel/gallery-v60/oil-pastel.jpg",
+          "sha256": "359203a130727f393f79699151e3d998d5ea1c9cbb5e00fef844244abe601084"
+        },
+        {
+          "source": "assets/oil-pastel-2.jpg",
+          "path": "references/styles/oil-pastel/gallery-v60/oil-pastel-2.jpg",
+          "sha256": "d40de32422cd31b6210cec40d34ebcfcb28959965293982c62b91e9584308ce2"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": [
+        "note-prova-1.md",
+        "note-prova-2.md"
+      ]
+    },
+    {
+      "id": "embossed-paper",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/embossed-paper.yaml",
+      "profile_sha256": "df61020d1b382a870d45d26c321a452332fce1c01d32f34f8264ba58218db2f8",
+      "images": [
+        {
+          "source": "assets/embossed-paper.jpg",
+          "path": "references/styles/embossed-paper/gallery-v60/embossed-paper.jpg",
+          "sha256": "e1c33b9813033cb7382a8037ae038289ca4beb89d08c7e457ab855695aa7cc14"
+        },
+        {
+          "source": "assets/embossed-paper-2.jpg",
+          "path": "references/styles/embossed-paper/gallery-v60/embossed-paper-2.jpg",
+          "sha256": "8dc77aa326e669674dfe9b36a9a895484c8f1dedb7bb85927eec8bc3c8173bd9"
+        },
+        {
+          "source": "assets/embossed-paper-3.jpg",
+          "path": "references/styles/embossed-paper/gallery-v60/embossed-paper-3.jpg",
+          "sha256": "f44918884edc73988718bbc8c741ae2ccdfbccdb6535ecc613035ccea14bcdad"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": [
+        "note-prova-1.md",
+        "note-prova-2.md",
+        "note-prova-3.md"
+      ]
+    },
+    {
+      "id": "gold-foil",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/gold-foil.yaml",
+      "profile_sha256": "42b855337bf46a0fb399eb0b3bb57b8e3968bfd8bd4f7821a8da93f6e306e51a",
+      "images": [
+        {
+          "source": "assets/gold-foil.jpg",
+          "path": "references/styles/gold-foil/gallery-v60/gold-foil.jpg",
+          "sha256": "7d6f6bcc031ce25aec99d42864624247b20303cb1f68aa5d799b34de3b4ae39e"
+        },
+        {
+          "source": "assets/gold-foil-2.jpg",
+          "path": "references/styles/gold-foil/gallery-v60/gold-foil-2.jpg",
+          "sha256": "f859c97aca06a1f2cd590cde709d4d1545acc9901e6ad4d6de7a14eaef4caa5a"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": [
+        "ricerca.md"
+      ]
+    },
+    {
+      "id": "silver-foil",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/silver-foil.yaml",
+      "profile_sha256": "405d11b88dbb937b46873ce69dca8a8a9c6546791e4b45c3a16e69d305eda5f0",
+      "images": [
+        {
+          "source": "assets/silver-foil.jpg",
+          "path": "references/styles/silver-foil/gallery-v60/silver-foil.jpg",
+          "sha256": "dd653a631d0a4ca0a4a34163f2e80c437999172aabd60584793ab8c923dd64ee"
+        },
+        {
+          "source": "assets/silver-foil-2.jpg",
+          "path": "references/styles/silver-foil/gallery-v60/silver-foil-2.jpg",
+          "sha256": "0b44f81d736e17b983f85853e7a36d03d67fa927ab0131642a7af47d91358b5b"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": [
+        "ricerca.md"
+      ]
+    },
+    {
+      "id": "linocut",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/linocut.yaml",
+      "profile_sha256": "a8a2455653e616c25f64fb26c84968b0a86dd53e449a44dac92d385cb4b01cb5",
+      "images": [
+        {
+          "source": "assets/linocut.jpg",
+          "path": "references/styles/linocut/gallery-v60/linocut.jpg",
+          "sha256": "91189dab0b40cd428c0c5104608d442ff2c79e6c2be7d3f5e5332a93b64201c9"
+        }
+      ],
+      "recovered_resources": [
+        "references/styles/linocut/risorse-sites-v60/ab-resources-styles/ricerca.html",
+        "references/styles/linocut/risorse-sites-v60/ab-resources-styles/osservazioni-v1.html",
+        "references/styles/linocut/risorse-sites-v60/ab-resources-styles/osservazioni-v2.html",
+        "references/styles/linocut/risorse-sites-v60/ab-resources-styles/composizioni.yaml",
+        "references/styles/linocut/risorse-sites-v60/ab-resources-styles/profilo.yaml"
+      ],
+      "missing_references": [
+        "osservazioni-v2.md"
+      ]
+    },
+    {
+      "id": "gouache",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/gouache.yaml",
+      "profile_sha256": "cea1bc7170096ce6d3585407faccc4ffc5aded2028848b31bcfb86140abe88dd",
+      "images": [
+        {
+          "source": "assets/gouache.jpg",
+          "path": "references/styles/gouache/gallery-v60/gouache.jpg",
+          "sha256": "4a577053378f4a1f42ef0e17233d01a13a51ccdd86a811af60cf9db7a04a20ed"
+        }
+      ],
+      "recovered_resources": [
+        "references/styles/gouache/risorse-sites-v60/ab-resources-styles/ricerca.html",
+        "references/styles/gouache/risorse-sites-v60/ab-resources-styles/osservazioni-v1.html",
+        "references/styles/gouache/risorse-sites-v60/ab-resources-styles/profilo.yaml"
+      ],
+      "missing_references": []
+    },
+    {
+      "id": "stencil-print",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/stencil-print.yaml",
+      "profile_sha256": "1821294c14f73b994dc5c8015752dd31e9d349d054b7acc5f42c39fb363f1133",
+      "images": [
+        {
+          "source": "assets/stencil-print.jpg",
+          "path": "references/styles/stencil-print/gallery-v60/stencil-print.jpg",
+          "sha256": "d89cc6f5bdc1d4fda2591202b6cf878bc3836451eb3d272fb575e385361b3ec9"
+        }
+      ],
+      "recovered_resources": [
+        "references/styles/stencil-print/risorse-sites-v60/ab-resources-styles/ricerca.html",
+        "references/styles/stencil-print/risorse-sites-v60/ab-resources-styles/osservazioni-v1.html",
+        "references/styles/stencil-print/risorse-sites-v60/ab-resources-styles/osservazioni-v2.html",
+        "references/styles/stencil-print/risorse-sites-v60/ab-resources-styles/composizioni.yaml",
+        "references/styles/stencil-print/risorse-sites-v60/ab-resources-styles/profilo.yaml"
+      ],
+      "missing_references": [
+        "osservazioni-v2.md"
+      ]
+    },
+    {
+      "id": "cyanotype",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/cyanotype.yaml",
+      "profile_sha256": "983e0c8f5d0324abfa9b73302ed534144b317533404d60983d396cc65c9322b2",
+      "images": [
+        {
+          "source": "assets/cyanotype.jpg",
+          "path": "references/styles/cyanotype/gallery-v60/cyanotype.jpg",
+          "sha256": "32edd90b0a7144373ec11de240df1c02d5660071352faf3d0bcdde5920575ac9"
+        }
+      ],
+      "recovered_resources": [
+        "references/styles/cyanotype/risorse-sites-v60/ab-resources-styles/ricerca.html",
+        "references/styles/cyanotype/risorse-sites-v60/ab-resources-styles/osservazioni-v1.html",
+        "references/styles/cyanotype/risorse-sites-v60/ab-resources-styles/composizioni.yaml",
+        "references/styles/cyanotype/risorse-sites-v60/ab-resources-styles/profilo.yaml"
+      ],
+      "missing_references": []
+    },
+    {
+      "id": "palette-knife-painting",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/palette-knife-painting.yaml",
+      "profile_sha256": "183ca6ca148f0cbb3706a01061881c456a142df77ab3395151e814b88c6d7114",
+      "images": [
+        {
+          "source": "assets/palette-knife-painting.jpg",
+          "path": "references/styles/palette-knife-painting/gallery-v60/palette-knife-painting.jpg",
+          "sha256": "a7eed5089e4f43e9249d2e6ea0182ea31690603005989c37c2573f5aa79939fc"
+        }
+      ],
+      "recovered_resources": [
+        "references/styles/palette-knife-painting/risorse-sites-v60/ab-resources-styles/ricerca.html",
+        "references/styles/palette-knife-painting/risorse-sites-v60/ab-resources-styles/osservazioni-v1.html",
+        "references/styles/palette-knife-painting/risorse-sites-v60/ab-resources-styles/osservazioni-v2.html",
+        "references/styles/palette-knife-painting/risorse-sites-v60/ab-resources-styles/profilo.yaml"
+      ],
+      "missing_references": []
+    },
+    {
+      "id": "sticky-note",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/sticky-note.yaml",
+      "profile_sha256": "9a3a047607c01c87133e4d40a7c281b85b899d8d2fdb5a64e35a1c4b209c19f5",
+      "images": [
+        {
+          "source": "assets/sticky-note.jpg",
+          "path": "references/styles/sticky-note/gallery-v60/sticky-note.jpg",
+          "sha256": "e7a936eafa30ffeb2afb22953848482c60dd72eb7722f03034f7bed364ccb237"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "sticker-type",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/sticker-type.yaml",
+      "profile_sha256": "7340625b271598e31f029a513bd4218318cbfa0a64714f433121655d61d81934",
+      "images": [
+        {
+          "source": "assets/sticker-type.jpg",
+          "path": "references/styles/sticker-type/gallery-v60/sticker-type.jpg",
+          "sha256": "a61e042a4d7dbbabbc948b2a857096f732463c80b7d0804a80e7f76a6d39ab5c"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "thermal-receipt",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/thermal-receipt.yaml",
+      "profile_sha256": "215b086b12f3a1267577d5466d8355ae40c8e3540881de14a5b6ff7f6e027e52",
+      "images": [
+        {
+          "source": "assets/thermal-receipt.jpg",
+          "path": "references/styles/thermal-receipt/gallery-v60/thermal-receipt.jpg",
+          "sha256": "8c9ee039b90841db0e684b82f27f486ca28a0e2d4e6c1ad93cbaf7ee2d3058b3"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "message-bubble",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/message-bubble.yaml",
+      "profile_sha256": "a7d4b57c7a3da68534f67c038d20b0636fadbcde9243c38e45f5c40b1af1d127",
+      "images": [
+        {
+          "source": "assets/message-bubble.jpg",
+          "path": "references/styles/message-bubble/gallery-v60/message-bubble.jpg",
+          "sha256": "155b3e6d628ef80728ed29bfbacf90eb8a792e952c7b0de8b3d70a2bdbcf2325"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "cut-paper",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/cut-paper.yaml",
+      "profile_sha256": "97372faa0a592addd088b304211e0a1df06569006af6ad8f3f8d27d584ea6ba5",
+      "images": [
+        {
+          "source": "assets/cut-paper-hinged-20261028.jpg",
+          "path": "references/styles/cut-paper/gallery-v60/cut-paper-hinged-20261028.jpg",
+          "sha256": "973dfa6e5b261060e48a89bf14636023b3a7fa9b4709e64d89e88b7c83ec0779"
+        },
+        {
+          "source": "assets/cut-paper-negative-20261028.jpg",
+          "path": "references/styles/cut-paper/gallery-v60/cut-paper-negative-20261028.jpg",
+          "sha256": "577c3eaba36438305be0ba1b291cace56ce5c3a3d496298bdbf0b06e2a216840"
+        },
+        {
+          "source": "assets/cut-paper.jpg",
+          "path": "references/styles/cut-paper/gallery-v60/cut-paper.jpg",
+          "sha256": "7dfad675ca703db91ecbbc0d09b872e65e9302160e1b752d7c565059ad5048f8"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "neon-sign",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/neon-sign.yaml",
+      "profile_sha256": "09fb2c89bde23cce3305ad54292cd77db4733888754c115b283353671bb86f7d",
+      "images": [
+        {
+          "source": "assets/neon-sign.jpg",
+          "path": "references/styles/neon-sign/gallery-v60/neon-sign.jpg",
+          "sha256": "8b9888b3e2116c832ff6535bbcbe81b804d2f493ca922517ae7c403cc23227a1"
+        },
+        {
+          "source": "assets/neon-sign-2.jpg",
+          "path": "references/styles/neon-sign/gallery-v60/neon-sign-2.jpg",
+          "sha256": "c0ed6f2038f4d4908aac581e2cf0db5cf6ebfd56876b83b16f33910939a34781"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "chalkboard-design",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/chalkboard-design.yaml",
+      "profile_sha256": "0d2be4c518dc50a05d817784f8f046866bb593e0cbb31679323770f7401d59ac",
+      "images": [
+        {
+          "source": "assets/chalkboard-design.jpg",
+          "path": "references/styles/chalkboard-design/gallery-v60/chalkboard-design.jpg",
+          "sha256": "556791dbff9e3c9eef246193d5c9e4b057d4bf645fc63d507c214fdc0ce60c97"
+        },
+        {
+          "source": "assets/chalkboard-design-2.jpg",
+          "path": "references/styles/chalkboard-design/gallery-v60/chalkboard-design-2.jpg",
+          "sha256": "23b6364cc8bb9c844d7300fac744d59736948acb7c78f8a8be903a35aeabcc8f"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "inflated-type",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/inflated-type.yaml",
+      "profile_sha256": "628c8cf6059ae8b398c5579eb3f70dd88a414c825a81aa143e5578764737b6ac",
+      "images": [
+        {
+          "source": "assets/inflated-type.jpg",
+          "path": "references/styles/inflated-type/gallery-v60/inflated-type.jpg",
+          "sha256": "dc9f8cc39e53750ea2983cf20bf8b2f590079c491075f413916b73b5411c25d6"
+        },
+        {
+          "source": "assets/inflated-type-2.jpg",
+          "path": "references/styles/inflated-type/gallery-v60/inflated-type-2.jpg",
+          "sha256": "e0ac6ab65666cd24e3789ce47478d30d4a805fc9869d0479a62fadbcaffdbb46"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "varsity-patch",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/varsity-patch.yaml",
+      "profile_sha256": "c25add7b73272966b80fff6adacd3730fc77ce9d47fe31435b2b241c04704644",
+      "images": [
+        {
+          "source": "assets/varsity-patch.jpg",
+          "path": "references/styles/varsity-patch/gallery-v60/varsity-patch.jpg",
+          "sha256": "4330e2c521795b8c92c9f98fe782783994f812607d098545aa5ff129372689e4"
+        },
+        {
+          "source": "assets/varsity-patch-2.jpg",
+          "path": "references/styles/varsity-patch/gallery-v60/varsity-patch-2.jpg",
+          "sha256": "2d420512d40c6920a3de42e9c15ca503b56516ffb5e5af3113ccb4a09c1ab73b"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "ransom-note",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/ransom-note.yaml",
+      "profile_sha256": "17aadfff4d90ecd9c7723cdd41c1a619114887c0e10facb5266e6246081156ca",
+      "images": [
+        {
+          "source": "assets/ransom-note.jpg",
+          "path": "references/styles/ransom-note/gallery-v60/ransom-note.jpg",
+          "sha256": "01a977fcfd2049abfedbf9afa0b01ac011099a1b4dc7ca4b63abea3f1f4276ce"
+        },
+        {
+          "source": "assets/ransom-note-2.jpg",
+          "path": "references/styles/ransom-note/gallery-v60/ransom-note-2.jpg",
+          "sha256": "c5fa0fedf353e5192705f5a1ab94b480d4ff7b3767faa216d2f215a596099e70"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "constructivist",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/constructivist.yaml",
+      "profile_sha256": "ef57e96fe0a3d7209e682ddfcab56a562fb3897a5d94abca61d1d56c02cecf00",
+      "images": [
+        {
+          "source": "assets/constructivist.jpg",
+          "path": "references/styles/constructivist/gallery-v60/constructivist.jpg",
+          "sha256": "582c2d1e063c0f115718f7ebae5039f488c9337f3606f5826058f9b890c93d8e"
+        },
+        {
+          "source": "assets/constructivist-2.jpg",
+          "path": "references/styles/constructivist/gallery-v60/constructivist-2.jpg",
+          "sha256": "a6e52533d81acd2208b8dd6bca088cd0c5e7b5c6309eab2cfeb0bc3b45215f8d"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "art-deco",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/art-deco.yaml",
+      "profile_sha256": "867f5920bb3c2c02cbdb61dfe99ef3d087c5eb716f775e7c5e326eea258c1e6a",
+      "images": [
+        {
+          "source": "assets/art-deco.jpg",
+          "path": "references/styles/art-deco/gallery-v60/art-deco.jpg",
+          "sha256": "8e69ad2259eb32b95cd4411af47c525526fb802f2987a896034faa11db1912fb"
+        },
+        {
+          "source": "assets/art-deco-2.jpg",
+          "path": "references/styles/art-deco/gallery-v60/art-deco-2.jpg",
+          "sha256": "f732d50a9f082090d40fb90fb5993e20fa33162becc6d81d7d0c858828d371d8"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "art-nouveau",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/art-nouveau.yaml",
+      "profile_sha256": "2bb27823d12fd36ab191635170b4519169bff19fc7b373f47689ca1c73526bcf",
+      "images": [
+        {
+          "source": "assets/art-nouveau.jpg",
+          "path": "references/styles/art-nouveau/gallery-v60/art-nouveau.jpg",
+          "sha256": "28b4a176a07f1d87228a2eed7902f0c1f24cb15850ce1a3f6c6ed2b3db7cb239"
+        },
+        {
+          "source": "assets/art-nouveau-2.jpg",
+          "path": "references/styles/art-nouveau/gallery-v60/art-nouveau-2.jpg",
+          "sha256": "ed76f166d63120195b46ef8d991366e0277466f84d387bd36e4440b8d66c357c"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "pixel-art",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/pixel-art.yaml",
+      "profile_sha256": "689c4f8e0e7c3a553f7d43133d8b2e8e6fbb30bda7e28ee51614806fff550db9",
+      "images": [
+        {
+          "source": "assets/pixel-art.png",
+          "path": "references/styles/pixel-art/gallery-v60/pixel-art.png",
+          "sha256": "652697cd82b22d24dc5909c6eeecaea6325c84720e96d91c995c7a39540fdbc8"
+        },
+        {
+          "source": "assets/pixel-art-2.png",
+          "path": "references/styles/pixel-art/gallery-v60/pixel-art-2.png",
+          "sha256": "6c69cc6451a3173024a9303e0090b6f0c0700d84d9170a2757e8ba71f9461bfb"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "motion-proof",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/motion-proof.yaml",
+      "profile_sha256": "9f323f9568438723ad2e6f2a4d4aedfdf6941bf33527d439f31d0922963a9f7a",
+      "images": [
+        {
+          "source": "assets/motion-proof.jpg",
+          "path": "references/styles/motion-proof/gallery-v60/motion-proof.jpg",
+          "sha256": "e449e252ffec3ebb44cb640db305876bf90cd54feb73f76e754dfb09919c38df"
+        },
+        {
+          "source": "assets/motion-proof-2.jpg",
+          "path": "references/styles/motion-proof/gallery-v60/motion-proof-2.jpg",
+          "sha256": "b71e7d1b1a886e3ad160d5e17deadc55c0f0b772dde268f08008a01f2cc85c91"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "impronta-di-gusto",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/impronta-di-gusto.yaml",
+      "profile_sha256": "3c1699ef4796323a4b78b578aae321f944a11a1ab19bef4d8b0a8c77052cc421",
+      "images": [
+        {
+          "source": "assets/impronta-di-gusto.jpg",
+          "path": "references/styles/impronta-di-gusto/gallery-v60/impronta-di-gusto.jpg",
+          "sha256": "59ec0f8001c633f0e25ca9884ed397cf11924cee8edfd504e3012fb630d57084"
+        },
+        {
+          "source": "assets/impronta-di-gusto-2.jpg",
+          "path": "references/styles/impronta-di-gusto/gallery-v60/impronta-di-gusto-2.jpg",
+          "sha256": "856d4abc31ca04ec29e3925913edc7398bbbdd66110fd779e4f9b32b393b1b02"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "carta-comune",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/carta-comune.yaml",
+      "profile_sha256": "c9afd946d77f8a667eb16f85909445a63c6b5d252cceb1ae93d15f891057a351",
+      "images": [
+        {
+          "source": "assets/carta-comune.jpg",
+          "path": "references/styles/carta-comune/gallery-v60/carta-comune.jpg",
+          "sha256": "3ca9f695a89e7365d1354a285815d4e311f8d6f8a9a931ab397c87556fad651e"
+        },
+        {
+          "source": "assets/carta-comune-2.jpg",
+          "path": "references/styles/carta-comune/gallery-v60/carta-comune-2.jpg",
+          "sha256": "648e27709af0b0ff88da6c56c42fe510052995a19dabcf4bd5a274e074fbf933"
+        }
+      ],
+      "recovered_resources": [],
+      "missing_references": []
+    },
+    {
+      "id": "cartographic-editorial",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/cartographic-editorial.yaml",
+      "profile_sha256": "46d25a28a22fb735db756961b10188ad43a6746423f76f704b5270fdf0ccb59b",
+      "images": [
+        {
+          "source": "assets/study-cartographic-editorial-1.jpg",
+          "path": "references/styles/cartographic-editorial/gallery-v60/study-cartographic-editorial-1.jpg",
+          "sha256": "f125910b21a56a2f1af9a7adad29413d7ad42340011eb468ff460ade317b69ab"
+        },
+        {
+          "source": "assets/study-cartographic-editorial-2.jpg",
+          "path": "references/styles/cartographic-editorial/gallery-v60/study-cartographic-editorial-2.jpg",
+          "sha256": "bf1c2a80b001395e0dca67c8140c9478ba76751b357dcf966211532e17307a57"
+        }
+      ],
+      "recovered_resources": [
+        "references/styles/cartographic-editorial/risorse-sites-v60/studies-thematic/prompt-01.txt",
+        "references/styles/cartographic-editorial/risorse-sites-v60/studies-thematic/prompt-02.txt",
+        "references/styles/cartographic-editorial/risorse-sites-v60/studies-thematic/profilo.yaml",
+        "references/styles/cartographic-editorial/risorse-sites-v60/studies-thematic/test-02.png",
+        "references/styles/cartographic-editorial/risorse-sites-v60/studies-thematic/profilo.json",
+        "references/styles/cartographic-editorial/risorse-sites-v60/studies-thematic/test-01.png"
+      ],
+      "missing_references": []
+    },
+    {
+      "id": "finance-terminal",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/finance-terminal.yaml",
+      "profile_sha256": "972a9ff670bcfb05ab5a265213e9c5a80766ff24791128ebb1a2e08ceabce0f3",
+      "images": [
+        {
+          "source": "assets/study-finance-terminal-1.jpg",
+          "path": "references/styles/finance-terminal/gallery-v60/study-finance-terminal-1.jpg",
+          "sha256": "a46424efe64fd2ba6bb162b44e4eeffcd4c4bca027c536dab4137432eb01e1b5"
+        },
+        {
+          "source": "assets/study-finance-terminal-2.jpg",
+          "path": "references/styles/finance-terminal/gallery-v60/study-finance-terminal-2.jpg",
+          "sha256": "c92cd1dff7371a6a470f78c9f6659de32d92e2ae2553a15f2af1caa344a23456"
+        }
+      ],
+      "recovered_resources": [
+        "references/styles/finance-terminal/risorse-sites-v60/studies-thematic/prompt-01.txt",
+        "references/styles/finance-terminal/risorse-sites-v60/studies-thematic/prompt-02.txt",
+        "references/styles/finance-terminal/risorse-sites-v60/studies-thematic/profilo.yaml",
+        "references/styles/finance-terminal/risorse-sites-v60/studies-thematic/test-02.png",
+        "references/styles/finance-terminal/risorse-sites-v60/studies-thematic/profilo.json",
+        "references/styles/finance-terminal/risorse-sites-v60/studies-thematic/test-01.png"
+      ],
+      "missing_references": []
+    },
+    {
+      "id": "economy-editorial",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/economy-editorial.yaml",
+      "profile_sha256": "75db0d83216c7a62c6c0fb6995c7e32c6701de4701b8d101e0390278c4d2336e",
+      "images": [
+        {
+          "source": "assets/study-economy-editorial-1.jpg",
+          "path": "references/styles/economy-editorial/gallery-v60/study-economy-editorial-1.jpg",
+          "sha256": "d4fc41a3cc03a6a9e1dc361bb010fd051621890bf9ec5b8171837231e00b44aa"
+        },
+        {
+          "source": "assets/study-economy-editorial-2.jpg",
+          "path": "references/styles/economy-editorial/gallery-v60/study-economy-editorial-2.jpg",
+          "sha256": "f60b25162bb4fed0d4da745c37a404e7ac95dd5f55152eb872f8c0da11ec55cc"
+        }
+      ],
+      "recovered_resources": [
+        "references/styles/economy-editorial/risorse-sites-v60/studies-thematic/prompt-01.txt",
+        "references/styles/economy-editorial/risorse-sites-v60/studies-thematic/prompt-02.txt",
+        "references/styles/economy-editorial/risorse-sites-v60/studies-thematic/profilo.yaml",
+        "references/styles/economy-editorial/risorse-sites-v60/studies-thematic/test-02.png",
+        "references/styles/economy-editorial/risorse-sites-v60/studies-thematic/profilo.json",
+        "references/styles/economy-editorial/risorse-sites-v60/studies-thematic/test-01.png"
+      ],
+      "missing_references": []
+    },
+    {
+      "id": "science-book",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/science-book.yaml",
+      "profile_sha256": "64d00bea8701928ac44bd8cdb4def183d95b3946e84422cdeddfb1fbfe2132d1",
+      "images": [
+        {
+          "source": "assets/study-science-book-1.jpg",
+          "path": "references/styles/science-book/gallery-v60/study-science-book-1.jpg",
+          "sha256": "ae1dfa63f9fdffb7ddc820a8c69fe06d54e76365bbd25872390beda55c2fe4f1"
+        },
+        {
+          "source": "assets/study-science-book-2.jpg",
+          "path": "references/styles/science-book/gallery-v60/study-science-book-2.jpg",
+          "sha256": "8a93cd043a09783e0afa035bf98db3d66e5661c70a7d9a04f88b8040bc1a30fb"
+        }
+      ],
+      "recovered_resources": [
+        "references/styles/science-book/risorse-sites-v60/studies-thematic/prompt-01.txt",
+        "references/styles/science-book/risorse-sites-v60/studies-thematic/prompt-02.txt",
+        "references/styles/science-book/risorse-sites-v60/studies-thematic/profilo.yaml",
+        "references/styles/science-book/risorse-sites-v60/studies-thematic/test-02.png",
+        "references/styles/science-book/risorse-sites-v60/studies-thematic/profilo.json",
+        "references/styles/science-book/risorse-sites-v60/studies-thematic/test-01.png"
+      ],
+      "missing_references": []
+    },
+    {
+      "id": "space-atlas",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/space-atlas.yaml",
+      "profile_sha256": "6c47aeacf4c3c5fa0493042bdd82bb8dff9e45ac5dfea4c60f50d3bfb80191f0",
+      "images": [
+        {
+          "source": "assets/study-space-atlas-1.jpg",
+          "path": "references/styles/space-atlas/gallery-v60/study-space-atlas-1.jpg",
+          "sha256": "8252b919ddfc6c68509e234220334a62b00ee666162cf83a8dd251e51e48cd5c"
+        },
+        {
+          "source": "assets/study-space-atlas-2.jpg",
+          "path": "references/styles/space-atlas/gallery-v60/study-space-atlas-2.jpg",
+          "sha256": "2d296461604f39c924289db48e86f4170bbcb4202a028fe5ce821cb80b6cbd9c"
+        }
+      ],
+      "recovered_resources": [
+        "references/styles/space-atlas/risorse-sites-v60/studies-thematic/prompt-01.txt",
+        "references/styles/space-atlas/risorse-sites-v60/studies-thematic/prompt-02.txt",
+        "references/styles/space-atlas/risorse-sites-v60/studies-thematic/profilo.yaml",
+        "references/styles/space-atlas/risorse-sites-v60/studies-thematic/test-02.png",
+        "references/styles/space-atlas/risorse-sites-v60/studies-thematic/profilo.json",
+        "references/styles/space-atlas/risorse-sites-v60/studies-thematic/test-01.png"
+      ],
+      "missing_references": []
+    },
+    {
+      "id": "tech-mechanism",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/tech-mechanism.yaml",
+      "profile_sha256": "0395c309e596dc06911357adac76b25a4a6303bb65d4edfe935d80730f636da7",
+      "images": [
+        {
+          "source": "assets/study-tech-mechanism-1.jpg",
+          "path": "references/styles/tech-mechanism/gallery-v60/study-tech-mechanism-1.jpg",
+          "sha256": "3c85ee03b20fe8dd6f3cb2631a3eab945ca445ddb065330c328a368332b57bfd"
+        },
+        {
+          "source": "assets/study-tech-mechanism-2.jpg",
+          "path": "references/styles/tech-mechanism/gallery-v60/study-tech-mechanism-2.jpg",
+          "sha256": "6399273fe1e935c58e6502e2b26eb510d1b5c9b2482f855adc5cfddc20874f4f"
+        }
+      ],
+      "recovered_resources": [
+        "references/styles/tech-mechanism/risorse-sites-v60/studies-thematic/prompt-01.txt",
+        "references/styles/tech-mechanism/risorse-sites-v60/studies-thematic/prompt-02.txt",
+        "references/styles/tech-mechanism/risorse-sites-v60/studies-thematic/profilo.yaml",
+        "references/styles/tech-mechanism/risorse-sites-v60/studies-thematic/test-02.png",
+        "references/styles/tech-mechanism/risorse-sites-v60/studies-thematic/profilo.json",
+        "references/styles/tech-mechanism/risorse-sites-v60/studies-thematic/test-01.png"
+      ],
+      "missing_references": []
+    },
+    {
+      "id": "eco-print",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/eco-print.yaml",
+      "profile_sha256": "f4a6c6878128b91a8e1cf50e7066e296a63dc8090e196bc75f59d9efc4f5ab48",
+      "images": [
+        {
+          "source": "assets/study-eco-print-1.jpg",
+          "path": "references/styles/eco-print/gallery-v60/study-eco-print-1.jpg",
+          "sha256": "77e898a1a29543c9ac718e91e9d8a17cd3b6c448e8460f4dbabc9dac6a86c171"
+        },
+        {
+          "source": "assets/study-eco-print-2.jpg",
+          "path": "references/styles/eco-print/gallery-v60/study-eco-print-2.jpg",
+          "sha256": "1e3cb23ddd37543ea8fb4226a43942bcf374add6ee1775111f76341810092b55"
+        }
+      ],
+      "recovered_resources": [
+        "references/styles/eco-print/risorse-sites-v60/studies-thematic/prompt-01.txt",
+        "references/styles/eco-print/risorse-sites-v60/studies-thematic/prompt-02.txt",
+        "references/styles/eco-print/risorse-sites-v60/studies-thematic/profilo.yaml",
+        "references/styles/eco-print/risorse-sites-v60/studies-thematic/test-02.png",
+        "references/styles/eco-print/risorse-sites-v60/studies-thematic/profilo.json",
+        "references/styles/eco-print/risorse-sites-v60/studies-thematic/test-01.png"
+      ],
+      "missing_references": []
+    },
+    {
+      "id": "pollock",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/pollock.yaml",
+      "profile_sha256": "cdc866b67de39975092bf1878982d08655100111544113ae4f37a9e4e6825f44",
+      "images": [
+        {
+          "source": "assets/pollock-1.jpg",
+          "path": "references/styles/pollock/gallery-v60/pollock-1.jpg",
+          "sha256": "c009409af8cdbafe6ae575ad49a964248ea913218757e70018146c184575b361"
+        },
+        {
+          "source": "assets/pollock-2.jpg",
+          "path": "references/styles/pollock/gallery-v60/pollock-2.jpg",
+          "sha256": "1ec87f3228971f1a0906d94ab9402760b7f2fc813c3684083e260dafd15c487c"
+        },
+        {
+          "source": "assets/pollock-3.jpg",
+          "path": "references/styles/pollock/gallery-v60/pollock-3.jpg",
+          "sha256": "2c28bbab6cc898a1af9b043463e9b0866370103f2b75e52f08ece8836386fa52"
+        }
+      ],
+      "recovered_resources": [
+        "references/styles/pollock/risorse-sites-v60/styles/note.md",
+        "references/styles/pollock/risorse-sites-v60/styles/prompt-esempio-2.txt",
+        "references/styles/pollock/risorse-sites-v60/styles/prompt-esempio-3.txt",
+        "references/styles/pollock/risorse-sites-v60/styles/prompt-esempio-1.txt",
+        "references/styles/pollock/risorse-sites-v60/styles/composizioni.yaml",
+        "references/styles/pollock/risorse-sites-v60/styles/profilo.yaml",
+        "references/styles/pollock/risorse-sites-v60/styles/esempio-1.png",
+        "references/styles/pollock/risorse-sites-v60/styles/esempio-2.png",
+        "references/styles/pollock/risorse-sites-v60/styles/esempio-3.png"
+      ],
+      "missing_references": []
+    },
+    {
+      "id": "mosaic",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/mosaic.yaml",
+      "profile_sha256": "0ab16c626b8571b0e9204ed4f257c26598ef4e2bbd39ed172418055897b3b257",
+      "images": [
+        {
+          "source": "assets/mosaic-1.jpg",
+          "path": "references/styles/mosaic/gallery-v60/mosaic-1.jpg",
+          "sha256": "edf53784b097a58cc9559d55ff81c1cc47ff3124706d844dde26700fbe04959c"
+        },
+        {
+          "source": "assets/mosaic-2.jpg",
+          "path": "references/styles/mosaic/gallery-v60/mosaic-2.jpg",
+          "sha256": "c699e87495b6da9376bb052e42ebb0e73820f650131b22b00bfc2fe67c26386c"
+        }
+      ],
+      "recovered_resources": [
+        "references/styles/mosaic/risorse-sites-v60/styles/note.md",
+        "references/styles/mosaic/risorse-sites-v60/styles/prompt-esempio-2.txt",
+        "references/styles/mosaic/risorse-sites-v60/styles/prompt-esempio-1.txt",
+        "references/styles/mosaic/risorse-sites-v60/styles/composizioni.yaml",
+        "references/styles/mosaic/risorse-sites-v60/styles/profilo.yaml",
+        "references/styles/mosaic/risorse-sites-v60/styles/esempio-1.png",
+        "references/styles/mosaic/risorse-sites-v60/styles/esempio-2.png"
+      ],
+      "missing_references": []
+    },
+    {
+      "id": "stained-glass",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/stained-glass.yaml",
+      "profile_sha256": "1dfa48bbd5a37beb4d8fc0a113f812f6d2ed8a79a6ec9fbb755309e0742534a1",
+      "images": [
+        {
+          "source": "assets/stained-glass-1.jpg",
+          "path": "references/styles/stained-glass/gallery-v60/stained-glass-1.jpg",
+          "sha256": "a840f6be3caa9ab3783986991c5ddb683647e678f51f516676f50e3a34927cf1"
+        },
+        {
+          "source": "assets/stained-glass-2.jpg",
+          "path": "references/styles/stained-glass/gallery-v60/stained-glass-2.jpg",
+          "sha256": "54f399e859ca358cd70345a7f40dd703a61944ec77b51c28055e32f7ee92a9eb"
+        }
+      ],
+      "recovered_resources": [
+        "references/styles/stained-glass/risorse-sites-v60/styles/note.md",
+        "references/styles/stained-glass/risorse-sites-v60/styles/prompt-esempio-2.txt",
+        "references/styles/stained-glass/risorse-sites-v60/styles/prompt-esempio-1.txt",
+        "references/styles/stained-glass/risorse-sites-v60/styles/composizioni.yaml",
+        "references/styles/stained-glass/risorse-sites-v60/styles/profilo.yaml",
+        "references/styles/stained-glass/risorse-sites-v60/styles/esempio-1.png",
+        "references/styles/stained-glass/risorse-sites-v60/styles/esempio-2.png"
+      ],
+      "missing_references": []
+    },
+    {
+      "id": "redacted",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/redacted.yaml",
+      "profile_sha256": "306ec4a4ec0e455547c5e9d24b67f39e27f41cc0a31de4f1b62331020d88579f",
+      "images": [
+        {
+          "source": "assets/redacted-1.jpg",
+          "path": "references/styles/redacted/gallery-v60/redacted-1.jpg",
+          "sha256": "dc7e8ca8deeddf211bc03500b47029a8e986253fb920130bef13c6c1d2f87643"
+        },
+        {
+          "source": "assets/redacted-2.jpg",
+          "path": "references/styles/redacted/gallery-v60/redacted-2.jpg",
+          "sha256": "d73e903f0f5f23903f72bdcda610e1684a9455cc80743db4d85d26cbd2a85e11"
+        }
+      ],
+      "recovered_resources": [
+        "references/styles/redacted/risorse-sites-v60/styles/note.md",
+        "references/styles/redacted/risorse-sites-v60/styles/prompt-esempio-2.txt",
+        "references/styles/redacted/risorse-sites-v60/styles/prompt-esempio-1.txt",
+        "references/styles/redacted/risorse-sites-v60/styles/composizioni.yaml",
+        "references/styles/redacted/risorse-sites-v60/styles/profilo.yaml",
+        "references/styles/redacted/risorse-sites-v60/styles/esempio-1.png",
+        "references/styles/redacted/risorse-sites-v60/styles/esempio-2.png"
+      ],
+      "missing_references": []
+    },
+    {
+      "id": "stencil-spray",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/stencil-spray.yaml",
+      "profile_sha256": "8c8c0c98d265b0095748775aca89d420ac8019502972558c468b00223ff92a90",
+      "images": [
+        {
+          "source": "assets/stencil-spray-1.jpg",
+          "path": "references/styles/stencil-spray/gallery-v60/stencil-spray-1.jpg",
+          "sha256": "3aad7b3e23fc543591a2158b89a1ac41c1d6e536c58dee7f9977579d373b1208"
+        },
+        {
+          "source": "assets/stencil-spray-2.jpg",
+          "path": "references/styles/stencil-spray/gallery-v60/stencil-spray-2.jpg",
+          "sha256": "7e452a6f8471dafa74ec6ef894713541cac95555e83ba2b2d42bef3914b0e942"
+        }
+      ],
+      "recovered_resources": [
+        "references/styles/stencil-spray/risorse-sites-v60/styles/note.md",
+        "references/styles/stencil-spray/risorse-sites-v60/styles/prompt-esempio-2.txt",
+        "references/styles/stencil-spray/risorse-sites-v60/styles/prompt-esempio-1.txt",
+        "references/styles/stencil-spray/risorse-sites-v60/styles/composizioni.yaml",
+        "references/styles/stencil-spray/risorse-sites-v60/styles/profilo.yaml",
+        "references/styles/stencil-spray/risorse-sites-v60/styles/esempio-1.png",
+        "references/styles/stencil-spray/risorse-sites-v60/styles/esempio-2.png"
+      ],
+      "missing_references": []
+    },
+    {
+      "id": "plastic-combustion",
+      "profile_snapshot": "gallery/source-profiles/sites-v60/plastic-combustion.yaml",
+      "profile_sha256": "a71ed9086f0ca5d486f6b1e9d06faa106acd7ad22b959883eff4258e29f96af7",
+      "images": [
+        {
+          "source": "assets/plastic-combustion-1.jpg",
+          "path": "references/styles/plastic-combustion/gallery-v60/plastic-combustion-1.jpg",
+          "sha256": "8795ddc014dac5a86a6e8ca8e471bc827899b18cde5377dcc7f3b2a2ebfb7287"
+        },
+        {
+          "source": "assets/plastic-combustion-2.jpg",
+          "path": "references/styles/plastic-combustion/gallery-v60/plastic-combustion-2.jpg",
+          "sha256": "ce028069cd3ffaa9045d0f2d1494a7b695318ae055ef197436f385a736f32593"
+        }
+      ],
+      "recovered_resources": [
+        "references/styles/plastic-combustion/risorse-sites-v60/styles/note.md",
+        "references/styles/plastic-combustion/risorse-sites-v60/styles/prompt-esempio-2.txt",
+        "references/styles/plastic-combustion/risorse-sites-v60/styles/prompt-esempio-1.txt",
+        "references/styles/plastic-combustion/risorse-sites-v60/styles/composizioni.yaml",
+        "references/styles/plastic-combustion/risorse-sites-v60/styles/profilo.yaml",
+        "references/styles/plastic-combustion/risorse-sites-v60/styles/esempio-1.png",
+        "references/styles/plastic-combustion/risorse-sites-v60/styles/ricerca.md",
+        "references/styles/plastic-combustion/risorse-sites-v60/styles/esempio-2.png"
+      ],
+      "missing_references": []
+    }
+  ],
+  "gallery_styles": 122,
+  "local_only_styles": [
+    "cosmic-wireframe-grid",
+    "ethereal-editorial",
+    "faceted-ink",
+    "halftone-editorial",
+    "literary-editorial"
+  ],
+  "total_styles": 127,
+  "release_styles": 50,
+  "candidate_styles": 34,
+  "experimental_styles": 43
+}

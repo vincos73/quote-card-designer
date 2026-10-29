@@ -1,0 +1,75 @@
+Design Style:
+  Name: Saturated Photo
+  Status: Nome provvisorio; studio sperimentale nell'archivio di lavoro
+  Concept: >
+    Una fotografia a piena pagina è virata interamente in un colore
+    acceso, dalle ombre profonde alle luci. La citazione si sovrappone
+    direttamente alla scena, con contrasto e gerarchia tali da renderla
+    la prima lettura senza cancellare il soggetto.
+  Reference Basis:
+    Notes: note-prove.md
+    Transfer: >
+      Trasferire la forza di un viraggio saturo, l'immagine fotografica
+      scura e il rapporto diretto fra immagine e testo. Non riprodurre
+      insetti, marchi, crediti o impaginazioni dell'esempio.
+  Distinction:
+    Duotone Halftone: >
+      Qui la fotografia mantiene una resa continua, senza retino
+      obbligatorio o punti macroscopici. Un colore vivace domina l'immagine
+      con ombre scure e mezzi toni.
+    Handwritten: >
+      Il testo può essere tipografico, non richiede scrittura a mano.
+      L'identità deriva dal viraggio intenso della fotografia.
+  Canvas:
+    Ratio: '4:5'
+    Output: Quote card fotografica piatta a piena pagina.
+    Adaptation: Ricomporre crop, area tonale e testo per ogni formato.
+  Mood: [Fotografico, Cromatico, Diretto, Intenso, Editoriale]
+  Color Palette:
+    Fixed Colors: false
+    Image: >
+      Scegliere un colore intenso in relazione alla frase; applicarlo a
+      tutta la fotografia, soggetto e fondo compresi. Conservare ombre
+      scure, mezzi toni e dettagli nelle luci. Rosso e blu sono esempi,
+      non colori obbligatori.
+    Text: >
+      Scegliere il colore della frase in base al contrasto locale: chiaro,
+      scuro o cromatico. Nessun colore è obbligatorio per il testo.
+      Evitare che le lettere si confondano con fotografie o luce.
+  Typography:
+    Quote: >
+      Lettere tipografiche grandi e leggibili, ad esempio sans-serif
+      corposa. Riportare esattamente parole, maiuscole, accenti e
+      punteggiatura una sola volta, senza aggiungere virgolette.
+    Overlay: >
+      Disporre il testo direttamente sulla fotografia, con a capo e zone
+      tonali progettati insieme all'immagine. Adeguare scala, posizione e
+      colore perché ogni parola sia distinguibile anche nel formato piccolo.
+    Experiments: >
+      Oltre alla tipografia, sono stati esplorati pennello con colature e
+      lettere graffiate su pellicola colorata. La scrittura graffiata è
+      ancora in valutazione: il segno deve rimanere distinguibile dalle
+      pennellate e conservare contrasto e fedeltà della frase.
+    Attribution: Solo se fornita o verificata, più piccola e leggibile.
+  Imagery:
+    Subject: >
+      Persona, oggetto, materia o paesaggio scelti per la frase; non
+      richiedere insetti, ritratti o un soggetto fisso. La fotografia
+      rimane riconoscibile nonostante il viraggio.
+    Treatment: >
+      Fotografia a toni continui, contrasto elevato, ombre profonde e
+      dettagli credibili. Non imporre retino, grana, pannelli dietro il
+      testo o una luce colorata limitata al solo sfondo.
+    Provenance: La fotografia generata è una simulazione, non un servizio fotografico documentato.
+  Content Contract:
+    quote: Citazione completa ed esatta una volta.
+    author: Solo se fornito o verificato.
+    other_text: Nessun marchio, etichetta, firma, data o virgolette inventati.
+  Production:
+    Preferred Mode: generative
+    Validation Status: >
+      Nove prove esplorano soggetti, colori e diversi lettering. La prova
+      con chiave blu usa graffi sottili e leggibili a grandezza disponibile;
+      la verifica del contrasto su telefono e l'effetto materiale restano aperti.
+      Una prova precedente blu aggiunge virgolette non richieste. Non dimostrano ripetibilità,
+      leggibilità su telefono o resa con citazioni lunghe.

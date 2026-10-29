@@ -1,0 +1,92 @@
+Design Style:
+  Name: Gold Foil
+  Version: 0.2.0-experimental
+  Status: V1 candidate; approvato per la gallery il 28 ottobre 2026
+  Concept: >
+    La frase è un blocco tipografico monumentale in lamina oro: superficie
+    metallica riflettente contro carta opaca. Il carattere viene da lettere
+    robuste, composizione serrata e variazioni credibili della luce nel
+    metallo, con spazio libero intenzionale. Una sagoma nera stampata può
+    aggiungere direzione, senza diventare un requisito di ogni card.
+  Canvas:
+    Ratio: '4:5'
+    Output: Card editoriale piatta a piena pagina, senza mockup del supporto.
+    Adaptation: Ricomporre frase, ombra e vuoti per il formato richiesto.
+  Mood: [Assertivo, Tipografico, Tattile, Luminoso, Contemporaneo]
+  Color Palette:
+    Fixed Colors: false
+    Starting Palette:
+      Paper: '#CC909F'
+      Dark Field: '#171619'
+      Gold Midtone: '#CC9B31'
+      Gold Highlight: '#F9E5A0'
+      Gold Reflection: '#785421'
+    Roles: >
+      Oro metallico come protagonista, carta opaca rosa oppure quasi nera
+      come punto di partenza. La luce produce variazioni nel metallo: i
+      colori scritti sono indicazioni di ruolo, non un gradiente ripetuto.
+      Cambiare la carta su richiesta mantenendo contrasto e materie distinte.
+  Typography:
+    Quote: >
+      Sans serif molto corposa e preferibilmente condensata, con glifi
+      naturali, occhielli aperti e parole chiaramente separate. Conservare
+      caso e punteggiatura della frase fornita: il maiuscolo non è obbligatorio.
+      A capo per gruppi di senso; non stirare lettere per pareggiare le righe.
+    Hierarchy: >
+      Un blocco dominante oppure pochi blocchi con scale motivate. Non
+      aggiungere copie della citazione, microtesto o scritte decorative.
+      Evitare registri sottili se la resa della lamina ne compromette i tratti.
+    Attribution: >
+      Solo se fornita o verificata, più piccola e leggera ma leggibile, su
+      un asse destro chiaro. Se manca, omettere e recuperare lo spazio.
+      Nessuna firma personale senza richiesta esplicita.
+  Layout:
+    Relationship: >
+      Parole, ritmi dei pieni e vuoto della carta costruiscono l'immagine.
+      La frase guida la lettura anche dove i riflessi diventano più scuri.
+      Non imporre una disposizione sempre centrale o tutte le righe larghe uguali.
+    Graphic Shadow: >
+      Facoltativa sagoma nera opaca direzionale dietro i glifi, stampata sul
+      fondo. Può connettere i blocchi senza nascondere lettere e occhielli.
+      È un elemento grafico distinto dalla minima ombra locale della lamina;
+      non implica una grande estrusione tridimensionale delle lettere.
+    Capacity: >
+      Per frasi lunghe ridurre ombra e complessità prima di sacrificare il
+      corpo. Adattare a capo e proporzioni del blocco, senza abbreviare il testo.
+  Elements:
+    Main Image: La tipografia metallica è sufficiente a sostenere la card.
+    Optional Motif: >
+      Un segno pertinente può usare la stessa lamina o l'inchiostro opaco,
+      soltanto se richiesto o utile. Nessun ornamento, simbolo di lusso o
+      disegno di accompagnamento obbligatorio in questa direzione tipografica.
+  Effects:
+    Foil: >
+      Lamina sottile aderente alla carta, con riflessi chiari e scuri non
+      uniformi, microvariazioni di contatto e bordo stampato poco profondo.
+      Il metallo resta distinto dalla carta opaca. Evitare giallo piatto,
+      glitter, ripetizione dello stesso gradiente, cromo gonfiato o grandi smussi.
+    Light: >
+      Un'illuminazione coerente modula il metallo senza spegnere la frase.
+      Non trasformare i riflessi in bagliori digitali o punti luce ornamentali.
+    Surface: Carta opaca con grana fine; nessun invecchiamento obbligatorio.
+  Content Contract:
+    quote: Frase esatta e completa una sola volta.
+    author: Solo attribuzione fornita o verificata, facoltativa.
+    other_text: Nessun marchio, numero, data, titolo o firma inventati.
+  Rules:
+    - La frase è dominante e il metallo rimane leggibile nei riflessi.
+    - Oro e carta devono reagire alla luce in modo diverso.
+    - La composizione è tipografica, senza obbligo di illustrazione.
+    - Ombra lunga, rosa e fondo nero sono opzioni, non ricette simultanee.
+    - Non copiare testi, marchi o impaginati esatti dei riferimenti.
+    - Non presentare la simulazione come stampa fisica o esecutivo di produzione.
+  Production:
+    Preferred Mode: generative
+    Validation Status: >
+      Due prove con frasi e composizioni diverse: Anche il silenzio ha una
+      forma. su rosa con ombra nera; Le possibilità iniziano da qui. su
+      quasi nero, senza ombra e con vuoto asimmetrico. Testi e anteprime
+      verificati, inclusa à. Prima prova con bordo più rilevato del previsto;
+      seconda più piatta, righe serrate e punti delle i geometrici.
+      Ripetibilità, altre carte e frasi lunghe non stabilite. Nessuna
+      reference permanente adottata; ricerca in ricerca.md.

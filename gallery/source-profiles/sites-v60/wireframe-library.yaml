@@ -1,0 +1,168 @@
+Design Style:
+  Name: Signal Atlas
+  Status: Incluso nel catalogo V1 il 26 ottobre 2026
+  Concept: 'Technical editorial graphics built from spatial constructions, directional signals and modular
+    typography. Curved meshes, projected grids, concentric line fields and a few solid graphic marks share
+    one visual system. Geometry expresses a relationship in the quotation, rather than filling a technical
+    dashboard with unrelated ornaments.
+
+    '
+  Canvas:
+    Ratio: '4:5'
+    Output: A single flat editorial quote card
+    Adaptation: Recompose the geometry, modules and reading order for each ratio.
+  Mood:
+  - Technical
+  - Experimental
+  - Precise
+  - Graphic
+  - Energetic
+  Color Palette:
+    Fixed Colors: false
+    Structure: 'Use a light neutral and a dark neutral with one contrasting accent. Light and dark fields
+      may exchange roles. A mostly dark or mostly light card is also valid. Choose colours for the content,
+      independently of reference images.
+
+      '
+    Test Palette:
+      Light: '#E9E8E2'
+      Dark: '#171A1B'
+      Accent: '#FF5A36'
+    Roles: 'Neutral fields carry typography and precise linework. The accent identifies a meaningful point,
+      transition, direction or portion of the quotation. It need not appear on every kind of element.
+
+      '
+  Typography:
+    Primary:
+      Style: Bold or condensed grotesk with natural glyph proportions
+      Role: The complete quotation, clearly the first reading level
+    Secondary:
+      Style: Restrained sans serif or monospace
+      Role: Only supplied supporting text, attribution or personal signature
+    Case: Preserve supplied capitalization and punctuation.
+    Relationships: 'Type and geometry share a few clear datums. The quotation may cross modules but retains
+      an unambiguous reading order and generous local contrast. Avoid shrinking individual words to fit
+      around the visual.
+
+      '
+    Attribution: 'If supplied, use a smaller and quieter register, readable at phone size and aligned
+      on a clear right edge. If absent, recover the space.
+
+      '
+  Layout:
+    Invariants:
+    - One dominant spatial or optical construction related to the text
+    - A clear quotation block and a small set of shared geometric alignments
+    - Deliberate contrast between active linework and quiet reading space
+    - A limited selection of mutually compatible secondary signals
+    Integration: 'Geometry can cross a module boundary or change projection across it. Frames, crosshairs
+      and directional marks must locate a point, axis or transition. They are part of the construction,
+      not scattered decoration.
+
+      '
+    Density: 'A page may feel spare or dense, but should not become a specimen sheet containing every
+      available asset. Do not require a fixed split-screen template or a permanent central sphere.
+
+      '
+  Graphic Elements:
+    Spatial Repertoire:
+    - Open meshes, curved surfaces, spheres, rings and tori
+    - Projected grids, corridors, planes and changing vanishing points
+    - Concentric or deformed line fields with controlled optical rhythm
+    Signal Repertoire:
+    - Crosshairs, small crosses and alignment ticks
+    - Directional arrows and trajectories
+    - Sparse four-point marks, discs or solid geometric anchors
+    - Abstract bars and repeated strokes that carry visual rhythm, not data
+    Selection: 'Select one main construction and a few supporting marks from the same graphic logic. Subject,
+      orientation, crop and density change with each quotation. None of these shapes is a mandatory emblem.
+
+      '
+  Imagery:
+    Default: Precise graphic geometry with depth expressed through projection
+    Optional: 'A small monochrome material or photographic study can be explored when motivated by the
+      text, but it is not required and is not validated by the first test.
+
+      '
+  Effects:
+    Surface: Flat paper or screen-like fields with optional restrained fine grain
+    Typography: Flat printed letters without extrusion, bevels or cast shadows
+    Linework: Fine continuous lines with clear contrast and a controlled hierarchy
+    Depth: Spatial projection and overlap, without obligatory glossy 3D effects
+    Wear: Optional and subordinate; avoid making heavy distress the identity.
+  Rules:
+  - Preserve the quotation verbatim, once, including its punctuation.
+  - Keep the quotation legible before secondary technical details.
+  - Use geometry to express a relationship or tension in the phrase.
+  - Vary composition, dominant geometry and palette across new cards.
+  - Use only supplied supporting text and supplied or verified attribution.
+  - Never invent system status, coordinates, numbers, labels, code or chart data.
+  - Do not reproduce logos, watermarks, smiley stickers or packaging icons from references.
+  - Do not copy a reference sheet or reproduce its precise composition.
+  - Do not imply that the card is a working software interface.
+  Reference Policy: 'References served as experimental calibration in a matched comparison. Their permanent
+    use has not been established. The written profile is self-contained; do not require external reference
+    files for new cards.
+
+    '
+  Validation:
+    Tested: One phrase, two composition families and light/dark field distributions
+    Limits: Other phrases and independent accent palettes have not yet been tested.
+Composition Library:
+  Style Name: Signal Atlas
+  Selection:
+    Basis: 'Choose a relationship between the meaning of the phrase and one spatial or optical operation.
+      Adapt text and visual together, rather than adding a standard technical emblem below a title.
+
+      '
+    Variation: 'Change the main operation, geometry, orientation, density and balance between fields.
+      Do not accumulate all families in one card.
+
+      '
+  Families:
+  - id: changing-projection
+    Name: Prospettiva in trasformazione
+    Use When: A phrase concerns change, interpretation, movement or possibility.
+    Structure: 'A connected geometric construction changes orientation or projection across two editorial
+      fields. The quotation anchors the transition and retains a clear linear reading order.
+
+      '
+    Text Adaptation: 'Break into semantic groups; keep long words on quiet fields and let the geometry
+      change size or position before compressing the type.
+
+      '
+    Format Adaptation: 'Place the transition along the useful direction of the requested ratio, adjusting
+      the relationship between text and geometric span.
+
+      '
+  - id: optical-field
+    Name: Campo ottico e apertura
+    Use When: A phrase benefits from tension between repetition and interruption.
+    Structure: 'Repeated curved or projected lines form an active field with a deliberate opening for
+      the quotation. Sparse signals mark the interruption or a change in direction rather than forming
+      a decorative border.
+
+      '
+    Text Adaptation: 'Expand the opening for longer text and alter the line field around it; preserve
+      natural type proportions and clear punctuation.
+
+      '
+    Format Adaptation: 'Recompose the opening and line rhythm for the format, without simply cropping
+      the same field.
+
+      '
+  - id: related-studies
+    Name: Studi geometrici in relazione
+    Use When: A phrase suggests comparison, connection or more than one viewpoint.
+    Structure: 'Two related geometric studies occupy modules of different scale. One dominates and the
+      other clarifies its transformation; typography and a shared axis connect them into one composition.
+
+      '
+    Text Adaptation: 'Use a single readable quotation block or sequential semantic groups. Secondary modules
+      do not require invented captions.
+
+      '
+    Format Adaptation: 'Adjust the module proportions and their relation to the quotation; avoid a fixed
+      dashboard or specimen-grid template.
+
+      '

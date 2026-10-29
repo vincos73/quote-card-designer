@@ -1,0 +1,69 @@
+Design Style:
+  Name: Palette Knife Painting
+  Concept: 'La lama cambia la forma della pittura e costruisce lo spazio della frase:
+    depositi, trascinamenti e asportazioni producono una relazione visibile con il
+    significato. Il gesto modifica la composizione, non soltanto la superficie.'
+  Canvas:
+    Ratio: '4:5'
+    Output: Card completa, vista frontale; pittura su supporto appena percepibile,
+      senza mockup.
+  Mood: Fisico, energico, essenziale; adattabile al tono del testo.
+  Color Palette:
+    Default: Petrolio, corallo e avorio.
+    Roles: Una coppia di valori separati rende leggibile la frase. Un accento può
+      segnare l'origine o l'esito di un gesto. Palette sostituibile; mantenere contrasto
+      e differenza tra materia carica e strato raschiato.
+  Typography:
+    Quote: 'Lettere ampie e semplici, dipinte a lama oppure ricavate in riserva da
+      un campo di colore. Una sola modalità principale per la frase: bordi di deposito
+      o asportazione discreti, controforme aperte e tratti pieni leggibili. La pittura
+      non deve gonfiare i glifi.'
+    Hierarchy: Frase dominante, soggetto piccolo. L'eventuale scarto di posizione
+      o colore di un gruppo di parole deve interpretare il significato, senza spezzare
+      ordine di lettura o ridurre localmente i caratteri per evitare il disegno.
+    Attribution: 'Solo se fornita o verificata: registro più piccolo e più quieto,
+      allineato a destra su un asse chiaro e leggibile. In assenza, ricomporre senza
+      segnaposto.'
+  Layout:
+    Principle: 'Scegliere prima della generazione un solo gesto materiale coerente
+      con la frase: depositare, trascinare o asportare. Farne derivare la distribuzione
+      di pieni e vuoti e la relazione tra parole. Non basta spostare una riga o aggiungere
+      una texture.'
+    Integration: La frase domina; un piccolo soggetto disegnato con piani di lama
+      può occupare una cerniera, un margine o una zona liberata dal gesto. La stessa
+      azione collega testo e soggetto senza trasformarlo in una scena estesa. Lasciare
+      supporto tranquillo visibile e ampi margini.
+    Adaptation: A capo per senso; adattare la lunghezza dei segni e le masse alla
+      frase. Su testi lunghi ridurre il repertorio e distribuire il testo, senza imitare
+      un esempio rimpicciolito. Cambiare soggetto e relazione fra varianti.
+  Elements:
+    Imagery: Piccolo disegno dal contenuto o dalla richiesta; piani di pittura, facce
+      angolose, incisioni e depositi alla fine di un passaggio. Repertorio aperto,
+      senza paesaggi o oggetti obbligatori presi dalle reference.
+    Surface: Segni larghi a lama, margini rialzati discontinui, strati inferiori esposti
+      da raschiatura, piccoli nastri di colore non completamente mescolati.
+  Effects:
+    Material: Pittura opaca burrosa in poche campiture intenzionali; creste a fine
+      corsa, facce piatte della lama e qualche strato esposto per sottrazione. Spessori
+      locali diversi, supporto calmo altrove. Luce diffusa sufficiente a leggere i
+      bordi senza creare un bassorilievo uniforme.
+    Restraint: Supporto e respiro restano relativamente quieti. Niente filtro di grana
+      uniforme, schizzi casuali o incisioni decorative non motivate.
+  Rules:
+  - Conservare testo letterale, accenti, maiuscole, punteggiatura e ordine; mostrarlo
+    una volta.
+  - Nessun autore, marchio o firma inventati.
+  - Priorità alla lettura in piccolo e al contrasto locale, senza sacrificare il disegno
+    delle lettere.
+  - Evitare cromo, foil, plastica, lettere gonfiate o estruse e pittura tubolare uniforme.
+  - Evitare pennellate morbide generiche; fare vedere depositi, piani e raschiature
+    della lama.
+  - Non copiare soggetti, colori, firme o composizioni delle opere studiate.
+  - Vincolare alla palette anche il piccolo soggetto e i toni di luce e ombra.
+  - 'Se si usa una riserva, deve essere leggibile come pittura asportata o supporto
+    lasciato libero: evitare lettere apparentemente estruse.'
+  - La composizione deve rendere riconoscibile almeno un effetto del gesto sul significato
+    del testo.
+  Content Contract:
+    quote: Testo esatto fornito o approvato.
+    author: Facoltativo, fornito o verificato, distinto dalla firma personale.

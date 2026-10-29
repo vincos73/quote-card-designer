@@ -1,0 +1,260 @@
+Design Style:
+  Name: Italian Futurism
+  Status: Incluso nel catalogo V1 il 26 ottobre 2026; V1 candidate
+  Concept: 'La citazione entra in un manifesto illustrato di energia e costruzione. Assi obliqui, volumi
+    sfaccettati, curve ritmiche e piani che si compenetrano fanno percepire movimento e simultaneità.
+    Parole e soggetto appartengono alla stessa architettura grafica, con materia di stampa opaca e un
+    ordine di lettura completo.
+
+    '
+  Reference Basis:
+    Direction: 'Interpretazione per quote card della grafica e dell''illustrazione futurista italiana.
+      La ricerca riguarda dinamismo plastico, composizione pubblicitaria, sintesi geometrica e architettura
+      tipografica; non pretende di rappresentare ogni corrente del movimento.
+
+      '
+    Transfer: 'Dagli allegati ricavare figure costruite per piani, diagonali, modellato pittorico, sequenze
+      di movimento e grandi caratteri strutturali. Non copiare soggetti, titoli, marchi o impaginati.
+      Gli allegati non costituiscono attribuzioni storiche verificate.
+
+      '
+    Research Notes: ricerca.md
+    Image Inputs: 'Profilo autosufficiente. Le immagini fornite sono state analizzate ma non usate come
+      input delle prove. Non sono dipendenze operative permanenti e non è stato eseguito un confronto
+      controllato con e senza reference.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Type: Quote card illustrata completa
+    Adaptation: 'Ricomporre gli assi e la relazione fra frase e visual per il formato richiesto. Possono
+      uscire dal campo piani e illustrazione; le parole restano intere e leggibili.
+
+      '
+  Mood:
+  - Dynamic
+  - Constructive
+  - Rhythmic
+  - Sculptural
+  - Assertive
+  - Printed
+  Color Palette:
+    Fixed Colors: false
+    Starting Roles:
+      Paper: '#E8D6A8'
+      Dark Structure: '#173E42'
+      Active Accent: '#C83D28'
+      Light Plane: '#D9AC45'
+      Secondary Plane: '#3E5033'
+    Selection: 'Scegliere pochi colori con ruoli distinti: un campo dominante, una lettura contrastata
+      e uno o due accenti. Vermiglione, ocra, petrolio e verde sono opzioni iniziali, non un insieme obbligatorio.
+      Un campo scuro può invertire il rapporto fra carta e lettere.
+
+      '
+    Overrides: 'Una palette richiesta può sostituire i colori di partenza, mantenendo il contrasto dei
+      piani e l''unità fra soggetto, ombre e frase.
+
+      '
+    Material: 'Pigmenti opachi e carta appena calda. Evitare di rendere ogni card marrone o ingiallita;
+      la memoria della stampa non impone usura pesante.
+
+      '
+  Typography:
+    Main Reading:
+      Direction: 'Lettering latino geometrico forte, con terminali netti, controforme aperte e proporzioni
+        naturali. Può avere un disegno alto o compatto e alcuni tagli angolari. Nessun file font specifico
+        è certificato dalla generazione.
+
+        '
+      Structure: 'Gruppi di senso attraversano assi obliqui o gradini compositivi. La citazione completa
+        resta il primo livello: connettivi e parole brevi hanno corpo reale e appartengono alla lettura
+        principale.
+
+        '
+      Volume: 'Un''ombra costruita per piani o un breve spessore dipinto può dare profondità architettonica.
+        La direzione resta coerente e le facce delle lettere restano distinte. La profondità non è obbligatoria
+        per ogni gruppo e non diventa metallo lucido.
+
+        '
+      Fidelity: 'Conservare parole, ordine, maiuscole, accenti e punteggiatura dell''input. Le sperimentazioni
+        storiche sulle parole non autorizzano a smontare, inventare o sostituire il testo della quote
+        card.
+
+        '
+      Spacing: 'Conservare spazi fra parole e proporzioni dei glifi. Risolvere la capienza con a capo,
+        scala e impianto generale, senza deformazioni arbitrarie o tracking usato per riempire una riga.
+
+        '
+    Attribution: 'Solo un nome fornito o verificato, più piccolo e quieto della frase, allineato a un
+      asse destro utile. Se assente, recuperare lo spazio.
+
+      '
+    Signature: 'Solo un nome personale richiesto esplicitamente, subordinato e distinto dall''autore.
+      Nessuna firma d''artista o attribuzione storica inventata.
+
+      '
+  Layout:
+    Invariants:
+    - Frase completa, dominante e leggibile in miniatura
+    - Assi di forza che collegano tipografia e illustrazione
+    - Sintesi di volumi, piani e curve con gerarchia chiara
+    - Contrasto fra campi pieni, profondità dipinta e intervalli di riposo
+    - Una relazione visiva principale, senza inventario decorativo
+    Integration: 'Un profilo illustrato può proseguire nella direzione di un gruppo tipografico; piani
+      e ombre possono passare dietro le parole; curve ritmiche possono collegare due registri. L''illustrazione
+      non è una foto appoggiata sotto un titolo, e la frase non è una didascalia.
+
+      '
+    Reading: 'L''energia nasce dalla composizione, non dall''ordine delle parole confuso. Proteggere controforme,
+      accenti e punteggiatura.
+
+      '
+    Density: 'Alternare zone dense e superfici più calme. Non rendere ogni piano una scheggia e non mettere
+      una raggiera in ogni intervallo.
+
+      '
+    Capacity: 'Con più testo ridurre il soggetto e le ripetizioni, semplificare le ombre e ampliare il
+      campo utile. Omettere decorazioni prima di ridurre indiscriminatamente il corpo di ogni parola.
+
+      '
+  Imagery:
+    Treatment: 'Illustrazione originale costruita con prismi, cilindri, archi e campiture sfaccettate.
+      Un modellato pittorico o aerografico limitato articola il volume. La sintesi lascia il soggetto
+      riconoscibile.
+
+      '
+    Repertoire: 'Gesti, oggetti, figure, strumenti, architetture o sistemi astratti sono scelte aperte
+      legate alla frase. Ciclista, mani e carta delle prove non sono mascotte obbligatorie.
+
+      '
+    Motion: 'Alcuni contorni o piani ripetuti suggeriscono tempi successivi o compenetrazione. Non duplicare
+      indiscriminatamente figure, arti o parole. Evitare motion blur fotografico come sostituto del disegno.
+
+      '
+    Selection: 'Una sola azione o presenza principale. Il soggetto deve partecipare agli assi della frase
+      e sostenere il significato o una tensione utile.
+
+      '
+  Graphic Elements:
+    Vocabulary:
+    - Diagonali larghe e cunei che dirigono il campo
+    - Archi ritmici, ripetizioni parziali e ventagli di piani
+    - Profili urbani sintetici o contorni funzionali all'azione
+    - Ombre geometriche e sovrapposizioni pittoriche
+    Rules: 'Scegliere un sottoinsieme pertinente. I segni non diventano etichette, pseudoformule, rumori
+      scritti o marchi inventati. Nessun accessorio è un requisito fisso di ogni card.
+
+      '
+  Effects:
+    Print: 'Grana litografica o pigmento opaco leggermente irregolare, a scale diverse secondo l''area.
+      Il risultato è un''impressione raster della materia, non una stampa fisica certificata.
+
+      '
+    Modelling: 'Passaggi tonali circoscritti e ombre nette definiscono superfici geometriche. Conservare
+      ampie campiture, senza ridurre tutto a un vettoriale piatto né trasformarlo in un render fotografico.
+
+      '
+    Exclusions: 'Niente cromo, gel, olografia, neon, HUD o paesaggi spaziali imposti. Evitare collage
+      fotografico, invecchiamento uniforme, marchi, codici, date, numerazioni e apparati pubblicitari
+      non forniti.
+
+      '
+  Rules:
+  - Conservare una lettura completa e letterale della citazione.
+  - Costruire energia con assi, ripetizioni selettive e relazioni fra piani.
+  - Integrare tipografia e visual nello stesso impianto.
+  - Mantenere il soggetto leggibile nella sua sintesi geometrica.
+  - Non rendere obbligatori un veicolo, un oggetto o una palette.
+  - Proteggere accenti, spazi fra parole e punto finale.
+  - Usare solo contenuti testuali forniti o esplicitamente scelti.
+  - Non presentare la card come un originale storico o un'opera attribuita.
+  Production:
+    Preferred Mode: generative
+    Method: 'ImageGen integrato per la card completa: frase, illustrazione, piani e materia. Conservare
+      nativo e prompt effettivo; applicare correzioni mirate quando necessarie e ricontrollare il risultato.
+
+      '
+    Validation Status: 'Due prove complete con frasi originali diverse, senza immagini di input. Nativi
+      1122 per 1402 e riduzioni 320 per 400 ispezionati: frase, spazi, punteggiatura e accento grave di
+      DÀ corretti. Nessuna correzione necessaria nelle due prove. Cambiano composizione, soggetto e ruolo
+      del campo cromatico. L''utente ha approvato lo stile e richiesto la galleria come V1 candidate il
+      26 ottobre 2026. Nomi, frasi lunghe, altri formati e la famiglia solo tipografica richiedono ancora
+      prove. Le due card non dimostrano ripetibilità.
+
+      '
+  Content Contract:
+    quote: Frase letterale completa, normalmente una sola volta
+    author: Facoltativo, fornito o verificato, subordinato e allineato a destra
+    signature: Solo nome richiesto, distinto dall'autore
+    supporting: Solo contenuti forniti; nessun testo di riempimento
+Composition Library:
+  Style Name: Italian Futurism
+  Selection:
+    Basis: 'Scegliere l''asse e il rapporto con il visual dalla frase, mantenendo sintesi geometrica,
+      dinamismo e materia opaca. La velocità può essere letterale oppure nascere da un gesto o da una
+      costruzione astratta.
+
+      '
+    Variation: 'Cambiare il percorso di lettura, il soggetto e il rapporto fra campo scuro e carta. Non
+      ripetere sempre un titolo sopra un veicolo.
+
+      '
+  Families:
+  - id: diagonal-motion-field
+    Name: Frase architettonica e ritmo di movimento
+    Use When: 'Una frase energica può dialogare con un soggetto in azione e con un asse diagonale forte.
+
+      '
+    Structure: 'La frase occupa una grande struttura obliqua. Un soggetto sintetico intercetta i suoi
+      vuoti e prosegue nell''asse generale. Contorni parziali o piani ripetuti suggeriscono tempi successivi.
+      Le ombre delle parole e dell''illustrazione condividono una logica costruita.
+
+      '
+    Text Adaptation: 'A capo per gruppi di senso, con parole brevi ancora sostanziali. Per testi lunghi
+      ridurre le ripetizioni del visual e semplificare il volume delle lettere prima di rimpicciolire
+      la frase.
+
+      '
+    Format Adaptation: 'Ricomporre la pendenza degli assi e l''ingombro del soggetto per il nuovo rapporto,
+      proteggendo tutte le parole.
+
+      '
+    Validation: Prima prova con un ciclista; soggetto e diagonali non sono un modello fisso.
+  - id: constructive-action-field
+    Name: Gesto centrale fra registri tipografici
+    Use When: 'Il contenuto può essere reso con un gesto, una trasformazione materiale o una relazione
+      fra pochi elementi.
+
+      '
+    Structure: 'Un''azione connessa attraversa il centro. La frase comincia sopra e continua sotto, con
+      assi condivisi, piani che si compenetrano e contrasto di scala controllato. Una superficie o un''ombra
+      del soggetto prolunga la geometria del testo.
+
+      '
+    Text Adaptation: 'Conservare l''ordine della frase attraverso i registri. Con più testo ampliare il
+      campo di lettura e ridurre l''intervallo visivo; non trasformare connettivi e nomi in microtesto.
+
+      '
+    Format Adaptation: 'Cambiare rapporto fra azione centrale e gruppi testuali, senza ritagliare o comprimere
+      un poster già composto.
+
+      '
+    Validation: Seconda prova con mani e carta; l'azione specifica non è obbligatoria.
+  - id: typographic-force-lines
+    Name: Campo tipografico e piani di forza
+    Use When: 'La frase può reggere la card senza una figura o un oggetto dominante.
+
+      '
+    Structure: 'Gruppi tipografici connessi attraversano piani, ombre e curve ritmiche. Un solo sistema
+      di forze lega la lettura. La geometria sostiene le parole senza frammentarle o aggiungere pseudoformule.
+
+      '
+    Text Adaptation: 'Regolare scala e direzione dei gruppi sulla frase reale. Un estratto non può sostituire
+      la lettura completa né aggiungere contenuto. Nomi eventuali trovano un asse destro quieto.
+
+      '
+    Format Adaptation: 'Ricostruire spazi, piani e margini per il rapporto scelto, mantenendo naturali
+      le proporzioni del lettering.
+
+      '
+    Validation: Famiglia prevista ma non ancora provata.

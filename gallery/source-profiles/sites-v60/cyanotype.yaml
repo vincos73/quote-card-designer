@@ -1,0 +1,129 @@
+Design Style:
+  Name: Cyanotype
+  Version: 0.1.0-experimental
+  Status: V1 candidate richiesta dall’utente il 28 ottobre 2026
+  Concept: 'La citazione è una traccia di luce nello stesso foglio del soggetto. Carta opaca, densità
+    blu e riserve chiare costruiscono lettere e impronte di contatto. La composizione rende significativa
+    una presenza, un''assenza o una soglia, lasciando alla frase una lettura dominante.
+
+    '
+  Canvas:
+    Ratio: '4:5'
+    Output: Una card editoriale piatta a piena pagina, senza oggetti in scena.
+    Adaptation: Ricomporre parole, impronta e intervalli per il formato richiesto.
+  Mood:
+  - Contemplativo
+  - Fotografico
+  - Tattile
+  - Essenziale
+  - Luminoso
+  Color Palette:
+    Fixed Colors: false
+    Starting Roles:
+      Exposed Blue: '#174B78'
+      Dense Blue: '#12365E'
+      Partial Exposure: '#7DADC4'
+      Paper Reserve: '#F4F2E8'
+    Identity: 'Il cianotipo classico usa blu e carta chiara; le variazioni tonali derivano dall''esposizione
+      simulata, non da accenti decorativi arbitrari. Altri colori richiedono una richiesta esplicita e
+      un''interpretazione dichiarata, senza chiamare classica una palette incompatibile.
+
+      '
+  Typography:
+    Quote: 'Lettere ampie e riconoscibili come riserve fotografiche di una maschera sul foglio, con carta
+      coerente fra glifi e impronta. Scegliere una serif o una mano chiara in relazione alla frase; lievi
+      differenze di contatto non cancellano parti dei glifi. Non imitare obbligatoriamente la scrittura
+      delle targhette storiche e non aggiungere nomi scientifici inventati.
+
+      '
+    Hierarchy: 'La frase completa è la prima lettura. A capo per senso, spazi naturali, occhielli e accenti
+      aperti; nessuna parola resa invisibile per illustrare letteralmente il significato. Non deformare
+      le righe intorno al soggetto.
+
+      '
+    Attribution: 'Solo se fornita o verificata, subordinata ma leggibile e allineata a un asse destro
+      chiaro. Se assente, omettere e ricomporre.
+
+      '
+  Layout:
+    Relationship: 'Testo e piccolo soggetto condividono il medesimo campo di esposizione. Aprire uno spazio
+      nella struttura della frase o coordinare un bordo, una direzione e un intervallo con l''impronta.
+      Evitare una separazione automatica fra titolo centrato e immagine decorativa in basso.
+
+      '
+    Capacity: 'Per frasi lunghe semplificare il soggetto e le transizioni tonali prima di ridurre il corpo.
+      Una composizione specifica non diventa una ricetta fissa. Mantenere margini e chiara sequenza delle
+      parole.
+
+      '
+  Elements:
+    Contact Image: 'Un piccolo soggetto riconoscibile legato alla frase: forma vegetale, oggetto sottile
+      o impronta semplice. Repertorio aperto; la felce del confronto non è un requisito di tutte le card.
+      Usare sagome e dettaglio da contatto, non contorni a penna, rilievo o volumi fotografici illuminati.
+
+      '
+  Effects:
+    Exposure: 'Blu opaco con densità variabile sottile, riserve chiare, dettaglio netto nei punti di contatto
+      e qualche passaggio più morbido dove il contatto si allenta. Variazioni locali, senza bagliore o
+      sfocatura uniforme.
+
+      '
+    Paper: 'Fibra fine e pigmento assorbito; pochi segni del processo, senza rendere ogni foglio antico,
+      macchiato o grunge. Nessuna superficie lucida.
+
+      '
+    Masks: 'Tratti delle lettere e soggetto devono apparire prodotti nello stesso sistema di riserve ed
+      esposizione. Non aggiungere un font bianco perfetto a una fotografia già virata in blu.
+
+      '
+  Content Contract:
+    quote: Citazione esatta, completa e una volta sola; caso e punteggiatura integri.
+    author: Solo attribuzione fornita o verificata.
+    other_text: Nessuna targhetta, firma, numero, titolo o nome botanico inventati.
+  Rules:
+  - La frase resta leggibile, anche quando interpreta assenza o invisibilità.
+  - Il blu e le riserve chiare appartengono allo stesso foglio fotografico.
+  - La materia è opaca; nessun contorno dipinto o filtro blu generico.
+  - La relazione fra frase e impronta deve contribuire al significato.
+  - Nessuna reference storica, soggetto o impaginato fisso obbligatorio.
+  - Non presentare il risultato generativo come una stampa fisica autentica.
+  Production:
+    Preferred Mode: generative
+    Validation Status: Ricerca primaria e visiva completata; confronto A/B v1 da eseguire.
+Composition Library:
+  Style Name: Cyanotype
+  Selection:
+    Basis: Scegliere la relazione tra parole e impronta dal significato e dalla lunghezza della frase.
+    Variation: Variare assi, apertura, soggetto e densità senza trasformare la carta in un campo decorativo.
+  Families:
+  - id: contact-opening
+    Name: Apertura nella frase e impronta
+    Use When: Il testo parla di presenza, assenza, segno, spazio o trasformazione.
+    Structure: 'La frase costruisce un campo aperto e asimmetrico, con un intervallo laterale che accoglie
+      il piccolo soggetto. La direzione dell''impronta si collega a un passaggio significativo senza coprire
+      le lettere.
+
+      '
+    Text Adaptation: 'Gruppi in sequenza naturale, corpi grandi e poche variazioni motivate. L''apertura
+      si ottiene ricomponendo le righe, non comprimendo i glifi.
+
+      '
+    Format Adaptation: 'In formati stretti portare l''impronta sul margine superiore o inferiore dell''apertura;
+      conservare un percorso di lettura unico.
+
+      '
+  - id: exposure-threshold
+    Name: Soglia di esposizione
+    Use When: Una variazione di densità può esprimere passaggio, distanza o rivelazione.
+    Structure: 'Un passaggio locale tra blu più denso e più tenue organizza il foglio; parole e impronta
+      sono ancorate alla stessa soglia, senza pannelli rettangolari aggiunti o ripetizione della frase.
+
+      '
+    Text Adaptation: 'Tutti i tratti restano contrastati contro il fondo locale. Evitare parole volutamente
+      sbiadite o effetti che cambiano lettere e accenti.
+
+      '
+    Format Adaptation: 'Ricomporre orientamento e ampiezza della soglia per il formato, senza imporre
+      una fascia orizzontale o la stessa posizione del soggetto.
+
+      '

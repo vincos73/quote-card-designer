@@ -1,0 +1,61 @@
+Design Style:
+  Name: Gouache
+  Concept: >-
+    Una frase pensata come pittura editoriale opaca: le masse di colore, il
+    lettering e un piccolo disegno costruiscono insieme una relazione pertinente
+    al significato. Il gesto resta visibile senza diventare disordine decorativo.
+  Canvas:
+    Ratio: "4:5"
+    Output: Card completa, vista frontale; carta come superficie, non mockup fotografico.
+  Mood: Diretto, curioso, caldo, manuale; variabile secondo il contenuto.
+  Color Palette:
+    Default: Verde scuro, rosa, giallo e avorio.
+    Roles: >-
+      Un contrasto scuro-chiaro sostiene la frase; uno o due accenti formano
+      masse opache legate al visual. La palette è sostituibile: mantenere i ruoli
+      e il contrasto locale, senza imporre i colori dell'esempio.
+  Typography:
+    Quote: >-
+      Lettering dipinto ampio, con proporzioni naturali e controforme aperte;
+      variazioni di bordo e carica del pennello, non deformazioni arbitrarie.
+      A capo per senso. Un'enfasi di colore deve rendere una relazione del testo.
+    Hierarchy: >-
+      Frase dominante; disegno più piccolo. Limitare i registri e conservare una
+      lettura continua anche quando una campitura attraversa una parte del testo.
+    Attribution: >-
+      Solo se fornita o verificata; più piccola e leggera della frase, leggibile
+      e allineata a destra su un asse chiaro. Senza autore ricomporre lo spazio.
+  Layout:
+    Principle: >-
+      Scegliere una relazione fra una massa dipinta e il testo: il visual può
+      aprire un campo di colore, far cambiare una qualità della frase oppure
+      interrompere e ricongiungere un ritmo. Non ripetere sempre lo stesso schema.
+    Integration: >-
+      Una relazione principale, pochi elementi. Il disegno accompagna il pensiero
+      e può originare una forma o un percorso che interagisce con il testo.
+      Evitare il piccolo sticker scollegato sotto una citazione generica.
+    Adaptation: >-
+      Adattare masse, a capo e respiro alla lunghezza; non ridurre tutto per una
+      frase lunga, non schiacciare i caratteri per fare spazio all'immagine.
+  Elements:
+    Imagery: >-
+      Piccolo soggetto scelto dal contenuto o richiesto dall'utente, reso con
+      piani opachi semplificati. Repertorio aperto, senza oggetto ricorrente.
+    Surface: Carta appena visibile e pigmento matt; texture subordinata al segno.
+  Effects:
+    Material: >-
+      Pittura acquosa coprente asciutta e matt, strati chiari su scuro plausibili,
+      sottili differenze di carica, bordi di pennello netti ma irregolari. Campiture
+      larghe abbastanza calme per distinguere la gouache dal rumore uniforme.
+    Restraint: >-
+      Le imperfezioni appartengono ai passaggi dipinti; non applicare una grana
+      identica sopra carta, testo e disegno. Nessun rilievo spesso o luce metallica.
+  Rules:
+    - Conservare letteralmente testo, accenti, maiuscole e punteggiatura; niente testo aggiunto.
+    - Mostrare la citazione una sola volta; nessuna firma inventata.
+    - Garantire contrasto locale e lettura della frase anche in miniatura.
+    - Evitare velature e fioriture da acquerello, cera da oil pastel e collage ritagliato.
+    - Non copiare soggetti, firma o composizioni delle reference di ricerca.
+  Content Contract:
+    quote: Testo esatto fornito o approvato.
+    author: Facoltativo, solo fornito o verificato, distinto dalla firma personale.

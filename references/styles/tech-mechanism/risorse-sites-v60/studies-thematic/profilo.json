@@ -1,0 +1,73 @@
+{
+  "Design Style": {
+    "Name": "Tech Mechanism",
+    "Status": "Studio tematico da valutare; nessuna promozione automatica a V1 o Candidates",
+    "Concept": "La tipografia tecnica e il meccanismo dell’oggetto di cui si parla condividono la gerarchia visiva. L’immagine ha una presenza sostanziale, non è un piccolo riempitivo.",
+    "Canvas": {
+      "Ratio": "4:5",
+      "Output": "Composizione raster completa, testo incluso",
+      "Adaptation": "Ricomporre per il formato richiesto, conservando testo e proporzioni dei glifi."
+    },
+    "Mood": [
+      "Editoriale",
+      "Tematico",
+      "Sperimentale"
+    ],
+    "Color Palette": {
+      "Fixed Colors": false,
+      "Policy": "Scegliere una palette armonica per fondo, testo e immagine in funzione del quote e delle preferenze. Nero e verde non sono obbligatori. Mantenere contrasto locale e ruoli chiari."
+    },
+    "Typography": {
+      "Quote": "Display tecnico con spigoli smussati, tagli diagonali e glifi caratteristici; proporzioni e wordspace naturali, nessun tracking per pareggiare le righe.",
+      "Spacing": "Kerning, wordspace e proporzioni naturali; risolvere capienza con a capo, composizione e scala, non tracking arbitrario.",
+      "Attribution": "Facoltativa, esatta, più piccola e leggera, allineata a destra su un asse chiaro. Se assente, recuperare lo spazio.",
+      "Signature": "Solo se richiesta; distinta dall’autore, mai ricavata dal profilo personale."
+    },
+    "Imagery": {
+      "Language": "Vista esplosa, sezione o meccanismo schematico dell’oggetto pertinente al testo. Parti leggibili e selezionate, non una quantità arbitraria di componenti.",
+      "Selection": "Il soggetto deriva dal significato della frase; gli esempi non sono soggetti fissi."
+    },
+    "Layout": {
+      "Relation": "Il meccanismo entra fra i gruppi della frase o ne segue una rientranza. Assi e guide rispondono alle parole, senza sostituire o oscurare glifi. L’ultima revisione supera il vecchio vincolo del disegno piccolo.",
+      "Variation": "Scegliere struttura, scala e densità dalla frase; variare la composizione oltre alla palette."
+    },
+    "Effects": "Linee tecniche precise, campi opachi e pochi riferimenti costruttivi, senza microtesti fittizi.",
+    "Exclusions": "Nessun dato, codice, marchio o numero di componente inventato. Schemi concettuali, non manuali meccanici validati. Il testo può essere colorato.",
+    "Content Contract": {
+      "quote": "Testo completo una volta, con parole, cassa, accenti e punteggiatura conservati.",
+      "other_text": "Nessun autore, firma, dato, logo o testo di riempimento inventato."
+    },
+    "Production": {
+      "Method": "ImageGen integrato per ogni composizione completa, testo incluso. Nessuna scritta impaginata sopra un solo fondo generato.",
+      "Reference Inputs": "Le reference e i target delle edit storiche non sono requisiti permanenti. Le proprietà da trasferire vanno dichiarate quando si usano immagini.",
+      "Profile Provenance": "Codifica di studio ricavata dai brief, dalle revisioni e dalle decisioni dell’utente; i prompt effettivi degli esempi sono archiviati separatamente.",
+      "Validation": "Due immagini native 1122×1402, quasi 4:5, con testi diversi, rilette visivamente. Font esatto, contrasto raster, attribuzioni, altre lunghezze e altri formati non certificati."
+    },
+    "Study Note": "Sono mostrate le revisioni 03, con immagini ingrandite e integrate. La separazione fra IN e MOTO è stata controllata nel file nativo."
+  },
+  "Composition Library": {
+    "Style Name": "Tech Mechanism",
+    "Selection": {
+      "Basis": "Scegliere dal senso della frase e dall’ingombro del testo.",
+      "Variation": "Repertorio aperto di relazioni, non template a coordinate fisse."
+    },
+    "Families": [
+      {
+        "id": "mechanism-between-phrases",
+        "Name": "Meccanismo fra i gruppi",
+        "Use When": "Quando la relazione sostiene il senso e la leggibilità della frase.",
+        "Structure": "Un esploso ampio è intercalato nella frase e ne collega due nuclei.",
+        "Text Adaptation": "A capo per gruppi di senso, proporzioni e spazi naturali, attribuzione eventuale su asse destro.",
+        "Format Adaptation": "Ricomporre nel rapporto richiesto; non ritagliare o deformare il testo."
+      },
+      {
+        "id": "stepped-type-and-axis",
+        "Name": "Parole a gradini e asse",
+        "Use When": "Quando la relazione sostiene il senso e la leggibilità della frase.",
+        "Structure": "La frase forma una rientranza per il sistema meccanico, che rimane proporzionato e leggibile.",
+        "Text Adaptation": "A capo per gruppi di senso, proporzioni e spazi naturali, attribuzione eventuale su asse destro.",
+        "Format Adaptation": "Ricomporre nel rapporto richiesto; non ritagliare o deformare il testo."
+      }
+    ]
+  }
+}

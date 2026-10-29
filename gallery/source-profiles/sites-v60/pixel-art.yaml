@@ -1,0 +1,234 @@
+Design Style:
+  Name: Pixel Art
+  Concept: 'Una quote card in cui frase, sprite e ambiente condividono una costruzione bitmap a pixel
+    quadrati, contorni a scala e cluster leggibili. La frase è la massa dominante di un piccolo mondo
+    originale, con una relazione narrativa fra lettere e immagini. Il richiamo ai giochi 8 bit e 16 bit
+    è una direzione visiva, non una certificazione di hardware, risoluzione o numero di colori.
+
+    '
+  Reference Basis:
+    Material: Due reference fornite dall'utente, analizzate senza passarle al generatore.
+    Observation: 'La prima offre campo nero, icone multicolori, scale e piattaforme intorno a un titolo
+      bitmap; contiene anche segni illustrati non rigorosamente costruiti a pixel. La seconda offre lettering
+      bitmap monumentale con offset cromatico, skyline, grandi oggetti e superficie di stampa. Trasferire
+      queste relazioni, non titoli, marchi, personaggi, cast o impaginati.
+
+      '
+    Boundary: 'Distinto da Pixel Field: qui anche la frase e tutti i soggetti sono bitmap. Non usare testo
+      sans-serif continuo sopra fotografie retinate o campi di pixel.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: Una card piatta completa, ricomposta per il formato richiesto.
+  Mood:
+  - Giocoso
+  - Nitido
+  - Inventivo
+  - Narrativo
+  - Energico
+  Color Palette:
+    Fixed Colors: false
+    Starting Directions:
+      Arcade On Black:
+      - '#050608'
+      - '#FFF4D7'
+      - '#00B7D9'
+      - '#00D88B'
+      - '#EF684B'
+      - '#F4CF42'
+      Ink On Blue:
+      - '#092958'
+      - '#F7E4B1'
+      - '#247D83'
+      - '#EB6427'
+      - '#F9D150'
+    Roles: 'Pochi colori principali con contrasto locale forte fra frase e fondo. Uno o due toni discreti
+      per ciascuno sprite possono descrivere il volume. Colori saturi su nero e inchiostri su blu o carta
+      sono partenze, non vincoli. La preferenza dell''utente sostituisce la palette preservandone i ruoli.
+
+      '
+    Verification: 'Palette limitata è un obiettivo visivo. Non dichiarare un numero di colori effettivamente
+      presente o un file indicizzato senza una verifica tecnica.
+
+      '
+  Typography:
+    Primary: 'Lettering latino bitmap, costruito in cluster quadrati con aste nette e curve a scala. Mantieni
+      proporzioni naturali, controforme aperte, spazi fra parole chiari e un ritmo coerente dei moduli.
+      Maiuscole e minuscole seguono il testo. Accenti e punteggiatura devono restare riconoscibili. Non
+      dilatare il tracking o deformare glifi per pareggiare la larghezza delle righe.
+
+      '
+    Hierarchy: 'La frase è la prima lettura anche in miniatura. Corpo e a capo seguono il contenuto e
+      la struttura scelta; riduci numero e densità degli sprite prima di ridurre la frase. Un offset cromatico
+      a gradini è facoltativo e subordinato.
+
+      '
+    Attribution: 'Solo se fornita o verificata, esatta e più piccola della frase, nello stesso linguaggio
+      bitmap e allineata a destra su un asse chiaro. Se assente, nessun segnaposto o spazio riservato.
+      Una firma personale è distinta e va richiesta.
+
+      '
+  Layout:
+    Shared Structure: 'La frase e l''ambiente condividono assi, spazi e una storia visiva. Un percorso,
+      una massa scenica o un oggetto possono rispondere alle parole senza sostituirne le aste. Scegli
+      una sola famiglia dalla libreria separata; nessuna richiede automaticamente scale, città, joystick
+      o tutto il repertorio delle reference.
+
+      '
+    Pixel Grammar: 'Stabilisci un''unità quadrata coerente come base concettuale. Aste, contorni, diagonali
+      e curve avanzano per gradini leggibili. Usa cluster contigui e silhouette riconoscibili, evitando
+      rumore di pixel isolati. Blocchi maggiori derivano idealmente da multipli interi della stessa unità.
+      Non mescolare caratteri bitmap a illustrazioni morbide o sagome vettoriali lisce.
+
+      '
+    Reading: 'Il percorso di lettura resta univoco. Evita che piattaforme, finestre, stelle o luci sembrino
+      lettere, accenti o punteggiatura aggiuntiva. Mantieni margini e contrasto locale, con particolare
+      cura per lo spazio fra parole.
+
+      '
+  Imagery:
+    Repertoire:
+    - Piccoli esploratori o creature originali con silhouette semplici.
+    - Piattaforme, scale e ponti modulari al servizio di un percorso.
+    - Città inventate, paesaggi o architetture costruiti per cluster.
+    - Oggetti quotidiani e simboli originali scelti in relazione alla frase.
+    Selection: 'Scegli pochi soggetti pertinenti al contenuto. Gli esempi non costituiscono un set di
+      asset da ricopiare. Evita personaggi, sprite e scenari riconoscibili di videogiochi, marchi e apparati
+      promozionali ripresi dalle reference.
+
+      '
+  Effects:
+    Base: 'Campiture piatte e bordi netti a scala. Richiedi un aspetto senza antialiasing e un ingrandimento
+      concettuale nearest-neighbor per multipli interi.
+
+      '
+    Optional: 'Dithering locale fra due toni, offset di stampa e lieve grana possono aiutare una composizione,
+      ma non devono cancellare contorni, accenti e controforme. CRT glow, scanline, usura e texture non
+      sono tratti obbligatori dello stile.
+
+      '
+    Depth: Volume suggerito da cluster e toni discreti, senza rendering 3D levigato.
+  Content Contract:
+    quote: Mostra ogni parola, accento e segno del testo esatto una sola volta, nella cassa originale.
+    author: Mostra solo un autore fornito o verificato, subordinato e allineato a destra.
+    signature: Mostra una firma personale solo se espressamente richiesta, distinta dall'autore.
+  Rules:
+  - Frase, sprite e ambiente devono condividere la costruzione bitmap.
+  - La frase resta dominante e leggibile alla scala prevista.
+  - Non usare un semplice font pixel su illustrazioni lisce o sfondi retinati.
+  - Conserva cluster, silhouette e continuità del modulo senza rumore gratuito.
+  - Cambia soggetti e composizione in funzione del testo.
+  - Non inventare HUD, punti, vite, timer, schermate di login o altre etichette.
+  - Non aggiungere date, crediti, cast, loghi, slogan o testo di riempimento.
+  - Non copiare personaggi, titoli o scene riconoscibili delle reference.
+  Production:
+    Preferred Mode: imagegen
+    Rationale: 'Genera l''intera composizione, lettering compreso, con ImageGen integrato. Non comporre
+      deterministicamente testo sopra uno sfondo generato. Le reference sono analitiche e non vanno inviate
+      automaticamente al generatore.
+
+      '
+    Limits: 'ImageGen può approssimare unità, allineamenti, palette e bordi: un poster visivamente bitmap
+      non certifica una griglia pixel-perfect. Per asset di gioco, file indicizzati o multipli esatti
+      occorre una successiva ispezione tecnica dei moduli e un''eventuale ricostruzione, non implicite
+      in questo stile.
+
+      '
+  User Overrides:
+    Format: Ricomponi frase e scena mantenendo la grammatica dei moduli, senza stirare i glifi.
+    Palette: Sostituisci i colori mantenendo contrasto e numero visivamente contenuto di toni.
+    Subject: Reinterpreta il soggetto richiesto come silhouette originale a cluster bitmap.
+    Typography: Mantieni una costruzione bitmap compatibile; non certificare un font preciso senza verifica.
+  Status: V1 candidate richiesta dall’utente il 28 ottobre 2026
+Composition Library:
+  Style Name: Pixel Art
+  Selection:
+    Basis: 'Scegli in base a lunghezza e significato della frase, rapporto del canvas, eventuale soggetto
+      richiesto e presenza di autore o firma.
+
+      '
+    Choice: 'Usa una sola famiglia principale. Palette, soggetti, texture e densità sono indipendenti
+      dalla famiglia. Mantieni una struttura già scelta nelle revisioni.
+
+      '
+    Density: 'La frase determina l''ingombro principale. Riduci scene, sprite o decorazioni prima di ridurre
+      il corpo. Nessuna famiglia richiede HUD o testo aggiuntivo.
+
+      '
+  Families:
+  - id: percorso-a-piattaforme
+    Name: Percorso a piattaforme
+    Use When: 'Una frase su azione, crescita, scoperta o tentativo beneficia di una piccola progressione
+      visiva e di un rapporto fra movimento e lettura.
+
+      '
+    Structure: 'Poche piattaforme, gradini o ponti attraversano gli spazi fra le righe. Una figura o un
+      oggetto originale può suggerire un itinerario. Basi e allineamenti della frase dialogano con la
+      scena, senza sostituire lettere e senza imporre un layout fisso a livelli identici.
+
+      '
+    Text Adaptation: 'Conserva ordine e gruppi di senso. La scena evita i glifi e si ritira se il testo
+      cresce. Mantieni spazi di parola chiari e un asse destro eventuale per l''attribuzione. Non spezzare
+      arbitrariamente le parole per creare piattaforme.
+
+      '
+    Format Adaptation: 'In verticale il percorso può salire o attraversare le righe. In orizzontale allargalo
+      fra masse di testo leggibili, senza ruotare o comprimere le lettere.
+
+      '
+    Variation Axes:
+    - Direzione del percorso
+    - Numero di passaggi
+    - Vuoto fra le righe
+    - Presenza di figura
+  - id: manifesto-con-massa-scenica
+    Name: Manifesto con massa scenica
+    Use When: 'Una frase evocativa o dichiarativa beneficia di un''architettura, paesaggio o oggetto monumentale
+      con cui condividere il campo del manifesto.
+
+      '
+    Structure: 'Una grande massa di lettering si integra con una scena che sale da un bordo o si addensa
+      a un''estremità. Skyline, oggetto o paesaggio rispondono al significato della frase. Il testo mantiene
+      un fondo localmente quieto; un offset a gradini è possibile senza diventare obbligatorio.
+
+      '
+    Text Adaptation: 'Scegli a capo naturali e lascia larghezze diverse alle righe. Frasi più lunghe richiedono
+      una scena meno alta o meno estesa. Non trasformare parole in cartelli disseminati nella città. Attribuzione
+      eventuale su asse destro chiaro.
+
+      '
+    Format Adaptation: 'Nel formato alto la scena può sostenere e affiancare il testo; in uno largo può
+      occupare un lato. Ricomponi le masse conservando scale e margini utili.
+
+      '
+    Variation Axes:
+    - Bordo di ingresso
+    - Skyline o oggetto
+    - Rapporto testo-scena
+    - Offset facoltativo
+  - id: costellazione-di-sprite
+    Name: Costellazione di sprite
+    Use When: 'Una frase più meditativa o collettiva beneficia di pochi simboli distribuiti e non di un
+      ambiente continuo o di un percorso narrativo.
+
+      '
+    Structure: 'Un blocco di lettering aperto è accompagnato da pochi sprite di scale controllate. Vuoti
+      e ripetizioni stabiliscono una relazione, senza affollare il campo e senza aggiungere l''intero
+      repertorio delle reference.
+
+      '
+    Text Adaptation: 'Mantieni il testo come unica lettura verbale. Sposta i simboli negli spazi residui
+      senza farli somigliare a punteggiatura o accenti. Per testi lunghi riduci il numero dei soggetti
+      e conserva un margine di lettura evidente.
+
+      '
+    Format Adaptation: 'Distribuisci gli sprite secondo i nuovi vuoti e il nuovo perimetro del testo.
+      Non ripetere automaticamente icone per riempire un canvas più largo.
+
+      '
+    Variation Axes:
+    - Numero e scala degli sprite
+    - Bordi attivi
+    - Ritmo dei vuoti
+    - Simmetria o asimmetria

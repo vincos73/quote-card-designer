@@ -1,0 +1,54 @@
+"Design Style":
+  "Name": "Pollock"
+  "Status": "Candidato approvato dall’utente il 29 ottobre 2026; non incluso nella selezione V1."
+  "Concept": "La frase nasce dallo stesso gesto della pittura: lettere costruite da pennellate cariche di pigmento si intrecciano con schizzi e colature su tela bianca."
+  "Canvas":
+    "Ratio": "4:5"
+    "Output": "Composizione raster completa, testo incluso"
+    "Ground": "Tela preparata bianca, neutra e luminosa, con trama discreta. Nessun avorio, beige, ingiallimento o effetto pergamena."
+    "Adaptation": "Ricomporre testo, materia e vuoti nel formato richiesto, senza stirare lettere o tagliare parole."
+  "Mood":
+    - "Gestuale"
+    - "Materico"
+    - "Sperimentale"
+    - "Energico"
+    - "Pittorico"
+  "Color Palette":
+    "Policy": "Palette variabile per ogni frase. Il bianco della tela è una regola dello stile; i pigmenti possono cambiare. Mantenere contrasto locale con nuclei scuri nelle lettere e accenti mescolati nelle pennellate."
+    "Examples":
+      - "petrolio e grafite con verde acido"
+      - "prugna e quasi nero con magenta e arancio"
+    "White": "Bianco neutro anche negli impasti chiari, senza dominante calda."
+  "Typography":
+    "Quote": "Lettering dipinto a mano: ogni lettera è costruita anatomicamente da tratti di un pennello largo e carico, con archi tirati, diagonali, terminali sfrangiati e solchi delle setole. Forme, dimensioni e linee di base possono essere irregolari per esprimere il gesto."
+    "Construction": "La materia costituisce i tratti delle lettere, non riempie sagome di un font. Nessun carattere regolare sovrapposto a un fondo di schizzi."
+    "Spacing": "Kerning ottico, spazi fra parole e proporzioni naturali; mai tracking arbitrario per riempire righe. Conservare lettere e accenti riconoscibili."
+    "Attribution": "Facoltativa, esatta e subordinata alla frase; piccolo registro dipinto più quieto e leggibile, sempre allineato a destra. Se assente, recuperare lo spazio."
+    "Signature": "Solo se richiesta, distinta dall’autore, mai desunta dal profilo personale."
+  "Layout":
+    "Relation": "Parole, pennellate astratte e colature condividono la stessa superficie e la stessa materia. Le code dei tratti possono continuare nel campo pittorico."
+    "Reading": "La frase resta il percorso principale. Aprire canali bianchi fra i gesti, negli interni delle lettere e fra i gruppi di parole."
+    "Variation": "Numero di righe, assi, densità, scala e inclinazioni dipendono dalla frase; nessun obbligo di quattro righe o blocco centrato."
+  "Elements":
+    "Primary": "Pennellate larghe con pigmenti mescolati, creste di impasto, setole aperte, bordi secchi e tratti lucidi."
+    "Secondary": "Gocce, filamenti, spruzzi, colature, raschiature e spatolate che nascono dai gesti principali."
+    "Repertoire": "Segni astratti originali; nessuna riproduzione obbligatoria di un quadro o presenza fissa di soggetti."
+  "Effects":
+    - "Spessore pittorico percepibile, accumuli e piccole ombre fra le creste."
+    - "Contrasto fra tratti umidi lucidi, solchi e bordi asciutti."
+    - "Luce radente neutra e contenuta, senza trasformare le lettere in oggetti 3D estrusi."
+  "Rules":
+    - "Il testo stesso è fatto di pennellate."
+    - "Tela bianca e palette dei pigmenti variabile."
+    - "Schizzi e materia sostengono il gesto e la lettura; non coprono parti essenziali delle lettere."
+    - "Niente font puliti, stencil, sagome tipografiche riempite di texture o grunge digitale."
+    - "Nessun autore, firma, titolo, logo o testo di riempimento inventato."
+  "Content Contract":
+    "quote": "Testo completo una volta; conservare parole, cassa richiesta, accenti e punteggiatura. Scegliere solo gli a capo."
+    "author": "Facoltativo, fornito o verificato; non attribuire a Jackson Pollock le frasi dimostrative. Il nome Pollock identifica il linguaggio visivo."
+  "Production":
+    "Preferred Mode": "generative"
+    "Method": "ImageGen integrato per ogni composizione completa, testo incluso. Nessuna impaginazione deterministica sopra un fondo generato."
+    "Reference Inputs": "Gli esempi calibrano materia e gesto; non sono reference obbligatorie. Non copiare automaticamente frase, palette o disposizione."
+    "Validation Status": "Tre esempi nativi 1122×1402 px, prossimi a 4:5, con due frasi originali e due palette. Riletti visivamente. La prova su seconda frase è una verifica di trasferimento, non una nuova scelta estetica dell’utente. Attribuzioni, altri formati e ripetibilità generale non verificati."
+"Composition Library": "composizioni.yaml"

@@ -1,0 +1,23 @@
+Composition Library:
+  Style Name: Linocut
+  Selection:
+    Basis: Relazione tipografica fra pieni di stampa e carta liberata, derivata dal testo.
+    Variation: Scegliere taglio, apertura, ritmo o contrappeso; nessun soggetto permanente.
+  Families:
+    - id: apertura-tipografica
+      Name: Carved Opening
+      Use When: La frase descrive trasformazione, possibilità o cambiamento.
+      Structure: >
+        Una massa prevalentemente tipografica lascia una fessura o apertura
+        di carta tra gruppi di senso. Il piccolo soggetto aderisce a quel
+        cambiamento di spazio; non richiede un ambiente illustrato.
+      Text Adaptation: Proteggere glifi e accenti; vuoti fra parole o gruppi, mai tagli illeggibili.
+      Format Adaptation: Variare direzione e rapporto dei gruppi per il formato e la frase.
+    - id: ritmo-di-taglio
+      Name: Cut Rhythm
+      Use When: La frase contiene un passaggio di intensità, direzione o ripetizione.
+      Structure: >
+        Parole dominanti e pochi tagli direzionali modulano il campo; un
+        piccolo disegno chiude o devia il ritmo senza diventare scenario.
+      Text Adaptation: Conservare ordine e spazi naturali, modulare solo la struttura complessiva.
+      Format Adaptation: Ridurre segni e ridistribuire gruppi prima di ridurre il testo.

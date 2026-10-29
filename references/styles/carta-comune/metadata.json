@@ -1,0 +1,28 @@
+{
+  "name": "Carta Comune / Segni abitati",
+  "status": "Approvato per library, fuori selezione V1",
+  "cards": [
+    {
+      "quote": "Un diritto esiste davvero quando la soglia è aperta a tutti.",
+      "file": "esempio-1.png",
+      "prompt": "prompt-esempio-1.txt",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "9ab13d5ed2d43ddf65ee28fbd5dae9835d48dde3628c5ab0d24ab19c2f2ee0c4",
+      "composition": "§ aperto come passaggio curvo in sezione; frase nel campo negativo in alto a sinistra, persone lungo il canale nella metà bassa.",
+      "verification": "Testo, accento È e punto corretti. Nessuna attribuzione. Proporzioni tipografiche visivamente più coerenti; piccolo ritaglio chiaro a protezione di APERTA. § tagliato, riconoscibilità univoca sotto 80%.",
+      "input_images": []
+    },
+    {
+      "quote": "La vita pubblica comincia dove facciamo spazio alla voce degli altri.",
+      "file": "esempio-2.png",
+      "prompt": "prompt-esempio-2.txt",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "18746ae4d9e36849f69e2e29b4d4a585ab72c95b1b6407f8a7a986aaf558a6b3",
+      "composition": "Virgolette contrapposte in diagonale come balconi di parola e ascolto; testo nel campo condiviso centrale.",
+      "verification": "Testo completo e punto corretti. Nessuna attribuzione. Nessuna collisione sulle lettere; naturale differenza delle larghezze di riga.",
+      "input_images": []
+    }
+  ]
+}

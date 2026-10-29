@@ -173,10 +173,10 @@ def palette(profile):
 
 def image_uri(style, number, example):
     name = f'{style["id"]}{example["suffix"]}'
-    image = SOURCE_ASSETS / f'{name}.png'
+    key = 'example' if number == 1 else f'example_{number}'
+    reference = style.get(key)
+    image = SKILL / reference if style.get('gallery_snapshot') and reference else SOURCE_ASSETS / f'{name}.png'
     if not image.is_file():
-        key = 'example' if number == 1 else f'example_{number}'
-        reference = style.get(key)
         if not reference:
             raise FileNotFoundError(f'Manca l’immagine sorgente per {style["id"]}, esempio {number}')
         image = SKILL / reference
@@ -289,7 +289,7 @@ def build():
             variable_palette = profile.get('Color Palette', {}).get('Fixed Colors') is False or 'ColorSystem' in profile
             label = 'Palette variabile' if variable_palette else 'Colori nel profilo'
             palette_info = f'<span class="palette-note">{label}</span>'
-        search = ' '.join([style['name'], style['summary'], family_name, method, *style['tags'], *style['aliases'], *profile.get('Mood',[])])
+        search = ' '.join([style['name'], style['summary'], style.get('search_terms', ''), family_name, method, *style['tags'], *style['aliases'], *profile.get('Mood',[])])
         cards.append(f'''<article class="style" id="{identifier}" data-family="{escape(family_id)}" data-release-candidate="{str(is_candidate).lower()}" data-v1-shortlisted="{str(is_shortlisted).lower()}" data-production-mode="{escape(style.get('production_mode', ''))}" data-search="{escape(search)}">
 <div class="examples">{example_html}</div>
 <div class="style-info"><div class="style-header"><h2>{escape(style['name'])}</h2>{palette_info}</div>

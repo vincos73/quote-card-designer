@@ -1,0 +1,72 @@
+Design Style:
+  Name: Sticker Type
+  Concept: La frase prende la forma di un adesivo tipografico sagomato. Bordo di taglio, silhouette e
+    piccolo disegno fanno parte della stessa unità, con una direzione espressiva legata al significato.
+  Canvas:
+    Ratio: '4:5'
+    Output: Una card completa frontale per social, senza cornice o mockup ambientato.
+  Mood: Energico, giocoso, assertivo; adattabile anche a messaggi sobri.
+  Color Palette:
+    Default: Blu cobalto, arancio e avorio
+    Adaptation: Palette sostituibile su richiesta; preservare contrasto locale e ruoli di supporto, frase
+      e accento. Applicarla anche al piccolo disegno.
+  Typography:
+    Quote: Lettering robusto e compatto, controforme aperte, ritmo naturale. Sagoma esterna segue i gruppi
+      di parole senza rendere ogni lettera un oggetto separato o compromettere il caso originale.
+    Hierarchy: Frase primo elemento di lettura e disegno secondario. A capo per gruppi di senso, nessuna
+      deformazione locale per evitare un’immagine.
+    Attribution: Solo se fornita o verificata, registro più piccolo e quieto, allineato a destra su un
+      asse leggibile. In assenza ricomporre senza segnaposto.
+  Layout:
+    Principle: Un adesivo dominante; eventuali parti complementari devono partecipare alla frase, non
+      creare una collezione casuale. Sagoma, direzione e piccolo disegno possono suggerire movimento,
+      incastro, tensione o equilibrio. Non basta un contorno bianco intorno a un blocco di testo.
+    Adaptation: Scegliere una sola relazione compositiva in base al significato. Frasi lunghe richiedono
+      meno elementi e nuovi a capo; non imitare un esempio rimpicciolito. Variare relazione e struttura
+      per nuove card.
+  Elements:
+    Imagery: Piccolo soggetto illustrato nello stesso registro stampato; può chiudere, interrompere o
+      prolungare la silhouette dell’adesivo. Repertorio aperto, senza mascotte ricorrenti.
+    Surface: Stampa piatta su adesivo sottile opaco o appena satinato, bordo di taglio avorio visibile
+      e ombra minima solo sul supporto. Nessuna estrusione gonfia, smalto o plastica tridimensionale.
+  Effects:
+    Material: Stampa piatta su adesivo sottile opaco o appena satinato, bordo di taglio avorio visibile
+      e ombra minima solo sul supporto. Nessuna estrusione gonfia, smalto o plastica tridimensionale.
+    Restraint: Effetti subordinati alla lettura; niente rumore uniforme o dettagli di riempimento.
+  Rules:
+  - Conservare la frase una sola volta con caso, parole, accenti, punteggiatura e ordine esatti.
+  - Nessun autore, firma, testo o marchio inventato.
+  - Disegno piccolo, riconoscibile e pertinente alla frase.
+  - Niente marchi, loghi o testi coperti dalle reference.
+  - Niente pile di adesivi illeggibili, ripetizioni della frase o slogan aggiunti.
+  - Il bordo segue il materiale, non diventa un contorno 3D attorno a ogni glifo.
+  Content Contract:
+    quote: Testo esatto fornito o approvato.
+    author: Facoltativo, fornito o verificato; distinto dalla firma personale.
+  Status: V1 candidate richiesta dall’utente il 28 ottobre 2026
+Composition Library:
+  Style Name: Sticker Type
+  Selection:
+    Principle: Scegliere una famiglia in base a frase, formato e rapporto col piccolo soggetto. Non combinarle
+      automaticamente.
+    Variation: Per una nuova prova cambiare relazione o struttura quando il testo lo giustifica; colore
+      e soggetto da soli non provano varietà.
+  Families:
+  - id: shared-silhouette
+    Name: Sagoma condivisa
+    Use When: Quando un soggetto o gesto può interpretare il testo.
+    Structure: Parole e piccolo disegno appartengono a una sola sagoma tagliata; una tensione o direzione
+      rende leggibile la relazione.
+    Text Adaptation: Frase dominante, a capo per senso, ordine di lettura unico, eventuale autore subordinato
+      a destra. Su testo lungo ridurre repertorio e ricomporre.
+    Format Adaptation: Adattare masse e vuoti al rapporto richiesto, senza tagliare parole o rimpicciolire
+      un esempio. Il 4:5 è un punto di partenza.
+  - id: joined-pieces
+    Name: Parti che si incontrano
+    Use When: Quando il contenuto riguarda relazione, svolta o trasformazione.
+    Structure: Due parti adesive complementari si avvicinano o si separano lungo un solo asse, conservando
+      una sequenza di lettura unica e senza duplicare il testo.
+    Text Adaptation: Frase dominante, a capo per senso, ordine di lettura unico, eventuale autore subordinato
+      a destra. Su testo lungo ridurre repertorio e ricomporre.
+    Format Adaptation: Adattare masse e vuoti al rapporto richiesto, senza tagliare parole o rimpicciolire
+      un esempio. Il 4:5 è un punto di partenza.

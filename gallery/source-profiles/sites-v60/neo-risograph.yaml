@@ -1,0 +1,275 @@
+Design Style:
+  Name: Risograph
+  Status: Incluso nel catalogo V1 il 26 ottobre 2026
+  Concept: 'Una quote card con l''aspetto di fotografie stampate per passaggi di colore su carta non patinata:
+    grana fine, inchiostro a densità variabile, tinte piatte vivide e piccole imperfezioni di registro.
+    L''overprint con mescolanza visibile degli inchiostri è parte integrante di questo stile e deve essere
+    sempre presente. Può concentrarsi in un incrocio significativo o guidare il collage. La frase determina
+    soggetti, relazione tra immagini e gerarchia.
+
+    '
+  Reference Basis:
+    Research: ricerca.md
+    User References: 'Tre JPG e sei AVIF: ritratti, frammenti fotografici e immagini sovrapposte con grana
+      fine; le intersezioni producono nuovi toni. Sono esempi di trattamento, non soggetti o testi da
+      ripetere.
+
+      '
+    Sources:
+    - https://risolab.sva.edu/
+    - https://us.riso.com/industries/art-communities/
+    - https://risottostudio.com/pages/what-is-risograph-printing
+    - https://risottostudio.com/pages/printing-faq
+    - https://risottostudio.com/pages/advanced-print-setup
+    - https://helpx.adobe.com/illustrator/using/overprinting.html
+    Distinction: 'Risograph descrive qui il materiale e la logica di passaggi a colori spot; overprint
+      descrive il comportamento delle intersezioni. Nel nostro stile le due caratteristiche sono sempre
+      unite, per scelta dell''utente: non vengono offerti due stili separati né una variante senza mescolanza.
+      Questo è un vincolo progettuale, non una definizione universale della risografia. I modi digitali
+      Hard Light e Color Burn degli allegati sono dimostrazioni grafiche, non impostazioni universali
+      della stampa Riso.
+
+      '
+    Operational References: 'Il profilo è autosufficiente. Gli allegati possono guidare uno studio mirato,
+      ma non sono dipendenze automatiche delle nuove card.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: Una card editoriale piatta, non un mockup del foglio
+    Adaptation: Ricomporre foto, passaggi di colore, carta libera e citazione per il formato.
+  Mood:
+  - Tattile
+  - Fotografico
+  - Cromatico
+  - Sperimentale
+  - Editoriale
+  - Leggibile
+  Color Palette:
+    Minimum Ink Count: 2
+    Default Ink Count: 2
+    Starting Colors:
+      Ink 1: '#2C4CA4, blu profondo'
+      Ink 2: '#F13F57, rosso corallo acceso'
+      Paper: '#F3ECD9, carta naturale chiara'
+    Roles: 'Ogni immagine o gruppo di forme appartiene a un passaggio d''inchiostro. La citazione usa
+      uno degli inchiostri con contrasto adeguato, oppure un negativo del colore carta su una massa densa.
+      Il nero non viene aggiunto automaticamente come terzo passaggio.
+
+      '
+    Overlap Colors: 'Nelle zone di overprint le due componenti restano percepibili e producono un tono
+      misto più scuro. Quel tono non è un nuovo inchiostro indipendente o una sagoma opaca appoggiata
+      sull''incrocio.
+
+      '
+    Variation: 'Scegliere gli inchiostri per il contenuto. Due sono il default e il minimo di questo stile
+      per rendere visibile la mescolanza cromatica, non un limite tecnico della risografia. Un terzo può
+      avere un ruolo chiaro su richiesta; non proporre una variante monocroma. Colore della carta e miscele
+      degli inchiostri non aumentano il conteggio.
+
+      '
+  Typography:
+    Quote:
+      Style: Grotesk o sans editoriale bold/black con forme aperte e proporzioni naturali
+      Case: 'Maiuscolo di visualizzazione come default, conservando la cassa originale nei dati. Una diversa
+        richiesta dell''utente prevale.
+
+        '
+      Treatment: 'Testo integrale una volta sola, con a capo per gruppi di senso. Il carattere può avere
+        un lieve deposito di stampa, senza sfaldare le parole o trasformare i bordi in una doppia immagine.
+        Il testo resta più saldo e leggibile degli strati fotografici.
+
+        '
+      Spacing: Kerning ottico, spazi fra parole naturali, nessuna deformazione per riempire le righe.
+    Attribution:
+      Style: Stesso linguaggio, più piccolo e leggero, con contrasto leggibile
+      Placement: 'Solo se fornita o verificata, allineata a destra su un asse chiaro. Recuperare lo spazio
+        se assente; una firma personale resta distinta.
+
+        '
+  Layout:
+    Principle: 'Carta, fotografia e testo partecipano alla stessa composizione. Un solo soggetto o più
+      frammenti fotografici possono occupare passaggi distinti, ma almeno due inchiostri si incontrano
+      sempre in una zona leggibile e producono un colore misto.
+
+      '
+    Overlap: 'Scegliere dove e perché gli strati si incontrano. La mescolanza è obbligatoria e visibile
+      a scala card, non un piccolo dettaglio accidentale. Una zona di mescolanza chiara vale più di molte
+      trasparenze casuali. Tenere riconoscibili sia i singoli soggetti sia il rapporto con la frase.
+
+      '
+    Reading Field: 'Dare alla citazione un campo leggibile, con pochi ancoraggi. Le immagini possono avvicinarsi
+      o passare dietro parte del testo, ma non richiedono pannelli opachi per rendere leggibili le parole.
+
+      '
+    Variation: 'Variare scala, taglio, direzione, carta libera e relazione fra strati. Non imporre sempre
+      una statua, un margine largo o la stessa immagine triplicata con piccoli spostamenti.
+
+      '
+  Imagery:
+    Medium: Fotografie o frammenti fotografici riprodotti per passaggi di colore
+    Selection: 'Scegliere il soggetto dal significato della frase e dal contesto. Statue, fiori, animali
+      e astronauti degli allegati sono esempi, non un repertorio obbligatorio.
+
+      '
+    Tone: 'Conservare superfici, volume e anatomia riconoscibili. La densità d''inchiostro modella i toni
+      attraverso grana, dithering o un retino fine coerente con l''opera. Le incisioni d''archivio sono
+      una variante su richiesta, non il default fotografico.
+
+      '
+    Layers: 'Pianificare pochi passaggi leggibili. Strati differenti possono contenere soggetti differenti;
+      non limitarsi a ricolorare luci e ombre di una singola foto come in un effetto bicromo.
+
+      '
+  Effects:
+    Riso Material: 'Grana minuta irregolare, piccoli vuoti d''inchiostro e copertura variabile sulle fibre
+      della carta. La finitura è matt e tattile, senza lucentezza; evitare una foto liscia con rumore
+      uniforme sopra. Non imporre il grosso retino a cerchi di Halftone a tutte le foto: la risografia
+      può usare dithering o retini di diversa frequenza.
+
+      '
+    Paper: 'Carta non patinata chiara, con fibra e porosità contenute. Calda o neutra secondo la palette;
+      non deve sembrare pergamena ingiallita, carta in rilievo 3D o una superficie uniformemente macchiata.
+
+      '
+    Registration: 'Piccoli scarti di un passaggio rispetto a un altro sono possibili, soprattutto ai bordi
+      delle immagini. Usarli con misura: niente effetto RGB sdoppiato su tutto il soggetto o testo sfocato.
+
+      '
+    Ink Wear: 'Variazioni di densità nelle campiture, piccoli trascinamenti o segni di pressione locali.
+      Il carattere materiale non dipende da grandi macchie, strappi o un bordo grunge standard.
+
+      '
+    Overprint:
+      Required: true
+      Default: selective
+      Modes:
+        selective: 'Una o poche intersezioni intenzionali mostrano la traslucenza degli inchiostri e un
+          colore misto, conservando dettagli dei due strati.
+
+          '
+        dominant: 'Più immagini o forme si attraversano e la mescolanza guida il collage; mantenere una
+          gerarchia leggibile e alcune zone non sovrapposte.
+
+          '
+      Constraint: 'Preferire pochi frammenti fotografici grandi e riconoscibili, con contorni e piani
+        sovrapposti leggibili; usare lo spazio fra i livelli per chiarire profondità e gerarchia. Le modalità
+        cambiano l''estensione dell''effetto, non la sua presenza. Non offrire none, knockout o strati
+        solo affiancati. Negli incroci mantenere dettagli dei passaggi e mescolanza, non un nuovo colore
+        opaco dipinto sopra né una semplice mappa bicroma di luci e ombre.
+
+        '
+  Graphic Elements:
+    Repertoire: Campiture, sagome fotografiche e pochi segni coerenti con i passaggi d'inchiostro
+    Restraint: 'Nessun cerchio dimostrativo, cornice ornamentale, etichetta tecnica, crocino di registro
+      o marchio è necessario per riconoscere lo stile.
+
+      '
+  Content Contract:
+    quotation: 'Frase completa una volta, parole, accenti e punteggiatura esatti. Il maiuscolo è una trasformazione
+      visiva; conservare il testo fonte.
+
+      '
+    author: Solo nome fornito o verificato, subordinato e allineato a destra.
+    other_text: Nessuna scritta demo, istruzione, data, logo o firma inventati.
+  Rules:
+  - Risograph include sempre overprint con mescolanza visibile di almeno due inchiostri.
+  - La grana appartiene agli inchiostri e alla carta, non a un filtro grunge generico.
+  - I soggetti e il loro incontro devono avere una relazione con la frase.
+  - Semplificare i frammenti fotografici in pochi livelli chiaramente distinguibili; conservare registro
+    e mescolanza overprint.
+  - Le miscele nelle intersezioni non sono un terzo colore opaco aggiunto.
+  - Mantenere integra e dominante la lettura della citazione.
+  - Non copiare soggetti, testi promozionali o composizioni degli allegati.
+  User Overrides:
+    Overprint: Regolare estensione e intensità tra selective e dominant, mantenendo sempre la mescolanza.
+    Palette: Sostituire gli inchiostri mantenendo ruoli e contrasto.
+    Paper: Cambiare colore e presenza della fibra senza trasformare il materiale in una texture digitale.
+    Format: Ricomporre immagine e testo per il rapporto richiesto.
+    Case: Rispettare la cassa originale o minuscola se richiesta.
+    Imagery: Usare i soggetti o le foto richiesti, conservando il trattamento di stampa.
+  Production:
+    Preferred Mode: generative
+    Print Accuracy: 'Simulazione visiva RGB. Non certifica formulazioni d''inchiostro, colori fluorescenti
+      reali, separazioni spot o una prova di stampa.
+
+      '
+    Validation Status: 'Ricerca e lettura di tutti gli allegati completate. L''utente ha scelto l''overprint
+      con mescolanza come caratteristica fissa. Il PNG con overprint selettivo è l''esempio corrente;
+      quello knockout è conservato solo come controllo storico, non come variante attiva. Testo verificato
+      integralmente e a 375 px di larghezza; la differenza di mescolanza è visibile. L''editing non conserva
+      identità pixel per pixel e il piccolo scarto di registro richiesto non è chiaramente verificabile.
+      Non sono testate ripetibilità, tutte le famiglie o la modalità dominant. Profilo e immagini precedenti
+      sono conservati; dettagli in confronto.md.
+
+      '
+Composition Library:
+  Style Name: Risograph
+  Selection:
+    Basis: 'Scegliere soggetti e significato dell''immagine dalla frase, poi una struttura principale.
+      Includere sempre overprint con mescolanza visibile di almeno due inchiostri; regolarne soltanto
+      l''estensione.
+
+      '
+    Variation: 'Per nuove card variare relazione tra immagini, ritaglio e carta libera; un nuovo colore
+      da solo non produce una nuova composizione.
+
+      '
+  Families:
+  - id: intersecting-images
+    Name: Incontro fra immagini
+    Use When: 'Due soggetti possono rendere concreto un incontro, una trasformazione o una relazione suggeriti
+      dalla frase.
+
+      '
+    Structure: 'Pochi frammenti fotografici di grande scala occupano passaggi di colore distinti. Un''intersezione
+      significativa deve mostrare il colore misto; altre aree conservano i singoli inchiostri e la carta
+      libera. Il blocco della citazione condivide un asse con l''incontro.
+
+      '
+    Text Adaptation: 'Scegliere a capo e posizione insieme ai soggetti. Tenere i nuclei delle lettere
+      fuori dalle intersezioni meno contrastate.
+
+      '
+    Format Adaptation: 'Rimodulare diagonale, scala e punto d''incontro per il formato, senza spostare
+      semplicemente lo stesso collage dentro una nuova cornice.
+
+      '
+  - id: open-plate-field
+    Name: Campo aperto e passaggi
+    Use When: 'Una frase media o lunga richiede più carta libera e un gruppo fotografico compatto ma sostanziale.
+
+      '
+    Structure: 'Il testo e i passaggi d''immagine si bilanciano attraverso pochi assi. La sovrapposizione
+      resta locale ma la mescolanza deve essere evidente a scala card; grana e densità rendono riconoscibile
+      il materiale anche dove gli strati non si incontrano.
+
+      '
+    Text Adaptation: 'Allargare il campo tipografico prima di ridurre troppo il corpo. Un eventuale nome
+      resta subordinato su un asse destro chiaro.
+
+      '
+    Format Adaptation: 'Scegliere nuovamente il rapporto tra carta, foto e parole secondo il formato,
+      preservando il ruolo del gruppo fotografico.
+
+      '
+  - id: single-subject-overprint
+    Name: Un soggetto, passaggi sovrapposti
+    Use When: 'Un solo soggetto pertinente basta e la composizione deve restare essenziale, senza rinunciare
+      alla mescolanza degli inchiostri.
+
+      '
+    Structure: 'Un''immagine ampia dialoga con la citazione. Un secondo passaggio fotografico, un ritaglio
+      dello stesso soggetto o una campitura pertinente attraversa una parte significativa della foto.
+      Nel punto d''incontro si leggono il colore misto e i dettagli sottostanti. Non basta assegnare due
+      colori alle luci e alle ombre della foto.
+
+      '
+    Text Adaptation: 'Integrare il testo al ritaglio o a una direzione della foto, mantenendo un percorso
+      di lettura completo e naturale.
+
+      '
+    Format Adaptation: 'Cambiare scala e ritaglio del soggetto per il formato richiesto, evitando la ripetizione
+      di un oggetto piccolo sotto un titolo.
+
+      '

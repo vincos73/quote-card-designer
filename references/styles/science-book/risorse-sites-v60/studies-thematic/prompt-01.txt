@@ -1,0 +1,16 @@
+Create ONE finished editorial quote card, portrait 4:5, full bleed, no mockup. The card combines the precise engraved illustration of a vintage science book with genuinely contemporary bold sans/grotesk typography and a modern poster hierarchy.
+
+Both attached images are visual REFERENCES, not edit targets. Reference 1 (blue dragonfly technical plate): transfer only intricate engraved linework, coherent wing venation, anatomical care and blue ink on softly warm paper. Reference 2 (butterfly with orange disc): transfer only the useful relationship of one clear graphic color accent, an engraved specimen and open reading fields. Do NOT copy either reference's text, headings, captions, species labels, measurements, frame, data tables, layout or stamp. Do not render their serif typography. Invent an original composition and original natural-history illustration.
+
+Exact Italian text, appearing ONCE and the ONLY text on the entire image:
+Le grandi scoperte cominciano dai piccoli dettagli.
+
+Typography: large modern editorial grotesk sans-serif, dark ink blue, medium/bold weight, natural optical kerning, normal word spacing and faithful glyph proportions. No serif, no decorative script, no monospaced technical labels, no artificial tracking to fill lines. Preserve original case, every word and final period. Suggested three reading groups, in clear order:
+Le grandi scoperte
+cominciano
+dai piccoli dettagli.
+Integrate these groups with the visual, not as a generic title sitting above a detached picture. The first group occupies the upper-left; the second sits on a middle-left axis; the final group anchors the lower-left. Preserve generous legible intervals and do not make connecting words tiny.
+
+Visual: one meticulously engraved dragonfly in dark blue ink, diagonally aligned on the right half, enlarged enough that its transparent lace-like wings reach into the open fields between the quotation groups. Every vein and body segment feels optically drawn with fine pen and engraved hatch, not glossy 3D. Keep all letters unobstructed and do not replace any letter with the insect. A thin outlined circular enlarged detail of a selected wing section sits near the lower-right and echoes the scale of the word "dettagli"; connect it to the wing with one restrained leader line, without labels. One matte coral partial disc is behind a small part of this enlarged wing detail, not an orange disc behind the whole insect. Maintain believable continuity of venation from main wing to detail. Very subtle pale warm ivory book-paper fibre, no theatrical age, no stains, no distressed edges. Two printed inks, navy and restrained coral; strong readable text contrast.
+
+This is an original conceptual natural-history illustration, not an authenticated historic plate, actual specimen, research finding or scientific document. No scales, dimensions, numbers, equations, labels, extra words, captions, author, signature, logo or watermark. No decorative frame, information table or science-fiction UI. Generate the complete final card, including typography, engraved drawing, paper and color accent, as one unified image.

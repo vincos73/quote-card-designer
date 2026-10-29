@@ -1,0 +1,84 @@
+Design Style:
+  Name: Carta Comune / Segni abitati
+  Status: Approvato per la libreria il 28 ottobre 2026; selezione V1 separata
+  Concept: Grandi segni tipografici aperti in sezione diventano luoghi di passaggio, parola e ascolto;
+    la frase occupa il loro campo condiviso.
+  Canvas:
+    Ratio: '4:5'
+    Output: Card raster completa, testo incluso
+    Adaptation: Ricomporre frase, soggetto e spazio nel formato richiesto, senza stirare lettere o ritagliare
+      testo.
+  Mood:
+  - Civico
+  - Colto
+  - Umano
+  - Aperto
+  Color Palette:
+    Policy: Pochi inchiostri armonici e contrasto locale alto; testo cromatico profondo, fondo chiaro
+    Examples:
+    - carta lilla, prugna e arancio mattone
+    - carta burro, blu cobalto profondo e ocra bruciata
+  Typography:
+    Quote: Capitali romane a grazie incisive, contatori aperti e proporzioni naturali
+    Hierarchy: Blocco chiaro; enfasi di corpo soltanto quando motivata; linee di larghezza variabile
+    Spacing: Kerning e spazi fra parole naturali, nessun tracking o compressione per riempire
+    Attribution: Facoltativa; solo fornita o verificata, esatta, più piccola e allineata a destra. Se
+      assente, recuperare lo spazio.
+    Signature: Solo se richiesta, distinta dall’attribuzione; registro subordinato. Nessun nome ricavato
+      dal profilo personale.
+  Layout:
+    Essential Relation: Il segno aperto e l'attività umana incisa modellano lo spazio della frase
+    Variable: Posizioni, crop, percorso, glifo, soggetti e masse cambiano secondo il senso
+    Examples:
+    - campo negativo laterale dentro una forma curva aperta
+    - campo comune centrale fra due forme opposte diagonali
+  Imagery:
+    Treatment: Campiture da matrice stampata, tagli in sezione, tratteggio fine di incisione e persone
+      ordinarie
+    Repertoire: Aperto, scelto dalla frase; nessun oggetto obbligatorio
+    Exclusions: Sigilli istituzionali, finti documenti, tribunali e bilance usati come automatismo
+  Production:
+    Preferred Mode: generative
+    Method: ImageGen integrato per la composizione completa, testo incluso; nessuna scritta impaginata
+      sopra un fondo generato.
+    Reference Inputs: Nessuna reference permanente. Gli input delle edit storiche sono archiviati con
+      ruolo esplicito e non diventano un requisito delle card future.
+    Validation Status: Due frasi diverse e due palette/composizioni provate e approvate. Nativi 1122×1402
+      px, quasi 4:5. Altre lunghezze, attribuzioni e formati non provati; nessun font esatto o contrasto
+      raster certificato.
+  Rules:
+  - Frase letterale, nessun testo aggiunto e nessun autore inventato
+  - Non simulare atti normativi o consulenza legale
+  - Non coprire o comprimere le lettere con il visual
+  - Conservare file nativi, prompt effettivi e limiti osservati
+  - Nessuna reference viene resa permanente
+  - Se la riconoscibilità del segno scelto serve alla frase, non ritagliarlo fino a perderla; tenere la
+    carta libera attorno alle lettere senza toppe accidentali.
+  Content Contract:
+    quotation: Testo letterale una volta, con cassa, accenti e punteggiatura conservati.
+    other_text: Nessun autore, firma, etichetta, logo o dato inventato.
+Composition Library:
+  Style Name: Carta Comune / Segni abitati
+  Selection:
+    Basis: Scegliere soggetto e struttura dal significato della frase, dai gruppi di senso e dal formato.
+    Variation: Le famiglie sono repertorio aperto, non layout fissi. Variare masse, assi e tagli oltre
+      alla palette.
+  Families:
+  - id: inhabited-passage
+    Name: Passaggio abitato
+    Use When: Il testo parla di accesso, regole, soglie o diritti.
+    Structure: Un segno aperto offre un percorso interno alle figure; frase e spazio negativo condividono
+      il campo.
+    Text Adaptation: A capo per gruppi di senso e larghezze naturali. Risolvere ingombri muovendo il visual
+      o scalando il blocco uniformemente; nessun tracking o compressione per pareggiare righe.
+    Format Adaptation: Ricomporre le masse per il rapporto richiesto; non ritagliare semplicemente l’esempio.
+      Attribuzione eventuale su un asse destro leggibile.
+  - id: shared-field
+    Name: Campo di parola
+    Use When: Il testo parla di ascolto, partecipazione o relazione pubblica.
+    Structure: Due forme o superfici in dialogo inquadrano il campo della frase; le figure rendono percepibile
+      lo scambio.
+    Text Adaptation: A capo per gruppi di senso e larghezze naturali. Risolvere ingombri muovendo il visual
+      o scalando il blocco uniformemente; nessun tracking o compressione per pareggiare righe.
+    Format Adaptation: Ricomporre le masse per il rapporto richiesto; non ritagliare semplicemente l’esempio.
+      Attribuzione eventuale su un asse destro leggibile.

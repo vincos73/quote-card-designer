@@ -1,0 +1,185 @@
+Design Style:
+  Name: Cut Paper
+  Status: Revisione materica dalle reference del 28 ottobre 2026, stato di catalogo conservato
+  Concept: 'La frase prende forma attraverso tagli reali in carta colorata. Le lettere possono essere
+    aperture che rivelano altri fogli, lembi ancora uniti al supporto e sollevati lungo una piega, oppure
+    elementi ritagliati sovrapposti. Il realismo nasce da fibre, bordo sottile, continuità delle cerniere
+    di carta e ombre di contatto. La tipografia è il soggetto principale.
+
+    '
+  Reference Basis:
+    Transfer: 'La prima reference informa le lettere parzialmente tagliate e ripiegate verso l''esterno,
+      con il colore sottostante visibile nei vuoti. La seconda informa le lettere asportate da un foglio
+      superiore e le carte colorate visibili attraverso le aperture, insieme a scarti e bordi irregolari.
+
+      '
+    Independence: 'Non copiare testi, nomi, firma editoriale, numero di righe o silhouette precisa degli
+      allegati. Carta gialla o azzurra e fondo a stelle non sono obblighi dello stile. Le reference informano
+      il progetto scritto, senza diventare input permanenti automatici.
+
+      '
+  Canvas:
+    Ratio: '4:5'
+    Output: Una card completa, fotografia frontale o quasi zenitale di un lavoro di carta
+    Adaptation: Ricomporre fogli e frase senza cornice, mockup ambientato o testo ritagliato dal bordo.
+  Mood:
+  - Tattile
+  - Artigianale
+  - Fotografico
+  - Giocoso
+  - Essenziale
+  - Tridimensionale
+  Color Palette:
+    Fixed Colors: false
+    Strategy: 'Pochi colori pieni di carte opache. Distinguere foglio superiore e materiale visibile attraverso
+      i tagli per tinta e luminosità; nessun gradiente stampato deve simulare la profondità. Palette adattabile.
+
+      '
+    Starting Colors:
+      Top Sheet: '#EDC52A'
+      Underlayer: '#103B48'
+      Alternate Top: '#79CEC8'
+      Alternate Underlayer: '#E7744D'
+      Ground: '#215B4D'
+    Adaptation: Applicare la palette anche agli scarti e a un eventuale piccolo disegno.
+  Typography:
+    Quote: 'Lettere ampie dal disegno coerente e naturalmente proporzionato, compatibili con lama o forbice
+      e con controforme leggibili. Il taglio attraversa fisicamente la carta: non un font piatto con ombra.
+      Una voce sans serif solida è un punto di partenza, non un font certificato.
+
+      '
+    Cut Mechanics: 'Nelle lettere sollevate lasciare una parte del contorno attaccata al foglio come cerniera,
+      con piega e verso del ribaltamento comprensibili. Non incollare una lettera piena sopra un foro
+      identico senza raccordo. Nei tagli per sottrazione mostrare i bordi interni e il foglio sottostante;
+      preservare i centri di A, O, P, R e simili mediante linguette discrete oppure piccoli elementi riapplicati
+      sullo strato inferiore.
+
+      '
+    Hierarchy: 'Frase prima lettura, a capo per senso e scala scelta per il significato. Proporzioni dei
+      glifi coerenti, spazi naturali e kerning ottico; non allargare il tracking per pareggiare le righe
+      o schiacciare una parola.
+
+      '
+    Integrity: 'Testo esatto una volta sola, incluse cassa, accenti e punteggiatura. Segni e accenti seguono
+      la stessa lavorazione; le ombre non devono sembrare caratteri duplicati né chiudere le controforme.
+
+      '
+    Attribution: 'Solo fornita o verificata, più piccola e quieta, leggibile e allineata a destra. Può
+      usare un registro di carta più semplice o una stampa discreta coerente. Se assente ricomporre senza
+      segnaposto.
+
+      '
+  Layout:
+    Principle: 'Scegliere una lavorazione principale e renderla evidente in tutta la frase: taglio e piega,
+      sottrazione oppure sovrapposizione. Carta, parole, luce e profondità condividono la stessa scena
+      e scala fisica.
+
+      '
+    Breathing Space: 'I vuoti fra lettere e righe lasciano leggere tagli e ombre. Pochi scarti possono
+      documentare il lavoro manuale ai bordi; non riempire il campo di coriandoli o trasformarlo in uno
+      sfondo decorativo indipendente.
+
+      '
+    Imagery: 'Un piccolo disegno pertinente è facoltativo e può nascere dagli stessi tagli o da uno scarto
+      complementare. La tipografia materica può sostenere da sola la composizione, come nelle nuove reference.
+
+      '
+    Adaptation: Per frasi lunghe semplificare scarti e piani e ricomporre i gruppi prima di ridurre il
+      testo.
+  Elements:
+    Paper: 'Carta colorata opaca o cartoncino sottile non plastificato: fibre fini, piccole variazioni
+      di superficie e leggerissimi punti del materiale. Spessore coerente e sottile, senza sembrare legno,
+      schiuma o metallo.
+
+      '
+    Cut Edges: 'Bordi di lama nitidi con imperfezioni locali minime, qualche fibra visibile in macro.
+      Distinguere il taglio intenzionale dallo strappo; non imporre bordi pelosi o una texture da carta
+      lacerata a ogni glifo.
+
+      '
+    Folds: 'Pieghe nette ma non perfette, raccordate al foglio e con graduale curvatura nei lembi più
+      larghi. Inclinazioni variabili ma compatibili con i punti rimasti attaccati; riflessi opachi, senza
+      lucentezza metallica.
+
+      '
+    Layers: 'Pochi fogli sotto il piano superiore, visibili nei tagli e talvolta ai margini. Il materiale
+      inferiore deve proseguire coerentemente sotto più aperture invece di diventare una texture diversa
+      in ogni lettera.
+
+      '
+    Offcuts: Pochi frammenti riconoscibili, compatibili con i tagli eseguiti, subordinati al testo.
+  Effects:
+    Light: 'Una luce laterale reale rende leggibili lembi sollevati, bordi e fibre. Le ombre cambiano
+      lunghezza e morbidezza con l''altezza dalla carta, con contatto scuro vicino al bordo e diffusione
+      più lontano.
+
+      '
+    Depth: 'Profondità leggera da fogli e pieghe, non estrusione volumetrica delle lettere. Nelle aperture,
+      ombra interna sullo strato inferiore. Nei lembi, ombra proiettata coerente col verso della luce
+      e con la cerniera.
+
+      '
+    Photography: Fuoco sufficiente su tutta la frase, dettagli tattili e saturazione credibile della carta.
+  Content Contract:
+    quote: Testo completo esatto una volta sola, conservando cassa e punteggiatura.
+    author: Facoltativo, fornito o verificato, subordinato e allineato a destra.
+    other_text: Nessun credito, marchio, firma o testo ornamentale inventati.
+  Rules:
+  - Il taglio deve costruire le lettere, non solo decorare il fondo.
+  - Rendere fisicamente comprensibili attacchi, pieghe, aperture e strati.
+  - Dare priorità a testo e dettaglio materico rispetto a disegni o scarti.
+  - Conservare palette variabile, proporzioni naturali e spaziatura ottica.
+  - Non confondere carta tagliata con pochoir stampato, impasto pittorico o rilievo spesso.
+  - Non copiare nomi, frasi o impaginati degli allegati.
+  Exclusions:
+  - Font piatto con drop shadow uniforme o bordo digitale finto
+  - Lettere piene estruse, plastica, gomma, legno o metallo
+  - Sollevamenti senza attacchi, isole sospese o pieghe impossibili
+  - Disegno obbligatorio, motivi da Matisse o paesaggi predefiniti
+  - Carta di giornale o caratteri presi da font diversi salvo richiesta
+  Production:
+    Preferred Mode: generative
+    Method: ImageGen per tutta la card, inclusi testo, tagli, pieghe, carte e ombre.
+    Validation Status: Due lavorazioni su due frasi diverse controllate a dimensione nativa e 320 × 400
+      pixel. Accento grave e punti verificati; costruibilità fisica non certificata. Altri formati e attribuzione
+      non provati.
+Composition Library:
+  Style Name: Cut Paper
+  Selection:
+    Principle: Scegliere una lavorazione principale dalla frase e dal formato.
+    Variation: Alternare relazione fra pieni e vuoti, pieghe, silhouette e profondità.
+  Families:
+  - id: hinged-lettering
+    Name: Lettere tagliate e sollevate
+    Use When: Una frase breve si presta a un'insegna di carta molto materica.
+    Structure: 'Le lettere vengono incise nel foglio e sollevate su cerniere di carta; il colore sottostante
+      compare nei vuoti e le ombre descrivono ogni inclinazione. Tutto il testo appartiene allo stesso
+      lavoro manuale.
+
+      '
+    Text Adaptation: Preservare il disegno leggibile dei glifi; evitare ombre che producano doppie parole.
+    Format Adaptation: Ricomporre righe e dimensione del foglio mantenendo visibili pieghe e lettere.
+  - id: negative-space-sheet
+    Name: Lettere in negativo sul foglio
+    Use When: La frase può emergere da aperture nette con forte contrasto cromatico.
+    Structure: 'Un foglio superiore ampio contiene la frase asportata. Uno o due fogli inferiori continui
+      si vedono nelle aperture. Scarti limitati e un bordo manuale irregolare completano il lavoro senza
+      riempire il campo.
+
+      '
+    Text Adaptation: Controforme sostenute da linguette o riapplicate al piano inferiore; ordine di lettura
+      chiaro.
+    Format Adaptation: Variare silhouette del foglio e gruppi della frase, senza allargare il tracking.
+  - id: connecting-cut
+    Name: Taglio che collega
+    Use When: Il testo parla di distanza, relazione o passaggio.
+    Structure: Due masse di carta e un piccolo elemento facoltativo collegano i gruppi attorno a un vuoto
+      significativo.
+    Text Adaptation: La frase resta dominante e materialmente realizzata con tagli leggibili.
+    Format Adaptation: Adattare masse e vuoti al rapporto senza ridurre il testo a didascalia.
+  - id: complementary-offcut
+    Name: Scarto complementare
+    Use When: Il contenuto riguarda trasformazione, scelta o possibilità.
+    Structure: Una forma rimossa e il suo vuoto si leggono come complementi e orientano i gruppi di parole.
+    Text Adaptation: Usare pochi scarti e conservare la frase una volta sola.
+    Format Adaptation: Ricomporre fogli, aperture e spazio libero per il rapporto richiesto.

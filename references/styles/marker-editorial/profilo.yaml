@@ -1,0 +1,210 @@
+Design Style:
+  Name: Marker Editorial
+  Version: 0.2.0-experimental
+  Status: V1 candidate; variante con testo scritto a pennarello apprezzata dall'utente
+  Concept: 'La citazione incontra interventi manuali di marker: frecce, cerchi, ripassi, scarabocchi e
+    sottolineature. Due registri alternativi: caratteri stampati netti oppure frase scritta a mano con
+    pennarello. L''evidenziatore seleziona le parole importanti. Una variante integra una fotografia scarabocchiata.
+
+    '
+  Canvas:
+    Ratio: '4:5'
+    Output: Composizione editoriale piatta a piena pagina.
+    Adaptation: Ricomporre frase, gesti e fotografia per il formato richiesto.
+  Mood:
+  - Diretto
+  - Gestuale
+  - Spontaneo
+  - Energico
+  - Tattile
+  - Editoriale
+  Color Palette:
+    Fixed Colors: false
+    Starting Palette:
+      Paper: '#FAFAF7'
+      Type and Marker: '#111111'
+      Highlighter: '#D9FF00'
+    Roles: 'Un colore scuro sostiene caratteri e marker coprente; un evidenziatore traslucido crea accenti
+      e sovrapposizioni su un campo chiaro. Nella variante fotografica il monocromo è un punto di partenza,
+      non un obbligo. Adattare i colori preservando i contrasti locali.
+
+      '
+  Typography:
+    Quote: 'Caratteri tipografici senza grazie, forti, leggibili e con proporzioni naturali nel registro
+      stampato. La frase è sempre la prima lettura. Scegliere il registro stampato o scritto a mano in
+      base alla richiesta; non imporre la tipografia stampata alla variante con scrittura marker. Preferire
+      larghezze normali; una condensazione moderata è facoltativa. Contatori aperti, spazi naturali e
+      a capo per gruppi di senso.
+
+      '
+    Marker Handwriting: 'Alternativa esplicita: scrittura manuale a pennarello nero o altro inchiostro
+      scuro. Lettere riconoscibili, dimensioni e inclinazioni leggermente variabili, basi mobili, spazi
+      spontanei, ripassi e variazioni di pressione plausibili. Una stessa mano per la frase. Conservare
+      il maiuscolo o minuscolo richiesto. Evitare font stampati semplicemente usurati e calligrafia a
+      pennello troppo rifinita.
+
+      '
+    Highlighter Emphasis: 'Cerchiare o sottolineare soltanto parole e gruppi di senso rilevanti. Tratti
+      traslucidi, passaggi irregolari e spessori variabili; non evidenziare sistematicamente tutte le
+      righe. Le parole restano integre.
+
+      '
+    Integrity: 'Conservare parole, maiuscole o minuscole, accenti e punteggiatura forniti, una sola volta.
+      Non aggiungere il punto se non richiesto. Non duplicare la citazione come testo cancellato o decorazione.
+
+      '
+    Attribution: 'Solo se fornita o verificata, più piccola e leggera, allineata a destra su un asse chiaro.
+      Nessuna firma personale aggiunta senza richiesta.
+
+      '
+  Layout:
+    Relationship: 'La frase organizza il foglio; i gesti rispondono a parole e gruppi di senso. Distribuire
+      pieni e vuoti in modo diseguale, evitando cornici uniformi o raggi simmetrici intorno a un blocco
+      centrale.
+
+      '
+    Marks: 'Scegliere pochi segni con funzione riconoscibile: richiamare, evidenziare, collegare o suggerire
+      un processo di revisione. Cerchi irregolari, ripassi e aperture possono esprimere imperfezione.
+      Frecce, scarabocchi e ovale non sono ingredienti obbligatori. Alcuni segni possono diventare simboli
+      o piccoli disegni pertinenti al contenuto, riconoscibili ma tracciati a mano. Alternare segni astratti
+      e figurativi quando serve; nessun simbolo fisso per lo stile. Evitare la regolarità di icone, curve
+      geometriche e set decorativi.
+
+      '
+    Overlap: 'Un tratto traslucido può attraversare le lettere mantenendole leggibili. Il marker scuro
+      evita le parole necessarie; una cancellatura non deve nascondere il contenuto richiesto. Preservare
+      i punti delle i.
+
+      '
+    Density: 'Per frasi lunghe ridurre numero e dimensione dei segni prima del corpo del testo. Conservare
+      margini e spazi di lettura.
+
+      '
+  Imagery:
+    Optional Photograph: 'Persona, oggetto o luogo scelto in relazione alla frase. Conservare dettaglio,
+      volumi e carattere fotografico; lasciare spazi utili alle parole. Il soggetto non deve prevalere
+      sulla citazione.
+
+      '
+    Intervention: 'Applicare scarabocchi, cerchi e ripassi ad alcune parti della foto e proseguirli sul
+      foglio per unire i livelli. Evitare un semplice bordo decorativo. Mantenere riconoscibile il soggetto
+      e proteggere i dettagli focali se non viene chiesto di coprirli.
+
+      '
+    Supplied Photo: 'Distinguere le reference di stile dalle fotografie da modificare. Per un target fornito
+      conservare identità e dettagli richiesti. Un ritratto generato è una persona immaginaria, non una
+      foto d''archivio.
+
+      '
+  Effects:
+    Opaque Marker: 'Pennarello a punta larga o scalpello: nucleo d''inchiostro denso, estremità smussate,
+      variazioni di pressione e piccole striature da contatto. Non sostituirlo con pennellate a setole
+      molto sfrangiate. Conservare esitazioni, cambi d''angolo, ripassi leggermente sfalsati, pause con
+      accumulo d''inchiostro e brevi tratti scarichi. Lo spessore può diminuire per un disegno: non tutti
+      i segni devono essere massicci.
+
+      '
+    Highlighter: 'Pigmento fluorescente traslucido, sovrapposizioni più dense e bordi leggermente irregolari.
+      Nessun bagliore digitale.
+
+      '
+    Surface: Carta opaca chiara, con fibra fine; nessun obbligo di usura vintage.
+  Rules:
+  - La frase rimane completa, immediata e preminente.
+  - I segni interpretano il contenuto e non riempiono soltanto il vuoto.
+  - Nel registro stampato, la tipografia netta contrasta con il gesto manuale.
+  - Nel registro scritto a mano, frase e segni condividono una mano plausibile.
+  - Palette, soggetto, posizione del testo e repertorio di gesti sono variabili.
+  - Nessun marchio, etichetta, numero, firma o testo aggiuntivo non richiesto.
+  Development:
+    Reference Notes: note.md
+    Examples:
+    - Image: prova-1.png
+      Prompt: prompt-prova-1.md
+      Family: tipografia-segnata
+    - Image: prova-2.png
+      Prompt: prompt-prova-2.md
+      Family: fotografia-scarabocchiata
+    - Image: prova-3.png
+      Prompt: prompt-prova-3.md
+      Family: tipografia-segnata
+    - Image: prova-4.png
+      Prompt: prompt-prova-4.md
+      Family: tipografia-segnata
+    - Image: prova-5.png
+      Prompt: prompt-prova-5.md
+      Family: scrittura-marker
+    Validation: 'Tre composizioni generate e ispezionate: frase dimostrativa breve in maiuscolo, sua variante
+      con ritratto immaginario e frase utente più lunga in minuscolo. Testi corretti, nessun punto finale
+      aggiunto. Le prime due prove hanno tratti più sfrangiati e tipografia più condensata del previsto.
+      La terza migliora la resa del feltro e usa un carattere più largo. Attribuzioni, altre palette e
+      foto fornite come target non provate. Nessuna prova di ripetibilità generale. La quarta prova modifica
+      la terza su richiesta: lampadina abbozzata, scarabocchio libero e tratti con ripassi e vuoti d''inchiostro.
+      Frase e impaginazione restano visivamente coerenti con la base. La quinta sostituisce il testo stampato
+      con scrittura marker in minuscolo: frase corretta, le idee sottolineato e perfette cerchiato. Un
+      solo esempio di questo registro; altre frasi non ancora provate.
+
+      '
+Composition Library:
+  Style Name: Marker Editorial
+  Selection:
+    Basis: 'Scegliere la struttura in base alla frase e alla presenza di una fotografia pertinente e al
+      registro stampato o scritto a mano. Gerarchia della frase e interventi manuali restano i principi
+      comuni; nessuna sequenza di gesti è obbligatoria.
+
+      '
+    Variation: 'Variare posizione del testo, densità e direzione dei segni, colore dell''evidenziatore,
+      scala e taglio della fotografia. Non replicare automaticamente le coordinate o il ritratto di una
+      singola prova.
+
+      '
+  Families:
+  - id: scrittura-marker
+    Name: Frase a pennarello e parole evidenziate
+    Use When: Si richiede una frase scritta a mano o un tono da appunto spontaneo.
+    Structure: 'Frase dominante scritta con un pennarello plausibile, accompagnata da pochi scarabocchi
+      o disegni pertinenti. Un evidenziatore traslucido sottolinea o cerchia i gruppi di senso importanti,
+      senza coprire tutto.
+
+      '
+    Text Adaptation: 'Conservare lettere, caso e punteggiatura. A capo per senso, spazi leggibili e dimensioni
+      adattate alla lunghezza; non comprimere le parole per imitare un impaginato stampato. Irregolarità
+      controllate.
+
+      '
+    Format Adaptation: 'Ricomporre righe e gesti per il formato, conservando margini e vuoti. Il disegno
+      resta secondario. Nessun obbligo di lampadina o ovale.
+
+      '
+  - id: tipografia-segnata
+    Name: Frase stampata e interventi manuali
+    Use When: La frase può sostenere da sola il messaggio visivo.
+    Structure: 'Un gruppo di parole dominante e pochi gesti che ne guidano la lettura. Vuoti diseguali,
+      accenti mirati e possibili tracce di revisione. L''ovale è una possibilità, non una cornice obbligatoria.
+      Quando pertinente, un gesto diventa un piccolo disegno o simbolo del contenuto, con irregolarità
+      e ripassi da pennarello reale.
+
+      '
+    Text Adaptation: 'Scegliere a capo per senso, evidenziare una parte significativa senza nascondere
+      lettere. Ridurre i gesti prima di ridurre il corpo.
+
+      '
+    Format Adaptation: 'Ridistribuire frase e intervalli, ricomponendo le direzioni dei tratti senza tagliare
+      parole o imporre una posizione centrale.
+
+      '
+  - id: fotografia-scarabocchiata
+    Name: Fotografia, frase e marker
+    Use When: Un soggetto fotografico aggiunge significato alla frase.
+    Structure: 'La fotografia condivide il foglio con parole stampate; i segni attraversano parte dell''immagine
+      e continuano fuori dal suo bordo. Foto e frase vengono composte insieme, con gerarchia del testo.
+
+      '
+    Text Adaptation: 'Cercare campi liberi nel taglio fotografico e sovrapposizioni leggibili. Per una
+      frase lunga ridurre la scala del soggetto.
+
+      '
+    Format Adaptation: 'Ricomporre ritaglio, spazi e gesti per il formato. Nessun obbligo di ritratto
+      a destra, foto rettangolare o fascia di testo in basso.
+
+      '
