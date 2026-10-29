@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#ffffff">
-  <meta name="description" content="Esplora i 50 stili visivi inclusi in Quote Card Designer.">
+  <meta name="theme-color" content="#191d23">
+  <meta name="description" content="Esplora i __STYLE_COUNT__ stili visivi inclusi in Quote Card Designer.">
   <title>Catalogo stili · Quote Card Designer</title>
   <link rel="stylesheet" href="assets/catalog.css">
 </head>
-<body>
+<body class="indice">
   <a class="skip-link" href="#catalogo">Vai al catalogo</a>
   <header class="site-header" id="top">
-    <a class="wordmark" href="#top">Quote Card Designer</a>
+    <a class="wordmark" href="#top" aria-label="Quote Card Designer, inizio"><img class="brand-logo" src="assets/logo.svg" alt="Quote Card Designer" width="700" height="64"></a>
     <span class="header-meta">Catalogo visivo <span aria-hidden="true">·</span> __CATALOG_VERSION__</span>
   </header>
   <div class="page-layout">
@@ -23,7 +23,7 @@
     <main id="catalogo" class="catalog" tabindex="-1">
       <div class="catalog-heading">
         <div><h1 id="page-title">__STYLE_COUNT__ stili</h1><p class="catalog-intro">Scegli uno stile e copia il nome per creare la tua quote card.</p></div>
-        <label class="search-field"><span class="visually-hidden">Cerca uno stile</span><span class="search-icon" aria-hidden="true">⌕</span><input id="search-input" type="search" autocomplete="off" placeholder="Cerca uno stile o una tecnica"><kbd aria-hidden="true">/</kbd></label>
+        <label class="search-field"><span class="visually-hidden">Cerca uno stile</span><svg class="search-icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search-input" type="search" autocomplete="off" placeholder="Cerca uno stile o una tecnica"><kbd aria-hidden="true">/</kbd></label>
       </div>
       <div class="mobile-filter"><label for="family-filter">Categoria</label><select id="family-filter"><option value="">Tutte le categorie</option></select></div>
       <div class="results-line"><p id="result-count" role="status" aria-live="polite">__STYLE_COUNT__ stili</p><button id="reset-filters" class="reset-button" type="button" hidden>Azzera filtri</button></div>
@@ -35,7 +35,7 @@
   </div>
   <dialog class="zoom-dialog" id="zoom-dialog" aria-labelledby="dialog-title">
     <div class="dialog-frame">
-      <div class="dialog-heading"><div><p class="dialog-kicker">Esempio ingrandito</p><h2 id="dialog-title"></h2></div><button class="close-button" id="dialog-close" type="button" aria-label="Chiudi l’esempio">×</button></div>
+      <div class="dialog-heading"><div><h2 id="dialog-title"></h2></div><button class="close-button" id="dialog-close" type="button" aria-label="Chiudi l’esempio">×</button></div>
       <img id="dialog-image" alt=""><p class="dialog-caption" id="dialog-caption"></p>
     </div>
   </dialog>

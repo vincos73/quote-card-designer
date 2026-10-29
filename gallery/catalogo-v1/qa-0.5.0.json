@@ -1,0 +1,44 @@
+{
+  "skill_version": "0.5.0",
+  "styles": 103,
+  "categories": 11,
+  "previous_style_entries_and_previews_preserved": 50,
+  "added_styles": 53,
+  "source_interface_version": 5,
+  "source_interface_commit": "1ed9f83416baa108d9d4539e56b7c2df3356f0e4",
+  "previous_site_files_preserved": 68,
+  "previous_site_files_changed": [
+    "asset-manifest.json",
+    "dist/index.html",
+    "src/style-data.json",
+    "dist/assets/monochrome-newspaper.jpg",
+    "dist/assets/editor-canvas.jpg"
+  ],
+  "release_selection_exact_match": true,
+  "preview_hashes_checked": 103,
+  "build": "passed",
+  "javascript_syntax": "passed",
+  "browser_checks": {
+    "version_and_count": "0.5.0; 103 styles",
+    "search_oneline": "1 style",
+    "search_embossed": "Embossed Paper only",
+    "search_debossed": "Debossed Paper only",
+    "category_filter": "4 geometry and pattern styles including Optical and Neo Mondrian",
+    "details": "Oneline description visible",
+    "copy_name": "Nome copiato: Oneline",
+    "zoom": "Oneline featured example 4 displayed; Escape closes dialog"
+  },
+  "limits": [
+    "No new card generation",
+    "Only the public catalog is updated; development gallery is separate"
+  ],
+  "public_site_version": 6,
+  "public_browser_verification": "Catalogo visivo 0.5.0; 103 stili",
+  "access_policy_unchanged": true,
+  "access_policy_revision": 2,
+  "diff_check": {
+    "result": "passed_except_unchanged_vendor_license",
+    "preserved_license": "gallery/catalogo-v1/src/assets/Archivo-OFL.txt",
+    "note": "Un singolo spazio finale era già presente nella licenza Archivo della versione Sites 5; il file è conservato byte per byte."
+  }
+}

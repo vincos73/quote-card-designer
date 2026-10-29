@@ -52,6 +52,6 @@ L'installazione locale in Codex non installa automaticamente la skill in ogni es
 - [`SKILL.md`](SKILL.md) e [`references/catalogo-v1.yaml`](references/catalogo-v1.yaml) definiscono il flusso e i 103 stili distribuiti.
 - La [gallery di sviluppo](https://quote-card-designer-style-gallery.vincos.chatgpt.site/) è riservata al proprietario e agli ospiti autorizzati. Contiene anche stili candidati e sperimentali: la presenza in gallery non implica l'inclusione nella release.
 - [`gallery/catalogo-v1/`](gallery/catalogo-v1/README.md) contiene i sorgenti riproducibili del catalogo pubblico. [Stato della gallery di sviluppo](gallery/GALLERY-STATUS.md): versione pubblicata, candidati e differenze con la build locale.
-- [Note della release 0.5.0](releases/0.5.0.md): selezione, verifiche e limiti. Il catalogo visivo e i badge della gallery possono precedere questa release: per gli stili disponibili fa fede il catalogo incluso nello ZIP.
+- [Note della release 0.5.0](releases/0.5.0.md): selezione, verifiche e limiti. Il catalogo visivo pubblico è allineato ai 103 stili della release; la gallery di sviluppo resta separata. [Pubblicazione e verifiche del catalogo](gallery/catalogo-v1/README.md).
 
 Per rigenerare la gallery: installa le dipendenze con `python3 -m pip install -r gallery/requirements.txt`, poi esegui `python3 gallery/build.py`. Per creare uno ZIP della skill: `python3 gallery/package_skill.py`. La build locale può contenere studi non ancora pubblicati; confronta le differenze prima di aggiornare il sito.

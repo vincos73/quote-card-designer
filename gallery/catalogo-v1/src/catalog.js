@@ -39,7 +39,7 @@
     const card = document.createElement('article'); card.className = 'style-card'; card.dataset.styleId = style.id;
     const sample = document.createElement('button'); sample.type = 'button'; sample.className = 'sample-button'; sample.setAttribute('aria-label', `Ingrandisci esempio di ${style.name}`);
     const image = document.createElement('img'); image.src = style.asset; image.alt = `Esempio visivo dello stile ${style.name}`; image.width = style.width; image.height = style.height; image.loading = 'lazy'; image.decoding = 'async';
-    const hint = document.createElement('span'); hint.className = 'zoom-hint'; hint.setAttribute('aria-hidden', 'true'); hint.textContent = '↗'; sample.append(image, hint);
+    const hint = document.createElement('span'); hint.className = 'zoom-hint'; hint.setAttribute('aria-hidden', 'true'); hint.innerHTML = "<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M8 4H4v4m12-4h4v4M4 16v4h4m12-4v4h-4\"/></svg>"; sample.append(image, hint);
     sample.addEventListener('click', () => {
       lastTrigger = sample; document.getElementById('dialog-title').textContent = style.name;
       const image = document.getElementById('dialog-image'); image.src = style.asset; image.alt = `Esempio visivo ingrandito dello stile ${style.name}`; image.width = style.width; image.height = style.height;
@@ -48,11 +48,11 @@
     const row = document.createElement('div'); row.className = 'card-row';
     const heading = document.createElement('h2'); heading.className = 'card-title';
     const number = document.createElement('span'); number.className = 'card-number'; number.textContent = String(style.index).padStart(2, '0'); heading.append(number, document.createTextNode(style.name));
-    const copy = document.createElement('button'); copy.type = 'button'; copy.className = 'copy-button'; copy.textContent = 'Copia nome'; copy.setAttribute('aria-label', `Copia nome ${style.name}`); copy.addEventListener('click', () => copyName(style.name));
+    const copy = document.createElement('button'); copy.type = 'button'; copy.className = 'copy-button'; copy.innerHTML = "<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"8\" y=\"8\" width=\"12\" height=\"12\" rx=\"1\"/><path d=\"M16 8V4H4v12h4\"/></svg><span>Copia nome</span>"; copy.setAttribute('aria-label', `Copia nome ${style.name}`); copy.addEventListener('click', () => copyName(style.name));
     row.append(heading, copy);
     const meta = document.createElement('p'); meta.className = 'card-meta'; meta.textContent = 'Incluso nella 0.4.0';
     const details = document.createElement('details'); details.className = 'card-details';
-    const summary = document.createElement('summary'); summary.textContent = 'Descrizione';
+    const summary = document.createElement('summary'); summary.textContent = 'Dettagli';
     const description = document.createElement('p'); description.textContent = style.summary;
     const family = document.createElement('p'); family.className = 'card-family'; family.textContent = style.familyName;
     details.append(summary, description, family); card.append(sample, row, meta, details); return card;

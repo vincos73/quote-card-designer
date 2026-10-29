@@ -35,6 +35,8 @@ def build(output: Path) -> None:
     (output / 'index.html').write_text(page)
     for name in ('catalog.css', 'catalog.js'):
         shutil.copy2(src / name, output / 'assets' / name)
+    if (src / 'assets').is_dir():
+        shutil.copytree(src / 'assets', output / 'assets', dirs_exist_ok=True)
     print(f'{output}: {len(ids)} stili, {len(families)} categorie')
 
 

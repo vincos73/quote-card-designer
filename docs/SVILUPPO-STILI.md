@@ -1,5 +1,18 @@
 # Libreria condivisa fra portatile e iMac
 
+## Catalogo pubblico e installazione · 29 ottobre 2026
+
+Il catalogo pubblico collegato dalla skill è allineato alla **0.5.0**:
+**103 stili in 11 categorie**, Sites versione **6**. Sono conservati accesso
+pubblico, logo, font e interazioni della versione 5, oltre alle 50 schede
+precedenti. La gallery di sviluppo resta alla versione 68.
+[Ricevuta](../gallery/catalogo-v1/pubblicazione-v6.json) e
+[verifiche](../gallery/catalogo-v1/qa-0.5.0.json).
+
+L'installazione locale di questa sessione è stata aggiornata dallo ZIP 0.5.0,
+con copia di ripristino e identità verificata dei 273 file. L'aggiornamento
+locale non si propaga agli altri computer: usare lo stesso ZIP della release.
+
 ## Release 0.5.0 · 29 ottobre 2026
 
 La release GitHub **0.5.0** comprende **103 stili**: i 50 già distribuiti più
