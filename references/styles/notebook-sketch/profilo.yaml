@@ -1,0 +1,105 @@
+Design Style:
+  Name: Notebook Sketch
+  Status: "Included in distributed version 0.5.0; promoted from the development candidates on 29 October 2026."
+  Concept: >
+    Una pagina di taccuino lavorata a penna a sfera: la frase grande e ben
+    leggibile domina la pagina; uno schizzo riconoscibile e molte note minute,
+    frecce e ripensamenti ricordano gli appunti presi durante un convegno.
+    Il tratto è quello rapido e ripassato della biro. Il disordine della
+    pagina sostiene la citazione senza contendersi con essa la lettura.
+  Canvas:
+    Ratio: '4:5'
+    Output: Pagina piatta a pieno campo, con carta e segni generati insieme.
+    Adaptation: Ricomporre disegno, frase e gruppi di note per ogni formato.
+  Mood: [Spontaneo, Curioso, Denso, Provvisorio, Umano]
+  Color Palette:
+    Fixed Colors: false
+    Direction: >
+      Carta chiara, un inchiostro principale da penna a sfera e pochi segni
+      in un secondo inchiostro. Il riferimento approvato è biro blu con
+      richiami rossi su carta crema; altri colori sono ammessi su richiesta
+      mantenendo il comportamento materiale della biro e il contrasto.
+    Contrast: >
+      La frase mantiene il contrasto più chiaro. Accenti e rigatura non devono
+      coprire le lettere. Le aggiunte cromatiche restano sottili segni a penna.
+  Typography:
+    Quote: >
+      Scrittura manuale adulta a biro, con ripassi, pressione e irregolarità
+      credibili. La frase è grande, protagonista e immediatamente leggibile:
+      ha nettamente più dimensione e respiro delle note, pur appartenendo alla
+      stessa mano. Non ridurla a un appunto fra gli altri per aumentare la densità.
+      Conservare esattamente parole, maiuscole, accenti e punteggiatura, una
+      sola volta. Spaziatura naturale; non allargare o comprimere le lettere.
+    Notes: >
+      Appunti più piccoli in corsivo o stampatello spontaneo, con inclinazioni,
+      a capo e densità diversi. Alcuni possono occupare il margine in verticale
+      o entrare nelle zone vuote dello schizzo. Devono essere parole reali del
+      contenuto autorizzato, mai stringhe pseudo-testuali per fare trama.
+    Attribution: >
+      Solo se fornita o verificata; esatta, leggibile, più piccola e più quieta
+      della frase, allineata a un asse destro chiaro. Non confonderla con le note.
+      Se assente, ricomporre la pagina senza segnaposto.
+  Layout:
+    Hierarchy: >
+      La frase è il primo e più forte livello di lettura. Lo schizzo pertinente
+      è riconoscibile ma secondario; le numerose annotazioni sono ancora più
+      piccole. Aprire spazio per la frase prima di aggiungere note. Nessun
+      soggetto, numero di annotazioni o posizione precisa è obbligatorio.
+    Accumulation: >
+      Gruppi asimmetrici, aggiunte in spazi residui, frecce che tornano indietro,
+      parentesi e cerchi imperfetti. Variare densità e orientamento senza una
+      mappa radiale regolare, colonne allineate o riquadri tutti uguali.
+    Integration: >
+      Note e disegno si intrecciano: il testo segue un contorno incompleto,
+      entra in un vuoto o richiama un dettaglio. Le connessioni possono essere
+      ambigue e provvisorie, ma non devono suggerire rapporti fattuali inventati.
+    Breathing Room: >
+      Conservare piccoli vuoti fra gruppi e intorno alla frase. Il disordine
+      nasce dall'accumulo, non da una copertura uniforme o da testo illeggibile.
+  Elements:
+    Sketch: >
+      Uno schizzo osservativo o concettuale a biro legato al contenuto, con
+      contorni cercati più volte, parti incompiute e tratteggio rapido. Persone, mani,
+      oggetti o scene sono repertorio aperto, non soggetti da ripetere.
+    Connections: >
+      Frecce irregolari, sottolineature, parentesi, cerchi, asterischi,
+      scarabocchi e prove di tratto concentrati in punti significativi.
+    Paper: >
+      Carta chiara a quadretti sottili come prima scelta; carta libera, a righe
+      o puntini è una variante possibile su richiesta. Il foglio
+      riempie la card; non servono tavolo, penne fotografiche o mockup del quaderno.
+  Effects:
+    Material: >
+      Rendere la penna a sfera: tratti sottili, pressione variabile, ripassi,
+      tratteggio direzionale, piccoli depositi e interruzioni locali.
+      Evitare sfumature da grafite, carboncino, pennellate o grandi schizzi liquidi.
+    Imperfection: >
+      Ripassi, linee interrotte, leggere sbavature o tracce cancellate credibili;
+      le irregolarità non alterano le lettere del testo principale.
+  Rules:
+    - La densità delle note è parte essenziale del linguaggio.
+    - Il disegno non deve sembrare un'icona vettoriale inserita dopo.
+    - La frase resta integra e la sua sequenza di lettura è immediata.
+    - Il risultato è una simulazione generativa di appunti, non un documento storico.
+    - Non fissare soggetto, palette o impaginato copiandoli da una sola prova.
+  Content Contract:
+    quote: Testo principale esatto e completo una sola volta.
+    author: Solo se fornito o verificato; sempre allineato a destra.
+    notes: >
+      Usare note fornite, estratti letterali dal materiale autorizzato o brevi
+      appunti dimostrativi quando l'utente delega una prova creativa. Conservare
+      nei file di lavoro l'elenco esatto e la sua origine. Le note dimostrative
+      non sono parole di un relatore reale e non aggiungono fatti alla citazione.
+    other_text: >
+      Nessun nome di evento, relatore, data, numero, firma o statistica inventata.
+      Le cancellature puramente gestuali sono segni astratti, non finti vocaboli.
+  Production:
+    Preferred Mode: generative
+    Method: ImageGen integrato per carta, frase, note e disegno nella composizione intera.
+    Validation Status: >
+      L'utente ha scelto la prova A, Biro da platea, con il testo più in evidenza.
+      Il testo principale di questa prova è corretto al controllo visivo.
+      Le altre tre prove sono conservate come esplorazioni storiche e non
+      definiscono il tratto o la gerarchia dello stile approvato. Non ancora
+      verificati testi lunghi, attribuzione, ripetibilità e altri formati.
+Composition Library: composizioni.yaml

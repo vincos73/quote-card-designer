@@ -1,12 +1,28 @@
-# Aggiungere uno stile
+# Sviluppare o modificare uno stile
 
 Usa questa guida per una richiesta esplicita di estensione o modifica della
 libreria. Non serve leggerla per generare una card ordinaria.
 
+## Individua la sorgente e l'ambito della modifica
+
+Nel repository di sviluppo consulta `references/catalogo-stili.yaml`. Per uno
+stile esistente segui il suo campo `profile`: può scegliere una variante diversa
+da `profilo.yaml`. Conserva i materiali precedenti e la loro provenienza; non
+sostituire un profilo storico o distribuito perché ha il nome più consueto.
+Se lavori su una copia della skill senza catalogo di sviluppo, segui il profilo
+indicato dal suo catalogo e limita le modifiche alla copia richiesta dall'utente.
+
+Sviluppo dello stile, selezione distribuita, installazione globale e pubblicazione
+del sito sono operazioni distinte. Una richiesta di aggiunta o revisione nella
+libreria di sviluppo autorizza i suoi sorgenti, non le altre operazioni.
+Anche una modifica di sviluppo a un profilo incluso resta distinta
+dall'aggiornamento della release già pubblicata.
+
 ## Scheda
 
-Crea una directory con un identificatore breve in minuscolo e trattini.
-Usa `profilo.yaml` con radice `Design Style`.
+Per un nuovo stile crea una directory con un identificatore breve in minuscolo
+e trattini. Usa `profilo.yaml` con radice `Design Style`. Per uno stile esistente
+modifica invece il profilo individuato nell'indice.
 
 Mantieni queste famiglie di informazioni, con sottocampi adatti al linguaggio:
 
@@ -56,12 +72,23 @@ libreria in due sezioni YAML, così il testo copiato è autosufficiente.
 
 ## Catalogo e collegamenti
 
-Aggiorna l'indice distribuito `catalogo-v1.yaml` con identificatore, nome, alias,
-descrizione breve, tag e percorso del profilo relativo alla radice della skill.
-Nella libreria di sviluppo, se presente, aggiorna anche `catalogo-stili.yaml`;
-la selezione di release e il sito devono essere generati dalla stessa sorgente.
+Nel repository aggiungi o aggiorna la voce in `catalogo-stili.yaml`, con
+identificatore, categoria, nome, alias, descrizione breve, tag e percorso del
+profilo relativo alla radice. Per un nuovo stile sperimentale imposta
+`release_candidate: false` e `v1_shortlisted: false`; modifica lo stato di
+candidatura solo quando richiesto. Conserva la selezione `release_selection`
+e il catalogo distribuito `catalogo-v1.yaml` durante il solo sviluppo.
+
+Aggiorna la selezione distribuita e la relativa versione solo nell'ambito di
+una richiesta che comprenda la release. Installare la skill o pubblicare il
+sito richiede a sua volta che quell'operazione sia compresa nella richiesta.
+Un'estensione esplicita di una copia personale della skill può aggiornare
+il catalogo di quella copia, senza implicare una release o una pubblicazione.
+
 Per un nuovo esempio aggiungi immagine, note e prompt effettivo e collega i
-percorsi nella stessa voce. Se l'esempio manca, ometti quei campi.
+percorsi nella stessa voce. Se l'esempio manca, ometti quei campi e imposta
+`example_count: 0` nel catalogo di sviluppo, così la gallery non cerca immagini
+inesistenti. Non generare esempi quando la richiesta riguarda solo il profilo.
 
 Il catalogo contiene indicazioni per scegliere e aprire file; non deve contenere
 l'intero profilo. Se cresce molto, suddividilo per famiglie prima di aumentare
@@ -89,6 +116,11 @@ operative automaticamente al pacchetto.
 Controlla che i percorsi siano relativi e risolvibili, che il file YAML sia
 leggibile e che i contenuti siano trasferibili. Mantieni fuori dal pacchetto
 identità personali, percorsi locali e note operative di progetto.
+Nel repository verifica la build della gallery dopo modifiche a catalogo o
+risorse. Se tocchi selezione o dipendenze distribuite, verifica anche il pacchetto
+con `gallery/package_skill.py`, scrivendo lo ZIP di controllo in una destinazione
+temporanea nuova. Una build di verifica non aggiorna la release, l'installazione
+o il sito.
 
 Prova il nuovo stile su frasi diverse e su almeno una preferenza modificata.
 Se non è stato provato, dichiaralo nel resoconto di sviluppo.

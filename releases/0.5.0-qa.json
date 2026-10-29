@@ -1,0 +1,100 @@
+{
+  "version": "0.5.0",
+  "date": "2026-10-29",
+  "scope": "GitHub source and release ZIP; no local installation or Sites deployment",
+  "base_commit": "6f24dda9cd8c09bde079fbc92458d908e046e290",
+  "archive_sha256": "f1b0048df2551ef2f407b81369b44fd4fad63cb9b52ff59c188a627b12ffb197",
+  "selection": {
+    "previous_styles": 50,
+    "added_candidates": 53,
+    "distributed_styles": 103,
+    "development_styles": 130,
+    "remaining_experimental": 27,
+    "dropped_previous_styles": 0
+  },
+  "package": {
+    "files": 273,
+    "composition_libraries": 75,
+    "zip_integrity": "passed",
+    "extracted_file_hashes_match_source": true,
+    "missing_resources": 0,
+    "ambiguous_names_or_aliases": 0,
+    "changed_files_from_0_4_0": [
+      "SKILL.md",
+      "references/catalogo-v1.yaml",
+      "references/processo-editoriale.md",
+      "references/schema-stile.md"
+    ],
+    "removed_files_from_0_4_0": [],
+    "added_files_from_0_4_0": 123
+  },
+  "style_rules": {
+    "candidate_profiles_checked": 53,
+    "only_status_changed_against_active_development_profiles": true,
+    "composition_and_visual_rules_preserved": true
+  },
+  "gallery": {
+    "styles": 130,
+    "images": 284,
+    "families": 11,
+    "output": "temporary directory; not published"
+  },
+  "validation": {
+    "skill_validator": "passed",
+    "diff_check": "passed"
+  },
+  "prior_development_behavior": {
+    "cases": 16,
+    "turns": 17,
+    "catalog_styles": 50,
+    "verdict": "16 coherent cases under predefined criteria",
+    "real_imagegen_calls": 0
+  },
+  "extended_catalog_behavior": {
+    "cases": 5,
+    "verdicts": [
+      {
+        "id": "R01",
+        "primary_style_id": "embossed-paper-raised",
+        "result": "coerente",
+        "criteria_frozen": true
+      },
+      {
+        "id": "R02",
+        "primary_style_id": "embossed-paper",
+        "result": "coerente",
+        "criteria_frozen": true
+      },
+      {
+        "id": "R03",
+        "primary_style_id": "chalkboard-design",
+        "result": "coerente",
+        "criteria_frozen": true
+      },
+      {
+        "id": "R04",
+        "primary_style_id": "cartographic-editorial",
+        "result": "coerente",
+        "criteria_frozen": true,
+        "note": "Le curve di livello sono presentate come adattamento esplicito di un profilo basato soprattutto sulle reti urbane."
+      },
+      {
+        "id": "R05",
+        "primary_style_id": "oneline",
+        "result": "coerente",
+        "criteria_frozen": true
+      }
+    ],
+    "actual_imagegen_calls": 0,
+    "prepared_generation_requests": 3,
+    "method": "One evaluator with frozen package and cases only, no parent history or expected answers; independent primary-agent review using frozen criteria. Cases logically separate in one evaluator context.",
+    "path_normalization": "Saved results use package-relative file paths; other text and tool prompts preserved.",
+    "raw_results_sha256": "4a44fac1ab2e41a6ac9a32231d570fbebe5b34df17e50cbfdbeea679dd5644c2",
+    "saved_results_sha256": "47b763e319892e8620befba46b512b15eeb6abca190b7a0e06137eb190b54230"
+  },
+  "limits": [
+    "No new image generation for the expanded release.",
+    "Behavior cases do not prove a unique best style, statistical repeatability or visual quality across all 103 styles.",
+    "Sites state and active local installation were not changed."
+  ]
+}

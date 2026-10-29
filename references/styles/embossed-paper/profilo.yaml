@@ -1,10 +1,10 @@
 Design Style:
-  Name: Embossed Paper
-  Version: 0.2.0-experimental
-  Status: V1 candidate; approvato per la gallery il 28 ottobre 2026
+  Name: Debossed Paper
+  Version: 0.3.0-experimental
+  Status: "Included in distributed version 0.5.0; promoted from the development candidates on 29 October 2026."
   Concept: >
     Citazione e piccolo disegno prendono forma nella carta senza inchiostro.
-    Fibre compresse, rilievi e incavi poco profondi costruiscono parole
+    Fibre compresse e incavi poco profondi costruiscono parole
     leggibili grazie a una luce radente coerente. La pagina è essenziale
     e tattile, con variazioni di pressione plausibili.
   Canvas:
@@ -28,9 +28,9 @@ Design Style:
       il punto di partenza; altri registri sono possibili su richiesta.
       Evitare filetti così sottili da scomparire nel tono su tono.
     Material: >
-      La frase è impressa in incavo oppure sollevata in basso rilievo.
-      Scegliere un registro fisico coerente per le parole; la fibra prosegue
-      nei segni. Niente lettere tridimensionali appoggiate o incollate.
+      La frase è impressa esclusivamente in incavo: il fondo dei tratti è
+      sotto il piano del foglio e gli occhielli restano al livello della carta.
+      La fibra prosegue nei segni. Niente lettere sollevate, appoggiate o incollate.
     Integrity: >
       Conservare la frase completa una sola volta, con caso, accenti,
       punteggiatura e ordine esatti. A capo per gruppi di senso; non
@@ -58,7 +58,7 @@ Design Style:
       non una superficie corrosa o un filtro grunge uniforme.
     Drawing: >
       Sempre una piccola figura, un oggetto o una forma naturale suggeriti
-      dalla frase. Tradurre il soggetto in pochi contorni e piani impressi,
+      dalla frase. Tradurre il soggetto in pochi contorni e piani incavati,
       senza aggiungere un oggetto fisico sulla pagina o ornamenti superflui.
   Effects:
     Impression: >
@@ -69,7 +69,8 @@ Design Style:
     Light: >
       Un'unica sorgente radente ampia rende leggibili i bordi con ombre corte
       e luci coerenti. Controllare testo e disegno sotto la stessa direzione.
-      Il contrasto nasce dalla forma, senza neri aggiunti o bagliori digitali.
+      Le ombre si trovano dentro le cavità e le luci sulle spalle interne
+      opposte. Il contrasto nasce dalla forma, senza neri aggiunti o bagliori digitali.
     Surface: >
       Presentazione quasi ortogonale della sola superficie di carta; niente
       tavoli, cornici, mani, buste o pile di cartoncini. La luce può mostrare
@@ -77,6 +78,7 @@ Design Style:
   Rules:
     - La frase completa resta la prima lettura anche nell'anteprima piccola.
     - Carta, parole e disegno condividono materiale e luce.
+    - Tutti i nuovi segni devono essere incavati sotto il piano del foglio, senza parti sollevate.
     - Inchiostro, foil e contorni dipinti sono assenti nella variante a secco.
     - Il piccolo disegno è riconoscibile e pertinente alla frase.
     - Ombre fisiche contenute; nessun effetto plastica, gesso o pietra.
@@ -93,3 +95,9 @@ Design Style:
       Nessuna prova di fattibilità fisica, attribuzione, frase lunga o
       ripetibilità generale. Vedere note-prova-1.md, note-prova-2.md e
       note-prova-3.md.
+      Il 29 ottobre 2026 il nome è stato corretto in Debossed Paper e le regole
+      delle future generazioni ristrette all'incavo. I tre esempi storici
+      conservano le immagini originali disponibili: lettere prevalentemente
+      incavate e alcuni dettagli misti nei disegni, quindi non dimostrano da
+      soli la nuova regola esclusiva. Profilo precedente archiviato in
+      profilo-pre-rinomina-20261029.yaml; vedere note-rinomina-20261029.md.

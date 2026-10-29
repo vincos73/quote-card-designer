@@ -1,0 +1,11 @@
+Use case: stylized-concept.
+Create ONE complete finished editorial quote card, portrait 4:5, with both the actual words and the explanatory drawing generated together. Flat artwork, not a mockup. This is an exploration of “Oneline”: a continuous drawn line becomes readable lettering and a meaningful image in the same composition.
+
+Text, exactly once, preserving case, accent, spaces and punctuation:
+Semplificare è trovare il filo.
+
+Use near-black fine felt-pen ink on warm ivory paper, very subtle paper grain. Draw all words in a refined, comfortably readable monoline handwritten Latin script: restrained connected cursive, open counters, natural letter widths and clear word spacing. Uniform thin-to-medium strokes, not pressure-modulated brush calligraphy. The quote is large and carries the page, with deliberate line breaks “Semplificare” / “è trovare” / “il filo.”. Keep the grave accent on è distinct and the final period visible. No author, signature, quotation marks, captions or additional text.
+
+The explanatory image is a tangled thread resolving into an open flowing line. Compose a compact, irregular tangle of several looping turns beside the reading field, around the middle-right; it should read as one tangled thread, not a shaded ball, a flower or an abstract ornament. A single visibly traceable stroke exits the tangle, travels through the open paper interval, and joins naturally into the entry or exit stroke of the cursive word “filo” on the final line. The visual transition from complexity to clarity is the idea. Preserve the complete recognizable letters; the thread must not replace a letter or run through counters or spaces. The text and tangle share the page through this actual line connection, not an illustration above an unrelated caption.
+
+Asymmetric but balanced editorial composition, generous calm margins, visible rhythm between the three lines, confident scale. No frame, grids, collage, gradients, shadows, coloured shapes, crosshatching, stock icons or decorative flourishes unrelated to the thread. Do not force every word and accent into one unbroken physical path; the primary continuous contour and its connection to the lettering must be clear. Render the entire card in one image.

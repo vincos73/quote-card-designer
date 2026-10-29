@@ -1,0 +1,97 @@
+Design Style:
+  Name: Embossed Paper
+  Version: 0.1.0-experimental
+  Status: "Included in distributed version 0.5.0; promoted from the development candidates on 29 October 2026."
+  Concept: >-
+    Parole e piccolo disegno emergono da un unico foglio di carta, senza
+    inchiostro. È un rilievo positivo: le facce delle lettere sono sopra
+    il piano della superficie, unite al foglio da spalle morbide e fibrose.
+    La luce rende visibile la materia sollevata e le sue ombre esterne.
+  Canvas:
+    Ratio: '4:5'
+    Output: Card editoriale a piena pagina, vista quasi ortogonale della sola carta.
+    Adaptation: Ricomporre frase e disegno per il formato richiesto, senza ritagliare parole.
+  Mood: [Tattile, Silenzioso, Scultoreo, Essenziale, Luminoso]
+  Color Palette:
+    Starting Paper: '#F1ECE1'
+    Starting Shadow: '#AAA08F'
+    Starting Highlight: '#FBF8EF'
+    Roles: >-
+      Un colore della carta, con variazioni dovute soltanto a luce e ombra.
+      Le facce sollevate e il foglio condividono tinta e materia. Avorio
+      caldo come partenza; carta colorata in pasta possibile su richiesta.
+  Typography:
+    Quote: >-
+      Lettere grandi e robuste con occhielli aperti e proporzioni naturali.
+      Serif letteraria a contrasto moderato come partenza; sans solida
+      possibile. La frase resta leggibile senza pigmento o contorni aggiunti.
+    Material: >-
+      Ogni tratto è una superficie positiva rialzata e continua con il foglio.
+      Le sommità ricevono la luce; le spalle scendono al piano della carta.
+      Gli occhielli e lo spazio tra i glifi restano al livello del foglio.
+      Anche accenti e punteggiatura sono sollevati. Nessuna cavità a forma
+      di lettera, nessun solco lungo il contorno e nessun carattere incollato.
+    Integrity: >-
+      Citazione completa una sola volta, nell'ordine esatto, con caso,
+      accenti e punteggiatura conservati. Kerning naturale, parole separate
+      con chiarezza e a capo per gruppi di senso; niente glifi stirati,
+      compressi o spaziature arbitrarie per pareggiare le righe.
+    Attribution: >-
+      Solo se fornita o verificata, più piccola e leggera della citazione,
+      leggibile, nello stesso rilievo e allineata a destra su un asse chiaro.
+      Se assente, omettere anche lo spazio riservato. Nessuna firma inventata.
+  Layout:
+    Hierarchy: >-
+      La frase domina e costruisce il percorso di lettura. Pochi allineamenti
+      chiari, margini generosi e spazio tra righe sufficiente per non
+      sovrapporre le piccole ombre. Nessun centro o numero di righe obbligatorio.
+    Drawing: >-
+      Un piccolo disegno pertinente al significato può accompagnare la
+      citazione, separato dalle parole e chiaramente secondario. Ha rilievo
+      positivo, materiale e luce coerenti con le lettere. Scegliere soggetto
+      e posizione per il contenuto; nessuna conchiglia fissa.
+    Capacity: >-
+      Per testi lunghi semplificare o omettere il disegno e ricomporre
+      prima di ridurre il corpo. Non deformare una riga per evitarne il contatto.
+  Elements:
+    Paper: >-
+      Carta di cotone spessa, opaca, con fibra fine irregolare che continua
+      dalle aree piane alle spalle e alle facce sollevate. Le transizioni
+      hanno la morbidezza della carta pressata, senza tagli o giunti.
+    Drawing: >-
+      Piccoli oggetti, figure o forme naturali suggeriti dalla frase,
+      costruiti con pochi piani e contorni sollevati. Non oggetti fisici
+      appoggiati né un'illustrazione stampata sopra il foglio.
+  Effects:
+    Positive Relief: >-
+      Rilievo basso ma inequivocabilmente convesso: facce rialzate abbastanza
+      ampie da vedersi, spalle morbide e breve ombra sul foglio circostante.
+      Niente palloncini, lettere gonfie, plastiche o estrusioni verticali alte.
+    Light: >-
+      Un'unica luce radente ampia. Con luce da alto-sinistra, le spalle
+      alto-sinistre sono illuminate e le ombre ricadono sul foglio appena
+      all'esterno dei bordi basso-destri. Niente ombre interne che trasformino
+      il corpo delle lettere in cavità. Ombre negli occhielli soltanto quando
+      proiettate dalle spalle rialzate, coerenti con la stessa sorgente.
+    Surface: >-
+      Superficie di carta a piena pagina, quasi ortogonale. Niente tavoli,
+      cornici, pile, buste o mani. Nessun riflesso metallico o effetto digitale lucido.
+  Rules:
+    - Le lettere emergono sopra la carta; non sono scavate sotto la superficie.
+    - Il disegno e la punteggiatura condividono il rilievo positivo del testo.
+    - Facce, spalle e foglio sono un solo materiale continuo, senza bordi da ritaglio.
+    - Nessun inchiostro, foil, contorno scuro dipinto o ombra aggiunta incoerente.
+    - La citazione resta dominante e completa, con spaziatura naturale.
+    - Nessun testo accessorio, marchio, data o firma inventati.
+  Production:
+    Preferred Mode: generative
+    Validation Status: >-
+      Una prova su avorio con serif e conchiglia, generata con ImageGen
+      integrato modificando una card in incavo e poi rifinendo una volta
+      l'altezza e l'attacco del rilievo. Ispezionata nativa e a 320 × 400 px:
+      frase corretta, rilievo positivo leggibile, ombre esterne coerenti.
+      La rifinitura ammorbidisce i bordi; alcune spalle restano accentuate
+      e la continuità fisica della carta non è una proprietà misurabile
+      dalla sola immagine. Nessuna prova su altre frasi, palette, attribuzioni
+      o generazioni da zero. Non dedurre ripetibilità o fattibilità di stampa.
+      Vedere note-prova-1.md.

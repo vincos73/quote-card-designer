@@ -1,0 +1,9 @@
+Edit the attached complete optical typography artwork. Make ONE targeted change: reduce the strength of the hidden lettering to a medium, clearly recoverable camouflage level. Preserve the exact text, layout, letter shapes, line breaks, natural word spacing, wave geometry, margins, black and warm-white palette, and portrait 4:5 format.
+The exact quote must remain:
+UNA BUONA
+DOMANDA
+SPOSTA IL
+CONFINE
+
+The current letters are nearly solid black masses with hairline white stripes through them. Open up those white stripes substantially. As a visual construction guide, within the letter shapes aim for approximately 60 percent black stripe and 40 percent white gap, while the surrounding field remains approximately equal black and white. These are design proportions, not gray colors: maintain pure crisp black and warm white throughout. All letters should be just moderately darker than the field, not black headlines and not invisible ghosts. Every letter stroke must contain clearly visible broad white passages. Retain a modest phase displacement at letter boundaries, about one sixth of a stripe cycle, to help recognize the silhouette without drawing an outline. Use both a slight density increase and this modest displacement; neither alone should dominate.
+Keep the black bands substantial enough inside the letters that the full quote can be deciphered without already knowing it. Do not erase letters by matching them exactly to the ground. Preserve all open counters and recognizable endpoints. Keep this level consistent across all four lines. The viewer should see the undulating striped surface first and then resolve the words through a second attentive look. Do not add an opaque text layer, gray wash, transparency fade, outlines, shadow, texture or new elements. Do not move, enlarge, squeeze, reshape or split the words. Render the entire finished corrected card, not a diagram or comparison.

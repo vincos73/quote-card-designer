@@ -1,7 +1,7 @@
 Design Style:
   Name: Marker Editorial
   Version: 0.2.0-experimental
-  Status: V1 candidate; variante con testo scritto a pennarello apprezzata dall'utente
+  Status: "Included in distributed version 0.5.0; promoted from the development candidates on 29 October 2026."
   Concept: 'La citazione incontra interventi manuali di marker: frecce, cerchi, ripassi, scarabocchi e
     sottolineature. Due registri alternativi: caratteri stampati netti oppure frase scritta a mano con
     pennarello. L''evidenziatore seleziona le parole importanti. Una variante integra una fotografia scarabocchiata.

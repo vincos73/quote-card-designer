@@ -1,0 +1,50 @@
+Composition Library:
+  Style Name: "Textile"
+  Selection:
+    Principle: >
+      Choose the construction that best serves the phrase, available space and
+      requested mood. Use one family as the main relationship, not a collage
+      of every technique. Colours and the position of the physical event vary
+      independently. Other materially coherent compositions remain possible.
+    Checks:
+      - "The quotation reads in one clear order, with its exact punctuation."
+      - "Fabric behaviour does not hide or cut needed letter shapes."
+      - "Any supplied attribution is quieter, readable and right-aligned."
+  Families:
+    - id: trama-in-tensione
+      Name: "Trama in tensione"
+      Use When: >
+        Positive lettering and a controlled interruption of an otherwise dense
+        weave can provide a strong material contrast around a short or medium
+        quotation. Useful when a local reveal can support the text field.
+      Structure: >
+        Set a clear typographic mass within one continuous woven face. Let a
+        local edge, opening or tension ridge reveal the weave construction or
+        a second layer in the available breathing space. Connect the two areas
+        with plausible yarn paths and slight physical deformation.
+      Text Adaptation: >
+        Emphasise meaningful words without making connectors tiny. For a longer
+        quotation reduce the extent of the opening before reducing the entire
+        type block. Keep all glyphs and punctuation complete.
+      Format Adaptation: >
+        Reposition text mass and material opening for each aspect ratio.
+        Neither a lower-right slit nor a diagonal is a fixed requirement.
+    - id: intarsio-in-negativo
+      Name: "Intarsio in negativo"
+      Use When: >
+        The letter shapes themselves should provide the material event and the
+        composition benefits from a bold, concentrated typographic surface.
+      Structure: >
+        Cut the quotation into a cloth face over a contrasting finer underlayer.
+        Secure edges and counters with restrained construction stitches. Small
+        rolled edges, loose fibres and compression give the letters real depth.
+        A shallow fold can alter the surface in a gap between text groups.
+      Text Adaptation: >
+        Choose open counters and sufficient stroke width. Preserve natural
+        spacing, case and word grouping. Size the whole register coherently;
+        never stretch the final line to make every row equally wide. Reduce
+        fibre noise around smaller text and an optional attribution.
+      Format Adaptation: >
+        Reflow the quotation and redistribute margins for the requested canvas.
+        Position folds in genuine breathing space, keeping the reading sequence
+        clear and avoiding cropped descenders or closing punctuation.

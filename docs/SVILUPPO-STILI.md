@@ -1,6 +1,24 @@
 # Libreria condivisa fra portatile e iMac
 
-## Stato corrente · 29 ottobre 2026
+## Release 0.5.0 · 29 ottobre 2026
+
+La release GitHub **0.5.0** comprende **103 stili**: i 50 già distribuiti più
+**tutti i 53 candidati** presenti nel catalogo prima di questa pubblicazione.
+La libreria di sviluppo mantiene 130 stili, con 27 sperimentali fuori release.
+I candidati promossi non sono più marcati `v1_shortlisted`; la selezione e il
+catalogo incluso coincidono. La release incorpora anche la nuova guida alla
+scelta dello stile e le correzioni del flusso di creazione e modifica.
+
+Il pacchetto contiene 75 librerie compositive e 273 file. Le regole visive dei
+nuovi profili sono conservate; cambia lo stato di disponibilità. Per i dettagli
+consultare [note](../releases/0.5.0.md) e [manifesto](../releases/0.5.0-manifest.json).
+
+La pubblicazione della release non aggiorna l'installazione locale o i Sites.
+La gallery Sites resta alla versione 68 annotata nello sviluppo locale e il catalogo pubblico
+può mostrare una selezione precedente. Un successivo allineamento dovrà
+conservare accessi, materiali online e distinzione fra gallery e catalogo.
+
+## Stato precedente · 29 ottobre 2026
 
 Dopo le dodici candidature richieste dall'utente, la libreria comprende
 **127 stili: 50 nella release 0.4.0, 46 candidati e 31 sperimentali**.
@@ -23,11 +41,11 @@ alla release e non pubblica una nuova versione del sito.
 
 ## Dove lavorare
 
-- `references/catalogo-stili.yaml`: indice di tutti i 127 stili. Per ogni voce,
+- `references/catalogo-stili.yaml`: indice di tutti i 130 stili. Per ogni voce,
   seguire il campo `profile`, che può indicare una variante specifica.
 - `references/styles/<id>/`: profili, composizioni, esempi, prompt, ricerche e
   note disponibili. I materiali storici sono conservati accanto alle revisioni.
-- `references/catalogo-v1.yaml`: snapshot dei 50 stili distribuiti nella 0.4.0.
+- `references/catalogo-v1.yaml`: indice dei 103 stili distribuiti nella 0.5.0.
   La versione installata della skill legge questo catalogo, non tutta la libreria.
 - `gallery/source-profiles/sites-v60/`: YAML esatti estratti dalle 122 schede
   della gallery, comprese le composizioni incorporate.

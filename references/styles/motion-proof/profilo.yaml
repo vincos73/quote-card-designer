@@ -1,6 +1,6 @@
 Design Style:
   Name: "Sport"
-  Status: "V1 candidate su richiesta dell’utente il 29 ottobre 2026; fuori dalla release 0.4.0"
+  Status: "Included in distributed version 0.5.0; promoted from the development candidates on 29 October 2026."
   Concept: Il gesto si dissolve in persistenza cromatica mentre la frase resta ferma e nitida.
   Canvas:
     Ratio: '4:5'

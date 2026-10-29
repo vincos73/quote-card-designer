@@ -1,0 +1,45 @@
+Composition Library:
+  Style Name: Notebook Sketch
+  Selection:
+    Basis: >
+      Dare sempre il primo livello di lettura alla frase grande a biro.
+      Usare appunto-sopra-scena come prima scelta, calibrata sulla prova A
+      approvata. Le alternative servono per adattare la frase e il soggetto;
+      non possono portare il disegno o le note a prevalere sul testo.
+    Variation: >
+      Variare l'integrazione di note e disegno, non soltanto i colori. In una
+      revisione mirata conservare invece la struttura e intervenire sul punto richiesto.
+  Families:
+    - id: appunto-sopra-scena
+      Name: Appunto sopra la scena
+      Use When: Una frase breve può emergere sopra uno schizzo osservativo.
+      Structure: >
+        La frase apre uno spazio nella metà superiore; la scena occupa una
+        zona inferiore decentrata. Le note passano dai margini ai vuoti della
+        scena con collegamenti asimmetrici e densità variabile.
+      Text Adaptation: >
+        Allungare il campo della frase e ridurre l'invasione dello schizzo per
+        testi maggiori. L'eventuale nome chiude su un asse destro leggibile.
+      Format Adaptation: Ricomporre i gruppi; non ritagliare la pagina generata.
+    - id: schizzo-e-conclusione
+      Name: Schizzo e conclusione
+      Use When: La forma del soggetto suggerisce una frase decentrata e ben evidenziata.
+      Structure: >
+        Uno schizzo secondario occupa un lato; note e segni ne accompagnano
+        i contorni. La frase grande si raccoglie in un vuoto ampio più in basso
+        o di lato, con una pausa di carta che la rende il primo punto di lettura.
+      Text Adaptation: >
+        Mantenere gruppi di senso completi; modificare lo spazio del disegno
+        prima di comprimere il testo. Attribuzione subordinata a destra.
+      Format Adaptation: Spostare la conclusione e il disegno in relazione al formato.
+    - id: percorso-tra-le-note
+      Name: Percorso tra le note
+      Use When: Il contenuto suggerisce ricerca, scelta, connessione o cambiamento.
+      Structure: >
+        Schizzo e tratto principale guidano lo sguardo fra ammassi di note;
+        alcuni collegamenti si interrompono o tornano indietro. La frase
+        occupa un'apertura riconoscibile, senza diventare una scatola regolare.
+      Text Adaptation: >
+        Il percorso non attraversa i glifi. Per più testo aprire un'area più
+        grande e diminuire le note, senza ridurre tutto a microtesto.
+      Format Adaptation: Ripensare la direzione del percorso, conservando frase e note.

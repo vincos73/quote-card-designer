@@ -1,16 +1,33 @@
 ---
 name: quote-card-designer
-description: "Crea quote card artistiche da una frase, un testo o un articolo, preservando la citazione e usando uno stile visivo disponibile."
+description: "Crea o modifica quote card artistiche da frasi, testi o articoli, preservando la citazione. Aiuta a esplorare e scegliere gli stili disponibili."
 metadata:
-  version: "0.4.0"
+  version: "0.5.0"
 ---
 
 # Quote Card Designer
 
 Trasforma una frase o una citazione verificata in una quote card. Segui le
 istruzioni dell'utente quando sono più specifiche di questo flusso o del profilo.
-Se la skill viene invocata senza contenuto, chiedi di fornire una frase, un testo
-da cui estrarre una citazione oppure il link a una fonte.
+Parti dalla richiesta corrente e dalle informazioni già disponibili:
+
+- Per esplorare o confrontare gli stili, mostra le possibilità pertinenti e
+  descrivi le differenze utili alla scelta. Non richiedere una citazione né
+  avviare una generazione per la sola consultazione.
+- Per modificare una card, individua il risultato indicato nella conversazione
+  o allegato, ispezionalo e passalo realmente al flusso di editing. Riusa testo
+  e scelte già definite; chiedi soltanto una base non disponibile o un dettaglio
+  necessario alla modifica. Non riaprire la scelta dello stile. Se ci sono più
+  risultati e non è chiaro quale modificare, chiedi quale usare.
+- Per creare una nuova card, chiedi una frase, un testo da cui estrarla o una
+  fonte solo se il contenuto manca anche nella conversazione. Se l'intento di
+  creazione è chiaro, prosegui con le sole scelte ancora necessarie.
+- Per sola analisi, un prompt o manutenzione della libreria, non avviare la
+  generazione. Per aggiungere o modificare uno stile leggi
+  [lo schema stile](references/schema-stile.md).
+
+Se la skill è invocata senza una richiesta riconoscibile, chiedi se l'utente
+vuole creare una card, esplorare gli stili o modificare un risultato.
 
 Per vedere gli esempi, offri il [catalogo visivo V1](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site).
 L'utente può copiare il nome di uno stile e scriverlo nella conversazione.
@@ -30,31 +47,42 @@ inclusi nella skill: la consultazione del sito non è necessaria per generare.
   un passaggio letterale prima di creare, salvo delega esplicita.
 - Se l'utente indica uno stile, risolvi il nome o l'alias nel
   [catalogo V1](references/catalogo-v1.yaml). Carica l'intero YAML del solo
-  profilo scelto. Il catalogo distribuito comprende 50 stili. Il catalogo visivo V1
+  profilo scelto. Il catalogo distribuito comprende 103 stili. Il catalogo visivo V1
   può mostrare una selezione precedente; per la disponibilità fa fede il catalogo incluso nella
   skill. Il collegamento da offrire all'utente è il catalogo visivo V1;
   la gallery di sviluppo è riservata al lavoro del proprietario.
-- Se indica un descrittore generico, mappalo a uno stile disponibile e spiega
-  brevemente la corrispondenza. Se la richiesta può indicare due stili diversi,
-  proponi quelle due alternative. Se non indica uno stile, proponi 2–3 opzioni
-  pertinenti con un collegamento al catalogo e attendi la scelta.
-- Se l'utente delega la scelta, seleziona uno stile adatto e procedi. Per uno
-  stile non disponibile, spiega il limite e proponi le alternative più vicine.
-- Quando chiedi lo stile, offri nello stesso messaggio la personalizzazione
-  facoltativa: «Vuoi indicare dei colori e aggiungere il tuo nome come firma?
-  Puoi anche lasciare a me i colori e creare la card senza firma».
+- Quando devi consigliare o scegliere uno stile, anche su delega, leggi
+  [come scegliere lo stile](references/scelta-stile.md). Parti da intento,
+  caratteristiche del testo e vincoli già disponibili; usa il catalogo per
+  individuare i candidati e leggi i profili di tutti quelli che proporrai.
+  Un descrittore generico va interpretato attraverso queste informazioni.
+  Se la scelta non è delegata, indica una proposta motivata e aggiungi solo
+  alternative compatibili che cambiano un effetto utile: al massimo tre stili
+  in tutto, anche meno quando bastano. Collega il catalogo e offri «scegli tu».
+  Non chiedere un brief aggiuntivo per una richiesta già sufficiente.
+- Se l'utente delega la scelta, anche in risposta alle opzioni, scegli con gli
+  stessi criteri e procedi appena il contenuto è definito o la sua selezione è
+  delegata. Non imporre un altro menu o una conferma. Conserva uno stile già
+  scelto e le sue personalizzazioni esplicite. Per uno stile non disponibile,
+  spiega il limite e proponi alternative presenti nel catalogo attivo.
+- Quando attendi la scelta dello stile, offri nello stesso messaggio colori
+  e firma come aggiunta facoltativa, se non sono già definiti: «Se vuoi, puoi
+  indicare colori o firma». Non rendere la risposta a questa aggiunta necessaria.
   Se l'utente chiede una palette personale o una firma ma non fornisce i dati,
   chiedi insieme i soli dati mancanti prima di creare. Accetta nomi dei colori
   o codici HEX; non richiedere codici o ruoli tecnici. Non aggiungere un passaggio
   obbligatorio quando testo e stile sono completi e l'utente non ha richiesto
   una personalizzazione.
-- Se manca il testo, chiedilo prima di generare. Non trasformare una sintesi in
-  una citazione letterale e non inventare un autore o un'attribuzione.
+- Per una citazione da selezionare, proponi nello stesso messaggio testo,
+  attribuzione sostenuta dalla fonte e stile consigliato, quando anche lo stile
+  è ancora da scegliere. Raccogli insieme le sole decisioni mancanti.
+- Non trasformare una sintesi in una citazione letterale e non inventare un
+  autore o un'attribuzione.
 
 Riassumi brevemente il testo, l'attribuzione e lo stile scelti. Quando i dati
 sono completi, questo riepilogo non richiede un'ulteriore conferma: procedi alla
-generazione. Per le citazioni proposte da un URL, attendi invece che l'utente
-scelga il testo e, se non è già definito o delegato, lo stile.
+generazione. Per una citazione proposta da un URL o da un testo lungo, attendi
+le sole scelte non ancora definite o delegate dall'utente.
 Usa una o due frasi comprensibili, senza campi tecnici, nomi interni dei profili
 o spiegazioni del metodo di rendering. Spiega dubbi di attribuzione quando
 esistono; non aggiungere avvertenze di verifica per ogni nome fornito.
@@ -114,15 +142,14 @@ esistono; non aggiungere avvertenze di verifica per ogni nome fornito.
   segnala che non puoi produrre la card secondo questa skill; non sostituirlo
   silenziosamente con un renderer. Un prompt scritto non è un'immagine generata.
   Non aggiungere testi di riempimento.
-- Per revisioni successive, intervieni sul difetto o sulla modifica richiesta
-  e conserva le altre scelte già definite.
+- Per revisioni successive, usa la base individuata e intervieni sul difetto o
+  sulla modifica richiesta, conservando le altre scelte già definite. Verifica
+  il risultato prima di dichiararle preservate; l'editing generativo non
+  garantisce da solo che ogni altro dettaglio rimanga identico.
 - Controlla testo, accenti, punteggiatura, attribuzione, leggibilità e rapporto
   fra lettering e immagine. Distingui ciò che hai verificato dai limiti del
   risultato; correggi in modo mirato se serve e ricontrolla. Se il difetto
   permane, indica il limite senza ripetere tentativi indefiniti.
-- Se l'utente chiede solo analisi, un prompt o manutenzione della libreria, non
-  avviare la generazione. Per modificare uno stile leggi
-  [lo schema stile](references/schema-stile.md).
 
 Consegna l'immagine e, quando disponibile, il file. Per una citazione estratta,
 accompagna il risultato con il collegamento alla fonte consultata.

@@ -140,7 +140,7 @@ Design Style:
     Palette: Sostituisci i colori mantenendo contrasto e numero visivamente contenuto di toni.
     Subject: Reinterpreta il soggetto richiesto come silhouette originale a cluster bitmap.
     Typography: Mantieni una costruzione bitmap compatibile; non certificare un font preciso senza verifica.
-  Status: V1 candidate richiesta dall’utente il 28 ottobre 2026
+  Status: "Included in distributed version 0.5.0; promoted from the development candidates on 29 October 2026."
 Composition Library:
   Style Name: Pixel Art
   Selection:

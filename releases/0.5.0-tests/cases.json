@@ -1,0 +1,22 @@
+[
+  {
+    "id": "R01",
+    "user": "Crea una card Embossed Paper con «Il silenzio lascia un segno.». Voglio lettere sollevate dalla carta, non incavate. Nessun autore o firma."
+  },
+  {
+    "id": "R02",
+    "user": "Crea una card Debossed Paper con «Il silenzio lascia un segno.». Voglio lettere incavate nella carta, non sollevate. Nessun autore o firma."
+  },
+  {
+    "id": "R03",
+    "user": "Consigliami uno o due stili per «La curiosità cambia la lezione.». Vorrei una lavagna reale e segni di gesso, con tono didattico e umano. Niente neon o interfacce. Non generare ancora."
+  },
+  {
+    "id": "R04",
+    "user": "Consigliami uno o due stili per «Ogni strada conserva una possibilità.». Vorrei una cartografia editoriale, con percorsi e rilievi; niente fotografie. Non generare ancora."
+  },
+  {
+    "id": "R05",
+    "user": "Crea una card Oneline con «Ascoltare dà forma agli incontri.». Scegli tu colori e composizione. Nessun autore o firma."
+  }
+]

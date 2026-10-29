@@ -1,6 +1,6 @@
 "Design Style":
   "Name": "Mosaic"
-  "Status": "Candidato approvato dall’utente il 29 ottobre 2026; non incluso nella selezione release."
+  "Status": "Included in distributed version 0.5.0; promoted from the development candidates on 29 October 2026."
   "Concept": "Lettere e piccola immagine sono costruite da tessere fisiche di mosaico colorato; direzione delle file, fughe e materia seguono il disegno."
   "Canvas":
     "Ratio": "4:5"

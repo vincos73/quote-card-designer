@@ -7,10 +7,10 @@ Non si limita a cambiare colori o caratteri. Per ogni stile usa indicazioni su t
 ## Come funziona
 
 1. Fornisci una frase, un testo più lungo o il link a un articolo. Per un articolo la skill propone una citazione verificabile e la sua attribuzione.
-2. Scegli uno stile dal [catalogo visivo](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site) oppure chiedi un suggerimento. Puoi indicare colori, formato e un'eventuale firma.
+2. Scegli uno stile dal [catalogo visivo](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site) oppure chiedi un suggerimento. La skill considera intento, testo e vincoli, controlla i profili e propone uno stile motivato con sole alternative utili, fino a tre. Puoi delegare la scelta e indicare colori, formato e un'eventuale firma.
 3. La skill progetta la composizione e usa **ImageGen integrato** per generare la card completa. Controlla poi il testo e la leggibilità e, se necessario, interviene sul risultato.
 
-La versione **0.4.0** comprende **50 stili**. Il formato predefinito è una card verticale 4:5; una richiesta esplicita può cambiarlo. ImageGen deve essere disponibile nell'ambiente usato: un prompt scritto da solo non è una card generata.
+La versione **0.5.0** comprende **103 stili**. Il formato predefinito è una card verticale 4:5; una richiesta esplicita può cambiarlo. ImageGen deve essere disponibile nell'ambiente usato: un prompt scritto da solo non è una card generata.
 
 ## Un esempio: Editorial Interlock
 
@@ -26,7 +26,7 @@ Nel primo risultato la frase occupa un paesaggio architettonico; nel secondo un 
 
 ## Installa la skill
 
-Scarica lo [ZIP della versione 0.4.0](https://github.com/vincos73/quote-card-designer/releases/tag/v0.4.0): contiene la cartella `quote-card-designer/` con `SKILL.md` e tutti i riferimenti necessari. Nella release trovi anche il checksum SHA-256.
+Scarica lo [ZIP della versione 0.5.0](https://github.com/vincos73/quote-card-designer/releases/tag/v0.5.0): contiene la cartella `quote-card-designer/` con `SKILL.md` e tutti i riferimenti necessari. Nella release trovi anche il checksum SHA-256.
 
 ### Codex
 
@@ -44,13 +44,14 @@ L'installazione locale in Codex non installa automaticamente la skill in ogni es
 
 ## Repository e gallery di sviluppo
 
-- La **libreria di sviluppo condivisa** contiene **127 stili**: 50 nella release
-  0.4.0, 34 candidati e 43 sperimentali. Profili e materiali disponibili sono
-  versionati nel repository, anche quando lo stile non è distribuito. Per lavorare
-  da portatile e iMac: [flusso di sviluppo e sincronizzazione](docs/SVILUPPO-STILI.md).
-- [`SKILL.md`](SKILL.md) e [`references/catalogo-v1.yaml`](references/catalogo-v1.yaml) definiscono il flusso e i 50 stili distribuiti.
+- La **libreria di sviluppo condivisa** contiene **130 stili**: 103 nella release
+  0.5.0 e 27 sperimentali. Tutti i 53 candidati della selezione precedente sono
+  ora inclusi. Profili e materiali disponibili sono versionati nel repository,
+  anche quando lo stile non è distribuito. Per lavorare da portatile e iMac:
+  [flusso di sviluppo e sincronizzazione](docs/SVILUPPO-STILI.md).
+- [`SKILL.md`](SKILL.md) e [`references/catalogo-v1.yaml`](references/catalogo-v1.yaml) definiscono il flusso e i 103 stili distribuiti.
 - La [gallery di sviluppo](https://quote-card-designer-style-gallery.vincos.chatgpt.site/) è riservata al proprietario e agli ospiti autorizzati. Contiene anche stili candidati e sperimentali: la presenza in gallery non implica l'inclusione nella release.
 - [`gallery/catalogo-v1/`](gallery/catalogo-v1/README.md) contiene i sorgenti riproducibili del catalogo pubblico. [Stato della gallery di sviluppo](gallery/GALLERY-STATUS.md): versione pubblicata, candidati e differenze con la build locale.
-- [Note della release 0.4.0](releases/0.4.0.md): selezione, verifiche e limiti.
+- [Note della release 0.5.0](releases/0.5.0.md): selezione, verifiche e limiti. Il catalogo visivo e i badge della gallery possono precedere questa release: per gli stili disponibili fa fede il catalogo incluso nello ZIP.
 
 Per rigenerare la gallery: installa le dipendenze con `python3 -m pip install -r gallery/requirements.txt`, poi esegui `python3 gallery/build.py`. Per creare uno ZIP della skill: `python3 gallery/package_skill.py`. La build locale può contenere studi non ancora pubblicati; confronta le differenze prima di aggiornare il sito.

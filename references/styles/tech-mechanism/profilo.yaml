@@ -1,6 +1,6 @@
 "Design Style":
   "Name": "Tech Mechanism"
-  "Status": "V1 candidate su richiesta dell’utente il 29 ottobre 2026; fuori dalla release 0.4.0"
+  "Status": "Included in distributed version 0.5.0; promoted from the development candidates on 29 October 2026."
   "Concept": "La tipografia tecnica e il meccanismo dell’oggetto di cui si parla condividono la gerarchia visiva. L’immagine ha una presenza sostanziale, non è un piccolo riempitivo."
   "Canvas":
     "Ratio": "4:5"

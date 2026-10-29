@@ -1,61 +1,108 @@
 Design Style:
-  Name: "Digital Textile"
+  Status: "Included in distributed version 0.5.0; promoted from the development candidates on 29 October 2026."
+  Name: "Textile"
   Concept: >
-    Computational textile design treats a quotation as a woven graphic system.
-    Clear geometric lettering, jacquard-like interlacing and structured yarn
-    paths create a tactile contemporary surface. The pattern emerges from
-    warp, weft and typography rather than decorative folklore.
+    The quotation is physically constructed in cloth. Dense woven lettering
+    or letter-shaped openings in a secured textile layer turn words into the
+    material itself. Tension, thickness, fibres and contact shadows carry the
+    image, while the quotation keeps the impact of an editorial poster.
+    A single physical intervention can supply surprise; neither a tear nor
+    a particular colour combination is compulsory.
   Canvas:
     Ratio: "4:5"
-    Output: "Single finished flat editorial quote card, full bleed"
-  Mood: ["Tactile", "Computational", "Warm", "Graphic", "Structured"]
+    Output: "Single finished editorial quote card, textile filling the frame"
+  Mood: ["Tactile", "Physical", "Bold", "Contemporary", "Imperfect"]
   Color Palette:
     Background:
-      Ecru: "#E8E1D2"
+      Petrol Black: "#10272D"
     Primary:
-      Ultramarine: "#253DAD"
+      Warm Ivory: "#EFE5D0"
     Accent:
-      Vermilion: "#DD4A32"
-    Contrast:
-      Ink: "#20272E"
+      Acid Chartreuse: "#C9DB26"
+    Alternative:
+      Vermilion: "#EE3923"
+      Deep Aubergine: "#221625"
     Roles: >
-      Ecru creates a quiet woven ground. Ultramarine carries strong letter
-      shapes and the main thread system. Vermilion marks one meaningful
-      crossing or displaced edge. Ink can support quieter readable words.
+      Choose one compact palette per card. A dark woven face with light letters
+      can reveal one brighter underlayer; alternatively, a saturated face can
+      carry recessed dark lettering. These are starting points, not mandatory
+      colours to combine. Preserve local contrast and enough light in dark
+      fibres to distinguish cloth from empty black holes.
   Typography:
     Primary:
-      Style: "Bold geometric sans-serif built from closely woven yarn shapes"
-      Role: "Dominant quotation words with solid, clearly readable interiors"
-    Secondary:
-      Style: "Simpler woven sans-serif at a quieter scale"
-      Role: "The connecting quotation words"
+      Style: "Heavy contemporary grotesk or another coherent, open-counter letter construction"
+      Role: "The quotation is the first readable subject of the image"
+    Material:
+      Positive Weave: >
+        Dense weft floats and interlacings construct readable letters within
+        the same warp-and-weft system as the ground. Avoid an embroidered font
+        pasted onto an otherwise unrelated fabric photograph.
+      Recessed Inlay: >
+        Cut letter shapes from a textile face to expose a finer contrasting
+        underlayer. Small construction stitches secure edges and counters;
+        raw fibres, compression and contact shadows reveal real thickness.
     Hierarchy: >
-      Preserve the original case and punctuation. Thread texture must remain
-      finer than the letter strokes; avoid a coarse pixel matrix that makes
-      words hard to recognize. Use clear scale differences and calm spacing.
+      Preserve case, words and punctuation. Use size changes for meaning, with
+      natural glyph proportions, optical spacing and normal word separation.
+      Let line lengths differ. Keep connecting words substantial. Rough fibre
+      edges may animate a silhouette but must not close counters or erase a
+      letter. Fabric texture is finer than the strokes it describes.
+    Attribution: >
+      When supplied, reproduce the name exactly in a smaller, quieter and
+      readable textile register, ending on a clear right alignment. Omit the
+      name and its reserved space when absent; never invent a signature.
   Layout:
     Structure:
-      - "Flat textile field with precise editorial alignments"
-      - "An ordered weave disrupted at a meaningful transition"
-      - "Open woven ground around the quotation"
+      - "A clear reading sequence with deliberate margins and breathing space"
+      - "Text and one coherent textile construction designed together"
+      - "Asymmetric physical tension or layer depth when useful to the composition"
     Relationships: >
-      Letter strokes and background threads belong to one material system.
-      A few yarn paths may change direction or cross the field boundary to
-      support the words. The quotation is the main pattern, not an overlay
-      on a busy decorative cloth.
+      Choose positive woven letters or recessed inlay as the main construction;
+      do not accumulate both by default. Any opening, fold or displaced edge
+      must grow plausibly from that construction and interact with the text
+      field without destroying its reading. Adapt the physical event to the
+      phrase and available space instead of repeating one fixed diagonal slit.
+      A quiet surface is also valid when the lettering supplies the impact.
+      The frame contains the artwork itself, without a room or prop.
   Elements:
-    Repertoire: ["Warp and weft crossings", "Jacquard-like lettering", "Selected loose thread paths", "A displaced woven edge"]
-    Selection: "Use a small coherent set of weave frequencies and thread directions."
+    Repertoire:
+      - "Visible warp and weft, irregular yarn thickness and occasional slubs"
+      - "A local change from dense weave to exposed taut threads"
+      - "A second textile face revealed through an opening or letter cutout"
+      - "Raw fibre edges, small securing stitches and compressed seams"
+      - "Shallow buckling or a restrained tension ridge"
+    Selection: >
+      Select only the construction details needed by the chosen composition.
+      Loose ends have a physical origin. Stitches secure fabric rather than
+      decorate every empty area. Avoid ornamental circuit-like thread paths.
   Effects:
-    Texture: "Fine, visibly interlaced matte yarn with restrained fibre detail"
-    Depth: "Shallow textile relief only, near-orthographic flat presentation"
-    Light: "Soft even light preserving the graphic composition"
+    Texture: >
+      Credible cotton or wool fibres, dense and loose regions with distinct
+      structure, fine fuzz and small irregularities. Do not impose one huge
+      repeated cross-stitch grid on every part of the image.
+    Depth: >
+      Realistic textile thickness, layer separation and shallow folds. Depth
+      comes from cloth construction, not inflated letters or digital bevels.
+    Light: >
+      Directional daylight skims fibres and creates small contact shadows.
+      Keep the full quotation clear and in focus. Avoid even synthetic light
+      that erases relief, crushed dark letters and theatrical depth of field.
+  Production:
+    Preferred Mode: "generative"
+    Instructions: >
+      Generate the complete composition and its material lettering together
+      with ImageGen. Inspect all text and the apparent cloth construction.
+      Examples calibrate the language; they are not automatic image inputs.
   Rules:
-    - "Render the exact quotation once, preserving legibility at phone size."
-    - "Keep the weave tactile and credible while maintaining clean typographic shapes."
-    - "Avoid photographed room scenes, rugs on floors, decorative fringe and craft-shop mockups."
-    - "Do not add invented stitching labels, signatures, symbols or extra text."
+    - "Render the exact quotation once, with readable punctuation and natural spacing."
+    - "Keep texture, stitches, folds and letter edges physically related."
+    - "Choose a specific textile behaviour; a generic fabric texture overlay is insufficient."
+    - "Preserve enough clean silhouette and contrast for the entire reading sequence."
+    - "Avoid plastic fibres, foam letters, tufted rugs, paper cutouts and glossy CGI extrusion."
+    - "Avoid room scenes, garments, cushions, frames, craft-shop props and decorative fringe."
+    - "Do not add labels, symbols, signatures, logos, watermarks or extra text."
   User Overrides:
-    Format: "Recompose the textile field and reading sequence for the requested ratio."
-    Palette: "Change yarn colours while preserving strong letter/background contrast."
-    Fonts: "Translate the requested type direction into readable woven letter shapes."
+    Format: "Recompose text, layer openings and material tension for the requested ratio."
+    Palette: "Change cloth and yarn colours independently from the examples while preserving contrast."
+    Fonts: "Translate the requested type direction into a plausible, readable textile construction."
+Composition Library: composizioni.yaml

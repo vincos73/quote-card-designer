@@ -1,0 +1,48 @@
+Composition Library:
+  Style Name: Oneline
+  Selection:
+    Principle: >-
+      Choose the relationship that makes the sentence and drawing explain one
+      another. Plan the exact words and the contour together, preserving clear
+      word spaces and punctuation. The families are alternatives, not a checklist.
+    Longer Text: >-
+      Open the reading field and simplify the subject before reducing the complete
+      lettering uniformly. Do not abbreviate the supplied text.
+    Overrides: User-specified text, format, palette and subject take precedence.
+  Families:
+    - id: parola-contorno
+      Name: La parola continua nel disegno
+      Use When: >-
+        One idea in the sentence lends itself to a recognizable object, gesture,
+        transformation or movement that can continue from a letter terminal.
+      Structure: >-
+        The quotation forms a clear primary mass. One terminal extends into open
+        paper and becomes the main contour of the explanatory image. It may move
+        laterally, rise above the words or return through an empty interval.
+        Preserve the full letter at the junction and give the drawing room to read.
+      Text Adaptation: >-
+        Place the relevant word on a reading line that allows a natural exit.
+        Keep the original sentence order, all letters and natural spacing. Do not
+        stretch a word or attach the drawing to a punctuation mark.
+      Format Adaptation: >-
+        Rebalance text and image for the ratio. A vertical composition can open
+        above the text; a wider composition can develop a lateral movement.
+        These directions are options, not fixed subject positions.
+    - id: spazio-condiviso
+      Name: La frase nello spazio fra le figure
+      Use When: >-
+        The sentence concerns a relationship, encounter, boundary or shared space
+        that can be understood through a small number of facing or related contours.
+      Structure: >-
+        The drawing defines part of the perimeter of a generous reading space.
+        The complete quotation occupies that space and shares its rhythm. A
+        deliberate terminal-to-contour junction can strengthen the integration
+        if every letter and punctuation mark stays unambiguous.
+      Text Adaptation: >-
+        Break the sentence into meaningful groups and adapt the contour spacing
+        around them. Never compress one line to squeeze it between drawn features.
+        An open junction is a limit of physical continuity, not a missing letter
+        to conceal with an ornamental mark.
+      Format Adaptation: >-
+        Recompose the relationship and reading area for the requested ratio;
+        preserve the full quotation and sufficient contrast at its boundaries.

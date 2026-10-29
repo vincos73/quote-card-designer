@@ -127,7 +127,7 @@ Design Style:
     Method: ImageGen genera l'intera composizione, inclusa tipografia, geometrie e immagini.
     Validation: Verificare testo letterale, lettere, contrasto e sequenza a formato nativo e alla scala
       di fruizione.
-  Status: V1 candidate richiesta dall’utente il 28 ottobre 2026
+  Status: "Included in distributed version 0.5.0; promoted from the development candidates on 29 October 2026."
 Composition Library:
   Style Name: Constructivist
   Selection:

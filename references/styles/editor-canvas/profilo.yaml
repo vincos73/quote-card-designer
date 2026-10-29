@@ -23,67 +23,93 @@ Design Style:
     Font: Use requested actual font when available; natural metrics and word spacing. Exact font identification
       from references is unverified.
   Validation:
-    Status: First imagegen example approved. Native font identity and profile-aware deterministic renderer
-      unverified.
+    Status: Development revision 0.2.0. EC1 remains the historically approved example. EC2 received
+      positive user feedback; after EC3 the user accepted the direction and requested candidate status
+      in the online gallery. EC3 tests a longer sentence, a different accent colour and a rotated
+      selected word. Two examples do not establish repeatability.
     Required Followup:
-    - short and long quotation
-    - a different palette
+    - a long quotation beyond the two short and medium calibration sentences
+    - a substantially different palette beyond the tested blue and orange accents
     - optional attribution
-    - native text and glyph spacing review
+    - native font identity and exact interface geometry remain unverified
   Name: Editor Canvas
-  Status: Catalog style; first visual example approved by user. Production capabilities remain separately unverified.
-  Concept: The quotation is displayed as an actively edited typographic object inside a believable contemporary
-    design canvas. A ruler, alignment guides, selection bounds, handles, contextual controls and a compact
-    properties area make the editing environment recognizable while keeping the quote as the primary subject.
-    This is a modern design workspace, not a nostalgic desktop window.
+  Status: "Included in distributed version 0.5.0; promoted from the development candidates on 29 October 2026."
+  Concept: A close crop of a contemporary design editor catches the quotation at a meaningful instant
+    of work. One word or letter is the object of a specific editing operation, so the interface participates
+    in the meaning instead of decorating a finished poster. Monumental typography is contrasted with
+    small, coherent tools, an artboard edge and a quiet surrounding workspace. Realism comes from the
+    relation between the selected object, the tool and its geometry, not from adding more interface chrome.
   Mood:
   - graphic
   - precise
-  - playful process
-  - minimal
+  - decisive
+  - work in progress
+  - contemporary
   Typography:
-    Primary: Large bold clean proportional grotesque; no obligation to use monospace or pixel letters.
-    Hierarchy: One reading sequence; selected short clauses can invert on a solid plane or receive one translucent
-      highlight.
-    Spacing: Natural metrics, optical word spaces and clear leading. Do not compress lines to align frame edges.
-    Attribution: Optional supplied name in a smaller/lighter separate register, not an invented UI footer.
+    Primary: Large bold proportional grotesque with substantial mass and clearly drawn counters;
+      no obligation to use a specific font, monospace or pixel letters.
+    Hierarchy: One reading sequence. An actively edited word may change scale or colour for a clear
+      expressive reason; all supporting lines retain a consistent register. The word is never duplicated
+      as a separate decorative object.
+    Spacing: Preserve natural glyph proportions, optical kerning and distinct word spaces at feed size.
+      Fit longer lines by rebreaking or scaling the relevant register uniformly, never squeezing individual
+      words or eliminating spaces. Allow accents and control points room to breathe.
+    Attribution: Optional supplied name, exact, smaller and lighter than the quote, right-aligned to
+      a clear right edge of the artboard or text block. Never present it as an invented UI footer.
   Layout:
     Structure:
-    - Large open artboard with a common reading axis
-    - Slim top control strip and a compact side properties panel, kept secondary to the artboard
-    - Small ruler ticks, one or two alignment guides and a restrained grid cue
-    - Selection frame around one or two meaningful text fragments
-    - Small square handles attached to actual frame corners and midpoints
-    - One cursor or contextual tool cue when useful
+    - Tight crop into a large artboard; the quote occupies the main visual area and remains entirely visible
+    - A narrow portion of the surrounding workspace and one cropped tool rail establish context
+    - One main editing operation, attached to an actual word or glyph rather than scattered selections
+    - An optional compact contextual strip or cropped properties area occupies genuinely unused space
+    - Ruler ticks and at most a few guides refer to the text or artboard geometry
+    - One cursor can approach the relevant node, handle or object without obscuring the lettering
+    Adaptation: Choose the crop, reading axis, active fragment and amount of visible interface for each
+      quotation. Do not require four lines, a particular word, a left toolbar or the calibration palette.
+      Longer quotations need more artboard and fewer controls before a smaller type size.
     Relation To Retro UI: Editing controls relate directly to letters, not a main retro desktop window containing
       the quote.
   Graphic Elements:
     Repertoire:
-    - Thin solid selection bounds with small square handles
-    - Ruler ticks, alignment guides and a light canvas grid
-    - Compact icon-like controls for selection, text, alignment and colour
-    - A few colour swatches and restrained spacing or size controls in a side panel
-    - One flat cursor arrow and one inversion or highlight plane
-    Selection: Combine enough recognizable canvas details to suggest a real vector or editorial design
-      workspace. Keep controls small, quiet and subordinate; do not fill the card with a full screenshot or
-      allow generated pseudo-labels and illegible interface copy.
+    - Fine vector contours exactly following a selected glyph, with small nodes attached to the contour
+    - Thin selection bounds with small handles at actual corners and midpoints when object selection is active
+    - Ruler ticks without numbers and alignment guides anchored to real edges
+    - Small coherent icons for direct selection, pen, shape, alignment and colour
+    - A few solid colour swatches and compact panel divisions
+    - A single flat cursor with a keyline legible against the local background
+    Operation: Choose one credible editing state. Contour editing can show a path and attached nodes
+      before any anchor is selected, without tangent handles. Object selection can show one bounding box.
+      Do not combine contradictory states simply to increase visual density.
+    Geometry: If tangent handles are used, they must originate at an actual selected anchor, follow the
+      local curve tangent and remain attached. Prefer the simpler node-only state when this geometry
+      cannot be rendered reliably. No floating control lines.
+    Selection: Use enough context to recognize the workspace while keeping the sentence primary.
+      Crop peripheral UI rather than shrinking a whole application into the card. No pseudo-labels or
+      short strokes that imitate unreadable interface text.
   Effects:
-    Surface: Clean flat field
-    Depth: Flat layering
-    Shadows: None
-    Selection: Highlight sits behind words and preserves contrast.
+    Surface: Crisp native digital rendering; flat artboard and low-contrast neutral application surfaces.
+    Depth: Planar layering, with only a small restrained shadow under a genuinely floating tool panel.
+    Shadows: No extrusion, bevelled icons, physical paper shadows or dramatic light on the letters.
+    Selection: Use a clearly legible control accent independent of the artwork palette. A selected word
+      can carry that colour, but its fill and counters must preserve readability.
   Rules:
-  - Frames enclose real quotation fragments and follow their geometry.
+  - Show a specific editing action related to the quotation; a generic selection frame alone is insufficient.
+  - The artboard and its controls form the card itself; do not photograph a monitor or add a desk mockup.
+  - Keep one active object and a coherent tool state; multiple toolbar icons do not imply multiple active cursors.
+  - Frames and nodes follow actual text geometry; remove an unreliable optional detail instead of disguising it.
   - Do not copy NEW/LOAD/SAVE labels, creator handles or reference wording; do not invent readable UI labels.
-  - Small non-verbal controls, ruler ticks, swatches and panel divisions may add realism without adding copy.
+  - Small non-verbal controls, ruler ticks, swatches and panel divisions may add realism without fabricated copy or data.
   - Handles and cursor must not cover accents, punctuation or letters.
-  - Keep a large enough type scale for the final viewing size.
+  - Preserve strong local contrast and visibly separate words at the final viewing size.
+  - The calibration example is not a mandatory layout, palette, quoted text or operational image reference.
   Production:
     Preferred Mode: typeset
+    Composition: Generate the entire new card with ImageGen, including the quotation and interface.
+      The mode describes possible refinement, not permission to replace full-card generation with a script.
     Required Capabilities:
     - measured text bounds
     - mixed text/background runs
-    - SVG or equivalent guides, handles and cursor
+    - precise contours, attached nodes, guides and cursor geometry
     - layer order and local contrast
     Implemented: Not implemented as a profile-aware renderer; geometry is suitable for deterministic layout.
-  Version: 0.1.1
+  Version: 0.2.0

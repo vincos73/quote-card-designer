@@ -1,6 +1,6 @@
 "Design Style":
   "Name": "Finance"
-  "Status": "V1 candidate su richiesta dell’utente il 29 ottobre 2026; fuori dalla release 0.4.0"
+  "Status": "Included in distributed version 0.5.0; promoted from the development candidates on 29 October 2026."
   "Concept": "La frase diventa il contenuto principale di una superficie da terminale. Un segno o un campo di segni, scelti dal quote, ne rende visibile il senso."
   "Canvas":
     "Ratio": "4:5"

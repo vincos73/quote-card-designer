@@ -12,8 +12,11 @@ qualificazioni, condizioni e soggetto: una tesi condizionata non deve diventare
 universale.
 
 Mantieni internamente il testo proposto, la sua collocazione nella fonte e
-l'eventuale attribuzione. Se più passaggi sono adatti, proponi una selezione
-chiara e chiedi quale usare; non presentarne una parafrasi come citazione.
+l'eventuale attribuzione. Se più passaggi sono adatti, indica quello consigliato
+con una breve ragione e, quando utile, un'alternativa. Se la selezione e la
+creazione sono delegate, scegli e procedi; altrimenti raccogli la scelta del
+testo insieme alle eventuali preferenze di stile ancora mancanti. Non
+presentare una parafrasi come citazione.
 
 ## Articolo o altro URL
 
@@ -24,11 +27,13 @@ dalla fonte, distinguendo l'autore dell'articolo dalla persona citata. Se
 l'identità del parlante o dell'autore non è chiara, segnala l'incertezza e non
 assegnare un nome per supposizione.
 
-Prima di generare, raccogli la scelta della citazione e dello stile. Uno stile
-già richiesto dall'utente conta come scelta; se lo stile manca, proponi le
-opzioni secondo il catalogo V1. Attendi la risposta salvo delega esplicita a
-selezionare la citazione e creare la card. Dopo che testo e stile sono definiti,
-riassumi brevemente il brief e procedi senza chiedere un'ulteriore conferma.
+Prima di generare, raccogli le sole scelte mancanti. Uno stile già richiesto
+conta come scelta; se manca e non è delegato, accompagna la citazione con lo
+stile consigliato e le alternative secondo il flusso di SKILL.md, nello stesso
+messaggio. L'utente può così scegliere testo e stile con una risposta.
+Attendi soltanto le decisioni non già definite o delegate. Dopo che testo e
+stile sono definiti, riassumi brevemente il brief e procedi senza chiedere
+un'ulteriore conferma.
 
 Se l'articolo è inaccessibile, incompleto o non contiene il passaggio necessario,
 spiega il limite e chiedi di incollare il testo o fornire un documento leggibile.

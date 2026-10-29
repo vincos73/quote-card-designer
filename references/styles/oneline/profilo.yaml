@@ -1,0 +1,104 @@
+Design Style:
+  Name: Oneline
+  Status: "Included in distributed version 0.5.0; promoted from the development candidates on 29 October 2026."
+  Concept: >-
+    The quotation and an explanatory drawing share an economical, flowing line.
+    A recognizable contour, chosen from the meaning of the sentence, continues
+    from a letter terminal or shapes the space in which the words are read.
+    Large, readable monoline handwriting and the drawing are designed together.
+    The line conveys an idea rather than adding an unrelated ornamental flourish.
+  Canvas:
+    Ratio: '4:5'
+    Output: Single complete flat quote card; lettering and illustration generated together
+  Mood: [Essential, Thoughtful, Fluid, Human, Airy]
+  Color Palette:
+    Fixed Colors: false
+    Starting Palette:
+      Paper: '#F6F2E8'
+      Ink: '#24231F'
+    Roles: >-
+      One contrasting ink normally carries both text and drawing on quiet light
+      paper. Green, blue or other inks are equally valid. The initial cream and
+      black are a starting point, not a fixed identity. Preserve strong local
+      contrast and do not add coloured shapes merely to fill empty space.
+  Typography:
+    Primary: >-
+      Readable monoline Latin handwriting with restrained cursive joins, open
+      counters, natural letter proportions and clear word spaces. Keep a coherent
+      hand throughout the quote. The stroke is fine to medium and sufficiently
+      visible at feed size, without broad brush pressure or exaggerated swashes.
+    Hierarchy: >-
+      The whole sentence is the main reading element. Use meaning-based line
+      breaks and a few deliberate changes of scale only when useful. Never shrink
+      connecting words into ornamental text or repeat a word as a separate caption.
+    Junctions: >-
+      A letter terminal may become a contour while its complete letter skeleton
+      remains recognizable. Preserve punctuation and word spaces independently.
+      Never replace a letter with a leaf, face, knot or other illustration.
+    Attribution: >-
+      If supplied or verified, render the exact name smaller and quieter, but
+      readable, on a clear right-aligned axis. Keep it distinct from the quotation
+      and the drawing. If absent, omit it and recover the space. Add a personal
+      signature only when explicitly requested, distinct from any author.
+  Layout:
+    Core Relationship: >-
+      Compose the actual words and explanatory image in the same reading field.
+      Prefer at least one clear physical junction between a letter terminal and
+      the main drawn contour. A composition based on the space between figures
+      can also integrate the words through shared boundaries, but should not be
+      described as physically continuous if its junction remains open.
+    Reading: >-
+      The complete quotation stays easy to follow. Keep drawing away from counters,
+      accents, apostrophes and spaces; let open paper separate reading groups.
+      Give the drawing another position or reduce its scale before compressing
+      words. A period must remain a distinct mark, not a node on a contour.
+    Adaptation: >-
+      Choose the amount and direction of empty space from the sentence and image.
+      For a longer sentence simplify the drawing and add meaningful lines before
+      uniformly reducing the lettering. Recompose for a new ratio rather than
+      cropping the quote or stretching the image.
+  Elements:
+    Drawing: >-
+      One economical continuous-contour subject, or a small relationship between
+      subjects, that explains the current sentence. The repertoire is open: an
+      object, gesture, route, natural form or human interaction may be appropriate.
+      The thread, plant and faces in the studies are examples, not mandatory motifs.
+    Stroke: >-
+      Fluent, deliberate loops and contours with restrained hand variation.
+      Avoid shading, hatching, solid silhouettes and decorative masses. Natural
+      pen lifts are allowed for separate words, accents and punctuation; legibility
+      takes precedence over forcing every mark onto one physical path.
+    Background: >-
+      Light matte uncoated paper with a gently uneven natural tooth, short visible
+      fibres and delicate local variations in density. Keep the material tactile
+      but restrained beneath the readable monoline strokes. No desk, visible sheet
+      edges, heavy mottling, folds or dirt. Paper colour remains adaptable.
+  Effects:
+    Surface: >-
+      Flat ink on naturally fibrous paper. Delicate paper microrelief is allowed;
+      avoid cast shadows, embossed lettering, gradients and synthetic distress.
+    Integration: The contour and handwriting share ink, stroke character and spatial rhythm
+  Rules:
+    - Preserve the supplied text once, including case, accents, apostrophes and punctuation.
+    - Derive the explanatory image from the sentence rather than repeating a default icon.
+    - Keep natural letter proportions, clear word spacing and an unambiguous reading order.
+    - Prefer a visible, deliberate junction between a complete letter and the drawn contour.
+    - Keep punctuation separate and readable; never absorb a period into a line or loop.
+    - Do not force all words into an unbroken path at the expense of reading.
+    - Do not invent an author, signature, caption, border text or filler.
+    - Verify the result visually; a raster image does not prove mathematical path continuity.
+  Production:
+    Preferred Mode: generative
+    Method: Use built-in ImageGen for the entire composition, including all lettering.
+    Image Inputs: No external image references required; written profile is self-contained.
+    Validation Status: >-
+      Three short original sample phrases were generated in black, green and blue.
+      The thread and plant visibly join a word terminal. The listening study uses
+      the space between two profiles; one ImageGen edit clarified the final period,
+      but its drawing-to-word junction remains open. These are exploratory examples,
+      not evidence of general repeatability. Attribution, long quotations, other
+      ratios and requested font substitutions remain untested.
+      A fourth study edits only the thread card's paper at the user's request,
+      adding visible fibres and moderate tooth while retaining its quotation,
+      composition and connected contour. The original and prior profile are kept.
+Composition Library: composizioni.yaml
