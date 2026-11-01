@@ -115,8 +115,13 @@ Usa una struttura leggibile, in italiano o inglese secondo l'ambiente:
 3. Composizione scelta per la card: distribuzione delle masse, area del testo,
    ordine di lettura, densità, enfasi e ancoraggi, adattati alla frase e al
    formato. Non trasferire le altre famiglie come alternative simultanee.
-4. Citazione delimitata, integralmente letterale, ed eventuale attribuzione e/o
+4. Testo effettivamente visibile, integralmente letterale, ed eventuale attribuzione e/o
    firma, ciascuna con testo esatto, ruolo, posizione e gerarchia subordinata.
+   Scrivi la frase dopo l'etichetta `Testo visibile:`, senza racchiuderla in
+   virgolette usate soltanto come delimitatori del prompt. Le virgolette esterne
+   vanno nel testo visibile solo su richiesta esplicita dell'utente; altrimenti
+   specifica che non devono comparire nell'immagine. Conserva le virgolette
+   interne che fanno parte del contenuto, senza aggiungerne attorno alla frase.
    Spiega al generatore che una firma personale non è l'autore della citazione.
 5. Vincoli di leggibilità e divieto di testi inventati.
 

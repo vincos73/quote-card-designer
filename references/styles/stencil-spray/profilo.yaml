@@ -18,7 +18,7 @@
     "Roles": "Il fondo è una superficie verniciata, le parole sono passate di pigmento; differenziare gruppi di senso con un secondo colore solo quando la gerarchia lo giustifica."
     "Material Consistency": "L’overspray, i granuli e le colature hanno il colore della vernice corrispondente. Evitare uno strato di grunge nero identico su tutte le palette."
   "Typography":
-    "Quote": "Display stencil maiuscolo robusto, geometrico e naturalmente condensato. Disegno coerente fra lettere, senza stiramenti o schiacciamenti locali."
+    "Quote": "Display stencil robusto, geometrico e naturalmente condensato. Conservare la cassa fornita; usare tutto maiuscolo o minuscolo solo su richiesta esplicita. Disegno coerente fra lettere, senza stiramenti o schiacciamenti locali."
     "Construction": "I contrografismi chiusi hanno ponti plausibili che collegano le isole alla matrice; le interruzioni sono funzionali alla mascherina e non tagli decorativi casuali."
     "Spacing": "Proporzioni, kerning ottico e spazi fra parole naturali. Risolvere ingombri con a capo, composizione e scala del blocco, mai tracking arbitrario per pareggiare righe."
     "Material": "I centri dei tratti sono coprenti; i bordi variano fra taglio netto e nebulizzazione dove la mascherina si solleva. Il testo è vernice, non un font pulito coperto da texture."
@@ -44,7 +44,7 @@
     - "Nessun marchio, data, codice, etichetta, slogan aggiunto o timbro inventato"
     - "Niente neon, rilievo 3D, bordi vettoriali perfetti, blur digitale uniforme o dripping decorativo obbligatorio"
   "Content Contract":
-    "quote": "Testo completo una volta, con parole, cassa richiesta, accenti e punteggiatura conservati. Le frasi dimostrative originali sono senza punto finale."
+    "quote": "Testo completo una volta, con parole, cassa fornita, accenti e punteggiatura della frase conservati nell'immagine. Virgolette esterne solo su richiesta esplicita dell'utente, non perché delimitano il testo nel messaggio o nel prompt. Cambiare cassa o punteggiatura interna solo su richiesta esplicita; l'assenza del punto nelle prove non è una regola per nuove citazioni."
     "other_text": "Nessuna attribuzione o firma inventata; non riprodurre testi o nomi commerciali delle reference"
   "Production":
     "Method": "ImageGen integrato per ogni composizione completa, testo incluso; nessuna impaginazione deterministica sopra un fondo generato"

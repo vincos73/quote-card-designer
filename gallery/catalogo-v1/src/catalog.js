@@ -50,7 +50,7 @@
     const number = document.createElement('span'); number.className = 'card-number'; number.textContent = String(style.index).padStart(2, '0'); heading.append(number, document.createTextNode(style.name));
     const copy = document.createElement('button'); copy.type = 'button'; copy.className = 'copy-button'; copy.innerHTML = "<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"8\" y=\"8\" width=\"12\" height=\"12\" rx=\"1\"/><path d=\"M16 8V4H4v12h4\"/></svg><span>Copia nome</span>"; copy.setAttribute('aria-label', `Copia nome ${style.name}`); copy.addEventListener('click', () => copyName(style.name));
     row.append(heading, copy);
-    const meta = document.createElement('p'); meta.className = 'card-meta'; meta.textContent = 'Incluso nella 0.4.0';
+    const meta = document.createElement('p'); meta.className = 'card-meta'; meta.textContent = `Incluso nella ${data.version}`;
     const details = document.createElement('details'); details.className = 'card-details';
     const summary = document.createElement('summary'); summary.textContent = 'Dettagli';
     const description = document.createElement('p'); description.textContent = style.summary;

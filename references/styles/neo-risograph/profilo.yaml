@@ -76,8 +76,8 @@ Design Style:
     Quote:
       Style: "Grotesk o sans editoriale bold/black con forme aperte e proporzioni naturali"
       Case: >
-        Maiuscolo di visualizzazione come default, conservando la cassa
-        originale nei dati. Una diversa richiesta dell'utente prevale.
+        Conservare la cassa della citazione anche nell'immagine. Convertire
+        in maiuscolo o minuscolo solo su richiesta esplicita dell'utente.
       Treatment: >
         Testo integrale una volta sola, con a capo per gruppi di senso.
         Il carattere può avere un lieve deposito di stampa, senza
@@ -173,7 +173,7 @@ Design Style:
   Content Contract:
     quotation: >
       Frase completa una volta, parole, accenti e punteggiatura esatti.
-      Il maiuscolo è una trasformazione visiva; conservare il testo fonte.
+      Conservare anche la cassa nell'immagine; cambiarla solo su richiesta esplicita.
     author: "Solo nome fornito o verificato, subordinato e allineato a destra."
     other_text: "Nessuna scritta demo, istruzione, data, logo o firma inventati."
 
@@ -191,7 +191,7 @@ Design Style:
     Palette: "Sostituire gli inchiostri mantenendo ruoli e contrasto."
     Paper: "Cambiare colore e presenza della fibra senza trasformare il materiale in una texture digitale."
     Format: "Ricomporre immagine e testo per il rapporto richiesto."
-    Case: "Rispettare la cassa originale o minuscola se richiesta."
+    Case: "Conservare la cassa fornita; applicare una conversione solo se richiesta esplicitamente."
     Imagery: "Usare i soggetti o le foto richiesti, conservando il trattamento di stampa."
 
   Production:

@@ -1,6 +1,6 @@
 # Catalogo visivo V1
 
-Sorgenti del catalogo pubblico: interfaccia Indice svizzero, dati e anteprime approvate della skill 0.5.0. Il catalogo mostra tutti i 103 stili della release in 11 categorie; la gallery completa di sviluppo è un progetto distinto.
+Sorgenti del catalogo pubblico: interfaccia Indice svizzero, dati e anteprime approvate della skill 0.5.1. Il catalogo mostra tutti i 103 stili della release in 11 categorie; la gallery completa di sviluppo è un progetto distinto.
 
 Esegui `python3 gallery/catalogo-v1/build.py` dalla radice del repository. La build predefinita va in `build/catalogo-v1-dist/`; con `--output <percorso>` si può scegliere un'altra directory. Le immagini sono verificate rispetto a `asset-manifest.json` prima di essere copiate.
 
@@ -11,3 +11,7 @@ Il progetto Sites mantiene il proprio checkout e il proprio `.openai/hosting.jso
 Pubblicazione del 27 ottobre 2026: Sites versione **4**, sorgente `c17d842fff2d81d922fb93bd23e15a485d7d6575`, accesso pubblico invariato. Ricevuta: `pubblicazione-v4.json`.
 
 Pubblicazione del 29 ottobre 2026: Sites versione **6**, sorgente `ae03980657478212b35aee021191aca7d28a1584`, skill **0.5.0**, **103 stili**. Accesso pubblico e revisione 2 della politica di accesso invariati. Stato di pubblicazione confermato da Sites e pagina online verificata nel browser. Ricevuta: [pubblicazione-v6.json](pubblicazione-v6.json). Controlli su selezione, immagini, conservazione e interazioni: [qa-0.5.0.json](qa-0.5.0.json).
+
+## Sorgenti 0.5.1 · 1 novembre 2026
+
+La selezione dei 103 stili e tutte le anteprime sono invariate. La versione dei dati locali è 0.5.1 e i badge leggono quella versione, senza una stringa fissa nel JavaScript. Questa preparazione non pubblica Sites: la pagina online resta alla versione 6, riferita alla skill 0.5.0.

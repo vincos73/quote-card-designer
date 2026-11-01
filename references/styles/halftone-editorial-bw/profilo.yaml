@@ -68,8 +68,8 @@ Design Style:
     Quote:
       Style: "Grotesk o sans compatta molto pesante, proporzioni naturali"
       Case: >
-        Maiuscolo di visualizzazione come default; conservare il testo
-        originale nei dati editoriali e rispettare una diversa richiesta.
+        Conservare la cassa della citazione anche nell'immagine. Convertire
+        in maiuscolo o minuscolo solo su richiesta esplicita dell'utente.
       Treatment: >
         Frase completa una sola volta, con ordine di lettura univoco e
         grandi gruppi di senso. La stampa può scheggiare leggermente i
@@ -168,8 +168,8 @@ Design Style:
   Content Contract:
     quotation: >
       Testo integrale una volta sola, parole e punteggiatura esatte.
-      Il maiuscolo è una trasformazione visiva del profilo; non
-      cambiare il testo fonte conservato nei dati.
+      Conservare anche la cassa nell'immagine; una conversione richiede
+      una richiesta esplicita dell'utente.
     author: "Solo attribuzione fornita o verificata, subordinata e allineata a destra."
     other_text: >
       Nessun nome di band, anno, ideogramma, etichetta di demo, logo,
@@ -196,7 +196,7 @@ Design Style:
       Il default è soltanto bianco e nero. Per la stessa fotografia
       retinata in due colori a contrasto usare Duotone Halftone, salvo una
       diversa personalizzazione esplicita dell'utente.
-    Case: "Una richiesta di cassa originale o minuscola prevale sul default maiuscolo."
+    Case: "Conservare la cassa fornita; applicare una conversione solo se richiesta esplicitamente."
     Fonts: "Rispettare la direzione richiesta, con proporzioni naturali e testo completo."
     Imagery: "Usare soggetto o fotografia forniti dall'utente, mantenendo sfondo retinato e sovraimpressione."
     Wear: "Modulare lo sporco della stampa conservando retino, fotografia e leggibilità."

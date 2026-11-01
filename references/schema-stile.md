@@ -116,6 +116,11 @@ operative automaticamente al pacchetto.
 Controlla che i percorsi siano relativi e risolvibili, che il file YAML sia
 leggibile e che i contenuti siano trasferibili. Mantieni fuori dal pacchetto
 identità personali, percorsi locali e note operative di progetto.
+Nel repository classifica gli asset non testuali e i backup dichiarati in
+`gallery/package-resources.yaml`: risorse operative da includere oppure
+materiali di archivio da collegare a una revisione verificata. Un esempio
+di sviluppo non diventa automaticamente un input della skill. Non classificare
+come archivio un'immagine dichiarata `Approved Image Inputs`.
 Nel repository verifica la build della gallery dopo modifiche a catalogo o
 risorse. Se tocchi selezione o dipendenze distribuite, verifica anche il pacchetto
 con `gallery/package_skill.py`, scrivendo lo ZIP di controllo in una destinazione

@@ -1,0 +1,48 @@
+{
+  "version": "0.5.1",
+  "date": "2026-11-01",
+  "scope": "Verified in a separate checkout containing the selected source changes; no dependency on unrelated untracked development files.",
+  "skill_validation": "pass",
+  "tests": {
+    "passed": 14,
+    "skipped": 0
+  },
+  "gallery": {
+    "styles": 130,
+    "images": 284,
+    "families": 11,
+    "isolated_build": true
+  },
+  "public_catalog": {
+    "styles": 103,
+    "families": 11,
+    "version": "0.5.1",
+    "isolated_build": true,
+    "published_to_sites": false
+  },
+  "package": {
+    "file_count": 253,
+    "sha256": "b546538173df2d6ee0626525a11a200378a53c8161e3f8944fb0bc2d20365225",
+    "integrity": "pass",
+    "source_dependencies_resolve": true,
+    "offline_loads": 103,
+    "compositions": 75,
+    "verified_historical_resources": 46,
+    "same_content_as_quote_policy_candidate_except_two_version_fields": true
+  },
+  "quote_policy_cases": {
+    "passed": 4,
+    "model": "gpt-6-luna",
+    "file": "0.5.1-tests/quote-marks.json",
+    "limits": "Text interpretation from prior policy verification; not blind, no new images generated. Only version metadata changed since that verification."
+  },
+  "visual_trial_limits": "Previous image runs tested a quote with agent-added guillemets; absence of guillemets is not a default skill defect. Generative correction can change unrelated textures and details. No statistical reliability claim.",
+  "local_installation": {
+    "version": "0.5.1",
+    "files": 253,
+    "exact_package_parity": true,
+    "backup_of_previous_version_verified": true,
+    "validator": "pass",
+    "scope": "Local Codex skill only; no plugin or Sites update."
+  }
+}

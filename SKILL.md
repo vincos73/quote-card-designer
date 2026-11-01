@@ -2,7 +2,7 @@
 name: quote-card-designer
 description: "Crea o modifica quote card artistiche da frasi, testi o articoli, preservando la citazione. Aiuta a esplorare e scegliere gli stili disponibili."
 metadata:
-  version: "0.5.0"
+  version: "0.5.1"
 ---
 
 # Quote Card Designer
@@ -38,6 +38,12 @@ inclusi nella skill: la consultazione del sito non è necessaria per generare.
 
 - Con una frase fornita, conserva parole, maiuscole, accenti e punteggiatura.
   Puoi scegliere gli a capo senza cambiare il testo.
+- Mostra virgolette esterne alla frase, caporali o segni di citazione decorativi
+  solo se l'utente chiede esplicitamente di mostrarli. Altrimenti omettili,
+  anche quando delimitano la frase nel messaggio, nella fonte o nel prompt:
+  quei delimitatori non sono automaticamente testo da stampare. Conserva invece
+  le virgolette interne che appartengono al contenuto. Questa scelta prevale
+  sugli esempi e sulle indicazioni dei profili.
 - Per un URL, leggi [il processo editoriale](references/processo-editoriale.md).
   Verifica la citazione nel corpo della fonte e proponila insieme all'attribuzione
   che la fonte consente di verificare. Prima di generare, raccogli la scelta del
@@ -147,7 +153,9 @@ esistono; non aggiungere avvertenze di verifica per ogni nome fornito.
   il risultato prima di dichiararle preservate; l'editing generativo non
   garantisce da solo che ogni altro dettaglio rimanga identico.
 - Controlla testo, accenti, punteggiatura, attribuzione, leggibilità e rapporto
-  fra lettering e immagine. Distingui ciò che hai verificato dai limiti del
+  fra lettering e immagine. Verifica le virgolette rispetto alla richiesta
+  dell'utente, non ai delimitatori usati per scrivere il prompt.
+  Distingui ciò che hai verificato dai limiti del
   risultato; correggi in modo mirato se serve e ricontrolla. Se il difetto
   permane, indica il limite senza ripetere tentativi indefiniti.
 

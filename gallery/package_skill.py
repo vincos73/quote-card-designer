@@ -1,28 +1,15 @@
 """Package the selected V1 profiles and their declared local resources."""
 from pathlib import Path
 import argparse
-import re
 import zipfile
 
 import yaml
 
 from style_resources import load_style_document
+from package_resources import INLINE_NOTE, ResourceBundle
 
 ROOT = Path(__file__).resolve().parent.parent
 INDEX_KEYS = ('id', 'family', 'name', 'aliases', 'summary', 'tags', 'profile')
-LOCAL_RESOURCE = re.compile(r'[\w./-]+\.(?:yaml|md|png|jpg|ttf|otf|txt)')
-INLINE_NOTE = re.compile(r'(?<![\w:/.-])(?:[\w.-]+/)*[\w.-]+\.md(?![\w.-])')
-
-
-def strings(value):
-    if isinstance(value, str):
-        yield value
-    elif isinstance(value, dict):
-        for item in value.values():
-            yield from strings(item)
-    elif isinstance(value, list):
-        for item in value:
-            yield from strings(item)
 
 
 def package(destination=None):
@@ -66,51 +53,25 @@ def package(destination=None):
         document, companions = load_style_document(profile)
         composition_count += bool(document.get('Composition Library'))
         files.update([profile, *companions])
-        # Include declared notes, approved image inputs, fonts and licenses.
-        # Development examples and historical backups are not implicit inputs.
-        for value in strings(document):
-            # Validation notes can be named inside prose, not only as scalar paths.
-            for note in INLINE_NOTE.findall(value):
-                base = ROOT if note.startswith('references/') else profile.parent
-                resource = (base / note).resolve()
-                if not resource.is_relative_to(ROOT) or not resource.is_file():
-                    raise ValueError(f'Missing or invalid profile note: {note} in {profile}')
-                files.add(resource)
-            if not LOCAL_RESOURCE.fullmatch(value):
-                continue
-            base = ROOT if value.startswith('references/') else profile.parent
-            resource = (base / value).resolve()
-            if not resource.is_relative_to(ROOT):
-                raise ValueError(f'Resource outside skill: {value}')
-            if not resource.is_file():
-                raise ValueError(f'Missing resource: {resource}')
-            files.add(resource)
-
-    # Follow explicit local document links without packaging every development study.
-    checked = set()
-    while pending := {p for p in files - checked if p.suffix == '.md'}:
-        for path in pending:
-            checked.add(path)
-            for target in re.findall(r'\]\(([^\s)]+\.md)(?:#[^)]*)?\)', path.read_text()):
-                if '://' in target:
-                    continue
-                resource = (path.parent / target).resolve()
-                if not resource.is_relative_to(ROOT) or not resource.is_file():
-                    raise ValueError(f'Missing or invalid document link: {target} in {path}')
-                files.add(resource)
+    policy = yaml.safe_load((ROOT / 'gallery/package-resources.yaml').read_text())
+    bundle = ResourceBundle(ROOT, policy)
+    for path in files:
+        bundle.add(path)
+    contents = bundle.prepare()
 
     destination = Path(destination) if destination else ROOT / f'build/quote-card-designer-{version}.zip'
     if destination.exists():
         raise FileExistsError(f'Package already exists: {destination}')
     destination.parent.mkdir(parents=True, exist_ok=True)
-    with zipfile.ZipFile(destination, 'w', zipfile.ZIP_DEFLATED) as archive:
-        for path in sorted(files):
-            archive.write(path, Path(metadata['name']) / path.relative_to(ROOT))
+    with zipfile.ZipFile(destination, 'x', zipfile.ZIP_DEFLATED) as archive:
+        for relative, raw in sorted(contents.items()):
+            archive.writestr(f"{metadata['name']}/{relative}", raw)
     with zipfile.ZipFile(destination) as archive:
         if archive.testzip():
             raise ValueError('Corrupt archive')
     print(f'{destination}: {len(identifiers)} styles, {composition_count} composition libraries, '
-          f'{len(files)} files, {destination.stat().st_size / 1024 / 1024:.2f} MB')
+          f'{len(contents)} files, {destination.stat().st_size / 1024 / 1024:.2f} MiB, '
+          f'{len(bundle.externalized)} verified archive resources')
     return destination
 
 

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "T1",
+    "user_request": "Crea una card Classical Roman con questa frase: L’AI non è magia: è metodo.",
+    "visible_text": "L’AI non è magia: è metodo.",
+    "quote_instruction": "Non mostrare caporali o altre virgolette esterne: non sono state richieste.",
+    "rationale": "La frase non include delimitatori e la richiesta non domanda di mostrarli. SKILL.md e il profilo Classical Roman riservano le virgolette esterne a una richiesta esplicita."
+  },
+  {
+    "id": "T2",
+    "user_request": "Crea una card Stencil Spray usando questa frase: «L’AI non è magia: è metodo.»",
+    "visible_text": "L’AI non è magia: è metodo.",
+    "quote_instruction": "Ometti le caporali esterne: qui delimitano la frase nel messaggio, ma non è stato chiesto di stamparle.",
+    "rationale": "Le caporali del messaggio identificano la frase; secondo la regola generale e il Content Contract di Stencil Spray, i delimitatori esterni non diventano contenuto visibile senza richiesta esplicita."
+  },
+  {
+    "id": "T3",
+    "user_request": "Crea una card Classical Roman con la frase L’AI non è magia: è metodo. Voglio la frase racchiusa tra caporali visibili.",
+    "visible_text": "«L’AI non è magia: è metodo.»",
+    "quote_instruction": "Mostra caporali visibili di apertura e chiusura, perché l’utente le richiede esplicitamente.",
+    "rationale": "La richiesta esplicita di racchiudere la frase tra caporali prevale sulla regola predefinita di omissione; il profilo Classical Roman consente i delimitatori su richiesta."
+  },
+  {
+    "id": "T4",
+    "user_request": "Crea una card Stencil Spray. Il testo è: Anna disse «proviamo» e iniziò.",
+    "visible_text": "Anna disse «proviamo» e iniziò.",
+    "quote_instruction": "Conserva le caporali interne attorno a «proviamo» come parte letterale del testo; non aggiungere caporali esterne.",
+    "rationale": "Le caporali racchiudono una citazione interna e sono parte del contenuto fornito. La regola generale e il Content Contract di Stencil Spray richiedono di conservarle, omettendo soltanto delimitatori esterni non richiesti."
+  }
+]

@@ -38,21 +38,24 @@ Design Style:
       '
   Typography:
     Primary:
-      Style: Roman inscriptional capitals with wedge-shaped serifs and classical carved-letter proportions
+      Style: Roman-inspired inscriptional serif with wedge-shaped serifs and classical carved-letter proportions,
+        using a compatible lowercase design when the supplied text requires it
       Weight: Medium to semibold, with substantial stems and crisp wedge serifs
       Scale: Monumental but spacious inscriptional quotation
       Tracking: Open, optically balanced inscriptional spacing
-      Case: Uppercase requested through the Roman/Latin inscriptional direction
-      Consistency: Use the same font design, cap height, stroke weight, letter proportions and tracking
+      Case: Preserve the supplied capitalization; use all capitals only when explicitly requested.
+      Consistency: Use the same font design, optical scale, stroke weight, letter proportions and tracking
         across every line of the quotation. No condensed last line, per-word font substitution or local
         scaling.
     Supporting:
       Style: Old-style serif or restrained Swiss sans-serif
       Weight: Regular to medium
       Role: Only supplied attribution or supporting content
-    Hierarchy: Use monumental Roman inscriptional capitals, with dignified broad proportions, wedge serifs
+    Hierarchy: Use monumental Roman-inspired inscriptional typography, with dignified broad proportions, wedge serifs
       and moderate stroke contrast rather than a heavy book serif. The quotation is the first reading
-      priority. Preserve every word and sentence punctuation in uppercase; omit enclosing quotation marks.
+      priority. Preserve every word, supplied capitalization, accent and sentence punctuation.
+      Show enclosing quotation marks only when the user explicitly requests them; marks used merely
+      to delimit the input or prompt are not visible content. Change case only when explicitly requested.
       Set deliberate line breaks and generous optical spacing. Never replace U with V or rewrite words
       into Latin. Resolve collisions by repositioning or scaling the image, changing line breaks, or scaling
       the entire text block uniformly. Never distort or shrink a single line to accommodate the image.
@@ -109,8 +112,8 @@ Design Style:
     Gold: Flat muted antique-gold ink, not glossy foil or glow
     Depth: Editorial reproduction and natural image modelling, not interface layers
   Rules:
-  - Render the supplied quotation once in the requested Roman inscriptional capitals, preserving every
-    word and sentence punctuation, without enclosing quotation marks.
+  - Render the supplied quotation once, preserving words, capitalization, accents and sentence punctuation.
+    Add enclosing quotation marks only on explicit user request, never merely because they delimit the prompt.
   - Prioritise the balance of whitespace, strong Roman-serif typography and one substantial image.
   - Use only supplied attribution and supporting text.
   - Keep parchment, warm neutrals and antique gold restrained and consistent in role.
