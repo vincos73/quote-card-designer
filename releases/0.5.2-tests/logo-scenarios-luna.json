@@ -1,0 +1,67 @@
+{
+  "skill": "0.5.2",
+  "review_mode": "guided; text-only hypothetical layout inputs; no images viewed or generated",
+  "cases": [
+    {
+      "id": "A",
+      "decision": "Proceed with the white logo variant.",
+      "variant": "logo-white.png",
+      "position": "Top-right peripheral free area, with breathing room from the edges; subordinate to the quote.",
+      "user_question": null,
+      "operational_reply": "Aggiungo il logo bianco ufficiale in alto a destra, mantenendo forma, lettering, proporzioni e colori e lasciando invariati citazione e resto della card."
+    },
+    {
+      "id": "B",
+      "decision": "Proceed with the navy logo variant.",
+      "variant": "logo-navy.png",
+      "position": "Bottom-left free area, peripheral and clear of the author at bottom right.",
+      "user_question": null,
+      "operational_reply": "Aggiungo il logo navy ufficiale in basso a sinistra, mantenendo forma, lettering, proporzioni e colori e senza intervenire sull’autore in basso a destra o sul resto della card."
+    },
+    {
+      "id": "C",
+      "decision": "Do not place the logo in the center by default; request an adaptation because no peripheral space is available and the user forbids moving or reducing elements.",
+      "variant": "logo navy (provided and locally legible)",
+      "position": "No compatible peripheral position; center is the only available space and is excluded by the skill.",
+      "user_question": "Per inserire il logo devo poter spostare o ridurre un elemento, oppure preferisci rinunciare al logo su questa card?",
+      "operational_reply": "La card non ha uno spazio periferico libero. Per rispettare la richiesta di non spostare né ridurre elementi, ti chiedo quale adattamento autorizzi prima di inserirlo."
+    },
+    {
+      "id": "D",
+      "decision": "Pause and request a contrast-compatible logo variant or authorization for an adaptation; do not recolor the navy logo or add a backing autonomously.",
+      "variant": "Only logo-navy.png is supplied; it is unreadable on the dark background.",
+      "position": "Bottom has enough space, but no position solves the local contrast problem.",
+      "user_question": "Puoi fornire la variante bianca del logo oppure autorizzare un fondino chiaro dietro al logo navy?",
+      "operational_reply": "Il file navy non risulta leggibile sul fondo scuro, anche in basso. Per procedere senza alterare il marchio mi serve la variante bianca oppure il tuo consenso a un fondino chiaro."
+    },
+    {
+      "id": "E",
+      "decision": "Create the requested card without a logo; do not infer a logo request from another document.",
+      "variant": null,
+      "position": null,
+      "user_question": null,
+      "operational_reply": "Procedo con una card Risograph per la frase Il metodo rende visibili le idee., senza aggiungere il marchio non richiesto."
+    },
+    {
+      "id": "F",
+      "decision": "Use the explicitly requested navy variant in the available light peripheral area, despite the card being predominantly dark.",
+      "variant": "logo-navy.png (explicitly requested exact variant)",
+      "position": "Bottom-left along the light left margin, clear of the author at bottom right.",
+      "user_question": null,
+      "operational_reply": "Aggiungo esattamente il logo navy richiesto nello spazio chiaro in basso a sinistra, mantenendo il file e lasciando intatti autore e resto della card."
+    },
+    {
+      "id": "G",
+      "decision": "Ask the user to provide the logo file; do not recreate it from memory.",
+      "variant": null,
+      "position": "To be selected after inspecting the supplied logo and the card’s available peripheral space.",
+      "user_question": "Puoi allegare il file del logo che vuoi inserire?",
+      "operational_reply": "Ho la card e lo stile; mi serve il file del logo per inserirlo senza ridisegnarlo."
+    }
+  ],
+  "conflicts_or_ambiguities": [
+    "Cases C and D require a user decision: the requested addition cannot meet the skill’s peripheral placement and contrast requirements under the stated constraints and available assets.",
+    "Case A provides no exact location beyond one available peripheral space; the skill resolves this by selecting that space, rather than the central empty area.",
+    "Case F’s explicit exact navy variant takes precedence over the generally preferable white variant; the described light lower-left space provides contrast."
+  ]
+}

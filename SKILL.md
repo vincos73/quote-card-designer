@@ -2,7 +2,7 @@
 name: quote-card-designer
 description: "Crea o modifica quote card artistiche da frasi, testi o articoli, preservando la citazione. Aiuta a esplorare e scegliere gli stili disponibili."
 metadata:
-  version: "0.5.1"
+  version: "0.5.2"
 ---
 
 # Quote Card Designer
@@ -108,6 +108,21 @@ esistono; non aggiungere avvertenze di verifica per ogni nome fornito.
   più piccolo e leggero del testo, senza introdurla come autore della frase.
   Se è già presente un autore, conservalo e aggiungi una firma separata solo
   quando richiesta; non sostituire né unire i due nomi.
+- Quando l'utente chiede un logo, usa il file fornito, distinto da firma e
+  attribuzione. Se offre più varianti, scegli quella leggibile sul fondo locale
+  (per esempio bianca su scuro, scura su chiaro), rispettando una variante
+  esplicitamente richiesta. Conserva simbolo, lettering, proporzioni e colori;
+  non reinterpretare il marchio nello stile della card né aggiungere fondini
+  quando la variante scelta è già leggibile.
+  Collocalo sempre in uno spazio libero nelle zone periferiche del quadro:
+  lungo un bordo o in un angolo, con respiro dal margine e dimensione leggibile
+  ma subordinata alla frase. Scegli la zona disponibile senza imporre un angolo
+  fisso; evita il campo centrale anche quando è libero. Non coprire citazione,
+  attribuzione, firma o elementi essenziali del visual. Se non c'è una soluzione
+  periferica leggibile con i file disponibili, chiedi soltanto la variante o
+  l'adattamento necessario, senza ricolorare il logo o aggiungere un fondino
+  autonomamente. Per input e verifica segui la
+  [costruzione del prompt](references/costruzione-prompt.md).
 - Il default è una sola card verticale 4:5, con una palette variabile scelta
   perché adatta al contenuto e allo stile attivo. Applica le preferenze esplicite
   su formato, palette, font e numero di varianti.
@@ -155,6 +170,8 @@ esistono; non aggiungere avvertenze di verifica per ogni nome fornito.
 - Controlla testo, accenti, punteggiatura, attribuzione, leggibilità e rapporto
   fra lettering e immagine. Verifica le virgolette rispetto alla richiesta
   dell'utente, non ai delimitatori usati per scrivere il prompt.
+  Se c'è un logo, controlla variante, fedeltà al file, leggibilità e posizione
+  periferica, oltre alle modifiche collaterali della card.
   Distingui ciò che hai verificato dai limiti del
   risultato; correggi in modo mirato se serve e ricontrolla. Se il difetto
   permane, indica il limite senza ripetere tentativi indefiniti.

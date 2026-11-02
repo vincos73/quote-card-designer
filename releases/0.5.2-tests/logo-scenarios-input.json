@@ -1,0 +1,41 @@
+{
+  "skill": "0.5.2",
+  "type": "text-only decision scenarios; hypothetical layouts, no image generation",
+  "cases": [
+    {
+      "id": "A",
+      "request": "Aggiungi il logo a questa card scura, conserva il resto.",
+      "context": "Sono forniti logo-navy.png e logo-white.png ufficiali con trasparenza. Unico spazio libero periferico in alto a destra; ampio spazio vuoto anche al centro. Citazione al centro-sinistra."
+    },
+    {
+      "id": "B",
+      "request": "Aggiungi il logo a questa card chiara, conserva il resto.",
+      "context": "Sono forniti logo-navy.png e logo-white.png. In alto e a destra testo e illustrazione; autore già presente in basso a destra. Uno spazio libero sufficiente in basso a sinistra."
+    },
+    {
+      "id": "C",
+      "request": "Aggiungi il logo allegato senza spostare o ridurre nulla nella card.",
+      "context": "Il solo spazio disponibile è al centro. Tutti i margini e gli angoli sono occupati da testo o visual essenziali. Logo navy fornito e leggibile sul fondo."
+    },
+    {
+      "id": "D",
+      "request": "Aggiungi il logo allegato alla card scura.",
+      "context": "Unico file logo-navy.png, illeggibile sul fondo scuro uniforme anche ai bordi. Lo spazio in basso è sufficiente. Non sono state autorizzate varianti cromatiche o fondini."
+    },
+    {
+      "id": "E",
+      "request": "Crea una card Risograph con la frase: Il metodo rende visibili le idee.",
+      "context": "Testo e stile completi, nessuna richiesta di logo. In un documento usato in precedenza compare un marchio, ma non è stato chiesto di inserirlo."
+    },
+    {
+      "id": "F",
+      "request": "Aggiungi esattamente la variante navy allegata e conserva il resto.",
+      "context": "Sono forniti navy e white; la card è prevalentemente scura ma ha uno spazio chiaro libero lungo il margine sinistro in basso, sufficiente per il logo. Autore in basso a destra."
+    },
+    {
+      "id": "G",
+      "request": "Aggiungi il mio logo alla card.",
+      "context": "Card disponibile e stile già scelto. Non c’è alcun file logo nella richiesta né nella conversazione."
+    }
+  ]
+}

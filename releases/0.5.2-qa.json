@@ -1,0 +1,81 @@
+{
+  "version": "0.5.2",
+  "date": "2026-11-02",
+  "status": "release_validation_passed",
+  "scope": "Validation snapshot from the clean 0.5.2 build, before GitHub publication. Package contents are unchanged for publication.",
+  "skill_validation": {
+    "source": "pass",
+    "extracted_package": "pass"
+  },
+  "tests": {
+    "passed": 14,
+    "skipped": 0
+  },
+  "logo_policy_cases": {
+    "passed": 7,
+    "total": 7,
+    "model": "gpt-6-luna",
+    "file": "0.5.2-tests/logo-scenarios-luna.json",
+    "user_input_needed": [
+      "C",
+      "D",
+      "G"
+    ],
+    "limits": "Guided text-only scenarios, same agent as previous tests, hypothetical layouts, no new images."
+  },
+  "gallery": {
+    "styles": 130,
+    "images": 284,
+    "families": 11,
+    "isolated_build": true
+  },
+  "public_catalog": {
+    "styles": 103,
+    "families": 11,
+    "version": "0.5.2",
+    "isolated_build": true,
+    "published_to_sites": false
+  },
+  "package": {
+    "file_count": 253,
+    "compositions": 75,
+    "sha256": "24ececc22b54737f1208e5c82990dbfcf0e0cfd39dd81629be760fd13700ab07",
+    "bytes": 2197436,
+    "integrity": "pass",
+    "offline_loads": 103,
+    "verified_historical_resources": 46,
+    "unchanged_files_from_0_5_1": 250,
+    "changed_files": [
+      "SKILL.md",
+      "references/catalogo-v1.yaml",
+      "references/costruzione-prompt.md"
+    ]
+  },
+  "collateral_checks": {
+    "checked_existing_files": 64371,
+    "intended_changed_files": [
+      "README.md",
+      "SKILL.md",
+      "gallery/catalogo-v1/README.md",
+      "gallery/catalogo-v1/src/style-data.json",
+      "references/catalogo-stili.yaml",
+      "references/catalogo-v1.yaml",
+      "references/costruzione-prompt.md"
+    ],
+    "unexpected_changed_files": [],
+    "missing_files": [],
+    "installed_files_checked": 253,
+    "installed_unchanged": true,
+    "unrelated_preexisting_changes_preserved": true,
+    "catalog_selection_and_preview_data_unchanged_except_version": true,
+    "original_checkout_matches_tested_sources": true,
+    "git_head": "ff63812ca457ae7ca86197f3c38871a8b7d37118",
+    "git_index": "",
+    "git_diff_check": "pass",
+    "publication": false,
+    "installation": false,
+    "snapshot": "Local build checks before GitHub publication; this field is not current release status."
+  },
+  "installed_version": "0.5.1",
+  "limitations": "No new image-generation regression run or exact-logo preservation guarantee. No new deterministic compositing implementation."
+}
