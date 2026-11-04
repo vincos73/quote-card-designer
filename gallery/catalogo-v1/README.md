@@ -1,6 +1,6 @@
 # Catalogo visivo V1
 
-Sorgenti del catalogo pubblico: interfaccia Indice svizzero, dati e anteprime approvate della skill 0.5.2. Il catalogo mostra tutti i 103 stili selezionati in 11 categorie; la gallery completa di sviluppo è un progetto distinto.
+I sorgenti del catalogo pubblico includono l'interfaccia Indice svizzero, i dati della skill 0.5.3 e le anteprime approvate. Il catalogo mostra 103 stili in 11 categorie.
 
 Esegui `python3 gallery/catalogo-v1/build.py` dalla radice del repository. La build predefinita va in `build/catalogo-v1-dist/`; con `--output <percorso>` si può scegliere un'altra directory. Le immagini sono verificate rispetto a `asset-manifest.json` prima di essere copiate.
 

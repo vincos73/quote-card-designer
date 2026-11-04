@@ -1,5 +1,5 @@
 schema_version: '1.0'
-catalog_version: 0.5.2
+catalog_version: 0.5.3
 visual_catalog_url: https://quote-card-designer-catalogo-v1.vincos.chatgpt.site
 defaults:
   ratio: '4:5'

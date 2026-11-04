@@ -1,0 +1,36 @@
+{
+  "version": "0.5.3",
+  "date": "2026-11-04",
+  "status": "release_validation_passed",
+  "validation_scope": "Source, package, both gallery builds, and installed file parity.",
+  "skill_validation": {
+    "source": "pass",
+    "extracted_package": "pass",
+    "installed": "pass"
+  },
+  "tests": {
+    "passed": 14,
+    "skipped": 0
+  },
+  "development_gallery": {
+    "styles": 130,
+    "images": 284
+  },
+  "visual_catalog": {
+    "styles": 103,
+    "categories": 11,
+    "http_status": 200
+  },
+  "package": {
+    "sha256": "6d8ea942f3053404578c35423a4b3207d1a99fa127f84b84ef6ca376413f171a",
+    "files": 253,
+    "integrity": "pass",
+    "installed_matches_archive": true,
+    "changed_from_0_5_2": [
+      "SKILL.md",
+      "references/catalogo-v1.yaml",
+      "references/processo-editoriale.md",
+      "references/scelta-stile.md"
+    ]
+  }
+}

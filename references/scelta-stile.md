@@ -1,8 +1,8 @@
 # Consigliare uno stile
 
-Leggi questa guida quando occorre consigliare, confrontare o scegliere uno stile,
-anche su delega. Per una card con stile già definito, conserva la scelta: non
-riaprire la selezione per applicare questa guida.
+Leggi questa guida per le tre proposte iniziali e quando occorre confrontare
+o scegliere uno stile. Per una modifica a una card esistente conserva lo
+stile già scelto, salvo una richiesta di cambiarlo.
 
 ## Parti dalla richiesta
 
@@ -66,22 +66,15 @@ in assoluto; una card riuscita non dimostra la superiorità dello stile.
 
 ## Una scelta semplice per l'utente
 
-Presenta uno stile consigliato con una breve ragione che colleghi una sua
-caratteristica all'effetto o al vincolo concreto della richiesta. Aggiungi una
-o due alternative solo se offrono un cambiamento utile e restano pertinenti.
-Spiega la differenza in parole comuni, per esempio più raccolto, più energico
-o più fotografico. Quando è utile alla decisione, indica il compromesso:
-un'immagine più protagonista può lasciare meno spazio a una frase lunga.
+Nella prima risposta utile presenta tre stili distinti con il link al
+catalogo visivo V1. Metti per primo il consigliato o quello già scelto.
+Collega ciascun nome a un effetto o vincolo concreto. Scegli due alternative
+pertinenti che cambiano un aspetto utile, come il peso dell'immagine o il
+tono. In assenza di testo, presentale come direzioni iniziali. Per
+un'estrazione, affiancale alla citazione anche se l'utente non ha ancora
+chiesto la card.
 
-Tre è un massimo, non un numero da raggiungere. Evita varianti quasi equivalenti
-o proposte deboli aggiunte per varietà. Una diversa famiglia di catalogo non è
-di per sé un vantaggio. Non imporre categorie fisse alle opzioni.
-
-Offri il catalogo e la possibilità di rispondere «scegli tu». Riunisci questa
-scelta con quella della citazione quando entrambe mancano. Non mostrare la
-tabella di valutazione interna, il confronto dei candidati scartati o i nomi
-dei campi YAML. Non generare anteprime per scegliere lo stile senza richiesta.
-
-Se la scelta è delegata, nomina lo stile e la ragione in una frase e continua;
-non chiedere all'utente di approvare il consiglio. Se chiede una variazione
-dell'effetto, aggiorna le proposte conservando testo e vincoli già definiti.
+Se la scelta è aperta, offri «scegli tu» e raccogli nello stesso messaggio
+le sole scelte mancanti. Se è già fatta o delegata, indica lo stile che usi
+e continua quando il contenuto è pronto. Descrivi gli effetti in parole
+comuni e genera anteprime solo quando richieste.

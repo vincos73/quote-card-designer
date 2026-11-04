@@ -145,7 +145,7 @@ release_selection:
   - eco-print
   - oneline
   - notebook-sketch
-  catalog_version: 0.5.2
+  catalog_version: 0.5.3
 styles:
 - id: dada-black
   release_candidate: true

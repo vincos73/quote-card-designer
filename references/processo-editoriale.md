@@ -15,8 +15,9 @@ Mantieni internamente il testo proposto, la sua collocazione nella fonte e
 l'eventuale attribuzione. Se più passaggi sono adatti, indica quello consigliato
 con una breve ragione e, quando utile, un'alternativa. Se la selezione e la
 creazione sono delegate, scegli e procedi; altrimenti raccogli la scelta del
-testo insieme alle eventuali preferenze di stile ancora mancanti. Non
-presentare una parafrasi come citazione.
+testo insieme alle eventuali preferenze di stile ancora mancanti. Presenta
+la citazione iniziale con i tre stili e il link al catalogo visivo V1 come
+indicato in SKILL.md. Non presentare una parafrasi come citazione.
 
 ## Articolo o altro URL
 
@@ -27,16 +28,15 @@ dalla fonte, distinguendo l'autore dell'articolo dalla persona citata. Se
 l'identità del parlante o dell'autore non è chiara, segnala l'incertezza e non
 assegnare un nome per supposizione.
 
-Prima di generare, raccogli le sole scelte mancanti. Uno stile già richiesto
-conta come scelta; se manca e non è delegato, accompagna la citazione con lo
-stile consigliato e le alternative secondo il flusso di SKILL.md, nello stesso
-messaggio. L'utente può così scegliere testo e stile con una risposta.
-Attendi soltanto le decisioni non già definite o delegate. Dopo che testo e
-stile sono definiti, riassumi brevemente il brief e procedi senza chiedere
-un'ulteriore conferma.
+Nella stessa prima risposta, aggiungi i tre stili e il link al catalogo visivo
+V1, anche quando l'utente chiede solo di estrarre una frase. La sola
+estrazione si conclude con la proposta. Per una card, raccogli le sole
+scelte mancanti. L'assenso alla citazione non sceglie uno stile. Una volta
+definiti o delegati testo e stile, riassumi il brief e procedi.
 
 Se l'articolo è inaccessibile, incompleto o non contiene il passaggio necessario,
 spiega il limite e chiedi di incollare il testo o fornire un documento leggibile.
+Offri nella stessa risposta tre direzioni iniziali e il link al catalogo.
 Non ricostruire la frase a memoria né aggirare restrizioni di accesso.
 
 ## Attribuzione e consegna
