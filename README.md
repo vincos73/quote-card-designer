@@ -7,14 +7,14 @@ Non si limita a cambiare colori o caratteri. Per ogni stile usa indicazioni su t
 ## Come funziona
 
 1. Fornisci una frase, un testo più lungo o il link a un articolo. Per un articolo la skill propone una citazione verificabile e la sua attribuzione.
-2. La skill propone subito tre stili e spiega perché li ha scelti, anche se chiedi solo di estrarre una citazione. «Confronta questi tre stili» apre i loro esempi nello stesso ordine della risposta. Puoi anche sfogliare il catalogo completo. Rispondi in chat con il nome dello stile o con «scegli tu» e, se vuoi, indica colori, formato o firma. [Catalogo completo](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site)
+2. La skill propone subito tre stili e spiega perché li ha scelti, anche se chiedi solo di estrarre una citazione. «Confronta questi tre stili» apre i loro esempi nello stesso ordine della risposta. Se la scelta è aperta, rispondi con il nome dello stile o con «scegli tu». Se chiedi una card «in stile collage» e fornisci la frase, la skill sceglie il tipo di collage e crea subito la card. Puoi chiedere di vedere prima le alternative e indicare colori, formato o firma. [Catalogo completo](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site)
 3. La skill progetta la composizione e usa **ImageGen integrato** per generare la card completa. Controlla poi il testo e la leggibilità e, se necessario, interviene sul risultato.
 
 Se vuoi aggiungere il logo a una card approvata, la skill applica il PNG originale come livello ed esporta una nuova copia. Lo strumento incluso usa Python e Pillow. [Prova e verifiche](releases/0.5.5.md).
 
-La versione **0.5.5** comprende **103 stili**. Nel catalogo puoi cercare, per esempio, «stampa a secco», «cianotipia» o «pittura a spatola». Il formato predefinito è una card verticale 4:5; una richiesta esplicita può cambiarlo. ImageGen deve essere disponibile nell'ambiente usato: un prompt scritto da solo non è una card generata.
+La versione **0.5.6** comprende **103 stili**. Nel catalogo puoi cercare, per esempio, «stampa a secco», «cianotipia» o «pittura a spatola». Il formato predefinito è una card verticale 4:5; una richiesta esplicita può cambiarlo. ImageGen deve essere disponibile nell'ambiente usato: un prompt scritto da solo non è una card generata.
 
-Le virgolette esterne si mostrano soltanto su richiesta esplicita: i delimitatori usati nel messaggio o nel prompt non diventano automaticamente parte della card. Il pacchetto 0.5.5 conserva regole, composizioni e note; gli studi storici sono collegati a una revisione GitHub precisa, con le due immagini operative necessarie ancora incluse.
+Le virgolette esterne si mostrano soltanto su richiesta esplicita: i delimitatori usati nel messaggio o nel prompt non diventano automaticamente parte della card. Il pacchetto 0.5.6 conserva regole, composizioni e note; gli studi storici sono collegati a una revisione GitHub precisa, con le due immagini operative necessarie ancora incluse.
 
 ## Un esempio: Editorial Interlock
 
@@ -30,7 +30,7 @@ Nel primo risultato la frase occupa un paesaggio architettonico; nel secondo un 
 
 ## Installa la skill
 
-Scarica lo [ZIP della versione 0.5.5](https://github.com/vincos73/quote-card-designer/releases/tag/v0.5.5): contiene la cartella `quote-card-designer/` con `SKILL.md` e tutti i riferimenti necessari. Nella release trovi anche il checksum SHA-256.
+Scarica lo [ZIP della versione 0.5.6](https://github.com/vincos73/quote-card-designer/releases/tag/v0.5.6): contiene la cartella `quote-card-designer/` con `SKILL.md` e tutti i riferimenti necessari. Nella release trovi anche il checksum SHA-256.
 
 ### Codex
 
@@ -49,12 +49,12 @@ L'installazione locale in Codex non installa automaticamente la skill in ogni es
 ## Repository e gallery di sviluppo
 
 - La **libreria di sviluppo condivisa** contiene **130 stili**: 103 nella release
-  0.5.5 e 27 sperimentali. La selezione è invariata rispetto alla 0.5.0. Profili e materiali disponibili sono versionati nel repository,
+  0.5.6 e 27 sperimentali. La selezione è invariata rispetto alla 0.5.0. Profili e materiali disponibili sono versionati nel repository,
   anche quando lo stile non è distribuito. Per lavorare da portatile e iMac:
   [flusso di sviluppo e sincronizzazione](docs/SVILUPPO-STILI.md).
 - [`SKILL.md`](SKILL.md) e [`references/catalogo-v1.yaml`](references/catalogo-v1.yaml) definiscono il flusso e i 103 stili distribuiti.
 - La [gallery di sviluppo](https://quote-card-designer-style-gallery.vincos.chatgpt.site/) è riservata al proprietario e agli ospiti autorizzati. Contiene anche stili candidati e sperimentali: la presenza in gallery non implica l'inclusione nella release.
 - [`gallery/catalogo-v1/`](gallery/catalogo-v1/README.md) contiene i sorgenti riproducibili del catalogo pubblico. [Stato della gallery di sviluppo](gallery/GALLERY-STATUS.md): versione pubblicata, candidati e differenze con la build locale.
-- [Note della release 0.5.5](releases/0.5.5.md): selezione, verifiche e limiti. Il catalogo visivo pubblico permette di confrontare le tre proposte e cercare fra i 103 stili per nome, tecnica e sinonimi italiani. [Pubblicazione e verifiche del catalogo](gallery/catalogo-v1/README.md).
+- [Note della release 0.5.6](releases/0.5.6.md): selezione, verifiche e limiti. Il catalogo visivo pubblico permette di confrontare le tre proposte e cercare fra i 103 stili per nome, tecnica e sinonimi italiani. [Pubblicazione e verifiche del catalogo](gallery/catalogo-v1/README.md).
 
 Per rigenerare la gallery: installa le dipendenze con `python3 -m pip install -r gallery/requirements.txt`, poi esegui `python3 gallery/build.py`. Per creare uno ZIP della skill: `python3 gallery/package_skill.py`. La build locale può contenere studi non ancora pubblicati; confronta le differenze prima di aggiornare il sito.

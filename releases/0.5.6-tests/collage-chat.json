@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "decisione": "genera",
+    "messaggio": "Per «Anche una pausa può cambiare il ritmo.» uso **Vintage Collage** e preparo la card in formato verticale 4:5.\n\n- **Vintage Collage** — Una mano solleva la puntina dal disco. Il piccolo vuoto fra i due ritagli rende visibile la pausa.\n- **Digital Collage** — Una sequenza di forme fluo si interrompe e riparte con una cadenza diversa.\n- **Dada** — Un paio di forbici ritagliate taglia in due l’ombra di un metronomo.\n\n[Confronta questi tre stili](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site/?confronta=mixed-media-editorial,neon-collage,dada-black) · [Catalogo completo](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site)",
+    "prompt": "Genera un’unica quote card editoriale verticale 4:5, a tutta pagina. Progetta tutta la composizione insieme, compresa la citazione. Vintage Collage realizzato come fotomontaggio cartaceo: in basso a sinistra un grande ritaglio fotografico in bianco e nero di un disco in vinile visto dall’alto, parzialmente fuori quadro; da destra entra un secondo ritaglio fotografico, una mano sproporzionatamente grande che solleva il braccio del giradischi. Lascia visibile un intervallo netto fra puntina e disco. Scontorni leggermente irregolari e un sottile bordo di carta chiara distinguono i due ritagli; discreta retinatura nelle foto. Fondo opaco verde petrolio, un unico disco color mandarino parzialmente nascosto sotto il vinile, strisce di carta avorio. Nel campo superiore e centrale assembla due strisce stampate con un carattere serif editoriale scuro, ampio e leggibile, allineate a sinistra con un minimo scarto d’angolo. Stampa una sola volta la prima riga Anche una pausa e sotto la seconda può cambiare il ritmo. Il punto dopo ritmo e l’accento grave di può fanno parte del testo. Lascia un intervallo di carta verde fra le due righe che riprenda il piccolo vuoto sotto la puntina. Conserva lettere con proporzioni naturali, kerning ottico, spazi nitidi e margini comodi. Quanto stampato deve leggersi in ordine come Anche una pausa può cambiare il ritmo. Nessuna virgoletta, firma, attribuzione, etichetta discografica scritta o altro testo. Toni fotografici e piani di carta restano distinguibili, con minime ombre di contatto. La frase intera deve leggersi anche sul telefono.",
+    "reference_operative": []
+  },
+  {
+    "id": 2,
+    "decisione": "attendi",
+    "messaggio": "Per «Anche una pausa può cambiare il ritmo.» sceglierei fra queste tre interpretazioni.\n\n- **Vintage Collage** — Una puntina sospesa sopra il disco suggerisce il silenzio. I ritagli fotografici e la carta opaca danno alla frase un tono raccolto.\n- **Digital Collage** — Una sequenza di forme fluo si spezza fra le due parti della frase. L’interruzione si avverte anche a colpo d’occhio.\n- **Dada** — Le lame di una forbice tagliano l’ombra di un metronomo. La pausa diventa un piccolo paradosso visivo.\n\n[Confronta questi tre stili](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site/?confronta=mixed-media-editorial,neon-collage,dada-black) · [Catalogo completo](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site)\n\nQuale preferisci? Puoi rispondere con il nome dello stile o con «scegli tu». Se vuoi, puoi indicare colori o firma."
+  },
+  {
+    "id": 3,
+    "decisione": "genera",
+    "messaggio": "Preparo «Scelgo il blu.» nello stile **Digital Collage** che hai scelto.\n\n- **Digital Collage** — Un dito ritagliato indica una grande campitura blu elettrico che incontra la parola «blu.».\n- **Cut Paper** — Le lettere si aprono in un foglio avorio e lasciano vedere il cartoncino blu sottostante.\n- **Vintage Collage** — Un pennello fotografico in bianco e nero attraversa un ritaglio di carta blu oltremare.\n\n[Confronta questi tre stili](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site/?confronta=neon-collage,cut-paper,mixed-media-editorial) · [Catalogo completo](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site)"
+  },
+  {
+    "id": 4,
+    "decisione": "attendi",
+    "messaggio": "Quale frase vuoi sulla card? Puoi anche incollare un testo da cui estrarla. Sceglierò il collage in base alle parole.\n\n- **Vintage Collage** — Fotografie ritagliate e parole su strisce di carta possono raccontare una piccola scena.\n- **Digital Collage** — Ritagli netti, caratteri grandi e colori fluo danno alla frase il tono di un manifesto pop.\n- **Dada** — Accostamenti impossibili fra oggetti quotidiani e frammenti di carta si prestano a una frase ironica.\n\n[Confronta questi tre stili](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site/?confronta=mixed-media-editorial,neon-collage,dada-black) · [Catalogo completo](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site)"
+  },
+  {
+    "id": 5,
+    "decisione": "attendi",
+    "messaggio": "Per «Oggi cambia tutto.» ti propongo tre modi di dare risalto al cambiamento.\n\n- **Cut Paper** — Le tre parole sono tagliate nella carta. Accanto a «tutto.» uno scarto ruotato mostra la forma nuova che può prendere.\n- **Digital Collage** — Una mano sposta un interruttore e il manifesto cambia colore proprio in corrispondenza di «cambia».\n- **Dada** — Un occhio ritagliato prende il posto del sole sopra un tetto e trasforma una scena familiare.\n\n[Confronta questi tre stili](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site/?confronta=cut-paper,neon-collage,dada-black) · [Catalogo completo](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site)\n\nQuale stile usiamo? Puoi rispondere con il nome o con «scegli tu». Se vuoi, puoi indicare colori o firma."
+  },
+  {
+    "id": 6,
+    "decisione": "attendi",
+    "messaggio": "Per «Oggi cambia tutto.» sceglierei **Digital Collage**. Quale nome devo riportare nella firma, esattamente come vuoi vederlo sulla card?\n\n- **Digital Collage** — Il gesto di una mano su un interruttore divide il manifesto in due campi di colore. La firma trova spazio sul bordo destro.\n- **Cut Paper** — Ritagliando le parole da un foglio affiora un secondo colore.\n- **Dada** — Il montaggio di due vedute incompatibili fa cambiare aspetto allo stesso angolo di città.\n\n[Confronta questi tre stili](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site/?confronta=neon-collage,cut-paper,dada-black) · [Catalogo completo](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site)"
+  },
+  {
+    "id": 7,
+    "decisione": "attendi",
+    "messaggio": "Dal testo sceglierei **«Oggi il cielo ha due colori.»** È un’immagine che si capisce anche da sola. Se vorrai usarla per una card, vedo tre possibilità.\n\n- **Vintage Collage** — Una finestra fotografica in bianco e nero incornicia due ritagli di cielo di tinte diverse.\n- **Cut Paper** — Le lettere tagliate nel foglio lasciano affiorare due carte colorate, come il cielo della frase.\n- **Dada** — Due frammenti di cielo ritagliati da fotografie diverse si incontrano lungo uno strappo irregolare.\n\n[Confronta questi tre stili](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site/?confronta=mixed-media-editorial,cut-paper,dada-black) · [Catalogo completo](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site)\n\nSe decidi di creare la card, indicami lo stile o scrivi «scegli tu». Se vuoi, puoi indicare colori o firma."
+  }
+]

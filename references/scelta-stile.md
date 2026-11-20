@@ -54,6 +54,16 @@ fra quelli compatibili privilegia effetto e leggibilità rispetto alla semplice
 corrispondenza di parole chiave. Non appiattire la scelta sugli stessi stili
 prudenti quando l'utente cerca una direzione espressiva o sperimentale.
 
+Per una card richiesta «in stile collage», scegli fra i profili di collage
+quello che rende meglio l'idea della frase. Ritagli fotografici d'archivio
+possono suggerire Vintage Collage, contrasti pop Digital Collage, associazioni
+surreali Dada. Se l'utente indica già una variante, per esempio «collage
+digitale», usa il nome o l'alias corrispondente. Presenta il profilo scelto
+e due alternative facoltative, quindi crea la card quando hai la frase e
+le eventuali personalizzazioni richieste.
+Quando l'utente chiede un confronto o si riserva la scelta, mostra le
+proposte e i link e attendi.
+
 Se l'utente ha già scelto uno stile con una personalizzazione esplicita, tratta
 questa come un adattamento richiesto. Se cambia un tratto essenziale, dichiaralo
 brevemente senza sostituire di nascosto lo stile o imporre una conferma quando

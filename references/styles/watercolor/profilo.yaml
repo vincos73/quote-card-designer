@@ -1,6 +1,6 @@
 Design Style:
   Name: Watercolor
-  Version: 0.1.1
+  Version: 0.1.2
   Status: Experimental quote-card adaptation
   Concept: 'A quiet editorial quote-card language using restrained hand-painted watercolor, generous paper-like
     whitespace and an image chosen from the meaning of the quotation. The illustration supports the words instead
@@ -68,15 +68,14 @@ Design Style:
     Margins: Wide and consistent
     Whitespace: Generous
     Alignment: Mostly left-aligned typography with deliberate image placement
-    Integration: 'Plan typography and illustration together. Align the image''s gesture, direction or edge
-      with the quote block while keeping a clear reading field. The image stays secondary and must not intrude
-      on letterforms.
-
-      '
+    Integration: >-
+      Give the watercolor illustration a generous area of its own. Choose its shape and position from
+      the meaning and line breaks of the quote. Let the edge or movement of the wash guide the eye toward
+      the brush lettering. Reserve quiet paper around the letters so the whole sentence reads at a glance.
   Illustration:
     Style: Soft hand-painted watercolor
     Rendering:
-    - Translucent washes
+    - Use overlapping translucent washes or a wet edge where pigment settles into the paper grain.
     - Soft edges and restrained paper texture
     - Minimal detail
     - No hard outlines or realistic 3D
@@ -91,11 +90,12 @@ Design Style:
   Effects:
     Texture: Subtle watercolor paper only
     Shadows: None
-    Gradients: None
+    Gradients: Tonal transitions come from pigment diluted with water on paper.
   Rules:
   - Keep the quote legible and visually primary.
   - Use abundant whitespace and a calm editorial rhythm.
-  - Keep watercolor accents soft, sparse and subordinate to the words.
+  - At 320 px wide, check that both the painted forms and the brush-lettered words are clear.
+    If the painting reads as a small flourish, broaden the wash while preserving the reading field.
   - Select imagery from the quotation's meaning.
   - Do not invent attribution, captions, labels or extra text.
   - Preserve natural letter spacing, kerning and glyph proportions.

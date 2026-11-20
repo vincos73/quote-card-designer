@@ -2,7 +2,7 @@
 name: quote-card-designer
 description: "Crea o modifica quote card artistiche da frasi, testi o articoli, preservando la citazione. Aiuta a esplorare e scegliere gli stili disponibili."
 metadata:
-  version: "0.5.5"
+  version: "0.5.6"
 ---
 
 # Quote Card Designer
@@ -45,13 +45,20 @@ proposta. Se l'utente ha già scelto uno stile, mettilo per primo e presenta
 gli altri due come alternative facoltative. Su delega, indica quale dei tre
 usi e procedi quando anche il testo è definito o delegato.
 
+Con «crea una card in stile collage» l'utente ha già scelto il collage.
+Se indica solo la tecnica, scegli dal catalogo il tipo di collage più adatto
+alla frase, presentalo per primo con due alternative e i due link. Appena
+hai il testo e le eventuali personalizzazioni richieste, genera la card
+nello stesso turno. Se l'utente vuole confrontare i tipi di collage prima
+di decidere, fermati alle proposte e attendi la sua scelta.
+
 Invita a rispondere con il nome di uno stile oppure «scegli tu» quando la
 scelta è aperta. La pagina del catalogo non comunica la selezione alla chat.
 Prima di generare una nuova card, verifica che le tre proposte e i due link
-siano già comparsi per questa card. Se mancano, mostrali ora. «Ok» alla
-citazione o «crea card» senza un nome di stile o una delega esplicita non
-risolvono la scelta. In quel caso chiedi solo lo stile. Riusa le opzioni già
-presentate quando la conversazione continua.
+siano già comparsi per questa card. Se mancano, mostrali ora. Se l'utente
+dice solo «ok» alla citazione o «crea card» e la scelta dello stile è ancora
+aperta, chiedi solo lo stile. Riusa le opzioni già presentate quando la
+conversazione continua.
 
 ## Definisci contenuto e stile
 
