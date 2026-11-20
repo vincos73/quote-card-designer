@@ -5,6 +5,8 @@ import hashlib
 import json
 import shutil
 
+import yaml
+
 ROOT = Path(__file__).resolve().parent
 DEFAULT_OUT = ROOT.parents[1] / 'build/catalogo-v1-dist'
 
@@ -12,17 +14,24 @@ DEFAULT_OUT = ROOT.parents[1] / 'build/catalogo-v1-dist'
 def build(output: Path) -> None:
     src = ROOT / 'src'
     data = json.loads((src / 'style-data.json').read_text())
+    catalog = yaml.safe_load((ROOT.parents[1] / 'references/catalogo-v1.yaml').read_text())
+    by_id = {style['id']: style for style in catalog['styles']}
     manifest = json.loads((ROOT / 'asset-manifest.json').read_text())
     expected = {asset['style_id']: asset for asset in manifest['assets']}
     ids = [style['id'] for style in data['items']]
     families = {family['id'] for family in data['families']}
     if len(ids) != len(set(ids)) or set(ids) != set(expected):
         raise ValueError('Catalog and image manifest do not match')
+    if set(ids) != set(by_id) or len(ids) != len(catalog['styles']):
+        raise ValueError('Visual catalog and distributed style selection do not match')
     if any(style['family'] not in families for style in data['items']):
         raise ValueError('Unknown category')
     output.mkdir(parents=True, exist_ok=True)
     (output / 'assets').mkdir(exist_ok=True)
     for style in data['items']:
+        entry = by_id[style['id']]
+        style['aliases'] = entry['aliases']
+        style['tags'] = entry['tags']
         relative = Path(style['asset'])
         if relative.is_absolute() or '..' in relative.parts or relative.parts[0] != 'assets':
             raise ValueError('Invalid asset path')

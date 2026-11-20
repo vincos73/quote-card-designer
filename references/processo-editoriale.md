@@ -16,8 +16,9 @@ l'eventuale attribuzione. Se più passaggi sono adatti, indica quello consigliat
 con una breve ragione e, quando utile, un'alternativa. Se la selezione e la
 creazione sono delegate, scegli e procedi; altrimenti raccogli la scelta del
 testo insieme alle eventuali preferenze di stile ancora mancanti. Presenta
-la citazione iniziale con i tre stili e il link al catalogo visivo V1 come
-indicato in SKILL.md. Non presentare una parafrasi come citazione.
+la citazione iniziale con i tre stili, il confronto dei loro esempi e il
+catalogo completo, come indicato nella [guida alla scelta](scelta-stile.md).
+Non presentare una parafrasi come citazione.
 
 ## Articolo o altro URL
 
@@ -28,15 +29,16 @@ dalla fonte, distinguendo l'autore dell'articolo dalla persona citata. Se
 l'identità del parlante o dell'autore non è chiara, segnala l'incertezza e non
 assegnare un nome per supposizione.
 
-Nella stessa prima risposta, aggiungi i tre stili e il link al catalogo visivo
-V1, anche quando l'utente chiede solo di estrarre una frase. La sola
-estrazione si conclude con la proposta. Per una card, raccogli le sole
+Nella stessa prima risposta, aggiungi i tre stili e i link «Confronta questi
+tre stili» e «Catalogo completo». Se l'utente ha chiesto solo di estrarre una
+frase, fermati alla proposta. Per una card, raccogli le sole
 scelte mancanti. L'assenso alla citazione non sceglie uno stile. Una volta
 definiti o delegati testo e stile, riassumi il brief e procedi.
 
 Se l'articolo è inaccessibile, incompleto o non contiene il passaggio necessario,
 spiega il limite e chiedi di incollare il testo o fornire un documento leggibile.
-Offri nella stessa risposta tre direzioni iniziali e il link al catalogo.
+Offri nella stessa risposta tre direzioni iniziali con i link al confronto e
+al catalogo completo.
 Non ricostruire la frase a memoria né aggirare restrizioni di accesso.
 
 ## Attribuzione e consegna

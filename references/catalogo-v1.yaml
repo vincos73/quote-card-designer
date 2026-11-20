@@ -1,5 +1,5 @@
 schema_version: '1.0'
-catalog_version: 0.5.3
+catalog_version: 0.5.4
 visual_catalog_url: https://quote-card-designer-catalogo-v1.vincos.chatgpt.site
 defaults:
   ratio: '4:5'
@@ -47,6 +47,7 @@ styles:
   - neon collage
   - collage neon
   - digital collage
+  - collage digitale
   summary: 'Collage digitale pop: foto ritagliate, strisce e contorni a contrasto, tipografia espressiva
     integrata nei livelli.'
   tags:
@@ -99,6 +100,7 @@ styles:
   - collage mixed media
   - fotomontaggio editoriale
   - vintage collage
+  - collage vintage
   summary: 'Collage vintage: ritagli fotografici d’archivio, frammenti di carta, scale alterate e tipografia
     assemblata; palette libera.'
   tags:
@@ -169,6 +171,7 @@ styles:
   - rinascimentale
   - classico rinascimentale
   - classical roman
+  - classico romano
   summary: Tipografia iscrizionale romana, carta e materiali classici, una scultura o architettura e una
     gerarchia editoriale sobria.
   tags:
@@ -205,6 +208,7 @@ styles:
   - porcellana blu
   - toile de jouy blu
   - chinese illustration
+  - illustrazione cinese
   summary: Illustrazione di ispirazione cinese in blu monocromo, con dettagli marginali contenuti e un
     ampio campo chiaro per la citazione serif.
   tags:
@@ -224,6 +228,7 @@ styles:
   - stile naïf
   - crayon lettering
   - pastello a cera
+  - disegno infantile
   summary: Illustrazione naïf semplice, con poche forme a pastello e lettering manuale leggibile, allineato
     e con spaziatura regolare.
   tags:
@@ -729,6 +734,7 @@ styles:
   - jazz modernist
   - jazz sleeve
   - bande fotografiche
+  - copertina jazz
   summary: Una fotografia legata al significato della frase si ricompone in bande verticali di altezze
     diverse. Le aperture accolgono la citazione, con tipografia forte, pause di carta e grana di stampa.
   tags:
@@ -1005,6 +1011,7 @@ styles:
   - optical
   - op art
   - movimento ottico
+  - arte ottica
   summary: 'La frase partecipa all’illusione: contorni generati dalle parole, aperture nelle onde o inversioni
     figura-sfondo. Testo dominante e campo ottico progettati insieme.'
   tags:
@@ -1097,8 +1104,8 @@ styles:
   name: Editor Canvas
   aliases:
   - editor canvas
-  - editor canvas
   - editorial canvas
+  - area di lavoro grafica
   summary: 'Un editor colto durante il lavoro: tipografia monumentale, una parola in modifica e controlli
     coerenti con la sua geometria, dentro un ritaglio ravvicinato del canvas.'
   tags:
@@ -1344,66 +1351,117 @@ styles:
 - id: photo-palimpsest
   family: collage-fotomontaggio
   name: Photo Palimpsest
-  aliases: []
+  aliases:
+  - fotografia dipinta
+  - palinsesto fotografico
   summary: Studio in sviluppo che trasforma una fotografia con pittura, trasferimenti e segni, integrando
     la frase nell'immagine.
-  tags: []
+  tags:
+  - fotografia
+  - pittura
+  - trasferimento
+  - stratificazione
   profile: references/styles/photo-palimpsest/profilo.yaml
 - id: american-comics
   family: illustrazione-decorazione
   name: American Comics
-  aliases: []
+  aliases:
+  - fumetto americano
+  - fumetti americani
+  - fumetto vintage
   summary: 'Citazione esplosiva al centro di una tavola di fumetti vintage: vignette narrative, lettering
     monumentale e retino meccanico visibile.'
-  tags: []
+  tags:
+  - fumetto
+  - vignette
+  - retino ben-day
+  - tavola a fumetti
   profile: references/styles/american-comics/profilo.yaml
 - id: warhol-pop-art
   family: retini-stampa
   name: Warhol / Pop Art
-  aliases: []
+  aliases:
+  - pop art
+  - serigrafia pop
+  - stile Warhol
   summary: Testo preminente e matrice fotografica serigrafica, con campiture non naturalistiche e colori
     fuori registro; soggetto scelto in funzione della frase.
-  tags: []
+  tags:
+  - serigrafia
+  - fuori registro
+  - fotografia
+  - campiture
   profile: references/styles/warhol-pop-art/profilo.yaml
 - id: marker-editorial
   family: tipografia-editoriale
   name: Marker Editorial
-  aliases: []
+  aliases:
+  - pennarello
+  - pennarello editoriale
+  - fotografia scarabocchiata
   summary: Frase stampata o scritta a pennarello, con scarabocchi, simboli ed evidenziatore sulle parole
     importanti. Variante con fotografia segnata a mano.
-  tags: []
+  tags:
+  - evidenziatore
+  - scarabocchi
+  - frecce
+  - lettering manuale
   profile: references/styles/marker-editorial/profilo.yaml
 - id: anaglyph-editorial
   family: fotografia-atmosfere
   name: Anaglyph Editorial
-  aliases: []
+  aliases:
+  - anaglifo
+  - sdoppiamento cromatico
   summary: Soggetto fotografico e testo con esposizioni cromatiche sfalsate; lettere dal nucleo nitido
     e scarti moderati. Ritratto e oggetto sono varianti dello stesso linguaggio.
-  tags: []
+  tags:
+  - stereoscopia
+  - sovrapposizioni
+  - fotografia
+  - rosso e ciano
   profile: references/styles/anaglyph-editorial/profilo.yaml
 - id: charcoal
   family: disegno-lettering
   name: Charcoal
-  aliases: []
+  aliases:
+  - carboncino
+  - disegno a carboncino
   summary: Lettering polveroso e piccolo disegno sempre legato alla frase; carboncino su carta bianca
     oppure pastello bianco secco su carta nera.
-  tags: []
+  tags:
+  - segno polveroso
+  - sfumatura
+  - carta nera
+  - pastello bianco
   profile: references/styles/charcoal/profilo.yaml
 - id: monotype
   family: retini-stampa
   name: Monotype
-  aliases: []
+  aliases:
+  - monotipo
+  - stampa monotipo
   summary: 'Frase e piccolo disegno emergono da un''impronta di inchiostro: tracce di pulitura, velature
     residue e trasferimenti irregolari su carta.'
-  tags: []
+  tags:
+  - inchiostro
+  - impronta
+  - velatura
+  - stampa a esemplare unico
   profile: references/styles/monotype/profilo.yaml
 - id: oil-pastel
   family: disegno-lettering
   name: Oil Pastel
-  aliases: []
+  aliases:
+  - pastello a olio
+  - pastello ad olio
+  - pastelli a olio
   summary: Frase e piccolo disegno a pastello a olio; pigmenti coprenti, segni cerosi, ripassi e colori
     trascinati costruiscono una pagina pittorica e imperfetta.
-  tags: []
+  tags:
+  - pigmento
+  - cera
+  - pastello ceroso
   profile: references/styles/oil-pastel/profilo.yaml
 - id: embossed-paper
   family: luce-materiali
@@ -1412,6 +1470,8 @@ styles:
   - debossed paper
   - blind debossing
   - carta in incavo
+  - lettere incavate
+  - carta incavata
   summary: Frase e piccolo disegno incavati nella carta senza inchiostro; fibre compresse e ombre interne
     rendono leggibile l'impressione a secco.
   tags:
@@ -1429,6 +1489,8 @@ styles:
   - blind embossing
   - carta in rilievo
   - lettere sollevate
+  - carta goffrata
+  - lettere in rilievo
   summary: Lettere e piccolo disegno emergono dalla superficie della carta senza inchiostro; spalle morbide,
     fibre continue e ombre esterne mostrano il rilievo positivo.
   tags:
@@ -1442,180 +1504,310 @@ styles:
 - id: gold-foil
   family: luce-materiali
   name: Gold Foil
-  aliases: []
+  aliases:
+  - lamina oro
+  - lamina dorata
+  - lamina d’oro
+  - stampa in oro
   summary: Lettere monumentali in lamina oro su carta opaca, con riflessi metallici variabili e una possibile
     ombra nera grafica dietro i blocchi di testo.
-  tags: []
+  tags:
+  - oro
+  - riflessi metallici
+  - carta opaca
   profile: references/styles/gold-foil/profilo.yaml
 - id: silver-foil
   family: luce-materiali
   name: Silver Foil
-  aliases: []
+  aliases:
+  - lamina argento
+  - lamina argentata
+  - lamina d’argento
+  - stampa in argento
   summary: Argento riflettente come superficie continua impressa oppure lamina selettiva per la calligrafia
     su carta scura; rilievi e luce costruiscono la frase.
-  tags: []
+  tags:
+  - argento
+  - riflessi metallici
+  - calligrafia
   profile: references/styles/silver-foil/profilo.yaml
 - id: linocut
   family: retini-stampa
   name: Linocut
-  aliases: []
+  aliases:
+  - linoleografia
+  - incisione su linoleum
   summary: Tagli di sgorbia, pieni d’inchiostro e riserve di carta organizzano la frase; il piccolo disegno
     partecipa alla stessa logica di incisione.
-  tags: []
+  tags:
+  - sgorbia
+  - linoleum
+  - inchiostro
+  - stampa a rilievo
   profile: references/styles/linocut/profilo.yaml
 - id: cyanotype
   family: retini-stampa
   name: Cyanotype
-  aliases: []
+  aliases:
+  - cianotipia
+  - cianotipo
   summary: Blu di esposizione e riserve bianche da contatto fanno emergere frase e piccolo soggetto; leggere
     variazioni di impronta mantengono la carta visibile.
-  tags: []
+  tags:
+  - fotogramma
+  - stampa a contatto
+  - blu di Prussia
   profile: references/styles/cyanotype/profilo.yaml
 - id: palette-knife-painting
   family: disegno-lettering
   name: Palette Knife Painting
-  aliases: []
+  aliases:
+  - pittura a spatola
   summary: Depositi, trascinamenti e asportazioni di pittura modificano lo spazio della frase; piani di
     lama e un piccolo disegno rendono il gesto leggibile.
-  tags: []
+  tags:
+  - spatola
+  - impasto
+  - raschiatura
+  - pittura materica
   profile: references/styles/palette-knife-painting/profilo.yaml
 - id: sticker-type
   family: tipografia-editoriale
   name: Sticker Type
-  aliases: []
+  aliases:
+  - tipografia adesiva
+  - adesivo sagomato
   summary: 'Frase e piccolo disegno formano un adesivo sagomato: lettering robusto, contorno continuo
     e direzione compositiva legata al significato.'
-  tags: []
+  tags:
+  - adesivo
+  - lettering
+  - contorno
   profile: references/styles/sticker-type/profilo.yaml
 - id: cut-paper
   family: collage-fotomontaggio
   name: Cut Paper
-  aliases: []
+  aliases:
+  - carta ritagliata
+  - intaglio di carta
+  - lettere intagliate
   summary: 'Lettere tagliate e sollevate dal foglio oppure ricavate in negativo: fibre, pieghe e ombre
     reali rendono la carta protagonista.'
-  tags: []
+  tags:
+  - carta
+  - ritaglio
+  - pieghe
+  - spazio negativo
   profile: references/styles/cut-paper/profilo.yaml
 - id: chalkboard-design
   family: disegno-lettering
   name: Chalkboard
   aliases:
   - Chalkboard Design
+  - lavagna
+  - lavagna a gesso
+  - scrittura a gesso
   summary: Scrittura a gesso su una lavagna usata, con polvere, cancellature trascinate, ripassi e residui
     di segni.
-  tags: []
+  tags:
+  - gesso
+  - cancellature
+  - polvere
   profile: references/styles/chalkboard-design/profilo.yaml
 - id: inflated-type
   family: luce-materiali
   name: Inflated Type
-  aliases: []
+  aliases:
+  - lettere gonfiabili
+  - lettere a palloncino
   summary: 'Lettere gonfiabili pop: membrane tese, saldature, pieghe e contatti fra volumi costruiscono
     la frase.'
-  tags: []
+  tags:
+  - palloncini
+  - vinile
+  - tipografia tridimensionale
   profile: references/styles/inflated-type/profilo.yaml
 - id: varsity-patch
   family: luce-materiali
   name: Varsity Patch
-  aliases: []
+  aliases:
+  - toppa ricamata
+  - lettere ricamate
+  - toppa da college
   summary: Frasi ricamate a punti satin o trasformate in patch chenille, con feltro, fibre, bordi cuciti
     e ombre reali.
-  tags: []
+  tags:
+  - ricamo
+  - chenille
+  - feltro
+  - punti satin
   profile: references/styles/varsity-patch/profilo.yaml
 - id: ransom-note
   family: collage-fotomontaggio
   name: Ransom Note
-  aliases: []
+  aliases:
+  - lettera di riscatto
+  - lettere ritagliate dai giornali
   summary: Lettere ritagliate da stampe diverse su carta stropicciata e leggermente macchiata, con bordi
     e sovrapposizioni fisiche.
-  tags: []
+  tags:
+  - ritagli di giornale
+  - collage tipografico
+  - carta stropicciata
   profile: references/styles/ransom-note/profilo.yaml
 - id: constructivist
   family: tipografia-editoriale
   name: Constructivist
-  aliases: []
+  aliases:
+  - costruttivismo
+  - manifesto costruttivista
   summary: Manifesti con geometrie, diagonali, tipografia a blocco e fotomontaggio originale, organizzati
     da forti contrasti di scala.
-  tags: []
+  tags:
+  - fotomontaggio
+  - diagonali
+  - tipografia a blocco
   profile: references/styles/constructivist/profilo.yaml
 - id: art-deco
   family: illustrazione-decorazione
   name: Art Deco
-  aliases: []
+  aliases:
+  - déco
+  - art déco
   summary: Geometrie ornamentali, ventagli, gradoni e linee streamline dialogano con lettering geometrico
     e composizioni eleganti.
-  tags: []
+  tags:
+  - ventagli
+  - gradoni
+  - geometria ornamentale
+  - streamline
   profile: references/styles/art-deco/profilo.yaml
 - id: art-nouveau
   family: illustrazione-decorazione
   name: Art Nouveau
-  aliases: []
+  aliases:
+  - liberty
+  - stile liberty
+  - stile floreale
   summary: Linee sinuose, natura stilizzata e lettering organico integrano la frase con figure originali
     e campi ornamentali fluidi.
-  tags: []
+  tags:
+  - linee sinuose
+  - botanica
+  - ornamento floreale
   profile: references/styles/art-nouveau/profilo.yaml
 - id: pixel-art
   family: cultura-digitale
   name: Pixel Art
-  aliases: []
+  aliases:
+  - grafica a pixel
+  - grafica a 8 bit
   summary: Lettering bitmap, sprite e scene a pixel costruiscono la frase, fra percorsi a piattaforme,
     oggetti originali e palette limitate.
-  tags: []
+  tags:
+  - pixel
+  - sprite
+  - arcade
+  - bitmap
+  - 16 bit
   profile: references/styles/pixel-art/profilo.yaml
 - id: cartographic-editorial
   family: disegno-tecnico
   name: Cartographic
   aliases:
   - Geografica
+  - cartografia
+  - mappa urbana
+  - carta geografica
   summary: 'Studio tematico: reti stradali e tipografia da manifesto. Scelto il secondo esempio, con colori
     variabili secondo il quote.'
-  tags: []
+  tags:
+  - geografia
+  - mappe
+  - strade
+  - rete stradale
   profile: references/styles/cartographic-editorial/profilo.yaml
 - id: finance-terminal
   family: cultura-digitale
   name: Finance
-  aliases: []
+  aliases:
+  - finanza
+  - terminale finanziario
   summary: 'Studio tematico: elementi a matrice di punti, ripetuti o singoli, dialogano con un’interfaccia
     essenziale e caratteri da terminale.'
-  tags: []
+  tags:
+  - mercati finanziari
+  - matrice di punti
+  - interfaccia
   profile: references/styles/finance-terminal/profilo.yaml
 - id: economy-editorial
   family: illustrazione-decorazione
   name: Economy
-  aliases: []
+  aliases:
+  - economia
+  - rivista di economia
   summary: 'Studio tematico: serif con pesi e corsivi, simbolo minimale scelto dal significato della frase
     e palette armonica per testo e immagine.'
-  tags: []
+  tags:
+  - simboli economici
+  - corsivi
+  - tipografia editoriale
   profile: references/styles/economy-editorial/profilo.yaml
 - id: science-book
   family: classici-incisioni
   name: Science Book
-  aliases: []
+  aliases:
+  - libro scientifico
+  - tavola scientifica
   summary: 'Studio tematico: immagini da libro scientifico d’epoca e tipografia sans contemporanea, con
     dettagli e campiture di colore.'
-  tags: []
+  tags:
+  - scienza
+  - illustrazione scientifica
+  - libro d’epoca
   profile: references/styles/science-book/profilo.yaml
 - id: space-atlas
   family: disegno-tecnico
   name: Space Atlas
-  aliases: []
+  aliases:
+  - atlante celeste
+  - atlante stellare
+  - carta stellare
   summary: 'Studio tematico: carte stellari ridisegnate con lettering orbitale, aperture stencil e gerarchie
     di punti e archi.'
-  tags: []
+  tags:
+  - astronomia
+  - stelle
+  - orbite
+  - costellazioni
   profile: references/styles/space-atlas/profilo.yaml
 - id: tech-mechanism
   family: disegno-tecnico
   name: Tech Mechanism
-  aliases: []
+  aliases:
+  - meccanismo
+  - vista esplosa
+  - disegno meccanico
   summary: 'Studio tematico: font tecnico marcato e meccanismo dell’oggetto citato, con immagine ampia
     e integrata nella frase.'
-  tags: []
+  tags:
+  - tecnologia
+  - meccanica
+  - ingranaggi
   profile: references/styles/tech-mechanism/profilo.yaml
 - id: eco-print
   family: retini-stampa
   name: Eco Print
-  aliases: []
+  aliases:
+  - manifesto ecologico
+  - stampa ecologista
   summary: 'Studio tematico: segno inciso, pochi inchiostri e paesaggio coerente con il quote. Testo e
     immagine condividono lo stesso campo di stampa.'
-  tags: []
+  tags:
+  - ecologia
+  - ambiente
+  - paesaggio
+  - incisione
   profile: references/styles/eco-print/profilo.yaml
 - id: oneline
   family: disegno-lettering

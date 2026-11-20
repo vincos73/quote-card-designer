@@ -12,7 +12,9 @@
   let category = '';
   let lastTrigger = null;
   let statusTimer;
-  const normalize = text => text.toLocaleLowerCase('it').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const normalize = text => text.toLocaleLowerCase('it').normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '').replace(/[‘’]/g, "'")
+    .replace(/[-‐‑‒–—]/g, ' ').replace(/\s+/g, ' ').trim();
   const categories = [{id: '', name: 'Tutti gli stili'}, ...data.families];
   for (const family of categories) {
     const button = document.createElement('button');
@@ -27,8 +29,12 @@
     if (family.id) { const option = document.createElement('option'); option.value = family.id; option.textContent = family.name; filter.append(option); }
   }
   function render() {
-    const query = normalize(search.value.trim());
-    const visible = data.items.filter(style => (!category || style.family === category) && (!query || normalize([style.name, style.summary, style.familyName, style.exampleLabel, ...(style.aliases || [])].join(' ')).includes(query)));
+    const query = normalize(search.value);
+    const visible = data.items.filter(style => {
+      if (category && style.family !== category) return false;
+      const fields = [style.name, style.summary, style.familyName, style.exampleLabel, ...(style.aliases || []), ...(style.tags || [])];
+      return !query || fields.some(field => field && normalize(field).includes(query));
+    });
     grid.replaceChildren(...visible.map(createCard));
     count.textContent = `${visible.length} ${visible.length === 1 ? 'stile' : 'stili'}${category || query ? ` di ${data.items.length}` : ''}`;
     empty.hidden = visible.length !== 0;
@@ -73,6 +79,26 @@
   document.getElementById('dialog-close').addEventListener('click', () => dialog.close());
   dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
   dialog.addEventListener('close', () => { if (lastTrigger && document.contains(lastTrigger)) lastTrigger.focus(); });
-  document.addEventListener('keydown', event => { if (event.key === '/' && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName) && !dialog.open) { event.preventDefault(); search.focus(); } });
-  render();
+  const catalogUrl = new URL(window.location.href);
+  const comparison = catalogUrl.searchParams.getAll('confronta');
+  const ids = comparison.length === 1 ? comparison[0].split(',').map(id => id.trim()) : [];
+  const stylesById = new Map(data.items.map(style => [style.id, style]));
+  if (ids.length === 3 && new Set(ids).size === 3 && ids.every(id => stylesById.has(id))) {
+    document.body.classList.add('comparing');
+    const title = 'Tre stili a confronto';
+    document.title = title + ' · Quote Card Designer';
+    document.getElementById('page-title').textContent = title;
+    document.getElementById('catalog-intro').textContent = 'Ingrandisci le anteprime e copia il nome dello stile che preferisci.';
+    catalogUrl.searchParams.delete('confronta');
+    const all = document.getElementById('compare-all');
+    all.href = catalogUrl.href;
+    all.hidden = false;
+    grid.replaceChildren(...ids.map(id => createCard(stylesById.get(id))));
+  } else {
+    if (comparison.length) {
+      document.getElementById('catalog-intro').textContent = 'Il link non identifica tre stili diversi disponibili. Puoi cercarli nel catalogo completo.';
+    }
+    document.addEventListener('keydown', event => { if (event.key === '/' && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName) && !dialog.open) { event.preventDefault(); search.focus(); } });
+    render();
+  }
 })();

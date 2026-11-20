@@ -2,7 +2,7 @@
 name: quote-card-designer
 description: "Crea o modifica quote card artistiche da frasi, testi o articoli, preservando la citazione. Aiuta a esplorare e scegliere gli stili disponibili."
 metadata:
-  version: "0.5.3"
+  version: "0.5.4"
 ---
 
 # Quote Card Designer
@@ -25,18 +25,20 @@ Parti dalla richiesta corrente e dalle informazioni già disponibili:
   generazione. Per aggiungere o modificare uno stile leggi
   [lo schema stile](references/schema-stile.md).
 
-## Mostra subito tre stili e il catalogo
+## Mostra subito tre stili e il confronto visivo
 
 Nella prima risposta utile per una nuova card, un'estrazione di citazione o
-un'esplorazione di stili, mostra sempre **tre stili distinti e il link al
-[catalogo visivo V1](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site)**.
-Leggi [come scegliere lo stile](references/scelta-stile.md) e accompagna ogni
-nome con una breve ragione. Se manca il testo o la fonte non è accessibile,
+un'esplorazione di stili, mostra sempre **tre stili distinti**, ciascuno con
+una breve ragione. Subito sotto aggiungi i link **Confronta questi tre stili**
+e [Catalogo completo](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site).
+Il primo apre gli esempi nello stesso ordine della risposta. Costruiscilo con
+gli ID delle tre proposte come indicato in [come scegliere lo stile](references/scelta-stile.md).
+Se manca il testo o la fonte non è accessibile,
 proponi tre punti di partenza con le informazioni disponibili, nello stesso
 messaggio in cui chiedi ciò che manca. Vale anche per un'invocazione senza
 una richiesta riconoscibile, in cui inviti l'utente a indicare cosa vuole fare.
 
-Per un articolo o un testo lungo, mostra i tre stili e il link nella stessa
+Per un articolo o un testo lungo, mostra i tre stili e i due link nella stessa
 risposta che propone citazione e attribuzione. Vale anche per «estrai una
 frase». In quel caso presenta gli stili per un'eventuale card e fermati alla
 proposta. Se l'utente ha già scelto uno stile, mettilo per primo e presenta
@@ -45,7 +47,7 @@ usi e procedi quando anche il testo è definito o delegato.
 
 Invita a rispondere con il nome di uno stile oppure «scegli tu» quando la
 scelta è aperta. La pagina del catalogo non comunica la selezione alla chat.
-Prima di generare una nuova card, verifica che le tre proposte e il link
+Prima di generare una nuova card, verifica che le tre proposte e i due link
 siano già comparsi per questa card. Se mancano, mostrali ora. «Ok» alla
 citazione o «crea card» senza un nome di stile o una delega esplicita non
 risolvono la scelta. In quel caso chiedi solo lo stile. Riusa le opzioni già

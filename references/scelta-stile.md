@@ -66,13 +66,25 @@ in assoluto; una card riuscita non dimostra la superiorità dello stile.
 
 ## Una scelta semplice per l'utente
 
-Nella prima risposta utile presenta tre stili distinti con il link al
-catalogo visivo V1. Metti per primo il consigliato o quello già scelto.
+Nella prima risposta utile presenta tre stili distinti. Metti per primo il
+consigliato o quello già scelto.
 Collega ciascun nome a un effetto o vincolo concreto. Scegli due alternative
 pertinenti che cambiano un aspetto utile, come il peso dell'immagine o il
 tono. In assenza di testo, presentale come direzioni iniziali. Per
 un'estrazione, affiancale alla citazione anche se l'utente non ha ancora
 chiesto la card.
+
+Sotto le tre proposte, aggiungi «Confronta questi tre stili» e «Catalogo completo».
+Per il confronto, prendi `visual_catalog_url` dal [catalogo V1](catalogo-v1.yaml)
+e aggiungi `?confronta=` seguito dai tre valori `id`, separati da virgole
+senza spazi, nell'ordine dei nomi presentati. Anche se l'utente usa un alias,
+ricava l'ID dalla voce corrispondente. Per «Catalogo completo» usa lo stesso
+indirizzo di base. Per esempio, se proponi Neo Swiss, Cyanotype e Linocut,
+i due link sono [Confronta questi tre stili](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site/?confronta=neo-swiss,cyanotype,linocut)
+e [Catalogo completo](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site).
+Il confronto pubblico richiede tre stili presenti nel catalogo V1. Per una
+terna della libreria di sviluppo che include uno stile sperimentale, indica
+dove sono disponibili gli esempi nella gallery di sviluppo.
 
 Se la scelta è aperta, offri «scegli tu» e raccogli nello stesso messaggio
 le sole scelte mancanti. Se è già fatta o delegata, indica lo stile che usi

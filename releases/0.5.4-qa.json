@@ -1,0 +1,61 @@
+{
+  "version": "0.5.4",
+  "date": "2026-11-20",
+  "package": {
+    "files": 253,
+    "sha256": "f3692daaedef1f87a1269e88ee5965527204aa5f4a2b4a2f7a81c9fda3f7b4bd",
+    "styles": 103,
+    "composition_libraries": 75,
+    "package_tests_passed": 14,
+    "source_extracted_installed_valid": true,
+    "installed_file_hashes_match": true
+  },
+  "catalog": {
+    "previews_verified": 103,
+    "families": 11,
+    "search_entries_updated": 40,
+    "style_ids_and_order_preserved": true
+  },
+  "development_gallery": {
+    "styles": 130,
+    "images": 284,
+    "families": 11
+  },
+  "browser": {
+    "local_build": true,
+    "widths_px": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "scenarios": [
+      "ordered comparison with approved previews",
+      "image zoom and clipboard",
+      "full catalog and browser back",
+      "fallback for missing, repeated or unknown IDs",
+      "Italian aliases, tags and combined category filtering"
+    ]
+  },
+  "skill_trial": {
+    "prompt": "Sto preparando una card sulla memoria artigiana. Fammi vedere tre direzioni visive, a cominciare dalla linoleografia. In questa fase voglio solo scegliere.",
+    "style_ids": [
+      "linocut",
+      "cyanotype",
+      "notebook-sketch"
+    ],
+    "comparison_query": "?confronta=linocut,cyanotype,notebook-sketch",
+    "catalog_link_present": true,
+    "new_card_generated": false
+  },
+  "public_catalog": {
+    "sites_version": 7,
+    "status": "succeeded",
+    "comparison_ids_checked_in_browser": [
+      "linocut",
+      "cyanotype",
+      "notebook-sketch"
+    ],
+    "live_data_css_js_match_local": true
+  }
+}
