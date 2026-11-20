@@ -145,7 +145,7 @@ release_selection:
   - eco-print
   - oneline
   - notebook-sketch
-  catalog_version: 0.5.4
+  catalog_version: 0.5.5
 styles:
 - id: dada-black
   release_candidate: true
@@ -1240,8 +1240,8 @@ styles:
   - glitch editorial
   - segnale corrotto
   - signal decay
-  summary: Immagini e caratteri attraversati da strappi di segnale e rumore; lettering preferito della
-    proposta A ripreso nella composizione B.
+  summary: Strappi orizzontali, rumore e canali di colore disallineati attraversano immagini e lettere.
+    La frase resta leggibile tra i frammenti.
   tags:
   - glitch
   - RGB
@@ -1259,8 +1259,8 @@ styles:
   example_prompt_2: references/styles/glitch-editorial/prompt-esempio-2.md
   v1_shortlisted: false
   gallery_snapshot: sites-v60
-  search_terms: Glitch Editorial Immagini e caratteri attraversati da strappi di segnale e rumore; lettering
-    preferito della proposta A ripreso nella composizione B. Interfacce e cultura digitale Generativa
+  search_terms: Glitch Editorial Strappi orizzontali, rumore e canali di colore disallineati attraversano
+    immagini e lettere. La frase resta leggibile tra i frammenti. Interfacce e cultura digitale Generativa
     glitch RGB distorsione segnale rumore digitale editoriale glitch glitch art glitch editorial segnale
     corrotto signal decay Disrupted Electronic Unstable Raw Uncanny Expressive
   example: references/styles/glitch-editorial/gallery-v60/glitch-editorial.jpg

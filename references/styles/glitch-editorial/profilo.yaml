@@ -1,6 +1,6 @@
 Design Style:
   Name: Glitch Editorial
-  Status: "Incluso nel catalogo V1 il 26 ottobre 2026; light typographic study preferred by the user"
+  Status: "Incluso nel catalogo V1 il 26 ottobre 2026."
   Concept: >
     A readable editorial message travels through an unstable image signal.
     Horizontal discontinuities, displaced colour channels and noise interrupt
@@ -57,11 +57,11 @@ Design Style:
       Style: >
         A heavy condensed or compact grotesk for figurative signal collage,
         or a bold pixel-like monospace for typographic interference. Choose
-        one coherent primary register for the quotation. When adapting a
-        composition from a paired proposal, carry the preferred proposal A
-        lettering into B: preserve its letterform character, weight, case and
-        spacing while retaining B's glitch field and composition. Damage may
-        interrupt selected edges, but must not replace the chosen letter design.
+        one coherent primary register for each composition. If the user asks
+        for the lettering of one variant in another, carry its letterforms,
+        weight and spacing into the requested composition. Keep the
+        capitalization and punctuation of the current quotation. Local damage
+        may interrupt edges while keeping the chosen letter design recognisable.
       Scale: Large enough to remain the first complete reading at feed size
       Case: Preserve supplied capitalization, wording, accents and punctuation.
       Spacing: >
@@ -194,8 +194,7 @@ Design Style:
       word echo. No invented auxiliary labels were observed. These are two
       applications, not an isolated comparison of one parameter or a test of
       reference-image inputs. Exact fonts, wider repeatability and specific
-      technical corruption processes are not established. The user preferred
-      the light typographic study, now the featured catalogue example.
+      technical corruption processes are not established.
 
   User Overrides:
     Palette: Replace hues while retaining clear reading contrast and apparent signal disagreement.

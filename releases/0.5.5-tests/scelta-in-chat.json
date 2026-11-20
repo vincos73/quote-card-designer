@@ -1,0 +1,30 @@
+{
+  "scenario": "Una frase da un testo, poi approvazione e scelta in turni distinti",
+  "metodo": "Assistente indipendente con la skill del checkout. I messaggi utente sono stati inviati uno alla volta. La chiamata finale a ImageGen è intercettata per la verifica della decisione.",
+  "turni": [
+    {
+      "utente": "Da questo testo per la newsletter scegli una citazione per una card. Il testo è mio, preferisco lasciarla senza firma. In laboratorio, gli strumenti passano da una mano all’altra. Un segno resta vivo finché qualcuno impara a rifarlo. È così che il lavoro continua, anche quando cambia chi lo fa.",
+      "assistente": "> Un segno resta vivo finché qualcuno impara a rifarlo.\n\nSceglierei questa frase, senza firma. Si capisce anche fuori dalla newsletter e racconta il passaggio di un mestiere attraverso un gesto che qualcuno impara a ripetere.\n\n- **Linocut** è la mia prima scelta. Due segni di sgorbia, simili ma con una piccola differenza nel taglio, farebbero vedere la mano di chi insegna e quella di chi prova.\n- **Oneline** darebbe alla frase un tono più intimo. Il tratto dell’ultima lettera potrebbe proseguire nel disegno di una matita che passa di mano.\n- **Debossed Paper** farebbe emergere le parole da un’impronta nella carta, visibile alla luce radente.\n\n[Confronta questi tre stili](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site/?confronta=linocut,oneline,embossed-paper) · [Catalogo completo](https://quote-card-designer-catalogo-v1.vincos.chatgpt.site)\n\nPer creare la card, rispondi con il nome dello stile oppure «scegli tu». Se hai un colore in mente, puoi indicarlo insieme allo stile.",
+      "azione": "propone_e_attende"
+    },
+    {
+      "utente": "ok",
+      "assistente": "Quale stile preferisci per la card: **Linocut**, **Oneline** o **Debossed Paper**? Puoi anche rispondere «scegli tu».",
+      "azione": "attende_solo_stile"
+    },
+    {
+      "utente": "Scelgo Linocut.",
+      "azione": "generazione_intercettata",
+      "argomenti": {
+        "prompt": "Genera una sola quote card editoriale verticale 4:5 per una newsletter. Componi l’intera immagine, lettering e piccolo disegno insieme, come una linoleografia stampata su carta avorio opaca. Usa inchiostro nero caldo per le lettere e rosso mattone per un piccolo tassello di stampa. Le lettere sono robuste, con occhielli aperti e terminali lievemente recisi. Conserva proporzioni naturali, spazi leggibili tra le parole, margini ampi e un margine destro irregolare. Disponi la frase su tre righe, andando a capo dopo vivo e dopo qualcuno. La citazione domina la pagina. Sotto l’ultima riga, allineato all’inizio del testo, il piccolo tassello contiene due tagli curvi di sgorbia lasciati nel colore della carta. Il secondo riprende il gesto del primo con una lieve esitazione all’uscita, come la prova di un apprendista accanto al segno del maestro. Entrambi i tagli sono distanti dalle lettere e dal punto finale. L’inchiostro è piatto, con lievi discontinuità di pressione lungo i bordi. Riproduci la frase una sola volta, conservando maiuscole, accento acuto e punto finale. Ometti virgolette esterne, autore, firma e ogni altra scritta. L’etichetta seguente serve solo a identificare la frase.\n\nTesto visibile:\nUn segno resta vivo finché qualcuno impara a rifarlo.",
+        "transparent_background": false
+      }
+    }
+  ],
+  "criteri_per_ripetere": [
+    "Il passaggio scelto è una sequenza letterale e completa del testo fornito.",
+    "Le tre proposte e gli ID del confronto si corrispondono e mantengono lo stesso ordine.",
+    "Dopo «ok» si chiede soltanto lo stile e si attende.",
+    "Dopo la scelta si prepara una sola composizione nello stile scelto, con la medesima frase e senza firma."
+  ]
+}

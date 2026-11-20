@@ -1,6 +1,6 @@
 # Catalogo visivo V1
 
-I sorgenti del catalogo pubblico includono l'interfaccia Indice svizzero, i dati della skill 0.5.4 e le anteprime approvate. Il catalogo mostra 103 stili in 11 categorie.
+I sorgenti del catalogo pubblico includono l'interfaccia Indice svizzero, i dati della skill 0.5.5 e le anteprime approvate. Il catalogo mostra 103 stili in 11 categorie.
 
 Installa le dipendenze con `python3 -m pip install -r gallery/requirements.txt` nel tuo ambiente virtuale. Esegui `python3 gallery/catalogo-v1/build.py` dalla radice del repository. La build predefinita va in `build/catalogo-v1-dist/`; con `--output <percorso>` si può scegliere un'altra directory. Le immagini sono verificate rispetto a `asset-manifest.json` prima di essere copiate.
 
@@ -27,3 +27,7 @@ Il parametro `confronta` accetta tre ID distinti del catalogo V1, separati da vi
 La build prende alias e tag da `references/catalogo-v1.yaml`. Per esempio, «stampa a secco» restituisce carta in incavo e carta in rilievo. Il test [browser.cjs](tests/browser.cjs) verifica il confronto e la ricerca sulla build servita in locale.
 
 Il 20 novembre 2026 Sites ha pubblicato la versione 7 del catalogo pubblico. [Ricevuta della pubblicazione](pubblicazione-v7.json)
+
+## Glitch Editorial · 0.5.5
+
+Il 20 novembre 2026 Sites ha pubblicato la versione 8. La scheda di Glitch Editorial descrive gli strappi orizzontali, il rumore e i canali di colore disallineati. Il catalogo comprende 103 stili in 11 categorie. [Ricevuta della pubblicazione](pubblicazione-v8.json)

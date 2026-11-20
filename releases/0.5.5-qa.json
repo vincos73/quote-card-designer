@@ -1,0 +1,74 @@
+{
+  "version": "0.5.5",
+  "date": "2026-11-20",
+  "zip": {
+    "name": "quote-card-designer-0.5.5.zip",
+    "sha256": "07ca40fbd44505e7e2bf5e1a5e74378c49eb9f97d488b7c25848c9b061034d70",
+    "file_count": 254,
+    "styles": 103,
+    "composition_libraries": 75,
+    "package_and_logo_tests_passed": 18,
+    "extracted_helper_matches_local_logo_output": true,
+    "clean_checkout_contents_match": true,
+    "installed_file_hashes_match": true,
+    "installed_helper_reproduces_verified_output": true
+  },
+  "development_gallery": {
+    "styles": 130,
+    "images": 284,
+    "families": 11
+  },
+  "visual_catalog": {
+    "styles": 103,
+    "families": 11,
+    "browser_regression_passed": true,
+    "clean_checkout_build_matches": true
+  },
+  "logo_trial": {
+    "base_sha256": "46106e2a944cdc55eb8b6805f78adb2391f51da4b70e03cc57604d31239ee4fe",
+    "logo_sha256": "f00b1a2ac50cf1e3b6e31549d59cd9e67f7d31a10490aa976b391a08eae9fe8c",
+    "result_sha256": "6f50260911434259ddf6dbe0b35abfe99eac7817dc4d93bea2351885a2226b30",
+    "pixel_size": [
+      1122,
+      1402
+    ],
+    "logo_xy": [
+      760,
+      1322
+    ],
+    "logo_size": [
+      310,
+      29
+    ],
+    "pixel_count": 1573044,
+    "alpha_footprint_pixels": 4824,
+    "outside_footprint_pixels": 1568220,
+    "outside_footprint_changed": 0,
+    "all_pixels_match_independent_source_over": true,
+    "changed_pixels": 4824,
+    "preview_width": 375,
+    "visual_check": "Marchio bianco leggibile sul fondo blu nella fascia inferiore destra. La citazione e i cavi di alimentazione restano liberi.",
+    "method": "Lettura RGBA completa e confronto canale per canale. Risultato atteso ricostruito dal file originale ridotto proporzionalmente con Lanczos e dalla base opaca con incollaggio mascherato."
+  },
+  "conversation": {
+    "test": "0.5.5-tests/scelta-in-chat.json",
+    "source_quote_verified": true,
+    "comparison_ids_match_order": true,
+    "acknowledgement_waited_for_style": true,
+    "explicit_style_produced_generation_arguments": true
+  },
+  "profiles": {
+    "text_only_trials": "0.5.5-tests/decisioni-profili.json"
+  },
+  "graphite_negative": {
+    "report": "0.5.5-tests/graphite-negative/verifica.json",
+    "card": "0.5.5-tests/graphite-negative/card.png",
+    "blind_transcription_matches": true
+  },
+  "public_catalog": {
+    "sites_version": 8,
+    "status": "succeeded",
+    "live_data_match_local": true,
+    "glitch_editorial_details_verified_in_browser": true
+  }
+}

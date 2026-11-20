@@ -30,3 +30,7 @@ esito `succeeded` il 25 ottobre 2026. L'aggiornamento comprende soltanto Glitch
 Editorial: le altre schede e immagini già online sono state conservate.
 La verifica riguarda il risultato nativo di pubblicazione e la sorgente
 confezionata, non una visita autenticata alla pagina pubblicata.
+
+### Revisione A/B
+
+Il profilo archiviato nella versione 0.4.0 indicava di abbinare il lettering della proposta A al campo glitch della B, mantenendo peso e spaziatura di A. La scelta riguardava quella coppia di proposte. [Profilo all’epoca della revisione](https://github.com/vincos73/quote-card-designer/blob/9df8b0fe25b33dee37fdf9a5b8fd461ba9441f6b/references/styles/glitch-editorial/profilo.yaml)

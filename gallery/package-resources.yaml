@@ -3,6 +3,7 @@ schema_version: 1
 archive_repository: https://github.com/vincos73/quote-card-designer
 archive_revision: a2e0444310b92cd55a8eb9263b5d37cd90c242c1
 runtime_assets:
+- scripts/apply_logo.py
 - references/styles/symbol-loom/reference-1.png
 - references/styles/symbol-loom/reference-2.png
 archive_assets:

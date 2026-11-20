@@ -61,19 +61,17 @@ Design Style:
     Supporting:
       Style: Plain readable sans-serif or quiet hand lettering
       Role: Only supplied attribution or meaningful supporting copy
-    Hierarchy: For this test choose the Naive Hand Lettering register for the entire quotation. Draw simple
-      readable dark wax-crayon letters, with a mostly aligned baseline, regular word spacing and visibly
-      hand-made contours. Preserve original words, sentence case and final period; no enclosing quotation
-      marks. Keep a coherent scale and stroke language across all lines. Allow small natural differences in
-      individual letter shapes without making the alignment erratic; never condense a last word or substitute
-      a clean font to avoid an illustration.
+    Hierarchy: The default register uses dark, legible wax-crayon letters with hand-drawn contours,
+      a mostly steady baseline and regular word spacing. Keep scale and stroke weight coherent across
+      the quotation. Small natural differences in letter shape can convey the drawing gesture.
+      Leave room around the illustration for full-width letters and clear punctuation.
     Selected Register:
       Style: Naive hand-printed wax-crayon lettering
       Construction: Simple recognisable Latin letterforms with open counters, a coherent baseline and
         regular word spacing; keep only gentle hand-drawn variation in the stems and contours
       Material: Dark charcoal wax strokes with visible paper gaps and broken pigment, not a smooth font
         with a distressed overlay
-      Case: Original sentence case
+      Case: Preserve the capitalization of the supplied quotation.
       Hierarchy: Large and immediately readable, with one coherent drawn-letter voice across the whole
         quotation
   Layout:
@@ -154,8 +152,9 @@ Design Style:
     Shadows: None
     Depth: Scale, overlap and drawing relationships rather than realistic 3D rendering
   Rules:
-  - Make the quotation the primary reading subject and preserve its exact words, case and sentence punctuation.
-  - Omit enclosing quotation marks by default and use only supplied attribution or supporting text.
+  - Make the quotation the primary reading subject. Preserve its wording, capitalization, accents and
+    punctuation exactly, including internal marks and the presence or absence of a final mark.
+  - Show surrounding quotation marks when explicitly requested. Use only supplied attribution or supporting text.
   - Keep the drawing simple enough to look quickly made by hand: prefer a few clear shapes over detailed scenes, and keep hand-lettered baselines and word spacing mostly regular.
   - Keep typography coherent; change the layout or image instead of compressing an individual word or
     line.

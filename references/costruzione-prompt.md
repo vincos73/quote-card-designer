@@ -132,13 +132,15 @@ Usa una struttura leggibile, in italiano o inglese secondo l'ambiente:
    specifica che non devono comparire nell'immagine. Conserva le virgolette
    interne che fanno parte del contenuto, senza aggiungerne attorno alla frase.
    Spiega al generatore che una firma personale non è l'autore della citazione.
-5. Se richiesto, logo: passa realmente il file della variante selezionata come
+5. Per un logo generato insieme alla nuova card, passa il file della variante selezionata come
    input immagine, distinguendolo dalla base da modificare e dalle reference di
    stile. Specifica una sola posizione periferica, il rapporto di scala con la
    frase, il respiro dai bordi e gli elementi da conservare. Richiedi simbolo,
    lettering, proporzioni e colori del file, senza effetti stilistici o fondini
    non richiesti. Non trasformare il nome nel logo in un'attribuzione o in una
    seconda firma scritta.
+   Se occorre riprodurre fedelmente il marchio, chiedi a ImageGen la card completa con
+   la frase e una zona periferica libera. Applica poi il logo originale come livello.
 6. Vincoli di leggibilità e divieto di testi inventati.
 
 Mantieni i dati visivi concreti. Non ridurre una scheda a «bello, artistico,
@@ -173,14 +175,39 @@ Usa la lista di controllo della guida comune anche per spazi, a capo, ancoraggi
 e contrasto locale. Valuta la lettura alla scala d'uso quando puoi ispezionarla;
 un file ad alta risoluzione non prova da solo la leggibilità nel feed.
 
-Confronta il logo visibile con la variante fornita: simbolo, lettering, colori,
-proporzioni, posizione periferica e contrasto sul fondo locale. Per un'aggiunta
-su una card esistente, confronta anche le zone estranee al logo. L'invio del
-PNG a ImageGen non prova un inserimento identico al file: segnala differenze
-osservate e non certificare fedeltà esatta o immutabilità del resto soltanto
-perché erano richieste nel prompt.
+Confronta il logo visibile con la variante fornita. Controlla simbolo, lettering,
+colori, proporzioni, posizione periferica e contrasto. Per i marchi disegnati
+dal generatore, descrivi le differenze osservate quando sono rilevanti.
 
 L'immagine consegnata è l'output principale. Conserva il prompt effettivamente
 usato quando il progetto o l'ambiente lo permette, senza imporre all'utente
 finale una spiegazione tecnica a ogni richiesta.
+
+## Applica il logo su una card approvata
+
+Per aggiungere il solo marchio, apri la base alla risoluzione originale. Scegli
+una zona periferica libera e una dimensione leggibile anche sul telefono.
+Componi il file originale con la sua trasparenza, mantenendo le proporzioni.
+Conserva la base, il marchio e la posizione e larghezza usate per le revisioni.
+
+Con Python e Pillow, usa lo [script di applicazione del logo](../scripts/apply_logo.py)
+dalla cartella della skill. Sostituisci percorsi e misure con quelli della card.
+Le coordinate in pixel indicano l’angolo superiore sinistro del logo sulla base
+nell’orientamento di lettura. Ometti `--width` per usare la dimensione nativa.
+
+```sh
+python3 scripts/apply_logo.py base.png logo.png card-con-logo.png --x 52 --y 48 --width 250
+```
+
+Lo script accetta basi statiche PNG o JPEG e loghi PNG fino a 8 bit per canale.
+Esporta in un nuovo PNG, conserva il profilo ICC RGB della base e converte il
+solo logo nel suo spazio colore quando serve. Per un file vettoriale o uno
+spazio colore non supportato, usa un editor a livelli con gestione colore o
+chiedi una variante RGB adatta. Se manca lo strumento per un inserimento
+fedele, comunica il limite prima di proporre una modifica generativa.
+
+Confronta l’esportazione con la base decodificata alla stessa dimensione e
+nello stesso orientamento: dove l’alfa del livello posizionato è zero, ogni
+canale deve coincidere, anche nei vuoti fra le lettere. Ispeziona il marchio
+alla scala d’uso per verificare forma, colore, margini e leggibilità.
 

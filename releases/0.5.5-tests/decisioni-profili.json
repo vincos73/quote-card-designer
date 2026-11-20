@@ -1,0 +1,33 @@
+{
+  "type": "Independent text-only design decisions from the current profiles",
+  "date": "2026-11-20",
+  "input_sha256": {
+    "references/styles/child-design/profilo.yaml": "324ae5febdfae335b22405423e61742c23b48f8cb510232952be9c08d119ffb9",
+    "references/styles/glitch-editorial/profilo.yaml": "e7065d29b9773838a163e9d11b1160f240571e92300dc0f639c585207ec864a1",
+    "references/styles/glitch-editorial/composizioni.yaml": "c09c88d1351654c6642ef04baa95e4a00a27ac204db3cc6fc750b488c65aab10"
+  },
+  "cases": [
+    {
+      "style": "Child Design",
+      "input": "Una card Child Design per «E se cambiassimo idea?», nessuna firma, scegline il layout.",
+      "visible_text": "E se cambiassimo idea?",
+      "treatment": "Dark wax-crayon lettering and blue arrow on ivory paper."
+    },
+    {
+      "style": "Glitch Editorial",
+      "input": "Due nuove varianti Glitch Editorial per «Quale segnale resta?», scegli tu come differenziarle.",
+      "visible_text_each": "Quale segnale resta?",
+      "variants": [
+        "Dark field, antenna, heavy compact ivory grotesk; horizontal tear.",
+        "Light grainy field, dark pixel-like monospace, local wave."
+      ]
+    },
+    {
+      "style": "Glitch Editorial",
+      "input": "Usa la tipografia della seconda nella composizione della prima e sostituisci il testo con «ora è qui!».",
+      "visible_text": "ora è qui!",
+      "transferred": "Pixel letterforms, weight and monospace spacing of variant 2.",
+      "retained": "Dark ground, antenna, tear, type position and ivory colour of variant 1."
+    }
+  ]
+}

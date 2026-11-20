@@ -15,3 +15,7 @@ Esito: segni e lettere in negativo ben visibili, ma separazione tra parole insuf
 Modifica ImageGen della prova 1: conservare carta, scarabocchi e lettere in negativo, disporre «DAL CAOS» / «NASCE» / «LA» / «FORMA.» su quattro righe, ampliare spazi e isolare il punto.
 
 Esito: righe più distinte e punto visibile, ma lo spazio tra DAL e CAOS resta stretto e il punto è eccessivamente grande; la fedeltà tipografica non è ancora pronta per una consegna definitiva. Una verifica a dimensione ridotta confermerebbe la tenuta su mobile; altre citazioni e lunghezze non sono state testate. Queste immagini sono simulazioni generative della grafite, non scansioni documentate di un disegno manuale.
+
+## Prova C09 con un testo lungo · 20 novembre 2026
+
+ImageGen ha composto una card di 1122 × 1402 px con 74 parole su quattro campi di grafite. Il terzo periodo, più lungo, occupa più righe. Una seconda lettura, eseguita sulla sola anteprima larga 320 px, ha restituito i quattro periodi con tutti i segni di punteggiatura. L’ultimo blocco, più piccolo, ha richiesto più attenzione. La prova comprende una sola generazione.

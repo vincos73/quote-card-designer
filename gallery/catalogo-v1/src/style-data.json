@@ -1,5 +1,5 @@
 {
-  "version": "0.5.4",
+  "version": "0.5.5",
   "families": [
     {
       "id": "tipografia-editoriale",
@@ -482,7 +482,7 @@
         "segnale corrotto",
         "signal decay"
       ],
-      "summary": "Immagini e caratteri attraversati da strappi di segnale e rumore; lettering preferito della proposta A ripreso nella composizione B.",
+      "summary": "Strappi orizzontali, rumore e canali di colore disallineati attraversano immagini e lettere. La frase resta leggibile tra i frammenti.",
       "family": "cultura-digitale",
       "familyName": "Interfacce e cultura digitale",
       "exampleLabel": "2 · Tipografia · onda e rumore",

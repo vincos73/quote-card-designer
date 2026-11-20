@@ -8,7 +8,7 @@ riferimenti Markdown del nucleo, le note nominate dai profili e i documenti
 collegati vengono inclusi. Le altre risorse hanno un ruolo esplicito in
 `package-resources.yaml`:
 
-- `runtime_assets`: immagini operative approvate, eventuali font e licenze,
+- `runtime_assets`: lo script di applicazione del logo, immagini operative approvate, eventuali font e licenze,
   o altre risorse necessarie al funzionamento. Sono incluse quando un documento
   le richiama. Gli `Approved Image Inputs` devono appartenere a questo gruppo.
 - `archive_assets`: studi, esempi di calibrazione non necessari come input,

@@ -2,7 +2,7 @@
 name: quote-card-designer
 description: "Crea o modifica quote card artistiche da frasi, testi o articoli, preservando la citazione. Aiuta a esplorare e scegliere gli stili disponibili."
 metadata:
-  version: "0.5.4"
+  version: "0.5.5"
 ---
 
 # Quote Card Designer
@@ -122,8 +122,11 @@ esistono; non aggiungere avvertenze di verifica per ogni nome fornito.
   attribuzione, firma o elementi essenziali del visual. Se non c'è una soluzione
   periferica leggibile con i file disponibili, chiedi soltanto la variante o
   l'adattamento necessario, senza ricolorare il logo o aggiungere un fondino
-  autonomamente. Per input e verifica segui la
-  [costruzione del prompt](references/costruzione-prompt.md).
+  autonomamente. Se l'utente chiede soltanto di aggiungere il logo a una
+  card approvata, applica il file originale come livello sulla base e salva una
+  nuova PNG. Mantieni i pixel della card fuori dall’impronta del logo.
+  Per gli strumenti, il controllo del risultato e le nuove composizioni,
+  segui la [guida al logo](references/costruzione-prompt.md#applica-il-logo-su-una-card-approvata).
 - Il default è una sola card verticale 4:5, con una palette variabile scelta
   perché adatta al contenuto e allo stile attivo. Applica le preferenze esplicite
   su formato, palette, font e numero di varianti.
@@ -161,7 +164,7 @@ esistono; non aggiungere avvertenze di verifica per ogni nome fornito.
   a capo e composizione, senza tracking arbitrario per riempire le righe.
 - Usa ImageGen integrato per la generazione. Non attivare servizi esterni a
   pagamento o percorsi API senza richiesta. Se ImageGen non è disponibile,
-  segnala che non puoi produrre la card secondo questa skill; non sostituirlo
+  segnala il limite per le nuove composizioni e per gli editing generativi; non sostituirlo
   silenziosamente con un renderer. Un prompt scritto non è un'immagine generata.
   Non aggiungere testi di riempimento.
 - Per revisioni successive, usa la base individuata e intervieni sul difetto o

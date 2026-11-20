@@ -1,0 +1,31 @@
+{
+  "case": "C09",
+  "tool": "image_gen.imagegen",
+  "input": {
+    "prompt_file": "prompt.txt",
+    "transparent_background": false
+  },
+  "image_calls": 1,
+  "edits": 0,
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "characters": 494,
+  "words": 74,
+  "sentences": 4,
+  "reference_text": "Le idee migliori non arrivano sempre quando abbiamo fretta di trovare una risposta. A volte crescono mentre ascoltiamo una domanda diversa, torniamo sui nostri passi e riconosciamo ciò che ancora non sappiamo. Se il contesto cambia, anche una soluzione che ieri funzionava può richiedere una revisione: questo non cancella il lavoro fatto, ma ci invita a guardarlo con più attenzione. Lasciare spazio al dubbio significa continuare a imparare, senza rinunciare alla responsabilità di scegliere.",
+  "blind_transcription_320": "Le idee migliori non arrivano sempre quando abbiamo fretta di trovare una risposta.\n\nA volte crescono mentre ascoltiamo una domanda diversa, torniamo sui nostri passi e riconosciamo ciò che ancora non sappiamo.\n\nSe il contesto cambia, anche una soluzione che ieri funzionava può richiedere una revisione: questo non cancella il lavoro fatto, ma ci invita a guardarlo con più attenzione.\n\nLasciare spazio al dubbio significa continuare a imparare, senza rinunciare alla responsabilità di scegliere.",
+  "exact_after_whitespace_normalization": true,
+  "inspected_widths_px": [
+    320,
+    390,
+    1122
+  ],
+  "observations": "Sulla singola card il testo è completo, i quattro campi seguono l’ordine di lettura e le lettere emergono dalla carta dentro il tratteggio. L’ultimo capoverso richiede più attenzione a 320 px. La lettura in cieco è una trascrizione di un assistente visivo, senza OCR o ingrandimento.",
+  "sha256": {
+    "card.png": "6c9b81c33db69a99c44e21a8505a230e3db99e3a0ce4b03677fe23681af440b7",
+    "feed-320.png": "bd4bdd460e70726af3c931fa6466d44625de3b69f352ad1f69df746e7685657a",
+    "prompt.txt": "4605ed88dd2cd9934aa790a96dce78b9b48d1d4a5a1709b9176e21a35bfd3d06"
+  }
+}
